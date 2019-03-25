@@ -2,8 +2,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: electron-cash\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-02-22 15:48+0200\n"
-"PO-Revision-Date: 2019-02-22 13:50\n"
+"POT-Creation-Date: 2019-03-25 23:20+0200\n"
+"PO-Revision-Date: 2019-03-25 21:23\n"
 "Last-Translator: jonald <jonaldfyookball@outlook.com>\n"
 "Language-Team: Ukrainian\n"
 "Language: uk_UA\n"
@@ -16,20 +16,24 @@ msgstr ""
 "X-Crowdin-Language: uk\n"
 "X-Crowdin-File: /electron-cash-client/messages.pot\n"
 
-#: lib/exchange_rate.py:424
+#: lib/exchange_rate.py:447
 msgid "  (No FX rate available)"
 msgstr "  (Недоступна інформація про курс обміну)"
 
-#: gui/qt/address_list.py:55
+#: gui/qt/address_list.py:56
 msgid " Balance"
 msgstr " Баланс"
 
-#: gui/qt/main_window.py:3014
+#: gui/qt/main_window.py:3306
 msgid " These settings affects the fields in the Send tab"
 msgstr ""
 
-#: ios/ElectronCash/electroncash_gui/ios_native/gui.py:2163
+#: ios/ElectronCash/electroncash_gui/ios_native/gui.py:2166
 msgid " copied to clipboard"
+msgstr ""
+
+#: gui/qt/scan_beyond_gap.py:139
+msgid " {} found"
 msgstr ""
 
 #: plugins/keepkey/qt_generic.py:417 plugins/trezor/qt.py:409
@@ -47,157 +51,165 @@ msgstr ""
 msgid "%d words"
 msgstr "%d слова"
 
-#: gui/qt/main_window.py:609
+#: gui/qt/main_window.py:626
 msgid "&About"
 msgstr "&Про програму"
 
-#: gui/qt/main_window.py:167
+#: gui/qt/main_window.py:171
 #: ios/ElectronCash/electroncash_gui/ios_native/addresses.py:313
 msgid "&Addresses"
 msgstr "&Адреси"
 
-#: gui/qt/main_window.py:610 gui/qt/__init__.py:143
+#: gui/qt/main_window.py:627 gui/qt/__init__.py:231
 msgid "&Check for updates..."
 msgstr ""
 
-#: gui/qt/main_window.py:616
+#: gui/qt/main_window.py:633
 msgid "&Donate to server"
 msgstr "&Пожертвувати на сервер"
 
-#: gui/qt/main_window.py:595
+#: gui/qt/main_window.py:612
 msgid "&Encrypt/decrypt message"
 msgstr "&Зашифрувати/розшифрувати повідомлення"
 
-#: gui/qt/main_window.py:550 gui/qt/main_window.py:558
+#: gui/qt/main_window.py:565 gui/qt/main_window.py:575
 msgid "&Export"
 msgstr "&Експорт"
 
-#: gui/qt/main_window.py:533
+#: gui/qt/main_window.py:548
 msgid "&File"
 msgstr "&Файл"
 
-#: gui/qt/main_window.py:604
+#: gui/qt/main_window.py:621
 msgid "&From QR code"
 msgstr "&З QR-коду"
 
-#: gui/qt/main_window.py:601
+#: gui/qt/main_window.py:618
 msgid "&From file"
 msgstr "&З файлу"
 
-#: gui/qt/main_window.py:602
+#: gui/qt/main_window.py:619
 msgid "&From text"
 msgstr "&З тексту"
 
-#: gui/qt/main_window.py:603
+#: gui/qt/main_window.py:620
 msgid "&From the blockchain"
 msgstr "&З ланцюжка блоків"
 
-#: gui/qt/main_window.py:608
+#: gui/qt/main_window.py:625
 msgid "&Help"
 msgstr "&Допомога"
 
-#: gui/qt/main_window.py:565
+#: gui/qt/main_window.py:582
 msgid "&History"
 msgstr "&Історія"
 
-#: gui/qt/main_window.py:549 gui/qt/main_window.py:557
+#: gui/qt/main_window.py:564 gui/qt/main_window.py:574
 msgid "&Import"
 msgstr "&Імпорт"
 
-#: gui/qt/main_window.py:543
+#: gui/qt/main_window.py:558
 msgid "&Information"
 msgstr "&Інформація"
 
-#: gui/qt/main_window.py:556
+#: gui/qt/main_window.py:573
 msgid "&Labels"
 msgstr "&Мітки"
 
-#: gui/qt/main_window.py:600
+#: gui/qt/main_window.py:617
 msgid "&Load transaction"
 msgstr "&Завантажити транзакцію"
 
-#: gui/qt/main_window.py:590
+#: gui/qt/main_window.py:607
 msgid "&Network"
 msgstr "&Мережа"
 
-#: gui/qt/main_window.py:560
+#: gui/qt/main_window.py:577
 msgid "&New"
 msgstr "&Створити"
 
-#: gui/qt/main_window.py:536
+#: gui/qt/main_window.py:551
 msgid "&New/Restore"
 msgstr "&Створити/Відновити"
 
-#: gui/qt/main_window.py:611
+#: gui/qt/main_window.py:628
 msgid "&Official website"
 msgstr "&Офіційний сайт"
 
-#: gui/qt/main_window.py:535
+#: gui/qt/main_window.py:550
 msgid "&Open"
 msgstr "&Відкрити"
 
-#: gui/qt/main_window.py:545
+#: gui/qt/main_window.py:560
 msgid "&Password"
 msgstr "&Пароль"
 
-#: gui/qt/main_window.py:598
+#: gui/qt/main_window.py:615
 msgid "&Pay to many"
 msgstr "&Оплатити більше"
 
-#: gui/qt/main_window.py:547
+#: gui/qt/main_window.py:562
 msgid "&Private keys"
 msgstr "&Приватні ключі"
 
-#: gui/qt/main_window.py:540
+#: gui/qt/main_window.py:555
 msgid "&Quit"
 msgstr "&Вихід"
 
-#: gui/qt/main_window.py:553
+#: gui/qt/main_window.py:568
 msgid "&Rebuild history"
 msgstr ""
 
-#: gui/qt/main_window.py:534
+#: gui/qt/main_window.py:549
 msgid "&Recently open"
 msgstr "&Нещодавно відкриті"
 
-#: gui/qt/main_window.py:614
+#: gui/qt/main_window.py:631
 msgid "&Report Bug"
 msgstr "Повідомити про &проблему"
 
-#: gui/qt/main_window.py:537
+#: gui/qt/main_window.py:552
 msgid "&Save Copy"
 msgstr "&Створити копію"
 
-#: gui/qt/main_window.py:546
+#: gui/qt/main_window.py:569
+msgid "&Scan beyond gap..."
+msgstr ""
+
+#: gui/qt/main_window.py:561
 msgid "&Seed"
 msgstr ""
 
-#: gui/qt/main_window.py:594
+#: gui/qt/main_window.py:611
 msgid "&Sign/verify message"
 msgstr "&Підписати/перевірити повідомлення"
 
-#: gui/qt/main_window.py:548
+#: gui/qt/main_window.py:563
 msgid "&Sweep"
 msgstr "&Розгортка"
 
-#: gui/qt/main_window.py:584
+#: gui/qt/main_window.py:601
 msgid "&Tools"
 msgstr "&Інструменти"
 
-#: gui/qt/main_window.py:577
+#: gui/qt/main_window.py:594
 msgid "&View"
 msgstr "&Вигляд"
 
-#: gui/qt/main_window.py:542
+#: gui/qt/main_window.py:557
 msgid "&Wallet"
 msgstr "&Гаманець"
 
-#: gui/qt/transaction_dialog.py:264
+#: gui/qt/transaction_dialog.py:271
 #, python-format
 msgid "( %s in dust was added to fee )"
 msgstr ""
 
-#: gui/qt/main_window.py:447
+#: plugins/shuffle/qt.py:1445
+msgid "(Custom)"
+msgstr ""
+
+#: gui/qt/main_window.py:462
 msgid "(Old versions of Electron Cash before 3.3.6 produced invalid testnet wallets)."
 msgstr ""
 
@@ -211,6 +223,10 @@ msgstr ""
 
 #: plugins/digitalbitbox/digitalbitbox.py:607
 msgid "(Touch {} of {})"
+msgstr ""
+
+#: gui/qt/main_window.py:3895
+msgid "(You can always toggle it later using the CashShuffle button.)"
 msgstr ""
 
 #: gui/qt/seed_dialog.py:61 lib/base_wizard.py:265
@@ -241,7 +257,7 @@ msgstr "1 тиждень"
 msgid ":"
 msgstr ""
 
-#: gui/qt/main_window.py:2746
+#: gui/qt/main_window.py:2914
 msgid "<b>ERROR: Electron Cash does not support import of passworded BIP38 private keys (private keys starting in 6P...).</b> Decrypt keys to WIF format (starting with 5, K, or L) in order to sweep."
 msgstr ""
 
@@ -249,7 +265,7 @@ msgstr ""
 msgid "A backup is saved automatically when generating a new wallet."
 msgstr ""
 
-#: gui/qt/main_window.py:489
+#: gui/qt/main_window.py:504
 msgid "A copy of your wallet file was created in"
 msgstr "Копія вашого гаманця була створена в"
 
@@ -261,11 +277,15 @@ msgstr ""
 msgid "A deterministic wallet will be created using the provided master public key. This wallet will be watching-only."
 msgstr ""
 
-#: lib/plugins.py:704
+#: plugins/shuffle/__init__.py:6
+msgid "A layered encryption scheme is used so that none of the participants know the outputs of the other participants."
+msgstr ""
+
+#: lib/plugins.py:710
 msgid "A library is probably missing."
 msgstr "Бібліотека, ймовірно, відсутня."
 
-#: gui/qt/main_window.py:1207
+#: gui/qt/main_window.py:1289
 msgid "A suggested fee is automatically added to this field. You may override it. The suggested fee increases with the size of the transaction."
 msgstr "Пропонований розмір комісії автоматично додається в це поле. Ви можете перевизначити її. Вона збільшується разом з розміром транзакції."
 
@@ -277,11 +297,11 @@ msgstr ""
 msgid "A wallet with that name already exists, please try again."
 msgstr ""
 
-#: ios/ElectronCash/electroncash_gui/ios_native/gui.py:1745
+#: ios/ElectronCash/electroncash_gui/ios_native/gui.py:1748
 msgid "A wallet with that name already exists. Cannot proceed."
 msgstr ""
 
-#: gui/kivy/main.kv:457 gui/qt/external_plugins_window.py:420
+#: gui/kivy/main.kv:457 gui/qt/external_plugins_window.py:423
 msgid "About"
 msgstr "Про"
 
@@ -293,7 +313,15 @@ msgstr ""
 msgid "Accept Word"
 msgstr "Підтвердити слово"
 
-#: gui/kivy/uix/dialogs/installwizard.py:795 gui/qt/installwizard.py:356
+#: plugins/shuffle/qt.py:1588
+msgid "Active pools"
+msgstr ""
+
+#: plugins/shuffle/qt.py:2096
+msgid "Actual amounts applied: {} and {}.\n\n"
+msgstr ""
+
+#: gui/kivy/uix/dialogs/installwizard.py:795 gui/qt/installwizard.py:357
 msgid "Add Cosigner"
 msgstr "Додати поручителя"
 
@@ -317,18 +345,26 @@ msgstr ""
 msgid "Add to Contacts"
 msgstr ""
 
-#: gui/qt/network_dialog.py:175
+#: gui/qt/network_dialog.py:200
 msgid "Add to preferred"
 msgstr ""
 
-#: gui/qt/main_window.py:1587
+#: gui/qt/scan_beyond_gap.py:142
+msgid "Adding {} of {} new addresses to wallet..."
+msgstr ""
+
+#: gui/qt/main_window.py:1723
 #: ios/ElectronCash/electroncash_gui/ios_native/send.py:853
 msgid "Additional fees"
 msgstr "Додаткові сплати"
 
-#: gui/kivy/uix/ui_screens/invoice.kv:40 gui/qt/main_window.py:2179
-#: gui/qt/main_window.py:2283 gui/qt/main_window.py:2358
-#: gui/qt/request_list.py:42 gui/qt/address_dialog.py:42 gui/qt/utxo_list.py:33
+#: gui/qt/network_dialog.py:78
+msgid "Additionally, you may also be vulnerable to man-in-the-middle attacks."
+msgstr ""
+
+#: gui/kivy/uix/ui_screens/invoice.kv:40 gui/qt/main_window.py:2342
+#: gui/qt/main_window.py:2447 gui/qt/main_window.py:2523
+#: gui/qt/request_list.py:42 gui/qt/address_dialog.py:42 gui/qt/utxo_list.py:35
 #: gui/qt/contact_list.py:43
 #: ios/ElectronCash/electroncash_gui/ios_native/contacts.py:570
 #: ios/ElectronCash/electroncash_gui/ios_native/private_key_dialog.py:55
@@ -338,7 +374,7 @@ msgstr "Додаткові сплати"
 msgid "Address"
 msgstr "Адреса"
 
-#: gui/qt/main_window.py:170
+#: gui/qt/main_window.py:174
 #: ios/ElectronCash/electroncash_gui/ios_native/addrconv.py:22
 #: ios/ElectronCash/electroncash_gui/ios_native/prefs.py:227
 msgid "Address Converter"
@@ -353,21 +389,21 @@ msgstr ""
 msgid "Address copied to clipboard"
 msgstr "Адреса скопійована в буфер обміну"
 
-#: gui/qt/utxo_list.py:126
+#: gui/qt/utxo_list.py:91 gui/qt/utxo_list.py:161
 msgid "Address is frozen"
 msgstr ""
 
-#: gui/qt/main_window.py:2318
+#: gui/qt/main_window.py:2482
 #: ios/ElectronCash/electroncash_gui/ios_native/sign_decrypt_dialog.py:250
 msgid "Address not in wallet."
 msgstr "Адреса не в гаманці."
 
-#: gui/qt/main_window.py:1882
+#: gui/qt/main_window.py:2018
 #: ios/ElectronCash/electroncash_gui/ios_native/addrconv.py:55
 msgid "Address to convert"
 msgstr ""
 
-#: gui/qt/util.py:321
+#: gui/qt/util.py:381
 msgid "Address to sweep to:"
 msgstr ""
 
@@ -379,7 +415,7 @@ msgstr "Адреса:"
 msgid "Addresses"
 msgstr "Адреси"
 
-#: lib/wallet.py:1153
+#: lib/wallet.py:1261
 msgid "Addresses generated:"
 msgstr "Сформовані адреси:"
 
@@ -400,6 +436,10 @@ msgstr "Всі"
 msgid "All Transactions"
 msgstr ""
 
+#: gui/qt/network_dialog.py:77
+msgid "All of your traffic to the blockchain servers will be sent unencrypted."
+msgstr ""
+
 #: ios/ElectronCash/electroncash_gui/ios_native/wallets.py:140
 msgid "All set and good to go."
 msgstr ""
@@ -408,15 +448,15 @@ msgstr ""
 msgid "Already Expired"
 msgstr ""
 
-#: gui/qt/update_checker.py:229
+#: gui/qt/update_checker.py:226
 msgid "Already up to date"
 msgstr ""
 
 #: gui/kivy/uix/ui_screens/receive.kv:89 gui/kivy/uix/ui_screens/receive.kv:90
 #: gui/kivy/uix/ui_screens/send.kv:52 gui/kivy/uix/ui_screens/send.kv:53
-#: gui/qt/invoice_list.py:36 gui/qt/main_window.py:1187
-#: gui/qt/main_window.py:2022 gui/qt/history_list.py:67
-#: gui/qt/history_list.py:70 gui/qt/request_list.py:42 gui/qt/utxo_list.py:33
+#: gui/qt/invoice_list.py:36 gui/qt/main_window.py:1269
+#: gui/qt/main_window.py:2163 gui/qt/history_list.py:68
+#: gui/qt/history_list.py:71 gui/qt/request_list.py:42 gui/qt/utxo_list.py:35
 #: gui/text.py:104 gui/text.py:175 gui/stdio.py:104
 #: ios/ElectronCash/electroncash_gui/ios_native/receive.py:643
 #: ios/ElectronCash/electroncash_gui/ios_native/send.py:273
@@ -430,26 +470,26 @@ msgstr "Сума"
 msgid "Amount received"
 msgstr "Отримана сума"
 
-#: gui/qt/transaction_dialog.py:255
+#: gui/qt/transaction_dialog.py:262
 #: ios/ElectronCash/electroncash_gui/ios_native/txdetail.py:527
 msgid "Amount received:"
 msgstr "Отримана сума:"
 
-#: gui/qt/transaction_dialog.py:257
+#: gui/qt/transaction_dialog.py:264
 #: ios/ElectronCash/electroncash_gui/ios_native/txdetail.py:532
 msgid "Amount sent:"
 msgstr "Витрачена сума:"
 
-#: gui/kivy/uix/screens.py:285 gui/qt/main_window.py:1580
+#: gui/kivy/uix/screens.py:285 gui/qt/main_window.py:1716
 #: ios/ElectronCash/electroncash_gui/ios_native/send.py:846
 msgid "Amount to be sent"
 msgstr "Сума для відправлення"
 
-#: gui/qt/main_window.py:1183
+#: gui/qt/main_window.py:1265
 msgid "Amount to be sent."
 msgstr "Сума для відправлення."
 
-#: gui/qt/exception_window.py:69
+#: gui/qt/exception_window.py:70
 msgid "An Error Occurred"
 msgstr "Виникла помилка"
 
@@ -458,7 +498,7 @@ msgstr "Виникла помилка"
 msgid "An encrypted transaction was retrieved from cosigning pool."
 msgstr "Отримано зашифровану транзакцію з пулу співвласників."
 
-#: lib/network.py:1672
+#: lib/network.py:1772
 msgid "An error occurred broadcasting the transaction"
 msgstr ""
 
@@ -482,6 +522,7 @@ msgstr ""
 msgid "Appearance"
 msgstr "Основні"
 
+#: plugins/shuffle/qt.py:1737 plugins/shuffle/qt.py:2064
 #: plugins/keepkey/qt_generic.py:468 plugins/trezor/qt.py:457
 msgid "Apply"
 msgstr "Застосувати"
@@ -504,12 +545,16 @@ msgstr ""
 msgid "Are you sure you want to proceed?"
 msgstr "Ви справді хочете продовжити?"
 
-#: gui/qt/external_plugins_window.py:350
+#: gui/qt/external_plugins_window.py:353
 msgid "Are you sure you want to uninstall the selected plugin?"
 msgstr ""
 
 #: ios/ElectronCash/electroncash_gui/ios_native/contacts.py:861
 msgid "Are you sure you wish to delete this contact?"
+msgstr ""
+
+#: gui/qt/network_dialog.py:75
+msgid "Are you sure you wish to proceed?"
 msgstr ""
 
 #: lib/i18n.py:52
@@ -528,7 +573,7 @@ msgstr "Налаштування Аудіо-модему"
 msgid "Authenticate, please"
 msgstr ""
 
-#: gui/qt/installwizard.py:502
+#: gui/qt/installwizard.py:503
 msgid "Auto connect"
 msgstr "Автоматичне підключення"
 
@@ -536,7 +581,7 @@ msgstr "Автоматичне підключення"
 msgid "Auto-connect"
 msgstr "Автоматичне підключення"
 
-#: gui/qt/main_window.py:3101
+#: gui/qt/main_window.py:3390
 msgid "Automatically check for updates"
 msgstr ""
 
@@ -575,28 +620,33 @@ msgid "Back"
 msgstr "Назад"
 
 #: gui/kivy/uix/ui_screens/status.kv:32 gui/kivy/uix/ui_screens/invoice.kv:52
-#: gui/qt/main_window.py:790 gui/qt/history_list.py:67
-#: gui/qt/history_list.py:70 gui/qt/address_list.py:52 gui/text.py:104
+#: gui/qt/main_window.py:821 gui/qt/history_list.py:68
+#: gui/qt/history_list.py:71 gui/qt/address_list.py:53 gui/text.py:104
 #: gui/text.py:137 gui/stdio.py:104 gui/stdio.py:116
 #: ios/ElectronCash/electroncash_gui/ios_native/addresses.py:447
-#: ios/ElectronCash/electroncash_gui/ios_native/gui.py:646
+#: ios/ElectronCash/electroncash_gui/ios_native/gui.py:649
 #: ios/ElectronCash/electroncash_gui/ios_native/history.py:518
 msgid "Balance"
 msgstr "Рахунок"
 
-#: gui/qt/network_dialog.py:169
+#: plugins/shuffle/qt.py:1584
+msgid "Ban score:"
+msgstr ""
+
+#: gui/qt/network_dialog.py:194
 msgid "Ban server"
 msgstr ""
 
-#: gui/qt/network_dialog.py:464
+#: gui/qt/network_dialog.py:509 plugins/shuffle/qt.py:1539
+#: plugins/shuffle/qt.py:1659 plugins/shuffle/qt.py:1943
 msgid "Banned"
 msgstr ""
 
-#: gui/qt/network_dialog.py:636 gui/qt/network_dialog.py:638
+#: gui/qt/network_dialog.py:690 gui/qt/network_dialog.py:692
 msgid "Banned Servers"
 msgstr ""
 
-#: gui/qt/network_dialog.py:327
+#: gui/qt/network_dialog.py:360
 msgid "Banned servers ({}) are servers deemed unreliable and/or untrustworthy, and so they will never be connected-to by Electron Cash."
 msgstr ""
 
@@ -604,20 +654,25 @@ msgstr ""
 msgid "Banner"
 msgstr "Банер"
 
-#: gui/qt/main_window.py:3015
+#: plugins/shuffle/qt.py:1853
+msgid "Bans usually occur when other shufflers detected invalid inputs coming from your client. Bans are temporary and usually last up to 30 minutes.\n\n"
+"They may happen occasionally in rare circumstances. However, if this keeps happening please contact the developers and file a bug report."
+msgstr ""
+
+#: gui/qt/main_window.py:3307
 #: ios/ElectronCash/electroncash_gui/ios_native/prefs.py:334
 msgid "Base unit"
 msgstr "Валюта"
 
-#: gui/qt/main_window.py:3012
+#: gui/qt/main_window.py:3304
 msgid "Base unit of your wallet."
 msgstr "Валюта вашого гаманця."
 
-#: gui/qt/main_window.py:639
+#: gui/qt/main_window.py:656
 msgid "Before reporting a bug, upgrade to the most recent version of Electron Cash (latest release or git HEAD), and include the version number in your report."
 msgstr ""
 
-#: ios/ElectronCash/electroncash_gui/ios_native/gui.py:2016
+#: ios/ElectronCash/electroncash_gui/ios_native/gui.py:2019
 msgid "Biometrics Unavailable"
 msgstr ""
 
@@ -629,15 +684,15 @@ msgstr "Бітрейт [кБ/с]: "
 msgid "Bitcoin Address"
 msgstr "Біткойн адреса"
 
-#: gui/qt/main_window.py:884
+#: gui/qt/main_window.py:921
 msgid "Bitcoin Cash address where the payment should be received. Note that each payment request uses a different Bitcoin Cash address."
 msgstr ""
 
-#: gui/qt/main_window.py:1205
+#: gui/qt/main_window.py:1287
 msgid "Bitcoin Cash transactions are in general not free. A transaction fee is paid by the sender of the funds."
 msgstr ""
 
-#: gui/kivy/uix/ui_screens/network.kv:43 gui/qt/network_dialog.py:399
+#: gui/kivy/uix/ui_screens/network.kv:43 gui/qt/network_dialog.py:432
 msgid "Blockchain"
 msgstr "Блокчейн"
 
@@ -645,25 +700,33 @@ msgstr "Блокчейн"
 msgid "Bootloader Hash"
 msgstr "Хеш завантажувача"
 
+#: gui/qt/scan_beyond_gap.py:61
+msgid "Both Receiving & Change (x2)"
+msgstr ""
+
 #: lib/i18n.py:61
 msgid "Brasilian"
 msgstr "Бразильська"
 
-#: gui/qt/transaction_dialog.py:101
+#: gui/qt/transaction_dialog.py:102
 #: ios/ElectronCash/electroncash_gui/ios_native/txdetail.py:442
 msgid "Broadcast"
 msgstr "Трансляція"
 
-#: gui/qt/main_window.py:1695
-#: ios/ElectronCash/electroncash_gui/ios_native/gui.py:1976
+#: gui/qt/main_window.py:1831
+#: ios/ElectronCash/electroncash_gui/ios_native/gui.py:1979
 msgid "Broadcasting transaction..."
 msgstr "Трансляція транзакції..."
 
-#: gui/qt/main_window.py:3527
+#: plugins/shuffle/qt.py:1190
+msgid "Busy shuffling:"
+msgstr ""
+
+#: gui/qt/main_window.py:3853
 msgid "CPFP no longer valid"
 msgstr ""
 
-#: gui/qt/util.py:332
+#: gui/qt/util.py:392
 msgid "CSV"
 msgstr ""
 
@@ -671,10 +734,14 @@ msgstr ""
 msgid "Calculating Tx Details..."
 msgstr ""
 
-#: gui/qt/util.py:155 gui/qt/installwizard.py:79 gui/qt/installwizard.py:116
-#: gui/qt/installwizard.py:505 gui/qt/update_checker.py:103
-#: gui/qt/update_checker.py:235 plugins/keepkey/qt_generic.py:77
-#: plugins/trezor/qt.py:64
+#: plugins/shuffle/qt.py:647
+msgid "Can't get network, disabling CashShuffle."
+msgstr ""
+
+#: gui/qt/scan_beyond_gap.py:75 gui/qt/util.py:159 gui/qt/installwizard.py:79
+#: gui/qt/installwizard.py:116 gui/qt/installwizard.py:506
+#: gui/qt/update_checker.py:103 gui/qt/update_checker.py:232
+#: plugins/keepkey/qt_generic.py:77 plugins/trezor/qt.py:64
 #: ios/ElectronCash/electroncash_gui/ios_native/contacts.py:865
 #: ios/ElectronCash/electroncash_gui/ios_native/contacts.py:884
 #: ios/ElectronCash/electroncash_gui/ios_native/receive.py:310
@@ -708,10 +775,18 @@ msgstr ""
 #: ios/ElectronCash/electroncash_gui/ios_native/coins.py:629
 #: ios/ElectronCash/electroncash_gui/ios_native/addresses.py:876
 #: ios/ElectronCash/electroncash_gui/ios_native/addresses.py:927
-#: ios/ElectronCash/electroncash_gui/ios_native/gui.py:843
-#: ios/ElectronCash/electroncash_gui/ios_native/gui.py:1075
+#: ios/ElectronCash/electroncash_gui/ios_native/gui.py:846
+#: ios/ElectronCash/electroncash_gui/ios_native/gui.py:1078
 msgid "Cancel"
 msgstr "Скасувати"
+
+#: gui/qt/scan_beyond_gap.py:107
+msgid "Canceled"
+msgstr ""
+
+#: gui/qt/scan_beyond_gap.py:109
+msgid "Canceling..."
+msgstr ""
 
 #: plugins/ledger/ledger.py:286 plugins/ledger/ledger.py:297
 #: plugins/ledger/ledger.py:435
@@ -730,12 +805,12 @@ msgstr "Не можу додати цього співвласника:"
 msgid "Cannot broadcast transaction"
 msgstr "Неможливо транслювати транзакцію"
 
-#: ios/ElectronCash/electroncash_gui/ios_native/gui.py:2200
+#: ios/ElectronCash/electroncash_gui/ios_native/gui.py:2203
 msgid "Cannot display the requested transaction as you don't have a wallet open.\n\n"
 "Open a wallet and try again."
 msgstr ""
 
-#: ios/ElectronCash/electroncash_gui/ios_native/gui.py:2214
+#: ios/ElectronCash/electroncash_gui/ios_native/gui.py:2217
 msgid "Cannot display the requested transaction since you already have a modal dialog open.\n\n"
 "Close the current dialog and try again."
 msgstr ""
@@ -752,7 +827,7 @@ msgstr "Неможливо прочитати файл"
 msgid "Cannot send/receive new transactions."
 msgstr ""
 
-#: gui/qt/main_window.py:2313
+#: gui/qt/main_window.py:2477
 #: ios/ElectronCash/electroncash_gui/ios_native/sign_decrypt_dialog.py:242
 msgid "Cannot sign messages with this type of address."
 msgstr ""
@@ -761,24 +836,105 @@ msgstr ""
 msgid "Cannot specify private keys and addresses in the same wallet. Addresses will result in a watching-only wallet, and private keys in a spending wallet. Remove incompatible items (by swiping them left)."
 msgstr ""
 
-#: gui/qt/main_window.py:1884
+#: gui/qt/main_window.py:2020
 #: ios/ElectronCash/electroncash_gui/ios_native/addrconv.py:61
 msgid "Cash address"
 msgstr ""
 
-#: gui/qt/main_window.py:2884
+#: gui/qt/main_window.py:3177
 #: ios/ElectronCash/electroncash_gui/ios_native/prefs.py:312
 msgid "CashAddr address format"
 msgstr ""
 
-#: gui/qt/network_dialog.py:478
+#: plugins/shuffle/qt.py:171 plugins/shuffle/qt.py:533
+#: plugins/shuffle/__init__.py:3
+msgid "CashShuffle"
+msgstr ""
+
+#: plugins/shuffle/qt.py:2032
+msgid "CashShuffle - Coin Selection Settings"
+msgstr ""
+
+#: plugins/shuffle/qt.py:1102 plugins/shuffle/qt.py:1120
+msgid "CashShuffle Disabled"
+msgstr ""
+
+#: gui/qt/main_window.py:3064
+msgid "CashShuffle ENABLED"
+msgstr ""
+
+#: plugins/shuffle/qt.py:1235 plugins/shuffle/qt.py:1241
+msgid "CashShuffle Enabled"
+msgstr ""
+
+#: gui/qt/main_window.py:3075
+msgid "CashShuffle Error: Could not connect to server"
+msgstr ""
+
+#: plugins/shuffle/qt.py:494
+msgid "CashShuffle Protocol"
+msgstr ""
+
+#: plugins/shuffle/qt.py:922
+msgid "CashShuffle Settings"
+msgstr ""
+
+#: gui/qt/main_window.py:3072
+msgid "CashShuffle Settings..."
+msgstr ""
+
+#: gui/qt/main_window.py:3923
+msgid "CashShuffle could not be restarted"
+msgstr ""
+
+#: gui/qt/main_window.py:3064
+msgid "CashShuffle disabled"
+msgstr ""
+
+#: gui/qt/main_window.py:3892
+msgid "CashShuffle is disabled for this wallet."
+msgstr ""
+
+#: gui/qt/main_window.py:3892
+msgid "CashShuffle is disabled."
+msgstr ""
+
+#: plugins/shuffle/qt.py:379
+msgid "CashShuffle is enabled: change address logic will be handled by CashShuffle (to preserve privacy)."
+msgstr ""
+
+#: plugins/shuffle/qt.py:938 plugins/shuffle/qt.py:969
+msgid "CashShuffle must be restarted for the server change to take effect."
+msgstr ""
+
+#: plugins/shuffle/qt.py:634
+msgid "CashShuffle password prompt canceled; disabling for this wallet."
+msgstr ""
+
+#: plugins/shuffle/qt.py:621
+msgid "CashShuffle requires access to '{}'."
+msgstr ""
+
+#: plugins/shuffle/qt.py:614
+msgid "CashShuffle requires libsecp; cannot enable shuffling for this wallet."
+msgstr ""
+
+#: gui/qt/main_window.py:3921
+msgid "CashShuffle restarted"
+msgstr ""
+
+#: plugins/shuffle/qt.py:630
+msgid "CashShuffle will now be <i>disabled</i> for a wallet which has previously had it <b>enabled</b>. Are you sure?"
+msgstr ""
+
+#: gui/qt/network_dialog.py:524
 #: ios/ElectronCash/electroncash_gui/ios_native/network_dialog.py:263
-#: ios/ElectronCash/electroncash_gui/ios_native/gui.py:682
+#: ios/ElectronCash/electroncash_gui/ios_native/gui.py:685
 #, python-format
 msgid "Chain split detected at block %d"
 msgstr ""
 
-#: gui/kivy/uix/ui_screens/address.kv:73 gui/qt/address_list.py:107
+#: gui/kivy/uix/ui_screens/address.kv:73 gui/qt/address_list.py:110
 #: ios/ElectronCash/electroncash_gui/ios_native/receive.py:202
 #: ios/ElectronCash/electroncash_gui/ios_native/coins.py:608
 #: ios/ElectronCash/electroncash_gui/ios_native/addresses.py:31
@@ -791,6 +947,10 @@ msgstr "Змінити"
 
 #: ios/ElectronCash/electroncash_gui/ios_native/addresses.py:205
 msgid "Change Address"
+msgstr ""
+
+#: gui/qt/scan_beyond_gap.py:63
+msgid "Change Addresses Only"
 msgstr ""
 
 #: plugins/keepkey/qt_generic.py:328 plugins/trezor/qt.py:312
@@ -810,11 +970,15 @@ msgstr ""
 msgid "Change..."
 msgstr "Змінити..."
 
+#: plugins/shuffle/qt.py:2099
+msgid "Changes will take effect when the next shuffle round starts (usually within in a few minutes)."
+msgstr ""
+
 #: gui/kivy/main_window.py:907
 msgid "Changing PIN code."
 msgstr "Зміна PIN-коду."
 
-#: gui/qt/update_checker.py:215 gui/qt/update_checker.py:221
+#: gui/qt/update_checker.py:212 gui/qt/update_checker.py:218
 msgid "Check Again"
 msgstr ""
 
@@ -822,15 +986,19 @@ msgstr ""
 msgid "Check your {} device to continue"
 msgstr "Перевірте свій пристрій {}, щоб продовжити"
 
-#: gui/qt/update_checker.py:238
+#: gui/qt/update_checker.py:235
 msgid "Checking for updates..."
 msgstr ""
 
-#: gui/qt/main_window.py:3477
+#: plugins/shuffle/qt.py:1557
+msgid "Checking server..."
+msgstr ""
+
+#: gui/qt/main_window.py:3803
 msgid "Child Pays for Parent"
 msgstr "Нащадок Платить за Батька"
 
-#: gui/qt/history_list.py:210
+#: gui/qt/history_list.py:230
 msgid "Child pays for parent"
 msgstr "Нащадок платить за батька"
 
@@ -845,6 +1013,11 @@ msgstr ""
 #: plugins/keepkey/qt_generic.py:379 plugins/trezor/qt.py:360
 msgid "Choose Homescreen"
 msgstr "Виберіть Початковий екран"
+
+#: plugins/shuffle/qt.py:1463
+msgid "Choose a CashShuffle server or enter a custom server.\n"
+"Changes will require the CashShuffle plugin to restart."
+msgstr ""
 
 #: plugins/digitalbitbox/digitalbitbox.py:318
 msgid "Choose a backup file:"
@@ -880,11 +1053,11 @@ msgstr ""
 msgid "Choose on your {} device where to enter your passphrase"
 msgstr ""
 
-#: gui/qt/installwizard.py:546
+#: gui/qt/installwizard.py:547
 msgid "Choose the number of signatures needed to unlock funds in your wallet:"
 msgstr "Виберіть номер підпису, необхідного для розблокування коштів на вашому гаманці:"
 
-#: gui/qt/main_window.py:3046
+#: gui/qt/main_window.py:3335
 msgid "Choose which online block explorer to use for functions that open a web browser"
 msgstr "Виберіть, який онлайн блок досліджувати для використання функцій, які відкривають веб-браузер"
 
@@ -896,17 +1069,18 @@ msgstr "Оберіть ваш ланцюжок"
 msgid "Choose..."
 msgstr "Обрати..."
 
-#: gui/kivy/uix/ui_screens/send.kv:86 gui/qt/main_window.py:1245
+#: gui/kivy/uix/ui_screens/send.kv:86 gui/qt/main_window.py:964
+#: gui/qt/main_window.py:1327
 #: ios/ElectronCash/electroncash_gui/ios_native/send.py:234
 #: ios/ElectronCash/electroncash_gui/ios_native/coins.py:249
 msgid "Clear"
 msgstr "Очистити"
 
-#: gui/qt/network_dialog.py:663
+#: gui/qt/network_dialog.py:717
 msgid "Clear all {} servers from the ban list?"
 msgstr ""
 
-#: gui/qt/network_dialog.py:653
+#: gui/qt/network_dialog.py:707
 msgid "Clear ban list"
 msgstr ""
 
@@ -918,34 +1092,64 @@ msgstr "Завершити сеанс після зазначеного пері
 msgid "Click Pair button to begin pairing a mobile phone."
 msgstr "Натисніть кнопку \"Пара\", щоб розпочати приєднання мобільного телефону."
 
+#: gui/qt/external_plugins_window.py:78
+msgid "Click to open in web browser"
+msgstr ""
+
 #: gui/kivy/uix/screens.py:241
 msgid "Clipboard is empty"
 msgstr "Буфер обміну порожній"
 
 #: gui/kivy/uix/ui_screens/about.kv:54 gui/kivy/uix/ui_screens/invoice.kv:82
-#: gui/qt/main_window.py:2376 gui/qt/main_window.py:2435 gui/qt/util.py:131
-#: gui/qt/qrcodewidget.py:137 gui/qt/__init__.py:140
-#: gui/qt/update_checker.py:101 gui/qt/transaction_dialog.py:107
+#: gui/qt/main_window.py:2542 gui/qt/main_window.py:2603
+#: gui/qt/scan_beyond_gap.py:148 gui/qt/util.py:131 gui/qt/qrcodewidget.py:144
+#: gui/qt/__init__.py:228 gui/qt/update_checker.py:101
+#: gui/qt/transaction_dialog.py:108 plugins/shuffle/qt.py:1869
 msgid "Close"
 msgstr "Закрити"
 
-#: gui/qt/main_window.py:168
+#: gui/qt/main_window.py:172
 msgid "Co&ins"
 msgstr "&Монети"
+
+#: plugins/shuffle/qt.py:1299 plugins/shuffle/qt.py:1304
+msgid "Coin"
+msgstr ""
+
+#: gui/qt/utxo_list.py:100
+msgid "Coin & Address are frozen"
+msgstr ""
 
 #: ios/ElectronCash/electroncash_gui/ios_native/coins.py:32
 msgid "Coin Info"
 msgstr ""
 
-#: gui/qt/utxo_list.py:118
+#: gui/qt/utxo_list.py:95 gui/qt/utxo_list.py:153
 msgid "Coin is frozen"
 msgstr ""
 
+#: plugins/shuffle/qt.py:1501
+msgid "Coin selection settings..."
+msgstr ""
+
+#: plugins/shuffle/qt.py:89
+msgid "Coinbase"
+msgstr ""
+
+#: plugins/shuffle/qt.py:1300 plugins/shuffle/qt.py:1305
 #: ios/ElectronCash/electroncash_gui/ios_native/coins.py:243
 msgid "Coins"
 msgstr ""
 
-#: gui/qt/main_window.py:3086
+#: plugins/shuffle/qt.py:2040
+msgid "Coins (UTXOs) below this amount will not be selected for shuffling."
+msgstr ""
+
+#: plugins/shuffle/qt.py:2047
+msgid "Coins (UTXOs) up to this amount will be selected for shuffling."
+msgstr ""
+
+#: gui/qt/main_window.py:3375
 msgid "Color theme"
 msgstr ""
 
@@ -953,15 +1157,15 @@ msgstr ""
 msgid "Coming Soon"
 msgstr ""
 
-#: gui/qt/external_plugins_window.py:97
+#: gui/qt/external_plugins_window.py:102
 msgid "Command-line."
 msgstr ""
 
-#: gui/qt/main_window.py:171
+#: gui/qt/main_window.py:175
 msgid "Con&sole"
 msgstr "&Консоль"
 
-#: gui/qt/main_window.py:169
+#: gui/qt/main_window.py:173
 msgid "Con&tacts"
 msgstr "Кон&такти"
 
@@ -981,7 +1185,7 @@ msgstr "Підтвердження кодової фрази:"
 msgid "Confirm Password:"
 msgstr "Підтвердження пароля:"
 
-#: gui/kivy/uix/dialogs/installwizard.py:783 gui/qt/installwizard.py:377
+#: gui/kivy/uix/dialogs/installwizard.py:783 gui/qt/installwizard.py:378
 msgid "Confirm Seed"
 msgstr "Підтвердження Seed"
 
@@ -1069,11 +1273,11 @@ msgstr "Підтверджено"
 msgid "Confirmed. Signing Transaction..."
 msgstr "Підтверджено. Підписання трансакції..."
 
-#: gui/qt/network_dialog.py:297
+#: gui/qt/network_dialog.py:325
 msgid "Connect only to preferred servers"
 msgstr ""
 
-#: gui/qt/network_dialog.py:73
+#: gui/qt/network_dialog.py:98
 #: ios/ElectronCash/electroncash_gui/ios_native/network_dialog.py:275
 #: ios/ElectronCash/electroncash_gui/ios_native/network_dialog.py:326
 msgid "Connected node"
@@ -1083,15 +1287,23 @@ msgstr "Підключений вузол"
 msgid "Connected nodes are on the same chain"
 msgstr "Підключені вузли знаходяться в одному ланцюжку"
 
-#: gui/qt/network_dialog.py:471
+#: gui/qt/network_dialog.py:516
 #: ios/ElectronCash/electroncash_gui/ios_native/network_dialog.py:257
 #, python-format
 msgid "Connected to %d nodes."
 msgstr ""
 
-#: lib/wallet.py:1160
+#: lib/wallet.py:1268
 msgid "Connecting..."
 msgstr "З'єднання..."
+
+#: plugins/shuffle/qt.py:1568
+msgid "Connection failure"
+msgstr ""
+
+#: plugins/shuffle/qt.py:1586
+msgid "Connections"
+msgstr ""
 
 #: gui/kivy/uix/ui_screens/network.kv:16
 msgid "Connections with Electron Cash servers"
@@ -1115,7 +1327,7 @@ msgstr ""
 msgid "Contact saved"
 msgstr ""
 
-#: gui/qt/main_window.py:559 gui/text.py:64
+#: gui/qt/main_window.py:576 gui/text.py:64
 #: ios/ElectronCash/electroncash_gui/ios_native/contacts.py:68
 msgid "Contacts"
 msgstr "Контакти"
@@ -1129,7 +1341,7 @@ msgid "Convert between Legacy and Cashaddr formats"
 msgstr ""
 
 #: gui/kivy/uix/ui_screens/receive.kv:114 gui/qt/util.py:137
-#: gui/qt/qrcodewidget.py:129
+#: gui/qt/qrcodewidget.py:136
 msgid "Copy"
 msgstr "Копіювати"
 
@@ -1144,11 +1356,15 @@ msgstr ""
 msgid "Copy Public key"
 msgstr ""
 
+#: gui/qt/qrwindow.py:70
+msgid "Copy QR Image"
+msgstr ""
+
 #: ios/ElectronCash/electroncash_gui/ios_native/txdetail.py:304
 msgid "Copy Script"
 msgstr ""
 
-#: gui/qt/request_list.py:126
+#: gui/qt/request_list.py:150
 msgid "Copy URI"
 msgstr "Копіювати URI"
 
@@ -1156,7 +1372,7 @@ msgstr "Копіювати URI"
 msgid "Copy UTXO"
 msgstr ""
 
-#: gui/qt/util.py:142
+#: gui/qt/util.py:146
 msgid "Copy and Close"
 msgstr "Копіювати та Закрити"
 
@@ -1168,15 +1384,15 @@ msgstr "Скопіюйте та вставте адресу одержувача
 msgid "Copy input hash"
 msgstr ""
 
-#: gui/qt/util.py:538
+#: gui/qt/util.py:624
 #: ios/ElectronCash/electroncash_gui/ios_native/seed_dialog.py:148
 #: ios/ElectronCash/electroncash_gui/ios_native/txdetail.py:777
 msgid "Copy to clipboard"
 msgstr "Скопіювати в буфер обміну"
 
-#: gui/qt/invoice_list.py:89 gui/qt/history_list.py:200
-#: gui/qt/request_list.py:125 gui/qt/address_list.py:191
-#: gui/qt/contact_list.py:92
+#: gui/qt/invoice_list.py:89 gui/qt/history_list.py:220
+#: gui/qt/request_list.py:149 gui/qt/address_list.py:194
+#: gui/qt/utxo_list.py:140 gui/qt/contact_list.py:92
 msgid "Copy {}"
 msgstr "Копіювати {}"
 
@@ -1188,7 +1404,7 @@ msgstr "Підписати за допомогою апаратного прис
 msgid "Cosigner Pool"
 msgstr "Пул співвласників"
 
-#: lib/network.py:1544
+#: lib/network.py:1644
 msgid "Could not retrieve transaction for the specified hash."
 msgstr ""
 
@@ -1231,7 +1447,7 @@ msgstr "Створити гаманець використавши поточн�
 msgid "Create keystore from a master key"
 msgstr ""
 
-#: gui/qt/util.py:187
+#: gui/qt/util.py:201
 msgid "Critical Error"
 msgstr "Критична Помилка"
 
@@ -1243,11 +1459,11 @@ msgstr "Поточний пароль:"
 msgid "Current version: {}"
 msgstr ""
 
-#: gui/qt/main_window.py:2949
+#: gui/qt/main_window.py:3241
 msgid "Custom Fee Rate"
 msgstr ""
 
-#: gui/qt/main_window.py:2949
+#: gui/qt/main_window.py:3241
 msgid "Custom Fee Rate in Satoshis per byte"
 msgstr ""
 
@@ -1259,7 +1475,7 @@ msgstr ""
 msgid "Czech"
 msgstr "Чеська"
 
-#: ios/ElectronCash/electroncash_gui/ios_native/gui.py:1632
+#: ios/ElectronCash/electroncash_gui/ios_native/gui.py:1635
 msgid "Daemon was not running."
 msgstr ""
 
@@ -1267,34 +1483,34 @@ msgstr ""
 msgid "Danish"
 msgstr "Датська"
 
-#: gui/qt/main_window.py:3075
+#: gui/qt/main_window.py:3364
 msgid "Dark"
 msgstr ""
 
-#: gui/qt/main_window.py:3091
+#: gui/qt/main_window.py:3380
 msgid "Dark theme is not available. Please install QDarkStyle to access this feature."
 msgstr ""
 
-#: gui/qt/main_window.py:3083
+#: gui/qt/main_window.py:3372
 msgid "Dark theme support requires the package 'QDarkStyle' (typically installed via the 'pip3' command on Unix & macOS)."
 msgstr ""
 
-#: gui/qt/__init__.py:141
+#: gui/qt/__init__.py:229
 msgid "Dark/Light"
 msgstr "Темна/Світла"
 
-#: gui/qt/history_list.py:67 gui/qt/request_list.py:42 gui/text.py:104
+#: gui/qt/history_list.py:68 gui/qt/request_list.py:42 gui/text.py:104
 #: gui/stdio.py:104
 #: ios/ElectronCash/electroncash_gui/ios_native/txdetail.py:506
 #: ios/ElectronCash/electroncash_gui/ios_native/txdetail.py:517
 msgid "Date"
 msgstr "Дата"
 
-#: gui/qt/transaction_dialog.py:244
+#: gui/qt/transaction_dialog.py:251
 msgid "Date: {}"
 msgstr "Дата: {}"
 
-#: gui/qt/main_window.py:2431
+#: gui/qt/main_window.py:2599
 msgid "Decrypt"
 msgstr "Розшифрувати"
 
@@ -1302,9 +1518,17 @@ msgstr "Розшифрувати"
 msgid "Default"
 msgstr "За замовчанням"
 
+#: plugins/shuffle/qt.py:2092
+msgid "Default values restored.\n\n"
+msgstr ""
+
+#: plugins/shuffle/qt.py:2063
+msgid "Defaults"
+msgstr ""
+
 #: gui/kivy/uix/ui_screens/status.kv:73 gui/qt/invoice_list.py:93
-#: gui/qt/main_window.py:538 gui/qt/main_window.py:2051
-#: gui/qt/request_list.py:128 gui/qt/contact_list.py:97
+#: gui/qt/main_window.py:553 gui/qt/main_window.py:2192
+#: gui/qt/request_list.py:152 gui/qt/contact_list.py:97
 #: ios/ElectronCash/electroncash_gui/ios_native/contacts.py:862
 #: ios/ElectronCash/electroncash_gui/ios_native/contacts.py:870
 #: ios/ElectronCash/electroncash_gui/ios_native/contacts.py:885
@@ -1317,7 +1541,7 @@ msgstr "Видалити"
 msgid "Delete Wallet"
 msgstr ""
 
-#: gui/kivy/uix/screens.py:474 gui/qt/main_window.py:2044
+#: gui/kivy/uix/screens.py:474 gui/qt/main_window.py:2185
 msgid "Delete invoice?"
 msgstr "Видалити рахунок-фактуру?"
 
@@ -1325,7 +1549,7 @@ msgstr "Видалити рахунок-фактуру?"
 msgid "Delete request?"
 msgstr ""
 
-#: gui/qt/main_window.py:2230
+#: gui/qt/main_window.py:2393
 msgid "Delete wallet file?"
 msgstr "Видалити файл гаманця?"
 
@@ -1355,10 +1579,10 @@ msgid "Deriving addresses..."
 msgstr ""
 
 #: gui/kivy/uix/ui_screens/receive.kv:108 gui/kivy/uix/ui_screens/send.kv:71
-#: gui/kivy/uix/ui_screens/invoice.kv:49 gui/qt/external_plugins_window.py:79
-#: gui/qt/invoice_list.py:36 gui/qt/main_window.py:893
-#: gui/qt/main_window.py:1149 gui/qt/history_list.py:67
-#: gui/qt/request_list.py:42 gui/qt/transaction_dialog.py:238 gui/text.py:104
+#: gui/kivy/uix/ui_screens/invoice.kv:49 gui/qt/external_plugins_window.py:84
+#: gui/qt/invoice_list.py:36 gui/qt/main_window.py:929
+#: gui/qt/main_window.py:1231 gui/qt/history_list.py:68
+#: gui/qt/request_list.py:42 gui/qt/transaction_dialog.py:245 gui/text.py:104
 #: gui/text.py:174 gui/stdio.py:104
 #: ios/ElectronCash/electroncash_gui/ios_native/receive.py:198
 #: ios/ElectronCash/electroncash_gui/ios_native/send.py:189
@@ -1366,17 +1590,21 @@ msgstr ""
 msgid "Description"
 msgstr "Опис"
 
-#: gui/qt/main_window.py:1147
+#: gui/qt/main_window.py:1229
 #: ios/ElectronCash/electroncash_gui/ios_native/receive.py:204
 #: ios/ElectronCash/electroncash_gui/ios_native/send.py:215
 msgid "Description of the transaction (not mandatory)."
 msgstr "Опис транзакції (не обов'язково)."
 
-#: gui/qt/invoice_list.py:90 gui/qt/history_list.py:206
-#: gui/qt/address_list.py:192 gui/qt/utxo_list.py:113
+#: gui/qt/invoice_list.py:90 gui/qt/history_list.py:226
+#: gui/qt/address_list.py:195 gui/qt/utxo_list.py:148
 #: ios/ElectronCash/electroncash_gui/ios_native/txdetail.py:596
 msgid "Details"
 msgstr "Подробиці"
+
+#: gui/qt/scan_beyond_gap.py:45
+msgid "Deterministic wallets can contain a nearly infinite number of addresses. However, usually only a relatively small block of addresses at the beginning are ever used."
+msgstr ""
 
 #: gui/kivy/uix/ui_screens/about.kv:35
 msgid "Developers"
@@ -1403,8 +1631,12 @@ msgstr ""
 msgid "Digital Bitbox wallet"
 msgstr "Гаманець Digital Bitbox"
 
-#: gui/qt/external_plugins_window.py:372
+#: gui/qt/external_plugins_window.py:375
 msgid "Disable"
+msgstr ""
+
+#: gui/qt/main_window.py:3071
+msgid "Disable CashShuffle"
 msgstr ""
 
 #: plugins/keepkey/qt_generic.py:539 plugins/trezor/qt.py:534
@@ -1423,11 +1655,11 @@ msgstr "Вимкнено"
 msgid "Disconnected"
 msgstr "Роз'єднано"
 
-#: ios/ElectronCash/electroncash_gui/ios_native/gui.py:1411
+#: ios/ElectronCash/electroncash_gui/ios_native/gui.py:1414
 msgid "Disk Space Low"
 msgstr ""
 
-#: gui/qt/main_window.py:1243
+#: gui/qt/main_window.py:1325
 msgid "Display the details of your transactions before signing it."
 msgstr ""
 
@@ -1448,11 +1680,11 @@ msgstr "Не зберігайте в електронному вигляді."
 msgid "Do you want to create a new seed, or to restore a wallet using an existing seed?"
 msgstr "Ви хочете створити нову фразу-пароль (seed) або відновити гаманець, використовуючи наявну фразу-пароль?"
 
-#: gui/qt/installwizard.py:271
+#: gui/qt/installwizard.py:272
 msgid "Do you want to delete '{}'?"
 msgstr "Ви хочете видалити '{}'?"
 
-#: gui/qt/installwizard.py:250
+#: gui/qt/installwizard.py:251
 msgid "Do you want to delete the old file"
 msgstr "Ви дійсно хочете видалити старий файл"
 
@@ -1460,15 +1692,15 @@ msgstr "Ви дійсно хочете видалити старий файл"
 msgid "Do you want to open it now?"
 msgstr "Ви хочете відкрити його зараз?"
 
-#: gui/qt/main_window.py:1935
+#: gui/qt/main_window.py:2071
 msgid "Do you want to remove {} from your wallet?"
 msgstr ""
 
-#: gui/qt/exception_window.py:95
+#: gui/qt/exception_window.py:97
 msgid "Do you want to send this report?"
 msgstr "Ви хочете надіслати цей звіт?"
 
-#: gui/qt/main_window.py:1511
+#: gui/qt/main_window.py:1647
 msgid "Do you wish to continue?"
 msgstr "Ви хочете продовжити?"
 
@@ -1478,7 +1710,7 @@ msgid "Do you wish to follow the\n"
 "branch?"
 msgstr ""
 
-#: ios/ElectronCash/electroncash_gui/ios_native/gui.py:805
+#: ios/ElectronCash/electroncash_gui/ios_native/gui.py:808
 msgid "Do you wish to hide the download progress banner?\n"
 "(You can re-enabled it in Settings later)"
 msgstr ""
@@ -1495,20 +1727,28 @@ msgid "Do you wish to use\n"
 "as the wallet server?"
 msgstr ""
 
-#: gui/qt/main_window.py:613
+#: gui/qt/main_window.py:630
 msgid "Documentation"
+msgstr ""
+
+#: plugins/shuffle/qt.py:113
+msgid "Done"
 msgstr ""
 
 #: ios/ElectronCash/electroncash_gui/ios_native/wallets.py:144
 msgid "Downloading Headers"
 msgstr ""
 
-#: ios/ElectronCash/electroncash_gui/ios_native/gui.py:400
+#: ios/ElectronCash/electroncash_gui/ios_native/gui.py:401
 msgid "Downloading blockchain headers..."
 msgstr ""
 
-#: ios/ElectronCash/electroncash_gui/ios_native/gui.py:720
+#: ios/ElectronCash/electroncash_gui/ios_native/gui.py:723
 msgid "Downloading headers {}% ..."
+msgstr ""
+
+#: gui/qt/network_dialog.py:342
+msgid "Due to potential security risks, you may only disable SSL when using a Tor Proxy."
 msgstr ""
 
 #: lib/i18n.py:58
@@ -1524,30 +1764,30 @@ msgstr ""
 msgid "Edit Contact"
 msgstr ""
 
-#: gui/qt/main_window.py:2952
+#: gui/qt/main_window.py:3244
 #: ios/ElectronCash/electroncash_gui/ios_native/prefs.py:276
 msgid "Edit fees manually"
 msgstr "Редагувати комісії вручну"
 
-#: gui/qt/history_list.py:203 gui/qt/address_list.py:194
+#: gui/qt/history_list.py:223 gui/qt/address_list.py:197
 #: gui/qt/contact_list.py:95
 msgid "Edit {}"
 msgstr "Редагувати {}"
 
-#: lib/plugins.py:753
+#: lib/plugins.py:759
 msgid "Electron Cash cannot pair with your {}.\n\n"
 "Before you request bitcoins to be sent to addresses in this wallet, ensure you can pair with your device, or that you have its seed (and passphrase, if any).  Otherwise all bitcoins you receive will be unspendable."
 msgstr ""
 
-#: ios/ElectronCash/electroncash_gui/ios_native/gui.py:1412
+#: ios/ElectronCash/electroncash_gui/ios_native/gui.py:1415
 msgid "Electron Cash cannot proceed because this device is very low on disk space. Please free up some disk space and try again."
 msgstr ""
 
-#: gui/qt/installwizard.py:496
+#: gui/qt/installwizard.py:497
 msgid "Electron Cash communicates with remote servers to get information about your transactions and addresses. The servers all fulfil the same purpose only differing in hardware. In most cases you simply want to let Electron Cash pick one at random.  However if you prefer feel free to select a server manually."
 msgstr ""
 
-#: gui/qt/network_dialog.py:383
+#: gui/qt/network_dialog.py:416
 #: ios/ElectronCash/electroncash_gui/ios_native/network_dialog.py:493
 msgid "Electron Cash connects to several nodes in order to download block headers and find out the longest blockchain."
 msgstr ""
@@ -1564,7 +1804,11 @@ msgstr ""
 msgid "Electron Cash is generating your addresses, please wait..."
 msgstr ""
 
-#: gui/qt/main_window.py:587
+#: plugins/shuffle/qt.py:1562
+msgid "Electron Cash is in offline mode."
+msgstr ""
+
+#: gui/qt/main_window.py:604
 msgid "Electron Cash preferences"
 msgstr ""
 
@@ -1572,7 +1816,7 @@ msgstr ""
 msgid "Electron Cash requests your transaction history from a single server. The returned history is checked against blockchain headers sent by other nodes, using Simple Payment Verification (SPV)."
 msgstr ""
 
-#: gui/qt/network_dialog.py:392
+#: gui/qt/network_dialog.py:425
 #: ios/ElectronCash/electroncash_gui/ios_native/network_dialog.py:497
 msgid "Electron Cash sends your wallet addresses to a single server, in order to receive your transaction history."
 msgstr ""
@@ -1581,11 +1825,11 @@ msgstr ""
 msgid "Electron Cash wallet"
 msgstr ""
 
-#: gui/qt/main_window.py:491
+#: gui/qt/main_window.py:506
 msgid "Electron Cash was unable to copy your wallet file to the specified location."
 msgstr ""
 
-#: gui/qt/main_window.py:2512 gui/qt/main_window.py:2521
+#: gui/qt/main_window.py:2680 gui/qt/main_window.py:2689
 msgid "Electron Cash was unable to deserialize the transaction:"
 msgstr ""
 
@@ -1593,36 +1837,40 @@ msgstr ""
 msgid "Electron Cash was unable to export your contacts."
 msgstr ""
 
-#: gui/qt/main_window.py:2674
+#: gui/qt/main_window.py:2842
 msgid "Electron Cash was unable to export your labels."
+msgstr ""
+
+#: gui/qt/__init__.py:464
+msgid "Electron Cash was unable to find the secp256k1 library on this system. Elliptic curve cryptography operations will be performed in slow Python-only mode."
 msgstr ""
 
 #: gui/qt/contact_list.py:63
 msgid "Electron Cash was unable to import your contacts."
 msgstr ""
 
-#: gui/qt/main_window.py:2659
+#: gui/qt/main_window.py:2827
 msgid "Electron Cash was unable to import your labels."
 msgstr ""
 
-#: gui/qt/main_window.py:2497
+#: gui/qt/main_window.py:2665
 msgid "Electron Cash was unable to open your transaction file"
 msgstr ""
 
-#: gui/qt/main_window.py:2464
-#: ios/ElectronCash/electroncash_gui/ios_native/gui.py:2223
+#: gui/qt/main_window.py:2632
+#: ios/ElectronCash/electroncash_gui/ios_native/gui.py:2226
 msgid "Electron Cash was unable to parse your transaction"
 msgstr ""
 
-#: gui/qt/main_window.py:2624
+#: gui/qt/main_window.py:2792
 msgid "Electron Cash was unable to produce a private key-export."
 msgstr ""
 
-#: gui/qt/main_window.py:2699
+#: gui/qt/main_window.py:2867
 msgid "Electron Cash was unable to produce a transaction export."
 msgstr ""
 
-#: gui/qt/main_window.py:632
+#: gui/qt/main_window.py:649
 msgid "Electron Cash's focus is speed, with low resource usage and simplifying Bitcoin Cash. You do not need to perform regular backups, because your wallet can be recovered from a secret phrase that you can memorize or write on paper. Startup times are instant because it operates in conjunction with high-performance servers that handle the most complicated parts of the Bitcoin Cash system.\n\n"
 msgstr ""
 
@@ -1638,11 +1886,16 @@ msgstr ""
 msgid "Email settings"
 msgstr "Налаштування e-mail"
 
-#: gui/qt/external_plugins_window.py:374 gui/qt/external_plugins_window.py:383
+#: gui/qt/external_plugins_window.py:377 gui/qt/external_plugins_window.py:386
 msgid "Enable"
 msgstr ""
 
-#: gui/qt/main_window.py:3169
+#: gui/qt/main_window.py:3071 gui/qt/main_window.py:3901
+#: gui/qt/main_window.py:3902
+msgid "Enable CashShuffle"
+msgstr ""
+
+#: gui/qt/main_window.py:3470
 msgid "Enable OP_RETURN output"
 msgstr ""
 
@@ -1658,11 +1911,11 @@ msgstr "Увімкнути Секретну фразу"
 msgid "Enable passphrases"
 msgstr "Увімкнути секретну фразу"
 
-#: gui/qt/main_window.py:3170
+#: gui/qt/main_window.py:3471
 msgid "Enable posting messages with OP_RETURN."
 msgstr ""
 
-#: gui/qt/main_window.py:3103
+#: gui/qt/main_window.py:3392
 msgid "Enable this option if you wish to be notified as soon as a new version of Electron Cash becomes available"
 msgstr ""
 
@@ -1670,7 +1923,7 @@ msgstr ""
 msgid "Enabled"
 msgstr "Увімкнено"
 
-#: gui/qt/main_window.py:2427
+#: gui/qt/main_window.py:2595
 msgid "Encrypt"
 msgstr "Зашифрувати"
 
@@ -1682,16 +1935,16 @@ msgstr "Зашифрований файл гаманця"
 msgid "Encrypt/Decrypt Message"
 msgstr ""
 
-#: gui/qt/main_window.py:2402
+#: gui/qt/main_window.py:2568
 #: ios/ElectronCash/electroncash_gui/ios_native/addresses.py:918
 msgid "Encrypt/decrypt Message"
 msgstr "Зашифрувати/розшифрувати Повідомлення"
 
-#: gui/qt/address_list.py:201
+#: gui/qt/address_list.py:204
 msgid "Encrypt/decrypt message"
 msgstr "Зашифрувати/розшифрувати повідомлення"
 
-#: gui/qt/main_window.py:2422
+#: gui/qt/main_window.py:2590
 msgid "Encrypted"
 msgstr "Зашифрований"
 
@@ -1731,7 +1984,7 @@ msgstr "Введіть кодову фразу"
 msgid "Enter Password"
 msgstr "Введіть пароль"
 
-#: gui/kivy/uix/dialogs/installwizard.py:567 gui/qt/installwizard.py:370
+#: gui/kivy/uix/dialogs/installwizard.py:567 gui/qt/installwizard.py:371
 msgid "Enter Seed"
 msgstr "Введіть Seed"
 
@@ -1739,7 +1992,7 @@ msgstr "Введіть Seed"
 msgid "Enter Transaction Label"
 msgstr "Введіть мітку транзакції"
 
-#: gui/qt/main_window.py:472
+#: gui/qt/main_window.py:487
 msgid "Enter a filename for the copy of your wallet"
 msgstr "Введіть ім'я файлу для копії вашого гаманця"
 
@@ -1751,7 +2004,7 @@ msgstr "Введіть назву мітки для вашого пристро�
 msgid "Enter a list of Bitcoin Cash addresses (this will create a watching-only wallet), or a list of private keys."
 msgstr ""
 
-#: gui/qt/main_window.py:1958
+#: gui/qt/main_window.py:2099
 msgid "Enter a list of outputs in the 'Pay to' field."
 msgstr "Введіть список виходів у поле \"Одержувач\"."
 
@@ -1771,7 +2024,7 @@ msgstr ""
 msgid "Enter a passphrase to generate this wallet.  Each time you use this wallet your {} will prompt you for the passphrase.  If you forget the passphrase you cannot access the bitcoins in the wallet."
 msgstr "Введіть секретну фразу для створення цього гаманця. Кожного разу, коли ви використовуєте цей гаманець, ваш {} викличе запит на секретну фразу. Якщо ви забули секретну фразу, ви не зможете отримати доступ до біткойнів в гаманці."
 
-#: gui/qt/main_window.py:2828
+#: gui/qt/main_window.py:2996
 msgid "Enter addresses"
 msgstr "Введіть адреси"
 
@@ -1806,11 +2059,11 @@ msgstr ""
 msgid "Enter password:"
 msgstr ""
 
-#: gui/qt/main_window.py:2839
+#: gui/qt/main_window.py:3007
 msgid "Enter private keys"
 msgstr "Введіть особисті ключі"
 
-#: gui/qt/main_window.py:2750
+#: gui/qt/main_window.py:2918
 msgid "Enter private keys:"
 msgstr "Введіть приватні ключі:"
 
@@ -1836,7 +2089,7 @@ msgstr "Введіть слова для відновлення, натиска�
 msgid "Enter the same password again"
 msgstr ""
 
-#: gui/qt/installwizard.py:359
+#: gui/qt/installwizard.py:360
 msgid "Enter their master private key (xprv) if you want to be able to sign for them."
 msgstr "Введіть свій головний секретний ключ (xprv), якщо ви хочете мати можливість підписати їх."
 
@@ -1890,7 +2143,7 @@ msgstr "Введіть поточний {} PIN-код:"
 msgid "Enter your password or choose another file."
 msgstr "Введіть свій пароль або виберіть інший файл."
 
-#: gui/qt/main_window.py:1603
+#: gui/qt/main_window.py:1739
 #: ios/ElectronCash/electroncash_gui/ios_native/password_dialog.py:259
 #: ios/ElectronCash/electroncash_gui/ios_native/password_dialog.py:306
 msgid "Enter your password to proceed"
@@ -1909,17 +2162,18 @@ msgstr ""
 msgid "Erase the Digital Bitbox"
 msgstr "Очистити Digital Bitbox"
 
-#: gui/qt/util.py:183 gui/qt/__init__.py:231 gui/qt/__init__.py:233
-#: gui/qt/installwizard.py:235 gui/qt/installwizard.py:239 gui/text.py:360
-#: gui/stdio.py:209 ios/ElectronCash/electroncash_gui/ios_native/send.py:1033
+#: gui/qt/util.py:197 gui/qt/__init__.py:345 gui/qt/__init__.py:347
+#: gui/qt/installwizard.py:236 gui/qt/installwizard.py:240 gui/text.py:360
+#: gui/stdio.py:209 plugins/shuffle/qt.py:946
+#: ios/ElectronCash/electroncash_gui/ios_native/send.py:1033
 #: ios/ElectronCash/electroncash_gui/ios_native/send.py:1046
 #: ios/ElectronCash/electroncash_gui/ios_native/send.py:1051
 #: ios/ElectronCash/electroncash_gui/ios_native/network_dialog.py:393
-#: ios/ElectronCash/electroncash_gui/ios_native/gui.py:1051
+#: ios/ElectronCash/electroncash_gui/ios_native/gui.py:1054
 msgid "Error"
 msgstr "Помилка"
 
-#: gui/qt/main_window.py:2531
+#: gui/qt/main_window.py:2699
 msgid "Error retrieving transaction"
 msgstr ""
 
@@ -1931,7 +2185,7 @@ msgstr "Помилка: дубльований основний відкрити
 msgid "Esperanto"
 msgstr "Есперанто"
 
-#: gui/qt/__init__.py:145
+#: gui/qt/__init__.py:233
 msgid "Exit Electron Cash"
 msgstr ""
 
@@ -1939,7 +2193,7 @@ msgstr ""
 msgid "Expected conf."
 msgstr ""
 
-#: gui/qt/transaction_dialog.py:248
+#: gui/qt/transaction_dialog.py:255
 msgid "Expected confirmation time"
 msgstr ""
 
@@ -1947,7 +2201,7 @@ msgstr ""
 msgid "Expiration"
 msgstr "Закінчення терміну дії"
 
-#: gui/qt/main_window.py:913
+#: gui/qt/main_window.py:949
 msgid "Expiration date of your request."
 msgstr "Дата закінчення терміну дії вашого запиту."
 
@@ -1955,20 +2209,20 @@ msgstr "Дата закінчення терміну дії вашого зап�
 msgid "Expired"
 msgstr "Термін дії закінчився"
 
-#: gui/qt/main_window.py:915
+#: gui/qt/main_window.py:951
 msgid "Expired requests have to be deleted manually from your list, in order to free the corresponding Bitcoin Cash addresses."
 msgstr ""
 
-#: gui/qt/invoice_list.py:36 gui/qt/main_window.py:2031
+#: gui/qt/invoice_list.py:36 gui/qt/main_window.py:2172
 msgid "Expires"
 msgstr "Завершується"
 
-#: gui/qt/main_window.py:562 gui/qt/main_window.py:567
-#: gui/qt/main_window.py:2564 gui/qt/main_window.py:2685
+#: gui/qt/main_window.py:579 gui/qt/main_window.py:584
+#: gui/qt/main_window.py:2732 gui/qt/main_window.py:2853
 msgid "Export"
 msgstr "Експортувати"
 
-#: gui/qt/main_window.py:2677
+#: gui/qt/main_window.py:2845
 msgid "Export History"
 msgstr "Експортувати Історію"
 
@@ -1980,11 +2234,11 @@ msgstr ""
 msgid "Export private key"
 msgstr "Експортувати приватний ключ"
 
-#: ios/ElectronCash/electroncash_gui/ios_native/gui.py:1727
+#: ios/ElectronCash/electroncash_gui/ios_native/gui.py:1730
 msgid "Exporting Wallet..."
 msgstr ""
 
-#: gui/qt/main_window.py:2551
+#: gui/qt/main_window.py:2719
 msgid "Exposing a single private key can compromise your entire wallet!"
 msgstr "Розкриття особистого ключа може скомпрометувати весь ваш гаманець!"
 
@@ -2000,7 +2254,7 @@ msgstr ""
 msgid "Failed to create a client for this device."
 msgstr "Не вдалося створити клієнт для цього пристрою."
 
-#: lib/util.py:57 lib/util.py:62
+#: lib/util.py:58 lib/util.py:63
 msgid "Failed to import file."
 msgstr ""
 
@@ -2008,12 +2262,16 @@ msgstr ""
 msgid "Failed to send transaction to cosigning pool."
 msgstr ""
 
-#: gui/qt/main_window.py:2152
-#: ios/ElectronCash/electroncash_gui/ios_native/gui.py:2000
+#: gui/qt/main_window.py:2315
+#: ios/ElectronCash/electroncash_gui/ios_native/gui.py:2003
 msgid "Failed to update password"
 msgstr "Не вдалося оновити пароль"
 
-#: gui/qt/main_window.py:1208 gui/qt/transaction_dialog.py:259 gui/text.py:176
+#: plugins/shuffle/qt.py:1566
+msgid "Failed to verify SSL certificate"
+msgstr ""
+
+#: gui/qt/main_window.py:1290 gui/qt/transaction_dialog.py:266 gui/text.py:176
 #: ios/ElectronCash/electroncash_gui/ios_native/send.py:195
 #: ios/ElectronCash/electroncash_gui/ios_native/txdetail.py:554
 msgid "Fee"
@@ -2023,20 +2281,20 @@ msgstr "Комісія"
 msgid "Fee manual edit"
 msgstr ""
 
-#: gui/qt/main_window.py:3506
+#: gui/qt/main_window.py:3832
 msgid "Fee:"
 msgstr "Комісія:"
 
-#: gui/qt/exception_window.py:87
+#: gui/qt/exception_window.py:88
 msgid "Feel free to add your email address if you are willing to provide further detail, but note that it will appear in the relevant github issue."
 msgstr ""
 
-#: gui/qt/main_window.py:3253
+#: gui/qt/main_window.py:3565
 #: ios/ElectronCash/electroncash_gui/ios_native/prefs.py:24
 msgid "Fees"
 msgstr "Комісії"
 
-#: gui/qt/main_window.py:3256
+#: gui/qt/main_window.py:3568
 #: ios/ElectronCash/electroncash_gui/ios_native/prefs.py:24
 msgid "Fiat"
 msgstr "Класичні гроші"
@@ -2047,16 +2305,16 @@ msgstr "Класичні гроші"
 msgid "Fiat amount"
 msgstr ""
 
-#: gui/qt/main_window.py:3247
+#: gui/qt/main_window.py:3559
 #: ios/ElectronCash/electroncash_gui/ios_native/prefs.py:359
 msgid "Fiat currency"
 msgstr "Валюта класичних грошей"
 
-#: gui/qt/util.py:353 ios/ElectronCash/electroncash_gui/ios_native/utils.py:311
+#: gui/qt/util.py:413 ios/ElectronCash/electroncash_gui/ios_native/utils.py:311
 msgid "File"
 msgstr "Файл"
 
-#: gui/qt/main_window.py:570
+#: gui/qt/main_window.py:587
 msgid "Find"
 msgstr "Знайти"
 
@@ -2072,48 +2330,52 @@ msgstr ""
 msgid "Fixed rate: "
 msgstr ""
 
-#: gui/qt/network_dialog.py:88
+#: gui/qt/network_dialog.py:113
 #: ios/ElectronCash/electroncash_gui/ios_native/network_dialog.py:408
 msgid "Follow this branch"
 msgstr "Дотримуйтесь цієї гілки"
 
-#: ios/ElectronCash/electroncash_gui/ios_native/gui.py:2264
+#: ios/ElectronCash/electroncash_gui/ios_native/gui.py:2267
 msgid "For convenience, would you like to use Touch ID or Face ID to open this wallet?\n\n"
 "Your wallet password will still be used as a backup mechanism for when Touch/Face ID fails or is unavailable.\n\n"
 "Your wallet will continue to be protected and secure."
+msgstr ""
+
+#: plugins/shuffle/qt.py:1149 plugins/shuffle/qt.py:1152
+msgid "For improved privacy, shuffled coins and unshuffled coins cannot be sent together in the same transaction when CashShuffle is enabled."
 msgstr ""
 
 #: gui/kivy/uix/ui_screens/network.kv:49
 msgid "Fork detected at block {}"
 msgstr "Форк виявлено на блоці {}"
 
-#: gui/qt/util.py:329
+#: gui/qt/util.py:389
 msgid "Format"
 msgstr "Формат"
 
-#: gui/qt/main_window.py:1960
+#: gui/qt/main_window.py:2101
 msgid "Format: address, amount"
 msgstr "Формат: адреса, сума"
 
-#: gui/qt/address_list.py:212
+#: gui/qt/address_list.py:215
 #: ios/ElectronCash/electroncash_gui/ios_native/coins.py:638
 #: ios/ElectronCash/electroncash_gui/ios_native/addresses.py:904
 msgid "Freeze"
 msgstr "Заблокувати"
 
-#: gui/qt/utxo_list.py:129
+#: gui/qt/utxo_list.py:164
 msgid "Freeze Address"
 msgstr ""
 
-#: gui/qt/utxo_list.py:141
+#: gui/qt/utxo_list.py:176
 msgid "Freeze Addresses"
 msgstr ""
 
-#: gui/qt/utxo_list.py:123
+#: gui/qt/utxo_list.py:158
 msgid "Freeze Coin"
 msgstr ""
 
-#: gui/qt/utxo_list.py:135
+#: gui/qt/utxo_list.py:170
 msgid "Freeze Coins"
 msgstr ""
 
@@ -2121,21 +2383,26 @@ msgstr ""
 msgid "French"
 msgstr "Французька"
 
-#: gui/qt/main_window.py:1175
+#: gui/qt/main_window.py:1257
 msgid "From"
 msgstr "Від"
 
-#: gui/qt/installwizard.py:537
+#: gui/qt/installwizard.py:538
 #, python-format
 msgid "From %d cosigners"
 msgstr ""
 
+#: plugins/shuffle/qt.py:78
 #: ios/ElectronCash/electroncash_gui/ios_native/coins.py:144
 #: ios/ElectronCash/electroncash_gui/ios_native/coins.py:605
 #: ios/ElectronCash/electroncash_gui/ios_native/addresses.py:196
 #: ios/ElectronCash/electroncash_gui/ios_native/addresses.py:208
 #: ios/ElectronCash/electroncash_gui/ios_native/addresses.py:460
 msgid "Frozen"
+msgstr ""
+
+#: plugins/shuffle/qt.py:1859
+msgid "Full"
 msgstr ""
 
 #: plugins/digitalbitbox/digitalbitbox.py:229
@@ -2147,11 +2414,23 @@ msgstr ""
 msgid "Funded"
 msgstr "Фінансовано"
 
-#: gui/qt/main_window.py:3255
+#: plugins/shuffle/qt.py:1192
+msgid "Funds currently being shuffled"
+msgstr ""
+
+#: plugins/shuffle/qt.py:1189
+msgid "Funds that are busy being shuffled are not available for spending until they are shuffled. To spend these funds immediately, use the 'Pause Shuffling' button to temporarily suspend CashShuffle."
+msgstr ""
+
+#: plugins/shuffle/qt.py:1174
+msgid "Funds that are not yet shuffled"
+msgstr ""
+
+#: gui/qt/main_window.py:3567
 msgid "General"
 msgstr ""
 
-#: gui/qt/main_window.py:1223
+#: gui/qt/main_window.py:1305
 msgid "Generally, a fee of 1.0 sats/B is a good minimal rate to ensure your transaction will make it into the next block."
 msgstr ""
 
@@ -2163,7 +2442,7 @@ msgstr "Створити новий випадковий гаманець"
 msgid "Generating seed..."
 msgstr ""
 
-#: ios/ElectronCash/electroncash_gui/ios_native/gui.py:1605
+#: ios/ElectronCash/electroncash_gui/ios_native/gui.py:1608
 msgid "Generating your addresses..."
 msgstr ""
 
@@ -2188,7 +2467,7 @@ msgstr ""
 msgid "Greek"
 msgstr "Грецькою"
 
-#: lib/plugins.py:704
+#: lib/plugins.py:710
 msgid "Handler not found for"
 msgstr ""
 
@@ -2196,7 +2475,7 @@ msgstr ""
 msgid "Hardware Keystore"
 msgstr "Апаратне Сховище ключів"
 
-#: gui/qt/utxo_list.py:33 gui/qt/network_dialog.py:73
+#: gui/qt/utxo_list.py:35 gui/qt/network_dialog.py:98
 #: ios/ElectronCash/electroncash_gui/ios_native/network_dialog.py:275
 #: ios/ElectronCash/electroncash_gui/ios_native/network_dialog.py:279
 #: ios/ElectronCash/electroncash_gui/ios_native/network_dialog.py:326
@@ -2208,15 +2487,15 @@ msgstr "Висота"
 msgid "Hello World"
 msgstr "Привіт, Україно"
 
-#: gui/qt/installwizard.py:486
+#: gui/qt/installwizard.py:487
 msgid "Here is your master public key."
 msgstr "Ваш головний відкритий ключ."
 
-#: gui/qt/main_window.py:252 gui/qt/main_window.py:574
+#: gui/qt/main_window.py:267 gui/qt/main_window.py:591
 msgid "Hide"
 msgstr "Приховати"
 
-#: ios/ElectronCash/electroncash_gui/ios_native/gui.py:804
+#: ios/ElectronCash/electroncash_gui/ios_native/gui.py:807
 msgid "Hide Download Banner"
 msgstr ""
 
@@ -2232,7 +2511,11 @@ msgstr "Приховати приватний ключ"
 msgid "Hide seed"
 msgstr "Приховати фразу-пароль (seed)"
 
-#: gui/kivy/main.kv:400 gui/qt/main_window.py:155 gui/qt/address_dialog.py:91
+#: plugins/shuffle/qt.py:697
+msgid "Hide shuffle transactions"
+msgstr ""
+
+#: gui/kivy/main.kv:400 gui/qt/main_window.py:159 gui/qt/address_dialog.py:91
 #: gui/text.py:64
 msgid "History"
 msgstr "Історія"
@@ -2246,13 +2529,14 @@ msgid "Homescreen"
 msgstr "Початковий екран"
 
 #: gui/kivy/uix/ui_screens/server.kv:19 gui/kivy/uix/ui_screens/proxy.kv:19
-#: gui/qt/network_dialog.py:145 gui/qt/network_dialog.py:640
+#: gui/qt/network_dialog.py:170 gui/qt/network_dialog.py:694
+#: plugins/shuffle/qt.py:1476
 #: ios/ElectronCash/electroncash_gui/ios_native/network_dialog.py:279
 #: ios/ElectronCash/electroncash_gui/ios_native/network_dialog.py:329
 msgid "Host"
 msgstr "Хост"
 
-#: gui/qt/installwizard.py:503
+#: gui/qt/installwizard.py:504
 msgid "How do you want to connect to a server? "
 msgstr "Як ви хочете отримати доступ до сервера? "
 
@@ -2272,7 +2556,7 @@ msgstr "Однак, ми не генеруємо фрази-паролі (seed) 
 msgid "Hungarian"
 msgstr "Угорська"
 
-#: gui/qt/external_plugins_window.py:113
+#: gui/qt/external_plugins_window.py:116
 msgid "I accept responsibility for any harm that comes from installing this plugin, and acknowledge:"
 msgstr ""
 
@@ -2280,45 +2564,49 @@ msgstr ""
 msgid "I already have a seed"
 msgstr "Я вже маю фразу-пароль (seed)"
 
-#: gui/qt/external_plugins_window.py:117
+#: gui/qt/external_plugins_window.py:120
 msgid "I should only install the most reputable plugins trusted by the community."
 msgstr ""
 
-#: gui/qt/main_window.py:3257
+#: gui/qt/main_window.py:3569
 msgid "Identity"
 msgstr "Ідентифікація"
 
-#: gui/qt/network_dialog.py:304
+#: gui/qt/network_dialog.py:332
 msgid "If 'Connect only to preferred servers' is enabled, Electron Cash will only connect to servers marked as 'preferred' servers ({})."
 msgstr ""
 
-#: gui/qt/network_dialog.py:291
+#: gui/qt/network_dialog.py:319
 #: ios/ElectronCash/electroncash_gui/ios_native/network_dialog.py:502
 msgid "If auto-connect is enabled, Electron Cash will always use a server that is on the longest blockchain."
 msgstr ""
 
-#: gui/qt/network_dialog.py:299
+#: gui/qt/network_dialog.py:327
 msgid "If enabled, restricts Electron Cash to connecting to servers only marked as 'preferred'."
 msgstr ""
 
-#: gui/qt/network_dialog.py:292
+#: plugins/shuffle/qt.py:1151
+msgid "If insufficient shuffled funds are available, you can wait a few minutes as coins are shuffled in the background."
+msgstr ""
+
+#: gui/qt/network_dialog.py:320
 #: ios/ElectronCash/electroncash_gui/ios_native/network_dialog.py:503
 msgid "If it is disabled, you have to choose a server you want to use. Electron Cash will warn you if your server is lagging."
 msgstr ""
 
-#: gui/qt/external_plugins_window.py:101
+#: gui/qt/external_plugins_window.py:106
 msgid "If the official source for this plugin has a checksum for this plugin, ensure that the value shown here is the same."
 msgstr ""
 
-#: gui/qt/main_window.py:2886
+#: gui/qt/main_window.py:3179
 msgid "If unchecked, addresses are shown in legacy format"
 msgstr ""
 
-#: gui/qt/main_window.py:1163
+#: gui/qt/main_window.py:1245
 msgid "If unchecked, the textbox contents are UTF8-encoded into a single-push script: <tt>OP_RETURN PUSH &lt;text&gt;</tt>. If checked, the text contents will be interpreted as a raw hexadecimal script to be appended after the OP_RETURN opcode: <tt>OP_RETURN &lt;script&gt;</tt>."
 msgstr ""
 
-#: gui/qt/network_dialog.py:306
+#: gui/qt/network_dialog.py:334
 msgid "If unsure, most of the time it's safe to leave this option disabled. However leaving it enabled is safer (if a little bit discouraging to new server operators wanting to populate their servers)."
 msgstr ""
 
@@ -2343,6 +2631,10 @@ msgstr "Якщо ви вимкнете PIN-код, будь-хто, хто ма�
 msgid "If you do not know what this is, leave this field empty."
 msgstr "Якщо ви не знаєте, що це таке, залиште це поле порожнім."
 
+#: gui/qt/main_window.py:3894
+msgid "If you enable it, Electron Cash will shuffle your coins for greater <b>privacy</b>. However, you will pay fractions of a penny per shuffle in transaction fees."
+msgstr ""
+
 #: plugins/keepkey/qt_generic.py:28 plugins/trezor/qt.py:31
 msgid "If you forget a passphrase you will be unable to access any bitcoins in the wallet behind it.  A passphrase is not a PIN. Only change this if you are sure you understand it."
 msgstr "Якщо ви забудете секретну фразу, ви не зможете отримати доступ до будь-яких біткойнів у гаманці, що захищений нею. Секретна фраза - це не PIN-код. Змінюйте це тільки, якщо ви впевнені, що ви це розумієте."
@@ -2351,12 +2643,16 @@ msgstr "Якщо ви забудете секретну фразу, ви не з
 msgid "If you forget your PIN or lose your device, your seed phrase will be the only way to recover your funds."
 msgstr "Якщо ви забудете PIN-код або втратите пристрій, seed буде єдиним способом відновити доступ до ваших коштів."
 
-#: gui/qt/installwizard.py:380
+#: gui/qt/installwizard.py:381
 msgid "If you lose your seed, your money will be permanently lost."
 msgstr "Якщо ви забудете seed, ваші гроші будуть втрачені назавжди."
 
-#: gui/qt/main_window.py:1156
+#: gui/qt/main_window.py:1238
 msgid "If you specify OP_RETURN text, you may leave the 'Pay to' field blank."
+msgstr ""
+
+#: gui/qt/scan_beyond_gap.py:48
+msgid "If you think this wallet may have a transaction history for addresses beyond the gap, use this tool to search for them. If any history for an address is found, those addresses (plus all intervening addresses), will be added to your wallet."
 msgstr ""
 
 #: lib/base_wizard.py:239
@@ -2369,7 +2665,7 @@ msgstr ""
 msgid "If you want the wallet to use legacy Bitcoin addresses use m/44'/0'/0'"
 msgstr ""
 
-#: gui/qt/main_window.py:1059
+#: gui/qt/main_window.py:1109
 msgid "If you want to create new addresses, use a deterministic wallet instead."
 msgstr "Якщо ви хочете створити нові адреси, використовуйте детермінований гаманець."
 
@@ -2377,7 +2673,7 @@ msgstr "Якщо ви хочете створити нові адреси, ви�
 msgid "If your device is not detected on Windows, go to \"Settings\", \"Devices\", \"Connected devices\", and do \"Remove device\". Then, plug your device again."
 msgstr "Якщо ваш пристрій не виявлено в Windows, перейдіть до \"Налаштування\", \"Пристрої\", \"Підключені пристрої\" і натисніть \"Видалити пристрій\". Потім знову підключіть пристрій."
 
-#: gui/qt/main_window.py:2232
+#: gui/qt/main_window.py:2395
 msgid "If your wallet contains funds, make sure you have saved its seed."
 msgstr "Якщо ваш гаманець містить кошти, переконайтеся, що ви зберегли його фразу-пароль (seed)."
 
@@ -2390,8 +2686,8 @@ msgstr "Якщо ваш гаманець містить кошти, переко
 msgid "Image"
 msgstr ""
 
-#: gui/qt/main_window.py:561 gui/qt/main_window.py:564
-#: gui/qt/main_window.py:2804
+#: gui/qt/main_window.py:578 gui/qt/main_window.py:581
+#: gui/qt/main_window.py:2972
 #: ios/ElectronCash/electroncash_gui/ios_native/newwallet.py:34
 #: ios/ElectronCash/electroncash_gui/ios_native/newwallet.py:852
 #: ios/ElectronCash/electroncash_gui/ios_native/newwallet.py:972
@@ -2415,7 +2711,7 @@ msgstr ""
 msgid "Import Bitcoin Cash addresses or private keys"
 msgstr ""
 
-#: gui/qt/main_window.py:551 gui/qt/main_window.py:2828
+#: gui/qt/main_window.py:566 gui/qt/main_window.py:2996
 msgid "Import addresses"
 msgstr "Імпорт адрес"
 
@@ -2427,11 +2723,11 @@ msgstr "Імпорт файлу"
 msgid "Import pairing from the Digital Bitbox desktop app"
 msgstr ""
 
-#: gui/qt/main_window.py:2839
+#: gui/qt/main_window.py:3007
 msgid "Import private keys"
 msgstr "Імпортувати особисті ключі"
 
-#: lib/util.py:64
+#: lib/util.py:65
 msgid "Importing encrypted files is not supported."
 msgstr ""
 
@@ -2455,23 +2751,35 @@ msgstr ""
 msgid "In addition, Electron Cash does not verify the checksum of BIP39 seeds; make sure you type your seed correctly."
 msgstr ""
 
-#: gui/qt/main_window.py:449
+#: plugins/shuffle/__init__.py:7
+msgid "In addition, a blame protocol is used to mitigate time-wasting denial-of-service type attacks."
+msgstr ""
+
+#: gui/qt/main_window.py:464
 msgid "In order to use this wallet without errors with this version of EC, please <b>re-generate this wallet from seed</b>."
 msgstr ""
 
-#: gui/qt/main_window.py:2552
+#: gui/qt/main_window.py:2720
 msgid "In particular, DO NOT use 'redeem private key' services proposed by third parties."
 msgstr "Зокрема, НЕ ВИКОРИСТОВУЙТЕ служби третіх сторін, які пропонують \"отримати особистий ключ\"."
 
-#: gui/qt/main_window.py:3131
+#: plugins/shuffle/qt.py:103
+msgid "In progress"
+msgstr ""
+
+#: plugins/shuffle/qt.py:98
+msgid "In queue"
+msgstr ""
+
+#: gui/qt/main_window.py:3427
 msgid "In some cases, use up to 3 change addresses in order to break up large coin amounts and obfuscate the recipient address."
 msgstr "У деяких випадках використовується до трьох змін адреси, щоб розбити велику кількість монет і запитати адресу одержувача."
 
-#: lib/util.py:44
+#: lib/util.py:45
 msgid "In the next block"
 msgstr "У наступному блоці"
 
-#: lib/util.py:52
+#: lib/util.py:53
 msgid "Incorrect password"
 msgstr "Невірний пароль"
 
@@ -2479,7 +2787,7 @@ msgstr "Невірний пароль"
 msgid "Incorrect password entered."
 msgstr ""
 
-#: gui/qt/address_list.py:52
+#: gui/qt/address_list.py:53
 msgid "Index"
 msgstr ""
 
@@ -2487,10 +2795,10 @@ msgstr ""
 msgid "Indonesian"
 msgstr "Індонезійська"
 
-#: gui/qt/main_window.py:422 gui/qt/util.py:191
+#: gui/qt/main_window.py:437 gui/qt/util.py:205
 #: plugins/keepkey/qt_generic.py:579 plugins/trezor/qt.py:574
 #: ios/ElectronCash/electroncash_gui/ios_native/network_dialog.py:506
-#: ios/ElectronCash/electroncash_gui/ios_native/gui.py:1074
+#: ios/ElectronCash/electroncash_gui/ios_native/gui.py:1077
 msgid "Information"
 msgstr "Інформація"
 
@@ -2502,25 +2810,25 @@ msgstr "Ініціалізувати пристрій"
 msgid "Initialized"
 msgstr "Ініціалізовано"
 
-#: gui/qt/network_dialog.py:325
+#: gui/qt/network_dialog.py:358
 msgid "Initially, the preferred list is the hard-coded list of known-good servers vetted by the Electron Cash developers."
 msgstr ""
 
-#: gui/qt/main_window.py:3494
+#: gui/qt/main_window.py:3820
 #: ios/ElectronCash/electroncash_gui/ios_native/receive.py:212
 #: ios/ElectronCash/electroncash_gui/ios_native/send.py:275
 msgid "Input amount"
 msgstr "Вхідна сума"
 
-#: lib/network.py:1537
+#: lib/network.py:1637
 msgid "Input data is not a transaction hash."
 msgstr ""
 
-#: gui/qt/main_window.py:2504
+#: gui/qt/main_window.py:2672
 msgid "Input raw transaction"
 msgstr "Ввести raw-транзакцію"
 
-#: gui/qt/transaction_dialog.py:274
+#: gui/qt/transaction_dialog.py:281
 #: ios/ElectronCash/electroncash_gui/ios_native/txdetail.py:99
 msgid "Inputs"
 msgstr "Вхід"
@@ -2529,26 +2837,26 @@ msgstr "Вхід"
 msgid "Install Wizard"
 msgstr "Майстер Налаштувань"
 
-#: gui/qt/external_plugins_window.py:263
+#: gui/qt/external_plugins_window.py:266
 msgid "Install plugins at your own risk.\n"
 "They have almost complete access to Electron Cash's internals."
 msgstr ""
 
-#: gui/qt/main_window.py:3066
+#: gui/qt/main_window.py:3355
 msgid "Install the zbar package to enable this."
 msgstr "Встановіть zbar-пакет, щоб використовувати це."
 
-#: gui/qt/main_window.py:592
+#: gui/qt/main_window.py:609
 msgid "Installed &Plugins"
 msgstr ""
 
-#: gui/qt/main_window.py:1557
+#: gui/qt/main_window.py:1693
 #: ios/ElectronCash/electroncash_gui/ios_native/send.py:479
 #: ios/ElectronCash/electroncash_gui/ios_native/send.py:823
 msgid "Insufficient funds"
 msgstr "Недостатньо коштів"
 
-#: gui/qt/external_plugins_window.py:81
+#: gui/qt/external_plugins_window.py:86
 msgid "Integration"
 msgstr ""
 
@@ -2556,14 +2864,14 @@ msgstr ""
 msgid "Invalid"
 msgstr ""
 
-#: gui/qt/main_window.py:1978
+#: gui/qt/main_window.py:2119
 #: ios/ElectronCash/electroncash_gui/ios_native/contacts.py:471
 #: ios/ElectronCash/electroncash_gui/ios_native/send.py:488
 #: ios/ElectronCash/electroncash_gui/ios_native/send.py:1033
 msgid "Invalid Address"
 msgstr "Невірна адреса"
 
-#: gui/qt/main_window.py:1536 gui/text.py:329 gui/stdio.py:172
+#: gui/qt/main_window.py:1672 gui/text.py:329 gui/stdio.py:172
 #: ios/ElectronCash/electroncash_gui/ios_native/send.py:1051
 msgid "Invalid Amount"
 msgstr "Невірна сума"
@@ -2572,7 +2880,7 @@ msgstr "Невірна сума"
 msgid "Invalid Bitcoin Address"
 msgstr "Невірна адреса Bitcoin"
 
-#: gui/qt/main_window.py:2310 gui/qt/main_window.py:2330
+#: gui/qt/main_window.py:2474 gui/qt/main_window.py:2494
 #: ios/ElectronCash/electroncash_gui/ios_native/sign_decrypt_dialog.py:234
 #: ios/ElectronCash/electroncash_gui/ios_native/sign_decrypt_dialog.py:278
 msgid "Invalid Bitcoin Cash address."
@@ -2586,7 +2894,7 @@ msgstr "Некоректна адреса Bitcoin"
 msgid "Invalid Fee"
 msgstr "Недійсна комісія"
 
-#: gui/qt/main_window.py:452
+#: gui/qt/main_window.py:467
 msgid "Invalid Master Key"
 msgstr ""
 
@@ -2600,16 +2908,16 @@ msgstr "Неправильний PIN-код"
 msgid "Invalid QR Code"
 msgstr ""
 
-#: gui/kivy/uix/screens.py:262
+#: gui/kivy/uix/screens.py:262 plugins/shuffle/qt.py:2078
 msgid "Invalid amount"
 msgstr "Недопустима сума"
 
-#: gui/qt/main_window.py:1767
-#: ios/ElectronCash/electroncash_gui/ios_native/gui.py:1191
+#: gui/qt/main_window.py:1903
+#: ios/ElectronCash/electroncash_gui/ios_native/gui.py:1194
 msgid "Invalid bitcoincash URI:"
 msgstr ""
 
-#: gui/qt/main_window.py:1503
+#: gui/qt/main_window.py:1639
 msgid "Invalid lines found:"
 msgstr ""
 
@@ -2617,7 +2925,7 @@ msgstr ""
 msgid "Invalid name, please try again."
 msgstr ""
 
-#: gui/kivy/uix/ui_screens/invoice.kv:17 gui/qt/main_window.py:2017
+#: gui/kivy/uix/ui_screens/invoice.kv:17 gui/qt/main_window.py:2158
 msgid "Invoice"
 msgstr "Рахунок"
 
@@ -2625,11 +2933,11 @@ msgstr "Рахунок"
 msgid "Invoice saved"
 msgstr "Рахунок збережено"
 
-#: gui/qt/main_window.py:2041
+#: gui/qt/main_window.py:2182
 msgid "Invoice saved as "
 msgstr "Рахунок записано як "
 
-#: gui/kivy/main.kv:392 gui/qt/main_window.py:563 gui/qt/main_window.py:1299
+#: gui/kivy/main.kv:392 gui/qt/main_window.py:580 gui/qt/main_window.py:1385
 msgid "Invoices"
 msgstr "Рахунок фактури"
 
@@ -2637,12 +2945,16 @@ msgstr "Рахунок фактури"
 msgid "It appears the derivation you specified is invalid. Please try again"
 msgstr ""
 
-#: gui/qt/main_window.py:2544
+#: gui/qt/main_window.py:2712
 msgid "It can not be \"backed up\" by simply exporting these private keys."
 msgstr ""
 
-#: gui/qt/main_window.py:1222
+#: gui/qt/main_window.py:1304
 msgid "It is calculated from the Custom Fee Rate in preferences, but can be overridden from the manual fee edit on this form (if enabled)."
+msgstr ""
+
+#: gui/qt/network_dialog.py:79
+msgid "It is strongly recommended that you go back and enable SSL mode."
 msgstr ""
 
 #: plugins/cosigner_pool/__init__.py:5
@@ -2661,7 +2973,7 @@ msgstr "Італійська"
 msgid "Japanese"
 msgstr "Японська"
 
-#: gui/qt/main_window.py:3538
+#: gui/qt/main_window.py:3967
 msgid "Just to be safe, back up your wallet file first!"
 msgstr ""
 
@@ -2673,7 +2985,7 @@ msgstr "Відновлення фрази-паролю (seed) KeepKey"
 msgid "KeepKey wallet"
 msgstr "Гаманець KeepKey"
 
-#: gui/qt/main_window.py:1186
+#: gui/qt/main_window.py:1268
 msgid "Keyboard shortcut: type \"!\" to send all your coins."
 msgstr "Гаряча клавіша: введіть \"!\" щоб відправити всі Ваші гроші."
 
@@ -2685,7 +2997,7 @@ msgstr "Сховище ключів"
 msgid "Kyrgyz"
 msgstr "Киргизька"
 
-#: gui/qt/address_list.py:52 gui/qt/utxo_list.py:33
+#: gui/qt/address_list.py:53 gui/qt/utxo_list.py:35
 msgid "Label"
 msgstr "Мітка"
 
@@ -2717,12 +3029,12 @@ msgstr ""
 msgid "Labels, transactions IDs and addresses are encrypted before they are sent to the remote server."
 msgstr "Мітки, ідентифікатори транзакцій та адреси шифруються, перш ніж вони надсилаються на віддалений сервер."
 
-#: gui/kivy/uix/dialogs/settings.py:128 gui/qt/main_window.py:2892
+#: gui/kivy/uix/dialogs/settings.py:128 gui/qt/main_window.py:3185
 #: plugins/keepkey/qt_generic.py:446 plugins/trezor/qt.py:435
 msgid "Language"
 msgstr "Мова"
 
-#: gui/qt/update_checker.py:97 gui/qt/update_checker.py:222
+#: gui/qt/update_checker.py:97 gui/qt/update_checker.py:219
 msgid "Latest version: {}"
 msgstr ""
 
@@ -2746,7 +3058,7 @@ msgstr "Аутентифікація гаманця Ledger"
 msgid "Ledger wallet"
 msgstr "Гаманець Ledger"
 
-#: gui/qt/main_window.py:1886
+#: gui/qt/main_window.py:2022
 #: ios/ElectronCash/electroncash_gui/ios_native/addrconv.py:62
 msgid "Legacy address"
 msgstr ""
@@ -2763,11 +3075,11 @@ msgstr ""
 msgid "Licence"
 msgstr "Ліцензія"
 
-#: gui/qt/main_window.py:3074
+#: gui/qt/main_window.py:3363
 msgid "Light"
 msgstr ""
 
-#: gui/qt/main_window.py:1503
+#: gui/qt/main_window.py:1639
 msgid "Line #"
 msgstr "Рядок #"
 
@@ -2779,7 +3091,7 @@ msgstr "Завантажити гаманець з micro SD карточки"
 msgid "Load a wallet from the micro SD card (the current seed is overwritten)"
 msgstr "Завантажити гаманець з micro-SD-карти (поточна фраза-пароль (seed) буде перезаписана)"
 
-#: gui/qt/main_window.py:2504
+#: gui/qt/main_window.py:2672
 msgid "Load transaction"
 msgstr "Завантажити транзакцію"
 
@@ -2791,13 +3103,17 @@ msgstr ""
 msgid "Locktime"
 msgstr ""
 
-#: gui/qt/main_window.py:2527
+#: gui/qt/main_window.py:2695
 msgid "Lookup transaction"
 msgstr "Пошук транзакції"
 
 #: lib/wallet.py:67
 msgid "Low fee"
 msgstr "Низька комісія"
+
+#: plugins/shuffle/qt.py:2086
+msgid "Lower limit is {}"
+msgstr ""
 
 #: plugins/digitalbitbox/digitalbitbox.py:706 plugins/trezor/trezor.py:290
 msgid "Make sure it is in the correct state."
@@ -2807,7 +3123,7 @@ msgstr ""
 msgid "Make sure you install it with python3"
 msgstr "Переконайтеся, що ви встановили його за допомогою python3"
 
-#: gui/qt/main_window.py:420
+#: gui/qt/main_window.py:435
 msgid "Make sure you own the seed phrase or the private keys, before you request Bitcoin Cash to be sent to this wallet."
 msgstr ""
 
@@ -2822,12 +3138,12 @@ msgstr ""
 
 #: gui/kivy/uix/ui_screens/status.kv:50 gui/kivy/uix/ui_screens/status.kv:53
 #: gui/kivy/uix/dialogs/installwizard.py:690
-#: gui/kivy/uix/dialogs/installwizard.py:694 gui/qt/main_window.py:2220
-#: gui/qt/installwizard.py:492
+#: gui/kivy/uix/dialogs/installwizard.py:694 gui/qt/main_window.py:2383
+#: gui/qt/installwizard.py:493
 msgid "Master Public Key"
 msgstr "Публічний майстер-ключ"
 
-#: gui/qt/main_window.py:2217
+#: gui/qt/main_window.py:2380
 msgid "Master Public Keys"
 msgstr "Публічні майстер-ключі"
 
@@ -2835,12 +3151,12 @@ msgstr "Публічні майстер-ключі"
 msgid "Matrix"
 msgstr "Матриця"
 
-#: gui/qt/main_window.py:1198
+#: gui/qt/main_window.py:1280
 #: ios/ElectronCash/electroncash_gui/ios_native/send.py:192
 msgid "Max"
 msgstr "Максимально"
 
-#: gui/qt/main_window.py:3523
+#: gui/qt/main_window.py:3849
 #: ios/ElectronCash/electroncash_gui/ios_native/send.py:482
 msgid "Max fee exceeded"
 msgstr "Перевищено максимальну комісію"
@@ -2849,11 +3165,15 @@ msgstr "Перевищено максимальну комісію"
 msgid "Max static fee"
 msgstr ""
 
-#: gui/qt/main_window.py:2026
+#: plugins/shuffle/qt.py:2046
+msgid "Maximum coin:"
+msgstr ""
+
+#: gui/qt/main_window.py:2167
 msgid "Memo"
 msgstr "Замітка"
 
-#: gui/qt/main_window.py:2352 gui/qt/main_window.py:2408
+#: gui/qt/main_window.py:2517 gui/qt/main_window.py:2575
 msgid "Message"
 msgstr "Повідомлення"
 
@@ -2861,10 +3181,18 @@ msgstr "Повідомлення"
 msgid "Method:"
 msgstr "Метод:"
 
-#: gui/kivy/uix/screens.py:286 gui/qt/main_window.py:1581
+#: plugins/shuffle/qt.py:2039
+msgid "Minimum coin:"
+msgstr ""
+
+#: gui/kivy/uix/screens.py:286 gui/qt/main_window.py:1717
 #: ios/ElectronCash/electroncash_gui/ios_native/send.py:847
 msgid "Mining fee"
 msgstr "Комісія майнера"
+
+#: gui/qt/__init__.py:468
+msgid "Missing libsecp256k1"
+msgstr ""
 
 #: plugins/ledger/auth2fa.py:165
 msgid "Mobile - Not paired"
@@ -2882,7 +3210,7 @@ msgstr "Налаштування парування телефону"
 msgid "Modify wallet password & encryption settings"
 msgstr ""
 
-#: gui/qt/installwizard.py:548
+#: gui/qt/installwizard.py:549
 msgid "Multi-Signature Wallet"
 msgstr "Гаманець з мультипідписом"
 
@@ -2906,7 +3234,7 @@ msgstr ""
 msgid "NOT DEVICE PIN - see above"
 msgstr "НЕ PIN-код ПРИСТРОЮ - див. вище"
 
-#: gui/qt/external_plugins_window.py:72 gui/qt/main_window.py:2181
+#: gui/qt/external_plugins_window.py:74 gui/qt/main_window.py:2344
 #: gui/qt/contact_list.py:43
 #: ios/ElectronCash/electroncash_gui/ios_native/contacts.py:571
 #: ios/ElectronCash/electroncash_gui/ios_native/wallets.py:355
@@ -2926,8 +3254,8 @@ msgid "Name this {}.  If you have mutiple devices their labels help distinguish 
 msgstr ""
 
 #: gui/kivy/uix/ui_screens/network.kv:3 gui/kivy/main.kv:463
-#: gui/qt/main_window.py:2125 gui/qt/network_dialog.py:48 gui/text.py:150
-#: ios/ElectronCash/electroncash_gui/ios_native/gui.py:2062
+#: gui/qt/main_window.py:2287 gui/qt/network_dialog.py:48 gui/text.py:150
+#: ios/ElectronCash/electroncash_gui/ios_native/gui.py:2065
 msgid "Network"
 msgstr "Мережа"
 
@@ -2936,10 +3264,15 @@ msgid "Network Settings"
 msgstr ""
 
 #: gui/kivy/uix/screens.py:444 gui/qt/invoice_list.py:49
-#: gui/qt/exception_window.py:104 gui/qt/request_list.py:56 gui/qt/util.py:45
+#: gui/qt/exception_window.py:106 gui/qt/request_list.py:59 gui/qt/util.py:45
 #: ios/ElectronCash/electroncash_gui/ios_native/receive.py:287
 msgid "Never"
 msgstr "Ніколи"
+
+#: gui/qt/main_window.py:3900 plugins/shuffle/qt.py:1074
+#: plugins/shuffle/qt.py:1250
+msgid "Never ask for this wallet"
+msgstr ""
 
 #: gui/qt/seed_dialog.py:44
 #: ios/ElectronCash/electroncash_gui/ios_native/seed_dialog.py:89
@@ -2951,11 +3284,11 @@ msgstr "Тримайте свій seed в таємниці."
 msgid "Never type it on a website."
 msgstr "Ніколи не вводьте його на веб-сайтах."
 
-#: gui/kivy/uix/ui_screens/receive.kv:124 gui/qt/main_window.py:929
+#: gui/kivy/uix/ui_screens/receive.kv:124
 msgid "New"
 msgstr "Новий"
 
-#: gui/qt/main_window.py:2171 gui/qt/main_window.py:2173
+#: gui/qt/main_window.py:2334 gui/qt/main_window.py:2336
 #: ios/ElectronCash/electroncash_gui/ios_native/contacts.py:565
 #: ios/ElectronCash/electroncash_gui/ios_native/txdetail.py:337
 msgid "New Contact"
@@ -2982,10 +3315,13 @@ msgstr "Новий контакт"
 msgid "New request added to your list."
 msgstr ""
 
-#: gui/qt/main_window.py:3650
-#: ios/ElectronCash/electroncash_gui/ios_native/gui.py:768
+#: ios/ElectronCash/electroncash_gui/ios_native/gui.py:771
 msgid "New transaction received: {}"
 msgstr "Отримана нова трансакція: {}"
+
+#: gui/qt/main_window.py:4100
+msgid "New transaction: {}"
+msgstr ""
 
 #: gui/qt/installwizard.py:117
 #: ios/ElectronCash/electroncash_gui/ios_native/newwallet.py:33
@@ -2998,11 +3334,11 @@ msgstr "Далі"
 
 #: plugins/keepkey/qt_generic.py:325 plugins/trezor/qt.py:309
 #: ios/ElectronCash/electroncash_gui/ios_native/newwallet.py:1344
-#: ios/ElectronCash/electroncash_gui/ios_native/gui.py:808
-#: ios/ElectronCash/electroncash_gui/ios_native/gui.py:810
-#: ios/ElectronCash/electroncash_gui/ios_native/gui.py:1067
-#: ios/ElectronCash/electroncash_gui/ios_native/gui.py:2261
-#: ios/ElectronCash/electroncash_gui/ios_native/gui.py:2263
+#: ios/ElectronCash/electroncash_gui/ios_native/gui.py:811
+#: ios/ElectronCash/electroncash_gui/ios_native/gui.py:813
+#: ios/ElectronCash/electroncash_gui/ios_native/gui.py:1070
+#: ios/ElectronCash/electroncash_gui/ios_native/gui.py:2264
+#: ios/ElectronCash/electroncash_gui/ios_native/gui.py:2266
 msgid "No"
 msgstr "Ні"
 
@@ -3018,12 +3354,16 @@ msgstr "Без опису"
 msgid "No Match"
 msgstr ""
 
+#: plugins/shuffle/qt.py:1985
+msgid "No Pools"
+msgstr ""
+
 #: gui/kivy/main_window.py:640
-#: ios/ElectronCash/electroncash_gui/ios_native/gui.py:1376
+#: ios/ElectronCash/electroncash_gui/ios_native/gui.py:1379
 msgid "No Wallet"
 msgstr "Немає Гаманців"
 
-#: ios/ElectronCash/electroncash_gui/ios_native/gui.py:1385
+#: ios/ElectronCash/electroncash_gui/ios_native/gui.py:1388
 msgid "No Wallet Is Open"
 msgstr ""
 
@@ -3035,19 +3375,23 @@ msgstr ""
 msgid "No addresses match the specified criteria"
 msgstr ""
 
+#: gui/qt/scan_beyond_gap.py:158
+msgid "No addresses with transaction histories were found in the specified scan range."
+msgstr ""
+
 #: ios/ElectronCash/electroncash_gui/ios_native/coins.py:374
 msgid "No coins"
 msgstr ""
 
-#: lib/exchange_rate.py:433
+#: lib/exchange_rate.py:456
 msgid "No data"
 msgstr "Немає даних"
 
-#: gui/qt/external_plugins_window.py:368
+#: gui/qt/external_plugins_window.py:371
 msgid "No description provided."
 msgstr ""
 
-#: gui/qt/main_window.py:627
+#: gui/qt/main_window.py:644
 msgid "No donation address for this server"
 msgstr "Немає пожертвувальної адреси для цього сервера"
 
@@ -3067,16 +3411,16 @@ msgstr "У вашій системі відсутня підтримка апа�
 msgid "No inputs found. (Note that inputs need to be confirmed)"
 msgstr "Не знайдено жодного вводу. (Зверніть увагу, що вхідні дані повинні бути підтверджені)"
 
-#: gui/qt/main_window.py:1017
+#: gui/qt/main_window.py:1066
 #: ios/ElectronCash/electroncash_gui/ios_native/receive.py:394
 msgid "No message or amount"
 msgstr "Немає повідомлень чи суми"
 
-#: gui/qt/main_window.py:1057
+#: gui/qt/main_window.py:1107
 msgid "No more addresses in your wallet."
 msgstr "У вашому гаманці немає більше адрес."
 
-#: gui/qt/main_window.py:1531
+#: gui/qt/main_window.py:1667
 #: ios/ElectronCash/electroncash_gui/ios_native/send.py:1046
 msgid "No outputs"
 msgstr "Немає результатів"
@@ -3085,12 +3429,12 @@ msgstr "Немає результатів"
 msgid "No payment requests found. Feel free to create one."
 msgstr ""
 
-#: gui/qt/main_window.py:1013
+#: gui/qt/main_window.py:1062
 #: ios/ElectronCash/electroncash_gui/ios_native/receive.py:389
 msgid "No receiving address"
 msgstr ""
 
-#: lib/network.py:1539
+#: lib/network.py:1639
 msgid "No such mempool or blockchain transaction exists."
 msgstr ""
 
@@ -3098,7 +3442,7 @@ msgstr ""
 msgid "No transactions"
 msgstr ""
 
-#: gui/qt/installwizard.py:415
+#: gui/qt/installwizard.py:416
 msgid "No transactions found for this seed"
 msgstr "Для цього seed не виявлені транзакції"
 
@@ -3113,7 +3457,7 @@ msgstr ""
 #: gui/kivy/uix/ui_screens/network.kv:30 gui/kivy/uix/dialogs/fx_dialog.py:97
 #: gui/kivy/uix/dialogs/fx_dialog.py:98 gui/kivy/uix/dialogs/fx_dialog.py:103
 #: gui/kivy/uix/dialogs/settings.py:141 gui/kivy/uix/dialogs/settings.py:208
-#: gui/qt/main_window.py:3179 gui/qt/network_dialog.py:452
+#: gui/qt/main_window.py:3480 gui/qt/network_dialog.py:489
 #: ios/ElectronCash/electroncash_gui/ios_native/prefs.py:111
 #: ios/ElectronCash/electroncash_gui/ios_native/prefs.py:363
 #: ios/ElectronCash/electroncash_gui/ios_native/prefs.py:392
@@ -3121,6 +3465,10 @@ msgstr ""
 #: ios/ElectronCash/electroncash_gui/ios_native/network_dialog.py:233
 msgid "None"
 msgstr "Порожньо"
+
+#: gui/qt/scan_beyond_gap.py:46
+msgid "Normally, when you (re)generate a wallet from its seed, addresses are derived and added to the wallet until a block of addresses is found without a history. This is referred to as the gap."
+msgstr ""
 
 #: lib/i18n.py:59
 msgid "Norwegian"
@@ -3130,9 +3478,13 @@ msgstr ""
 msgid "Not Deleted"
 msgstr ""
 
-#: gui/qt/exception_window.py:108
+#: gui/qt/exception_window.py:110
 msgid "Not Now"
 msgstr "Не зараз"
+
+#: gui/qt/main_window.py:1533
+msgid "Not Removable"
+msgstr ""
 
 #: lib/wallet.py:69
 msgid "Not Verified"
@@ -3143,14 +3495,14 @@ msgid "Not a text file"
 msgstr ""
 
 #: gui/kivy/main_window.py:831 gui/kivy/uix/ui_screens/network.kv:14
-#: gui/qt/main_window.py:809 gui/qt/main_window.py:1677
-#: gui/qt/network_dialog.py:471 gui/text.py:143 gui/stdio.py:122
+#: gui/qt/main_window.py:844 gui/qt/main_window.py:1813
+#: gui/qt/network_dialog.py:516 gui/text.py:143 gui/stdio.py:122
 #: ios/ElectronCash/electroncash_gui/ios_native/network_dialog.py:257
-#: ios/ElectronCash/electroncash_gui/ios_native/gui.py:705
+#: ios/ElectronCash/electroncash_gui/ios_native/gui.py:708
 msgid "Not connected"
 msgstr "Не підключено"
 
-#: gui/kivy/uix/screens.py:277 gui/qt/main_window.py:1271
+#: gui/kivy/uix/screens.py:277 gui/qt/main_window.py:1353
 msgid "Not enough funds"
 msgstr "Недостатньо коштів"
 
@@ -3158,11 +3510,15 @@ msgstr "Недостатньо коштів"
 msgid "Not enough funds on address."
 msgstr "Недостатньо коштів за адресою."
 
-#: lib/wallet.py:579
+#: gui/qt/main_window.py:3901
+msgid "Not now"
+msgstr ""
+
+#: lib/wallet.py:605
 msgid "Not verified"
 msgstr "Не підтверджено"
 
-#: gui/qt/main_window.py:1185
+#: gui/qt/main_window.py:1267
 msgid "Note that if you have frozen some of your addresses, the available funds will be lower than your total balance."
 msgstr "Зверніть увагу, що якщо ви заморозили деякі з ваших адрес, наявні кошти будуть менші, ніж ваш загальний баланс."
 
@@ -3174,12 +3530,16 @@ msgstr "Зауважте, що це НЕ ваш пароль шифруванн�
 msgid "Nothing set !"
 msgstr "Нічого не вибрано!"
 
-#: gui/qt/main_window.py:2920
+#: gui/qt/scan_beyond_gap.py:55
+msgid "Number of addresses to scan:"
+msgstr ""
+
+#: gui/qt/main_window.py:3213
 msgid "Number of zeros displayed after the decimal point. For example, if this is set to 2, \"1.\" will be displayed as \"1.00\""
 msgstr "Кількість десяткових нулів, що відображаються після коми. Наприклад, якщо вказано значення 2, то \"1.\" буде відображатися як \"1.00\""
 
 #: gui/kivy/uix/ui_screens/server.kv:57 gui/kivy/uix/ui_screens/proxy.kv:64
-#: gui/qt/util.py:149 plugins/audio_modem/qt.py:65
+#: gui/qt/util.py:153 plugins/audio_modem/qt.py:65
 #: ios/ElectronCash/electroncash_gui/ios_native/wallets.py:589
 #: ios/ElectronCash/electroncash_gui/ios_native/seed_dialog.py:87
 #: ios/ElectronCash/electroncash_gui/ios_native/password_dialog.py:288
@@ -3191,56 +3551,74 @@ msgstr "Кількість десяткових нулів, що відобра�
 #: ios/ElectronCash/electroncash_gui/ios_native/prefs.py:538
 #: ios/ElectronCash/electroncash_gui/ios_native/utils.py:362
 #: ios/ElectronCash/electroncash_gui/ios_native/utils.py:540
-#: ios/ElectronCash/electroncash_gui/ios_native/gui.py:1075
+#: ios/ElectronCash/electroncash_gui/ios_native/gui.py:1078
 msgid "OK"
 msgstr "ОК"
 
-#: gui/qt/main_window.py:1157
+#: gui/qt/main_window.py:1239
 msgid "OP_RETURN"
 msgstr ""
 
-#: gui/qt/main_window.py:1154
+#: gui/qt/main_window.py:1236
 msgid "OP_RETURN data (optional)."
 msgstr ""
 
-#: gui/qt/main_window.py:1285 gui/qt/main_window.py:1346
+#: gui/qt/main_window.py:1371 gui/qt/main_window.py:1432
 msgid "OP_RETURN message too large, needs to be under 220 bytes"
 msgstr ""
 
-#: gui/qt/main_window.py:1361
+#: gui/qt/main_window.py:1447
 msgid "OP_RETURN script expected to be hexadecimal bytes"
 msgstr ""
 
-#: gui/qt/main_window.py:1363
+#: gui/qt/main_window.py:1449
 msgid "OP_RETURN script too large, needs to be under 223 bytes"
 msgstr ""
 
-#: gui/kivy/main_window.py:643 gui/qt/main_window.py:772 gui/qt/__init__.py:313
-#: gui/text.py:131 ios/ElectronCash/electroncash_gui/ios_native/wallets.py:153
+#: gui/kivy/main_window.py:643 gui/qt/main_window.py:803 gui/qt/__init__.py:436
+#: gui/text.py:131 plugins/shuffle/qt.py:100
+#: ios/ElectronCash/electroncash_gui/ios_native/wallets.py:153
 #: ios/ElectronCash/electroncash_gui/ios_native/prefs.py:231
-#: ios/ElectronCash/electroncash_gui/ios_native/gui.py:611
-#: ios/ElectronCash/electroncash_gui/ios_native/gui.py:617
-#: ios/ElectronCash/electroncash_gui/ios_native/gui.py:709
+#: ios/ElectronCash/electroncash_gui/ios_native/gui.py:614
+#: ios/ElectronCash/electroncash_gui/ios_native/gui.py:620
+#: ios/ElectronCash/electroncash_gui/ios_native/gui.py:712
 msgid "Offline"
 msgstr "Не в мережі"
+
+#: plugins/shuffle/qt.py:1539 plugins/shuffle/qt.py:1575
+#: plugins/shuffle/qt.py:1659
+msgid "Ok"
+msgstr ""
+
+#: plugins/shuffle/qt.py:1863
+msgid "Omit incompatible pools"
+msgstr ""
 
 #: lib/base_wizard.py:193
 msgid "On Linux, you might have to add a new permission to your udev rules."
 msgstr "У Linux вам, можливо, доведеться додати новий дозвіл на ваші правила udev."
 
-#: gui/qt/main_window.py:1959
+#: gui/qt/main_window.py:2100
 msgid "One output per line."
 msgstr "Один вихід на рядок."
 
 #: ios/ElectronCash/electroncash_gui/ios_native/wallets.py:141
-#: ios/ElectronCash/electroncash_gui/ios_native/gui.py:642
+#: ios/ElectronCash/electroncash_gui/ios_native/gui.py:645
 msgid "Online"
 msgstr ""
 
-#: gui/qt/main_window.py:3047
+#: gui/qt/main_window.py:3336
 #: ios/ElectronCash/electroncash_gui/ios_native/prefs.py:344
 msgid "Online Block Explorer"
 msgstr "Онлайновий провідник по блокам"
+
+#: plugins/shuffle/qt.py:1235
+msgid "Only <b>shuffled</b> funds will be sent"
+msgstr ""
+
+#: plugins/shuffle/qt.py:1241
+msgid "Only <i>unshuffled</i> funds will be sent"
+msgstr ""
 
 #: plugins/keepkey/qt_generic.py:567 plugins/trezor/qt.py:562
 msgid "Only wipe a device if you have the recovery seed written down and the device wallet(s) are empty, otherwise the bitcoins will be lost forever."
@@ -3254,7 +3632,7 @@ msgstr ""
 msgid "Open Wallet"
 msgstr ""
 
-#: gui/qt/main_window.py:2646
+#: gui/qt/main_window.py:2814
 msgid "Open labels file"
 msgstr ""
 
@@ -3262,28 +3640,28 @@ msgstr ""
 msgid "Open your cosigner wallet to retrieve it."
 msgstr ""
 
-#: gui/qt/main_window.py:2965
+#: gui/qt/main_window.py:3257
 msgid "OpenAlias"
 msgstr ""
 
-#: gui/qt/main_window.py:2961
+#: gui/qt/main_window.py:3253
 msgid "OpenAlias record, used to receive coins and to sign payment requests."
 msgstr "Запис OpenAlias, який використовується для отримання монет і підписування платіжних запитів."
 
-#: ios/ElectronCash/electroncash_gui/ios_native/gui.py:1677
-#: ios/ElectronCash/electroncash_gui/ios_native/gui.py:1884
+#: ios/ElectronCash/electroncash_gui/ios_native/gui.py:1680
+#: ios/ElectronCash/electroncash_gui/ios_native/gui.py:1887
 msgid "Opening encrypted wallet: '{}'"
 msgstr ""
 
-#: ios/ElectronCash/electroncash_gui/ios_native/gui.py:1683
+#: ios/ElectronCash/electroncash_gui/ios_native/gui.py:1686
 msgid "Opening {}..."
 msgstr ""
 
-#: gui/qt/main_window.py:591
+#: gui/qt/main_window.py:608
 msgid "Optional &Features"
 msgstr ""
 
-#: gui/qt/main_window.py:3386
+#: gui/qt/main_window.py:3712
 msgid "Optional Features"
 msgstr ""
 
@@ -3306,22 +3684,26 @@ msgstr "Застаріла {} прошивка у пристрої із мітк
 msgid "Output"
 msgstr ""
 
-#: gui/qt/main_window.py:3497
+#: gui/qt/main_window.py:3823
 msgid "Output amount"
 msgstr "Вихідна сума"
 
-#: gui/qt/utxo_list.py:33
+#: gui/qt/utxo_list.py:35
 msgid "Output point"
 msgstr "Вихідна точка"
 
-#: gui/kivy/uix/ui_screens/invoice.kv:62 gui/qt/transaction_dialog.py:281
+#: gui/kivy/uix/ui_screens/invoice.kv:62 gui/qt/transaction_dialog.py:288
 #: ios/ElectronCash/electroncash_gui/ios_native/txdetail.py:100
 msgid "Outputs"
 msgstr "Вихідні"
 
-#: gui/qt/network_dialog.py:267
+#: gui/qt/network_dialog.py:292
 msgid "Overview"
 msgstr "Огляд"
+
+#: plugins/shuffle/qt.py:1481
+msgid "P:"
+msgstr ""
 
 #: plugins/keepkey/qt_generic.py:477 plugins/trezor/qt.py:466
 msgid "PIN Protection"
@@ -3347,7 +3729,7 @@ msgstr "Сплачено"
 msgid "Pair"
 msgstr "Пара"
 
-#: lib/wallet.py:593
+#: lib/wallet.py:619
 msgid "Partially signed"
 msgstr "Частково підписано"
 
@@ -3367,17 +3749,17 @@ msgstr "Секретна фраза"
 msgid "Passphrases allow you to access new wallets, each hidden behind a particular case-sensitive passphrase."
 msgstr "Секретні фрази дозволяють отримувати доступ до нових гаманців, кожен прихований за певною секретною фразою чутливою до регістру."
 
-#: gui/kivy/uix/ui_screens/proxy.kv:47 gui/qt/main_window.py:2110
-#: gui/qt/password_dialog.py:206 gui/qt/network_dialog.py:349
+#: gui/kivy/uix/ui_screens/proxy.kv:47 gui/qt/main_window.py:2251
+#: gui/qt/password_dialog.py:206 gui/qt/network_dialog.py:382
 #: gui/qt/installwizard.py:172
 msgid "Password"
 msgstr "Пароль"
 
-#: ios/ElectronCash/electroncash_gui/ios_native/gui.py:1670
+#: ios/ElectronCash/electroncash_gui/ios_native/gui.py:1673
 msgid "Password Incorrect"
 msgstr ""
 
-#: ios/ElectronCash/electroncash_gui/ios_native/gui.py:1678
+#: ios/ElectronCash/electroncash_gui/ios_native/gui.py:1681
 msgid "Password Required"
 msgstr ""
 
@@ -3386,8 +3768,8 @@ msgstr ""
 msgid "Password Strength"
 msgstr "Надійність пароля"
 
-#: gui/qt/main_window.py:2154
-#: ios/ElectronCash/electroncash_gui/ios_native/gui.py:2002
+#: gui/qt/main_window.py:2317
+#: ios/ElectronCash/electroncash_gui/ios_native/gui.py:2005
 msgid "Password is disabled, this wallet is not protected"
 msgstr "Пароль відключений, даний гаманець не захищений"
 
@@ -3401,8 +3783,8 @@ msgstr ""
 msgid "Password must have less than 64 characters."
 msgstr ""
 
-#: gui/qt/main_window.py:2154
-#: ios/ElectronCash/electroncash_gui/ios_native/gui.py:2002
+#: gui/qt/main_window.py:2317
+#: ios/ElectronCash/electroncash_gui/ios_native/gui.py:2005
 msgid "Password was updated successfully"
 msgstr "Пароль успішно змінено"
 
@@ -3418,6 +3800,19 @@ msgstr "Вставити"
 msgid "Paste an address or use QR"
 msgstr ""
 
+#: plugins/shuffle/qt.py:1264 plugins/shuffle/qt.py:1275
+#: plugins/shuffle/qt.py:1334
+msgid "Pause Shuffling"
+msgstr ""
+
+#: plugins/shuffle/qt.py:1201
+msgid "Pause/Unpause the background shuffle process (frees up 'busy' coins for spending)"
+msgstr ""
+
+#: plugins/shuffle/qt.py:96
+msgid "Paused"
+msgstr ""
+
 #: gui/kivy/uix/ui_screens/send.kv:98
 msgid "Pay"
 msgstr "Оплата"
@@ -3426,14 +3821,14 @@ msgstr "Оплата"
 msgid "Pay Now"
 msgstr "Оплатити зараз"
 
-#: gui/qt/main_window.py:1138 gui/qt/contact_list.py:96 gui/text.py:173
+#: gui/qt/main_window.py:1220 gui/qt/contact_list.py:96 gui/text.py:173
 #: ios/ElectronCash/electroncash_gui/ios_native/contacts.py:606
 #: ios/ElectronCash/electroncash_gui/ios_native/contacts.py:868
 #: ios/ElectronCash/electroncash_gui/ios_native/send.py:144
 msgid "Pay to"
 msgstr "Одержувач"
 
-#: gui/qt/main_window.py:1963
+#: gui/qt/main_window.py:2104
 msgid "Pay to many"
 msgstr "Оплатити більше"
 
@@ -3441,7 +3836,7 @@ msgstr "Оплатити більше"
 msgid "Payment Request"
 msgstr "Запит Платежу"
 
-#: ios/ElectronCash/electroncash_gui/ios_native/gui.py:1139
+#: ios/ElectronCash/electroncash_gui/ios_native/gui.py:1142
 msgid "Payment Request Error"
 msgstr ""
 
@@ -3450,8 +3845,8 @@ msgid "Payment received"
 msgstr "Платіж отримано"
 
 #: gui/kivy/main_window.py:295 gui/kivy/uix/screens.py:248
-#: gui/qt/main_window.py:1493 gui/qt/main_window.py:1655
-#: ios/ElectronCash/electroncash_gui/ios_native/gui.py:1930
+#: gui/qt/main_window.py:1629 gui/qt/main_window.py:1791
+#: ios/ElectronCash/electroncash_gui/ios_native/gui.py:1933
 msgid "Payment request has expired"
 msgstr "Запит оплати закінчився"
 
@@ -3459,8 +3854,8 @@ msgstr "Запит оплати закінчився"
 msgid "Payment request saved"
 msgstr ""
 
-#: gui/kivy/main_window.py:817 gui/qt/main_window.py:1687 gui/text.py:356
-#: gui/stdio.py:205 ios/ElectronCash/electroncash_gui/ios_native/gui.py:1965
+#: gui/kivy/main_window.py:817 gui/qt/main_window.py:1823 gui/text.py:356
+#: gui/stdio.py:205 ios/ElectronCash/electroncash_gui/ios_native/gui.py:1968
 msgid "Payment sent."
 msgstr "Платіж відправлений."
 
@@ -3468,11 +3863,19 @@ msgstr "Платіж відправлений."
 msgid "Pending"
 msgstr "В очікуванні"
 
-#: lib/util.py:63
+#: lib/util.py:64
 msgid "Perhaps it is encrypted..."
 msgstr ""
 
-#: gui/qt/exception_window.py:86
+#: plugins/shuffle/qt.py:105
+msgid "Phase {}"
+msgstr ""
+
+#: plugins/shuffle/qt.py:110 plugins/shuffle/qt.py:1859
+msgid "Players"
+msgstr ""
+
+#: gui/qt/exception_window.py:87
 #: ios/ElectronCash/electroncash_gui/ios_native/crashreporter.py:56
 msgid "Please briefly describe what led to the error (optional):"
 msgstr "Будь ласка, коротко опишіть те, що призвело до помилки (необов'язково):"
@@ -3480,6 +3883,10 @@ msgstr "Будь ласка, коротко опишіть те, що призв
 #: plugins/hw_wallet/qt.py:153
 msgid "Please check your {} device"
 msgstr "Будь ласка, перевірте ваш {} пристрій"
+
+#: plugins/shuffle/qt.py:644
+msgid "Please choose a CashShuffle server"
+msgstr ""
 
 #: gui/qt/qrtextedit.py:53
 msgid "Please ensure you only import text files."
@@ -3493,7 +3900,7 @@ msgstr ""
 msgid "Please enter a seed phrase, a master key, a list of Bitcoin addresses, or a list of private keys"
 msgstr ""
 
-#: gui/qt/installwizard.py:358
+#: gui/qt/installwizard.py:359
 msgid "Please enter the master public key (xpub) of your cosigner."
 msgstr "Будь ласка, введіть відкритий ключ (xpub) вашого поручителя."
 
@@ -3505,7 +3912,8 @@ msgstr ""
 msgid "Please enter the new name for this wallet:"
 msgstr ""
 
-#: gui/qt/main_window.py:998 gui/qt/password_dialog.py:198
+#: gui/qt/main_window.py:1047 gui/qt/password_dialog.py:198
+#: plugins/shuffle/qt.py:621
 msgid "Please enter your password"
 msgstr "Будь ласка, введіть ваш пароль"
 
@@ -3517,11 +3925,11 @@ msgstr "Будь-ласка, введіть свій пароль, щоб роз
 msgid "Please enter your seed derivation passphrase. Note: this is NOT your encryption password. Leave this field empty if you did not use one or are unsure."
 msgstr ""
 
-#: gui/qt/installwizard.py:371
+#: gui/qt/installwizard.py:372
 msgid "Please enter your seed phrase in order to restore your wallet."
 msgstr "Будь ласка, ведіть Ваш seed для того, щоб відновити гаманець."
 
-#: lib/plugins.py:783
+#: lib/plugins.py:789
 msgid "Please insert your {}.  Verify the cable is connected and that no other application is using it.\n\n"
 "Try to connect again?"
 msgstr ""
@@ -3550,11 +3958,11 @@ msgstr ""
 msgid "Please provide cyphertext to decrypt"
 msgstr ""
 
-#: gui/qt/main_window.py:637
+#: gui/qt/main_window.py:654
 msgid "Please report any bugs as issues on github:<br/>"
 msgstr "Будь ласка, повідомляйте про будь-які помилки на GitHub:<br/>"
 
-#: gui/qt/main_window.py:3292
+#: gui/qt/main_window.py:3604
 msgid "Please restart Electron Cash to activate the new GUI settings"
 msgstr ""
 
@@ -3572,11 +3980,11 @@ msgstr ""
 msgid "Please scan a Bitcoin address or a payment request"
 msgstr "Будь-ласка, відскануйте адресу Bitcoin або запит на оплату"
 
-#: lib/plugins.py:795
+#: lib/plugins.py:801
 msgid "Please select which {} device to use:"
 msgstr "Будь ласка, виберіть, який пристрій {} використовувати:"
 
-#: gui/qt/installwizard.py:487
+#: gui/qt/installwizard.py:488
 msgid "Please share it with your cosigners."
 msgstr "Будь ласка, поділіться зі своїми підписантами."
 
@@ -3608,17 +4016,21 @@ msgstr ""
 msgid "Please use the existing requests first."
 msgstr "Будь ласка, спочатку використовуйте наявні запити."
 
-#: gui/qt/util.py:234 ios/ElectronCash/electroncash_gui/ios_native/utils.py:398
+#: gui/qt/__init__.py:466
+msgid "Please visit this page for instructions on how to correct the situation:"
+msgstr ""
+
+#: gui/qt/util.py:294 ios/ElectronCash/electroncash_gui/ios_native/utils.py:398
 #: ios/ElectronCash/electroncash_gui/ios_native/utils.py:400
 msgid "Please wait"
 msgstr "Будь ласка, зачекайте"
 
-#: gui/qt/update_checker.py:239
+#: gui/qt/update_checker.py:236
 msgid "Please wait while Electron Cash checks for available updates."
 msgstr ""
 
 #: gui/qt/installwizard.py:120 gui/text.py:352 gui/stdio.py:201
-#: lib/wallet.py:1152
+#: lib/wallet.py:1260
 msgid "Please wait..."
 msgstr "Будь ласка, зачекайте..."
 
@@ -3626,31 +4038,31 @@ msgstr "Будь ласка, зачекайте..."
 msgid "Please write your seed phrase down, as it's the only way to recover your funds if you forget your password or your device is stolen."
 msgstr ""
 
-#: gui/qt/main_window.py:566
+#: gui/qt/main_window.py:583
 msgid "Plot"
 msgstr ""
 
-#: gui/qt/external_plugins_window.py:360
+#: gui/qt/external_plugins_window.py:363
 msgid "Plugin Details"
 msgstr ""
 
-#: gui/qt/main_window.py:3470
+#: gui/qt/main_window.py:3796
 msgid "Plugin Manager"
 msgstr ""
 
-#: gui/qt/external_plugins_window.py:105
+#: gui/qt/external_plugins_window.py:70
 msgid "Plugin Metadata"
 msgstr ""
 
-#: gui/qt/external_plugins_window.py:334
+#: gui/qt/external_plugins_window.py:337
 msgid "Plugin Preview"
 msgstr ""
 
-#: gui/qt/external_plugins_window.py:116
+#: gui/qt/external_plugins_window.py:119
 msgid "Plugins are risky.  They can steal funds or even damage your computer."
 msgstr ""
 
-#: gui/qt/external_plugins_window.py:83
+#: gui/qt/external_plugins_window.py:88
 msgid "Plugins should support one or more of these interfaces."
 msgstr ""
 
@@ -3658,8 +4070,12 @@ msgstr ""
 msgid "Polish"
 msgstr "Польська"
 
+#: plugins/shuffle/qt.py:1585
+msgid "Pool size"
+msgstr ""
+
 #: gui/kivy/uix/ui_screens/server.kv:31 gui/kivy/uix/ui_screens/proxy.kv:28
-#: gui/qt/network_dialog.py:145 gui/qt/network_dialog.py:640
+#: gui/qt/network_dialog.py:170 gui/qt/network_dialog.py:694
 #: ios/ElectronCash/electroncash_gui/ios_native/network_dialog.py:329
 msgid "Port"
 msgstr "Порт"
@@ -3668,24 +4084,24 @@ msgstr "Порт"
 msgid "Portuguese"
 msgstr "Португальська"
 
-#: gui/qt/main_window.py:1155
+#: gui/qt/main_window.py:1237
 msgid "Posts a PERMANENT note to the BCH blockchain as part of this transaction."
 msgstr ""
 
-#: ios/ElectronCash/electroncash_gui/ios_native/gui.py:1698
+#: ios/ElectronCash/electroncash_gui/ios_native/gui.py:1701
 msgid "Potentially Unsafe Operation"
 msgstr ""
 
-#: gui/qt/main_window.py:587 gui/qt/main_window.py:2120
-#: gui/qt/main_window.py:2876
+#: gui/qt/main_window.py:604 gui/qt/main_window.py:2282
+#: gui/qt/main_window.py:3169
 msgid "Preferences"
 msgstr "Налаштування"
 
-#: gui/qt/network_dialog.py:463
+#: gui/qt/network_dialog.py:508
 msgid "Preferred"
 msgstr ""
 
-#: gui/qt/network_dialog.py:324
+#: gui/qt/network_dialog.py:357
 msgid "Preferred servers ({}) are servers you have designated as reliable and/or trustworthy."
 msgstr ""
 
@@ -3705,38 +4121,46 @@ msgstr "Натисніть Enter"
 msgid "Press again to exit"
 msgstr "Натисніть ще раз, щоб закрити"
 
-#: gui/qt/main_window.py:1242
+#: gui/qt/main_window.py:1324
 #: ios/ElectronCash/electroncash_gui/ios_native/send.py:238
 msgid "Preview"
 msgstr "Попередній перегляд"
+
+#: plugins/shuffle/qt.py:1073 plugins/shuffle/qt.py:1249
+msgid "Privacy Warning"
+msgstr ""
 
 #: gui/kivy/uix/ui_screens/invoice.kv:55
 #: ios/ElectronCash/electroncash_gui/ios_native/private_key_dialog.py:25
 msgid "Private Key"
 msgstr "Приватний ключ"
 
-#: gui/qt/main_window.py:2280 gui/qt/main_window.py:2285
-#: gui/qt/address_list.py:198
+#: gui/qt/main_window.py:2444 gui/qt/main_window.py:2449
+#: gui/qt/address_list.py:201
 #: ios/ElectronCash/electroncash_gui/ios_native/private_key_dialog.py:70
 #: ios/ElectronCash/electroncash_gui/ios_native/addresses.py:913
 msgid "Private key"
 msgstr "Особистий ключ"
 
-#: gui/qt/main_window.py:2546
+#: gui/qt/main_window.py:2714
 msgid "Private keys"
 msgstr "Приватні ключі"
 
-#: gui/qt/main_window.py:2633
+#: gui/qt/main_window.py:2801
 msgid "Private keys exported."
 msgstr "Особисті ключі експортовані."
 
-#: gui/qt/main_window.py:1608
+#: gui/qt/main_window.py:1744
 #: ios/ElectronCash/electroncash_gui/ios_native/send.py:877
 msgid "Proceed?"
 msgstr "Продовжити?"
 
-#: gui/qt/external_plugins_window.py:76
+#: gui/qt/external_plugins_window.py:79
 msgid "Project URL"
+msgstr ""
+
+#: plugins/shuffle/__init__.py:5
+msgid "Protect your privacy and anonymize your coins (UTXOs) by shuffling them with other users of CashShuffle."
 msgstr ""
 
 #: plugins/digitalbitbox/__init__.py:4
@@ -3756,7 +4180,7 @@ msgid "Provides support for air-gapped transaction signing."
 msgstr ""
 
 #: gui/kivy/uix/ui_screens/proxy.kv:3 gui/kivy/uix/ui_screens/network.kv:30
-#: gui/qt/network_dialog.py:269
+#: gui/qt/network_dialog.py:294
 msgid "Proxy"
 msgstr "Проксі"
 
@@ -3768,11 +4192,11 @@ msgstr "Конфігурація проксі"
 msgid "Proxy mode"
 msgstr "Режим проксі"
 
-#: gui/qt/network_dialog.py:372
+#: gui/qt/network_dialog.py:405
 msgid "Proxy settings apply to all connections: with Electron Cash servers, but also with third-party services."
 msgstr ""
 
-#: gui/qt/network_dialog.py:347
+#: gui/qt/network_dialog.py:380
 msgid "Proxy user"
 msgstr "Логін проксі"
 
@@ -3780,7 +4204,7 @@ msgstr "Логін проксі"
 msgid "Pruned transaction outputs"
 msgstr ""
 
-#: gui/qt/main_window.py:2418
+#: gui/qt/main_window.py:2585
 #: ios/ElectronCash/electroncash_gui/ios_native/addresses.py:896
 msgid "Public key"
 msgstr "Відкритий ключ"
@@ -3796,23 +4220,23 @@ msgstr "Відкриті ключі"
 msgid "QR Not Avilable"
 msgstr ""
 
-#: gui/qt/main_window.py:2263
+#: gui/qt/main_window.py:2426
 #: ios/ElectronCash/electroncash_gui/ios_native/private_key_dialog.py:100
 #: ios/ElectronCash/electroncash_gui/ios_native/addrconv.py:95
 #: ios/ElectronCash/electroncash_gui/ios_native/txdetail.py:720
 msgid "QR code"
 msgstr "QR-код"
 
-#: gui/qt/qrcodewidget.py:127
+#: gui/qt/qrcodewidget.py:114
 msgid "QR code copied to clipboard"
 msgstr "QR-код скопійований в буфер обміну"
 
-#: gui/qt/qrcodewidget.py:122
+#: gui/qt/qrcodewidget.py:108
 msgid "QR code saved to file"
 msgstr "QR-код збережений у файл"
 
 #: gui/kivy/uix/dialogs/question.py:51
-#: ios/ElectronCash/electroncash_gui/ios_native/gui.py:1055
+#: ios/ElectronCash/electroncash_gui/ios_native/gui.py:1058
 msgid "Question"
 msgstr "Запитання"
 
@@ -3828,7 +4252,7 @@ msgstr ""
 msgid "Raw Transaction"
 msgstr ""
 
-#: gui/qt/main_window.py:1162
+#: gui/qt/main_window.py:1244
 msgid "Raw hex script"
 msgstr ""
 
@@ -3854,15 +4278,15 @@ msgstr "Відкрити файл"
 msgid "Read from microphone"
 msgstr "Читати з мікрофона"
 
-#: gui/qt/main_window.py:3541
+#: gui/qt/main_window.py:3970
 msgid "Rebuild Wallet History"
 msgstr ""
 
-#: gui/qt/main_window.py:3539
+#: gui/qt/main_window.py:3968
 msgid "Rebuild this wallet's history now?"
 msgstr ""
 
-#: gui/kivy/main.kv:404 gui/qt/main_window.py:157 gui/text.py:64
+#: gui/kivy/main.kv:404 gui/qt/main_window.py:161 gui/text.py:64
 #: ios/ElectronCash/electroncash_gui/ios_native/receive.py:72
 #: ios/ElectronCash/electroncash_gui/ios_native/gui.py:306
 msgid "Receive"
@@ -3872,7 +4296,7 @@ msgstr "Отримання"
 msgid "Received"
 msgstr "Отримано"
 
-#: gui/kivy/uix/ui_screens/address.kv:73 gui/qt/address_list.py:107
+#: gui/kivy/uix/ui_screens/address.kv:73 gui/qt/address_list.py:110
 #: ios/ElectronCash/electroncash_gui/ios_native/coins.py:608
 #: ios/ElectronCash/electroncash_gui/ios_native/addresses.py:31
 msgid "Receiving"
@@ -3882,7 +4306,11 @@ msgstr "Отримання"
 msgid "Receiving Address"
 msgstr ""
 
-#: gui/qt/main_window.py:885
+#: gui/qt/scan_beyond_gap.py:62
+msgid "Receiving Addresses Only"
+msgstr ""
+
+#: gui/qt/main_window.py:922
 #: ios/ElectronCash/electroncash_gui/ios_native/receive.py:197
 msgid "Receiving address"
 msgstr "Адреса отримання"
@@ -3895,7 +4323,7 @@ msgstr "Отримувач"
 msgid "Recipient not specified."
 msgstr "Одержувач не вказаний."
 
-#: gui/qt/main_window.py:1136
+#: gui/qt/main_window.py:1218
 msgid "Recipient of the funds."
 msgstr "Одержувач коштів."
 
@@ -3903,11 +4331,11 @@ msgstr "Одержувач коштів."
 msgid "Recover from a seed you have previously written down"
 msgstr "Відновити з фрази-паролю (seed), яку ви раніше записали"
 
-#: gui/qt/installwizard.py:413
+#: gui/qt/installwizard.py:414
 msgid "Recovery successful"
 msgstr "Успішне відновлення"
 
-#: gui/qt/main_window.py:2289 gui/qt/address_dialog.py:86
+#: gui/qt/main_window.py:2453 gui/qt/address_dialog.py:86
 #: ios/ElectronCash/electroncash_gui/ios_native/private_key_dialog.py:75
 msgid "Redeem Script"
 msgstr "Скрипт відновлення"
@@ -3916,7 +4344,7 @@ msgstr "Скрипт відновлення"
 msgid "Reenter your seed phrase"
 msgstr ""
 
-#: gui/qt/main_window.py:1436
+#: gui/qt/main_window.py:1531
 #: ios/ElectronCash/electroncash_gui/ios_native/contacts.py:298
 #: ios/ElectronCash/electroncash_gui/ios_native/receive.py:707
 #: ios/ElectronCash/electroncash_gui/ios_native/send.py:997
@@ -3924,15 +4352,15 @@ msgstr ""
 msgid "Remove"
 msgstr "Видалити"
 
-#: gui/qt/network_dialog.py:173
+#: gui/qt/network_dialog.py:198
 msgid "Remove from preferred"
 msgstr ""
 
-#: gui/qt/address_list.py:203
+#: gui/qt/address_list.py:206
 msgid "Remove from wallet"
 msgstr "Видалити з гаманця"
 
-#: gui/qt/main_window.py:1994
+#: gui/qt/main_window.py:2135
 msgid "Remove {} from your list of contacts?"
 msgstr "Видалити {} з вашого списку контактів?"
 
@@ -3953,7 +4381,7 @@ msgstr ""
 msgid "Report Sent"
 msgstr ""
 
-#: gui/qt/main_window.py:642
+#: gui/qt/main_window.py:659
 msgid "Reporting Bugs"
 msgstr "Повідомлення про Проблеми"
 
@@ -3977,7 +4405,7 @@ msgstr "Запит скопійовано в буфер обміну"
 msgid "Request expired"
 msgstr ""
 
-#: gui/qt/main_window.py:918
+#: gui/qt/main_window.py:954
 #: ios/ElectronCash/electroncash_gui/ios_native/receive.py:201
 msgid "Request expires"
 msgstr "Запит протермінований"
@@ -3986,7 +4414,7 @@ msgstr "Запит протермінований"
 msgid "Request paid"
 msgstr ""
 
-#: gui/qt/address_list.py:196
+#: gui/qt/address_list.py:199
 #: ios/ElectronCash/electroncash_gui/ios_native/coins.py:632
 #: ios/ElectronCash/electroncash_gui/ios_native/addresses.py:878
 msgid "Request payment"
@@ -3996,7 +4424,7 @@ msgstr "Запит на оплату"
 msgid "Request pending"
 msgstr ""
 
-#: gui/qt/main_window.py:1049
+#: gui/qt/main_window.py:1099
 msgid "Request saved successfully"
 msgstr "Запит успішно збережений"
 
@@ -4004,23 +4432,23 @@ msgstr "Запит успішно збережений"
 msgid "Request sent."
 msgstr "Запит надіслано."
 
-#: gui/qt/main_window.py:898
+#: gui/qt/main_window.py:934
 #: ios/ElectronCash/electroncash_gui/ios_native/receive.py:199
 msgid "Requested amount"
 msgstr "Запитувана сума"
 
 #: gui/kivy/uix/ui_screens/invoice.kv:40 gui/qt/invoice_list.py:36
-#: gui/qt/main_window.py:2020
+#: gui/qt/main_window.py:2161
 msgid "Requestor"
 msgstr "Запитувач"
 
-#: gui/qt/main_window.py:943
+#: gui/qt/main_window.py:983
 #: ios/ElectronCash/electroncash_gui/ios_native/receive.py:721
 #: ios/ElectronCash/electroncash_gui/ios_native/wallets.py:67
 msgid "Requests"
 msgstr "Запити"
 
-#: gui/qt/installwizard.py:534
+#: gui/qt/installwizard.py:535
 #, python-format
 msgid "Require %d signatures"
 msgstr ""
@@ -4029,7 +4457,7 @@ msgstr ""
 msgid "Required package 'PIL' is not available - Please install it or use the Trezor website instead."
 msgstr ""
 
-#: gui/qt/main_window.py:3453
+#: gui/qt/main_window.py:3779
 msgid "Requires"
 msgstr "Потрібно"
 
@@ -4037,12 +4465,32 @@ msgstr "Потрібно"
 msgid "Reset"
 msgstr "Скинути"
 
+#: gui/qt/main_window.py:3077
+msgid "Resolve Server Problem..."
+msgstr ""
+
+#: gui/qt/main_window.py:3917
+msgid "Restart the CashShuffle plugin now?"
+msgstr ""
+
 #: ios/ElectronCash/electroncash_gui/ios_native/newwallet.py:815
 #: ios/ElectronCash/electroncash_gui/ios_native/newwallet.py:1544
 msgid "Restore from Seed"
 msgstr ""
 
-#: gui/qt/external_plugins_window.py:112
+#: gui/qt/main_window.py:3065
+msgid "Right-click for context menu"
+msgstr ""
+
+#: gui/qt/main_window.py:3944
+msgid "Right-click to resolve"
+msgstr ""
+
+#: gui/qt/main_window.py:3076
+msgid "Right-click to select a different CashShuffle server"
+msgstr ""
+
+#: gui/qt/external_plugins_window.py:115
 msgid "Risks and Dangers"
 msgstr ""
 
@@ -4054,38 +4502,50 @@ msgstr "Румунська"
 msgid "Russian"
 msgstr "Російська"
 
-#: gui/qt/external_plugins_window.py:103
+#: gui/qt/external_plugins_window.py:108
 msgid "SHA256 Checksum"
 msgstr ""
 
-#: gui/qt/main_window.py:3003
+#: plugins/shuffle/qt.py:1484
+msgid "SSL"
+msgstr ""
+
+#: gui/qt/main_window.py:3295
 msgid "SSL certificate"
 msgstr "SSL-сертифікат"
 
-#: gui/qt/main_window.py:2990
+#: gui/qt/main_window.py:3282
 msgid "SSL certificate used to sign payment requests."
 msgstr "SSL-сертифікат використовується для підпису виставлених рахунків."
+
+#: gui/qt/network_dialog.py:341
+msgid "SSL is used to authenticate and encrypt your connections with the blockchain servers."
+msgstr ""
 
 #: ios/ElectronCash/electroncash_gui/ios_native/contacts.py:572
 msgid "Satoshi Nakamoto"
 msgstr ""
 
-#: gui/qt/main_window.py:926 gui/qt/main_window.py:2042
-#: gui/qt/qrcodewidget.py:133 gui/qt/transaction_dialog.py:104
+#: gui/qt/main_window.py:961 gui/qt/main_window.py:2183
+#: gui/qt/qrcodewidget.py:140 gui/qt/transaction_dialog.py:105
 #: ios/ElectronCash/electroncash_gui/ios_native/newwallet.py:268
 msgid "Save"
 msgstr "Зберегти"
+
+#: gui/qt/qrcodewidget.py:105 gui/qt/qrwindow.py:71
+msgid "Save QR Image"
+msgstr ""
 
 #: ios/ElectronCash/electroncash_gui/ios_native/newwallet.py:34
 #: ios/ElectronCash/electroncash_gui/ios_native/newwallet.py:266
 msgid "Save Wallet"
 msgstr ""
 
-#: gui/qt/request_list.py:127
+#: gui/qt/request_list.py:151
 msgid "Save as BIP70 file"
 msgstr "Зберегти як BIP70-файл"
 
-#: gui/qt/main_window.py:2036
+#: gui/qt/main_window.py:2177
 msgid "Save invoice to file"
 msgstr "Зберегти рахунок в файл"
 
@@ -4097,15 +4557,27 @@ msgstr ""
 msgid "Save/Export Wallet"
 msgstr ""
 
+#: gui/qt/scan_beyond_gap.py:39
+msgid "Scan Beyond Gap"
+msgstr ""
+
 #: plugins/ledger/auth2fa.py:27
 msgid "Scan this QR code with your LedgerWallet phone app to pair it with this Ledger device.<br>To complete pairing you will need your security card to answer a challenge."
+msgstr ""
+
+#: gui/qt/scan_beyond_gap.py:44
+msgid "Scanning Beyond the Gap"
+msgstr ""
+
+#: gui/qt/scan_beyond_gap.py:140
+msgid "Scanning {} of {} addresses ...{}"
 msgstr ""
 
 #: plugins/trezor/qt.py:237
 msgid "Scrambled words"
 msgstr ""
 
-#: gui/qt/main_window.py:2200 gui/qt/main_window.py:2284
+#: gui/qt/main_window.py:2363 gui/qt/main_window.py:2448
 #: ios/ElectronCash/electroncash_gui/ios_native/private_key_dialog.py:64
 msgid "Script type"
 msgstr "Тип скрипту"
@@ -4114,11 +4586,11 @@ msgstr "Тип скрипту"
 msgid "Search"
 msgstr ""
 
-#: ios/ElectronCash/electroncash_gui/ios_native/gui.py:1796
+#: ios/ElectronCash/electroncash_gui/ios_native/gui.py:1799
 msgid "Secure Enclave Key Reset"
 msgstr ""
 
-#: ios/ElectronCash/electroncash_gui/ios_native/gui.py:2020
+#: ios/ElectronCash/electroncash_gui/ios_native/gui.py:2023
 msgid "Secure Enclave Unavailable"
 msgstr ""
 
@@ -4126,11 +4598,11 @@ msgstr ""
 msgid "Security Card Challenge"
 msgstr ""
 
-#: gui/qt/external_plugins_window.py:259
+#: gui/qt/external_plugins_window.py:262 gui/qt/network_dialog.py:82
 msgid "Security Warning"
 msgstr ""
 
-#: gui/kivy/main_window.py:901 gui/qt/main_window.py:2121
+#: gui/kivy/main_window.py:901 gui/qt/main_window.py:2283
 #: gui/qt/seed_dialog.py:204
 #: ios/ElectronCash/electroncash_gui/ios_native/newwallet.py:33
 #: ios/ElectronCash/electroncash_gui/ios_native/newwallet.py:289
@@ -4153,7 +4625,7 @@ msgstr "Тип seed"
 msgid "Seed extension"
 msgstr "Розширення фрази-паролю (seed)"
 
-#: gui/qt/external_plugins_window.py:322
+#: gui/qt/external_plugins_window.py:325
 msgid "Select Plugin"
 msgstr ""
 
@@ -4161,11 +4633,11 @@ msgstr ""
 msgid "Select a device"
 msgstr "Виберіть пристрій"
 
-#: gui/qt/main_window.py:2560
+#: gui/qt/main_window.py:2728
 msgid "Select file to export your private keys to"
 msgstr "Виберіть файл для експорту ваших особистих ключів"
 
-#: gui/qt/main_window.py:2681
+#: gui/qt/main_window.py:2849
 msgid "Select file to export your wallet transactions to"
 msgstr "Виберіть файл, в який слід експортувати ваші транзакції"
 
@@ -4173,7 +4645,7 @@ msgstr "Виберіть файл, в який слід експортувати
 msgid "Select file to save your contacts"
 msgstr ""
 
-#: gui/qt/main_window.py:2668
+#: gui/qt/main_window.py:2836
 msgid "Select file to save your labels"
 msgstr ""
 
@@ -4181,11 +4653,11 @@ msgstr ""
 msgid "Select recovery type:"
 msgstr ""
 
-#: gui/qt/network_dialog.py:282
+#: gui/qt/network_dialog.py:308
 msgid "Select server automatically"
 msgstr "Вибрати сервер автоматично"
 
-#: gui/qt/installwizard.py:502
+#: gui/qt/installwizard.py:503
 msgid "Select server manually"
 msgstr "Вибрати сервер вручну"
 
@@ -4193,15 +4665,15 @@ msgstr "Вибрати сервер вручну"
 msgid "Select when the payment request should expire"
 msgstr ""
 
-#: gui/qt/main_window.py:1045
+#: gui/qt/main_window.py:1095
 msgid "Select where to save your payment request"
 msgstr "Виберіть місце для збереження запиту платежу"
 
-#: gui/qt/transaction_dialog.py:210
+#: gui/qt/transaction_dialog.py:217
 msgid "Select where to save your signed transaction"
 msgstr "Виберіть, куди зберегти вашу підписану транзакцію"
 
-#: gui/qt/main_window.py:2891
+#: gui/qt/main_window.py:3184
 msgid "Select which language is used in the GUI (after restart)."
 msgstr "Виберіть, яку мову використовувати в інтерфейсі (після перезапуску)."
 
@@ -4213,18 +4685,18 @@ msgstr "Виберіть довжину фрази-паролю (seed):"
 msgid "Select your server automatically"
 msgstr "Вибрати сервер автоматично"
 
-#: gui/qt/main_window.py:2488
+#: gui/qt/main_window.py:2656
 msgid "Select your transaction file"
 msgstr "Виберіть ваш файл транзакції"
 
-#: gui/kivy/main.kv:396 gui/qt/main_window.py:156 gui/qt/main_window.py:1244
+#: gui/kivy/main.kv:396 gui/qt/main_window.py:160 gui/qt/main_window.py:1326
 #: gui/text.py:64 ios/ElectronCash/electroncash_gui/ios_native/send.py:67
 #: ios/ElectronCash/electroncash_gui/ios_native/send.py:236
 #: ios/ElectronCash/electroncash_gui/ios_native/gui.py:305
 msgid "Send"
 msgstr "Відправити"
 
-#: gui/qt/exception_window.py:99
+#: gui/qt/exception_window.py:101
 msgid "Send Bug Report"
 msgstr "Надіслати звіт про помилку"
 
@@ -4257,24 +4729,28 @@ msgid "Sending Report..."
 msgstr ""
 
 #: gui/kivy/uix/ui_screens/server.kv:3 gui/kivy/uix/ui_screens/network.kv:21
-#: gui/qt/network_dialog.py:268 gui/qt/network_dialog.py:312
-#: gui/qt/network_dialog.py:393
+#: gui/qt/network_dialog.py:293 gui/qt/network_dialog.py:345
+#: gui/qt/network_dialog.py:426 plugins/shuffle/qt.py:1583
 msgid "Server"
 msgstr "Сервер"
+
+#: gui/qt/main_window.py:3944
+msgid "Server Error"
+msgstr ""
 
 #: ios/ElectronCash/electroncash_gui/ios_native/wallets.py:150
 msgid "Server Lagging"
 msgstr ""
 
-#: gui/qt/network_dialog.py:634
+#: gui/qt/network_dialog.py:688
 msgid "Server ban list is empty!"
 msgstr ""
 
-#: gui/qt/network_dialog.py:167
+#: gui/qt/network_dialog.py:192
 msgid "Server banned"
 msgstr ""
 
-#: lib/network.py:1556
+#: lib/network.py:1656
 msgid "Server did not answer"
 msgstr ""
 
@@ -4282,24 +4758,28 @@ msgstr ""
 msgid "Server hosting your email acount"
 msgstr ""
 
-#: gui/qt/main_window.py:786
-#: ios/ElectronCash/electroncash_gui/ios_native/gui.py:669
+#: gui/qt/main_window.py:817
+#: ios/ElectronCash/electroncash_gui/ios_native/gui.py:672
 msgid "Server is lagging ({} blocks)"
 msgstr "Сервер відстає ({} блоків)"
+
+#: plugins/shuffle/qt.py:1564
+msgid "Server is misconfigured"
+msgstr ""
 
 #: gui/kivy/main_window.py:650
 msgid "Server lagging ({} blocks)"
 msgstr ""
 
-#: gui/qt/network_dialog.py:457
+#: gui/qt/network_dialog.py:500
 msgid "Server peers"
 msgstr "Серверні піри"
 
-#: lib/network.py:1615
+#: lib/network.py:1715
 msgid "Server response does not match signed transaction ID."
 msgstr ""
 
-#: lib/network.py:1559
+#: lib/network.py:1659
 msgid "Server returned an error response"
 msgstr ""
 
@@ -4307,7 +4787,7 @@ msgstr ""
 msgid "Server used to query your history."
 msgstr "Сервер використовується для запиту вашої історії."
 
-#: gui/qt/network_dialog.py:457
+#: gui/qt/network_dialog.py:500 plugins/shuffle/qt.py:1473
 msgid "Servers"
 msgstr ""
 
@@ -4319,9 +4799,10 @@ msgstr "Тайм-аут сеансу"
 msgid "Set a PIN"
 msgstr "Встановити PIN-код"
 
-#: gui/kivy/main.kv:466 gui/text.py:150 plugins/email_requests/qt.py:179
-#: plugins/keepkey/qt_generic.py:580 plugins/labels/qt.py:46
-#: plugins/audio_modem/qt.py:46 plugins/trezor/qt.py:575
+#: gui/kivy/main.kv:466 gui/text.py:150 plugins/shuffle/qt.py:996
+#: plugins/email_requests/qt.py:179 plugins/keepkey/qt_generic.py:580
+#: plugins/labels/qt.py:46 plugins/audio_modem/qt.py:46
+#: plugins/trezor/qt.py:575
 #: ios/ElectronCash/electroncash_gui/ios_native/prefs.py:56
 msgid "Settings"
 msgstr "Налаштування"
@@ -4360,7 +4841,7 @@ msgstr ""
 msgid "Share/Save..."
 msgstr ""
 
-#: gui/qt/main_window.py:252 gui/qt/main_window.py:574
+#: gui/qt/main_window.py:267 gui/qt/main_window.py:591
 #: ios/ElectronCash/electroncash_gui/ios_native/newwallet.py:183
 #: ios/ElectronCash/electroncash_gui/ios_native/newwallet.py:184
 msgid "Show"
@@ -4386,7 +4867,7 @@ msgstr ""
 msgid "Show Contact"
 msgstr ""
 
-#: gui/qt/main_window.py:3249
+#: gui/qt/main_window.py:3561
 #: ios/ElectronCash/electroncash_gui/ios_native/prefs.py:379
 msgid "Show Fiat balance for addresses"
 msgstr "Показати фіатний баланс для адрес"
@@ -4399,18 +4880,18 @@ msgstr "Показати QR-код"
 msgid "Show Script QR"
 msgstr ""
 
-#: gui/qt/transaction_dialog.py:80 gui/qt/qrtextedit.py:16
+#: gui/qt/transaction_dialog.py:81 gui/qt/qrtextedit.py:16
 #: gui/qt/qrtextedit.py:30
 #: ios/ElectronCash/electroncash_gui/ios_native/seed_dialog.py:149
 #: ios/ElectronCash/electroncash_gui/ios_native/txdetail.py:778
 msgid "Show as QR code"
 msgstr "Показати як QR-код"
 
-#: gui/qt/main_window.py:2954
+#: gui/qt/main_window.py:3246
 msgid "Show fee edit box in send tab."
 msgstr "Показувати поле коригування комісії при відправленні."
 
-#: gui/qt/main_window.py:3248
+#: gui/qt/main_window.py:3560
 #: ios/ElectronCash/electroncash_gui/ios_native/prefs.py:370
 msgid "Show history rates"
 msgstr "Показати історію"
@@ -4428,7 +4909,7 @@ msgstr "Показати на Ledger"
 msgid "Show on {}"
 msgstr "Показати на {}"
 
-#: gui/qt/exception_window.py:82
+#: gui/qt/exception_window.py:83
 msgid "Show report contents"
 msgstr "Відобразити вміст звіту"
 
@@ -4436,7 +4917,7 @@ msgstr "Відобразити вміст звіту"
 msgid "Show seed"
 msgstr "Показати фразу-пароль (seed)"
 
-#: gui/qt/__init__.py:139
+#: gui/qt/__init__.py:227
 msgid "Show/Hide"
 msgstr "Показати/Приховати"
 
@@ -4444,7 +4925,39 @@ msgstr "Показати/Приховати"
 msgid "Showing address ..."
 msgstr "Відображення адреси ..."
 
-#: gui/qt/main_window.py:2368 gui/qt/transaction_dialog.py:98
+#: plugins/shuffle/qt.py:387
+msgid "Shuffle status"
+msgstr ""
+
+#: plugins/shuffle/qt.py:74
+msgid "Shuffled"
+msgstr ""
+
+#: plugins/shuffle/qt.py:1161
+msgid "Shuffled (private) funds"
+msgstr ""
+
+#: plugins/shuffle/qt.py:76
+msgid "Shuffled Addr"
+msgstr ""
+
+#: plugins/shuffle/qt.py:303
+msgid "Shuffled coin spent (frozen for privacy)"
+msgstr ""
+
+#: plugins/shuffle/qt.py:828
+msgid "Shuffled: {} {} in {} Coin"
+msgstr ""
+
+#: plugins/shuffle/qt.py:829
+msgid "Shuffled: {} {} in {} Coins"
+msgstr ""
+
+#: plugins/shuffle/qt.py:1264 plugins/shuffle/qt.py:1334
+msgid "Shuffling Paused"
+msgstr ""
+
+#: gui/qt/main_window.py:2534 gui/qt/transaction_dialog.py:99
 #: ios/ElectronCash/electroncash_gui/ios_native/txdetail.py:433
 msgid "Sign"
 msgstr "Підписати"
@@ -4453,26 +4966,26 @@ msgstr "Підписати"
 msgid "Sign/Verify Message"
 msgstr ""
 
-#: gui/qt/main_window.py:2346
+#: gui/qt/main_window.py:2510
 #: ios/ElectronCash/electroncash_gui/ios_native/addresses.py:917
 msgid "Sign/verify Message"
 msgstr "Підписати/верифікувати повідомлення"
 
-#: gui/qt/address_list.py:200
+#: gui/qt/address_list.py:203
 msgid "Sign/verify message"
 msgstr "Підписати/верифікувати повідомлення"
 
-#: gui/kivy/uix/ui_screens/invoice.kv:43 gui/qt/main_window.py:2028
-#: gui/qt/main_window.py:2362
+#: gui/kivy/uix/ui_screens/invoice.kv:43 gui/qt/main_window.py:2169
+#: gui/qt/main_window.py:2528
 msgid "Signature"
 msgstr "Підпис"
 
-#: gui/qt/main_window.py:2341
+#: gui/qt/main_window.py:2505
 #: ios/ElectronCash/electroncash_gui/ios_native/sign_decrypt_dialog.py:289
 msgid "Signature verified"
 msgstr "Підпис звірена"
 
-#: lib/wallet.py:589
+#: lib/wallet.py:615
 msgid "Signed"
 msgstr ""
 
@@ -4488,17 +5001,17 @@ msgstr ""
 msgid "Signing message ..."
 msgstr ""
 
-#: gui/qt/main_window.py:1643 plugins/digitalbitbox/digitalbitbox.py:610
-#: ios/ElectronCash/electroncash_gui/ios_native/gui.py:1919
+#: gui/qt/main_window.py:1779 plugins/digitalbitbox/digitalbitbox.py:610
+#: ios/ElectronCash/electroncash_gui/ios_native/gui.py:1922
 msgid "Signing transaction..."
 msgstr "Транзакція підписується..."
 
-#: gui/qt/main_window.py:2297
+#: gui/qt/main_window.py:2461
 #: ios/ElectronCash/electroncash_gui/ios_native/sign_decrypt_dialog.py:237
 msgid "Signing with an address actually means signing with the corresponding private key, and verifying with the corresponding public key. The address you have entered does not have a unique public key, so these operations cannot be performed."
 msgstr "Підписання з адресою фактично означає підпис із відповідним приватним ключем та підтвердженням відповідного відкритого ключа. Введена вами адреса не має унікального відкритого ключа, тому ці операції не можуть бути виконані."
 
-#: gui/qt/transaction_dialog.py:258
+#: gui/qt/transaction_dialog.py:265
 #: ios/ElectronCash/electroncash_gui/ios_native/wallets.py:356
 #: ios/ElectronCash/electroncash_gui/ios_native/txdetail.py:548
 msgid "Size:"
@@ -4512,21 +5025,25 @@ msgstr "Словацька"
 msgid "Slovenian"
 msgstr "Словенська"
 
-#: gui/qt/exception_window.py:76
+#: plugins/shuffle/qt.py:1154
+msgid "Some of your unshuffled funds may be temporarily locked while the shuffle operation is performed. If you want to unlock these funds immediately, you can use the 'Pause Shuffling' button to do so."
+msgstr ""
+
+#: gui/qt/exception_window.py:77
 #: ios/ElectronCash/electroncash_gui/ios_native/crashreporter.py:58
 msgid "Something went wrong running Electron Cash."
 msgstr ""
 
-#: gui/qt/exception_window.py:74
+#: gui/qt/exception_window.py:75
 #: ios/ElectronCash/electroncash_gui/ios_native/crashreporter.py:58
 msgid "Sorry!"
 msgstr "Вибачте!"
 
-#: gui/qt/update_checker.py:214
+#: gui/qt/update_checker.py:211
 msgid "Sorry, but we were unable to check for updates. Please try again later."
 msgstr ""
 
-#: gui/qt/main_window.py:3250
+#: gui/qt/main_window.py:3562
 #: ios/ElectronCash/electroncash_gui/ios_native/prefs.py:389
 msgid "Source"
 msgstr "Джерело"
@@ -4543,7 +5060,11 @@ msgstr ""
 msgid "Specify a master key to re-create a deterministic wallet."
 msgstr ""
 
-#: gui/qt/utxo_list.py:105
+#: plugins/shuffle/qt.py:2034
+msgid "Specify minimum and maximum coin amounts to select for shuffling:"
+msgstr ""
+
+#: gui/qt/utxo_list.py:125
 #: ios/ElectronCash/electroncash_gui/ios_native/coins.py:248
 msgid "Spend"
 msgstr ""
@@ -4552,7 +5073,15 @@ msgstr ""
 msgid "Spend From"
 msgstr ""
 
-#: gui/qt/address_list.py:216
+#: plugins/shuffle/qt.py:1169
+msgid "Spend Shuffled"
+msgstr ""
+
+#: plugins/shuffle/qt.py:1182
+msgid "Spend Unshuffled"
+msgstr ""
+
+#: gui/qt/address_list.py:219
 msgid "Spend from"
 msgstr ""
 
@@ -4568,14 +5097,30 @@ msgstr ""
 msgid "Spend from this UTXO + Selected"
 msgstr ""
 
-#: gui/qt/main_window.py:3146
+#: gui/qt/main_window.py:3447
 #: ios/ElectronCash/electroncash_gui/ios_native/prefs.py:297
 msgid "Spend only confirmed coins"
 msgstr "Витрачати тільки підтверджені монети"
 
-#: gui/qt/main_window.py:3147
+#: gui/qt/main_window.py:3448
 msgid "Spend only confirmed inputs."
 msgstr "Витрачати тільки підтверджені кошти."
+
+#: plugins/shuffle/qt.py:1169
+msgid "Spend only your shuffled (private) coins"
+msgstr ""
+
+#: plugins/shuffle/qt.py:1182
+msgid "Spend only your unshuffled coins"
+msgstr ""
+
+#: plugins/shuffle/qt.py:1072
+msgid "Spending and linking coins with CashShuffle disabled may compromise your privacy for both shuffled and unshuffled coins in this wallet."
+msgstr ""
+
+#: plugins/shuffle/qt.py:1248
+msgid "Spending and linking these coins may compromise your privacy not only for new received coins, but also for your past spending of shuffled coins."
+msgstr ""
 
 #: ios/ElectronCash/electroncash_gui/ios_native/newwallet.py:163
 msgid "Standard Wallet"
@@ -4585,16 +5130,21 @@ msgstr ""
 msgid "Standard wallet"
 msgstr "Гаманець за замовчуванням"
 
+#: gui/qt/scan_beyond_gap.py:76
+msgid "Start Scan"
+msgstr ""
+
 #: gui/kivy/uix/ui_screens/network.kv:15 gui/kivy/uix/ui_screens/invoice.kv:34
 #: gui/qt/invoice_list.py:36 gui/qt/request_list.py:42
-#: gui/qt/network_dialog.py:387
+#: gui/qt/network_dialog.py:420 plugins/shuffle/qt.py:1492
+#: plugins/shuffle/qt.py:1569 plugins/shuffle/qt.py:1584
 #: ios/ElectronCash/electroncash_gui/ios_native/receive.py:642
 #: ios/ElectronCash/electroncash_gui/ios_native/addresses.py:587
 #: ios/ElectronCash/electroncash_gui/ios_native/history.py:519
 msgid "Status"
 msgstr "Статус"
 
-#: gui/qt/transaction_dialog.py:240
+#: gui/qt/transaction_dialog.py:247
 #: ios/ElectronCash/electroncash_gui/ios_native/txdetail.py:482
 #: ios/ElectronCash/electroncash_gui/ios_native/prefs.py:234
 msgid "Status:"
@@ -4604,11 +5154,11 @@ msgstr "Статус:"
 msgid "Step {}/24.  Enter seed word as explained on your {}:"
 msgstr ""
 
-#: gui/qt/main_window.py:2155 gui/qt/main_window.py:3292
+#: gui/qt/main_window.py:2318 gui/qt/main_window.py:3604
 #: ios/ElectronCash/electroncash_gui/ios_native/sign_decrypt_dialog.py:260
 #: ios/ElectronCash/electroncash_gui/ios_native/sign_decrypt_dialog.py:289
 #: ios/ElectronCash/electroncash_gui/ios_native/sign_decrypt_dialog.py:343
-#: ios/ElectronCash/electroncash_gui/ios_native/gui.py:2003
+#: ios/ElectronCash/electroncash_gui/ios_native/gui.py:2006
 msgid "Success"
 msgstr "Успішно"
 
@@ -4624,11 +5174,11 @@ msgstr ""
 msgid "Supported Coins"
 msgstr "Підтримувані монети"
 
-#: gui/qt/main_window.py:2760
+#: gui/qt/main_window.py:2928
 msgid "Sweep"
 msgstr "Замести"
 
-#: gui/qt/main_window.py:2742
+#: gui/qt/main_window.py:2910
 msgid "Sweep private keys"
 msgstr "Замести закриті ключі"
 
@@ -4640,9 +5190,9 @@ msgstr ""
 msgid "Synchronizing"
 msgstr ""
 
-#: gui/kivy/main_window.py:648 gui/qt/main_window.py:783 gui/text.py:134
+#: gui/kivy/main_window.py:648 gui/qt/main_window.py:814 gui/text.py:134
 #: gui/stdio.py:113 plugins/labels/qt.py:184
-#: ios/ElectronCash/electroncash_gui/ios_native/gui.py:635
+#: ios/ElectronCash/electroncash_gui/ios_native/gui.py:638
 msgid "Synchronizing..."
 msgstr "Синхронізація..."
 
@@ -4672,7 +5222,7 @@ msgstr ""
 msgid "Tap to enter text..."
 msgstr ""
 
-#: gui/qt/util.py:542
+#: gui/qt/util.py:628
 #: ios/ElectronCash/electroncash_gui/ios_native/seed_dialog.py:115
 msgid "Text copied to clipboard"
 msgstr "Текст скопійовано в буфер обміну"
@@ -4687,7 +5237,7 @@ msgstr "Текст скопійовано в буфер обміну.\n"
 msgid "Thai"
 msgstr "Тайська"
 
-#: gui/qt/main_window.py:916
+#: gui/qt/main_window.py:952
 msgid "The Bitcoin Cash address never expires and will always be part of this Electron Cash wallet."
 msgstr ""
 
@@ -4695,7 +5245,7 @@ msgstr ""
 msgid "The Digital Bitbox is already seeded. Choose an option:"
 msgstr ""
 
-#: gui/qt/external_plugins_window.py:115
+#: gui/qt/external_plugins_window.py:118
 msgid "The Electron Cash Developers do NOT audit or vet any plugins."
 msgstr ""
 
@@ -4719,11 +5269,11 @@ msgid "The QR code does not appear to be a valid BCH address.\n"
 "Please try again."
 msgstr ""
 
-#: gui/qt/main_window.py:1206
+#: gui/qt/main_window.py:1288
 msgid "The amount of fee can be decided freely by the sender. However, transactions with low fees take more time to be processed."
 msgstr "Розмір комісії може вільно бути визначений відправником. Але важливо розуміти, транзакції з низькою комісією можуть потребувати більше часу на обробку."
 
-#: gui/qt/main_window.py:1184
+#: gui/qt/main_window.py:1266
 msgid "The amount will be displayed in red if you do not have enough funds in your wallet."
 msgstr "Сума буде відображатися червоним кольором, якщо у вас недостатньо коштів у вашому гаманці."
 
@@ -4734,7 +5284,7 @@ msgstr "Сума буде відображатися червоним кольо
 msgid "The camera is not available for reading QR codes"
 msgstr ""
 
-#: gui/qt/main_window.py:1148
+#: gui/qt/main_window.py:1230
 msgid "The description is not sent to the recipient of the funds. It is stored in your wallet file, and displayed in the 'History' tab."
 msgstr "Опис не буде відправлено одержувачу, але буде збережено в файлі вашого гаманця і відображено на вкладці \"Історія\"."
 
@@ -4742,33 +5292,33 @@ msgstr "Опис не буде відправлено одержувачу, ал
 msgid "The fee for this transaction seems unusually high."
 msgstr "Комісія за цю угоду задана занадто високою."
 
-#: gui/qt/installwizard.py:268
+#: gui/qt/installwizard.py:269
 msgid "The file '{}' contains an incompletely created wallet.\n"
 "Do you want to complete its creation now?"
 msgstr "Файл \"%s\" містить неповністю створений гаманець.\n"
 "Ви хочете завершити його створення зараз?"
 
-#: gui/qt/installwizard.py:253 gui/qt/installwizard.py:273
+#: gui/qt/installwizard.py:254 gui/qt/installwizard.py:274
 msgid "The file was removed"
 msgstr "Файл був видалений"
 
-#: gui/qt/main_window.py:2653
+#: gui/qt/main_window.py:2821
 msgid "The file you selected does not appear to contain labels."
 msgstr ""
 
-#: gui/qt/main_window.py:2818
+#: gui/qt/main_window.py:2986
 msgid "The following addresses were added"
 msgstr "Наступні адреси були додані"
 
-#: gui/qt/main_window.py:2962
+#: gui/qt/main_window.py:3254
 msgid "The following alias providers are available:"
 msgstr "Наступні постачальники псевдонімів доступні:"
 
-#: gui/qt/main_window.py:2820
+#: gui/qt/main_window.py:2988
 msgid "The following inputs could not be imported"
 msgstr "Наступне не вдалося імпортувати"
 
-#: gui/qt/installwizard.py:258
+#: gui/qt/installwizard.py:259
 #, python-format
 msgid "The format of your wallet '%s' must be upgraded for Electron Cash. This change will not be backward compatible"
 msgstr ""
@@ -4777,12 +5327,12 @@ msgstr ""
 msgid "The message has been successfully decrypted"
 msgstr ""
 
-#: gui/qt/main_window.py:2301
+#: gui/qt/main_window.py:2465
 #: ios/ElectronCash/electroncash_gui/ios_native/sign_decrypt_dialog.py:241
 msgid "The operation is undefined. Not just in Electron Cash, but in general."
 msgstr ""
 
-#: ios/ElectronCash/electroncash_gui/ios_native/gui.py:1669
+#: ios/ElectronCash/electroncash_gui/ios_native/gui.py:1672
 msgid "The password was incorrect for this encrypted wallet, please try again."
 msgstr ""
 
@@ -4851,7 +5401,7 @@ msgstr ""
 msgid "The selected file appears to be a binary file."
 msgstr ""
 
-#: lib/network.py:1541
+#: lib/network.py:1641
 msgid "The server did not answer; network may be down."
 msgstr ""
 
@@ -4864,67 +5414,67 @@ msgid "The specified public key cannot decrypt this cyphertext.\n"
 "Please specify the correct key to decrypt."
 msgstr ""
 
-#: lib/network.py:1645
+#: lib/network.py:1745
 msgid "The transaction already exists in the server's mempool."
 msgstr ""
 
-#: lib/network.py:1647
+#: lib/network.py:1747
 msgid "The transaction conflicts with a transaction already in the server's mempool."
 msgstr ""
 
-#: lib/network.py:1663
+#: lib/network.py:1763
 msgid "The transaction was rejected because it contains a bare multisig input."
 msgstr ""
 
-#: lib/network.py:1661
+#: lib/network.py:1761
 msgid "The transaction was rejected because it contains a non-standard script public key signature."
 msgstr ""
 
-#: lib/network.py:1659
+#: lib/network.py:1759
 msgid "The transaction was rejected because it contains a script that is too large."
 msgstr ""
 
-#: lib/network.py:1665
+#: lib/network.py:1765
 msgid "The transaction was rejected because it contains multiple OP_RETURN outputs."
 msgstr ""
 
-#: lib/network.py:1667
+#: lib/network.py:1767
 msgid "The transaction was rejected because it contains non-push-only script sigs."
 msgstr ""
 
-#: lib/network.py:1655
+#: lib/network.py:1755
 msgid "The transaction was rejected because it contians a non-mandatory script verify flag."
 msgstr ""
 
-#: lib/network.py:1669
+#: lib/network.py:1769
 msgid "The transaction was rejected because it is not considered final according to network rules."
 msgstr ""
 
-#: lib/network.py:1657
+#: lib/network.py:1757
 msgid "The transaction was rejected because it is too large (in bytes)."
 msgstr ""
 
-#: lib/network.py:1653
+#: lib/network.py:1753
 msgid "The transaction was rejected because it specifies an absurdly high fee."
 msgstr ""
 
-#: lib/network.py:1671
+#: lib/network.py:1771
 msgid "The transaction was rejected because it uses a non-standard version."
 msgstr ""
 
-#: lib/network.py:1649
+#: lib/network.py:1749
 msgid "The transaction was rejected due to having too many mempool ancestors. Wait for confirmations and try again."
 msgstr ""
 
-#: lib/network.py:1651
+#: lib/network.py:1751
 msgid "The transaction was rejected due to its use of non-standard inputs."
 msgstr ""
 
-#: lib/network.py:1641
+#: lib/network.py:1741
 msgid "The transaction was rejected due to paying insufficient fees and/or for being of extremely low priority."
 msgstr ""
 
-#: gui/qt/installwizard.py:245
+#: gui/qt/installwizard.py:246
 msgid "The wallet '{}' contains multiple accounts, which are no longer supported since Electrum 2.7.\n\n"
 "Do you want to split your wallet into multiple files?"
 msgstr "Гаманець '{}' містить кілька облікових записів, які більше не підтримуються, починаючи з Electrum 2.7.\n\n"
@@ -4934,7 +5484,7 @@ msgstr "Гаманець '{}' містить кілька облікових з�
 msgid "There are no transactions for this wallet on the blockchain."
 msgstr ""
 
-#: gui/qt/update_checker.py:224
+#: gui/qt/update_checker.py:221
 msgid "There is a new update available"
 msgstr ""
 
@@ -4942,20 +5492,25 @@ msgstr ""
 msgid "There is already a plugin installed using the internal package name of the plugin you selected. It was therefore not possible to install it."
 msgstr ""
 
-#: gui/qt/network_dialog.py:384
+#: gui/qt/main_window.py:3102
+msgid "There was a problem connecting to this server.\n"
+"Please choose a different CashShuffle server."
+msgstr ""
+
+#: gui/qt/network_dialog.py:417
 #: ios/ElectronCash/electroncash_gui/ios_native/network_dialog.py:494
 msgid "This blockchain is used to verify the transactions sent by your transaction server."
 msgstr "Цей ланцюжок блоків використовується для перевірки трансакцій, надісланих вашим сервером трансакцій."
 
-#: ios/ElectronCash/electroncash_gui/ios_native/gui.py:2021
+#: ios/ElectronCash/electroncash_gui/ios_native/gui.py:2024
 msgid "This device lacks the secure enclave service. As such, Touch/Face ID based wallet authentication is unavailable."
 msgstr ""
 
-#: gui/qt/main_window.py:3536
+#: gui/qt/main_window.py:3965
 msgid "This feature is intended to allow you to rebuild a wallet if it has become corrupted."
 msgstr ""
 
-#: gui/qt/network_dialog.py:305
+#: gui/qt/network_dialog.py:333
 msgid "This feature was added in response to the potential for a malicious actor to deny service via launching many servers (aka a sybil attack)."
 msgstr ""
 
@@ -4967,24 +5522,24 @@ msgstr "Цей файл не існує."
 msgid "This file is encrypted."
 msgstr ""
 
-#: gui/qt/main_window.py:914
+#: gui/qt/main_window.py:950
 msgid "This information is seen by the recipient if you send them a signed payment request."
 msgstr "Ця інформація відображається одержувачам, якщо ви посилаєте їм запит на підписання оплат."
 
-#: gui/qt/external_plugins_window.py:202 gui/qt/external_plugins_window.py:205
+#: gui/qt/external_plugins_window.py:205 gui/qt/external_plugins_window.py:208
 msgid "This interface is supported."
 msgstr ""
 
-#: gui/qt/network_dialog.py:218
+#: gui/qt/network_dialog.py:243
 msgid "This is a preferred server"
 msgstr ""
 
-#: gui/qt/main_window.py:2539
-#: ios/ElectronCash/electroncash_gui/ios_native/gui.py:1044
+#: gui/qt/main_window.py:2707
+#: ios/ElectronCash/electroncash_gui/ios_native/gui.py:1047
 msgid "This is a watching-only wallet"
 msgstr "Цей гаманець тільки для спостереження"
 
-#: gui/qt/main_window.py:2315 gui/qt/main_window.py:2385
+#: gui/qt/main_window.py:2479 gui/qt/main_window.py:2551
 #: ios/ElectronCash/electroncash_gui/ios_native/sign_decrypt_dialog.py:247
 #: ios/ElectronCash/electroncash_gui/ios_native/sign_decrypt_dialog.py:316
 msgid "This is a watching-only wallet."
@@ -4998,26 +5553,26 @@ msgstr "Цей гаманець тільки для спостереження. 
 msgid "This is a wathching-only wallet, so the given private keys will be converted to watching addresses."
 msgstr ""
 
-#: gui/qt/main_window.py:1221
+#: gui/qt/main_window.py:1303
 msgid "This is the fee rate that will be used for this transaction."
 msgstr ""
 
-#: gui/qt/network_dialog.py:398
+#: gui/qt/network_dialog.py:431
 #: ios/ElectronCash/electroncash_gui/ios_native/network_dialog.py:499
 msgid "This is the height of your local copy of the blockchain."
 msgstr "Це довжина вашої локальної копії ланцюжка блоків."
 
-#: gui/qt/main_window.py:3133
+#: gui/qt/main_window.py:3429
 msgid "This may result in higher transactions fees."
 msgstr "Це може привести до збільшення комісії за транзакції."
 
-#: gui/qt/main_window.py:419
-#: ios/ElectronCash/electroncash_gui/ios_native/gui.py:1045
+#: gui/qt/main_window.py:434
+#: ios/ElectronCash/electroncash_gui/ios_native/gui.py:1048
 msgid "This means you will not be able to spend Bitcoin Cash with it."
 msgstr ""
 
-#: gui/qt/main_window.py:998
-#: ios/ElectronCash/electroncash_gui/ios_native/gui.py:1168
+#: gui/qt/main_window.py:1047
+#: ios/ElectronCash/electroncash_gui/ios_native/gui.py:1171
 msgid "This payment request will be signed."
 msgstr "Цей запит платежу був підписаний."
 
@@ -5044,26 +5599,30 @@ msgstr ""
 msgid "This seed will allow you to recover your wallet in case of computer failure."
 msgstr "Цей seed допоможе вам відновити гаманець в разі проблем з комп'ютером у майбутньому."
 
-#: gui/qt/network_dialog.py:217
+#: gui/qt/network_dialog.py:242
 msgid "This server is banned"
 msgstr ""
 
-#: ios/ElectronCash/electroncash_gui/ios_native/gui.py:1699
+#: plugins/shuffle/qt.py:1105
+msgid "This spending mode is the same as previous versions of Electron Cash, which did not offer CashShuffle."
+msgstr ""
+
+#: ios/ElectronCash/electroncash_gui/ios_native/gui.py:1702
 msgid "This spending wallet is not encrypted and not password protected. Sharing it over the internet could result in others intercepting the data and for you to potentially lose funds.\n\n"
 "Continue anyway?"
 msgstr ""
 
-#: gui/qt/main_window.py:446
+#: gui/qt/main_window.py:461
 msgid "This testnet wallet has an invalid master key format."
 msgstr ""
 
-#: gui/qt/main_window.py:1872
+#: gui/qt/main_window.py:2008
 #: ios/ElectronCash/electroncash_gui/ios_native/addrconv.py:47
 msgid "This tool helps convert between address formats for Bitcoin Cash addresses.\n"
 "You are encouraged to use the 'Cash address' format."
 msgstr ""
 
-#: gui/qt/transaction_dialog.py:155
+#: gui/qt/transaction_dialog.py:157
 msgid "This transaction is not saved. Close anyway?"
 msgstr "Ця операція не збережена. Закрити все одно?"
 
@@ -5075,8 +5634,8 @@ msgstr ""
 msgid "This version of Electron Cash currently only supports sending to 1 address at a time! Sorry!"
 msgstr ""
 
-#: gui/qt/main_window.py:2250
-#: ios/ElectronCash/electroncash_gui/ios_native/gui.py:2039
+#: gui/qt/main_window.py:2413
+#: ios/ElectronCash/electroncash_gui/ios_native/gui.py:2042
 msgid "This wallet has no seed"
 msgstr "Цей гаманець без seed"
 
@@ -5088,13 +5647,21 @@ msgstr ""
 msgid "This wallet is watching-only"
 msgstr "Цей гаманець доступний тільки для перегляду"
 
-#: gui/qt/main_window.py:418
+#: gui/qt/main_window.py:433
 msgid "This wallet is watching-only."
 msgstr "Цей гаманець доступний тільки для перегляду."
 
-#: gui/qt/installwizard.py:422
+#: gui/qt/main_window.py:3138
+msgid "This wallet type cannot be used with CashShuffle."
+msgstr ""
+
+#: gui/qt/installwizard.py:423
 msgid "This wallet was restored offline. It may contain more addresses than displayed."
 msgstr "Цей гаманець був відновлений оффлайн. Він може включати більше адрес, ніж показано."
+
+#: plugins/shuffle/qt.py:1859
+msgid "Tier"
+msgstr ""
 
 #: plugins/digitalbitbox/digitalbitbox.py:475
 #: plugins/digitalbitbox/digitalbitbox.py:608
@@ -5128,7 +5695,7 @@ msgstr ""
 msgid "To create a watching-only wallet, please enter your master public key (xpub/ypub/zpub)."
 msgstr ""
 
-#: gui/qt/exception_window.py:79
+#: gui/qt/exception_window.py:80
 #: ios/ElectronCash/electroncash_gui/ios_native/crashreporter.py:58
 msgid "To help us diagnose and fix the problem, you can send us a bug report that contains useful debug information:"
 msgstr "Щоб допомогти нам діагностувати та виправити проблему, ви можете надіслати нам звіт про помилку який містить корисну інформацію про налагодження:"
@@ -5137,12 +5704,12 @@ msgstr "Щоб допомогти нам діагностувати та вип�
 msgid "To import addresses into a spending wallet, you must use their private key."
 msgstr ""
 
-#: gui/qt/installwizard.py:381
+#: gui/qt/installwizard.py:382
 #: ios/ElectronCash/electroncash_gui/ios_native/newwallet.py:401
 msgid "To make sure that you have properly saved your seed, please retype it here."
 msgstr "Щоб переконатися, що Ви як слід зберегли Ваш seed, будь ласка, введіть його."
 
-#: ios/ElectronCash/electroncash_gui/ios_native/gui.py:1386
+#: ios/ElectronCash/electroncash_gui/ios_native/gui.py:1389
 msgid "To proceed, please select a wallet to open."
 msgstr ""
 
@@ -5154,8 +5721,12 @@ msgstr "Щоб запустити повторне сканування, нат�
 msgid "To try to fix this, we will now re-pair with your device."
 msgstr "Щоб спробувати це виправити, ми перепідключимось до вашого пристрою."
 
-#: gui/qt/main_window.py:2115
+#: gui/qt/main_window.py:2277
 msgid "Toggle CashAddr Display"
+msgstr ""
+
+#: gui/qt/main_window.py:3067
+msgid "Toggle CashShuffle"
 msgstr ""
 
 #: ios/ElectronCash/electroncash_gui/ios_native/addresses.py:825
@@ -5164,28 +5735,36 @@ msgstr ""
 msgid "Toggle Format"
 msgstr ""
 
+#: plugins/shuffle/qt.py:80
+msgid "Too big"
+msgstr ""
+
 #: plugins/trezor/clientbase.py:282
 msgid "Too long passphrase ({} > 50 chars)."
 msgstr "Надто довга секретна фраза ({} > 50 символів)."
+
+#: plugins/shuffle/qt.py:82
+msgid "Too small"
+msgstr ""
 
 #: ios/ElectronCash/electroncash_gui/ios_native/prefs.py:24
 msgid "Tools"
 msgstr ""
 
-#: gui/qt/main_window.py:3491
+#: gui/qt/main_window.py:3817
 msgid "Total size"
 msgstr "Повний розмір"
 
-#: ios/ElectronCash/electroncash_gui/ios_native/gui.py:1992
+#: ios/ElectronCash/electroncash_gui/ios_native/gui.py:1995
 msgid "Touch/Face ID disabled for wallet"
 msgstr ""
 
-#: ios/ElectronCash/electroncash_gui/ios_native/gui.py:1988
-#: ios/ElectronCash/electroncash_gui/ios_native/gui.py:2254
+#: ios/ElectronCash/electroncash_gui/ios_native/gui.py:1991
+#: ios/ElectronCash/electroncash_gui/ios_native/gui.py:2257
 msgid "Touch/Face ID enabled for wallet"
 msgstr ""
 
-#: gui/qt/transaction_dialog.py:71
+#: gui/qt/transaction_dialog.py:72
 #: ios/ElectronCash/electroncash_gui/ios_native/txdetail.py:596
 msgid "Transaction"
 msgstr "Транзакція"
@@ -5199,11 +5778,11 @@ msgid "Transaction History"
 msgstr ""
 
 #: gui/kivy/uix/ui_screens/invoice.kv:66 gui/kivy/uix/ui_screens/invoice.kv:69
-#: gui/qt/main_window.py:2527
+#: gui/qt/main_window.py:2695
 msgid "Transaction ID"
 msgstr "ID транзакції"
 
-#: gui/qt/transaction_dialog.py:76
+#: gui/qt/transaction_dialog.py:77
 #: ios/ElectronCash/electroncash_gui/ios_native/txdetail.py:423
 #: ios/ElectronCash/electroncash_gui/ios_native/txdetail.py:789
 msgid "Transaction ID:"
@@ -5225,15 +5804,15 @@ msgstr ""
 msgid "Transaction accepted by mobile phone. Waiting for confirmation."
 msgstr "Транзакція прийнята мобільним телефоном. Чекаю на підтвердження."
 
-#: lib/network.py:1643
+#: lib/network.py:1743
 msgid "Transaction could not be broadcast due to an attempt to spend a coinbase input before maturity."
 msgstr ""
 
-#: lib/network.py:1637
+#: lib/network.py:1737
 msgid "Transaction could not be broadcast due to dust outputs (dust threshold is {} satoshis)."
 msgstr ""
 
-#: lib/network.py:1639
+#: lib/network.py:1739
 msgid "Transaction could not be broadcast due to missing, already-spent, or otherwise invalid inputs."
 msgstr ""
 
@@ -5241,21 +5820,25 @@ msgstr ""
 msgid "Transaction history may not yet be current."
 msgstr ""
 
-#: gui/qt/transaction_dialog.py:215
+#: gui/qt/transaction_dialog.py:117
+msgid "Transaction raw hex copied to clipboard."
+msgstr ""
+
+#: gui/qt/transaction_dialog.py:222
 msgid "Transaction saved successfully"
 msgstr ""
 
-#: gui/kivy/uix/dialogs/tx_dialog.py:118 gui/qt/transaction_dialog.py:253
+#: gui/kivy/uix/dialogs/tx_dialog.py:118 gui/qt/transaction_dialog.py:260
 #: ios/ElectronCash/electroncash_gui/ios_native/txdetail.py:525
 #: ios/ElectronCash/electroncash_gui/ios_native/txdetail.py:898
 msgid "Transaction unrelated to your wallet"
 msgstr "Транзакція не пов'язана з Вашим гаманцем"
 
-#: gui/qt/main_window.py:2504
+#: gui/qt/main_window.py:2672
 msgid "Transaction:"
 msgstr "Транзакція:"
 
-#: gui/qt/main_window.py:3254
+#: gui/qt/main_window.py:3566
 #: ios/ElectronCash/electroncash_gui/ios_native/contacts.py:193
 #: ios/ElectronCash/electroncash_gui/ios_native/wallets.py:67
 #: ios/ElectronCash/electroncash_gui/ios_native/prefs.py:24
@@ -5270,14 +5853,15 @@ msgstr "Транзакції зашифровані та зберігаютьс�
 msgid "Trezor Matrix Recovery"
 msgstr ""
 
-#: gui/qt/main_window.py:640
+#: gui/qt/main_window.py:657
 msgid "Try to explain not only what the bug is, but how it occurs."
 msgstr "Постарайтеся розповісти не тільки про помилку, а й про те, що до неї призвело."
 
-#: gui/qt/address_list.py:52
+#: gui/qt/address_list.py:53
 msgid "Tx"
 msgstr ""
 
+#: plugins/shuffle/qt.py:1859
 #: ios/ElectronCash/electroncash_gui/ios_native/addresses.py:585
 msgid "Type"
 msgstr ""
@@ -5286,20 +5870,29 @@ msgstr ""
 msgid "Type 'delete' to proceed"
 msgstr ""
 
+#: plugins/shuffle/qt.py:1299 plugins/shuffle/qt.py:1304
 #: ios/ElectronCash/electroncash_gui/ios_native/coins.py:597
 #: ios/ElectronCash/electroncash_gui/ios_native/coins.py:628
 msgid "UTXO"
 msgstr ""
 
-#: gui/qt/main_window.py:491
+#: plugins/shuffle/qt.py:1300 plugins/shuffle/qt.py:1305
+msgid "UTXOs"
+msgstr ""
+
+#: plugins/shuffle/qt.py:946
+msgid "Unable to connect to the specified server."
+msgstr ""
+
+#: gui/qt/main_window.py:506
 msgid "Unable to create backup"
 msgstr "Неможливо створити резервну копію"
 
-#: gui/qt/main_window.py:2627
+#: gui/qt/main_window.py:2795
 msgid "Unable to create csv"
 msgstr "Не вдалося створити csv"
 
-#: gui/qt/main_window.py:2700
+#: gui/qt/main_window.py:2868
 msgid "Unable to export history"
 msgstr "Неможливо експортувати історію"
 
@@ -5307,21 +5900,22 @@ msgstr "Неможливо експортувати історію"
 msgid "Unable to get a receiving address from your wallet!"
 msgstr ""
 
-#: gui/qt/main_window.py:2497
+#: gui/qt/main_window.py:2665
 msgid "Unable to read file or no transaction found"
 msgstr "Не вдалося прочитати файл або не було виявлено транзакції"
 
-#: gui/qt/external_plugins_window.py:156 gui/qt/external_plugins_window.py:157
-#: gui/qt/external_plugins_window.py:158 gui/qt/external_plugins_window.py:159
-#: gui/qt/external_plugins_window.py:160
+#: gui/qt/external_plugins_window.py:159 gui/qt/external_plugins_window.py:160
+#: gui/qt/external_plugins_window.py:161 gui/qt/external_plugins_window.py:162
+#: gui/qt/external_plugins_window.py:163
 msgid "Unavailable."
 msgstr ""
 
-#: gui/qt/network_dialog.py:164
+#: gui/qt/network_dialog.py:189
 msgid "Unban server"
 msgstr ""
 
-#: gui/kivy/uix/ui_screens/status.kv:40 lib/wallet.py:68 lib/wallet.py:581
+#: gui/kivy/uix/ui_screens/status.kv:40 plugins/shuffle/qt.py:84
+#: lib/wallet.py:68 lib/wallet.py:607
 msgid "Unconfirmed"
 msgstr "Непідтверджено"
 
@@ -5329,7 +5923,7 @@ msgstr "Непідтверджено"
 msgid "Unconfirmed parent"
 msgstr "Непідтверджений предок"
 
-#: gui/qt/external_plugins_window.py:337 gui/qt/external_plugins_window.py:343
+#: gui/qt/external_plugins_window.py:340 gui/qt/external_plugins_window.py:346
 #, python-format
 msgid "Unexpected error %d"
 msgstr ""
@@ -5338,30 +5932,30 @@ msgstr ""
 msgid "Unexpected error occurred."
 msgstr ""
 
-#: gui/qt/address_list.py:210
+#: gui/qt/address_list.py:213
 #: ios/ElectronCash/electroncash_gui/ios_native/coins.py:638
 #: ios/ElectronCash/electroncash_gui/ios_native/addresses.py:904
 msgid "Unfreeze"
 msgstr "Розблокувати"
 
-#: gui/qt/utxo_list.py:127
+#: gui/qt/utxo_list.py:162
 msgid "Unfreeze Address"
 msgstr ""
 
-#: gui/qt/utxo_list.py:144
+#: gui/qt/utxo_list.py:179
 msgid "Unfreeze Addresses"
 msgstr ""
 
-#: gui/qt/utxo_list.py:119
+#: gui/qt/utxo_list.py:154
 msgid "Unfreeze Coin"
 msgstr ""
 
-#: gui/qt/utxo_list.py:138
+#: gui/qt/utxo_list.py:173
 msgid "Unfreeze Coins"
 msgstr ""
 
 #: gui/kivy/uix/screens.py:401 gui/kivy/uix/screens.py:407
-#: gui/qt/transaction_dialog.py:229 lib/util.py:455 lib/exchange_rate.py:429
+#: gui/qt/transaction_dialog.py:236 lib/util.py:524 lib/exchange_rate.py:452
 #: ios/ElectronCash/electroncash_gui/ios_native/receive.py:657
 #: ios/ElectronCash/electroncash_gui/ios_native/txdetail.py:424
 #: ios/ElectronCash/electroncash_gui/ios_native/txdetail.py:446
@@ -5379,7 +5973,7 @@ msgstr "Невизначено"
 msgid "Unmatured"
 msgstr ""
 
-#: lib/wallet.py:593 ios/ElectronCash/electroncash_gui/ios_native/send.py:775
+#: lib/wallet.py:619 ios/ElectronCash/electroncash_gui/ios_native/send.py:775
 msgid "Unsigned"
 msgstr "Непідписано"
 
@@ -5400,7 +5994,7 @@ msgstr "Невикористаний"
 msgid "Update Checker"
 msgstr ""
 
-#: gui/qt/update_checker.py:213
+#: gui/qt/update_checker.py:210
 msgid "Update check failed"
 msgstr ""
 
@@ -5416,15 +6010,23 @@ msgstr ""
 msgid "Upload a master private key"
 msgstr ""
 
+#: plugins/shuffle/qt.py:2082
+msgid "Upper limit is {}"
+msgstr ""
+
 #: gui/qt/seed_dialog.py:104
 msgid "Use Coin Type 145 with bip39"
 msgstr ""
 
-#: gui/qt/network_dialog.py:365
+#: gui/qt/network_dialog.py:307
+msgid "Use SSL"
+msgstr ""
+
+#: gui/qt/network_dialog.py:398
 msgid "Use Tor Proxy"
 msgstr "Використовувати Tor-проксі"
 
-#: ios/ElectronCash/electroncash_gui/ios_native/gui.py:2263
+#: ios/ElectronCash/electroncash_gui/ios_native/gui.py:2266
 msgid "Use Touch/Face ID"
 msgstr ""
 
@@ -5437,23 +6039,23 @@ msgstr ""
 msgid "Use a hardware device"
 msgstr "Використовуйте апаратний пристрій"
 
-#: gui/qt/network_dialog.py:85 gui/qt/network_dialog.py:156
+#: gui/qt/network_dialog.py:110 gui/qt/network_dialog.py:181
 #: ios/ElectronCash/electroncash_gui/ios_native/network_dialog.py:404
 #: ios/ElectronCash/electroncash_gui/ios_native/network_dialog.py:428
 msgid "Use as server"
 msgstr "Використовувати як сервер"
 
-#: gui/qt/main_window.py:3110
+#: gui/qt/main_window.py:3399
 #: ios/ElectronCash/electroncash_gui/ios_native/prefs.py:282
 msgid "Use change addresses"
 msgstr "Використовувати адреси для здачі"
 
-#: gui/qt/main_window.py:3128
+#: gui/qt/main_window.py:3418
 #: ios/ElectronCash/electroncash_gui/ios_native/prefs.py:289
 msgid "Use multiple change addresses"
 msgstr "Використовувати адреси, що змінюються"
 
-#: gui/qt/network_dialog.py:336
+#: gui/qt/network_dialog.py:369
 msgid "Use proxy"
 msgstr "Використовувати проксі"
 
@@ -5461,7 +6063,7 @@ msgstr "Використовувати проксі"
 msgid "Use public or private keys"
 msgstr ""
 
-#: gui/qt/main_window.py:2991
+#: gui/qt/main_window.py:3283
 msgid "Use setconfig to set ssl_chain and ssl_privkey."
 msgstr "Використовувати setconfig для встановлення ssl_chain та ssl_privkey."
 
@@ -5484,14 +6086,14 @@ msgid "Use this dialog to change your password."
 msgstr "Використовуйте це діалогове вікно щоб змінити свій пароль."
 
 #: gui/kivy/uix/ui_screens/address.kv:84 gui/kivy/uix/screens.py:499
-#: gui/qt/address_list.py:115
+#: gui/qt/address_list.py:118
 #: ios/ElectronCash/electroncash_gui/ios_native/addresses.py:31
 #: ios/ElectronCash/electroncash_gui/ios_native/addresses.py:194
 #: ios/ElectronCash/electroncash_gui/ios_native/addresses.py:467
 msgid "Used"
 msgstr "Використано"
 
-#: gui/qt/external_plugins_window.py:90
+#: gui/qt/external_plugins_window.py:95
 msgid "User interface."
 msgstr ""
 
@@ -5499,13 +6101,17 @@ msgstr ""
 msgid "Username"
 msgstr "Ім'я користувача"
 
-#: gui/qt/main_window.py:633
+#: gui/qt/main_window.py:650
 msgid "Uses icons from the Icons8 icon pack (icons8.com)."
 msgstr "Використовує мініатюри з пакунку мініатюр Icons8 (icons8.com)."
 
-#: gui/qt/main_window.py:3119
+#: gui/qt/main_window.py:3407
 msgid "Using change addresses makes it more difficult for other people to track your transactions."
 msgstr "Використання адрес для здачі ускладнює іншим людям можливість відстежувати ваші транзакції."
+
+#: gui/qt/network_dialog.py:74
+msgid "Using this mode presents a potential security risk."
+msgstr ""
 
 #: ios/ElectronCash/electroncash_gui/ios_native/newwallet.py:1086
 msgid "Valid"
@@ -5515,7 +6121,7 @@ msgstr ""
 msgid "Verified block headers"
 msgstr "Перевірені заголовки блоків"
 
-#: gui/qt/main_window.py:2372
+#: gui/qt/main_window.py:2538
 msgid "Verify"
 msgstr "Перевірити"
 
@@ -5527,12 +6133,12 @@ msgstr ""
 msgid "Verify the address below.<br>Type the character from your security card corresponding to the <u><b>BOLD</b></u> character."
 msgstr "Перевірте адресу нижче.<br>Введіть символ із вашої картки безпеки, що відповідає символу<u><b>BOLD</b></u>."
 
-#: gui/kivy/uix/ui_screens/about.kv:13 gui/qt/external_plugins_window.py:74
-#: gui/qt/main_window.py:631
+#: gui/kivy/uix/ui_screens/about.kv:13 gui/qt/external_plugins_window.py:76
+#: gui/qt/main_window.py:648 plugins/shuffle/qt.py:1859
 msgid "Version"
 msgstr "Версія"
 
-#: gui/qt/main_window.py:3067
+#: gui/qt/main_window.py:3356
 msgid "Video Device"
 msgstr "Відео Пристрій"
 
@@ -5540,15 +6146,15 @@ msgstr "Відео Пристрій"
 msgid "Vietnamese"
 msgstr "В'єтнамська"
 
-#: gui/qt/network_dialog.py:459
+#: gui/qt/network_dialog.py:504
 msgid "View ban list..."
 msgstr ""
 
-#: gui/qt/history_list.py:212
+#: gui/qt/history_list.py:232
 msgid "View invoice"
 msgstr "Переглянути рахунок"
 
-#: gui/qt/history_list.py:214 gui/qt/address_list.py:206
+#: gui/qt/history_list.py:234 gui/qt/address_list.py:209
 #: gui/qt/contact_list.py:101
 #: ios/ElectronCash/electroncash_gui/ios_native/contacts.py:869
 #: ios/ElectronCash/electroncash_gui/ios_native/txdetail.py:295
@@ -5557,6 +6163,10 @@ msgstr "Переглянути рахунок"
 #: ios/ElectronCash/electroncash_gui/ios_native/addresses.py:910
 msgid "View on block explorer"
 msgstr "Подивитися на блок-навігаторі"
+
+#: gui/qt/main_window.py:2264 plugins/shuffle/qt.py:1517
+msgid "View pools..."
+msgstr ""
 
 #: ios/ElectronCash/electroncash_gui/ios_native/prefs.py:244
 msgid "View the wallet seed phrase used for wallet recovery"
@@ -5567,17 +6177,21 @@ msgstr ""
 msgid "WARNING"
 msgstr "УВАГА"
 
-#: gui/qt/main_window.py:2550
+#: gui/qt/main_window.py:2718
 msgid "WARNING: ALL your private keys are secret."
 msgstr "УВАГА: ВСІ ваші особисті ключі є секретними."
 
-#: gui/qt/main_window.py:2543
+#: gui/qt/main_window.py:2711
 msgid "WARNING: This is a multi-signature wallet."
 msgstr "УВАГА: Це гаманець з мульти-підписом."
 
-#: gui/qt/main_window.py:1509
+#: gui/qt/main_window.py:1645
 msgid "WARNING: the alias \"{}\" could not be validated via an additional security check, DNSSEC, and thus may not be correct."
 msgstr "ПОПЕРЕДЖЕННЯ: псевдонім \"{}\" не може бути перевірено за допомогою системи додаткової перевірки безпеки, DNSSEC, і тому може бути невірним."
+
+#: plugins/shuffle/qt.py:107
+msgid "Wait for others"
+msgstr ""
 
 #: plugins/ledger/auth2fa.py:24
 msgid "Waiting for authentication on your mobile phone"
@@ -5587,7 +6201,7 @@ msgstr "Очікування аутентифікації на вашому мо
 msgid "Wallet"
 msgstr "Гаманець"
 
-#: gui/qt/main_window.py:2189
+#: gui/qt/main_window.py:2352
 msgid "Wallet Information"
 msgstr "Інформація про гаманець"
 
@@ -5613,11 +6227,11 @@ msgstr ""
 msgid "Wallet Seed"
 msgstr ""
 
-#: gui/qt/main_window.py:489
+#: gui/qt/main_window.py:504
 msgid "Wallet backup created"
 msgstr "Резервна копія гаманця створена"
 
-#: gui/qt/transaction_dialog.py:298
+#: gui/qt/transaction_dialog.py:305
 msgid "Wallet change address"
 msgstr "Зміна адреси гаманця"
 
@@ -5625,19 +6239,19 @@ msgstr "Зміна адреси гаманця"
 msgid "Wallet deleted successfully"
 msgstr ""
 
-#: ios/ElectronCash/electroncash_gui/ios_native/gui.py:1717
+#: ios/ElectronCash/electroncash_gui/ios_native/gui.py:1720
 msgid "Wallet file"
 msgstr ""
 
-#: gui/qt/main_window.py:2245
+#: gui/qt/main_window.py:2407
 msgid "Wallet file not found: {}"
 msgstr ""
 
-#: gui/qt/main_window.py:2739
+#: gui/qt/main_window.py:2907
 msgid "Wallet has no address to sweep to"
 msgstr ""
 
-#: gui/qt/main_window.py:2196
+#: gui/qt/main_window.py:2359
 msgid "Wallet name"
 msgstr "Ім'я гаманця"
 
@@ -5653,19 +6267,19 @@ msgstr ""
 msgid "Wallet passwords do not match. Please confirm the password you wish to set for your wallet by entering the same password twice."
 msgstr ""
 
-#: gui/qt/transaction_dialog.py:295
+#: gui/qt/transaction_dialog.py:302
 msgid "Wallet receive address"
 msgstr "Отримати адресу гаманця"
 
-#: gui/qt/main_window.py:2243
+#: gui/qt/main_window.py:2405
 msgid "Wallet removed: {}"
 msgstr ""
 
-#: ios/ElectronCash/electroncash_gui/ios_native/gui.py:1760
+#: ios/ElectronCash/electroncash_gui/ios_native/gui.py:1763
 msgid "Wallet successfully renamed"
 msgstr ""
 
-#: gui/qt/main_window.py:2198
+#: gui/qt/main_window.py:2361
 msgid "Wallet type"
 msgstr "Тип гаманця"
 
@@ -5677,13 +6291,13 @@ msgstr "Тип гаманця:"
 msgid "Wallets"
 msgstr "Гаманці"
 
-#: gui/kivy/uix/screens.py:289 gui/qt/main_window.py:1596 gui/qt/util.py:179
+#: gui/kivy/uix/screens.py:289 gui/qt/main_window.py:1732 gui/qt/util.py:193
 #: gui/qt/seed_dialog.py:71 gui/qt/seed_dialog.py:94
-#: gui/qt/transaction_dialog.py:155
+#: gui/qt/transaction_dialog.py:157
 msgid "Warning"
 msgstr "Увага"
 
-#: gui/qt/main_window.py:1063
+#: gui/qt/main_window.py:1116
 msgid "Warning: The next address will not be recovered automatically if you restore your wallet from seed; you may need to add it manually.\n\n"
 "This occurs because you have too many unused addresses in your wallet. To avoid this situation, use the existing addresses first.\n\n"
 "Create anyway?"
@@ -5703,7 +6317,7 @@ msgstr ""
 msgid "We encountered an error while connecting to your device:"
 msgstr "Під час підключення до вашого пристрою виникла помилка:"
 
-#: ios/ElectronCash/electroncash_gui/ios_native/gui.py:2017
+#: ios/ElectronCash/electroncash_gui/ios_native/gui.py:2020
 msgid "We will flag this wallet as requesting to use Touch/Face ID, however it is currently disabled on the device. Please enable Touch/Face ID from the iOS General settings in order to use biometrics for this wallet."
 msgstr ""
 
@@ -5715,6 +6329,10 @@ msgstr ""
 msgid "What kind of wallet do you want to create?"
 msgstr "Який тип гаманця ви хочете створити?"
 
+#: plugins/shuffle/qt.py:1104
+msgid "When CashShuffle is disabled, your privacy on the blockchain is reduced to traditional levels, and 'chainalysis' becomes easier (your transactions can be associated with one another)."
+msgstr ""
+
 #: plugins/keepkey/qt_generic.py:560 plugins/trezor/qt.py:555
 msgid "Wipe Device"
 msgstr "Очистити пристрій"
@@ -5723,19 +6341,19 @@ msgstr "Очистити пристрій"
 msgid "Wipe the device, removing all data from it.  The firmware is left unchanged."
 msgstr "Очистити пристрій, видаливши всі дані з нього. Вбудоване програмне забезпечення залишиться незмінним."
 
-#: lib/util.py:44
+#: lib/util.py:45
 msgid "Within 10 blocks"
 msgstr ""
 
-#: lib/util.py:44
+#: lib/util.py:45
 msgid "Within 2 blocks"
 msgstr ""
 
-#: lib/util.py:44
+#: lib/util.py:45
 msgid "Within 25 blocks"
 msgstr ""
 
-#: lib/util.py:44
+#: lib/util.py:45
 msgid "Within 5 blocks"
 msgstr ""
 
@@ -5743,25 +6361,33 @@ msgstr ""
 msgid "Within {} blocks"
 msgstr "В межах {} блоків"
 
+#: gui/qt/main_window.py:3893
+msgid "Would you like to enable CashShuffle for this wallet?"
+msgstr ""
+
+#: gui/qt/main_window.py:3898
+msgid "Would you like to turn on CashShuffle?"
+msgstr ""
+
 #: plugins/keepkey/clientbase.py:16 plugins/trezor/clientbase.py:18
 msgid "Write down the seed word shown on your {}"
 msgstr ""
 
 #: lib/base_wizard.py:312 lib/base_wizard.py:320
 #: ios/ElectronCash/electroncash_gui/ios_native/newwallet.py:731
-#: ios/ElectronCash/electroncash_gui/ios_native/gui.py:1524
+#: ios/ElectronCash/electroncash_gui/ios_native/gui.py:1527
 msgid "Wrong key type"
 msgstr "Невірний тип ключа"
 
-#: gui/qt/main_window.py:2343
+#: gui/qt/main_window.py:2507
 #: ios/ElectronCash/electroncash_gui/ios_native/sign_decrypt_dialog.py:291
 msgid "Wrong signature"
 msgstr "Пошкоджена сигнатура"
 
 #: plugins/keepkey/qt_generic.py:325 plugins/trezor/qt.py:309
-#: ios/ElectronCash/electroncash_gui/ios_native/gui.py:807
-#: ios/ElectronCash/electroncash_gui/ios_native/gui.py:1067
-#: ios/ElectronCash/electroncash_gui/ios_native/gui.py:2261
+#: ios/ElectronCash/electroncash_gui/ios_native/gui.py:810
+#: ios/ElectronCash/electroncash_gui/ios_native/gui.py:1070
+#: ios/ElectronCash/electroncash_gui/ios_native/gui.py:2264
 msgid "Yes"
 msgstr "Так"
 
@@ -5778,16 +6404,24 @@ msgid "You are about to delete the wallet '{}'. Unless you have other copies of 
 "In order to proceed, please type the word 'delete' in the box below:"
 msgstr ""
 
-#: gui/qt/update_checker.py:230
+#: gui/qt/update_checker.py:227
 msgid "You are already on the latest version of Electron Cash."
 msgstr ""
 
-#: gui/kivy/uix/ui_screens/network.kv:50 gui/qt/network_dialog.py:479
+#: gui/kivy/uix/ui_screens/network.kv:50 gui/qt/network_dialog.py:525
 #: ios/ElectronCash/electroncash_gui/ios_native/network_dialog.py:264
 msgid "You are following branch"
 msgstr "Ви слідуєте лінії"
 
-#: ios/ElectronCash/electroncash_gui/ios_native/gui.py:1740
+#: plugins/shuffle/qt.py:1069
+msgid "You are now <i>disabling</i> CashShuffle for this wallet. Are you sure?"
+msgstr ""
+
+#: plugins/shuffle/qt.py:1247
+msgid "You are now spending <b><i>unshuffled</i></b> coins. Are you sure?"
+msgstr ""
+
+#: ios/ElectronCash/electroncash_gui/ios_native/gui.py:1743
 msgid "You are renaming the currently open encrypted wallet '{}'."
 msgstr ""
 
@@ -5795,27 +6429,27 @@ msgstr ""
 msgid "You are requesting the deletion of the currently active wallet. In order to delete this wallet, please switch to another wallet, then select this option again on this wallet."
 msgstr ""
 
-#: gui/qt/__init__.py:313 plugins/labels/qt.py:91
+#: gui/qt/__init__.py:436 plugins/labels/qt.py:91
 msgid "You are using Electron Cash in offline mode; restart Electron Cash if you want to get connected"
 msgstr ""
 
-#: gui/qt/main_window.py:1058
+#: gui/qt/main_window.py:1108
 msgid "You are using a non-deterministic wallet, which cannot create new addresses."
 msgstr "Ви використовуєте недетермінований гаманець, для нього не можна створювати нові адреси."
 
-#: gui/qt/main_window.py:1599
+#: gui/qt/main_window.py:1735
 msgid "You are using an OP_RETURN message. This gets permanently written to the blockchain."
 msgstr ""
 
-#: gui/qt/network_dialog.py:326
+#: gui/qt/network_dialog.py:359
 msgid "You can add or remove any server from this list and optionally elect to only connect to preferred servers."
 msgstr ""
 
-#: ios/ElectronCash/electroncash_gui/ios_native/gui.py:1386
+#: ios/ElectronCash/electroncash_gui/ios_native/gui.py:1389
 msgid "You can also create a new wallet by selecting the 'Add new wallet' option."
 msgstr ""
 
-#: gui/qt/update_checker.py:226
+#: gui/qt/update_checker.py:223
 msgid "You can download the new version from:<br>{}"
 msgstr ""
 
@@ -5843,7 +6477,11 @@ msgstr ""
 msgid "You don't have any contacts yet. Create a new contact now!"
 msgstr ""
 
-#: gui/qt/main_window.py:1137
+#: gui/qt/network_dialog.py:73
+msgid "You have selected non-SSL mode for your server settings."
+msgstr ""
+
+#: gui/qt/main_window.py:1219
 msgid "You may enter a Bitcoin Cash address, a label from your list of contacts (a list of completions will be proposed), or an alias (email-like address that forwards to a Bitcoin Cash address)"
 msgstr ""
 
@@ -5851,12 +6489,20 @@ msgstr ""
 msgid "You may extend your seed with custom words."
 msgstr "Ви можете розширити фразу-пароль (seed) власними словами."
 
-#: gui/qt/main_window.py:1961
+#: gui/qt/main_window.py:2102
 msgid "You may load a CSV file using the file icon."
 msgstr "Ви можете завантажити файл CSV використовуючи значок файлу."
 
 #: ios/ElectronCash/electroncash_gui/ios_native/receive.py:501
 msgid "You may share this payment request as a 'bitcoincash:' style URI, or as a QR Code Image."
+msgstr ""
+
+#: plugins/shuffle/qt.py:1150 plugins/shuffle/qt.py:1153
+msgid "You may switch between shuffled and unshuffled spending using the radio buttons on the right."
+msgstr ""
+
+#: plugins/shuffle/qt.py:1106
+msgid "You may toggle CashShuffle back on at any time using the 'CashShuffle' icon in the status bar."
 msgstr ""
 
 #: plugins/keepkey/qt_generic.py:20 plugins/trezor/qt.py:23
@@ -5881,7 +6527,7 @@ msgid "You will be asked to enter 24 words regardless of your seed's actual leng
 msgstr "Вам буде запропоновано ввести 24 слова, незалежно від фактичної довжини вашої фрази-паролю (seed). Якщо ви ввели слово неправильно або неправильно написано його, ви не зможете змінити його або повернутися назад - вам потрібно буде знову розпочати з самого початку.\n\n"
 "Тому уважно вводьте слова!"
 
-#: gui/qt/main_window.py:1596
+#: gui/qt/main_window.py:1732
 msgid "You're using a fee less than 1000 sats/kb.  It may take a very long time to confirm."
 msgstr ""
 
@@ -5893,11 +6539,11 @@ msgstr "Ваш гаманець Ledger хоче повідомити вам од
 msgid "Your Ledger is locked. Please unlock it."
 msgstr "Ваш Ledger заблоковано. Будь ласка, розблокуйте його."
 
-#: gui/qt/installwizard.py:250
+#: gui/qt/installwizard.py:251
 msgid "Your accounts have been moved to"
 msgstr "Ваші облікові записи були переміщені в"
 
-#: ios/ElectronCash/electroncash_gui/ios_native/gui.py:1797
+#: ios/ElectronCash/electroncash_gui/ios_native/gui.py:1800
 msgid "Your biometrics-based key for this wallet was reset. This means you will need to enter your password for this wallet again.\n\n"
 "(Then, you can optionally re-enable Touch/Face ID as before.)"
 msgstr ""
@@ -5915,15 +6561,15 @@ msgstr ""
 msgid "Your current Electron Cash wallet can only be used with an empty passphrase.  You must create a separate wallet with the install wizard for other passphrases as each one generates a new set of addresses."
 msgstr ""
 
-#: plugins/keepkey/plugin.py:228
+#: plugins/keepkey/plugin.py:239
 msgid "Your device firmware is too old"
 msgstr "Програмне забезпечення вашого пристрою застаріло"
 
-#: gui/qt/main_window.py:3537
+#: gui/qt/main_window.py:3966
 msgid "Your entire transaction history will be downloaded again from the server and verified from the blockchain."
 msgstr ""
 
-#: gui/qt/main_window.py:1560
+#: gui/qt/main_window.py:1696
 #: ios/ElectronCash/electroncash_gui/ios_native/send.py:826
 msgid "Your fee is too high.  Max is 50 sat/byte."
 msgstr ""
@@ -5932,11 +6578,11 @@ msgstr ""
 msgid "Your labels have been synchronised."
 msgstr "Ваші мітки були синхронізовані."
 
-#: gui/qt/main_window.py:2672
+#: gui/qt/main_window.py:2840
 msgid "Your labels were exported to"
 msgstr ""
 
-#: gui/qt/main_window.py:2657
+#: gui/qt/main_window.py:2825
 msgid "Your labels were imported from"
 msgstr ""
 
@@ -5953,26 +6599,30 @@ msgstr "Ваш розширений seed є"
 msgid "Your seed extension must be saved together with your seed."
 msgstr "Ваше розширення фрази паролю (seed) має зберігатися разом з вашою фразою-паролем."
 
-#: gui/qt/installwizard.py:379
+#: gui/qt/installwizard.py:380
 #: ios/ElectronCash/electroncash_gui/ios_native/newwallet.py:401
 msgid "Your seed is important!"
 msgstr "Ваш seed - це важливо!"
 
-#: gui/kivy/uix/ui_screens/network.kv:50 gui/qt/network_dialog.py:479
+#: gui/kivy/uix/ui_screens/network.kv:50 gui/qt/network_dialog.py:525
 #: ios/ElectronCash/electroncash_gui/ios_native/network_dialog.py:264
 msgid "Your server is on branch"
 msgstr "Ваш сервер на лінії"
+
+#: plugins/shuffle/qt.py:1102
+msgid "Your shuffled and unshuffled coins can be mixed and spent together."
+msgstr ""
 
 #: plugins/cosigner_pool/qt.py:317
 msgid "Your transaction was sent to the cosigning pool."
 msgstr "Вашу транзакцію було надіслано до пулу співвласників."
 
-#: gui/qt/seed_dialog.py:207 gui/qt/installwizard.py:388
+#: gui/qt/seed_dialog.py:207 gui/qt/installwizard.py:389
 #: ios/ElectronCash/electroncash_gui/ios_native/seed_dialog.py:78
 msgid "Your wallet generation seed is:"
 msgstr "Seed вашого гаманця:"
 
-#: gui/qt/main_window.py:2702
+#: gui/qt/main_window.py:2870
 msgid "Your wallet history has been successfully exported."
 msgstr "Історія вашого гаманця успішно експортована."
 
@@ -5986,16 +6636,16 @@ msgstr "Ваш гаманець не захищений."
 msgid "Your wallet is password protected and encrypted."
 msgstr "Ваш гаманець захищений паролем і зашифрований."
 
-#: gui/qt/main_window.py:2921
+#: gui/qt/main_window.py:3214
 #: ios/ElectronCash/electroncash_gui/ios_native/prefs.py:320
 msgid "Zeros after decimal point"
 msgstr "Нуль після десяткової крапки"
 
-#: gui/qt/external_plugins_window.py:323
+#: gui/qt/external_plugins_window.py:326
 msgid "Zip Archives (*.zip)"
 msgstr ""
 
-#: gui/qt/main_window.py:803
+#: gui/qt/main_window.py:838
 #, python-format
 msgid "[%d unverified TXs]"
 msgstr ""
@@ -6048,11 +6698,11 @@ msgstr ""
 msgid "and create your standard wallet or restore an existing one with any of the methods below"
 msgstr ""
 
-#: gui/qt/main_window.py:1274
+#: gui/qt/main_window.py:1356
 msgid "are frozen"
 msgstr "заморожені"
 
-#: gui/qt/network_dialog.py:468 gui/qt/network_dialog.py:480
+#: gui/qt/network_dialog.py:513 gui/qt/network_dialog.py:526
 #: ios/ElectronCash/electroncash_gui/ios_native/network_dialog.py:254
 #: ios/ElectronCash/electroncash_gui/ios_native/network_dialog.py:265
 msgid "blocks"
@@ -6067,7 +6717,7 @@ msgstr "скасувати"
 msgid "confirmations"
 msgstr ""
 
-#: gui/qt/main_window.py:2213
+#: gui/qt/main_window.py:2376
 msgid "cosigner"
 msgstr "поручитель"
 
@@ -6075,7 +6725,15 @@ msgstr "поручитель"
 msgid "delete"
 msgstr ""
 
-#: lib/plugins.py:796 lib/base_wizard.py:201
+#: plugins/shuffle/qt.py:125
+msgid "dusty fee"
+msgstr ""
+
+#: plugins/shuffle/qt.py:125
+msgid "fee"
+msgstr ""
+
+#: lib/plugins.py:802 lib/base_wizard.py:201
 msgid "initialized"
 msgstr "ініціалізовано"
 
@@ -6083,7 +6741,7 @@ msgstr "ініціалізовано"
 msgid "invalid items will be discarded"
 msgstr ""
 
-#: gui/qt/util.py:335
+#: gui/qt/util.py:395
 msgid "json"
 msgstr ""
 
@@ -6091,8 +6749,8 @@ msgstr ""
 msgid "ok"
 msgstr "добре"
 
-#: gui/qt/main_window.py:1721
-#: ios/ElectronCash/electroncash_gui/ios_native/gui.py:1153
+#: gui/qt/main_window.py:1857
+#: ios/ElectronCash/electroncash_gui/ios_native/gui.py:1156
 msgid "please wait..."
 msgstr "будь ласка, зачекайте..."
 
@@ -6100,13 +6758,13 @@ msgstr "будь ласка, зачекайте..."
 msgid "python-btchip is too old for CashAddr support. "
 msgstr ""
 
-#: lib/wallet.py:891
+#: lib/wallet.py:981
 msgid "unconfirmed"
 msgstr ""
 
 #: gui/kivy/uix/dialogs/tx_dialog.py:125 gui/qt/fee_slider.py:32
-#: gui/qt/transaction_dialog.py:259 gui/qt/transaction_dialog.py:322
-#: lib/wallet.py:955
+#: gui/qt/transaction_dialog.py:266 gui/qt/transaction_dialog.py:329
+#: lib/wallet.py:1044
 #: ios/ElectronCash/electroncash_gui/ios_native/txdetail.py:176
 #: ios/ElectronCash/electroncash_gui/ios_native/txdetail.py:243
 #: ios/ElectronCash/electroncash_gui/ios_native/txdetail.py:555
@@ -6114,7 +6772,7 @@ msgstr ""
 msgid "unknown"
 msgstr "невизначено"
 
-#: gui/kivy/uix/dialogs/tx_dialog.py:113 gui/qt/transaction_dialog.py:247
+#: gui/kivy/uix/dialogs/tx_dialog.py:113 gui/qt/transaction_dialog.py:254
 #: ios/ElectronCash/electroncash_gui/ios_native/txdetail.py:511
 msgid "unknown (low fee)"
 msgstr ""
@@ -6123,16 +6781,16 @@ msgstr ""
 msgid "unknown parser {!r} (choices: {})"
 msgstr "невідомий синтаксичний аналізатор {!r} (варіантів: {})"
 
-#: lib/wallet.py:889
+#: lib/wallet.py:979
 msgid "unverified"
 msgstr ""
 
-#: gui/qt/main_window.py:407
+#: gui/qt/main_window.py:422
 #: ios/ElectronCash/electroncash_gui/ios_native/addresses.py:190
 msgid "watching only"
 msgstr "тільки для спостереження"
 
-#: lib/plugins.py:796 lib/base_wizard.py:201
+#: lib/plugins.py:802 lib/base_wizard.py:201
 msgid "wiped"
 msgstr "очищений"
 
@@ -6140,11 +6798,19 @@ msgstr "очищений"
 msgid "without downloading the blockchain or running a full node."
 msgstr ""
 
+#: plugins/shuffle/qt.py:1848
+msgid "{} Pools"
+msgstr ""
+
 #: plugins/keepkey/qt_generic.py:295 plugins/trezor/qt.py:276
 msgid "{} Settings"
 msgstr "{} Налаштування"
 
-#: lib/wallet.py:577
+#: gui/qt/scan_beyond_gap.py:156
+msgid "{} address(es) with a history and {} in-between address(es) were added to your wallet."
+msgstr ""
+
+#: lib/wallet.py:603
 msgid "{} confirmations"
 msgstr "{} підтверджень"
 
@@ -6152,7 +6818,7 @@ msgstr "{} підтверджень"
 msgid "{} connections."
 msgstr "{} з'єднань."
 
-#: gui/qt/main_window.py:1993
+#: gui/qt/main_window.py:2134
 msgid "{} contacts"
 msgstr ""
 
@@ -6188,10 +6854,13 @@ msgstr ""
 msgid "{} mins"
 msgstr ""
 
-#: gui/qt/main_window.py:3647
-#: ios/ElectronCash/electroncash_gui/ios_native/gui.py:765
+#: ios/ElectronCash/electroncash_gui/ios_native/gui.py:768
 msgid "{} new transactions received: Total amount received in the new transactions {}"
 msgstr "{} отримано нових трансакцій: Загальна сума, отримана від нових трансакцій {}"
+
+#: gui/qt/main_window.py:4097
+msgid "{} new transactions: {}"
+msgstr ""
 
 #: ios/ElectronCash/electroncash_gui/ios_native/utils.py:369
 msgid "{} saved successfully"
@@ -6216,4 +6885,16 @@ msgstr ""
 #: plugins/keepkey/qt_generic.py:230
 msgid "{} words"
 msgstr "{} слова"
+
+#: plugins/shuffle/qt.py:856
+msgid "{} {} are busy shuffling"
+msgstr ""
+
+#: plugins/shuffle/qt.py:854
+msgid "{} {} are shuffled"
+msgstr ""
+
+#: plugins/shuffle/qt.py:851
+msgid "{} {} are unshuffled"
+msgstr ""
 
