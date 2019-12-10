@@ -2,8 +2,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: electron-cash\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-11-14 13:37+0200\n"
-"PO-Revision-Date: 2019-11-14 11:45\n"
+"POT-Creation-Date: 2019-12-10 15:10+0200\n"
+"PO-Revision-Date: 2019-12-10 13:13\n"
 "Last-Translator: jonald\n"
 "Language-Team: Swahili\n"
 "Language: sw_KE\n"
@@ -20,7 +20,7 @@ msgstr ""
 msgid "  (No FX rate available)"
 msgstr "  (Kiwango cha FX hakipatikani kwa sasa)"
 
-#: gui/qt/main_window.py:4205
+#: gui/qt/main_window.py:4280
 msgid " These settings affects the fields in the Send tab"
 msgstr " Mipangilio hii inaathiri sehemu za kipenge cha Kutuma"
 
@@ -47,28 +47,28 @@ msgstr "%d vitu halisi"
 msgid "%d words"
 msgstr "%d maneno"
 
-#: gui/qt/main_window.py:692
+#: gui/qt/main_window.py:694
 msgid "&About"
 msgstr "&Kuhusu"
 
-#: gui/qt/main_window.py:2489
+#: gui/qt/main_window.py:2491
 msgid "&Address to convert"
 msgstr "&Anwani ya kubadilisha"
 
-#: gui/qt/main_window.py:190
+#: gui/qt/main_window.py:192
 #: ios/ElectronCash/electroncash_gui/ios_native/addresses.py:313
 msgid "&Addresses"
 msgstr "&Anwani"
 
-#: gui/qt/main_window.py:1537
+#: gui/qt/main_window.py:1539
 msgid "&Amount"
 msgstr "&Kiasi"
 
-#: gui/qt/main_window.py:613
+#: gui/qt/main_window.py:615
 msgid "&BIP38 Encrypted"
 msgstr "&BIP38 Iliyosimbwa"
 
-#: gui/qt/transaction_dialog.py:146
+#: gui/qt/transaction_dialog.py:148
 msgid "&Broadcast"
 msgstr "&Tangaza"
 
@@ -77,19 +77,19 @@ msgstr "&Tangaza"
 msgid "&Cash Account Name"
 msgstr "&Jina la Cash Account"
 
-#: gui/qt/main_window.py:2494
+#: gui/qt/main_window.py:2496
 msgid "&Cash address"
 msgstr "&Anwani ya Fedha"
 
-#: gui/qt/main_window.py:694
+#: gui/qt/main_window.py:696
 msgid "&Check for Updates"
 msgstr "&Angalia vilivyojiri vipya"
 
-#: gui/qt/__init__.py:442
+#: gui/qt/__init__.py:444
 msgid "&Check for updates..."
 msgstr "&Angalia vilivyojiri vipya..."
 
-#: gui/qt/main_window.py:1161 gui/qt/main_window.py:1600
+#: gui/qt/main_window.py:1163 gui/qt/main_window.py:1602
 msgid "&Clear"
 msgstr "&Ondoa"
 
@@ -101,15 +101,15 @@ msgstr "&Funga"
 msgid "&Confirm"
 msgstr "&Thibitisha"
 
-#: gui/qt/main_window.py:624
+#: gui/qt/main_window.py:626
 msgid "&Contacts"
 msgstr "&Stakabadhi za kuwasiliana"
 
-#: gui/qt/util.py:165 gui/qt/qrcodewidget.py:137
+#: gui/qt/util.py:167 gui/qt/qrcodewidget.py:137
 msgid "&Copy"
 msgstr "&Nakili"
 
-#: gui/qt/util.py:174
+#: gui/qt/util.py:176
 msgid "&Copy and Close"
 msgstr "&Nakili na Ufunge"
 
@@ -117,11 +117,11 @@ msgstr "&Nakili na Ufunge"
 msgid "&Copy {}"
 msgstr "&Nakili {}"
 
-#: gui/qt/main_window.py:599
+#: gui/qt/main_window.py:601
 msgid "&Delete"
 msgstr "&Futa"
 
-#: gui/qt/main_window.py:1102 gui/qt/main_window.py:1498
+#: gui/qt/main_window.py:1104 gui/qt/main_window.py:1500
 msgid "&Description"
 msgstr "&Maelezo"
 
@@ -133,12 +133,12 @@ msgstr "&Maelezo"
 msgid "&Don't ask again"
 msgstr "&Usiulize tena"
 
-#: gui/qt/main_window.py:700
+#: gui/qt/main_window.py:702
 msgid "&Donate to Server"
 msgstr "&Toa mchango kwa seva"
 
 #. 20 px padding
-#: gui/qt/transaction_dialog.py:466
+#: gui/qt/transaction_dialog.py:471
 msgid "&Download input data"
 msgstr "&Shushwa data ya kuingiza"
 
@@ -147,19 +147,19 @@ msgstr "&Shushwa data ya kuingiza"
 msgid "&Edit {}"
 msgstr "&Hariri {}"
 
-#: gui/qt/main_window.py:671
+#: gui/qt/main_window.py:673
 msgid "&Encrypt/Decrypt Message"
 msgstr "&Usimbaji/Usimbaji fiche ujumbe"
 
-#: gui/qt/main_window.py:611 gui/qt/main_window.py:623
+#: gui/qt/main_window.py:613 gui/qt/main_window.py:625
 msgid "&Export"
 msgstr "Kuuza nje"
 
-#: gui/qt/main_window.py:594
+#: gui/qt/main_window.py:596
 msgid "&File"
 msgstr "&Faili"
 
-#: gui/qt/main_window.py:635
+#: gui/qt/main_window.py:637
 msgid "&Find"
 msgstr "&Tafuta"
 
@@ -167,31 +167,31 @@ msgstr "&Tafuta"
 msgid "&Flip horizontally"
 msgstr "&Geuza kulainisha"
 
-#: gui/qt/main_window.py:1524
+#: gui/qt/main_window.py:1526
 msgid "&From"
 msgstr "&Kutoka"
 
-#: gui/qt/main_window.py:668
+#: gui/qt/main_window.py:670
 msgid "&Hardware Wallet Support..."
-msgstr "&Msaada wa Kifaa cha kipochi..."
+msgstr "&Kifaa cha kipochi kinategemezwa..."
 
-#: gui/qt/main_window.py:691
+#: gui/qt/main_window.py:693
 msgid "&Help"
 msgstr "&Msaada"
 
-#: gui/qt/main_window.py:630
+#: gui/qt/main_window.py:632
 msgid "&History"
 msgstr "&Historia"
 
-#: gui/qt/main_window.py:610 gui/qt/main_window.py:622
+#: gui/qt/main_window.py:612 gui/qt/main_window.py:624
 msgid "&Import"
 msgstr "&Agiza"
 
-#: gui/qt/main_window.py:604
+#: gui/qt/main_window.py:606
 msgid "&Information"
 msgstr "&Maelezo"
 
-#: gui/qt/transaction_dialog.py:459
+#: gui/qt/transaction_dialog.py:464
 #, python-brace-format
 msgid "&Input"
 msgid_plural "&Inputs ({num_inputs})"
@@ -202,126 +202,126 @@ msgstr[1] "&Pembejeo ({num_inputs})"
 msgid "&Install"
 msgstr "&Weka programu"
 
-#: gui/qt/main_window.py:621
+#: gui/qt/main_window.py:623
 msgid "&Labels"
 msgstr "&Lebo"
 
-#: gui/qt/main_window.py:2499
+#: gui/qt/main_window.py:2501
 msgid "&Legacy address"
 msgstr "&Anwani za muundo wa jadi"
 
-#: gui/qt/main_window.py:676
+#: gui/qt/main_window.py:678
 msgid "&Load Transaction"
 msgstr "&Weka shuguli za ununuzi"
 
-#: gui/qt/main_window.py:1549
+#: gui/qt/main_window.py:1551
 msgid "&Max"
 msgstr "&Ya Juu"
 
-#: gui/qt/main_window.py:663
+#: gui/qt/main_window.py:665
 msgid "&Network"
 msgstr "&Mtandao"
 
-#: gui/qt/main_window.py:625
+#: gui/qt/main_window.py:627
 msgid "&New"
 msgstr "&Mpya"
 
-#: gui/qt/main_window.py:597
+#: gui/qt/main_window.py:599
 msgid "&New/Restore"
 msgstr "&Mpya/Rudisha"
 
-#: gui/qt/util.py:181
+#: gui/qt/util.py:183
 msgid "&OK"
 msgstr "&Sawa"
 
-#: gui/qt/main_window.py:1111 gui/qt/main_window.py:1507
+#: gui/qt/main_window.py:1113 gui/qt/main_window.py:1509
 msgid "&OP_RETURN"
 msgstr "&OP_RETURN"
 
-#: gui/qt/main_window.py:695
+#: gui/qt/main_window.py:697
 msgid "&Official Website"
 msgstr "&Tovuti rasmi"
 
-#: gui/qt/main_window.py:596
+#: gui/qt/main_window.py:598
 msgid "&Open"
 msgstr "&Fungua"
 
-#: gui/qt/transaction_dialog.py:505
+#: gui/qt/transaction_dialog.py:511
 #, python-brace-format
 msgid "&Output"
 msgid_plural "&Outputs ({num_outputs})"
 msgstr[0] "&Toleo"
 msgstr[1] "&Toleo ({num_outputs})"
 
-#: gui/qt/main_window.py:606
+#: gui/qt/main_window.py:608
 msgid "&Password"
 msgstr "&Nenosiri"
 
-#: gui/qt/main_window.py:674
+#: gui/qt/main_window.py:676
 msgid "&Pay to Many"
 msgstr "&Lipa wengi"
 
-#: gui/qt/main_window.py:1595
+#: gui/qt/main_window.py:1597
 msgid "&Preview"
 msgstr "&Ona mwoneko awali"
 
-#: gui/qt/main_window.py:601
+#: gui/qt/main_window.py:603
 msgid "&Quit"
 msgstr "&Toka"
 
-#: gui/qt/main_window.py:1513
+#: gui/qt/main_window.py:1515
 msgid "&Raw hex script"
 msgstr "&Raw hex script"
 
-#: gui/qt/main_window.py:616
+#: gui/qt/main_window.py:618
 msgid "&Rebuild History"
 msgstr "&Jenga Historia tena"
 
-#: gui/qt/main_window.py:1025
+#: gui/qt/main_window.py:1027
 msgid "&Receiving address"
 msgstr "&Anwani ya Kupokea"
 
-#: gui/qt/main_window.py:688
+#: gui/qt/main_window.py:690
 msgid "&Register Cash Account..."
 msgstr "&Jiandikishe Cash Account..."
 
-#: gui/qt/main_window.py:698
+#: gui/qt/main_window.py:700
 msgid "&Report Bug..."
 msgstr "&Ripoti dosari..."
 
-#: gui/qt/main_window.py:1158 gui/qt/qrcodewidget.py:142
+#: gui/qt/main_window.py:1160 gui/qt/qrcodewidget.py:142
 msgid "&Save"
 msgstr "&Hifadi"
 
-#: gui/qt/main_window.py:598
+#: gui/qt/main_window.py:600
 msgid "&Save Copy As"
 msgstr "&Hifadhi Nakili"
 
-#: gui/qt/main_window.py:607
+#: gui/qt/main_window.py:609
 msgid "&Seed"
 msgstr "&Manenosiri"
 
-#: gui/qt/main_window.py:1597
+#: gui/qt/main_window.py:1599
 msgid "&Send"
 msgstr "&Tuma"
 
-#: gui/qt/transaction_dialog.py:143
+#: gui/qt/transaction_dialog.py:145
 msgid "&Sign"
 msgstr "&Tia saini"
 
-#: gui/qt/main_window.py:670
+#: gui/qt/main_window.py:672
 msgid "&Sign/Verify Message"
 msgstr "&Weka Sahihi/Thibitisha ujumbe"
 
-#: gui/qt/main_window.py:609
+#: gui/qt/main_window.py:611
 msgid "&Sweep"
 msgstr "&Chukua"
 
-#: gui/qt/main_window.py:652
+#: gui/qt/main_window.py:654
 msgid "&Tools"
 msgstr "&Zana"
 
-#: gui/qt/transaction_dialog.py:100
+#: gui/qt/transaction_dialog.py:102
 msgid "&Transaction ID:"
 msgstr "&Nambari ya Shuguli za ununuzi:"
 
@@ -329,15 +329,15 @@ msgstr "&Nambari ya Shuguli za ununuzi:"
 msgid "&Uninstall"
 msgstr "&Ondoa"
 
-#: gui/qt/main_window.py:645
+#: gui/qt/main_window.py:647
 msgid "&View"
 msgstr "&Tazama"
 
-#: gui/qt/main_window.py:612
+#: gui/qt/main_window.py:614
 msgid "&WIF Plaintext"
 msgstr "&WIF Plaintext"
 
-#: gui/qt/main_window.py:603
+#: gui/qt/main_window.py:605
 msgid "&Wallet"
 msgstr "&Kipochi"
 
@@ -346,7 +346,7 @@ msgstr "&Kipochi"
 msgid "'{uri_scheme}' payment requests are not currently supported"
 msgstr "{uri_scheme} maombi ya malipo hayatumiki kwa sasa"
 
-#: gui/qt/transaction_dialog.py:424
+#: gui/qt/transaction_dialog.py:430
 #, python-format
 msgid "( %s in dust was added to fee )"
 msgstr "( %s ada ndogo zaidi imeongezewa kwa ada )"
@@ -355,7 +355,7 @@ msgstr "( %s ada ndogo zaidi imeongezewa kwa ada )"
 msgid "(Custom)"
 msgstr "(Custom)"
 
-#: gui/qt/main_window.py:503
+#: gui/qt/main_window.py:505
 msgid "(Old versions of Electron Cash before 3.3.6 produced invalid testnet wallets)."
 msgstr "(Toleo la zamani la Electron Cash kabla ya 3.3.6 ilitoa anwani batili za testnet)."
 
@@ -372,7 +372,7 @@ msgstr "(Script Output)"
 msgid "(Touch {} of {})"
 msgstr "(Touch {} of {})"
 
-#: gui/qt/main_window.py:4988
+#: gui/qt/main_window.py:5063
 msgid "(You can always toggle it later using the CashShuffle button.)"
 msgstr "(Unaweza kuuzima baadaye ukitumia kitufe cha CashShuffle.)"
 
@@ -380,7 +380,7 @@ msgstr "(Unaweza kuuzima baadaye ukitumia kitufe cha CashShuffle.)"
 msgid "(aka 'passphrase')"
 msgstr "(inayojilikana pia kama 'nenosiri')"
 
-#: gui/qt/main_window.py:4251
+#: gui/qt/main_window.py:4326
 msgid "(disabled)"
 msgstr "(imetolewa)"
 
@@ -401,7 +401,7 @@ msgid "..."
 msgstr "..."
 
 #. singular
-#: gui/qt/main_window.py:5433
+#: gui/qt/main_window.py:5508
 #, python-brace-format
 msgid "1 Cash Accounts registration ({cash_accounts_name})"
 msgstr "1 Cash Accounts usajili ({cash_accounts_name})"
@@ -418,7 +418,7 @@ msgstr "Saa 1"
 msgid "1 week"
 msgstr "Wiki 1"
 
-#: plugins/satochip/qt.py:284
+#: plugins/satochip/qt.py:298
 msgid "2FA reset successfully!"
 msgstr "2FA imeanzishwa tena kwa mafanikio!"
 
@@ -426,7 +426,7 @@ msgstr "2FA imeanzishwa tena kwa mafanikio!"
 msgid ":"
 msgstr ":"
 
-#: gui/qt/main_window.py:3716
+#: gui/qt/main_window.py:3791
 msgid "<b>BIP38 support is disabled because a requisite library is not installed.</b> Please install 'cryptodomex' or omit BIP38 private keys (private keys starting in 6P...). Decrypt keys to WIF format (starting with 5, K, or L) in order to sweep."
 msgstr "<b>Msaada wa BIP38 umezimwa kwa sababu maktaba inahitajika haijasanikishwa. </b> Tafadhali sasisha 'cryptodomex' au ondoa funguosiri za BIP38 (funguosiri zinazoanza 6P...). Toa usimbuaji fiche wa funguosiri za muundo wa WIF (kuanzia na 5, K, au L) ili kufagia."
 
@@ -434,7 +434,7 @@ msgstr "<b>Msaada wa BIP38 umezimwa kwa sababu maktaba inahitajika haijasanikish
 msgid "<br>Add anyone's Cash Account to your Contacts"
 msgstr "<br>Ongeza Akaunti ya Cash Account kwa Anwani zako"
 
-#: gui/qt/main_window.py:5157
+#: gui/qt/main_window.py:5232
 msgid "<p>How it works: <b>Cash Accounts</b> registrations work by issuing an <b>OP_RETURN</b> transaction to yourself, costing fractions of a penny.</p><p>The registrations are permanently written to the blockchain and associate a human-friendly name with your address.</p><p>After the registration transaction receives <i>1 confirmation</i>, you can use your new <b>Cash Account name</b> as if it were an address and give it out to other people (Electron Cash or another Cash Account enabled wallet is required).</p><p><span style=\"font-weight:100;\">You will be offered the opportunity to review the generated transaction before broadcasting it to the blockchain.</span></p>"
 msgstr "<p>Jinsi inavyofanya kazi: Usajili wa <b>Cash Accounts</b> inafanya kazi kwa kutoa<b> OP_RETURN </b> kwako, na kugharimu vipande vya senti. </p> <p> Usajili unafanywa kwenye blockchain na unawza tumia jina linaloeleweka. </p> <p> Baada ya shughuli ya usajili kupokea <i> 1 thibitisho </i>, unaweza kutumia jina lako mpya la <b> Cash Account name </b> kama anwani na kuwapa watu wengine (Electron Cash au Cash Account inahitajika). </p> <p> <span style = \"font-weight: 100;\"> utapewa fursa ya kukagua ununuzi uliyotanguliwa kabla ya tangaza kwa blockchain. </span> </p>"
 
@@ -448,7 +448,7 @@ msgstr "<span style=\"white-space:nowrap\"><b>{cash_account}</b>imeongezwa kwa A
 msgid "<span style=\"white-space:nowrap\"><b>{cash_account}</b> already in Contacts</span>"
 msgstr "<span style=\"white-space:nowrap\"><b>{cash_account}</b>tayari kwa Anwani</span>"
 
-#: gui/qt/main_window.py:3839
+#: gui/qt/main_window.py:3914
 msgid "A BIP38 key was specified, please enter a password to decrypt it"
 msgstr "Funguosiri ya BIP38 kiliwekwa bayana, tafadhali ingiza nenosiri ili kuitoa usimbuaji fiche"
 
@@ -456,12 +456,12 @@ msgstr "Funguosiri ya BIP38 kiliwekwa bayana, tafadhali ingiza nenosiri ili kuit
 msgid "A backup is saved automatically when generating a new wallet."
 msgstr "Nakala imehifadhiwa kipochi kipya kinapofanyizwa."
 
-#: gui/qt/main_window.py:2660
+#: gui/qt/main_window.py:2662
 #, python-brace-format
 msgid "A contact named {contact.name} with the same address and type already exists."
 msgstr "Anwani ya jina la {contact.name} na anwani sawa na aina tayari iko."
 
-#: gui/qt/main_window.py:550
+#: gui/qt/main_window.py:552
 msgid "A copy of your wallet file was created in"
 msgstr "Nakala ya kipochi chako kiliundwa"
 
@@ -489,17 +489,17 @@ msgstr "Kosa la kuunganishwa kwa mtandao limetokea. Tafadhali angalia muunganish
 msgid "A network timeout occurred while looking up this Cash Account. You may want to check that your internet connection is up and not saturated processing other requests."
 msgstr "Muda wa mtandao ulikatizwa wakati wa kutafuta Cash Account hii. Unaweza angalia kwamba muunganisho wako wa mtandao uko sawa na haujajaa ukishughulikia ombi zingine."
 
-#: gui/qt/__init__.py:660
+#: gui/qt/__init__.py:662
 msgid "A new version of Electron Cash is available: {}"
 msgstr "Toleo jipya la Electron Cash linapatikana: {}"
 
 #. Closes #1436 -- Some "Run from source" Linux users lack QtSvg
 #. (partial PyQt5 install)
-#: gui/qt/__init__.py:253
+#: gui/qt/__init__.py:255
 msgid "A required Qt module, QtSvg was not found. Please fully install all of PyQt5 5.12 or above to resolve this issue."
 msgstr "Moduli ya Qt inayohitajika, QtSvg haikuonekana. Tafadhali sasisha kikamilifu yote ya PyQt5 5.12 au juu ili kusuluhisha suala hili."
 
-#: gui/qt/main_window.py:1559
+#: gui/qt/main_window.py:1561
 msgid "A suggested fee is automatically added to this field. You may override it. The suggested fee increases with the size of the transaction."
 msgstr "Ada inayopendekezwa huongezwa eneo hili Unaweza kuifuta. Ada inayopendekezwa huongezeka na saizi ya Shuguli ya ununuzi."
 
@@ -528,7 +528,7 @@ msgstr "Kuhusu"
 msgid "About BIP39"
 msgstr "Kuhusu BIP39"
 
-#: gui/qt/main_window.py:693
+#: gui/qt/main_window.py:695
 msgid "About Qt"
 msgstr "Kuhusu Qt"
 
@@ -554,7 +554,7 @@ msgstr "Ongeza mweka sahihi wa pili"
 
 #: gui/qt/external_plugins_window.py:278
 msgid "Add Plugin"
-msgstr "Ongeza aina ya programu"
+msgstr "Ongeza programu-jalizi"
 
 #: lib/base_wizard.py:125
 msgid "Add a cosigner to your multi-sig wallet"
@@ -585,7 +585,7 @@ msgstr "Ongeza kwa vitu unazopendelea"
 msgid "Adding {} of {} new addresses to wallet..."
 msgstr "Ongeza {} ya {} anwani mpya kwenye kipochi..."
 
-#: gui/qt/main_window.py:2102
+#: gui/qt/main_window.py:2104
 #: ios/ElectronCash/electroncash_gui/ios_native/send.py:832
 msgid "Additional fees"
 msgstr "Ada ya ziada"
@@ -596,8 +596,8 @@ msgstr "Unaweza pia kuwa katika hatari ya shambulizi za man-in-the-middle."
 
 #. self.blurb.text = _("Contacts are a convenient feature to associate addresses with user-friendly names. "
 #. "Contacts can be accessed when sending a payment via the 'Send' tab.") if not self.editMode else self.title
-#: gui/qt/main_window.py:2952 gui/qt/main_window.py:3066
-#: gui/qt/main_window.py:3188 gui/qt/request_list.py:42
+#: gui/qt/main_window.py:2954 gui/qt/main_window.py:3068
+#: gui/qt/main_window.py:3190 gui/qt/request_list.py:42
 #: gui/qt/cashacctqt.py:858 gui/qt/cashacctqt.py:882 gui/qt/address_list.py:101
 #: gui/qt/address_list.py:340 gui/qt/address_dialog.py:48
 #: gui/qt/utxo_list.py:58 gui/qt/contact_list.py:58 gui/qt/contact_list.py:235
@@ -610,13 +610,13 @@ msgstr "Unaweza pia kuwa katika hatari ya shambulizi za man-in-the-middle."
 msgid "Address"
 msgstr "Anwani"
 
-#: gui/qt/main_window.py:193
+#: gui/qt/main_window.py:195
 #: ios/ElectronCash/electroncash_gui/ios_native/addrconv.py:22
 #: ios/ElectronCash/electroncash_gui/ios_native/prefs.py:226
 msgid "Address Converter"
 msgstr "Kibadilishi cha anwani"
 
-#: gui/qt/transaction_dialog.py:771
+#: gui/qt/transaction_dialog.py:777
 #: ios/ElectronCash/electroncash_gui/ios_native/txdetail.py:338
 #: ios/ElectronCash/electroncash_gui/ios_native/coins.py:636
 msgid "Address Details"
@@ -624,8 +624,8 @@ msgstr "Maelezo ya Anwani"
 
 #. CashAddr control
 #. spacer
-#: gui/qt/main_window.py:3871 gui/qt/main_window.py:3873
-#: gui/qt/main_window.py:4365
+#: gui/qt/main_window.py:3946 gui/qt/main_window.py:3948
+#: gui/qt/main_window.py:4440
 msgid "Address Format"
 msgstr "Fomati ya Anwani"
 
@@ -649,7 +649,7 @@ msgstr "Anwani ina sarafu sizizoweweza kutumikla"
 msgid "Address is frozen"
 msgstr "Anwani imefungiwa"
 
-#: gui/qt/main_window.py:3147
+#: gui/qt/main_window.py:3149
 #: ios/ElectronCash/electroncash_gui/ios_native/sign_decrypt_dialog.py:250
 #: plugins/hw_wallet/plugin.py:72
 msgid "Address not in wallet."
@@ -659,7 +659,7 @@ msgstr "Anwani haipatikani kwa kipochi."
 msgid "Address to convert"
 msgstr "Anwani ya kubadilisha"
 
-#: gui/qt/util.py:477
+#: gui/qt/util.py:502
 msgid "Address to sweep to:"
 msgstr "Anwani ya kufagilia:"
 
@@ -671,7 +671,7 @@ msgstr "Anwani:"
 msgid "Addresses"
 msgstr "Anwani"
 
-#: lib/wallet.py:1728
+#: lib/wallet.py:1840
 msgid "Addresses generated:"
 msgstr "Anwani zimeuundwa:"
 
@@ -679,7 +679,7 @@ msgstr "Anwani zimeuundwa:"
 msgid "Advanced"
 msgstr "Mengine"
 
-#: gui/qt/main_window.py:5222
+#: gui/qt/main_window.py:5297
 msgid "After at least <i>1 confirmation</i>, you will be able to use your new <b>Cash Account</b>, and it will be visible in Electron Cash in the <b>Addresses</b> tab."
 msgstr "Baada ya angalau <i>thibitisho 1</i> utaweza kutumia akaunti yako mpya ya <b> Cash Account </b> na itaonekana katika Electron Cash kwenye <b>Anwani</b>."
 
@@ -708,7 +708,7 @@ msgid "All set and good to go."
 msgstr "Kila kitu kishwari."
 
 #. Legacy BCT Segwit Send Protection™
-#: gui/qt/main_window.py:4470
+#: gui/qt/main_window.py:4545
 msgid "Allow legacy p2sh in the Send tab"
 msgstr "Wezesha p2sh kwa sehemu ya kutuma"
 
@@ -720,11 +720,11 @@ msgstr "Imekwisha Muda"
 msgid "Already up to date"
 msgstr "Ni yahadi leo"
 
-#: plugins/satochip/qt.py:298
+#: plugins/satochip/qt.py:312
 msgid "Also reset 2FA"
 msgstr "Anzisha tena 2FA"
 
-#: gui/qt/invoice_list.py:36 gui/qt/main_window.py:2715
+#: gui/qt/invoice_list.py:36 gui/qt/main_window.py:2717
 #: gui/qt/history_list.py:70 gui/qt/history_list.py:73
 #: gui/qt/request_list.py:42 gui/qt/utxo_list.py:58 gui/text.py:103
 #: gui/text.py:176 gui/stdio.py:104
@@ -740,26 +740,26 @@ msgstr "Kiasi"
 msgid "Amount for OP_RETURN output must be zero."
 msgstr "Kiasi cha OP_RETURN pato lazima liwe sufuri."
 
-#: gui/qt/transaction_dialog.py:413
+#: gui/qt/transaction_dialog.py:419
 #: ios/ElectronCash/electroncash_gui/ios_native/txdetail.py:537
 msgid "Amount received:"
 msgstr "Kiasi Kilichopokewa:"
 
-#: gui/qt/transaction_dialog.py:415
+#: gui/qt/transaction_dialog.py:421
 #: ios/ElectronCash/electroncash_gui/ios_native/txdetail.py:542
 msgid "Amount sent:"
 msgstr "Kiasi Kilichotumwa:"
 
-#: gui/qt/main_window.py:2095
+#: gui/qt/main_window.py:2097
 #: ios/ElectronCash/electroncash_gui/ios_native/send.py:825
 msgid "Amount to be sent"
 msgstr "Kiasi cha Kutumwa"
 
-#: gui/qt/main_window.py:1533
+#: gui/qt/main_window.py:1535
 msgid "Amount to be sent."
 msgstr "Kiasi cha kutumwa."
 
-#: gui/qt/main_window.py:2807
+#: gui/qt/main_window.py:2809
 msgid "An Electron Cash update is available"
 msgstr "Sawazisho mpya la Electron Cash linapatikana"
 
@@ -772,7 +772,7 @@ msgstr "Kosa limetokea"
 msgid "An encrypted transaction was retrieved from cosigning pool."
 msgstr "Shuguli ya ununuzi iliyosimbwa yalipatikana kutoka kwenye dimbwi la seva."
 
-#: lib/network.py:1839
+#: lib/network.py:1843
 msgid "An error occurred broadcasting the transaction"
 msgstr "Kosa limetokea wakati wa matangazo ya shughuli za ununuzi"
 
@@ -798,7 +798,7 @@ msgstr "Swala lisilotajwa lilitajwa. Haiwezi kufungua programu-jalizi."
 msgid "Any"
 msgstr "Zozote"
 
-#: gui/qt/main_window.py:4590
+#: gui/qt/main_window.py:4665
 msgid "App-Global Options"
 msgstr "Chagua za App-Global"
 
@@ -858,31 +858,31 @@ msgstr "Thibitisha, tafadhali"
 msgid "Auto connect"
 msgstr "Unganisha kiotomatiki"
 
-#: gui/qt/__init__.py:802
+#: gui/qt/__init__.py:804
 msgid "Automatic High DPI"
 msgstr "DPI kiotomatiki ya juu"
 
 #. is_win
-#: gui/qt/__init__.py:795 gui/qt/__init__.py:799
+#: gui/qt/__init__.py:797 gui/qt/__init__.py:801
 msgid "Automatic high DPI scaling has been enabled for Electron Cash, which should result in improved graphics quality."
 msgstr "DPI otomatiki ya juu imewezeshwa kwa Electron Cash, ambayo inapaswa kusababisha ubora wa picha."
 
-#: gui/qt/main_window.py:4328
+#: gui/qt/main_window.py:4403
 msgid "Automatic high DPI scaling was disabled from the command-line"
 msgstr "DPI otomatiki ya juu kuongezeka ilizimwa kutoka kwa safu ya amri"
 
 #. Enable/Disable HighDPI -- this option makes no sense for macOS
 #. and thus does not appear on that platform
-#: gui/qt/main_window.py:4321
+#: gui/qt/main_window.py:4396
 msgid "Automatic high-DPI scaling"
 msgstr "DPI otomatiki ya juu kuongezeka"
 
 #. spacer
-#: gui/qt/main_window.py:4385
+#: gui/qt/main_window.py:4460
 msgid "Automatically check for updates"
 msgstr "Angalia kiotomatiki sasisho"
 
-#: gui/qt/main_window.py:3428
+#: gui/qt/main_window.py:3430
 msgid "BIP38 Encryption is not available. Please install 'pycryptodomex' and restart Electron Cash to enable BIP38."
 msgstr "Usimbuaji wa BIP38 haupatikani. Tafadhali sasisha 'pycryptodomex' na uwashe tena Electron Cash ili kuwezesha BIP38."
 
@@ -890,7 +890,7 @@ msgstr "Usimbuaji wa BIP38 haupatikani. Tafadhali sasisha 'pycryptodomex' na uwa
 msgid "BIP38 Import"
 msgstr "Agiza BIP38"
 
-#: gui/qt/main_window.py:3103
+#: gui/qt/main_window.py:3105
 msgid "BIP38 Key"
 msgstr "Funguosiri ya BIP38"
 
@@ -898,7 +898,7 @@ msgstr "Funguosiri ya BIP38"
 msgid "BIP38 encrpted keys are supported."
 msgstr "Funguosiri za BIP38 zilizosimbwa zimewezeshwa."
 
-#: gui/qt/main_window.py:3079
+#: gui/qt/main_window.py:3081
 msgid "BIP38 encryption unavailable: install pycryptodomex to enable"
 msgstr "Funguosiri za BIP38 zilizosimbwa hazipatikani: Weka programu ya pycryptodomex kuwezesha"
 
@@ -941,12 +941,12 @@ msgid "Back"
 msgstr "Nyuma"
 
 #. prepend newlines
-#: gui/qt/main_window.py:2354
+#: gui/qt/main_window.py:2356
 #, python-brace-format
 msgid "Bad parameter: {bad_param_name}{extra_info}"
 msgstr "Parameta mbaya: {bad_param_name}{extra_info}"
 
-#: gui/qt/main_window.py:904 gui/qt/history_list.py:70
+#: gui/qt/main_window.py:906 gui/qt/history_list.py:70
 #: gui/qt/history_list.py:73 gui/qt/address_list.py:101
 #: gui/qt/address_list.py:104 gui/qt/address_list.py:340 gui/text.py:103
 #: gui/text.py:136 gui/stdio.py:104 gui/stdio.py:116
@@ -988,7 +988,7 @@ msgid "Bans usually occur when other shufflers detected invalid inputs coming fr
 msgstr "Kupigwa marufuku kwa seva kawaida hufanyika wakati wachanganyishaji wengine wanapata pembejeo batili kutoka kwa mteja wako. Kupigwa marufuku kwa seva ni kwa muda mfupi na kawaida hudumu hadi dakika 30.\n\n"
 "Mara kwa mara katika hali nadra. Lakini, ikiwa hii ikiendelea kufanyika tafadhali wasiliana na watengenezaji na upe ripoti ya dosari unayopata."
 
-#: gui/qt/main_window.py:4206
+#: gui/qt/main_window.py:4281
 #: ios/ElectronCash/electroncash_gui/ios_native/prefs.py:340
 msgid "Base unit"
 msgstr "Kitengo cha msingi"
@@ -996,11 +996,11 @@ msgstr "Kitengo cha msingi"
 #. Crash reporter box at bottom of this tab
 #. commit crash reporter gb to layout
 #. ( 'BCH', 'mBCH', 'bits' )
-#: gui/qt/main_window.py:4203
+#: gui/qt/main_window.py:4278
 msgid "Base unit of your wallet."
 msgstr "Kitengo cha kipimo cha kipochi."
 
-#: gui/qt/main_window.py:726
+#: gui/qt/main_window.py:728
 msgid "Before reporting a bug, upgrade to the most recent version of Electron Cash (latest release or git HEAD), and include the version number in your report."
 msgstr "Kabla ya kuripoti dosari, sasisha kwa toleo la hivi karibuni la Electron Cash (kutolewa hivi karibuni au HEAD ya git), na ujumuishe nambari ya toleo katika ripoti yako."
 
@@ -1012,22 +1012,22 @@ msgstr "Vipimo vya kibiolojia havipatikani"
 msgid "Bit rate [kbps]: "
 msgstr "Kiwango cha Bit [kbps]: "
 
-#: gui/qt/main_window.py:1024
+#: gui/qt/main_window.py:1026
 msgid "Bitcoin Cash address where the payment should be received. Note that each payment request uses a different Bitcoin Cash address."
 msgstr "Anwani ya Bitcoin Cash ambapo malipo inapaswa kupokelewa. Kumbuka kuwa kila ombi la malipo hutumia anwani tofauti ya Bitcoin Cash."
 
-#: gui/qt/main_window.py:1557
+#: gui/qt/main_window.py:1559
 msgid "Bitcoin Cash transactions are in general not free. A transaction fee is paid by the sender of the funds."
 msgstr "Malipo ya Fedha ya Bitcoin Cash kwa jumla sio bure. Ada ya ununuzi inalipwa na mtumaji wa pesa hizo."
 
 #: android/app/src/main/python/electroncash_gui/android/strings.py:11
 msgid "Block explorer"
-msgstr "Mchunguzi wa vitengo"
+msgstr "Mtaftaji wa vitengo"
 
 #. There WAS a 'Copy link' and they clicked it
-#: gui/qt/main_window.py:2251
+#: gui/qt/main_window.py:2253
 msgid "Block explorer link copied to clipboard"
-msgstr "Kiuna cha mchunguzi wa vitengo kunakiliwa kwa clipboard"
+msgstr "Kiuna cha mtaftaji wa vitengo kunakiliwa kwa clipboard"
 
 #: gui/qt/network_dialog.py:465
 msgid "Blockchain"
@@ -1045,7 +1045,7 @@ msgstr "Kupokea na Kubadilisha (x2)"
 msgid "Broadcast"
 msgstr "Tangaza"
 
-#: gui/qt/main_window.py:2261
+#: gui/qt/main_window.py:2263
 #: ios/ElectronCash/electroncash_gui/ios_native/gui.py:2030
 msgid "Broadcasting transaction..."
 msgstr "Tangaza shuguli ya ununuzi..."
@@ -1054,19 +1054,19 @@ msgstr "Tangaza shuguli ya ununuzi..."
 msgid "Busy shuffling:"
 msgstr "Bizi ikichanganya:"
 
-#: gui/qt/util.py:187
+#: gui/qt/util.py:189
 msgid "C&ancel"
 msgstr "&Toa"
 
-#: gui/qt/util.py:159
+#: gui/qt/util.py:161
 msgid "C&lose"
 msgstr "&Funga"
 
-#: gui/qt/main_window.py:4945
+#: gui/qt/main_window.py:5020
 msgid "CPFP no longer valid"
 msgstr "CPFP haitumiki tena"
 
-#: gui/qt/util.py:488
+#: gui/qt/util.py:513
 msgid "CSV"
 msgstr "CSV"
 
@@ -1178,7 +1178,7 @@ msgstr "Haiwezi kusoma faili"
 msgid "Cannot send/receive new transactions."
 msgstr "Haiwezi kutuma / kupokea shughuli mpya."
 
-#: gui/qt/main_window.py:3141
+#: gui/qt/main_window.py:3143
 #: ios/ElectronCash/electroncash_gui/ios_native/sign_decrypt_dialog.py:242
 msgid "Cannot sign messages with this type of address."
 msgstr "Haiwezi kusaini ujumbe na aina hii ya anwani."
@@ -1207,7 +1207,7 @@ msgstr "Haiwezi kuanza skana ya QR, hakuna azimio la kamera inayoweza kupatikana
 msgid "Cannot verify Cash Account as the network appears to be offline."
 msgstr "Huwezi kuthibitisha Cash Account kwani mtandao haupatikani."
 
-#: gui/qt/main_window.py:1034
+#: gui/qt/main_window.py:1036
 msgid "Cash Accoun&t"
 msgstr "Cash Account"
 
@@ -1223,7 +1223,7 @@ msgid "Cash Account Details"
 msgstr "Maelezo ya Cash Account"
 
 #. cut off the leading emoji, and add it to the end
-#: gui/qt/main_window.py:1078 gui/qt/cashacctqt.py:449 gui/qt/cashacctqt.py:848
+#: gui/qt/main_window.py:1080 gui/qt/cashacctqt.py:449 gui/qt/cashacctqt.py:848
 msgid "Cash Account copied to clipboard"
 msgstr "Cash Account imenakiliwa kwa clipboard"
 
@@ -1231,7 +1231,7 @@ msgstr "Cash Account imenakiliwa kwa clipboard"
 msgid "Cash Account e.g. satoshi#123.45"
 msgstr "Cash Account mfano satoshi#123.45"
 
-#: gui/qt/cashacctqt.py:895 gui/qt/address_list.py:473
+#: gui/qt/cashacctqt.py:895 gui/qt/address_list.py:475
 #: gui/qt/address_dialog.py:107
 msgid "Cash Account has been made the default for this address"
 msgstr "Cash Account imefanywa kuwa chaguo msingi kwa anwani hii"
@@ -1249,15 +1249,15 @@ msgstr "Uthibitishaji wa Cash Account unasubiri kuthibitishwa"
 msgid "Cash Account verification failure"
 msgstr "Shtaka la ukaguzi wa Cash Account"
 
-#: gui/qt/address_list.py:435
+#: gui/qt/address_list.py:437
 msgid "Cash Account:"
 msgstr "Cash Account:"
 
-#: gui/qt/address_list.py:367
+#: gui/qt/address_list.py:369
 msgid "Cash Accounts"
 msgstr "Cash Accounts"
 
-#: gui/qt/main_window.py:5208
+#: gui/qt/main_window.py:5283
 #, python-brace-format
 msgid "Cash Accounts Registration: '{name}' -> {address}"
 msgstr "Usajili wa Cash Accounts: {name} -> {address}"
@@ -1270,7 +1270,7 @@ msgstr "Anwani ya Fedha"
 msgid "Cash address"
 msgstr "Anwani ya Fedha"
 
-#: gui/qt/main_window.py:3871 gui/qt/main_window.py:4369
+#: gui/qt/main_window.py:3946 gui/qt/main_window.py:4444
 msgid "CashAddr"
 msgstr "CashAddr"
 
@@ -1278,7 +1278,7 @@ msgstr "CashAddr"
 msgid "CashAddr address format"
 msgstr "Fomati ya anwani ya CashAddr"
 
-#: gui/qt/main_window.py:3912 plugins/shuffle/qt.py:135
+#: gui/qt/main_window.py:3987 plugins/shuffle/qt.py:135
 #: plugins/shuffle/qt.py:212 plugins/shuffle/qt.py:586
 #: plugins/shuffle/__init__.py:3
 msgid "CashShuffle"
@@ -1297,7 +1297,7 @@ msgid "CashShuffle Enabled"
 msgstr "Wezesha CashShuffle"
 
 #. Network server error
-#: gui/qt/main_window.py:3923
+#: gui/qt/main_window.py:3998
 msgid "CashShuffle Error: Could not connect to server"
 msgstr "Hitilafu ya CashShuffle: Haikuweza kuunganishwa na seva"
 
@@ -1309,19 +1309,19 @@ msgstr "Itifaki ya CashShuffle"
 msgid "CashShuffle Settings"
 msgstr "Mpangilio wa CashShuffle"
 
-#: gui/qt/main_window.py:3920
+#: gui/qt/main_window.py:3995
 msgid "CashShuffle Settings..."
 msgstr "Mpangilio wa CashShuffle..."
 
-#: gui/qt/main_window.py:5013
+#: gui/qt/main_window.py:5088
 msgid "CashShuffle could not be restarted"
 msgstr "CashShuffle haikuweza kuanzishwa tena"
 
-#: gui/qt/main_window.py:4985
+#: gui/qt/main_window.py:5060
 msgid "CashShuffle is disabled for this wallet."
 msgstr "CashShuffle imezimwa kwa kipochi hiki."
 
-#: gui/qt/main_window.py:4985
+#: gui/qt/main_window.py:5060
 msgid "CashShuffle is disabled."
 msgstr "CashShuffle imezuiliwa."
 
@@ -1346,7 +1346,7 @@ msgstr "CashShuffle inahitaji ufikiaji wa '{}'."
 msgid "CashShuffle requires libsecp; cannot enable shuffling for this wallet."
 msgstr "CashShuffle inahitaji libsecp; haiwezi kuwezesha kuchanganywa kwa kipochi hiki."
 
-#: gui/qt/main_window.py:5011
+#: gui/qt/main_window.py:5086
 msgid "CashShuffle restarted"
 msgstr "Wezesha CashShuffle"
 
@@ -1355,8 +1355,8 @@ msgstr "Wezesha CashShuffle"
 msgid "CashShuffle will now be <i>disabled</i> for a wallet which has previously had it <b>enabled</b>. Are you sure?"
 msgstr "CashShuffle sasa itakuwa <i>imezimwa</i> kwa kipochi ambacho hapo awali kilikuwa <b> kimewezeshwa </b>. Una uhakika?"
 
-#: gui/qt/main_window.py:869 gui/qt/main_window.py:871
-#: gui/qt/main_window.py:873
+#: gui/qt/main_window.py:871 gui/qt/main_window.py:873
+#: gui/qt/main_window.py:875
 msgid "Chain fork(s) detected"
 msgstr "Tawi zaidi za Chain kupatokana"
 
@@ -1378,7 +1378,7 @@ msgstr "Mgawanyiko wa chain kugunduliwa katika kitengo %d"
 msgid "Change"
 msgstr "Badilisha"
 
-#: gui/qt/cashacctqt.py:463 gui/qt/transaction_dialog.py:512
+#: gui/qt/cashacctqt.py:463 gui/qt/transaction_dialog.py:518
 #: ios/ElectronCash/electroncash_gui/ios_native/addresses.py:205
 msgid "Change Address"
 msgstr "Badilisha Anwani"
@@ -1428,7 +1428,7 @@ msgstr "Angalia vilivyojiri vipya..."
 msgid "Checking server..."
 msgstr "Inatafuta seva..."
 
-#: gui/qt/main_window.py:4895
+#: gui/qt/main_window.py:4970
 msgid "Child Pays for Parent"
 msgstr "Child Pays for Parent"
 
@@ -1463,7 +1463,7 @@ msgid "Choose address or enter a public key"
 msgstr "Chagua anwani au ingiza nenosiri"
 
 #. Show user address picker
-#: gui/qt/main_window.py:5079 gui/qt/main_window.py:5095
+#: gui/qt/main_window.py:5154 gui/qt/main_window.py:5170
 msgid "Choose an address"
 msgstr "Chagua Anwani"
 
@@ -1495,7 +1495,7 @@ msgstr "Chagua kwenye kifaa chako cha {} wapi kuingiza manenosiri yako"
 msgid "Choose the number of signatures needed to unlock funds in your wallet:"
 msgstr "Chagua idadi ya saini zinazohitajika kufungua fedha katika kipochi chako:"
 
-#: gui/qt/main_window.py:4231
+#: gui/qt/main_window.py:4306
 msgid "Choose which online block explorer to use for functions that open a web browser"
 msgstr "Chagua ni mtaftaji gani wa kitengo kutumia na tovuti"
 
@@ -1522,11 +1522,11 @@ msgstr "Futa orodha ya kupiga marufuku"
 msgid "Clear the session after the specified period of inactivity.  Once a session has timed out, your PIN and passphrase (if enabled) must be re-entered to use the device."
 msgstr "Futa kipindi baada ya muda wa kutofanya kazi. Mara tu kipindi kimeisha, PIN yako na manenosiri (ikiwa yamewezeshwa) lazima yawe tena ili kutumia kifaa."
 
-#: gui/qt/main_window.py:2866
+#: gui/qt/main_window.py:2868
 msgid "Click for details"
 msgstr "Bonyeza kwa maelezo"
 
-#: gui/qt/main_window.py:1207
+#: gui/qt/main_window.py:1209
 msgid "Click to copy the receive request URI to the clipboard"
 msgstr "Bonyeza ili kunakili URI ya ombi kwenye clipboard"
 
@@ -1534,16 +1534,16 @@ msgstr "Bonyeza ili kunakili URI ya ombi kwenye clipboard"
 msgid "Click to open in web browser"
 msgstr "Bonyeza kufungua katika tovuti"
 
-#: gui/qt/transaction_dialog.py:544
+#: gui/qt/transaction_dialog.py:550
 msgid "Click to open, right-click for menu"
 msgstr "Bonyeza kufungua, bonyeza kulia kufungua menu"
 
-#: gui/qt/main_window.py:3470
+#: gui/qt/main_window.py:3472
 msgid "Click to show"
 msgstr "Bonyeza ili kuonyesha"
 
-#: gui/qt/main_window.py:3207 gui/qt/main_window.py:3269
-#: gui/qt/scan_beyond_gap.py:148 gui/qt/__init__.py:439
+#: gui/qt/main_window.py:3209 gui/qt/main_window.py:3271
+#: gui/qt/scan_beyond_gap.py:148 gui/qt/__init__.py:441
 #: gui/qt/update_checker.py:101 plugins/shuffle/qt.py:2034
 msgid "Close"
 msgstr "Funga"
@@ -1552,7 +1552,7 @@ msgstr "Funga"
 msgid "Close wallet"
 msgstr "Funga kipochi"
 
-#: gui/qt/main_window.py:191
+#: gui/qt/main_window.py:193
 msgid "Co&ins"
 msgstr "&Sarafu"
 
@@ -1589,11 +1589,11 @@ msgstr "Sarafu bado haijakomaa"
 msgid "Coin selection settings..."
 msgstr "Mipangilio ya uteuzi wa sarafu..."
 
-#: gui/qt/main_window.py:1598
+#: gui/qt/main_window.py:1600
 msgid "Coin&Text"
 msgstr "Sarafu&Teksti"
 
-#: gui/qt/main_window.py:2015
+#: gui/qt/main_window.py:2017
 msgid "CoinText: Please specify an amount"
 msgstr "CoinText: Tafadhali taja kiasi"
 
@@ -1602,13 +1602,13 @@ msgstr "CoinText: Tafadhali taja kiasi"
 msgid "Coinbase"
 msgstr "Coinbase"
 
-#: gui/qt/transaction_dialog.py:735
+#: gui/qt/transaction_dialog.py:741
 msgid "Coinbase Input"
-msgstr ""
+msgstr "Pembejeo ya Coinbase"
 
 #: plugins/ledger/ledger.py:364
 msgid "Coinbase not supported"
-msgstr ""
+msgstr "Coinbase haitegemezwi"
 
 #. normal singular
 #: ios/ElectronCash/electroncash_gui/ios_native/coins.py:247
@@ -1624,7 +1624,7 @@ msgstr "Sarafu (UTXOs) chini ya kiasi hiki hazitachaguliwa kuchanganywa."
 msgid "Coins (UTXOs) up to this amount will be selected for shuffling."
 msgstr "Sarafu (UTXOs) juu ya kiasi hiki zitachaguliwa kuchanganywa."
 
-#: gui/qt/main_window.py:4304
+#: gui/qt/main_window.py:4379
 msgid "Color theme"
 msgstr "Color theme"
 
@@ -1634,13 +1634,13 @@ msgstr "Inakuja hivi punde"
 
 #: gui/qt/external_plugins_window.py:103
 msgid "Command-line."
-msgstr ""
+msgstr "Mstari wa amri."
+
+#: gui/qt/main_window.py:196
+msgid "Con&sole"
+msgstr "&Mstari wa amri"
 
 #: gui/qt/main_window.py:194
-msgid "Con&sole"
-msgstr ""
-
-#: gui/qt/main_window.py:192
 msgid "Con&tacts"
 msgstr "&Stakabadhi za kuwasiliana"
 
@@ -1651,7 +1651,7 @@ msgstr "Thibitisha kufuta"
 
 #: plugins/keepkey/qt.py:410 plugins/trezor/qt.py:492
 msgid "Confirm Device Wipe"
-msgstr ""
+msgstr "Thibitisha kufutwa kwa Kifaa"
 
 #: gui/qt/password_dialog.py:88
 msgid "Confirm Passphrase:"
@@ -1665,7 +1665,7 @@ msgstr "Thibitisha nenosiri:"
 msgid "Confirm Seed"
 msgstr "Thibitisha Manenosiri"
 
-#: lib/base_wizard.py:443 plugins/satochip/satochip.py:659
+#: lib/base_wizard.py:443 plugins/satochip/satochip.py:662
 msgid "Confirm Seed Extension"
 msgstr "Thibitisha manenosiri yaliyongezwa"
 
@@ -1675,11 +1675,11 @@ msgstr "Thibitisha Umetuma"
 
 #: plugins/keepkey/qt.py:382 plugins/trezor/qt.py:348
 msgid "Confirm Toggle Passphrase Protection"
-msgstr ""
+msgstr "Thibitisha Ulinzi wa Nakala ya Unukuzi"
 
 #: plugins/ledger/ledger.py:442
 msgid "Confirm Transaction on your {}..."
-msgstr ""
+msgstr "Thibitisha Shuguli za Ununuzi kwenye {} yako..."
 
 #: ios/ElectronCash/electroncash_gui/ios_native/newwallet.py:25
 msgid "Confirm Wallet Password"
@@ -1687,39 +1687,39 @@ msgstr "Thibitisha Nenosiri la kipochi"
 
 #: plugins/keepkey/clientbase.py:15 plugins/trezor/clientbase.py:17
 msgid "Confirm internal entropy on your {} device to begin"
-msgstr ""
+msgstr "Thibitisha uingiano kwa kifaa chako cha {} ili kuanza"
 
 #: plugins/keepkey/clientbase.py:18
 msgid "Confirm on your {} device the message to sign"
-msgstr ""
+msgstr "Thibitisha kwenye kifaa chako {} ujumbe kusaini"
 
 #: plugins/keepkey/clientbase.py:193 plugins/trezor/clientbase.py:166
 msgid "Confirm on your {} device to change your PIN"
-msgstr ""
+msgstr "Thibitisha kwenye kifaa chako cha {} kubadilisha PIN yako"
 
 #: plugins/keepkey/clientbase.py:186 plugins/trezor/clientbase.py:159
 msgid "Confirm on your {} device to change your home screen"
-msgstr ""
+msgstr "Thibitisha kwenye kifaa chako cha {} kubadilisha skrini yako"
 
 #: plugins/keepkey/clientbase.py:191 plugins/trezor/clientbase.py:164
 msgid "Confirm on your {} device to disable PIN protection"
-msgstr ""
+msgstr "Thibitisha kwenye kifaa chako cha {} kuzima kinga ya PIN"
 
 #: plugins/keepkey/clientbase.py:175 plugins/trezor/clientbase.py:147
 msgid "Confirm on your {} device to disable passphrases"
-msgstr ""
+msgstr "Thibitisha kwenye kifaa chako cha {} kuzima manenosiri"
 
 #: plugins/keepkey/clientbase.py:177 plugins/trezor/clientbase.py:149
 msgid "Confirm on your {} device to enable passphrases"
-msgstr ""
+msgstr "Thibitisha kwenye kifaa chako cha {} kuwezesha manenosiri"
 
 #: plugins/keepkey/clientbase.py:195 plugins/trezor/clientbase.py:168
 msgid "Confirm on your {} device to set a PIN"
-msgstr ""
+msgstr "Thibitisha kwenye kifaa chako cha {} kuweka PIN yako"
 
 #: plugins/keepkey/clientbase.py:17 plugins/trezor/clientbase.py:19
 msgid "Confirm on your {} that you want to wipe it clean"
-msgstr ""
+msgstr "Thibitisha kwenye {} yako kwamba unataka kuifuta"
 
 #: android/app/src/main/python/electroncash_gui/android/strings.py:16
 msgid "Confirm password"
@@ -1731,7 +1731,7 @@ msgstr "Thibitisha anwani ya kipochi kwenye kifaa chako cha {}"
 
 #: plugins/trezor/clientbase.py:20
 msgid "Confirm the operation on on your {} device"
-msgstr ""
+msgstr "Thibitisha operesheni kwenye kifaa chako cha {}"
 
 #: plugins/keepkey/clientbase.py:19 plugins/trezor/clientbase.py:21
 msgid "Confirm the total amount spent and the transaction fee on your {} device"
@@ -1739,7 +1739,7 @@ msgstr "Thibitisha jumla ya pesa iliyotumika na ada ya manunuzi kwenye kifaa cha
 
 #: plugins/keepkey/clientbase.py:14 plugins/trezor/clientbase.py:16
 msgid "Confirm the transaction output on your {} device"
-msgstr ""
+msgstr "Thibitisha pato la shughuli ya ununuzi kwenye kifaa chako cha {}"
 
 #: plugins/keepkey/clientbase.py:21 plugins/trezor/clientbase.py:22
 msgid "Confirm wallet address on your {} device"
@@ -1747,13 +1747,13 @@ msgstr "Thibitisha anwani ya kipochi kwenye kifaa chako cha {}"
 
 #: plugins/ledger/ledger.py:475
 msgid "Confirmed. Signing Transaction..."
-msgstr ""
+msgstr "Imethibitishwa. Inasaini shuguli ya ununuzi..."
 
 #: gui/qt/network_dialog.py:354
 msgid "Connect only to preferred servers"
-msgstr ""
+msgstr "Unganisha tu kwa seva unazopendelea"
 
-#: gui/qt/main_window.py:870
+#: gui/qt/main_window.py:872
 msgid "Connected"
 msgstr "Imewasiliana"
 
@@ -1761,25 +1761,25 @@ msgstr "Imewasiliana"
 #: ios/ElectronCash/electroncash_gui/ios_native/network_dialog.py:275
 #: ios/ElectronCash/electroncash_gui/ios_native/network_dialog.py:326
 msgid "Connected node"
-msgstr ""
+msgstr "Seva iliyounganika"
 
 #: gui/qt/network_dialog.py:551
 #: ios/ElectronCash/electroncash_gui/ios_native/network_dialog.py:257
 #, python-format
 msgid "Connected to %d nodes."
-msgstr ""
+msgstr "Imeunganishwa na seva %d."
 
-#: gui/qt/main_window.py:872 gui/qt/main_window.py:873
+#: gui/qt/main_window.py:874 gui/qt/main_window.py:875
 msgid "Connected via proxy"
-msgstr ""
+msgstr "Unganisho kutumia proxy"
 
-#: lib/wallet.py:1735
+#: lib/wallet.py:1847
 msgid "Connecting..."
 msgstr "Inaunganisha..."
 
 #: plugins/shuffle/qt.py:1671
 msgid "Connection failure"
-msgstr ""
+msgstr "Unganisho kukosekana"
 
 #: plugins/shuffle/qt.py:1689
 msgid "Connections"
@@ -1787,7 +1787,7 @@ msgstr "Inaunganisha"
 
 #: android/app/src/main/python/electroncash_gui/android/strings.py:18
 msgid "Console"
-msgstr ""
+msgstr "Mstari wa amri"
 
 #: ios/ElectronCash/electroncash_gui/ios_native/txdetail.py:206
 msgid "Contact"
@@ -1819,7 +1819,7 @@ msgstr "Simamia mwenyewe funguosiri zako"
 msgid "Convert between Legacy and Cashaddr formats"
 msgstr "Badilisha kati ya muundo wa jadi na Cashaddr"
 
-#: gui/qt/main_window.py:1200
+#: gui/qt/main_window.py:1202
 msgid "Copy &URI"
 msgstr "Nakili &URI"
 
@@ -1828,7 +1828,7 @@ msgstr "Nakili &URI"
 msgid "Copy <b>{cash_account_name}</b>"
 msgstr "Nakili <b>{cash_account_name}</b>"
 
-#: gui/qt/transaction_dialog.py:777
+#: gui/qt/transaction_dialog.py:783
 #: ios/ElectronCash/electroncash_gui/ios_native/contacts.py:867
 #: ios/ElectronCash/electroncash_gui/ios_native/txdetail.py:297
 #: ios/ElectronCash/electroncash_gui/ios_native/coins.py:633
@@ -1836,26 +1836,26 @@ msgstr "Nakili <b>{cash_account_name}</b>"
 msgid "Copy Address"
 msgstr "Nakili Anwani"
 
-#: gui/qt/transaction_dialog.py:808
+#: gui/qt/transaction_dialog.py:814
 msgid "Copy Address (Embedded)"
 msgstr "Nakili Anwani (mfumo ulioingia)"
 
-#: gui/qt/transaction_dialog.py:749 gui/qt/transaction_dialog.py:806
+#: gui/qt/transaction_dialog.py:755 gui/qt/transaction_dialog.py:812
 msgid "Copy Amount"
 msgstr "Nakili Kiasi"
 
 #. paranoia: pre-cache minimal chash (may go out to network)
 #. go out to network to cache the shortest encoding for cash account name ahead of time...
-#: gui/qt/address_list.py:375 gui/qt/utxo_list.py:249
-#: gui/qt/transaction_dialog.py:812
+#: gui/qt/address_list.py:377 gui/qt/utxo_list.py:249
+#: gui/qt/transaction_dialog.py:818
 msgid "Copy Cash Account"
 msgstr "Nakili Cash Account"
 
-#: gui/qt/transaction_dialog.py:744
+#: gui/qt/transaction_dialog.py:750
 msgid "Copy Prevout"
 msgstr "Nakili Prevout"
 
-#: gui/qt/transaction_dialog.py:775
+#: gui/qt/transaction_dialog.py:781
 msgid "Copy Public Key"
 msgstr "Nakili Funguo la umma"
 
@@ -1872,16 +1872,16 @@ msgstr "Nakili picha ya QR"
 msgid "Copy Script"
 msgstr "Nakili Maandishi"
 
-#: gui/qt/transaction_dialog.py:783
+#: gui/qt/transaction_dialog.py:789
 msgid "Copy Script Hex"
 msgstr "Nakili maandishi ya Hex"
 
-#: gui/qt/transaction_dialog.py:773
+#: gui/qt/transaction_dialog.py:779
 msgid "Copy Script Text"
 msgstr "Nakili maandishi ya Text"
 
 #. Add this if they have a selection
-#: gui/qt/transaction_dialog.py:763 gui/qt/transaction_dialog.py:826
+#: gui/qt/transaction_dialog.py:769 gui/qt/transaction_dialog.py:832
 msgid "Copy Selected Text"
 msgstr "Nakili maandishi yaliyochaguliwa"
 
@@ -1898,11 +1898,11 @@ msgid "Copy input hash"
 msgstr "Nakili input hash"
 
 #. tx is complete and there is a copy_link
-#: gui/qt/main_window.py:2244
+#: gui/qt/main_window.py:2246
 msgid "Copy link"
 msgstr "Nakili Kiunga"
 
-#: gui/qt/util.py:817
+#: gui/qt/util.py:842
 #: ios/ElectronCash/electroncash_gui/ios_native/seed_dialog.py:148
 #: ios/ElectronCash/electroncash_gui/ios_native/txdetail.py:794
 msgid "Copy to clipboard"
@@ -1929,7 +1929,7 @@ msgstr "Sheria sahihi za udev zinahitajika ili kifaa cha kipochi kipatikane na E
 
 #: lib/base_wizard.py:131
 msgid "Cosign with hardware device"
-msgstr ""
+msgstr "Tumia pamoja na kifaa"
 
 #: plugins/cosigner_pool/qt.py:349 plugins/cosigner_pool/__init__.py:2
 msgid "Cosigner Pool"
@@ -1941,28 +1941,28 @@ msgstr "Haikuweza kubadilisha picha kuwa monochrome"
 
 #: plugins/trezor/qt.py:453
 msgid "Could not convert image, a required library is missing: {}"
-msgstr ""
+msgstr "Haikuweza kubadilisha picha, maktaba inayohitajika inakosekana: {}"
 
 #: plugins/trezor/qt.py:447
 msgid "Could not dither or re-render image"
-msgstr ""
+msgstr "Haikuweza kutoa picha tena"
 
 #: gui/qt/cashacctqt.py:155
 msgid "Could not find the Cash Account name specified. It either does not exist or there may have been a network connectivity error. Please double-check it and try again."
-msgstr ""
+msgstr "Haikuweza kupata jina la Cash Account iliyoainishwa. Labda haipo au kunaweza kuwa na kosa kwa mtandao. Tafadhali kagua jina hilo tena na ujaribu tena."
 
 #: plugins/trezor/qt.py:401 plugins/trezor/qt.py:437
 msgid "Could not load the image {} -- unknown format or other error"
-msgstr ""
+msgstr "Haikuweza kuweka picha {} - muundo haujulikani au kuna kosa lingine"
 
 #. fall back to something generic.
 #: lib/network.py:1711
 msgid "Could not retrieve transaction for the specified hash."
-msgstr ""
+msgstr "Haikuweza kupata za ununuzi wa hash maalum."
 
 #: plugins/trezor/qt.py:406 plugins/trezor/qt.py:442
 msgid "Could not scale image to {} x {} pixels"
-msgstr ""
+msgstr "Haikuweza kuongeza picha kuwa saizi za {} x {}"
 
 #. NB; we don't want to actually display the exception message here
 #. because it may contain text from the server, which could be a
@@ -1976,21 +1976,21 @@ msgstr "Haikuweza kutuma barua pepe kwa {recipient}: {reason}"
 #: plugins/digitalbitbox/digitalbitbox.py:492
 #: plugins/digitalbitbox/digitalbitbox.py:504
 msgid "Could not sign message"
-msgstr ""
+msgstr "Haikuweza kusaini ujumbe"
 
 #: plugins/digitalbitbox/digitalbitbox.py:470
 #: plugins/digitalbitbox/digitalbitbox.py:483
 msgid "Could not sign message."
-msgstr ""
+msgstr "Haikuweza kusaini ujumbe."
 
-#: gui/qt/main_window.py:4180
+#: gui/qt/main_window.py:4255
 #: ios/ElectronCash/electroncash_gui/ios_native/crashreporter.py:66
 msgid "Crash Reporter"
-msgstr ""
+msgstr "Mfanya Ripoti ya ajali"
 
-#: gui/qt/main_window.py:4185
+#: gui/qt/main_window.py:4260
 msgid "Crash reporter enabled"
-msgstr ""
+msgstr "Mfanya Ripoti ya ajali imewezeshwa"
 
 #: lib/base_wizard.py:81
 msgid "Create"
@@ -2001,7 +2001,7 @@ msgstr "Tengeneza"
 msgid "Create New Standard Wallet"
 msgstr "Unda Kipochi Kipya"
 
-#: lib/base_wizard.py:118 plugins/satochip/satochip.py:633
+#: lib/base_wizard.py:118 plugins/satochip/satochip.py:636
 msgid "Create a new seed"
 msgstr "Tengeneza manenosiri mapya"
 
@@ -2017,13 +2017,13 @@ msgstr "Unda kipochi ukitumia nenosiri"
 msgid "Create keystore from a master key"
 msgstr "Unda keystore kutoka kwa funguosiri"
 
-#: plugins/satochip/satochip.py:630
+#: plugins/satochip/satochip.py:633
 msgid "Create or restore"
-msgstr ""
+msgstr "Tengeneza au rudisha"
 
-#: gui/qt/util.py:230
+#: gui/qt/util.py:232
 msgid "Critical Error"
-msgstr ""
+msgstr "Makosa muhimu"
 
 #: gui/qt/password_dialog.py:105
 msgid "Current Password:"
@@ -2037,42 +2037,42 @@ msgstr "Nywila unayotumia kwa sasa"
 msgid "Current version: {}"
 msgstr "Toleo la sasa: {}"
 
-#: gui/qt/main_window.py:4105
+#: gui/qt/main_window.py:4180
 msgid "Custom Fee Rate in Satoshis per byte"
-msgstr ""
+msgstr "Kiwango cha Ada ya Satoshis per byte"
 
-#: gui/qt/main_window.py:4105
+#: gui/qt/main_window.py:4180
 msgid "Custom fee rate:"
-msgstr ""
+msgstr "Kipimo cha ada maalum:"
 
 #: gui/qt/fee_slider.py:30
 msgid "Custom rate: "
-msgstr ""
+msgstr "Kipimo cha ada maalum: "
 
 #: ios/ElectronCash/electroncash_gui/ios_native/gui.py:1669
 msgid "Daemon was not running."
-msgstr ""
+msgstr "Daemon haikufanya kazi."
 
 #. We can't name this "light" in the UI as sometimes the default is actually dark-looking eg on Mojave or on some Linux desktops.
-#: gui/qt/main_window.py:4293
+#: gui/qt/main_window.py:4368
 msgid "Dark"
 msgstr "Giza"
 
-#: gui/qt/main_window.py:4309
+#: gui/qt/main_window.py:4384
 msgid "Dark theme is not available. Please install QDarkStyle to access this feature."
-msgstr ""
+msgstr "Mada ya giza haipatikani. Tafadhali sasisha QDarkStyle ili kupata huduma hii."
 
-#: gui/qt/main_window.py:4301
+#: gui/qt/main_window.py:4376
 msgid "Dark theme support requires the package 'QDarkStyle' (typically installed via the 'pip3' command on Unix & macOS)."
 msgstr ""
 
-#: gui/qt/__init__.py:440
+#: gui/qt/__init__.py:442
 msgid "Dark/Light"
-msgstr ""
+msgstr "Giza/Mwangaza"
 
 #: plugins/satochip_2FA/__init__.py:7
 msgid "Data is encrypted and stored on a remote server."
-msgstr ""
+msgstr "Shughuli za ununuzi zimesimbwa na kuhifadhiwa kwenye seva ya mbali."
 
 #. wtf? what to do here?
 #: gui/qt/history_list.py:70 gui/qt/request_list.py:42 gui/text.py:103
@@ -2082,32 +2082,32 @@ msgstr ""
 msgid "Date"
 msgstr "Tarehe"
 
-#: gui/qt/transaction_dialog.py:402
+#: gui/qt/transaction_dialog.py:408
 msgid "Date: {}"
 msgstr "Tarehe: {}"
 
-#: gui/qt/main_window.py:3265
+#: gui/qt/main_window.py:3267
 msgid "Decrypt"
-msgstr ""
+msgstr "Toa usimbuaji fiche"
 
 #: gui/qt/bip38_importer.py:129
 msgid "Decrypted Private Key:"
-msgstr ""
+msgstr "Toa usimbuaji fiche za nenosiri:"
 
-#: gui/qt/main_window.py:4249 gui/qt/main_window.py:4268
-#: gui/qt/main_window.py:4292
+#: gui/qt/main_window.py:4324 gui/qt/main_window.py:4343
+#: gui/qt/main_window.py:4367
 msgid "Default"
-msgstr ""
+msgstr "Default/ya hali ya kawaida"
 
 #: plugins/shuffle/qt.py:2246
 msgid "Default values restored.\n\n"
-msgstr ""
+msgstr "Thamali ya kawaida kurudishwa.\n\n"
 
 #: plugins/shuffle/qt.py:2217
 msgid "Defaults"
-msgstr ""
+msgstr "Default/ya hali ya kawaida"
 
-#: gui/qt/invoice_list.py:95 gui/qt/main_window.py:2745
+#: gui/qt/invoice_list.py:95 gui/qt/main_window.py:2747
 #: gui/qt/request_list.py:157 gui/qt/contact_list.py:218
 #: ios/ElectronCash/electroncash_gui/ios_native/contacts.py:863
 #: ios/ElectronCash/electroncash_gui/ios_native/contacts.py:871
@@ -2121,15 +2121,15 @@ msgstr "Futa"
 msgid "Delete Wallet"
 msgstr "Futa Kipochi"
 
-#: gui/qt/main_window.py:2738
+#: gui/qt/main_window.py:2740
 msgid "Delete invoice?"
-msgstr ""
+msgstr "Toa ankara?"
 
 #: android/app/src/main/python/electroncash_gui/android/strings.py:19
 msgid "Delete wallet"
 msgstr "Futa Kipochi"
 
-#: gui/qt/main_window.py:3011
+#: gui/qt/main_window.py:3013
 msgid "Delete wallet file?"
 msgstr "Futa faili ya kipochi?"
 
@@ -2148,7 +2148,7 @@ msgstr "Kutolewa kwa kipochi wa {}"
 
 #: android/app/src/main/python/electroncash_gui/android/strings.py:20
 msgid "Derivation invalid"
-msgstr ""
+msgstr "Kutoa batili"
 
 #: ios/ElectronCash/electroncash_gui/ios_native/newwallet.py:1026
 msgid "Deriving addresses..."
@@ -2156,7 +2156,7 @@ msgstr "Kutoa answani..."
 
 #: gui/qt/external_plugins_window.py:85 gui/qt/external_plugins_window.py:475
 #: gui/qt/invoice_list.py:36 gui/qt/history_list.py:70
-#: gui/qt/request_list.py:42 gui/qt/transaction_dialog.py:390 gui/text.py:103
+#: gui/qt/request_list.py:42 gui/qt/transaction_dialog.py:396 gui/text.py:103
 #: gui/text.py:175 gui/stdio.py:104
 #: ios/ElectronCash/electroncash_gui/ios_native/receive.py:198
 #: ios/ElectronCash/electroncash_gui/ios_native/send.py:189
@@ -2164,14 +2164,14 @@ msgstr "Kutoa answani..."
 msgid "Description"
 msgstr "Maelezo"
 
-#: gui/qt/main_window.py:1496
+#: gui/qt/main_window.py:1498
 #: ios/ElectronCash/electroncash_gui/ios_native/receive.py:204
 #: ios/ElectronCash/electroncash_gui/ios_native/send.py:215
 msgid "Description of the transaction (not mandatory)."
 msgstr "Maelezo ya ununuzi (sio lazima)."
 
 #: gui/qt/invoice_list.py:92 gui/qt/cashacctqt.py:424
-#: gui/qt/address_list.py:309 gui/qt/address_list.py:376
+#: gui/qt/address_list.py:309 gui/qt/address_list.py:378
 #: gui/qt/utxo_list.py:257
 #: ios/ElectronCash/electroncash_gui/ios_native/txdetail.py:613
 msgid "Details"
@@ -2211,20 +2211,20 @@ msgstr "Kipochi dijitali cha Bitbox"
 msgid "Disable"
 msgstr "Imetolewa"
 
-#: gui/qt/main_window.py:3919
+#: gui/qt/main_window.py:3994
 msgid "Disable CashShuffle"
-msgstr ""
+msgstr "Toa CashShuffle"
 
 #. Advanced tab - clear PIN
 #: plugins/keepkey/qt.py:525 plugins/trezor/qt.py:623
 msgid "Disable PIN"
-msgstr ""
+msgstr "Toa PIN"
 
 #: plugins/keepkey/qt.py:350 plugins/trezor/qt.py:318
 msgid "Disable Passphrases"
-msgstr ""
+msgstr "Wezesha manenosiri"
 
-#: gui/qt/main_window.py:2878 gui/qt/main_window.py:3912
+#: gui/qt/main_window.py:2880 gui/qt/main_window.py:3987
 #: plugins/keepkey/qt.py:351 plugins/trezor/qt.py:319
 msgid "Disabled"
 msgstr "Imetolewa"
@@ -2235,9 +2235,9 @@ msgstr "Imekatishwa mawasiliano"
 
 #: ios/ElectronCash/electroncash_gui/ios_native/gui.py:1448
 msgid "Disk Space Low"
-msgstr ""
+msgstr "Nafasi ya Diski iko Chini"
 
-#: gui/qt/main_window.py:1596
+#: gui/qt/main_window.py:1598
 msgid "Display the details of your transactions before signing it."
 msgstr "Onyesha maelezo ya shughuli za ununuzi zako kabla ya kusaini."
 
@@ -2248,14 +2248,14 @@ msgstr ""
 
 #: plugins/digitalbitbox/digitalbitbox.py:273
 msgid "Do not pair"
-msgstr ""
+msgstr "Usiunganishe"
 
 #: gui/qt/seed_dialog.py:46
 #: ios/ElectronCash/electroncash_gui/ios_native/seed_dialog.py:91
 msgid "Do not store it electronically."
 msgstr "Usihifadhi kwa kifaa chochote cha digitali."
 
-#: lib/base_wizard.py:116 plugins/satochip/satochip.py:631
+#: lib/base_wizard.py:116 plugins/satochip/satochip.py:634
 msgid "Do you want to create a new seed, or to restore a wallet using an existing seed?"
 msgstr "Je! Unataka kuunda nenosiri mpya, au kurejesha kipochi ukitumia nenosiri iliyopo?"
 
@@ -2271,7 +2271,7 @@ msgstr ""
 msgid "Do you want to open it now?"
 msgstr "Je! Unataka kuifungua sasa?"
 
-#: gui/qt/main_window.py:2554
+#: gui/qt/main_window.py:2556
 msgid "Do you want to remove {} from your wallet?"
 msgstr "Je! Unataka kuondoa {} kutoka kwa kipochi chako?"
 
@@ -2279,14 +2279,14 @@ msgstr "Je! Unataka kuondoa {} kutoka kwa kipochi chako?"
 msgid "Do you want to send this report?"
 msgstr "Je! Unataka kutuma ripoti hii?"
 
-#: plugins/satochip/satochip.py:50
+#: plugins/satochip/satochip.py:49
 msgid "Do you want to use 2-Factor-Authentication (2FA)?\n\n"
 "With 2FA, any transaction must be confirmed on a second device such as your smartphone. First you have to install the Satochip-2FA android app on google play. Then you have to pair your 2FA device with your Satochip by scanning the qr-code on the next screen. Warning: be sure to backup a copy of the qr-code in a safe place, in case you have to reinstall the app!"
 msgstr ""
 
-#: gui/qt/main_window.py:1926
+#: gui/qt/main_window.py:1928
 msgid "Do you wish to continue?"
-msgstr ""
+msgstr "Je! Ungetaka kuendelea?"
 
 #: ios/ElectronCash/electroncash_gui/ios_native/network_dialog.py:409
 msgid "Do you wish to follow the\n"
@@ -2316,9 +2316,9 @@ msgstr "Je! Ungetaka kutumia\n"
 "{}: {}\n"
 "kama seva ya kipochi?"
 
-#: gui/qt/main_window.py:697
+#: gui/qt/main_window.py:699
 msgid "Documentation"
-msgstr ""
+msgstr "Nyaraka"
 
 #: plugins/shuffle/qt.py:124
 msgid "Done"
@@ -2336,7 +2336,7 @@ msgstr "Shusha vichwa vya habari vya blockchain..."
 msgid "Downloading headers {}% ..."
 msgstr "Kushusha Vianzilishi {}% ..."
 
-#: gui/qt/transaction_dialog.py:426
+#: gui/qt/transaction_dialog.py:432
 msgid "Downloading input data, please wait..."
 msgstr "Inashusha data ya kuingiza, tafadhali subiri..."
 
@@ -2350,7 +2350,7 @@ msgstr ""
 msgid "Duplicate key in URI"
 msgstr ""
 
-#: gui/qt/main_window.py:3912
+#: gui/qt/main_window.py:3987
 msgid "ENABLED"
 msgstr "WEZESHWA"
 
@@ -2363,10 +2363,10 @@ msgstr "Hifadhi kwa urahisi kipochi chako na kifungu cha siri."
 msgid "Edit Contact"
 msgstr "Hariri Stakabadhi za kuwasiliana"
 
-#: gui/qt/main_window.py:4109
+#: gui/qt/main_window.py:4184
 #: ios/ElectronCash/electroncash_gui/ios_native/prefs.py:275
 msgid "Edit fees manually"
-msgstr ""
+msgstr "Badilisha ada kwa mikono"
 
 #. this key & find_item business is so we don't hold a reference
 #. to the ephemeral item, which may be deleted while the
@@ -2416,7 +2416,7 @@ msgstr "Electron Cash inauunda anwani, tafadhali subiri..."
 msgid "Electron Cash is in offline mode."
 msgstr "Electron Cash haipatikani kwa sasa."
 
-#: gui/qt/__init__.py:404
+#: gui/qt/__init__.py:406
 #, python-brace-format
 msgid "Electron Cash on Linux requires PyQt5 5.12+.\n\n"
 "You have version {version_string} installed.\n\n"
@@ -2434,11 +2434,11 @@ msgstr "Fedha ya Electron Cash hutuma anwani za kipochi chako kwa seva moja, ili
 msgid "Electron Cash wallet"
 msgstr "Electron Cash Kipochi"
 
-#: gui/qt/main_window.py:552
+#: gui/qt/main_window.py:554
 msgid "Electron Cash was unable to copy your wallet file to the specified location."
 msgstr "Electron Cash haijaweza kunakili aili kwa eneo maalum."
 
-#: gui/qt/main_window.py:3381 gui/qt/main_window.py:3390
+#: gui/qt/main_window.py:3383 gui/qt/main_window.py:3392
 msgid "Electron Cash was unable to deserialize the transaction:"
 msgstr "Electron Cash haikuweza kupata nambari za shuguli zako za ununuzi:"
 
@@ -2446,11 +2446,11 @@ msgstr "Electron Cash haikuweza kupata nambari za shuguli zako za ununuzi:"
 msgid "Electron Cash was unable to export your contacts."
 msgstr "Electron Cash haikuweza kuingiza orodha ya mawasiliano."
 
-#: gui/qt/main_window.py:3630
+#: gui/qt/main_window.py:3633
 msgid "Electron Cash was unable to export your labels."
 msgstr "Electron Cash haikuweza kuingiza lebo."
 
-#: gui/qt/__init__.py:746
+#: gui/qt/__init__.py:748
 msgid "Electron Cash was unable to find the secp256k1 library on this system. Elliptic curve cryptography operations will be performed in slow Python-only mode."
 msgstr "Electron Cash haikuweza kupata secp256k1 kwenye mfumo huu. Shuguli za nakala za curve ya Elliptic zitafanywa kwa hali ya polepole tu kutumia Python."
 
@@ -2458,34 +2458,34 @@ msgstr "Electron Cash haikuweza kupata secp256k1 kwenye mfumo huu. Shuguli za na
 msgid "Electron Cash was unable to import your contacts."
 msgstr "Electron Cash haikuweza kuingiza orodha ya mawasiliano."
 
-#: gui/qt/main_window.py:3615
+#: gui/qt/main_window.py:3618
 msgid "Electron Cash was unable to import your labels."
 msgstr "Electron Cash haikuweza kuingiza lebo."
 
-#: gui/qt/main_window.py:3366
+#: gui/qt/main_window.py:3368
 msgid "Electron Cash was unable to open your transaction file"
 msgstr "Electron Cash haikuweza kufungua faili za shuguli zako za ununuzi"
 
-#: gui/qt/main_window.py:3299
+#: gui/qt/main_window.py:3301
 #: ios/ElectronCash/electroncash_gui/ios_native/gui.py:2277
 msgid "Electron Cash was unable to parse your transaction"
 msgstr "Electron Cash haikuweza kupitia shuguli zako za ununuzi"
 
-#: gui/qt/main_window.py:3580
+#: gui/qt/main_window.py:3583
 msgid "Electron Cash was unable to produce a private key-export."
 msgstr "Electron Cash haikuweza kutengeneza funguosiri za kutoa."
 
-#: gui/qt/main_window.py:3655
+#: gui/qt/main_window.py:3688
 msgid "Electron Cash was unable to produce a transaction export."
 msgstr "Electron Cash haikuweza kutengeneza shuguli za ununuzi za kutoa."
 
-#: gui/qt/main_window.py:718
+#: gui/qt/main_window.py:720
 msgid "Electron Cash's focus is speed, with low resource usage and simplifying Bitcoin Cash. You do not need to perform regular backups, because your wallet can be recovered from a secret phrase that you can memorize or write on paper. Startup times are instant because it operates in conjunction with high-performance servers that handle the most complicated parts of the Bitcoin Cash system."
 msgstr "Mtazamo wa Electron Cash ni wepesi, na utumiaji mdogo wa rasilimali na kurahisisha Bitcoin Cash. Huna haja ya kufanya backups za kawaida, kwa sababu kipochi chako kinaweza kupatikana kutoka kwa fungosiri ambazo unaweza kukariri au kuandika kwenye karatasi. Wakati wa kuanza ni papo hapo kwa sababu inafanya kazi kwa kushirikiana na seva za utendaji wa juu ambazo hushughulikia sehemu ngumu zaidi za mfumo wa Bitcoin Cash."
 
 #: plugins/satochip/qt.py:97
 msgid "Electrum Support"
-msgstr ""
+msgstr "Electrum Inategemezwa"
 
 #: plugins/email_requests/__init__.py:3
 msgid "Email"
@@ -2493,11 +2493,11 @@ msgstr "Barua Pepe"
 
 #: plugins/email_requests/qt.py:175
 msgid "Email Error"
-msgstr ""
+msgstr "Kosa la barua pepe"
 
 #: plugins/email_requests/qt.py:199
 msgid "Email invoice to:"
-msgstr ""
+msgstr "Tuma barua pepe iliyo na ankara kwa:"
 
 #: plugins/email_requests/qt.py:97
 #, python-brace-format
@@ -2506,83 +2506,83 @@ msgstr "Jalizi la barua pepe haikuweza kuunganishwa kwa {server} kama {username}
 
 #: plugins/email_requests/qt.py:111
 msgid "Email plugin encountered an error, plugin stopped."
-msgstr ""
+msgstr "Jalizi la barua pepe lilikutana na hitilafu, programu-jalizi imesimamishwa."
 
 #. Return a settings dialog.
 #: plugins/email_requests/qt.py:229 plugins/satochip/qt.py:39
 msgid "Email settings"
-msgstr ""
+msgstr "Miangilio ya Barua Pepe"
 
 #: gui/qt/address_list.py:180
 msgid "Empty"
-msgstr ""
+msgstr "Tupu"
 
 #: gui/qt/external_plugins_window.py:378 gui/qt/external_plugins_window.py:387
 msgid "Enable"
 msgstr "Wezesha"
 
-#: gui/qt/main_window.py:3919 gui/qt/main_window.py:4994
-#: gui/qt/main_window.py:4995
+#: gui/qt/main_window.py:3994 gui/qt/main_window.py:5069
+#: gui/qt/main_window.py:5070
 msgid "Enable CashShuffle"
-msgstr ""
+msgstr "Wezesha CashShuffle"
 
-#: gui/qt/main_window.py:4463
+#: gui/qt/main_window.py:4538
 msgid "Enable OP_RETURN output"
-msgstr ""
+msgstr "Wezesha zao za OP_RETURN"
 
 #: plugins/keepkey/qt.py:250 plugins/trezor/qt.py:214
 msgid "Enable PIN protection"
-msgstr ""
+msgstr "Wezesha kinga ya PIN"
 
 #: plugins/keepkey/qt.py:350 plugins/trezor/qt.py:318
 msgid "Enable Passphrases"
-msgstr ""
+msgstr "Wezesha manenosiri"
 
 #: ios/ElectronCash/electroncash_gui/ios_native/prefs.py:281
 msgid "Enable Schnorr signatures"
-msgstr ""
+msgstr "Wezesha saini za Schnorr"
 
 #: plugins/keepkey/qt.py:284 plugins/trezor/qt.py:223
 msgid "Enable passphrases"
 msgstr "Wezesha manenosiri"
 
-#: gui/qt/main_window.py:4464
+#: gui/qt/main_window.py:4539
 msgid "Enable posting messages with OP_RETURN."
 msgstr ""
 
-#: gui/qt/main_window.py:4387
+#: gui/qt/main_window.py:4462
 msgid "Enable this option if you wish to be notified as soon as a new version of Electron Cash becomes available"
 msgstr "Wezesha chaguo hili ikiwa ungetaka kuarifiwa mara tu toleo mpya la Electron Cash litakapopatikana"
 
-#: gui/qt/main_window.py:4343 gui/qt/main_window.py:4355
+#: gui/qt/main_window.py:4418 gui/qt/main_window.py:4430
 msgid "Enable/disable this option if you experience font rendering glitches (such as blurred text or monochrome emoji characters)"
 msgstr ""
 
 #. windows
-#: gui/qt/main_window.py:4325
+#: gui/qt/main_window.py:4400
 msgid "Enable/disable this option if you experience graphical glitches (such as dialog box text being cut off"
 msgstr ""
 
-#: gui/qt/main_window.py:4323
+#: gui/qt/main_window.py:4398
 msgid "Enable/disable this option if you experience graphical glitches (such as overly large status bar icons)"
 msgstr ""
 
-#: gui/qt/external_plugins_window.py:475 gui/qt/main_window.py:2878
+#: gui/qt/external_plugins_window.py:475 gui/qt/main_window.py:2880
 #: plugins/keepkey/qt.py:351 plugins/trezor/qt.py:319
 msgid "Enabled"
 msgstr "Wezesha"
 
-#: gui/qt/main_window.py:3261
+#: gui/qt/main_window.py:3263
 msgid "Encrypt"
-msgstr ""
+msgstr "Weka Usimbuaji fiche"
 
-#: gui/qt/main_window.py:3074
+#: gui/qt/main_window.py:3076
 msgid "Encrypt BIP38"
-msgstr ""
+msgstr "Weka usimbuaji fiche ya BIP38"
 
-#: gui/qt/main_window.py:3077
+#: gui/qt/main_window.py:3079
 msgid "Encrypt this private key using BIP38 encryption"
-msgstr ""
+msgstr "Weka Usimbaji fiche hii funguosiri ukitumia usimbaji fiche wa BIP38"
 
 #: gui/qt/password_dialog.py:134
 msgid "Encrypt wallet file"
@@ -2590,45 +2590,45 @@ msgstr "Usimbaji kipochi faili"
 
 #: ios/ElectronCash/electroncash_gui/ios_native/sign_decrypt_dialog.py:37
 msgid "Encrypt/Decrypt Message"
-msgstr ""
+msgstr "Weka/Toa Usimbaji fiche ujumbe"
 
-#: gui/qt/main_window.py:3234
+#: gui/qt/main_window.py:3236
 #: ios/ElectronCash/electroncash_gui/ios_native/addresses.py:918
 msgid "Encrypt/decrypt Message"
-msgstr ""
+msgstr "Weka/Toa Usimbaji fiche kwa ujumbe"
 
 #: gui/qt/address_list.py:327
 msgid "Encrypt/decrypt message"
-msgstr ""
+msgstr "Weka/Toa Usimbaji fiche kwa ujumbe"
 
-#: gui/qt/main_window.py:3256
+#: gui/qt/main_window.py:3258
 msgid "Encrypted"
-msgstr ""
+msgstr "Weka Usimbuaji fiche"
 
 #: gui/qt/bip38_importer.py:171
 msgid "Encrypted Key"
-msgstr ""
+msgstr "Funguosiri lililowekwa usimbuaji fiche"
 
 #: plugins/digitalbitbox/digitalbitbox.py:451 plugins/ledger/ledger.py:291
-#: plugins/satochip/satochip.py:227
+#: plugins/satochip/satochip.py:226
 msgid "Encryption and decryption are currently not supported for {}"
-msgstr ""
+msgstr "Kuweka na kutoa Usimbaji fiche hazikubaliki {}"
 
 #: plugins/keepkey/keepkey.py:33 plugins/trezor/trezor.py:59
 msgid "Encryption and decryption are not implemented by {}"
-msgstr ""
+msgstr "Kuweka na kutoa Usimbaji fiche hazijatambuliwa na {}"
 
 #: ios/ElectronCash/electroncash_gui/ios_native/newwallet.py:31
 msgid "Enjoy high security"
 msgstr "Furahiya usalama wa hali ya juu"
 
-#: plugins/keepkey/qt.py:175 plugins/satochip/qt.py:293
+#: plugins/keepkey/qt.py:175 plugins/satochip/qt.py:307
 #: plugins/trezor/qt.py:144
 msgid "Enter PIN"
 msgstr "Ingiza PIN"
 
 #: plugins/ledger/auth2fa.py:81 plugins/ledger/auth2fa.py:116
-#: plugins/satochip/satochip.py:178 plugins/satochip/satochip.py:181
+#: plugins/satochip/satochip.py:177 plugins/satochip/satochip.py:180
 msgid "Enter PIN:"
 msgstr "Ingiza PIN:"
 
@@ -2653,7 +2653,7 @@ msgstr "Ingiza manenosiri"
 msgid "Enter a Cash Account name of the form Name#123.45, and Electron Cash will search for the contact and present you with its resolved address."
 msgstr "Ingiza jina la Cash Account la fomu Jina#123.45, na Electron Cash itatafuta anwani na kukuwasilisha na anwani yake iliyofahamika."
 
-#: gui/qt/main_window.py:533
+#: gui/qt/main_window.py:535
 msgid "Enter a filename for the copy of your wallet"
 msgstr "Ingiza jina la faili kwa nakala ya kipochi chako"
 
@@ -2665,7 +2665,7 @@ msgstr "Ingiza lebo ya kutaja kifaa chako:"
 msgid "Enter a list of Bitcoin Cash addresses (this will create a watching-only wallet), or a list of private keys."
 msgstr "Ingiza orodha ya anwani za Bitcoin Cash (hii itaunda kipochi cha kutazama tu), au orodha ya funguosiri."
 
-#: gui/qt/main_window.py:2584
+#: gui/qt/main_window.py:2586
 msgid "Enter a list of outputs in the 'Pay to' field."
 msgstr ""
 
@@ -2673,7 +2673,7 @@ msgstr ""
 msgid "Enter a list of private keys to create a regular spending wallet. Alternatively, you can create a 'watching-only' wallet by entering a list of Bitcoin Cash addresses."
 msgstr "Ingiza orodha ya funguo za siri kuunda kipochi cha matumizi ya kawaida. Vinginevyo, unaweza kuunda kipochi cha \"kutazama-pekee\" kwa kuingiza orodha ya anwani za Bitcoin Cash."
 
-#: plugins/satochip/satochip.py:502 plugins/satochip/qt.py:178
+#: plugins/satochip/satochip.py:502 plugins/satochip/qt.py:181
 msgid "Enter a new PIN for your Satochip:"
 msgstr ""
 
@@ -2689,11 +2689,11 @@ msgstr "Ingiza nywila mpya hapa chini."
 msgid "Enter a passphrase to generate this wallet.  Each time you use this wallet your {} will prompt you for the passphrase.  If you forget the passphrase you cannot access the bitcoins in the wallet."
 msgstr "Ingiza manenosiri ili kutengeneza kipochi hiki. Kila wakati unapotumia kipochi hiki {} utaitishwa manenosiri. Ikiwa utasahau manenosiri huwezi kupata bitcoins kwenye kipochi chako."
 
-#: gui/qt/main_window.py:2965
+#: gui/qt/main_window.py:2967
 msgid "Enter a string of the form <b>name#<i>number</i></b>"
 msgstr ""
 
-#: gui/qt/main_window.py:3821
+#: gui/qt/main_window.py:3896
 msgid "Enter addresses"
 msgstr "Ingiza Anwani"
 
@@ -2724,21 +2724,21 @@ msgstr "Ingiza nywila"
 msgid "Enter password:"
 msgstr "Ingiza Nywila:"
 
-#: gui/qt/main_window.py:3723 gui/qt/main_window.py:3832
+#: gui/qt/main_window.py:3798 gui/qt/main_window.py:3907
 msgid "Enter private keys"
-msgstr ""
+msgstr "Weka funguosiri"
 
-#: plugins/satochip/CardConnector.py:599
+#: plugins/satochip/CardConnector.py:604
 msgid "Enter the PIN for your Satochip:"
 msgstr ""
 
-#: plugins/satochip/CardConnector.py:597
+#: plugins/satochip/CardConnector.py:602
 msgid "Enter the PIN for your Satochip: \n"
 " WARNING: ONLY ONE ATTEMPT REMAINING!"
 msgstr ""
 
 #. old pin
-#: plugins/satochip/qt.py:173
+#: plugins/satochip/qt.py:172
 msgid "Enter the current PIN for your Satochip:"
 msgstr ""
 
@@ -2780,7 +2780,7 @@ msgstr "Weka Nywila ya Digital Bitbox:"
 
 #: plugins/keepkey/qt.py:271
 msgid "Enter your PIN (digits 1-9):"
-msgstr ""
+msgstr "Ingiza PIN yako (nambari 1-9):"
 
 #: plugins/keepkey/clientbase.py:51 plugins/trezor/clientbase.py:278
 msgid "Enter your current {} PIN:"
@@ -2790,7 +2790,7 @@ msgstr ""
 msgid "Enter your password or choose another file."
 msgstr ""
 
-#: gui/qt/main_window.py:2119
+#: gui/qt/main_window.py:2121
 #: ios/ElectronCash/electroncash_gui/ios_native/password_dialog.py:259
 #: ios/ElectronCash/electroncash_gui/ios_native/password_dialog.py:306
 msgid "Enter your password to proceed"
@@ -2818,7 +2818,7 @@ msgid "Erase the Digital Bitbox"
 msgstr ""
 
 #. can be called from any thread, always runs in main thread
-#: gui/qt/util.py:226 gui/qt/__init__.py:594 gui/qt/__init__.py:596
+#: gui/qt/util.py:228 gui/qt/__init__.py:596 gui/qt/__init__.py:598
 #: gui/qt/installwizard.py:237 gui/qt/installwizard.py:241 gui/text.py:362
 #: gui/stdio.py:209 ios/ElectronCash/electroncash_gui/ios_native/send.py:1012
 #: ios/ElectronCash/electroncash_gui/ios_native/send.py:1025
@@ -2837,7 +2837,7 @@ msgstr ""
 msgid "Error occurred adding to Contacts"
 msgstr "Kosa limetokea wakati wa kuongeza Stakabadhi za kuwasiliana"
 
-#: gui/qt/main_window.py:3403
+#: gui/qt/main_window.py:3405
 msgid "Error retrieving transaction"
 msgstr ""
 
@@ -2853,19 +2853,19 @@ msgstr ""
 msgid "Error: duplicate master public key"
 msgstr ""
 
-#: gui/qt/__init__.py:444
+#: gui/qt/__init__.py:446
 msgid "Exit Electron Cash"
-msgstr ""
+msgstr "Toka Electron Cash"
 
 #: ios/ElectronCash/electroncash_gui/ios_native/txdetail.py:520
 msgid "Expected conf."
 msgstr ""
 
-#: gui/qt/transaction_dialog.py:406
+#: gui/qt/transaction_dialog.py:412
 msgid "Expected confirmation time"
 msgstr ""
 
-#: gui/qt/main_window.py:1144
+#: gui/qt/main_window.py:1146
 msgid "Expiration date of your request."
 msgstr ""
 
@@ -2873,23 +2873,23 @@ msgstr ""
 msgid "Expired"
 msgstr "Imekwisha muda"
 
-#: gui/qt/main_window.py:1146
+#: gui/qt/main_window.py:1148
 msgid "Expired requests have to be deleted manually from your list, in order to free the corresponding Bitcoin Cash addresses."
 msgstr ""
 
-#: gui/qt/invoice_list.py:36 gui/qt/main_window.py:2724
+#: gui/qt/invoice_list.py:36 gui/qt/main_window.py:2726
 msgid "Expires"
-msgstr ""
+msgstr "Imekwisha muda"
 
 #. hist_menu.addAction(_("Plot"), self.plot_history_dialog).setEnabled(plot_history is not None)
-#: gui/qt/main_window.py:627 gui/qt/main_window.py:632
-#: gui/qt/main_window.py:3493 gui/qt/main_window.py:3641
+#: gui/qt/main_window.py:629 gui/qt/main_window.py:634
+#: gui/qt/main_window.py:3496 gui/qt/main_window.py:3668
 msgid "Export"
-msgstr ""
+msgstr "Kutoa Nakala"
 
-#: gui/qt/main_window.py:3633
+#: gui/qt/main_window.py:3636
 msgid "Export History"
-msgstr ""
+msgstr "Hitoria ya kutoa nakala"
 
 #: gui/qt/contact_list.py:244
 msgid "Export file"
@@ -2899,7 +2899,11 @@ msgstr "Nakili faili nje"
 msgid "Exporting Wallet..."
 msgstr "Toa Nakala ya Kipochi..."
 
-#: gui/qt/main_window.py:3455
+#: gui/qt/main_window.py:3769
+msgid "Exporting history, please wait ..."
+msgstr ""
+
+#: gui/qt/main_window.py:3457
 msgid "Exposing a single private key can compromise your entire wallet!"
 msgstr "Kuonyeshana funguosiri kunaweza athiri kipochi chako chote!"
 
@@ -2910,9 +2914,9 @@ msgstr "Ongeza maneno kwenye manenosiri yako"
 #: gui/qt/cashacctqt.py:864
 #: ios/ElectronCash/electroncash_gui/ios_native/txdetail.py:203
 msgid "External Address"
-msgstr ""
+msgstr "Anwani ya Nje"
 
-#: gui/qt/main_window.py:2344
+#: gui/qt/main_window.py:2346
 #, python-brace-format
 msgid "Extra parameter in URI was ignored:\n\n"
 "{extra_params}"
@@ -2921,16 +2925,16 @@ msgid_plural "Extra parameters in URI were ignored:\n\n"
 msgstr[0] ""
 msgstr[1] ""
 
-#: gui/qt/main_window.py:1560
+#: gui/qt/main_window.py:1562
 msgid "F&ee"
 msgstr "Ada"
 
-#: plugins/satochip/qt.py:195
+#: plugins/satochip/qt.py:206
 msgid "Failed to change PIN!"
 msgstr ""
 
 #: plugins/digitalbitbox/digitalbitbox.py:704 plugins/keepkey/keepkey.py:295
-#: plugins/satochip/satochip.py:481 plugins/trezor/trezor.py:312
+#: plugins/satochip/satochip.py:480 plugins/trezor/trezor.py:312
 msgid "Failed to create a client for this device."
 msgstr ""
 
@@ -2942,11 +2946,11 @@ msgstr ""
 msgid "Failed to load zbar: {}"
 msgstr "Imeshindwa kupakia zbar: {}"
 
-#: plugins/satochip/qt.py:288
+#: plugins/satochip/qt.py:302
 msgid "Failed to reset 2FA with error code: {hex(sw1)}{hex(sw2)}"
 msgstr ""
 
-#: plugins/satochip/qt.py:251
+#: plugins/satochip/qt.py:265
 msgid "Failed to reset seed with error code: {hex(sw1)}{hex(sw2)}"
 msgstr ""
 
@@ -2954,7 +2958,7 @@ msgstr ""
 msgid "Failed to send transaction to cosigning pool."
 msgstr "Imeshindwa kutuma shughuli kwenye dimbwi la seva."
 
-#: gui/qt/main_window.py:2904
+#: gui/qt/main_window.py:2906
 #: ios/ElectronCash/electroncash_gui/ios_native/gui.py:2054
 msgid "Failed to update password"
 msgstr ""
@@ -2964,7 +2968,7 @@ msgid "Failed to verify SSL certificate"
 msgstr ""
 
 #. Fee Label
-#: gui/qt/transaction_dialog.py:417 gui/text.py:177
+#: gui/qt/transaction_dialog.py:423 gui/text.py:177
 #: ios/ElectronCash/electroncash_gui/ios_native/send.py:195
 #: ios/ElectronCash/electroncash_gui/ios_native/txdetail.py:564
 msgid "Fee"
@@ -2974,11 +2978,11 @@ msgstr "Ada"
 msgid "Fee manual edit"
 msgstr "Ada ya mwongozo"
 
-#: gui/qt/main_window.py:4924
+#: gui/qt/main_window.py:4999
 msgid "Fee:"
-msgstr ""
+msgstr "Ada:"
 
-#: gui/qt/transaction_dialog.py:419
+#: gui/qt/transaction_dialog.py:425
 #, python-brace-format
 msgid "Fee: {fee_amount} {fee_unit} ( {fee_rate} )"
 msgstr "Ada: {fee_amount} {fee_unit} ( {fee_rate} )"
@@ -2987,17 +2991,21 @@ msgstr "Ada: {fee_amount} {fee_unit} ( {fee_rate} )"
 msgid "Feel free to add your email address if you are willing to provide further detail, but note that it will appear in the relevant github issue."
 msgstr ""
 
-#: gui/qt/main_window.py:4099
+#: gui/qt/main_window.py:4174
 #: ios/ElectronCash/electroncash_gui/ios_native/prefs.py:24
 msgid "Fees"
-msgstr ""
+msgstr "Ada"
 
-#: gui/qt/main_window.py:4588
+#: gui/qt/main_window.py:4663
 msgctxt "The preferences -> Fees,misc tab"
 msgid "Fees && Misc."
+msgstr "Ada && Mengineyo."
+
+#: gui/qt/main_window.py:3647
+msgid "Fetch accurate fees from network (slower)"
 msgstr ""
 
-#: gui/qt/main_window.py:4593
+#: gui/qt/main_window.py:4668
 #: ios/ElectronCash/electroncash_gui/ios_native/prefs.py:24
 msgid "Fiat"
 msgstr "Sarafu ya fiat"
@@ -3012,30 +3020,30 @@ msgstr "Kiasi cha pesa taslimu"
 msgid "Fiat currency"
 msgstr "Sarafu ya fiat"
 
-#: gui/qt/main_window.py:4581
+#: gui/qt/main_window.py:4656
 msgid "Fiat currency:"
 msgstr "Sarafu ya fiat:"
 
-#: gui/qt/util.py:509 ios/ElectronCash/electroncash_gui/ios_native/utils.py:339
+#: gui/qt/util.py:534 ios/ElectronCash/electroncash_gui/ios_native/utils.py:339
 msgid "File"
 msgstr "Faili"
 
 #: plugins/keepkey/qt.py:445 plugins/satochip/qt.py:96 plugins/trezor/qt.py:525
 msgid "Firmware Version"
-msgstr ""
+msgstr "Toleo la Firmware"
 
 #: plugins/ledger/ledger.py:31
 msgid "Firmware version (or \"Bitcoin Cash\" app) too old for CashAddr support. "
-msgstr ""
+msgstr "Toleo la Firmware (au programu ya \"Bitcoin Cash\") ni mzee sana kwa msaada wa CashAddr. "
 
 #: gui/qt/fee_slider.py:34
 msgid "Fixed rate: "
-msgstr ""
+msgstr "Bei ya kudumu: "
 
 #: gui/qt/network_dialog.py:138
 #: ios/ElectronCash/electroncash_gui/ios_native/network_dialog.py:408
 msgid "Follow this branch"
-msgstr ""
+msgstr "Fuata tawi"
 
 #: ios/ElectronCash/electroncash_gui/ios_native/gui.py:2318
 msgid "For convenience, would you like to use Touch ID or Face ID to open this wallet?\n\n"
@@ -3049,11 +3057,11 @@ msgstr "Kwa urahisi, ungependa kutumia Kitambulisho cha Kugusa au Kitambulisho c
 msgid "For improved privacy, shuffled coins and unshuffled coins cannot be sent together in the same transaction when CashShuffle is enabled."
 msgstr ""
 
-#: gui/qt/main_window.py:4124
+#: gui/qt/main_window.py:4199
 msgid "For more information, see http://openalias.org"
 msgstr "Kwa habari zaidi, ona http://openalias.org"
 
-#: gui/qt/main_window.py:4270
+#: gui/qt/main_window.py:4345
 msgid "For scanning QR codes."
 msgstr ""
 
@@ -3069,11 +3077,11 @@ msgstr "Lazimisha kushusha"
 msgid "Force upload"
 msgstr ""
 
-#: gui/qt/util.py:485
+#: gui/qt/util.py:509
 msgid "Format"
 msgstr ""
 
-#: gui/qt/main_window.py:2586
+#: gui/qt/main_window.py:2588
 msgid "Format: address, amount"
 msgstr "Fomati: anwani, kiasi"
 
@@ -3081,11 +3089,11 @@ msgstr "Fomati: anwani, kiasi"
 #: ios/ElectronCash/electroncash_gui/ios_native/coins.py:644
 #: ios/ElectronCash/electroncash_gui/ios_native/addresses.py:904
 msgid "Freeze"
-msgstr ""
+msgstr "Funga"
 
 #: gui/qt/utxo_list.py:273
 msgid "Freeze Address"
-msgstr ""
+msgstr "Ziba anwani"
 
 #. they have some address-level non-frozen in the selection, so add the menu action "Freeze addresses"
 #: gui/qt/utxo_list.py:290
@@ -3094,7 +3102,7 @@ msgstr "Ziba anwani"
 
 #: gui/qt/utxo_list.py:267
 msgid "Freeze Coin"
-msgstr ""
+msgstr "Funga Sarafu"
 
 #. they have some coin-level non-frozen in the selection, so add the menu action "Freeze coins"
 #: gui/qt/utxo_list.py:284
@@ -3106,19 +3114,19 @@ msgstr "Funga Sarafu"
 msgid "From %d cosigners"
 msgstr "Kutoka %d mweka sahihi wa pili"
 
-#: gui/qt/main_window.py:677
+#: gui/qt/main_window.py:679
 msgid "From &File"
 msgstr "Kutoka &Faili"
 
-#: gui/qt/main_window.py:680
+#: gui/qt/main_window.py:682
 msgid "From &QR Code"
-msgstr ""
+msgstr "Kutoka kodi ya &QR"
 
-#: gui/qt/main_window.py:678
+#: gui/qt/main_window.py:680
 msgid "From &Text"
 msgstr "Kutoka &Teksti"
 
-#: gui/qt/main_window.py:679
+#: gui/qt/main_window.py:681
 msgid "From the &Blockchain"
 msgstr "Kutoka kwa &blockchain"
 
@@ -3133,7 +3141,7 @@ msgstr "Fungwa"
 
 #: plugins/shuffle/qt.py:2024
 msgid "Full"
-msgstr ""
+msgstr "Kamili"
 
 #: plugins/digitalbitbox/digitalbitbox.py:229
 msgid "Full 2FA enabled. This is not supported yet."
@@ -3156,11 +3164,11 @@ msgstr ""
 msgid "Funds that are not yet shuffled"
 msgstr ""
 
-#: gui/qt/main_window.py:4587
+#: gui/qt/main_window.py:4662
 msgid "General"
-msgstr ""
+msgstr "Jumla"
 
-#: gui/qt/main_window.py:1576
+#: gui/qt/main_window.py:1578
 msgid "Generally, a fee of 1.0 sats/B is a good minimal rate to ensure your transaction will make it into the next block."
 msgstr ""
 
@@ -3217,11 +3225,11 @@ msgstr ""
 
 #: gui/qt/udev_installer.py:58
 msgid "Hardware Wallet Support"
-msgstr "Msaada wa Kifaa cha kipochi"
+msgstr "Kifaa cha kipochi kinategemezwa"
 
 #: lib/base_wizard.py:207
 msgid "Hardware Wallet Support..."
-msgstr "Msaada wa Kifaa cha kipochi..."
+msgstr "Kifaa cha kipochi kinategemezwa..."
 
 #: gui/qt/utxo_list.py:58 gui/qt/network_dialog.py:123
 #: ios/ElectronCash/electroncash_gui/ios_native/network_dialog.py:275
@@ -3229,17 +3237,17 @@ msgstr "Msaada wa Kifaa cha kipochi..."
 #: ios/ElectronCash/electroncash_gui/ios_native/network_dialog.py:326
 #: ios/ElectronCash/electroncash_gui/ios_native/coins.py:601
 msgid "Height"
-msgstr ""
+msgstr "Urefu"
 
-#: gui/qt/util.py:107
+#: gui/qt/util.py:109
 msgid "Help"
-msgstr ""
+msgstr "Msaada"
 
 #: gui/qt/installwizard.py:503
 msgid "Here is your master public key."
 msgstr ""
 
-#: gui/qt/main_window.py:3468
+#: gui/qt/main_window.py:3470
 msgid "Hide"
 msgstr "Ficha"
 
@@ -3255,19 +3263,19 @@ msgstr "Ficha Bango la kushusha"
 msgid "Hide shuffle transactions"
 msgstr "Ficha changanya Shuguli za ununuzi"
 
-#: gui/qt/main_window.py:4377
+#: gui/qt/main_window.py:4452
 msgid "Hide status button"
 msgstr ""
 
-#: gui/qt/main_window.py:298 gui/qt/main_window.py:641
+#: gui/qt/main_window.py:300 gui/qt/main_window.py:643
 #, python-brace-format
 msgid "Hide {tab_description}"
 msgstr "Ficha {tab_description}"
 
 #. /Cash Accounts
-#: gui/qt/main_window.py:176 gui/qt/address_dialog.py:113 gui/text.py:63
+#: gui/qt/main_window.py:178 gui/qt/address_dialog.py:113 gui/text.py:63
 msgid "History"
-msgstr ""
+msgstr "Historia"
 
 #. Settings tab - Homescreen
 #: plugins/trezor/qt.py:573
@@ -3279,11 +3287,11 @@ msgstr ""
 #: ios/ElectronCash/electroncash_gui/ios_native/network_dialog.py:329
 #: plugins/shuffle/qt.py:1582
 msgid "Host"
-msgstr ""
+msgstr "Mwenyeji"
 
 #: gui/qt/installwizard.py:520
 msgid "How do you want to connect to a server? "
-msgstr ""
+msgstr "Je! Unatakaje kuunganishwa na seva? "
 
 #: gui/qt/seed_dialog.py:100
 msgid "However, BIP39 seeds do not include a version number, which compromises compatibility with future wallet software."
@@ -3293,11 +3301,11 @@ msgstr "Lakini, manenosiri ya BIP39 hazijumuishi nambari ya toleo, ambayo inathi
 msgid "However, hardware wallets do not support message decryption, which makes them not compatible with the current design of cosigner pool."
 msgstr "Lakini, vifaa vya pochi haviuungi mkono kutoa siri za ujumbe, na kuzifanya siziambatane na dimbwi la seva za mweka sahihi wa pili."
 
-#: gui/qt/__init__.py:800
+#: gui/qt/__init__.py:802
 msgid "However, on some Windows systems, bugs in Qt may result in minor graphics glitches in system 'message box' dialogs."
 msgstr "Lakini, kwenye mifumo mingine ya Windows, dosari ya Qt inaweza kusababisha dosari za picha kwenye mfumo wa 'sanduku la ujumbe'."
 
-#: gui/qt/__init__.py:796
+#: gui/qt/__init__.py:798
 msgid "However, on some esoteric Linux systems, this mode may cause disproportionately large status bar icons."
 msgstr "Lakini, kwenye mifumo mingine ya Linux, programu hii inaweza kusababisha picha kubwa."
 
@@ -3307,27 +3315,27 @@ msgstr "Hatutoi manenosiri ya BIP39 kwa sababu muundo wetu wa manenosiri ni bora
 
 #: gui/qt/console.py:51
 msgid "I UNDERSTAND THE RISK"
-msgstr ""
+msgstr "NINAELEWA HATARI"
 
 #: gui/qt/external_plugins_window.py:117
 msgid "I accept responsibility for any harm that comes from installing this plugin, and acknowledge:"
-msgstr ""
+msgstr "Ninakubali jukumu la ubaya wowote unaotokana na kusanikisha programu hii, na tambua:"
 
-#: lib/base_wizard.py:119 plugins/satochip/satochip.py:634
+#: lib/base_wizard.py:119 plugins/satochip/satochip.py:637
 msgid "I already have a seed"
 msgstr "Tayari nina manenosiri"
 
 #: gui/qt/external_plugins_window.py:121
 msgid "I should only install the most reputable plugins trusted by the community."
-msgstr ""
+msgstr "Ninapaswa kusanikisha programu jalizi maarufu tu zinazoaminika na jamii."
 
 #: android/app/src/main/python/electroncash_gui/android/strings.py:22
 msgid "ID"
-msgstr ""
+msgstr "Kitambulisho: ID"
 
-#: gui/qt/main_window.py:4149
+#: gui/qt/main_window.py:4224
 msgid "Identity"
-msgstr ""
+msgstr "Kitambulisho"
 
 #: gui/qt/network_dialog.py:361
 msgid "If 'Connect only to preferred servers' is enabled, Electron Cash will only connect to servers marked as 'preferred' servers ({})."
@@ -3338,11 +3346,11 @@ msgstr ""
 msgid "If auto-connect is enabled, Electron Cash will always use a server that is on the longest blockchain."
 msgstr "Ikiwa kiunganisho kiotomatiki kimewezeshwa, Electron Cash itatumia seva ambayo iko kwenye blockchain ndefu zaidi."
 
-#: gui/qt/main_window.py:4378
+#: gui/qt/main_window.py:4453
 msgid "If checked, the status bar button for toggling address formats will be hidden"
 msgstr ""
 
-#: gui/qt/main_window.py:4395
+#: gui/qt/main_window.py:4470
 msgid "If enabled, a system notification will be presented when you receive funds to this wallet."
 msgstr "Ikiwezeshwa, arifa ya mtambo itawasilishwa unapopokea fedha kwa kipochi hiki."
 
@@ -3350,7 +3358,7 @@ msgstr "Ikiwezeshwa, arifa ya mtambo itawasilishwa unapopokea fedha kwa kipochi 
 msgid "If enabled, restricts Electron Cash to connecting to servers only marked as 'preferred'."
 msgstr ""
 
-#: gui/qt/main_window.py:4472
+#: gui/qt/main_window.py:4547
 #, python-brace-format
 msgid "If enabled, you will be allowed to use legacy '{prefix_char}...' style addresses in the Send tab.\n"
 "Otherwise you must use CashAddr for p2sh in the UI."
@@ -3369,7 +3377,7 @@ msgstr "Ikiwa imezimwa, lazima uchague seva unayotaka kutumia. Electron Cash ita
 msgid "If someone you do not trust wants you to enter something here, that person might be attempting a social engineering / phishing attack on you."
 msgstr ""
 
-#: gui/qt/__init__.py:797 gui/qt/__init__.py:801
+#: gui/qt/__init__.py:799 gui/qt/__init__.py:803
 msgid "If that is the case for you, then you may disable automatic DPI scaling in the preferences, under 'General'."
 msgstr ""
 
@@ -3377,11 +3385,15 @@ msgstr ""
 msgid "If the official source for this plugin has a checksum for this plugin, ensure that the value shown here is the same."
 msgstr ""
 
+#: gui/qt/main_window.py:3650 gui/qt/transaction_dialog.py:474
+msgid "If this is checked, accurate fee and input value data will be retrieved from the network"
+msgstr ""
+
 #: lib/base_wizard.py:227
 msgid "If this problem persists, please visit:"
 msgstr ""
 
-#: gui/qt/main_window.py:1114 gui/qt/main_window.py:1514
+#: gui/qt/main_window.py:1116 gui/qt/main_window.py:1516
 msgid "If unchecked, the textbox contents are UTF8-encoded into a single-push script: <tt>OP_RETURN PUSH &lt;text&gt;</tt>. If checked, the text contents will be interpreted as a raw hexadecimal script to be appended after the OP_RETURN opcode: <tt>OP_RETURN &lt;script&gt;</tt>."
 msgstr ""
 
@@ -3410,7 +3422,7 @@ msgstr ""
 msgid "If you do not know what this is, leave this field empty."
 msgstr ""
 
-#: gui/qt/main_window.py:4987
+#: gui/qt/main_window.py:5062
 msgid "If you enable it, Electron Cash will shuffle your coins for greater <b>privacy</b>. However, you will pay fractions of a penny per shuffle in transaction fees."
 msgstr ""
 
@@ -3428,7 +3440,7 @@ msgstr ""
 msgid "If you lose your seed, your money will be permanently lost."
 msgstr "Ukipoteza manenosiri yako, pesa zako zitapotea."
 
-#: gui/qt/main_window.py:1506
+#: gui/qt/main_window.py:1508
 msgid "If you specify OP_RETURN text, you may leave the 'Pay to' field blank."
 msgstr ""
 
@@ -3447,16 +3459,16 @@ msgstr "Ikiwa unataka kipochi kutumia anwani za Bitcoin Cash tumia m /44 '/145'/
 msgid "If you want the wallet to use legacy Bitcoin addresses use m/44'/0'/0'"
 msgstr "Ikiwa unataka kipochi kutumia anwani za zamani za Bitcoin tumia m/44'/0'/0'"
 
-#: gui/qt/main_window.py:1334
+#: gui/qt/main_window.py:1336
 msgid "If you want to create new addresses, use a deterministic wallet instead."
 msgstr "Ikiwa unataka kuunda anwani mpya, tumia kipochi."
 
-#: gui/qt/main_window.py:5224
+#: gui/qt/main_window.py:5299
 msgid "If you wish to control which specific coins are used to fund this registration transaction, feel free to use the Coins and/or Addresses tabs' Spend-from facility.\n\n"
 "('Spend from' is a right-click menu option in either tab.)"
 msgstr ""
 
-#: gui/qt/main_window.py:3013
+#: gui/qt/main_window.py:3015
 msgid "If your wallet contains funds, make sure you have saved its seed."
 msgstr "Ikiwa kipochi chako kina pesa, hakikisha umehifadhi manenosiri yake."
 
@@ -3478,8 +3490,8 @@ msgstr ""
 msgid "Immature Coinbase: Spend Locked"
 msgstr ""
 
-#: gui/qt/main_window.py:626 gui/qt/main_window.py:629
-#: gui/qt/main_window.py:3796
+#: gui/qt/main_window.py:628 gui/qt/main_window.py:631
+#: gui/qt/main_window.py:3871
 #: ios/ElectronCash/electroncash_gui/ios_native/newwallet.py:34
 #: ios/ElectronCash/electroncash_gui/ios_native/newwallet.py:852
 #: ios/ElectronCash/electroncash_gui/ios_native/newwallet.py:972
@@ -3503,9 +3515,9 @@ msgstr "Ingiza anuani za Bitcoin Cash au Funguosiri"
 msgid "Import Bitcoin Cash addresses or private keys"
 msgstr "Ingiza anwani za Bitcoin Cash au Funguosiri"
 
-#: gui/qt/main_window.py:614 gui/qt/main_window.py:3821
+#: gui/qt/main_window.py:616 gui/qt/main_window.py:3896
 msgid "Import addresses"
-msgstr ""
+msgstr "Ingiza Anwani"
 
 #: android/app/src/main/python/electroncash_gui/android/strings.py:26
 msgid "Import addresses or private keys"
@@ -3519,9 +3531,9 @@ msgstr "Ingiza faili kutoka nje"
 msgid "Import pairing from the Digital Bitbox desktop app"
 msgstr ""
 
-#: gui/qt/main_window.py:3832
+#: gui/qt/main_window.py:3907
 msgid "Import private keys"
-msgstr ""
+msgstr "Weka funguosiri"
 
 #: lib/util.py:75
 msgid "Importing encrypted files is not supported."
@@ -3551,18 +3563,18 @@ msgstr "Zaidi ya hayo, Electron Cash haithibitisha ukaguzi wa manenosiri ya BIP3
 msgid "In addition, a blame protocol is used to mitigate time-wasting denial-of-service type attacks."
 msgstr ""
 
-#: gui/qt/main_window.py:505
+#: gui/qt/main_window.py:507
 msgid "In order to use this wallet without errors with this version of EC, please <b>re-generate this wallet from seed</b>."
 msgstr "Ili kutumia kipochi hiki bila makosa na toleo hili la EC, tafadhali <b> toa tena kipochi hiki kutoka kwa manenosiri</b>."
 
-#: gui/qt/main_window.py:3456
+#: gui/qt/main_window.py:3458
 msgid "In particular, DO NOT use 'redeem private key' services proposed by third parties."
 msgstr ""
 
 #. in progress
 #: plugins/shuffle/qt.py:114
 msgid "In progress"
-msgstr ""
+msgstr "Inaendelea"
 
 #: plugins/shuffle/qt.py:109
 msgid "In queue"
@@ -3572,12 +3584,20 @@ msgstr ""
 msgid "In queue (reshuf)"
 msgstr ""
 
-#: gui/qt/main_window.py:4430
+#: gui/qt/main_window.py:4505
 msgid "In some cases, use up to 3 change addresses in order to break up large coin amounts and obfuscate the recipient address."
 msgstr "Katika hali nyingine, tumia anwani hadi 3 za mabadiliko ili kuvunja kiasi kikubwa cha sarafu na kubatilisha anwani ya mpokeaji."
 
 #: lib/util.py:52
 msgid "In the next block"
+msgstr ""
+
+#: gui/qt/main_window.py:3643
+msgid "Include addresses"
+msgstr ""
+
+#: gui/qt/main_window.py:3645
+msgid "Include input and output addresses in history export"
 msgstr ""
 
 #: lib/util.py:63
@@ -3593,7 +3613,7 @@ msgid "Index"
 msgstr ""
 
 #. can be called from any thread, always runs in main thread
-#: gui/qt/main_window.py:478 gui/qt/util.py:234
+#: gui/qt/main_window.py:480 gui/qt/util.py:236
 #: ios/ElectronCash/electroncash_gui/ios_native/network_dialog.py:506
 #: ios/ElectronCash/electroncash_gui/ios_native/gui.py:1103
 #: plugins/keepkey/qt.py:574 plugins/trezor/qt.py:663
@@ -3615,12 +3635,12 @@ msgstr ""
 
 #. value_text = (value is not None and (self.main_window.format_amount(value) + " " + self.main_window.base_unit()))
 #. menu.addAction(_("Input") + " #" + str(i) + (' - ' + value_text if value else '')).setDisabled(True)
-#: gui/qt/transaction_dialog.py:732
+#: gui/qt/transaction_dialog.py:738
 msgid "Input"
-msgstr ""
+msgstr "Pembejeo"
 
 #. Placeholder for amount
-#: gui/qt/main_window.py:4912
+#: gui/qt/main_window.py:4987
 #: ios/ElectronCash/electroncash_gui/ios_native/receive.py:212
 #: ios/ElectronCash/electroncash_gui/ios_native/send.py:275
 msgid "Input amount"
@@ -3628,15 +3648,15 @@ msgstr "Ingiza kiwango cha pesa"
 
 #: lib/network.py:1702
 msgid "Input data is not a transaction hash."
-msgstr ""
+msgstr "Pembejeo za data hazip kwa shuguli za ununuzi za hash."
 
-#: gui/qt/main_window.py:3373
+#: gui/qt/main_window.py:3375
 msgid "Input raw transaction"
 msgstr "Ingiza shughuli isiyotengenezwa"
 
 #: ios/ElectronCash/electroncash_gui/ios_native/txdetail.py:101
 msgid "Inputs"
-msgstr ""
+msgstr "Pembejeo"
 
 #: gui/qt/installwizard.py:105
 msgid "Install Wizard"
@@ -3649,13 +3669,13 @@ msgstr ""
 
 #: gui/qt/udev_installer.py:139
 msgid "Installed"
-msgstr ""
+msgstr "Imesakinishwa"
 
-#: gui/qt/main_window.py:665
+#: gui/qt/main_window.py:667
 msgid "Installed &Plugins"
-msgstr ""
+msgstr "Imesanikishwa &Programu-jalizi"
 
-#: gui/qt/main_window.py:2072
+#: gui/qt/main_window.py:2074
 #: ios/ElectronCash/electroncash_gui/ios_native/send.py:479
 #: ios/ElectronCash/electroncash_gui/ios_native/send.py:802
 msgid "Insufficient funds"
@@ -3674,19 +3694,19 @@ msgid "Invalid"
 msgstr "Batili"
 
 #. Bad 'address' code path
-#: gui/qt/main_window.py:2651
+#: gui/qt/main_window.py:2653
 #: ios/ElectronCash/electroncash_gui/ios_native/contacts.py:472
 #: ios/ElectronCash/electroncash_gui/ios_native/send.py:488
 #: ios/ElectronCash/electroncash_gui/ios_native/send.py:1012
 msgid "Invalid Address"
 msgstr "Anwani Batili"
 
-#: gui/qt/main_window.py:1951 gui/text.py:331 gui/stdio.py:174
+#: gui/qt/main_window.py:1953 gui/text.py:331 gui/stdio.py:174
 #: ios/ElectronCash/electroncash_gui/ios_native/send.py:1030
 msgid "Invalid Amount"
 msgstr "Kiasi Batili"
 
-#: gui/qt/main_window.py:3133 gui/qt/main_window.py:3159
+#: gui/qt/main_window.py:3135 gui/qt/main_window.py:3161
 #: ios/ElectronCash/electroncash_gui/ios_native/sign_decrypt_dialog.py:234
 #: ios/ElectronCash/electroncash_gui/ios_native/sign_decrypt_dialog.py:278
 msgid "Invalid Bitcoin Cash address."
@@ -3713,7 +3733,7 @@ msgstr ""
 msgid "Invalid Fee"
 msgstr ""
 
-#: gui/qt/main_window.py:508
+#: gui/qt/main_window.py:510
 msgid "Invalid Master Key"
 msgstr ""
 
@@ -3731,13 +3751,13 @@ msgstr "Nambari batili ya QR"
 #: android/app/src/main/python/electroncash_gui/android/strings.py:27
 #: ios/ElectronCash/electroncash_gui/ios_native/txdetail.py:292
 msgid "Invalid address"
-msgstr ""
+msgstr "Anwani Batili"
 
 #: plugins/shuffle/qt.py:2232
 msgid "Invalid amount"
 msgstr "Kiasi Batili"
 
-#: gui/qt/main_window.py:2362
+#: gui/qt/main_window.py:2364
 #: ios/ElectronCash/electroncash_gui/ios_native/gui.py:1220
 msgid "Invalid bitcoincash URI:"
 msgstr ""
@@ -3747,7 +3767,7 @@ msgstr ""
 msgid "Invalid channel."
 msgstr ""
 
-#: gui/qt/main_window.py:1918
+#: gui/qt/main_window.py:1920
 msgid "Invalid lines found:"
 msgstr ""
 
@@ -3755,19 +3775,19 @@ msgstr ""
 msgid "Invalid name, please try again."
 msgstr "Jina batili, tafadhali jaribu tena."
 
-#: gui/qt/main_window.py:2710
+#: gui/qt/main_window.py:2712
 msgid "Invoice"
-msgstr ""
+msgstr "Ankara"
 
-#: gui/qt/main_window.py:2735
+#: gui/qt/main_window.py:2737
 msgid "Invoice saved as "
-msgstr ""
+msgstr "Ankara imehifadhiwa kama "
 
-#: gui/qt/main_window.py:628 gui/qt/main_window.py:1662
+#: gui/qt/main_window.py:630 gui/qt/main_window.py:1664
 msgid "Invoices"
-msgstr ""
+msgstr "Ankara"
 
-#: gui/qt/cashacctqt.py:893 gui/qt/address_list.py:387
+#: gui/qt/cashacctqt.py:893 gui/qt/address_list.py:389
 msgid "Is default for address"
 msgstr ""
 
@@ -3775,15 +3795,15 @@ msgstr ""
 msgid "It appears the derivation you specified is invalid. Please try again"
 msgstr "Inaonekana kutuoa anwani uliyoelezea sio sahihi. Tafadhali jaribu tena"
 
-#: gui/qt/main_window.py:3424
+#: gui/qt/main_window.py:3426
 msgid "It can not be \"backed up\" by simply exporting these private keys."
 msgstr ""
 
-#: gui/qt/main_window.py:3421
+#: gui/qt/main_window.py:3423
 msgid "It cannot be used with BIP38 encrypted keys."
 msgstr ""
 
-#: gui/qt/main_window.py:1575
+#: gui/qt/main_window.py:1577
 msgid "It is calculated from the Custom Fee Rate in preferences, but can be overridden from the manual fee edit on this form (if enabled)."
 msgstr ""
 
@@ -3803,11 +3823,11 @@ msgstr ""
 msgid "It was not possible to copy the plugin archive into Electron Cash's plugin storage location. It was therefore not possible to install it."
 msgstr "Haikuwezekana kunakili jalada la programu-jalizi kwenye eneo la kuhifadhi faili la Electron Cash. Kwa hivyo haikuwezekana kuisakinisha."
 
-#: gui/qt/util.py:491
+#: gui/qt/util.py:516
 msgid "JSON"
 msgstr ""
 
-#: gui/qt/main_window.py:5050
+#: gui/qt/main_window.py:5125
 msgid "Just to be safe, back up your wallet file first!"
 msgstr "Ili kuwa salama, weka nakala ya hifadhi la kipochi chako kwanza!"
 
@@ -3819,7 +3839,7 @@ msgstr "Kupata tena Manenosiri ya keepkey"
 msgid "KeepKey wallet"
 msgstr "Kipochi cha KeepKey"
 
-#: gui/qt/main_window.py:1536
+#: gui/qt/main_window.py:1538
 msgid "Keyboard shortcut: type \"!\" to send all your coins."
 msgstr "Njia ya mkato ya kibodi: aina \"!\" kutuma sarafu zako zote."
 
@@ -3860,7 +3880,7 @@ msgstr "Chaguo za LabelSync:"
 msgid "Labels, transactions IDs and addresses are encrypted before they are sent to the remote server."
 msgstr "Lebo, shughuli za ununuzi na anwani zimesimbwa kabla ya kutumwa kwa seva ya mbali."
 
-#: gui/qt/main_window.py:4034 plugins/keepkey/qt.py:449
+#: gui/qt/main_window.py:4109 plugins/keepkey/qt.py:449
 #: plugins/trezor/qt.py:528
 msgid "Language"
 msgstr "Lugha"
@@ -3885,11 +3905,11 @@ msgstr "Thibitishaji kipochi cha Ledger"
 msgid "Ledger wallet"
 msgstr "Kipochi cha Ledger"
 
-#: gui/qt/main_window.py:3873 gui/qt/main_window.py:4370
+#: gui/qt/main_window.py:3948 gui/qt/main_window.py:4445
 msgid "Legacy"
 msgstr ""
 
-#: gui/qt/main_window.py:2042
+#: gui/qt/main_window.py:2044
 #, python-brace-format
 msgid "Legacy '{prefix_char}...' p2sh address support in the Send tab is restricted by default in order to prevent inadvertently sending BCH to Segwit BTC addresses.\n\n"
 "If you are an expert user, go to 'Preferences -> Transactions' to enable the use of legacy p2sh addresses in the Send tab."
@@ -3913,7 +3933,7 @@ msgstr "Acha kifaa kiunde manenosiri mapya"
 msgid "Library version for '{}' is incompatible."
 msgstr ""
 
-#: gui/qt/main_window.py:1918
+#: gui/qt/main_window.py:1920
 msgid "Line #"
 msgstr ""
 
@@ -3929,7 +3949,7 @@ msgstr "Pakia kipochi kutoka kadi ndogo ya SD"
 msgid "Load a wallet from the micro SD card (the current seed is overwritten)"
 msgstr "Pakia kipochi kutoka kwa kadi ndogo ya SD (manenosiri yaliyopo yamefutwa na kuandikwa tena)"
 
-#: gui/qt/main_window.py:3373
+#: gui/qt/main_window.py:3375
 msgid "Load transaction"
 msgstr "Weka shuguli za ununuzi"
 
@@ -3937,7 +3957,7 @@ msgstr "Weka shuguli za ununuzi"
 msgid "Loading backup..."
 msgstr ""
 
-#: gui/qt/transaction_dialog.py:450
+#: gui/qt/transaction_dialog.py:455
 #, python-brace-format
 msgid "LockTime: {lock_time}"
 msgstr ""
@@ -3950,19 +3970,19 @@ msgstr ""
 msgid "Lookup"
 msgstr ""
 
-#: gui/qt/main_window.py:687
+#: gui/qt/main_window.py:689
 msgid "Lookup &Cash Account..."
-msgstr ""
+msgstr "Nakili &Cash Account..."
 
 #: gui/qt/cashacctqt.py:553
 msgid "Lookup Cash Account"
-msgstr ""
+msgstr "Angalia Cash Account"
 
-#: gui/qt/main_window.py:3399
+#: gui/qt/main_window.py:3401
 msgid "Lookup transaction"
 msgstr "Angalia shuguli za ununuzi"
 
-#: gui/qt/main_window.py:2213
+#: gui/qt/main_window.py:2215
 msgid "Low Fee"
 msgstr "Ada ya chini"
 
@@ -3978,12 +3998,12 @@ msgstr ""
 msgid "Made with <a href='https://chaquo.com/chaquopy'>Chaquopy</a>, the Python SDK for Android."
 msgstr ""
 
-#: gui/qt/cashacctqt.py:892 gui/qt/address_list.py:378
+#: gui/qt/cashacctqt.py:892 gui/qt/address_list.py:380
 msgid "Make default for address"
 msgstr ""
 
 #: plugins/digitalbitbox/digitalbitbox.py:705 plugins/keepkey/keepkey.py:296
-#: plugins/satochip/satochip.py:482 plugins/trezor/trezor.py:313
+#: plugins/satochip/satochip.py:481 plugins/trezor/trezor.py:313
 msgid "Make sure it is in the correct state."
 msgstr ""
 
@@ -3991,7 +4011,7 @@ msgstr ""
 msgid "Make sure you install it with python3"
 msgstr "Hakikisha umeiweka na programu ya python3"
 
-#: gui/qt/main_window.py:476
+#: gui/qt/main_window.py:478
 msgid "Make sure you own the seed phrase or the private keys, before you request Bitcoin Cash to be sent to this wallet."
 msgstr "Hakikisha umiliki manenosiri au funguosiri, kabla ya kuomba Bitcoin Cash kutumwa kwa kipochi hiki."
 
@@ -4008,11 +4028,11 @@ msgstr "Ada"
 msgid "Master Key"
 msgstr "Funguosiri"
 
-#: gui/qt/main_window.py:3001 gui/qt/installwizard.py:509
+#: gui/qt/main_window.py:3003 gui/qt/installwizard.py:509
 msgid "Master Public Key"
 msgstr ""
 
-#: gui/qt/main_window.py:2998
+#: gui/qt/main_window.py:3000
 msgid "Master Public Keys"
 msgstr ""
 
@@ -4024,24 +4044,24 @@ msgstr ""
 msgid "Max"
 msgstr "Ya Juu"
 
-#: gui/qt/main_window.py:4941
+#: gui/qt/main_window.py:5016
 #: ios/ElectronCash/electroncash_gui/ios_native/send.py:482
 msgid "Max fee exceeded"
 msgstr "Ada ya juu imepitishwa"
 
 #: ios/ElectronCash/electroncash_gui/ios_native/prefs.py:260
 msgid "Max static fee"
-msgstr ""
+msgstr "Ada ya juu"
 
 #: plugins/shuffle/qt.py:2200
 msgid "Maximum coin:"
 msgstr "Kiwango cha juu cha sarafu:"
 
-#: gui/qt/main_window.py:2719
+#: gui/qt/main_window.py:2721
 msgid "Memo"
 msgstr ""
 
-#: gui/qt/main_window.py:3182 gui/qt/main_window.py:3241
+#: gui/qt/main_window.py:3184 gui/qt/main_window.py:3243
 msgid "Message"
 msgstr ""
 
@@ -4053,12 +4073,12 @@ msgstr "Ujumbe wa hash: {}"
 msgid "Method:"
 msgstr ""
 
-#: gui/qt/main_window.py:1859 gui/qt/contact_list.py:384
+#: gui/qt/main_window.py:1861 gui/qt/contact_list.py:384
 msgid "Mine"
 msgstr "Yangu"
 
 #. Mined in block
-#: gui/qt/cashacctqt.py:869 gui/qt/transaction_dialog.py:394
+#: gui/qt/cashacctqt.py:869 gui/qt/transaction_dialog.py:400
 msgid "Mined in block"
 msgstr ""
 
@@ -4066,12 +4086,12 @@ msgstr ""
 msgid "Minimum coin:"
 msgstr ""
 
-#: gui/qt/main_window.py:2096
+#: gui/qt/main_window.py:2098
 #: ios/ElectronCash/electroncash_gui/ios_native/send.py:826
 msgid "Mining fee"
 msgstr "Ada ya Uchimbaji"
 
-#: gui/qt/__init__.py:750
+#: gui/qt/__init__.py:752
 msgid "Missing libsecp256k1"
 msgstr ""
 
@@ -4105,11 +4125,11 @@ msgstr ""
 
 #: ios/ElectronCash/electroncash_gui/ios_native/txdetail.py:199
 msgid "My Change Address"
-msgstr ""
+msgstr "Anwani yangu yakubadilishwa"
 
 #: ios/ElectronCash/electroncash_gui/ios_native/txdetail.py:201
 msgid "My Receiving Address"
-msgstr ""
+msgstr "Anwani yangu ya Kupokea"
 
 #: ios/ElectronCash/electroncash_gui/ios_native/newwallet.py:24
 msgid "My Wallet"
@@ -4120,7 +4140,7 @@ msgid "NOT DEVICE PIN - see above"
 msgstr ""
 
 #: gui/qt/external_plugins_window.py:75 gui/qt/external_plugins_window.py:475
-#: gui/qt/main_window.py:2950 gui/qt/contact_list.py:58
+#: gui/qt/main_window.py:2952 gui/qt/contact_list.py:58
 #: ios/ElectronCash/electroncash_gui/ios_native/contacts.py:572
 #: ios/ElectronCash/electroncash_gui/ios_native/wallets.py:360
 msgid "Name"
@@ -4139,28 +4159,28 @@ msgstr "Jina hili {}. Ikiwa una vifaa vingi lebo zao husaidia kutofautisha."
 msgid "Needs update"
 msgstr ""
 
-#: gui/qt/main_window.py:2851 gui/qt/network_dialog.py:48 gui/text.py:149
+#: gui/qt/main_window.py:2853 gui/qt/network_dialog.py:48 gui/text.py:149
 #: ios/ElectronCash/electroncash_gui/ios_native/gui.py:2116
 msgid "Network"
 msgstr "Mtandao"
 
 #: ios/ElectronCash/electroncash_gui/ios_native/prefs.py:232
 msgid "Network Settings"
-msgstr ""
+msgstr "Mipangilio ya mtandao"
 
-#: gui/qt/main_window.py:866 gui/qt/main_window.py:867
 #: gui/qt/main_window.py:868 gui/qt/main_window.py:869
 #: gui/qt/main_window.py:870 gui/qt/main_window.py:871
 #: gui/qt/main_window.py:872 gui/qt/main_window.py:873
+#: gui/qt/main_window.py:874 gui/qt/main_window.py:875
 msgid "Network Status"
 msgstr ""
 
 #: gui/qt/invoice_list.py:51 gui/qt/request_list.py:59 gui/qt/util.py:49
 #: ios/ElectronCash/electroncash_gui/ios_native/receive.py:287
 msgid "Never"
-msgstr ""
+msgstr "Kamwe"
 
-#: gui/qt/main_window.py:4993 plugins/shuffle/qt.py:1174
+#: gui/qt/main_window.py:5068 plugins/shuffle/qt.py:1174
 #: plugins/shuffle/qt.py:1343
 msgid "Never ask for this wallet"
 msgstr "Kamwe usiulize kipochi hiki"
@@ -4170,7 +4190,7 @@ msgstr "Kamwe usiulize kipochi hiki"
 msgid "Never disclose your seed."
 msgstr "Kamwe usiambie mtu manenosiri yako."
 
-#: gui/qt/main_window.py:5234
+#: gui/qt/main_window.py:5309
 msgid "Never show this again"
 msgstr ""
 
@@ -4183,7 +4203,7 @@ msgstr "Kamwe usichapishe kwenye tovuti."
 msgid "New Cash Account Contact"
 msgstr "Stakabadhi za kuwasiliana mpya za Cash Account"
 
-#: gui/qt/main_window.py:2942 gui/qt/main_window.py:2944
+#: gui/qt/main_window.py:2944 gui/qt/main_window.py:2946
 #: ios/ElectronCash/electroncash_gui/ios_native/contacts.py:566
 #: ios/ElectronCash/electroncash_gui/ios_native/txdetail.py:343
 msgid "New Contact"
@@ -4215,7 +4235,7 @@ msgstr "Nenosiri/nywila mpya"
 msgid "New transaction received: {}"
 msgstr "Shughuli za ununuzi mpya imepokewa: {}"
 
-#: gui/qt/main_window.py:5440 gui/qt/main_window.py:5448
+#: gui/qt/main_window.py:5515 gui/qt/main_window.py:5523
 msgid "New transaction: {}"
 msgstr ""
 
@@ -4243,9 +4263,9 @@ msgid "No"
 msgstr "La"
 
 #. client code shouldn't use this but instead use selectedItems(), etc
-#: gui/qt/cashacctqt.py:253 gui/qt/address_list.py:389
+#: gui/qt/cashacctqt.py:253 gui/qt/address_list.py:391
 msgid "No Cash Accounts"
-msgstr ""
+msgstr "Hamna Cash Accounts"
 
 #: ios/ElectronCash/electroncash_gui/ios_native/addresses.py:429
 msgid "No Match"
@@ -4281,7 +4301,7 @@ msgstr ""
 
 #: ios/ElectronCash/electroncash_gui/ios_native/coins.py:378
 msgid "No coins"
-msgstr ""
+msgstr "Hamna Sarafu"
 
 #: lib/exchange_rate.py:495
 msgid "No data"
@@ -4291,7 +4311,7 @@ msgstr ""
 msgid "No description provided."
 msgstr "Hakuna maelezo yaliyotolewa."
 
-#: gui/qt/main_window.py:711
+#: gui/qt/main_window.py:713
 msgid "No donation address for this server"
 msgstr ""
 
@@ -4307,25 +4327,25 @@ msgstr "Hakuna pembejo zimepatikana. (Kumbuka pembejo zinahitaji kudhibitishwa)"
 msgid "No matching x_key for sign_transaction"
 msgstr ""
 
-#: gui/qt/main_window.py:1283
+#: gui/qt/main_window.py:1285
 #: ios/ElectronCash/electroncash_gui/ios_native/receive.py:394
 msgid "No message or amount"
 msgstr "Hakuna ujumbe au kiasi"
 
-#: gui/qt/main_window.py:1332
+#: gui/qt/main_window.py:1334
 msgid "No more addresses in your wallet."
 msgstr "Hamna anwani zaidi kwenye kipochi chako."
 
-#: gui/qt/main_window.py:1946
+#: gui/qt/main_window.py:1948
 #: ios/ElectronCash/electroncash_gui/ios_native/send.py:1025
 msgid "No outputs"
 msgstr "Hamna toleo"
 
 #: ios/ElectronCash/electroncash_gui/ios_native/gui.py:312
 msgid "No payment requests found. Feel free to create one."
-msgstr ""
+msgstr "Hakuna maombi ya malipo yaliyopatikana. Jisikie huru kuunda moja."
 
-#: gui/qt/main_window.py:1279
+#: gui/qt/main_window.py:1281
 #: ios/ElectronCash/electroncash_gui/ios_native/receive.py:389
 msgid "No receiving address"
 msgstr "Hamna Anwani ya kupokea"
@@ -4358,12 +4378,12 @@ msgstr "Hamna Kipochi"
 msgid "No wallet is open."
 msgstr "Hamna kipochi kilichowazi."
 
-#: gui/qt/main_window.py:1071
+#: gui/qt/main_window.py:1073
 msgctxt "Referencing CashAccount"
 msgid "None"
 msgstr "Hakuna"
 
-#: gui/qt/main_window.py:4499
+#: gui/qt/main_window.py:4574
 #: ios/ElectronCash/electroncash_gui/ios_native/prefs.py:110
 #: ios/ElectronCash/electroncash_gui/ios_native/prefs.py:369
 msgctxt "Referencing Fiat currency"
@@ -4394,7 +4414,7 @@ msgstr "Halijafutwa"
 msgid "Not Now"
 msgstr "Sio kwa sasa"
 
-#: gui/qt/main_window.py:1785
+#: gui/qt/main_window.py:1787
 msgid "Not Removable"
 msgstr ""
 
@@ -4417,14 +4437,14 @@ msgid "Not a {schemes} URI"
 msgstr ""
 
 #. Don't allow a potentially very slow broadcast when obviously not connected.
-#: gui/qt/main_window.py:929 gui/qt/main_window.py:2225
+#: gui/qt/main_window.py:931 gui/qt/main_window.py:2227
 #: gui/qt/network_dialog.py:551 gui/text.py:142 gui/stdio.py:122
 #: ios/ElectronCash/electroncash_gui/ios_native/network_dialog.py:257
 #: ios/ElectronCash/electroncash_gui/ios_native/gui.py:717
 msgid "Not connected"
-msgstr ""
+msgstr "Haijaunganishwa"
 
-#: gui/qt/main_window.py:1630
+#: gui/qt/main_window.py:1632
 msgid "Not enough funds"
 msgstr ""
 
@@ -4436,7 +4456,7 @@ msgstr "Hakuna fedha za kutosha kwa anwani."
 msgid "Not installed"
 msgstr ""
 
-#: gui/qt/main_window.py:4994
+#: gui/qt/main_window.py:5069
 msgid "Not now"
 msgstr "Sio kwa sasa"
 
@@ -4444,7 +4464,7 @@ msgstr "Sio kwa sasa"
 msgid "Not verified"
 msgstr "Haijathibitishwa"
 
-#: gui/qt/main_window.py:1535
+#: gui/qt/main_window.py:1537
 msgid "Note that if you have frozen some of your addresses, the available funds will be lower than your total balance."
 msgstr ""
 
@@ -4464,7 +4484,7 @@ msgstr ""
 msgid "Note: You may now need to disconnect & reconnect your HW wallet."
 msgstr "Kumbuka: Sasa unaweza kutoa ama kuunganisha tena kifaa kilicho na kipochi."
 
-#: gui/qt/main_window.py:4394
+#: gui/qt/main_window.py:4469
 msgid "Notify when receiving funds"
 msgstr ""
 
@@ -4472,7 +4492,7 @@ msgstr ""
 msgid "Number of addresses to scan:"
 msgstr ""
 
-#: gui/qt/main_window.py:4074
+#: gui/qt/main_window.py:4149
 msgid "Number of zeros displayed after the decimal point. For example, if this is set to 2, \"1.\" will be displayed as \"1.00\""
 msgstr ""
 
@@ -4493,7 +4513,7 @@ msgstr ""
 msgid "OK"
 msgstr "Sawa"
 
-#: gui/qt/main_window.py:1504
+#: gui/qt/main_window.py:1506
 msgid "OP_RETURN data (optional)."
 msgstr ""
 
@@ -4508,19 +4528,19 @@ msgid_plural "OP_RETURN is limited to {max_pushes} data pushes."
 msgstr[0] "OP_RETURN imepimwa na {max_pushes} data push."
 msgstr[1] "OP_RETURN imepimwa na {max_pushes} data pushes."
 
-#: gui/qt/main_window.py:1648 lib/transaction.py:1336
+#: gui/qt/main_window.py:1650 lib/transaction.py:1343
 msgid "OP_RETURN message too large, needs to be no longer than 220 bytes"
 msgstr ""
 
-#: lib/transaction.py:1352
+#: lib/transaction.py:1359
 msgid "OP_RETURN script expected to be hexadecimal bytes"
 msgstr ""
 
-#: lib/transaction.py:1354
+#: lib/transaction.py:1361
 msgid "OP_RETURN script too large, needs to be no longer than 223 bytes"
 msgstr ""
 
-#: gui/qt/main_window.py:866 gui/qt/main_window.py:879 gui/qt/__init__.py:712
+#: gui/qt/main_window.py:868 gui/qt/main_window.py:881 gui/qt/__init__.py:714
 #: gui/text.py:130 ios/ElectronCash/electroncash_gui/ios_native/wallets.py:153
 #: ios/ElectronCash/electroncash_gui/ios_native/prefs.py:230
 #: ios/ElectronCash/electroncash_gui/ios_native/gui.py:616
@@ -4535,7 +4555,7 @@ msgid "Offline signing with {} is not supported."
 msgstr ""
 
 #. any other case has all the below keys defined
-#: gui/qt/main_window.py:2235 plugins/shuffle/qt.py:1645
+#: gui/qt/main_window.py:2237 plugins/shuffle/qt.py:1645
 #: plugins/shuffle/qt.py:1678 plugins/shuffle/qt.py:1886
 msgid "Ok"
 msgstr "Sawa"
@@ -4544,12 +4564,12 @@ msgstr "Sawa"
 msgid "Omit incompatible pools"
 msgstr ""
 
-#: gui/qt/__init__.py:257
+#: gui/qt/__init__.py:259
 msgid "On Debian-based distros, you can run:\n\n"
 "    sudo apt install python3-pyqt5.qtsvg"
 msgstr ""
 
-#: gui/qt/__init__.py:255
+#: gui/qt/__init__.py:257
 msgid "On Linux, you may try:\n\n"
 "    python3 -m pip install --user -I pyqt5"
 msgstr ""
@@ -4558,7 +4578,7 @@ msgstr ""
 msgid "On most systems you can do so with this command:"
 msgstr "Kwenye mifumo mingi unaweza kufanya hivyo na amri hii:"
 
-#: gui/qt/main_window.py:2585
+#: gui/qt/main_window.py:2587
 msgid "One output per line."
 msgstr ""
 
@@ -4569,11 +4589,11 @@ msgstr "Mkondoni"
 
 #: ios/ElectronCash/electroncash_gui/ios_native/prefs.py:350
 msgid "Online Block Explorer"
-msgstr ""
+msgstr "Mtaftaji wa vitengo mtandaoni"
 
-#: gui/qt/main_window.py:4232
+#: gui/qt/main_window.py:4307
 msgid "Online block explorer"
-msgstr ""
+msgstr "Mtaftaji wa vitengo mtandaoni"
 
 #: plugins/shuffle/qt.py:1328
 msgid "Only <b>shuffled</b> funds will be sent"
@@ -4599,7 +4619,7 @@ msgstr ""
 msgid "Only wipe a device if you have the recovery seed written down and the device wallet(s) are empty, otherwise the bitcoins will be lost forever."
 msgstr "Futa kifaa tu ikiwa unayo manenosiri yaliyoandikwa na kifaa kilicho na pochi(ki) ni kitupu, la sivyo bitcoins zitapotea milele."
 
-#: gui/qt/main_window.py:595
+#: gui/qt/main_window.py:597
 msgid "Open &Recent"
 msgstr ""
 
@@ -4611,7 +4631,7 @@ msgstr "Fungua Kipochi Kipya"
 msgid "Open Wallet"
 msgstr "Fungua Kipochi"
 
-#: gui/qt/main_window.py:3602
+#: gui/qt/main_window.py:3605
 msgid "Open labels file"
 msgstr ""
 
@@ -4619,11 +4639,11 @@ msgstr ""
 msgid "Open your cosigner wallet to retrieve it."
 msgstr "Fungua kipochi chako cha mweka sahihi wa pili ili kuipata."
 
-#: gui/qt/main_window.py:4125 gui/qt/contact_list.py:382
+#: gui/qt/main_window.py:4200 gui/qt/contact_list.py:382
 msgid "OpenAlias"
 msgstr "OpenAlias"
 
-#: gui/qt/main_window.py:4121
+#: gui/qt/main_window.py:4196
 msgid "OpenAlias record, used to receive coins and to sign payment requests."
 msgstr "OpenAlias rekodi, iliyotumiwa kupokea sarafu na kusaini ombi la malipo."
 
@@ -4636,11 +4656,11 @@ msgstr "Kufungua kipochi kilichosimbwa: '{}'"
 msgid "Opening {}..."
 msgstr ""
 
-#: gui/qt/main_window.py:664
+#: gui/qt/main_window.py:666
 msgid "Optional &Features"
 msgstr "&Vipengele vya hiari"
 
-#: gui/qt/main_window.py:4790
+#: gui/qt/main_window.py:4865
 msgid "Optional Features"
 msgstr ""
 
@@ -4658,13 +4678,13 @@ msgstr "Chaguo"
 msgid "Outdated {} firmware for device labelled {}. Please download the updated firmware from {}"
 msgstr "Programu {} ya zamani ya vifaa vilivyo na lebo {}. Tafadhali susha programu iliyosawazishwa kutoka {}"
 
-#: gui/qt/transaction_dialog.py:801
+#: gui/qt/transaction_dialog.py:807
 #: ios/ElectronCash/electroncash_gui/ios_native/coins.py:194
 #: ios/ElectronCash/electroncash_gui/ios_native/coins.py:484
 msgid "Output"
 msgstr ""
 
-#: gui/qt/main_window.py:4915
+#: gui/qt/main_window.py:4990
 msgid "Output amount"
 msgstr "Kiasi cha toleo"
 
@@ -4686,22 +4706,27 @@ msgstr ""
 
 #: plugins/shuffle/qt.py:1587
 msgid "P:"
-msgstr ""
+msgstr "P:"
 
 #. Settings tab - PIN
 #: plugins/keepkey/qt.py:480 plugins/trezor/qt.py:559
 msgid "PIN Protection"
 msgstr ""
 
-#: plugins/satochip/qt.py:192
+#: plugins/satochip/qt.py:175 plugins/satochip/qt.py:184
+#: plugins/satochip/qt.py:190
+msgid "PIN change cancelled!"
+msgstr ""
+
+#: plugins/satochip/qt.py:203
 msgid "PIN changed successfully!"
 msgstr ""
 
-#: plugins/satochip/satochip.py:177
+#: plugins/satochip/satochip.py:176
 msgid "PIN must have at least 4 characters."
 msgstr ""
 
-#: plugins/satochip/satochip.py:180
+#: plugins/satochip/satochip.py:179
 msgid "PIN must have less than 64 characters."
 msgstr ""
 
@@ -4737,7 +4762,7 @@ msgstr "Manenosiri"
 msgid "Passphrases allow you to access new wallets, each hidden behind a particular case-sensitive passphrase."
 msgstr "Manenosiri yanakuruhusu kufikia pochi mpya, kila kipochi kikifichwa nyuma ya manenosiri ya herufi kubwa au ndogo."
 
-#: gui/qt/main_window.py:2812 gui/qt/password_dialog.py:225
+#: gui/qt/main_window.py:2814 gui/qt/password_dialog.py:225
 #: gui/qt/network_dialog.py:412 gui/qt/installwizard.py:173
 msgid "Password"
 msgstr "Nenosiri"
@@ -4755,7 +4780,7 @@ msgstr "Nywila inahitajika"
 msgid "Password Strength"
 msgstr "Nguvu ya Nenosiri"
 
-#: gui/qt/main_window.py:2906
+#: gui/qt/main_window.py:2908
 #: ios/ElectronCash/electroncash_gui/ios_native/gui.py:2056
 msgid "Password is disabled, this wallet is not protected"
 msgstr "Nenosiri limezimwa, kipochi hiki hakijalindwa"
@@ -4770,7 +4795,7 @@ msgstr ""
 msgid "Password must have less than 64 characters."
 msgstr ""
 
-#: gui/qt/main_window.py:2906
+#: gui/qt/main_window.py:2908
 #: ios/ElectronCash/electroncash_gui/ios_native/gui.py:2056
 msgid "Password was updated successfully"
 msgstr "Nywila imerekebishwa"
@@ -4787,7 +4812,7 @@ msgstr "Weka Anwani au tumia QR"
 #: plugins/shuffle/qt.py:1357 plugins/shuffle/qt.py:1368
 #: plugins/shuffle/qt.py:1427
 msgid "Pause Shuffling"
-msgstr ""
+msgstr "Katiza kuchanganywa"
 
 #: plugins/shuffle/qt.py:1297
 msgid "Pause/Unpause the background shuffle process (frees up 'busy' coins for spending)"
@@ -4797,7 +4822,7 @@ msgstr ""
 msgid "Paused"
 msgstr ""
 
-#: gui/qt/main_window.py:1483
+#: gui/qt/main_window.py:1485
 msgid "Pay &to"
 msgstr "Lipa &Kwa"
 
@@ -4813,21 +4838,21 @@ msgstr "Lipa sasa"
 msgid "Pay to"
 msgstr "Lipa Kwa"
 
-#: gui/qt/main_window.py:2589
+#: gui/qt/main_window.py:2591
 msgid "Pay to many"
 msgstr "Lipa wengi"
 
 #. Top-level window. Parent needs to hold a reference to us and clean us up appropriately.
 #: gui/qt/qrwindow.py:39
 msgid "Payment Request"
-msgstr ""
+msgstr "Ombi la Malipo"
 
 #: ios/ElectronCash/electroncash_gui/ios_native/gui.py:1168
 msgid "Payment Request Error"
-msgstr ""
+msgstr "Dosari kwa Ombi la Malipo"
 
 #. send.set_PR(self.sendVC, None)
-#: gui/qt/main_window.py:1908 gui/qt/main_window.py:2171
+#: gui/qt/main_window.py:1910 gui/qt/main_window.py:2173
 #: ios/ElectronCash/electroncash_gui/ios_native/gui.py:1967
 msgid "Payment request has expired"
 msgstr "Ombi la malipo limekwisha"
@@ -4836,7 +4861,7 @@ msgstr "Ombi la malipo limekwisha"
 msgid "Payment request saved"
 msgstr "Ombi la malipo limehifadhiwa"
 
-#: gui/qt/main_window.py:2246 gui/text.py:358 gui/stdio.py:207
+#: gui/qt/main_window.py:2248 gui/text.py:358 gui/stdio.py:207
 #: ios/ElectronCash/electroncash_gui/ios_native/gui.py:2019
 msgid "Payment sent."
 msgstr "Malipo yametumwa."
@@ -4849,7 +4874,7 @@ msgstr "Ngoja"
 msgid "Pending"
 msgstr "Inasubiri"
 
-#: gui/qt/main_window.py:4591
+#: gui/qt/main_window.py:4666
 msgid "Per-Wallet Options"
 msgstr "Chaguo la kila kipochi"
 
@@ -4865,7 +4890,7 @@ msgstr ""
 msgid "Players"
 msgstr "Wachezaji"
 
-#: plugins/satochip/qt.py:204
+#: plugins/satochip/qt.py:214
 msgid "Please be sure that your wallet is empty and that you have a backup of the seed as a precaution.\n\n"
 msgstr ""
 
@@ -4882,11 +4907,11 @@ msgstr "Tafadhali angalia kifaa {} chako"
 msgid "Please choose a CashShuffle server"
 msgstr ""
 
-#: plugins/satochip/satochip.py:504
+#: plugins/satochip/satochip.py:506
 msgid "Please confirm the PIN code for your Satochip:"
 msgstr ""
 
-#: plugins/satochip/qt.py:180
+#: plugins/satochip/qt.py:187
 msgid "Please confirm the new PIN for your Satochip:"
 msgstr ""
 
@@ -4918,7 +4943,7 @@ msgstr "Tafadhali ingiza funguosiri la mweka sahihi wa pili #{}:"
 msgid "Please enter the new name for this wallet:"
 msgstr "Tafadhali ingiza jina mpya la kipochi hiki:"
 
-#: gui/qt/main_window.py:1264 gui/qt/password_dialog.py:217
+#: gui/qt/main_window.py:1266 gui/qt/password_dialog.py:217
 #: plugins/shuffle/qt.py:675
 msgid "Please enter your password"
 msgstr "Tafadhali ingiza nenosiri yako"
@@ -4964,23 +4989,23 @@ msgstr ""
 msgid "Please provide cyphertext to decrypt"
 msgstr "Tafadhali toa manenosiri ya kutoa usimbuaji fiche"
 
-#: gui/qt/main_window.py:724
+#: gui/qt/main_window.py:726
 msgid "Please report any bugs as issues on github:<br/>"
 msgstr ""
 
-#: gui/qt/main_window.py:4650
+#: gui/qt/main_window.py:4725
 msgid "Please restart Electron Cash to activate the new GUI settings"
-msgstr ""
+msgstr "Tafadhali anzisha tena Electron Cash ili kuwezesha mpangilio mpya wa GUI"
 
 #: plugins/email_requests/qt.py:265
 msgid "Please restart the plugin to activate the new settings"
-msgstr ""
+msgstr "Tafadhali anza tena programu-jalizi ili kuwezesha tena mpangilio mpya"
 
-#: gui/qt/main_window.py:1994
+#: gui/qt/main_window.py:1996
 msgid "Please review payment before sending CoinText"
 msgstr "Tafadhali kagua malipo kabla ya kutuma CoinText"
 
-#: gui/qt/main_window.py:5220
+#: gui/qt/main_window.py:5295
 msgid "Please review the transaction, save it, and/or broadcast it at your leisure."
 msgstr "Tafadhali kagua shuguli za ununuzi, uihifadhi, na / au uitangaze unapotaka."
 
@@ -5010,7 +5035,7 @@ msgstr ""
 msgid "Please try again."
 msgstr "Tafadhali jaribu tena."
 
-#: lib/base_wizard.py:446 plugins/satochip/satochip.py:662
+#: lib/base_wizard.py:446 plugins/satochip/satochip.py:665
 msgid "Please type it here."
 msgstr "Tafadhali chapa hapa."
 
@@ -5022,11 +5047,11 @@ msgstr "Tafadhali sawazisha kwa https://www.ledgerwallet.com"
 msgid "Please update to v0.1.27 or greater"
 msgstr ""
 
-#: gui/qt/__init__.py:748
+#: gui/qt/__init__.py:750
 msgid "Please visit this page for instructions on how to correct the situation:"
 msgstr ""
 
-#: gui/qt/util.py:341 ios/ElectronCash/electroncash_gui/ios_native/utils.py:426
+#: gui/qt/util.py:347 ios/ElectronCash/electroncash_gui/ios_native/utils.py:426
 msgid "Please wait"
 msgstr "Tafadhali subiri"
 
@@ -5035,11 +5060,11 @@ msgid "Please wait while Electron Cash checks for available updates."
 msgstr ""
 
 #: gui/qt/installwizard.py:119 gui/text.py:354 gui/stdio.py:203
-#: lib/wallet.py:1727
+#: lib/wallet.py:1839
 msgid "Please wait..."
 msgstr "Tafadhali subiri..."
 
-#: gui/qt/main_window.py:3559
+#: gui/qt/main_window.py:3562
 #, python-brace-format
 msgid "Please wait... {num}/{total}"
 msgstr "Tafadhali subiri... {num}/{total}"
@@ -5050,15 +5075,15 @@ msgstr "Tafadhali andika manenosiri, kwani ndio njia pekee ya kupata pesa zako i
 
 #: gui/qt/external_plugins_window.py:364
 msgid "Plugin Details"
-msgstr ""
+msgstr "Maelezo ya programu-jalizi"
 
-#: gui/qt/main_window.py:4874
+#: gui/qt/main_window.py:4949
 msgid "Plugin Manager"
-msgstr ""
+msgstr "Meneja wa programu-jalizi"
 
 #: gui/qt/external_plugins_window.py:71
 msgid "Plugin Metadata"
-msgstr ""
+msgstr "Maelezo ya programu-jalizi"
 
 #: gui/qt/external_plugins_window.py:338
 msgid "Plugin Preview"
@@ -5081,7 +5106,7 @@ msgstr ""
 msgid "Port"
 msgstr ""
 
-#: gui/qt/main_window.py:2037
+#: gui/qt/main_window.py:2039
 #, python-brace-format
 msgid "Possible BTC Segwit address in 'Pay to' field. Please use CashAddr format for p2sh addresses.\n\n"
 "{segwit_addresses}"
@@ -5090,7 +5115,7 @@ msgid_plural "Possible BTC Segwit addresses in 'Pay to' field. Please use CashAd
 msgstr[0] ""
 msgstr[1] ""
 
-#: gui/qt/main_window.py:1505
+#: gui/qt/main_window.py:1507
 msgid "Posts a PERMANENT note to the BCH blockchain as part of this transaction."
 msgstr "Tuma barua ndogo la KUDUMU kwa BCH blockchain kama sehemu ya shughuli hii."
 
@@ -5098,10 +5123,10 @@ msgstr "Tuma barua ndogo la KUDUMU kwa BCH blockchain kama sehemu ya shughuli hi
 msgid "Potentially Unsafe Operation"
 msgstr ""
 
-#: gui/qt/main_window.py:654 gui/qt/main_window.py:2846
-#: gui/qt/main_window.py:4023
+#: gui/qt/main_window.py:656 gui/qt/main_window.py:2848
+#: gui/qt/main_window.py:4098
 msgid "Preferences"
-msgstr ""
+msgstr "Pendeleo"
 
 #: gui/qt/network_dialog.py:543
 msgid "Preferred"
@@ -5137,37 +5162,37 @@ msgstr ""
 
 #: ios/ElectronCash/electroncash_gui/ios_native/private_key_dialog.py:25
 msgid "Private Key"
-msgstr ""
+msgstr "Nenosiri"
 
-#: gui/qt/main_window.py:608
+#: gui/qt/main_window.py:610
 msgid "Private Keys"
-msgstr ""
+msgstr "Nenosiri"
 
-#: gui/qt/main_window.py:3063 gui/qt/main_window.py:3068
+#: gui/qt/main_window.py:3065 gui/qt/main_window.py:3070
 #: gui/qt/address_list.py:324
 #: ios/ElectronCash/electroncash_gui/ios_native/private_key_dialog.py:70
 #: ios/ElectronCash/electroncash_gui/ios_native/addresses.py:913
 msgid "Private key"
 msgstr "Nenosiri"
 
-#: gui/qt/main_window.py:3447
+#: gui/qt/main_window.py:3449
 msgid "Private keys"
 msgstr "Nenosiri"
 
-#: gui/qt/main_window.py:3589
+#: gui/qt/main_window.py:3592
 msgid "Private keys exported."
 msgstr "Nenosiri zimehifadhiwa kando."
 
-#: gui/qt/main_window.py:5171
+#: gui/qt/main_window.py:5246
 msgid "Proceed to Send Tab"
 msgstr "Endelea kutuma"
 
-#: gui/qt/main_window.py:2124 gui/qt/main_window.py:2212
+#: gui/qt/main_window.py:2126 gui/qt/main_window.py:2214
 #: ios/ElectronCash/electroncash_gui/ios_native/send.py:856
 msgid "Proceed?"
 msgstr "Endelea?"
 
-#: gui/qt/main_window.py:1599
+#: gui/qt/main_window.py:1601
 msgid "Process CoinText, transforming it into a BIP70 payment request."
 msgstr ""
 
@@ -5211,16 +5236,16 @@ msgstr ""
 msgid "Proxy user"
 msgstr ""
 
-#: gui/qt/main_window.py:3251
+#: gui/qt/main_window.py:3253
 #: ios/ElectronCash/electroncash_gui/ios_native/addresses.py:896
 msgid "Public key"
-msgstr ""
+msgstr "Funguosiri"
 
 #: gui/qt/address_dialog.py:81
 msgid "Public keys"
-msgstr ""
+msgstr "Funguosiri"
 
-#: gui/qt/__init__.py:409
+#: gui/qt/__init__.py:411
 msgid "PyQt5 Upgrade Needed"
 msgstr ""
 
@@ -5231,24 +5256,24 @@ msgstr ""
 msgid "QR Not Available"
 msgstr "QR Haipatikani"
 
-#: gui/qt/__init__.py:702
+#: gui/qt/__init__.py:704
 msgid "QR Reader Error"
 msgstr ""
 
-#: gui/qt/main_window.py:3044
+#: gui/qt/main_window.py:3046
 #: ios/ElectronCash/electroncash_gui/ios_native/private_key_dialog.py:100
 #: ios/ElectronCash/electroncash_gui/ios_native/addrconv.py:95
 #: ios/ElectronCash/electroncash_gui/ios_native/txdetail.py:737
 msgid "QR code"
-msgstr ""
+msgstr "Msimbo wa QR"
 
 #: gui/qt/qrcodewidget.py:115
 msgid "QR code copied to clipboard"
-msgstr ""
+msgstr "Msimbo wa QR kunakiliwa kwa clipboard"
 
 #: gui/qt/qrcodewidget.py:109
 msgid "QR code saved to file"
-msgstr ""
+msgstr "Msimbo wa QR umehifadhiwa kwa faili"
 
 #: gui/qt/qrreader/video_surface.py:55
 msgid "QR code scanner failed to map video frame"
@@ -5258,11 +5283,11 @@ msgstr ""
 msgid "QR code scanner for video frame with invalid pixel format"
 msgstr ""
 
-#: gui/qt/__init__.py:703
+#: gui/qt/__init__.py:705
 msgid "QR reader failed to load. This may happen if you are using an older version of PyQt5.<br><br>Detailed error: "
 msgstr ""
 
-#: gui/qt/__init__.py:259
+#: gui/qt/__init__.py:261
 msgid "QtSvg Missing"
 msgstr ""
 
@@ -5279,11 +5304,11 @@ msgstr "Toka"
 msgid "REMEMBER THE PASSWORD!"
 msgstr "KUMBUKA NYWILA!"
 
-#: gui/qt/main_window.py:1113
+#: gui/qt/main_window.py:1115
 msgid "Raw &hex script"
 msgstr "Raw hex script"
 
-#: gui/qt/main_window.py:1180
+#: gui/qt/main_window.py:1182
 msgid "Re&quests"
 msgstr "&Maombi"
 
@@ -5304,25 +5329,25 @@ msgstr ""
 msgid "Read text or image file"
 msgstr ""
 
-#: gui/qt/main_window.py:5053
+#: gui/qt/main_window.py:5128
 msgid "Rebuild Wallet History"
 msgstr "Jenga tena historia ya kipochi"
 
-#: gui/qt/main_window.py:5051
+#: gui/qt/main_window.py:5126
 msgid "Rebuild this wallet's history now?"
 msgstr "Je historia ya kipochi sasa inaweza jengwa tena?"
 
-#: gui/qt/main_window.py:178 gui/text.py:63
+#: gui/qt/main_window.py:180 gui/text.py:63
 #: ios/ElectronCash/electroncash_gui/ios_native/receive.py:72
 #: ios/ElectronCash/electroncash_gui/ios_native/gui.py:307
 msgid "Receive"
 msgstr "Pokea"
 
-#: gui/qt/main_window.py:1199
+#: gui/qt/main_window.py:1201
 msgid "Receive request QR code (click for details)"
 msgstr ""
 
-#: gui/qt/main_window.py:1204
+#: gui/qt/main_window.py:1206
 msgid "Receive request URI copied to clipboard"
 msgstr ""
 
@@ -5332,10 +5357,10 @@ msgstr ""
 msgid "Receiving"
 msgstr "Inapokea"
 
-#: gui/qt/cashacctqt.py:463 gui/qt/transaction_dialog.py:511
+#: gui/qt/cashacctqt.py:463 gui/qt/transaction_dialog.py:517
 #: ios/ElectronCash/electroncash_gui/ios_native/addresses.py:203
 msgid "Receiving Address"
-msgstr ""
+msgstr "Anwani ya Kupokea"
 
 #: gui/qt/scan_beyond_gap.py:62
 msgid "Receiving Addresses Only"
@@ -5348,15 +5373,15 @@ msgstr "Anwani ya Kupokea"
 
 #. NB: the translators hopefully will not have too tough a time with this
 #. *fingers crossed* :)
-#: gui/qt/main_window.py:1466
+#: gui/qt/main_window.py:1468
 msgid "Recipient of the funds."
-msgstr ""
+msgstr "Mpokeaji wa fedha."
 
 #: plugins/keepkey/keepkey.py:217 plugins/trezor/trezor.py:217
 msgid "Recover from a seed you have previously written down"
 msgstr "Rudisha manenosiri yako ambayo ulikuwa umeandika hapo awali"
 
-#: gui/qt/main_window.py:3117 gui/qt/address_dialog.py:92
+#: gui/qt/main_window.py:3119 gui/qt/address_dialog.py:92
 #: ios/ElectronCash/electroncash_gui/ios_native/private_key_dialog.py:75
 msgid "Redeem Script"
 msgstr ""
@@ -5365,12 +5390,12 @@ msgstr ""
 msgid "Reenter your seed phrase"
 msgstr "Ingiza manenosiri tena"
 
-#: gui/qt/main_window.py:636
+#: gui/qt/main_window.py:638
 msgid "Refresh GUI"
-msgstr ""
+msgstr "Fanyiza upya skrini"
 
-#: gui/qt/main_window.py:5136 gui/qt/main_window.py:5166
-#: gui/qt/main_window.py:5232
+#: gui/qt/main_window.py:5211 gui/qt/main_window.py:5241
+#: gui/qt/main_window.py:5307
 msgid "Register A New Cash Account"
 msgstr ""
 
@@ -5378,15 +5403,15 @@ msgstr ""
 msgid "Register Cash Account..."
 msgstr ""
 
-#: gui/qt/main_window.py:1045
+#: gui/qt/main_window.py:1047
 msgid "Register a new Cash Account for this address"
 msgstr ""
 
-#: gui/qt/address_list.py:390
+#: gui/qt/address_list.py:392
 msgid "Register new..."
-msgstr ""
+msgstr "Kujiandikisha mpya..."
 
-#: gui/qt/main_window.py:1783
+#: gui/qt/main_window.py:1785
 #: ios/ElectronCash/electroncash_gui/ios_native/contacts.py:299
 #: ios/ElectronCash/electroncash_gui/ios_native/receive.py:707
 #: ios/ElectronCash/electroncash_gui/ios_native/send.py:976
@@ -5402,13 +5427,13 @@ msgstr ""
 msgid "Remove from wallet"
 msgstr "Toa kipochi"
 
-#: gui/qt/main_window.py:2685
+#: gui/qt/main_window.py:2687
 #, python-brace-format
 msgid "Remove {list_of_contacts} from your contact list?"
 msgstr "Toa {list_of_contacts} kutoka orodha ya Stakabadhi za kuwasiliana?"
 
 #. Note: we didn't use ngettext here for plural check because n > 1 in this branch
-#: gui/qt/main_window.py:2688
+#: gui/qt/main_window.py:2690
 #, python-brace-format
 msgid "Remove {number_of_contacts} contacts from your contact list?"
 msgstr "Toa {number_of_contacts} kutoka orodha ya Stakabadhi za kuwasiliana?"
@@ -5430,21 +5455,21 @@ msgstr ""
 msgid "Report Sent"
 msgstr ""
 
-#: gui/qt/main_window.py:729
+#: gui/qt/main_window.py:731
 msgid "Reporting Bugs"
 msgstr ""
 
 #: android/app/src/main/python/electroncash_gui/android/strings.py:36
 msgid "Request"
-msgstr ""
+msgstr "Ombi"
 
-#: gui/qt/main_window.py:1149
+#: gui/qt/main_window.py:1151
 msgid "Request &expires"
 msgstr ""
 
 #: ios/ElectronCash/electroncash_gui/ios_native/receive.py:488
 msgid "Request URI"
-msgstr ""
+msgstr "Ombi la URI"
 
 #: ios/ElectronCash/electroncash_gui/ios_native/receive.py:201
 msgid "Request expires"
@@ -5454,9 +5479,9 @@ msgstr ""
 #: ios/ElectronCash/electroncash_gui/ios_native/coins.py:638
 #: ios/ElectronCash/electroncash_gui/ios_native/addresses.py:878
 msgid "Request payment"
-msgstr ""
+msgstr "Omba malipo"
 
-#: gui/qt/main_window.py:1324
+#: gui/qt/main_window.py:1326
 msgid "Request saved successfully"
 msgstr ""
 
@@ -5464,7 +5489,7 @@ msgstr ""
 msgid "Request sent."
 msgstr ""
 
-#: gui/qt/main_window.py:1127
+#: gui/qt/main_window.py:1129
 msgid "Requested &amount"
 msgstr "&kiasi Kilichohitajika"
 
@@ -5472,9 +5497,9 @@ msgstr "&kiasi Kilichohitajika"
 msgid "Requested amount"
 msgstr "Kiasi kilichohitajika"
 
-#: gui/qt/invoice_list.py:36 gui/qt/main_window.py:2713
+#: gui/qt/invoice_list.py:36 gui/qt/main_window.py:2715
 msgid "Requestor"
-msgstr ""
+msgstr "Mwombaji"
 
 #: ios/ElectronCash/electroncash_gui/ios_native/receive.py:721
 #: ios/ElectronCash/electroncash_gui/ios_native/wallets.py:67
@@ -5486,7 +5511,7 @@ msgstr "Ombi"
 msgid "Require %d signatures"
 msgstr ""
 
-#: gui/qt/main_window.py:4857
+#: gui/qt/main_window.py:4932
 msgid "Requires"
 msgstr ""
 
@@ -5496,7 +5521,7 @@ msgstr ""
 
 #: plugins/trezor/qt.py:575
 msgid "Reset"
-msgstr ""
+msgstr "Weka upya"
 
 #: plugins/shuffle/qt.py:147
 msgid "Reshuffle Coin"
@@ -5506,11 +5531,11 @@ msgstr ""
 msgid "Reshuffle {} Shuffled"
 msgstr ""
 
-#: gui/qt/main_window.py:3925
+#: gui/qt/main_window.py:4000
 msgid "Resolve Server Problem..."
 msgstr ""
 
-#: gui/qt/main_window.py:5006
+#: gui/qt/main_window.py:5081
 msgid "Restart the CashShuffle plugin now?"
 msgstr ""
 
@@ -5523,19 +5548,19 @@ msgstr "Rudisha manenosiri"
 msgid "Restore from seed"
 msgstr "Rudisha manenosiri"
 
-#: gui/qt/main_window.py:2012
+#: gui/qt/main_window.py:2014
 msgid "Retrieving CoinText info, please wait ..."
 msgstr "Inasahihisha rekodi ya habari ya CoinText, tafadhali subiri..."
 
-#: gui/qt/main_window.py:3913 gui/qt/transaction_dialog.py:542
+#: gui/qt/main_window.py:3988 gui/qt/transaction_dialog.py:548
 msgid "Right-click for context menu"
 msgstr ""
 
-#: gui/qt/main_window.py:5026
+#: gui/qt/main_window.py:5101
 msgid "Right-click to resolve"
 msgstr ""
 
-#: gui/qt/main_window.py:3924
+#: gui/qt/main_window.py:3999
 msgid "Right-click to select a different CashShuffle server"
 msgstr ""
 
@@ -5543,7 +5568,7 @@ msgstr ""
 msgid "Risks and Dangers"
 msgstr ""
 
-#: gui/qt/transaction_dialog.py:150
+#: gui/qt/transaction_dialog.py:152
 msgid "S&ave"
 msgstr "&Hifadhi"
 
@@ -5555,7 +5580,7 @@ msgstr ""
 #: ios/ElectronCash/electroncash_gui/ios_native/coins.py:608
 #: plugins/shuffle/qt.py:80
 msgid "SLP Token"
-msgstr ""
+msgstr "Sarafu za SLP"
 
 #: gui/qt/utxo_list.py:276
 msgid "SLP Token: Spend Locked"
@@ -5563,13 +5588,13 @@ msgstr ""
 
 #: plugins/shuffle/qt.py:1590
 msgid "SSL"
-msgstr ""
+msgstr "SSL"
 
-#: gui/qt/main_window.py:4168
+#: gui/qt/main_window.py:4243
 msgid "SSL certificate"
-msgstr ""
+msgstr "Cheti cha SSL"
 
-#: gui/qt/main_window.py:4155
+#: gui/qt/main_window.py:4230
 msgid "SSL certificate used to sign payment requests."
 msgstr ""
 
@@ -5585,11 +5610,19 @@ msgstr ""
 msgid "Satochip Wallet"
 msgstr ""
 
+#: plugins/satochip/satochip.py:509
+msgid "Satochip setup aborted: a PIN confirmation is required!"
+msgstr ""
+
+#: plugins/satochip/satochip.py:505
+msgid "Satochip setup aborted: a PIN is required!"
+msgstr ""
+
 #: ios/ElectronCash/electroncash_gui/ios_native/contacts.py:573
 msgid "Satoshi Nakamoto"
 msgstr "Satoshi Nakamoto"
 
-#: gui/qt/main_window.py:2736
+#: gui/qt/main_window.py:2738
 #: ios/ElectronCash/electroncash_gui/ios_native/newwallet.py:268
 msgid "Save"
 msgstr "Hifadhi"
@@ -5607,15 +5640,15 @@ msgstr "Hifadhi Kipochi"
 msgid "Save as BIP70 file"
 msgstr ""
 
-#: gui/qt/main_window.py:2730
+#: gui/qt/main_window.py:2732
 msgid "Save invoice to file"
-msgstr ""
+msgstr "Hifadhi ankara kwa faili"
 
-#: gui/qt/main_window.py:3093
+#: gui/qt/main_window.py:3095
 msgid "Save this passphrase if you save the generated key so you may decrypt it later."
 msgstr ""
 
-#: gui/qt/main_window.py:3434
+#: gui/qt/main_window.py:3436
 msgid "Save this passphrase so you may decrypt your BIP38 keys later."
 msgstr ""
 
@@ -5627,7 +5660,7 @@ msgstr "Hifadhi majina uliyopea kipochi chako kwenye seva ya mbali, na usawazish
 msgid "Save/Export Wallet"
 msgstr "Hifadhi/Hifadhi nje kipochi"
 
-#: gui/qt/main_window.py:617
+#: gui/qt/main_window.py:619
 msgid "Scan &More Addresses..."
 msgstr ""
 
@@ -5651,7 +5684,7 @@ msgstr ""
 msgid "Schnorr Signed"
 msgstr ""
 
-#: lib/wallet.py:2189
+#: lib/wallet.py:2301
 msgid "Schnorr signatures are disabled for this wallet type."
 msgstr "Saini za schnorr zimezimwa kwa aina hii ya kipochi."
 
@@ -5659,7 +5692,7 @@ msgstr "Saini za schnorr zimezimwa kwa aina hii ya kipochi."
 msgid "Scrambled words"
 msgstr ""
 
-#: gui/qt/main_window.py:2981 gui/qt/main_window.py:3067
+#: gui/qt/main_window.py:2983 gui/qt/main_window.py:3069
 #: ios/ElectronCash/electroncash_gui/ios_native/private_key_dialog.py:64
 msgid "Script type"
 msgstr ""
@@ -5668,7 +5701,7 @@ msgstr ""
 msgid "Search online..."
 msgstr ""
 
-#: gui/qt/main_window.py:2801
+#: gui/qt/main_window.py:2803
 #, python-brace-format
 msgid "Search wallet, {key}F to hide"
 msgstr "Tafuta Kipochi, {key}F cha kuficha"
@@ -5695,7 +5728,7 @@ msgstr ""
 msgid "Security Warning"
 msgstr ""
 
-#: gui/qt/main_window.py:2847 gui/qt/seed_dialog.py:208
+#: gui/qt/main_window.py:2849 gui/qt/seed_dialog.py:208
 #: ios/ElectronCash/electroncash_gui/ios_native/newwallet.py:33
 #: ios/ElectronCash/electroncash_gui/ios_native/newwallet.py:289
 msgid "Seed"
@@ -5717,12 +5750,16 @@ msgstr "Aina ya manenosiri"
 msgid "Seed extension"
 msgstr "Ongezo la Manenosiri"
 
-#: plugins/satochip/qt.py:247
+#: plugins/satochip/qt.py:219
+msgid "Seed reset cancelled!"
+msgstr ""
+
+#: plugins/satochip/qt.py:261
 msgid "Seed reset successfully!\n"
 "You should close this wallet and launch the wizard to generate a new wallet."
 msgstr ""
 
-#: gui/qt/transaction_dialog.py:764 gui/qt/transaction_dialog.py:827
+#: gui/qt/transaction_dialog.py:770 gui/qt/transaction_dialog.py:833
 msgid "Select All"
 msgstr "Chagua Zote"
 
@@ -5732,21 +5769,21 @@ msgstr "Chagua Cash Account"
 
 #: gui/qt/external_plugins_window.py:326
 msgid "Select Plugin"
-msgstr ""
+msgstr "Chagua programu-jalizi"
 
 #: lib/base_wizard.py:243
 msgid "Select a device"
 msgstr ""
 
-#: gui/qt/main_window.py:4366
+#: gui/qt/main_window.py:4441
 msgid "Select between Cash Address and Legacy formats for addresses"
 msgstr ""
 
-#: gui/qt/main_window.py:3489
+#: gui/qt/main_window.py:3491
 msgid "Select file to export your private keys to"
 msgstr ""
 
-#: gui/qt/main_window.py:3637
+#: gui/qt/main_window.py:3640
 msgid "Select file to export your wallet transactions to"
 msgstr "Chagua faili ya kutoa na kuweka shuguli za ununuzi"
 
@@ -5754,7 +5791,7 @@ msgstr "Chagua faili ya kutoa na kuweka shuguli za ununuzi"
 msgid "Select file to save your contacts"
 msgstr "Chagua faili ya kuhifadhi Stakabadhi za kuwasiliana"
 
-#: gui/qt/main_window.py:3624
+#: gui/qt/main_window.py:3627
 msgid "Select file to save your labels"
 msgstr ""
 
@@ -5774,16 +5811,16 @@ msgstr ""
 msgid "Select when the payment request should expire"
 msgstr ""
 
-#: gui/qt/main_window.py:1320
+#: gui/qt/main_window.py:1322
 msgid "Select where to save your payment request"
 msgstr ""
 
-#: gui/qt/transaction_dialog.py:330
+#: gui/qt/transaction_dialog.py:332
 msgid "Select where to save your signed transaction"
 msgstr "Chagua ni wapi utahifadhi Shuguli za ununuzi zilizosainiwa"
 
 #. language
-#: gui/qt/main_window.py:4033
+#: gui/qt/main_window.py:4108
 msgid "Select which language is used in the GUI (after restart)."
 msgstr ""
 
@@ -5791,11 +5828,11 @@ msgstr ""
 msgid "Select your seed length:"
 msgstr "Chagua urefu wa manenosiri yako:"
 
-#: gui/qt/main_window.py:3357
+#: gui/qt/main_window.py:3359
 msgid "Select your transaction file"
 msgstr ""
 
-#: gui/qt/main_window.py:177 gui/text.py:63
+#: gui/qt/main_window.py:179 gui/text.py:63
 #: ios/ElectronCash/electroncash_gui/ios_native/send.py:67
 #: ios/ElectronCash/electroncash_gui/ios_native/send.py:236
 #: ios/ElectronCash/electroncash_gui/ios_native/gui.py:306
@@ -5838,9 +5875,9 @@ msgstr "Ripoti inatumwa..."
 #: gui/qt/network_dialog.py:322 gui/qt/network_dialog.py:374
 #: gui/qt/network_dialog.py:458 plugins/shuffle/qt.py:1686
 msgid "Server"
-msgstr ""
+msgstr "Seva"
 
-#: gui/qt/main_window.py:5026
+#: gui/qt/main_window.py:5101
 msgid "Server Error"
 msgstr ""
 
@@ -5864,7 +5901,7 @@ msgstr "Seva Haikujibu"
 msgid "Server hosting your email account"
 msgstr ""
 
-#: gui/qt/main_window.py:895
+#: gui/qt/main_window.py:897
 #: ios/ElectronCash/electroncash_gui/ios_native/gui.py:676
 msgid "Server is lagging ({} blocks)"
 msgstr ""
@@ -5950,7 +5987,7 @@ msgstr "Onyesha shughuli zote za ununuzi"
 
 #: gui/qt/utxo_list.py:303
 msgid "Show Cash Accounts"
-msgstr ""
+msgstr "Onesha Cash Accounts"
 
 #: ios/ElectronCash/electroncash_gui/ios_native/txdetail.py:323
 msgid "Show Coin Info"
@@ -5958,7 +5995,7 @@ msgstr "Onyesha Maelezo ya sarafu"
 
 #: ios/ElectronCash/electroncash_gui/ios_native/addresses.py:885
 msgid "Show Coins (UTXOs)"
-msgstr ""
+msgstr "Onesha Sarafu (UTXOs)"
 
 #. is not mine but is in contacts, so offer them a chance to view the contact
 #: ios/ElectronCash/electroncash_gui/ios_native/txdetail.py:346
@@ -5973,45 +6010,45 @@ msgstr ""
 msgid "Show My Cash Accounts"
 msgstr "Onesha Cash Accounts Zangu"
 
-#: gui/qt/transaction_dialog.py:743
+#: gui/qt/transaction_dialog.py:749
 msgid "Show Prev Tx"
 msgstr ""
 
 #: gui/qt/address_dialog.py:63
 msgid "Show QR Code"
-msgstr ""
+msgstr "Tambaza msimbo wa QR"
 
 #: ios/ElectronCash/electroncash_gui/ios_native/txdetail.py:311
 msgid "Show Script QR"
 msgstr ""
 
-#: gui/qt/transaction_dialog.py:107 gui/qt/qrtextedit.py:18
+#: gui/qt/transaction_dialog.py:109 gui/qt/qrtextedit.py:18
 #: gui/qt/qrtextedit.py:33
 #: ios/ElectronCash/electroncash_gui/ios_native/seed_dialog.py:149
 #: ios/ElectronCash/electroncash_gui/ios_native/txdetail.py:795
 msgid "Show as QR code"
 msgstr "Onyesha kama nambari za QR"
 
-#: gui/qt/main_window.py:4111
+#: gui/qt/main_window.py:4186
 msgid "Show fee edit box in send tab."
 msgstr "Onyesha sanduku la hariri ya ada kwenye kichupo cha tuma."
 
-#: gui/qt/main_window.py:4578
+#: gui/qt/main_window.py:4653
 msgid "Show fiat balance for addresses"
 msgstr ""
 
-#: gui/qt/util.py:134
+#: gui/qt/util.py:136
 msgid "Show help"
-msgstr ""
+msgstr "Onesha usaidizi"
 
-#: gui/qt/main_window.py:4577
+#: gui/qt/main_window.py:4652
 #: ios/ElectronCash/electroncash_gui/ios_native/prefs.py:376
 msgid "Show history rates"
 msgstr ""
 
 #: ios/ElectronCash/electroncash_gui/ios_native/txdetail.py:300
 msgid "Show input hash QR"
-msgstr ""
+msgstr "Onesha pembejeo za hash QR"
 
 #: plugins/ledger/qt.py:29
 msgid "Show on Ledger"
@@ -6030,12 +6067,12 @@ msgstr ""
 msgid "Show seed"
 msgstr "Onyesha manenosiri"
 
-#: gui/qt/main_window.py:298 gui/qt/main_window.py:641
+#: gui/qt/main_window.py:300 gui/qt/main_window.py:643
 #, python-brace-format
 msgid "Show {tab_description}"
 msgstr "Onyesha {tab_description}"
 
-#: gui/qt/__init__.py:438
+#: gui/qt/__init__.py:440
 msgid "Show/Hide"
 msgstr "Onesha/Ficha"
 
@@ -6058,7 +6095,7 @@ msgstr "Shuguli za ununuzi zilizochanganywa sasa zinaonyeshwa"
 #. already shuffled
 #: plugins/shuffle/qt.py:82
 msgid "Shuffled"
-msgstr ""
+msgstr "Imechanganywa"
 
 #: plugins/shuffle/qt.py:1257
 msgid "Shuffled (private) funds"
@@ -6072,7 +6109,7 @@ msgstr ""
 #. Shuffled
 #: plugins/shuffle/qt.py:1256
 msgid "Shuffled available:"
-msgstr ""
+msgstr "Zilizochanganywa zinazopatikana:"
 
 #. only put a label in there if no label there already
 #: plugins/shuffle/qt.py:350
@@ -6085,23 +6122,23 @@ msgstr ""
 
 #: plugins/shuffle/qt.py:928
 msgid "Shuffled: {} {} in {} Coins"
-msgstr ""
+msgstr "Zimechanganywa: {} {} na {} Sarafu"
 
 #: plugins/shuffle/qt.py:1357 plugins/shuffle/qt.py:1427
 msgid "Shuffling Paused"
 msgstr ""
 
-#: gui/qt/main_window.py:3199
+#: gui/qt/main_window.py:3201
 #: ios/ElectronCash/electroncash_gui/ios_native/txdetail.py:443
 msgid "Sign"
 msgstr "Tia saini"
 
-#: gui/qt/main_window.py:4487
+#: gui/qt/main_window.py:4562
 msgid "Sign all transactions using Schnorr signatures."
 msgstr "Saini shughuli zote kwa kutumia saini za Schnorr."
 
 #. Schnorr
-#: gui/qt/main_window.py:4481
+#: gui/qt/main_window.py:4556
 msgid "Sign with Schnorr signatures"
 msgstr ""
 
@@ -6109,20 +6146,20 @@ msgstr ""
 msgid "Sign/Verify Message"
 msgstr ""
 
-#: gui/qt/main_window.py:3175
+#: gui/qt/main_window.py:3177
 #: ios/ElectronCash/electroncash_gui/ios_native/addresses.py:917
 msgid "Sign/verify Message"
-msgstr ""
+msgstr "Weka Sahihi/Thibitisha ujumbe"
 
 #: gui/qt/address_list.py:326
 msgid "Sign/verify message"
-msgstr ""
+msgstr "Weka Sahihi/Thibitisha ujumbe"
 
-#: gui/qt/main_window.py:2721 gui/qt/main_window.py:3193
+#: gui/qt/main_window.py:2723 gui/qt/main_window.py:3195
 msgid "Signature"
 msgstr ""
 
-#: gui/qt/main_window.py:3170
+#: gui/qt/main_window.py:3172
 #: ios/ElectronCash/electroncash_gui/ios_native/sign_decrypt_dialog.py:289
 msgid "Signature verified"
 msgstr ""
@@ -6143,13 +6180,13 @@ msgstr "Ujumbe unatiwa saini..."
 msgid "Signing message..."
 msgstr "Ujumbe unatiwa saini..."
 
-#: gui/qt/main_window.py:2159
+#: gui/qt/main_window.py:2161
 #: ios/ElectronCash/electroncash_gui/ios_native/gui.py:1956
 #: plugins/digitalbitbox/digitalbitbox.py:609
 msgid "Signing transaction..."
 msgstr ""
 
-#: gui/qt/main_window.py:3136
+#: gui/qt/main_window.py:3138
 #: ios/ElectronCash/electroncash_gui/ios_native/sign_decrypt_dialog.py:237
 msgid "Signing with an address actually means signing with the corresponding private key, and verifying with the corresponding public key. The address you have entered does not have a unique public key, so these operations cannot be performed."
 msgstr ""
@@ -6163,7 +6200,7 @@ msgstr ""
 msgid "Size:"
 msgstr "Kipimo:"
 
-#: gui/qt/transaction_dialog.py:416
+#: gui/qt/transaction_dialog.py:422
 #, python-brace-format
 msgid "Size: {size} bytes"
 msgstr ""
@@ -6180,7 +6217,7 @@ msgstr "Kuna kitu hakiendi sawa katika uendeshaji wa Electron Cash."
 #: gui/qt/exception_window.py:76
 #: ios/ElectronCash/electroncash_gui/ios_native/crashreporter.py:58
 msgid "Sorry!"
-msgstr ""
+msgstr "Samahani!"
 
 #: gui/qt/update_checker.py:211
 msgid "Sorry, but we were unable to check for updates. Please try again later."
@@ -6190,7 +6227,7 @@ msgstr ""
 msgid "Source"
 msgstr ""
 
-#: gui/qt/main_window.py:4582
+#: gui/qt/main_window.py:4657
 msgid "Source:"
 msgstr ""
 
@@ -6198,7 +6235,7 @@ msgstr ""
 msgid "Specify a master key to re-create a deterministic wallet."
 msgstr "Taja funguo siri za kuunda kipochi tena wa kuamua."
 
-#: gui/qt/main_window.py:3092
+#: gui/qt/main_window.py:3094
 msgid "Specify a passphrase to use for BIP38 encryption."
 msgstr ""
 
@@ -6206,7 +6243,7 @@ msgstr ""
 msgid "Specify minimum and maximum coin amounts to select for shuffling:"
 msgstr "Taja kiwango cha chini na kiwango cha juu cha sarafu ili uchague za kuchanganywa:"
 
-#: gui/qt/main_window.py:5170
+#: gui/qt/main_window.py:5245
 msgid "Specify the <b>account name</b> below (limited to 99 characters):"
 msgstr ""
 
@@ -6244,14 +6281,14 @@ msgstr ""
 msgid "Spend from this UTXO + Selected"
 msgstr ""
 
-#: gui/qt/main_window.py:4450
+#: gui/qt/main_window.py:4525
 #: ios/ElectronCash/electroncash_gui/ios_native/prefs.py:303
 msgid "Spend only confirmed coins"
-msgstr ""
+msgstr "Tumia pembejeo zilizothibitishwa"
 
-#: gui/qt/main_window.py:4451
+#: gui/qt/main_window.py:4526
 msgid "Spend only confirmed inputs."
-msgstr ""
+msgstr "Tumia pembejeo zilizothibitishwa."
 
 #: plugins/shuffle/qt.py:1265
 msgid "Spend only your shuffled (private) coins"
@@ -6291,7 +6328,7 @@ msgstr "Anzisha Scan"
 msgid "Status"
 msgstr "Hali"
 
-#: gui/qt/transaction_dialog.py:398
+#: gui/qt/transaction_dialog.py:404
 #: ios/ElectronCash/electroncash_gui/ios_native/txdetail.py:492
 #: ios/ElectronCash/electroncash_gui/ios_native/prefs.py:233
 msgid "Status:"
@@ -6301,13 +6338,13 @@ msgstr "Hali:"
 msgid "Step {}/24.  Enter seed word as explained on your {}:"
 msgstr "Hatua {} / 24. Ingiza manenosiri kama ilivyoelezewa kwenye {} yako:"
 
-#: gui/qt/main_window.py:2907 gui/qt/main_window.py:4650
+#: gui/qt/main_window.py:2909 gui/qt/main_window.py:4725
 #: ios/ElectronCash/electroncash_gui/ios_native/sign_decrypt_dialog.py:260
 #: ios/ElectronCash/electroncash_gui/ios_native/sign_decrypt_dialog.py:289
 #: ios/ElectronCash/electroncash_gui/ios_native/sign_decrypt_dialog.py:343
 #: ios/ElectronCash/electroncash_gui/ios_native/gui.py:2057
 msgid "Success"
-msgstr ""
+msgstr "Mafanikio"
 
 #: plugins/ledger/auth2fa.py:134
 msgid "Summary Text PIN (requires dongle replugging)"
@@ -6315,19 +6352,19 @@ msgstr "Muhtasari wa maandishi ya pini (inahitaji dongle kurudishwa tena)"
 
 #: plugins/ledger/auth2fa.py:134
 msgid "Summary Text PIN is Disabled"
-msgstr ""
+msgstr "Fagia"
 
 #: plugins/keepkey/qt.py:448
 msgid "Supported Coins"
-msgstr ""
+msgstr "Fedha zinazopatikana hapa"
 
-#: gui/qt/main_window.py:3733
+#: gui/qt/main_window.py:3808
 msgid "Sweep"
-msgstr ""
+msgstr "Fagia"
 
-#: gui/qt/main_window.py:3712
+#: gui/qt/main_window.py:3787
 msgid "Sweep private keys"
-msgstr ""
+msgstr "Fagia funguosiri"
 
 #: plugins/labels/qt.py:189
 msgid "Synchronize now?"
@@ -6337,7 +6374,7 @@ msgstr "Sawazisha sasa?"
 msgid "Synchronizing"
 msgstr "Iinalinganisha"
 
-#: gui/qt/main_window.py:891 gui/text.py:133 gui/stdio.py:113
+#: gui/qt/main_window.py:893 gui/text.py:133 gui/stdio.py:113
 #: ios/ElectronCash/electroncash_gui/ios_native/gui.py:640
 #: plugins/labels/qt.py:190
 msgid "Synchronizing..."
@@ -6369,18 +6406,18 @@ msgstr "Bonyeza kuweka nenosiri"
 msgid "Tap to enter text..."
 msgstr "Bonyeza kuongeza maandishi..."
 
-#: gui/qt/main_window.py:5068 gui/qt/util.py:821
-#: gui/qt/transaction_dialog.py:697
+#: gui/qt/main_window.py:5143 gui/qt/util.py:846
+#: gui/qt/transaction_dialog.py:703
 #: ios/ElectronCash/electroncash_gui/ios_native/seed_dialog.py:115
 msgid "Text copied to clipboard"
 msgstr "Maandishi yamenakiliwa kwa clipboard"
 
-#: gui/qt/main_window.py:1147
+#: gui/qt/main_window.py:1149
 msgid "The Bitcoin Cash address never expires and will always be part of this Electron Cash wallet."
 msgstr "Anwani ya Bitcoin Cash haikwishi kamwe na hubaki daima kuwa sehemu ya kipochi hiki cha Electron Cash."
 
 #. Cash Account for this address (if any)
-#: gui/qt/main_window.py:1033
+#: gui/qt/main_window.py:1035
 msgid "The Cash Account (if any) associated with this address. It doesn't get saved with the request, but it is shown here for your convenience.\n\n"
 "You may use the Cash Accounts button to register a new Cash Account for this address."
 msgstr "Cash Account (ikiwa ipo) inayohusiana na anwani hii. Haihifadhiwi na ombi, lakini inaonyeshwa hapa kwa urahisi wako.\n\n"
@@ -6403,7 +6440,7 @@ msgstr ""
 msgid "The PIN cannot be longer than 9 characters."
 msgstr ""
 
-#: plugins/satochip/satochip.py:508 plugins/satochip/qt.py:183
+#: plugins/satochip/satochip.py:511 plugins/satochip/qt.py:194
 msgid "The PIN values do not match! Please type PIN again!"
 msgstr ""
 
@@ -6425,7 +6462,7 @@ msgid "The QR code does not appear to be a valid BCH address.\n"
 msgstr "Kodi ya QR haionekani kuwa anwani halali ya BCH.\n"
 "Tafadhali jaribu tena."
 
-#: gui/qt/main_window.py:5219
+#: gui/qt/main_window.py:5294
 msgid "The Send Tab has been filled-in with your <b>Cash Accounts</b> registration data."
 msgstr "Kichupo cha Kutuma kimejazwa na <b>Cash Accounts</b> data ya usajili."
 
@@ -6433,15 +6470,19 @@ msgstr "Kichupo cha Kutuma kimejazwa na <b>Cash Accounts</b> data ya usajili."
 msgid "The address for the decrypted private key."
 msgstr ""
 
-#: gui/qt/main_window.py:1558
+#: gui/qt/main_window.py:1560
 msgid "The amount of fee can be decided freely by the sender. However, transactions with low fees take more time to be processed."
 msgstr "Kiasi cha ada kinaweza kuamuliwa kwa uhuru na mtumaji. Lakini, shughuli zilizo na ada ya chini huchukua muda mwingi kusindika."
 
-#: gui/qt/main_window.py:1534
+#: gui/qt/main_window.py:3653
+msgid "The amount of overall time in seconds to allow for downloading fee data before giving up"
+msgstr ""
+
+#: gui/qt/main_window.py:1536
 msgid "The amount will be displayed in red if you do not have enough funds in your wallet."
 msgstr "Kiasi kitaonyeshwa kwa nyekundu ikiwa hauna fedha za kutosha kwenye kipocho chako."
 
-#: gui/qt/main_window.py:3472
+#: gui/qt/main_window.py:3474
 #, python-brace-format
 msgid "The below keys are BIP38 <i>encrypted</i> using the passphrase: {passphrase}<br>Please <i>write this passphrase down</i> and store it in a secret place, separate from these encrypted keys."
 msgstr ""
@@ -6453,13 +6494,13 @@ msgstr ""
 msgid "The camera is not available for reading QR codes"
 msgstr "Kamera haipatikani ili kusoma nambari za QR"
 
-#: gui/qt/main_window.py:4186
+#: gui/qt/main_window.py:4261
 msgid "The crash reporter is the error window which pops-up when Electron Cash encounters an internal error.\n\n"
 "It is recommended that you leave this option enabled, so that developers can be notified of any internal bugs. When a crash is encountered you are asked if you would like to send a report.\n\n"
 "Private information is never revealed in crash reports to developers."
 msgstr ""
 
-#: gui/qt/main_window.py:5168
+#: gui/qt/main_window.py:5243
 #, python-brace-format
 msgid "The current block height is <b><i>{block_height}</i></b>, so the new cash account will likely look like: <b><u><i>AccountName<i>#{number}</u></b>."
 msgstr ""
@@ -6468,7 +6509,7 @@ msgstr ""
 msgid "The decrypted private key (WIF key) originally used to create this BIP38 key."
 msgstr ""
 
-#: gui/qt/main_window.py:1497
+#: gui/qt/main_window.py:1499
 msgid "The description is not sent to the recipient of the funds. It is stored in your wallet file, and displayed in the 'History' tab."
 msgstr "Maelezo hayajatumwa kwa mpokeaji wa pesa hizo. Imehifadhiwa kwenye faili yako ya kipochi, na kuonyeshwa kwenye kichupo cha \"Historia\"."
 
@@ -6490,19 +6531,19 @@ msgstr "Faili '{}' ina kipochi ambacho hakijaundwa kabisa.\n"
 msgid "The file was removed"
 msgstr ""
 
-#: gui/qt/main_window.py:3609
+#: gui/qt/main_window.py:3612
 msgid "The file you selected does not appear to contain labels."
 msgstr ""
 
-#: gui/qt/main_window.py:3811
+#: gui/qt/main_window.py:3886
 msgid "The following addresses were added"
 msgstr ""
 
-#: gui/qt/main_window.py:4122
+#: gui/qt/main_window.py:4197
 msgid "The following alias providers are available:"
 msgstr ""
 
-#: gui/qt/main_window.py:3813
+#: gui/qt/main_window.py:3888
 msgid "The following could not be imported"
 msgstr ""
 
@@ -6519,7 +6560,7 @@ msgstr ""
 msgid "The mnemonic needs to be 12, 18 or 24 words."
 msgstr ""
 
-#: gui/qt/main_window.py:3140
+#: gui/qt/main_window.py:3142
 #: ios/ElectronCash/electroncash_gui/ios_native/sign_decrypt_dialog.py:241
 msgid "The operation is undefined. Not just in Electron Cash, but in general."
 msgstr "Operesheni hiyo haijafafanuliwa. Sio tu katika Electron Cash, lakini kwa jumla pia."
@@ -6616,7 +6657,7 @@ msgstr ""
 msgid "The specified WIF key '{}' is a p2sh WIF key. These key types cannot be swept."
 msgstr "Funguosiri iliyochagul '{}' ni aina ya funguosiri ya p2sh. Hizi funguosiri haziwezi kukubalika."
 
-#: gui/qt/main_window.py:5180
+#: gui/qt/main_window.py:5255
 msgid "The specified name cannot be used for a Cash Accounts registration. You must specify 1-99 alphanumeric (ASCII) characters, without spaces (underscores are permitted as well)."
 msgstr ""
 
@@ -6625,63 +6666,69 @@ msgid "The specified public key cannot decrypt this cyphertext.\n"
 "Please specify the correct key to decrypt."
 msgstr ""
 
-#: lib/network.py:1812
-msgid "The transaction already exists in the server's mempool."
-msgstr ""
-
-#: lib/network.py:1814
-msgid "The transaction conflicts with a transaction already in the server's mempool."
-msgstr ""
-
-#: lib/network.py:1830
-msgid "The transaction was rejected because it contains a bare multisig input."
-msgstr ""
-
-#: lib/network.py:1822
-msgid "The transaction was rejected because it contains a non-mandatory script verify flag."
-msgstr ""
-
-#: lib/network.py:1828
-msgid "The transaction was rejected because it contains a non-standard script public key signature."
-msgstr ""
-
-#: lib/network.py:1826
-msgid "The transaction was rejected because it contains a script that is too large."
-msgstr ""
-
-#: lib/network.py:1832
-msgid "The transaction was rejected because it contains multiple OP_RETURN outputs."
-msgstr ""
-
-#: lib/network.py:1834
-msgid "The transaction was rejected because it contains non-push-only script sigs."
-msgstr ""
-
-#: lib/network.py:1836
-msgid "The transaction was rejected because it is not considered final according to network rules."
-msgstr ""
-
-#: lib/network.py:1824
-msgid "The transaction was rejected because it is too large (in bytes)."
-msgstr ""
-
-#: lib/network.py:1820
-msgid "The transaction was rejected because it specifies an absurdly high fee."
-msgstr ""
-
-#: lib/network.py:1838
-msgid "The transaction was rejected because it uses a non-standard version."
+#. We get this message whenever any of this transaction's outputs are already in confirmed utxo set (and are unspent).
+#. For confirmed txn with all outputs already spent, we will see "missing inputs" instead.
+#: lib/network.py:1810
+msgid "The transaction already exists in the blockchain."
 msgstr ""
 
 #: lib/network.py:1816
-msgid "The transaction was rejected due to having too many mempool ancestors. Wait for confirmations and try again."
+msgid "The transaction already exists in the server's mempool."
 msgstr ""
 
 #: lib/network.py:1818
+msgid "The transaction conflicts with a transaction already in the server's mempool."
+msgstr ""
+
+#: lib/network.py:1834
+msgid "The transaction was rejected because it contains a bare multisig input."
+msgstr ""
+
+#: lib/network.py:1826
+msgid "The transaction was rejected because it contains a non-mandatory script verify flag."
+msgstr ""
+
+#: lib/network.py:1832
+msgid "The transaction was rejected because it contains a non-standard script public key signature."
+msgstr ""
+
+#: lib/network.py:1830
+msgid "The transaction was rejected because it contains a script that is too large."
+msgstr ""
+
+#: lib/network.py:1836
+msgid "The transaction was rejected because it contains multiple OP_RETURN outputs."
+msgstr ""
+
+#: lib/network.py:1838
+msgid "The transaction was rejected because it contains non-push-only script sigs."
+msgstr ""
+
+#: lib/network.py:1840
+msgid "The transaction was rejected because it is not considered final according to network rules."
+msgstr ""
+
+#: lib/network.py:1828
+msgid "The transaction was rejected because it is too large (in bytes)."
+msgstr ""
+
+#: lib/network.py:1824
+msgid "The transaction was rejected because it specifies an absurdly high fee."
+msgstr ""
+
+#: lib/network.py:1842
+msgid "The transaction was rejected because it uses a non-standard version."
+msgstr ""
+
+#: lib/network.py:1820
+msgid "The transaction was rejected due to having too many mempool ancestors. Wait for confirmations and try again."
+msgstr ""
+
+#: lib/network.py:1822
 msgid "The transaction was rejected due to its use of non-standard inputs."
 msgstr ""
 
-#: lib/network.py:1808
+#: lib/network.py:1812
 msgid "The transaction was rejected due to paying insufficient fees and/or for being of extremely low priority."
 msgstr ""
 
@@ -6713,16 +6760,16 @@ msgid "There is already a plugin installed using the internal package name of th
 msgstr ""
 
 #. had error
-#: gui/qt/main_window.py:3950
+#: gui/qt/main_window.py:4025
 msgid "There was a problem connecting to this server.\n"
 "Please choose a different CashShuffle server."
 msgstr ""
 
-#: gui/qt/main_window.py:1982
+#: gui/qt/main_window.py:1984
 msgid "There was an error processing the CoinText. Please check the phone number and try again."
 msgstr ""
 
-#: gui/qt/main_window.py:2326
+#: gui/qt/main_window.py:2328
 msgid "There was an error processing the payment request"
 msgstr ""
 
@@ -6735,7 +6782,7 @@ msgstr "Blockchain hii inatumika kudhibiti shughuli za ununuzi zilizotumwa na se
 msgid "This device lacks the secure enclave service. As such, Touch/Face ID based wallet authentication is unavailable."
 msgstr "Kifaa hichi hakina huduma nzuri za usalama. Kitambulisho cha alama za vidole / Uso kwa kikoba hiki hazipatikani."
 
-#: gui/qt/main_window.py:5048
+#: gui/qt/main_window.py:5123
 msgid "This feature is intended to allow you to rebuild a wallet if it has become corrupted."
 msgstr "Kitendaji hiki kimekusudiwa kukuruhusu kuunda tena kipochi ikiwa ni kibofu."
 
@@ -6749,13 +6796,13 @@ msgstr ""
 
 #: gui/qt/installwizard.py:201
 msgid "This file is encrypted."
-msgstr ""
+msgstr "Faili hii imesimbwa."
 
-#: plugins/satochip/satochip.py:621
+#: plugins/satochip/satochip.py:624
 msgid "This function is only available for standard wallets when using {}."
 msgstr ""
 
-#: gui/qt/main_window.py:1145
+#: gui/qt/main_window.py:1147
 msgid "This information is seen by the recipient if you send them a signed payment request."
 msgstr "Habari hii inaonekana na mpokeaji ikiwa utawatumia ombi la malipo lililosainiwa."
 
@@ -6765,9 +6812,9 @@ msgstr ""
 
 #: gui/qt/network_dialog.py:272
 msgid "This is a preferred server"
-msgstr ""
+msgstr "Hii ni seva inayopendelewa"
 
-#: gui/qt/main_window.py:3415
+#: gui/qt/main_window.py:3417
 #: ios/ElectronCash/electroncash_gui/ios_native/gui.py:1072
 msgid "This is a watching-only wallet"
 msgstr "Kipochi hiki ni cha kutazama tu"
@@ -6776,13 +6823,13 @@ msgstr "Kipochi hiki ni cha kutazama tu"
 msgid "This is a watching-only wallet, so the given private keys will be converted to watching addresses."
 msgstr "Hichi ni kipochi cha kutazama tu, kwa hivyo funguo za siri zilizopewa zitabadilishwa kuwa anwani za kutazama."
 
-#: gui/qt/main_window.py:3144 gui/qt/main_window.py:3216
+#: gui/qt/main_window.py:3146 gui/qt/main_window.py:3218
 #: ios/ElectronCash/electroncash_gui/ios_native/sign_decrypt_dialog.py:247
 #: ios/ElectronCash/electroncash_gui/ios_native/sign_decrypt_dialog.py:316
 msgid "This is a watching-only wallet."
 msgstr "Kipochi hiki ni cha kutazama tu."
 
-#: gui/qt/main_window.py:1574
+#: gui/qt/main_window.py:1576
 msgid "This is the fee rate that will be used for this transaction."
 msgstr ""
 
@@ -6791,16 +6838,16 @@ msgstr ""
 msgid "This is the height of your local copy of the blockchain."
 msgstr "Hii ndio urefu wa nakala ya eneo lako la blockchain."
 
-#: gui/qt/main_window.py:4432
+#: gui/qt/main_window.py:4507
 msgid "This may result in higher transactions fees."
 msgstr "Hii inaweza kusababisha ada ya juu ya shughuli za ununuzi."
 
-#: gui/qt/main_window.py:475
+#: gui/qt/main_window.py:477
 #: ios/ElectronCash/electroncash_gui/ios_native/gui.py:1073
 msgid "This means you will not be able to spend Bitcoin Cash with it."
 msgstr "Hii inamaanisha kuwa hautaweza kutumia Bitcoin Cash nayo."
 
-#: gui/qt/main_window.py:1264
+#: gui/qt/main_window.py:1266
 #: ios/ElectronCash/electroncash_gui/ios_native/gui.py:1197
 msgid "This payment request will be signed."
 msgstr ""
@@ -6842,11 +6889,11 @@ msgid "This spending wallet is not encrypted and not password protected. Sharing
 msgstr "Kipochi cha matumizi hakijasimbwa na halina nenosiri. Kulisambaza kwenye mtandao kunaweza kusababisha wengine kupeleleza data yako siri na mwishowe kupoteza pesa.\n\n"
 "Endelea Tu?"
 
-#: gui/qt/main_window.py:502
+#: gui/qt/main_window.py:504
 msgid "This testnet wallet has an invalid master key format."
 msgstr "Kipochi cha kufanya jaribio kina muundo wa funguosiri batili."
 
-#: gui/qt/main_window.py:2507
+#: gui/qt/main_window.py:2509
 #: ios/ElectronCash/electroncash_gui/ios_native/addrconv.py:47
 msgid "This tool helps convert between address formats for Bitcoin Cash addresses.\n"
 "You are encouraged to use the 'Cash address' format."
@@ -6856,7 +6903,7 @@ msgstr ""
 msgid "This tool installs hardware wallet \"udev rules\" on your system."
 msgstr "Programu hii huweka kifaa cha kipochi na sheria za \"udev\" kwa komyuta yako."
 
-#: gui/qt/transaction_dialog.py:257
+#: gui/qt/transaction_dialog.py:259
 msgid "This transaction is not saved. Close anyway?"
 msgstr "Shuguli hii ya ununuzi haijahifadhiwa. Funga hata hivyo?"
 
@@ -6872,7 +6919,7 @@ msgstr ""
 msgid "This version of Electron Cash currently only supports sending to 1 address at a time! Sorry!"
 msgstr "Toleo hili la Electron Cash sasa inasaidia tu kutuma kwa anwani 1 kwa wakati mmoja! Samahani!"
 
-#: gui/qt/main_window.py:3031
+#: gui/qt/main_window.py:3033
 #: ios/ElectronCash/electroncash_gui/ios_native/gui.py:2093
 msgid "This wallet has no seed"
 msgstr "Kipochi hili hakina manenosiri"
@@ -6882,17 +6929,21 @@ msgstr "Kipochi hili hakina manenosiri"
 msgid "This wallet has no unspent outputs (coins) to display."
 msgstr "Kipochi hiki hakina matokeo (sarafu) yaliyotumika yakuonyeshwa."
 
-#: gui/qt/main_window.py:474
+#: gui/qt/main_window.py:476
 msgid "This wallet is watching-only."
 msgstr "Kipochi hiki ni cha kuaangalia tu."
 
-#: gui/qt/main_window.py:3986
+#: gui/qt/main_window.py:4061
 msgid "This wallet type cannot be used with CashShuffle."
 msgstr "Aina hii ya kipochi haiwezi kutumiwa na CashShuffle."
 
 #: plugins/shuffle/qt.py:2024
 msgid "Tier"
 msgstr "Kiwango"
+
+#: gui/qt/main_window.py:3656
+msgid "Timeout:"
+msgstr ""
 
 #: plugins/digitalbitbox/digitalbitbox.py:475
 #: plugins/digitalbitbox/digitalbitbox.py:607
@@ -6940,7 +6991,7 @@ msgstr "Ili kuingiza anwani kwenye kipochi cha matumizi, lazima utumie funguo za
 msgid "To make sure that you have properly saved your seed, please retype it here."
 msgstr "Ili kuhakikisha kuwa umehifadhi nakala ya manenosiri yako, tafadhali weka tena hapa."
 
-#: plugins/satochip/qt.py:205
+#: plugins/satochip/qt.py:215
 msgid "To proceed, enter the PIN for your Satochip:"
 msgstr ""
 
@@ -6956,11 +7007,11 @@ msgstr ""
 msgid "To try to fix this, we will now re-pair with your device."
 msgstr ""
 
-#: gui/qt/main_window.py:2838
+#: gui/qt/main_window.py:2840
 msgid "Toggle CashAddr Display"
 msgstr ""
 
-#: gui/qt/main_window.py:3915
+#: gui/qt/main_window.py:3990
 msgid "Toggle CashShuffle"
 msgstr ""
 
@@ -6989,7 +7040,7 @@ msgstr ""
 msgid "Too many QR codes detected."
 msgstr ""
 
-#: plugins/satochip/CardConnector.py:619
+#: plugins/satochip/CardConnector.py:624
 msgid "Too many failed attempts! Your Satochip has been blocked! You need your PUK code to unblock it."
 msgstr ""
 
@@ -7003,7 +7054,7 @@ msgstr "Kidogo Sana"
 msgid "Tools"
 msgstr "Zana"
 
-#: gui/qt/main_window.py:4909
+#: gui/qt/main_window.py:4984
 msgid "Total size"
 msgstr "Jumla ya ukubwa"
 
@@ -7016,20 +7067,20 @@ msgstr "Kujitambulisha ukitumia alama za vidole ama uso kumezimwa kwa kipochi hi
 msgid "Touch/Face ID enabled for wallet"
 msgstr "Kujitambulisha ukitumia alama za vidole ama uso kumewezeshwa kwa kipochi hiki"
 
-#: gui/qt/transaction_dialog.py:94 gui/qt/transaction_dialog.py:309
+#: gui/qt/transaction_dialog.py:96 gui/qt/transaction_dialog.py:311
 #: ios/ElectronCash/electroncash_gui/ios_native/txdetail.py:613
 msgid "Transaction"
 msgstr "Shughuli za ununuzi"
 
 #: ios/ElectronCash/electroncash_gui/ios_native/coins.py:637
 msgid "Transaction Details"
-msgstr ""
+msgstr "Maelezo ya shuguli za ununuzi"
 
 #: ios/ElectronCash/electroncash_gui/ios_native/history.py:621
 msgid "Transaction History"
-msgstr ""
+msgstr "Historia ya shughuli za ununuzi"
 
-#: gui/qt/main_window.py:3399 gui/qt/transaction_dialog.py:105
+#: gui/qt/main_window.py:3401 gui/qt/transaction_dialog.py:107
 msgid "Transaction ID"
 msgstr "Nambari ya Shuguli za ununuzi"
 
@@ -7037,7 +7088,7 @@ msgstr "Nambari ya Shuguli za ununuzi"
 #: ios/ElectronCash/electroncash_gui/ios_native/txdetail.py:433
 #: ios/ElectronCash/electroncash_gui/ios_native/txdetail.py:806
 msgid "Transaction ID:"
-msgstr ""
+msgstr "Nambari ya Shuguli za ununuzi:"
 
 #: ios/ElectronCash/electroncash_gui/ios_native/txdetail.py:235
 msgid "Transaction Input {}"
@@ -7045,13 +7096,13 @@ msgstr ""
 
 #: ios/ElectronCash/electroncash_gui/ios_native/history.py:608
 msgid "Transaction Not Found"
-msgstr ""
+msgstr "Shuguli ya ununuzi haijapatikana"
 
 #: ios/ElectronCash/electroncash_gui/ios_native/txdetail.py:235
 msgid "Transaction Output {}"
 msgstr ""
 
-#: lib/network.py:1810
+#: lib/network.py:1814
 msgid "Transaction could not be broadcast due to an attempt to spend a coinbase input before maturity."
 msgstr ""
 
@@ -7069,13 +7120,13 @@ msgstr "Historia ya Shuguli za ununuzi inaweza kuwa bado haijalainika."
 
 #: android/app/src/main/python/electroncash_gui/android/strings.py:40
 msgid "Transaction not found"
-msgstr ""
+msgstr "Shuguli ya ununuzi haijapatikana"
 
-#: gui/qt/transaction_dialog.py:161
+#: gui/qt/transaction_dialog.py:163
 msgid "Transaction raw hex copied to clipboard."
 msgstr ""
 
-#: gui/qt/transaction_dialog.py:335
+#: gui/qt/transaction_dialog.py:337
 msgid "Transaction saved successfully"
 msgstr ""
 
@@ -7083,7 +7134,7 @@ msgstr ""
 #. fx().get_currency() if doFX else None
 #. str(self.fiat.text) if doFX else None
 #. HistoryEntry = namedtuple("HistoryEntry", "extra_data tx_hash status_str label v_str balance_str date ts conf status value fiat_amount fiat_balance fiat_amount_str fiat_balance_str ccy status_image")
-#: gui/qt/transaction_dialog.py:411
+#: gui/qt/transaction_dialog.py:417
 #: ios/ElectronCash/electroncash_gui/ios_native/txdetail.py:535
 #: ios/ElectronCash/electroncash_gui/ios_native/txdetail.py:915
 msgid "Transaction unrelated to your wallet"
@@ -7093,12 +7144,12 @@ msgstr "Shugili za Ununuzi hazihusiani na kipochi chako"
 msgid "Transaction with more than 2 outputs not supported by {}"
 msgstr ""
 
-#: gui/qt/main_window.py:3373
+#: gui/qt/main_window.py:3375
 msgid "Transaction:"
 msgstr "Shughuli za ununuzi:"
 
 #. Custom Segmented Control setup
-#: gui/qt/main_window.py:4592
+#: gui/qt/main_window.py:4667
 #: ios/ElectronCash/electroncash_gui/ios_native/contacts.py:194
 #: ios/ElectronCash/electroncash_gui/ios_native/wallets.py:67
 #: ios/ElectronCash/electroncash_gui/ios_native/prefs.py:24
@@ -7113,7 +7164,7 @@ msgstr "Shughuli za ununuzi zimesimbwa na kuhifadhiwa kwenye seva ya mbali."
 msgid "Trezor Matrix Recovery"
 msgstr ""
 
-#: gui/qt/main_window.py:727
+#: gui/qt/main_window.py:729
 msgid "Try to explain not only what the bug is, but how it occurs."
 msgstr ""
 
@@ -7150,15 +7201,15 @@ msgstr "UTXOs"
 msgid "Unable to connect to the specified server."
 msgstr ""
 
-#: gui/qt/main_window.py:552
+#: gui/qt/main_window.py:554
 msgid "Unable to create backup"
 msgstr ""
 
-#: gui/qt/main_window.py:3583
+#: gui/qt/main_window.py:3586
 msgid "Unable to create csv"
 msgstr ""
 
-#: gui/qt/main_window.py:3656
+#: gui/qt/main_window.py:3689
 msgid "Unable to export history"
 msgstr ""
 
@@ -7166,15 +7217,15 @@ msgstr ""
 msgid "Unable to get a receiving address from your wallet!"
 msgstr "Anwani ya kupokea haipatikani kwa kipochi chako!"
 
-#: gui/qt/transaction_dialog.py:137
+#: gui/qt/transaction_dialog.py:139
 msgid "Unable to open in block explorer. Please be sure your block explorer is configured correctly in preferences."
-msgstr ""
+msgstr "Haiwezi kufungua katika mtaftaji wa vitengo. Tafadhali hakikisha mtaftaji wa kitengo chako ameundwa."
 
-#: gui/qt/main_window.py:4250
+#: gui/qt/main_window.py:4325
 msgid "Unable to probe for cameras on this system. QtMultimedia is likely missing."
 msgstr "Haiwezi kuchunguza kwa kamera kwenye mfumo huu. QtMultimedia inawezekana haipo."
 
-#: gui/qt/main_window.py:3366
+#: gui/qt/main_window.py:3368
 msgid "Unable to read file or no transaction found"
 msgstr ""
 
@@ -7247,7 +7298,7 @@ msgid "Uninstall"
 msgstr "Ondoa Programu"
 
 #. Can happen with incomplete history
-#: gui/qt/contact_list.py:380 gui/qt/transaction_dialog.py:384
+#: gui/qt/contact_list.py:380 gui/qt/transaction_dialog.py:385
 #: ios/ElectronCash/electroncash_gui/ios_native/receive.py:657
 #: ios/ElectronCash/electroncash_gui/ios_native/txdetail.py:434
 #: ios/ElectronCash/electroncash_gui/ios_native/txdetail.py:456
@@ -7266,7 +7317,7 @@ msgstr "Isiyojulikana"
 #. Unshuffled
 #: plugins/shuffle/qt.py:1269
 msgid "Unshuffled available:"
-msgstr ""
+msgstr "Zisizochanganywa zinazopatikana:"
 
 #: ios/ElectronCash/electroncash_gui/ios_native/send.py:780 lib/wallet.py:763
 msgid "Unsigned"
@@ -7292,7 +7343,7 @@ msgstr ""
 msgid "Unused"
 msgstr ""
 
-#: gui/qt/main_window.py:2866
+#: gui/qt/main_window.py:2868
 msgid "Update Available"
 msgstr ""
 
@@ -7300,7 +7351,7 @@ msgstr ""
 msgid "Update Checker"
 msgstr ""
 
-#: gui/qt/main_window.py:2806
+#: gui/qt/main_window.py:2808
 msgid "Update available, click for details"
 msgstr ""
 
@@ -7312,7 +7363,7 @@ msgstr "Kusawazisha hakujafaulu"
 msgid "Updating transaction history."
 msgstr "Sawazisha historia ya Shuguli za unununuzi."
 
-#: gui/qt/main_window.py:867
+#: gui/qt/main_window.py:869
 msgid "Updating..."
 msgstr ""
 
@@ -7334,7 +7385,7 @@ msgstr "Tumia Aina ya sarafu 145 pamoja na bip39"
 
 #. Enable/Disable the use of the FreeType library on Qt
 #. (Windows only)
-#: gui/qt/main_window.py:4340
+#: gui/qt/main_window.py:4415
 msgid "Use FreeType for font rendering"
 msgstr ""
 
@@ -7369,18 +7420,18 @@ msgstr ""
 msgid "Use as server"
 msgstr ""
 
-#: gui/qt/main_window.py:4402
+#: gui/qt/main_window.py:4477
 #: ios/ElectronCash/electroncash_gui/ios_native/prefs.py:288
 msgid "Use change addresses"
 msgstr ""
 
 #. Enable/Disable the use of the fonts.xml FontConfig override
 #. (Linux only)
-#: gui/qt/main_window.py:4352
+#: gui/qt/main_window.py:4427
 msgid "Use custom fontconfig for emojis"
 msgstr ""
 
-#: gui/qt/main_window.py:4421
+#: gui/qt/main_window.py:4496
 #: ios/ElectronCash/electroncash_gui/ios_native/prefs.py:295
 msgid "Use multiple change addresses"
 msgstr ""
@@ -7394,7 +7445,7 @@ msgstr ""
 msgid "Use public or private keys"
 msgstr ""
 
-#: gui/qt/main_window.py:4156
+#: gui/qt/main_window.py:4231
 msgid "Use setconfig to set ssl_chain and ssl_privkey."
 msgstr ""
 
@@ -7417,9 +7468,9 @@ msgstr ""
 #: ios/ElectronCash/electroncash_gui/ios_native/addresses.py:194
 #: ios/ElectronCash/electroncash_gui/ios_native/addresses.py:467
 msgid "Used"
-msgstr ""
+msgstr "Kutumika"
 
-#: gui/qt/main_window.py:3781
+#: gui/qt/main_window.py:3856
 msgid "User cancelled"
 msgstr ""
 
@@ -7427,7 +7478,7 @@ msgstr ""
 msgid "User interface."
 msgstr ""
 
-#: gui/qt/main_window.py:4410
+#: gui/qt/main_window.py:4485
 msgid "Using change addresses makes it more difficult for other people to track your transactions."
 msgstr "Kutumia anwani za mabadiliko hufanya iwe ngumu zaidi kwa watu wengine kufuatilia shughuli za ununuzi zako."
 
@@ -7444,7 +7495,7 @@ msgstr "Halali"
 msgid "Validated Cash Account: <b><pre>{emoji} {account_string}</pre></b>"
 msgstr ""
 
-#: gui/qt/main_window.py:3203
+#: gui/qt/main_window.py:3205
 msgid "Verify"
 msgstr ""
 
@@ -7480,12 +7531,12 @@ msgstr[0] ""
 msgstr[1] ""
 
 #: gui/qt/external_plugins_window.py:77 gui/qt/external_plugins_window.py:475
-#: gui/qt/main_window.py:715 plugins/shuffle/qt.py:2024
+#: gui/qt/main_window.py:717 plugins/shuffle/qt.py:2024
 msgid "Version"
 msgstr ""
 
-#: gui/qt/main_window.py:4243 gui/qt/main_window.py:4251
-#: gui/qt/main_window.py:4269
+#: gui/qt/main_window.py:4318 gui/qt/main_window.py:4326
+#: gui/qt/main_window.py:4344
 msgid "Video device"
 msgstr ""
 
@@ -7503,7 +7554,7 @@ msgstr "Ona orodha ya kupiga marufuku..."
 
 #: gui/qt/history_list.py:255
 msgid "View invoice"
-msgstr ""
+msgstr "Ona ankara"
 
 #. make sure this is last
 #: gui/qt/history_list.py:257 gui/qt/address_list.py:332
@@ -7514,13 +7565,13 @@ msgstr ""
 #: ios/ElectronCash/electroncash_gui/ios_native/coins.py:650
 #: ios/ElectronCash/electroncash_gui/ios_native/addresses.py:910
 msgid "View on block explorer"
-msgstr ""
+msgstr "Angalia kwa mtaftaji wa vitengo"
 
-#: gui/qt/main_window.py:2825 plugins/shuffle/qt.py:1623
+#: gui/qt/main_window.py:2827 plugins/shuffle/qt.py:1623
 msgid "View pools..."
 msgstr ""
 
-#: gui/qt/address_list.py:377
+#: gui/qt/address_list.py:379
 msgid "View registration tx"
 msgstr ""
 
@@ -7546,23 +7597,23 @@ msgstr "ONYO"
 msgid "WARNING!"
 msgstr "ONYO!"
 
-#: plugins/satochip/qt.py:202
+#: plugins/satochip/qt.py:212
 msgid "WARNING!\n"
 msgstr "ONYO!\n"
 
-#: gui/qt/main_window.py:3454
+#: gui/qt/main_window.py:3456
 msgid "WARNING: ALL your private keys are secret."
 msgstr ""
 
-#: gui/qt/main_window.py:3420 gui/qt/main_window.py:3423
+#: gui/qt/main_window.py:3422 gui/qt/main_window.py:3425
 msgid "WARNING: This is a multi-signature wallet."
 msgstr "Onyo: Hii ni Pochi ya sahihi-zaidi."
 
-#: gui/qt/main_window.py:1924
+#: gui/qt/main_window.py:1926
 msgid "WARNING: the alias \"{}\" could not be validated via an additional security check, DNSSEC, and thus may not be correct."
 msgstr ""
 
-#: gui/qt/main_window.py:3104
+#: gui/qt/main_window.py:3106
 msgid "WIF key has been encrypted using BIP38.\n\n"
 "You may save this encrypted key to a file or print out its QR code and/or text.\n\n"
 "It is strongly encrypted with the passphrase you specified and safe to store electronically. However, the passphrase should be stored securely and not shared with anyone."
@@ -7583,7 +7634,7 @@ msgstr ""
 msgid "Wallet"
 msgstr "Kipochi"
 
-#: gui/qt/main_window.py:2970
+#: gui/qt/main_window.py:2972
 msgid "Wallet Information"
 msgstr "Habari ya kipochi"
 
@@ -7591,7 +7642,7 @@ msgstr "Habari ya kipochi"
 msgid "Wallet Operations"
 msgstr "Uendeshaji wa kipochi"
 
-#: gui/qt/main_window.py:2877
+#: gui/qt/main_window.py:2879
 #: ios/ElectronCash/electroncash_gui/ios_native/newwallet.py:25
 msgid "Wallet Password"
 msgstr "Nenosiri la kipochi"
@@ -7606,7 +7657,7 @@ msgstr "Kifungo cha siri ya kuokoa kipochi"
 msgid "Wallet Seed"
 msgstr "Manenosiri ya kipochi"
 
-#: gui/qt/main_window.py:550
+#: gui/qt/main_window.py:552
 msgid "Wallet backup created"
 msgstr "Nakala ya kipochi imeundwa"
 
@@ -7618,15 +7669,15 @@ msgstr "Kipochi kimefutwa bila dosari"
 msgid "Wallet file"
 msgstr "Faili ya Kipochi"
 
-#: gui/qt/main_window.py:3025
+#: gui/qt/main_window.py:3027
 msgid "Wallet file not found: {}"
 msgstr "Faili ya kipochi haipatikani: {}"
 
-#: gui/qt/main_window.py:3709
+#: gui/qt/main_window.py:3784
 msgid "Wallet has no address to sweep to"
 msgstr "Kipochi hakina anwani ya kutumia"
 
-#: gui/qt/main_window.py:2977
+#: gui/qt/main_window.py:2979
 msgid "Wallet name"
 msgstr "Jina ya Kipochi"
 
@@ -7642,7 +7693,7 @@ msgstr "Nenosiri la kipochi ni kitupu. Tafadhali weka nenosiri kwa kipochi ili k
 msgid "Wallet passwords do not match. Please confirm the password you wish to set for your wallet by entering the same password twice."
 msgstr "Nenosiri za kipochi hazilingani. Tafadhali thibitisha nenosiri unayotaka kuweka kwa kipochi chako kwa kuweka nenosiri hilo mara mbili."
 
-#: gui/qt/main_window.py:3023
+#: gui/qt/main_window.py:3025
 msgid "Wallet removed: {}"
 msgstr "Kipochi kimetolewa: {}"
 
@@ -7658,7 +7709,7 @@ msgstr ""
 msgid "Wallet successfully renamed"
 msgstr "Kipochi kimebadilishwa jina"
 
-#: gui/qt/main_window.py:2979
+#: gui/qt/main_window.py:2981
 msgid "Wallet type"
 msgstr "Aina ya Kipochi"
 
@@ -7667,13 +7718,13 @@ msgstr "Aina ya Kipochi"
 msgid "Wallets"
 msgstr "Pochi"
 
-#: gui/qt/main_window.py:2111 gui/qt/main_window.py:2212 gui/qt/util.py:222
-#: gui/qt/seed_dialog.py:98 gui/qt/transaction_dialog.py:257
+#: gui/qt/main_window.py:2113 gui/qt/main_window.py:2214 gui/qt/util.py:224
+#: gui/qt/seed_dialog.py:98 gui/qt/transaction_dialog.py:259
 msgid "Warning"
 msgstr "Onyo"
 
 #. Warn if past gap limit.
-#: gui/qt/main_window.py:1341
+#: gui/qt/main_window.py:1343
 msgid "Warning: The next address will not be recovered automatically if you restore your wallet from seed; you may need to add it manually.\n\n"
 "This occurs because you have too many unused addresses in your wallet. To avoid this situation, use the existing addresses first.\n\n"
 "Create anyway?"
@@ -7739,11 +7790,11 @@ msgstr ""
 msgid "Within 5 blocks"
 msgstr ""
 
-#: gui/qt/main_window.py:4986
+#: gui/qt/main_window.py:5061
 msgid "Would you like to enable CashShuffle for this wallet?"
 msgstr "Ugependa kuwezesha CashShuffle kwa kipochi hiki?"
 
-#: gui/qt/main_window.py:4991
+#: gui/qt/main_window.py:5066
 msgid "Would you like to turn on CashShuffle?"
 msgstr "Je! Ungependa kuwasha CashShuffle?"
 
@@ -7751,7 +7802,7 @@ msgstr "Je! Ungependa kuwasha CashShuffle?"
 msgid "Write down the seed word shown on your {}"
 msgstr "Andika manenosiri yaliyoonyeshwa kwenye {}"
 
-#: plugins/satochip/CardConnector.py:616
+#: plugins/satochip/CardConnector.py:621
 msgid "Wrong PIN! {} tries remaining!"
 msgstr ""
 
@@ -7761,12 +7812,12 @@ msgstr ""
 msgid "Wrong key type"
 msgstr "Aina ya funguosiri isiyofaa"
 
-#: gui/qt/main_window.py:3172
+#: gui/qt/main_window.py:3174
 #: ios/ElectronCash/electroncash_gui/ios_native/sign_decrypt_dialog.py:291
 msgid "Wrong signature"
 msgstr ""
 
-#: plugins/satochip/satochip.py:278
+#: plugins/satochip/satochip.py:277
 msgid "Wrong signature!\n"
 "The 2FA device may have rejected the action."
 msgstr ""
@@ -7793,7 +7844,7 @@ msgid "You are about to delete the wallet '{wallet_name}'. Unless you have other
 msgstr "Uko karibu kufuta kipochi '{wallet_name}'. Ikiwa huna nakala zingine za kipochi hiki au umeandika manenosiri yake, unaweza kupoteza pesa!\n\n"
 "Ili kuendelea, tafadhali chapa neno '{delete_confirm_text}' katika sanduku hapa chini:"
 
-#: plugins/satochip/qt.py:203
+#: plugins/satochip/qt.py:213
 msgid "You are about to reset the seed of your Satochip. This process is irreversible!\n"
 msgstr ""
 
@@ -7801,7 +7852,7 @@ msgstr ""
 msgid "You are already on the latest version of Electron Cash."
 msgstr ""
 
-#: gui/qt/main_window.py:3432
+#: gui/qt/main_window.py:3434
 msgid "You are exporting your wallet's private keys as BIP38 encrypted keys."
 msgstr "Unatoa funguosiri za kipochi chako kama funguosiri iliyosimbwa na BIP38."
 
@@ -7818,7 +7869,7 @@ msgstr "Sasa una <i>toa</i> CashShuffle ya kipochi hichi. Una uhakika?"
 msgid "You are now spending <b><i>unshuffled</i></b> coins. Are you sure?"
 msgstr ""
 
-#: gui/qt/main_window.py:5167
+#: gui/qt/main_window.py:5242
 #, python-brace-format
 msgid "You are registering a new <a href='ca'>Cash Account</a> for your address <a href='addr'><b><pre>{address}</pre></b></a>"
 msgstr ""
@@ -7832,15 +7883,15 @@ msgid "You are requesting the deletion of the currently active wallet. In order 
 msgstr "Unaomba ufutaji wa kipochi kinachotumika sasa. Ili kufuta kipochi hiki, tafadhali tumia kipochi chingine, kisha uchague chaguo hili tena kwenye kipochi hiki."
 
 #. Does not have network, so we won't speak of incompatibility, but instead remind user offline mode means OFFLINE! ;)
-#: gui/qt/__init__.py:712 plugins/labels/qt.py:91
+#: gui/qt/__init__.py:714 plugins/labels/qt.py:91
 msgid "You are using Electron Cash in offline mode; restart Electron Cash if you want to get connected"
-msgstr ""
+msgstr "Unatumia Electron Cash katika hali ya nje ya mtambo; Anzisha tena Electron Cash ikiwa unataka kurudi tena kwa mtambo"
 
-#: gui/qt/main_window.py:1333
+#: gui/qt/main_window.py:1335
 msgid "You are using a non-deterministic wallet, which cannot create new addresses."
 msgstr "Unatumia kipochi, ambacho hakiwezi kuunda anwani mpya."
 
-#: gui/qt/main_window.py:2115
+#: gui/qt/main_window.py:2117
 msgid "You are using an OP_RETURN message. This gets permanently written to the blockchain."
 msgstr "Unatumia ujumbe wa OP_RETURN. Hii huandikwa dawama kwa blockchain."
 
@@ -7890,7 +7941,7 @@ msgstr "Hauna Stakabadhi za kuwasiliana."
 msgid "You have selected non-SSL mode for your server settings."
 msgstr ""
 
-#: gui/qt/main_window.py:1467
+#: gui/qt/main_window.py:1469
 msgid "You may enter:<ul><li> Bitcoin Cash <b>Address</b> <b>★</b><li> Bitcoin Legacy <b>Address</b> <b>★</b><li> <b>Cash Account</b> <b>★</b> e.g. <i>satoshi#123</i><li> <b>Contact name</b> <b>★</b> from the Contacts tab<li> <b>CoinText</b> e.g. <i>cointext:+1234567</i><li> <b>OpenAlias</b> e.g. <i>satoshi@domain.com</i></ul><br>&nbsp;&nbsp;&nbsp;<b>★</b> = Supports <b>pay-to-many</b>, where you may optionally enter multiple lines of the form:</span><br><pre>    recipient1, amount1 \n"
 "    recipient2, amount2 \n"
 "    etc...</pre>"
@@ -7902,11 +7953,11 @@ msgstr "Unaweza kuingiza: <ul><li> Bitcoin Cash <b>Anwani</b> <b>★</b><li> Bit
 msgid "You may extend your seed with custom words."
 msgstr "Unaweza kupanua manenosiri yako na maneno unayotaka mwenyewe."
 
-#: gui/qt/main_window.py:2587
+#: gui/qt/main_window.py:2589
 msgid "You may load a CSV file using the file icon."
 msgstr ""
 
-#: gui/qt/main_window.py:1110
+#: gui/qt/main_window.py:1112
 msgid "You may optionally append an OP_RETURN message to the payment URI and/or QR you generate.\n\n"
 "Note: Not all wallets yet support OP_RETURN parameters, so make sure the other party's wallet supports OP_RETURN URIs."
 msgstr "Unaweza tumia hiari kwa ujumbe wa OP_RETURN kwa URI ya malipo na/au QR unayotengeneza.\n\n"
@@ -7928,7 +7979,7 @@ msgstr ""
 msgid "You may try the \"Hardware Wallet Support\" tool (below)."
 msgstr "Unaweza jaribu \"Msaada wa kifaa cha kipochi\" (chini)."
 
-#: gui/qt/main_window.py:3433
+#: gui/qt/main_window.py:3435
 msgid "You must specify a passphrase to use for encryption."
 msgstr ""
 
@@ -7954,7 +8005,7 @@ msgid "You will be asked to enter 24 words regardless of your seed's actual leng
 msgstr "Utaulizwa kuingiza maneno 24 bila kujali urefu wa manenosiri yako. Ikiwa utaandika neno bila usahihi au kuibadilisha, huwezi kuibadilisha au kurudi nyuma - utahitaji kuanza tena kutoka mwanzo.\n\n"
 "Kwa hivyo tafadhali ingiza maneno kwa uangalifu!"
 
-#: gui/qt/main_window.py:2111 gui/qt/main_window.py:2212
+#: gui/qt/main_window.py:2113 gui/qt/main_window.py:2214
 msgid "You're using a fee of less than 1.0 sats/B. It may take a very long time to confirm."
 msgstr ""
 
@@ -7989,11 +8040,11 @@ msgstr "Kipochi chako cha Electron Cash inaweza tumika tu bila manenosiri. Lazim
 msgid "Your device firmware is too old"
 msgstr ""
 
-#: gui/qt/main_window.py:5049
+#: gui/qt/main_window.py:5124
 msgid "Your entire transaction history will be downloaded again from the server and verified from the blockchain."
 msgstr "Historia yako yote ya shughuli za ununuzi itashushwa tena kutoka kwa seva na kuthibitishwa kutoka kwa blockchain."
 
-#: gui/qt/main_window.py:2075
+#: gui/qt/main_window.py:2077
 #: ios/ElectronCash/electroncash_gui/ios_native/send.py:805
 msgid "Your fee is too high.  Max is 50 sat/byte."
 msgstr "Ada yako ni kubwa mno. Max ni 50 sat / byte."
@@ -8002,11 +8053,11 @@ msgstr "Ada yako ni kubwa mno. Max ni 50 sat / byte."
 msgid "Your labels have been synchronised."
 msgstr "Lebo zako zimesawazishwa."
 
-#: gui/qt/main_window.py:3628
+#: gui/qt/main_window.py:3631
 msgid "Your labels were exported to"
 msgstr ""
 
-#: gui/qt/main_window.py:3613
+#: gui/qt/main_window.py:3616
 msgid "Your labels were imported from"
 msgstr ""
 
@@ -8028,7 +8079,7 @@ msgid "Your seed extension is"
 msgstr "Manenosiri yako yaliyongezwa ni"
 
 #: lib/base_wizard.py:308 lib/base_wizard.py:445
-#: plugins/satochip/satochip.py:661
+#: plugins/satochip/satochip.py:664
 msgid "Your seed extension must be saved together with your seed."
 msgstr "Ongezo la manenosiri yako lazima yahifadhiwe pamoja na manenosiri yako."
 
@@ -8055,7 +8106,7 @@ msgstr ""
 msgid "Your wallet generation seed is:"
 msgstr "Manenosiri ya kipochi chako ni:"
 
-#: gui/qt/main_window.py:3658
+#: gui/qt/main_window.py:3692
 msgid "Your wallet history has been successfully exported."
 msgstr "Historia yako ya kipochi imetolewa nakala."
 
@@ -8077,7 +8128,7 @@ msgstr ""
 msgid "Your {} might not have support for this functionality."
 msgstr ""
 
-#: gui/qt/main_window.py:4075
+#: gui/qt/main_window.py:4150
 #: ios/ElectronCash/electroncash_gui/ios_native/prefs.py:326
 msgid "Zeros after decimal point"
 msgstr ""
@@ -8087,7 +8138,7 @@ msgid "Zip Archives (*.zip)"
 msgstr ""
 
 #. if there are lots left to verify, display this informative text
-#: gui/qt/main_window.py:921
+#: gui/qt/main_window.py:923
 #, python-format
 msgid "[%d unverified TXs]"
 msgstr "[%d haijathibitishwa TXs]"
@@ -8164,7 +8215,7 @@ msgstr ""
 msgid "and create your standard wallet or restore an existing one with any of the methods below"
 msgstr "na uunda pochi zako au urejeshe mmoja ya vipochi vilivyo kwa njia zilizotajwa hapa chini"
 
-#: gui/qt/main_window.py:1633
+#: gui/qt/main_window.py:1635
 msgid "are frozen"
 msgstr "zimefungwa"
 
@@ -8181,9 +8232,9 @@ msgstr ""
 #: ios/ElectronCash/electroncash_gui/ios_native/txdetail.py:505
 #: ios/ElectronCash/electroncash_gui/ios_native/history.py:540
 msgid "confirmations"
-msgstr ""
+msgstr "thibitisho"
 
-#: gui/qt/main_window.py:2994
+#: gui/qt/main_window.py:2996
 msgid "cosigner"
 msgstr "mweka sahihi wa pili"
 
@@ -8243,7 +8294,7 @@ msgstr ""
 msgid "monochrome"
 msgstr "monochrome"
 
-#: gui/qt/main_window.py:3722 gui/qt/main_window.py:3834
+#: gui/qt/main_window.py:3797 gui/qt/main_window.py:3909
 msgid "or BIP38 keys"
 msgstr ""
 
@@ -8251,13 +8302,17 @@ msgstr ""
 msgid "password incorrect"
 msgstr "nywila sio sahihi"
 
-#: gui/qt/main_window.py:2288
+#: gui/qt/main_window.py:2290
 #: ios/ElectronCash/electroncash_gui/ios_native/gui.py:1182
 msgid "please wait..."
 msgstr "tafadhali subiri..."
 
 #: plugins/ledger/ledger.py:33
 msgid "python-btchip is too old for CashAddr support. "
+msgstr ""
+
+#: gui/qt/main_window.py:3660
+msgid "seconds"
 msgstr ""
 
 #: gui/qt/qrreader/camera_dialog.py:282
@@ -8280,26 +8335,26 @@ msgstr ""
 msgid "unavailable"
 msgstr "haipatikani"
 
-#: lib/wallet.py:1411
+#: lib/wallet.py:1521
 msgid "unconfirmed"
 msgstr "haijathibitishwa"
 
 #: gui/qt/fee_slider.py:28 gui/qt/qrreader/camera_dialog.py:289
-#: gui/qt/transaction_dialog.py:428 gui/qt/transaction_dialog.py:593
+#: gui/qt/transaction_dialog.py:434 gui/qt/transaction_dialog.py:599
 #: ios/ElectronCash/electroncash_gui/ios_native/txdetail.py:178
 #: ios/ElectronCash/electroncash_gui/ios_native/txdetail.py:245
 #: ios/ElectronCash/electroncash_gui/ios_native/txdetail.py:565
 #: ios/ElectronCash/electroncash_gui/ios_native/feeslider.py:76
-#: lib/wallet.py:1489
+#: lib/wallet.py:1601
 msgid "unknown"
 msgstr "isiyojulikana"
 
-#: gui/qt/transaction_dialog.py:405
+#: gui/qt/transaction_dialog.py:411
 #: ios/ElectronCash/electroncash_gui/ios_native/txdetail.py:521
 msgid "unknown (low fee)"
 msgstr "haijulikani (Ada ya chini)"
 
-#: lib/commands.py:890
+#: lib/commands.py:921
 msgid "unknown parser {!r} (choices: {})"
 msgstr ""
 
@@ -8311,11 +8366,11 @@ msgstr "haijapakiwa"
 msgid "unloading"
 msgstr ""
 
-#: lib/wallet.py:1409
+#: lib/wallet.py:1519
 msgid "unverified"
 msgstr "haijathibitishwa"
 
-#: gui/qt/main_window.py:463
+#: gui/qt/main_window.py:465
 #: ios/ElectronCash/electroncash_gui/ios_native/addresses.py:190
 msgid "watching only"
 msgstr ""
@@ -8382,7 +8437,7 @@ msgstr[0] ""
 msgstr[1] ""
 
 #. plural
-#: gui/qt/main_window.py:5430
+#: gui/qt/main_window.py:5505
 #, python-brace-format
 msgid "{number_of_cashaccounts} Cash Accounts registrations"
 msgstr ""
@@ -8394,7 +8449,7 @@ msgid_plural "{number} Cash Accounts"
 msgstr[0] ""
 msgstr[1] ""
 
-#: gui/qt/main_window.py:797
+#: gui/qt/main_window.py:799
 #, python-brace-format
 msgid "{sats_per_byte} sat/byte"
 msgstr ""
@@ -8404,7 +8459,7 @@ msgstr ""
 msgid "{time} ago"
 msgstr ""
 
-#: gui/qt/main_window.py:4910
+#: gui/qt/main_window.py:4985
 #, python-brace-format
 msgid "{total_size} bytes"
 msgstr ""
@@ -8416,7 +8471,7 @@ msgid_plural "{years} years"
 msgstr[0] "Miaka {years}"
 msgstr[1] "Miaka {years}"
 
-#: gui/qt/transaction_dialog.py:475
+#: gui/qt/transaction_dialog.py:481
 msgid "{} = Schnorr signed"
 msgstr ""
 
@@ -8473,7 +8528,7 @@ msgstr "{} dakika"
 msgid "{} new transactions received: Total amount received in the new transactions {}"
 msgstr "{} shughuli mpya zilizopokelewa: Jumla ya jumla iliyopokelewa katika shughuli mpya {}"
 
-#: gui/qt/main_window.py:5437 gui/qt/main_window.py:5445
+#: gui/qt/main_window.py:5512 gui/qt/main_window.py:5520
 msgid "{} new transactions: {}"
 msgstr "{} shuguli za ununuzi mpya {}"
 

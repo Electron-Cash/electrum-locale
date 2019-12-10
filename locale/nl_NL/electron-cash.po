@@ -2,8 +2,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: electron-cash\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-11-14 13:37+0200\n"
-"PO-Revision-Date: 2019-11-14 11:40\n"
+"POT-Creation-Date: 2019-12-10 15:10+0200\n"
+"PO-Revision-Date: 2019-12-10 13:11\n"
 "Last-Translator: jonald\n"
 "Language-Team: Dutch\n"
 "Language: nl_NL\n"
@@ -20,7 +20,7 @@ msgstr ""
 msgid "  (No FX rate available)"
 msgstr "  (Geen FX tarief beschikbaar)"
 
-#: gui/qt/main_window.py:4205
+#: gui/qt/main_window.py:4280
 msgid " These settings affects the fields in the Send tab"
 msgstr " Deze instellingen hebben invloed op de velden in het Verzenden tabblad"
 
@@ -47,51 +47,51 @@ msgstr "%d item (s) geldig"
 msgid "%d words"
 msgstr "%d woorden"
 
-#: gui/qt/main_window.py:692
+#: gui/qt/main_window.py:694
 msgid "&About"
 msgstr "&Over"
 
-#: gui/qt/main_window.py:2489
+#: gui/qt/main_window.py:2491
 msgid "&Address to convert"
-msgstr ""
+msgstr "&Adres om te converteren"
 
-#: gui/qt/main_window.py:190
+#: gui/qt/main_window.py:192
 #: ios/ElectronCash/electroncash_gui/ios_native/addresses.py:313
 msgid "&Addresses"
 msgstr "&Adressen"
 
-#: gui/qt/main_window.py:1537
+#: gui/qt/main_window.py:1539
 msgid "&Amount"
 msgstr "&Bedrag"
 
-#: gui/qt/main_window.py:613
+#: gui/qt/main_window.py:615
 msgid "&BIP38 Encrypted"
 msgstr "&BIP38 Versleuteld"
 
-#: gui/qt/transaction_dialog.py:146
+#: gui/qt/transaction_dialog.py:148
 msgid "&Broadcast"
-msgstr ""
+msgstr "Verzenden"
 
 #. acct.setFixedWidth(280)
 #: gui/qt/cashacctqt.py:587
 msgid "&Cash Account Name"
 msgstr "&Cash Account Naam"
 
-#: gui/qt/main_window.py:2494
+#: gui/qt/main_window.py:2496
 msgid "&Cash address"
 msgstr "&Cash adres"
 
-#: gui/qt/main_window.py:694
+#: gui/qt/main_window.py:696
 msgid "&Check for Updates"
-msgstr ""
+msgstr "Controleren op Updates"
 
-#: gui/qt/__init__.py:442
+#: gui/qt/__init__.py:444
 msgid "&Check for updates..."
-msgstr ""
+msgstr "Controleren op updates..."
 
-#: gui/qt/main_window.py:1161 gui/qt/main_window.py:1600
+#: gui/qt/main_window.py:1163 gui/qt/main_window.py:1602
 msgid "&Clear"
-msgstr ""
+msgstr "&Wissen"
 
 #: gui/qt/udev_installer.py:93 gui/qt/qrreader/camera_dialog.py:142
 msgid "&Close"
@@ -101,15 +101,15 @@ msgstr "&Sluiten"
 msgid "&Confirm"
 msgstr "&Bevestigen"
 
-#: gui/qt/main_window.py:624
+#: gui/qt/main_window.py:626
 msgid "&Contacts"
 msgstr "&Contacten"
 
-#: gui/qt/util.py:165 gui/qt/qrcodewidget.py:137
+#: gui/qt/util.py:167 gui/qt/qrcodewidget.py:137
 msgid "&Copy"
 msgstr "&Kopiëren"
 
-#: gui/qt/util.py:174
+#: gui/qt/util.py:176
 msgid "&Copy and Close"
 msgstr "&Kopiëren en Sluiten"
 
@@ -117,251 +117,251 @@ msgstr "&Kopiëren en Sluiten"
 msgid "&Copy {}"
 msgstr "&Kopiëren {}"
 
-#: gui/qt/main_window.py:599
+#: gui/qt/main_window.py:601
 msgid "&Delete"
 msgstr "&Verwijderen"
 
-#: gui/qt/main_window.py:1102 gui/qt/main_window.py:1498
+#: gui/qt/main_window.py:1104 gui/qt/main_window.py:1500
 msgid "&Description"
-msgstr ""
+msgstr "&Omschrijving"
 
 #: gui/qt/history_list.py:249
 msgid "&Details"
-msgstr ""
+msgstr "Details"
 
 #: gui/qt/console.py:113
 msgid "&Don't ask again"
 msgstr "&Niet opnieuw vragen"
 
-#: gui/qt/main_window.py:700
+#: gui/qt/main_window.py:702
 msgid "&Donate to Server"
-msgstr ""
+msgstr "&Doneer aan de server"
 
 #. 20 px padding
-#: gui/qt/transaction_dialog.py:466
+#: gui/qt/transaction_dialog.py:471
 msgid "&Download input data"
 msgstr ""
 
 #. We grab a fresh reference to the current item, as it has been deleted in a reported issue.
 #: gui/qt/history_list.py:246
 msgid "&Edit {}"
-msgstr ""
+msgstr "&Bewerk {}"
 
-#: gui/qt/main_window.py:671
+#: gui/qt/main_window.py:673
 msgid "&Encrypt/Decrypt Message"
 msgstr ""
 
-#: gui/qt/main_window.py:611 gui/qt/main_window.py:623
+#: gui/qt/main_window.py:613 gui/qt/main_window.py:625
 msgid "&Export"
 msgstr "&Exporteren"
 
-#: gui/qt/main_window.py:594
+#: gui/qt/main_window.py:596
 msgid "&File"
 msgstr "&Bestand"
 
-#: gui/qt/main_window.py:635
+#: gui/qt/main_window.py:637
 msgid "&Find"
-msgstr ""
+msgstr "&Zoek"
 
 #: gui/qt/qrreader/camera_dialog.py:137
 msgid "&Flip horizontally"
-msgstr ""
+msgstr "Horizontaal kantelen"
 
-#: gui/qt/main_window.py:1524
+#: gui/qt/main_window.py:1526
 msgid "&From"
-msgstr ""
+msgstr "&Van"
 
-#: gui/qt/main_window.py:668
+#: gui/qt/main_window.py:670
 msgid "&Hardware Wallet Support..."
-msgstr ""
+msgstr "&Hardware Wallet ondersteuning..."
 
-#: gui/qt/main_window.py:691
+#: gui/qt/main_window.py:693
 msgid "&Help"
 msgstr "&Help"
 
-#: gui/qt/main_window.py:630
+#: gui/qt/main_window.py:632
 msgid "&History"
 msgstr "&Geschiedenis"
 
-#: gui/qt/main_window.py:610 gui/qt/main_window.py:622
+#: gui/qt/main_window.py:612 gui/qt/main_window.py:624
 msgid "&Import"
 msgstr "&Importeren"
 
-#: gui/qt/main_window.py:604
+#: gui/qt/main_window.py:606
 msgid "&Information"
 msgstr "&Informatie"
 
-#: gui/qt/transaction_dialog.py:459
+#: gui/qt/transaction_dialog.py:464
 #, python-brace-format
 msgid "&Input"
 msgid_plural "&Inputs ({num_inputs})"
-msgstr[0] ""
+msgstr[0] "Invoer"
 msgstr[1] ""
 
 #: gui/qt/udev_installer.py:103
 msgid "&Install"
-msgstr ""
+msgstr "Installeren"
 
-#: gui/qt/main_window.py:621
+#: gui/qt/main_window.py:623
 msgid "&Labels"
 msgstr "&Labels"
 
-#: gui/qt/main_window.py:2499
+#: gui/qt/main_window.py:2501
 msgid "&Legacy address"
-msgstr ""
+msgstr "&Adres in oud formaat"
 
-#: gui/qt/main_window.py:676
+#: gui/qt/main_window.py:678
 msgid "&Load Transaction"
-msgstr ""
+msgstr "&Transactie laden"
 
-#: gui/qt/main_window.py:1549
+#: gui/qt/main_window.py:1551
 msgid "&Max"
 msgstr ""
 
-#: gui/qt/main_window.py:663
+#: gui/qt/main_window.py:665
 msgid "&Network"
 msgstr "&Netwerk"
 
-#: gui/qt/main_window.py:625
+#: gui/qt/main_window.py:627
 msgid "&New"
 msgstr "&Nieuw"
 
-#: gui/qt/main_window.py:597
+#: gui/qt/main_window.py:599
 msgid "&New/Restore"
 msgstr "&Nieuw/Herstel"
 
-#: gui/qt/util.py:181
+#: gui/qt/util.py:183
 msgid "&OK"
 msgstr "&OK"
 
-#: gui/qt/main_window.py:1111 gui/qt/main_window.py:1507
+#: gui/qt/main_window.py:1113 gui/qt/main_window.py:1509
 msgid "&OP_RETURN"
 msgstr "&OP_RETURN"
 
-#: gui/qt/main_window.py:695
+#: gui/qt/main_window.py:697
 msgid "&Official Website"
 msgstr "&Officiële Website"
 
-#: gui/qt/main_window.py:596
+#: gui/qt/main_window.py:598
 msgid "&Open"
 msgstr "&Openen"
 
-#: gui/qt/transaction_dialog.py:505
+#: gui/qt/transaction_dialog.py:511
 #, python-brace-format
 msgid "&Output"
 msgid_plural "&Outputs ({num_outputs})"
-msgstr[0] ""
+msgstr[0] "&Uitvoer"
 msgstr[1] ""
 
-#: gui/qt/main_window.py:606
+#: gui/qt/main_window.py:608
 msgid "&Password"
 msgstr "&Wachtwoord"
 
-#: gui/qt/main_window.py:674
+#: gui/qt/main_window.py:676
 msgid "&Pay to Many"
-msgstr ""
+msgstr "&Betaal aan meerdere"
 
-#: gui/qt/main_window.py:1595
+#: gui/qt/main_window.py:1597
 msgid "&Preview"
-msgstr ""
+msgstr "&Voorvertoning"
 
-#: gui/qt/main_window.py:601
+#: gui/qt/main_window.py:603
 msgid "&Quit"
 msgstr "&Afsluiten"
 
-#: gui/qt/main_window.py:1513
+#: gui/qt/main_window.py:1515
 msgid "&Raw hex script"
-msgstr ""
+msgstr "&Hex script"
 
-#: gui/qt/main_window.py:616
+#: gui/qt/main_window.py:618
 msgid "&Rebuild History"
-msgstr ""
+msgstr "&geschiedenis reconstrueren"
 
-#: gui/qt/main_window.py:1025
+#: gui/qt/main_window.py:1027
 msgid "&Receiving address"
-msgstr ""
+msgstr "&Ontvangstadres"
 
-#: gui/qt/main_window.py:688
+#: gui/qt/main_window.py:690
 msgid "&Register Cash Account..."
 msgstr "&Registreer Cash Account..."
 
-#: gui/qt/main_window.py:698
+#: gui/qt/main_window.py:700
 msgid "&Report Bug..."
-msgstr ""
+msgstr "&Probleem melden..."
 
-#: gui/qt/main_window.py:1158 gui/qt/qrcodewidget.py:142
+#: gui/qt/main_window.py:1160 gui/qt/qrcodewidget.py:142
 msgid "&Save"
-msgstr ""
+msgstr "&Opslaan"
 
-#: gui/qt/main_window.py:598
+#: gui/qt/main_window.py:600
 msgid "&Save Copy As"
-msgstr ""
+msgstr "&Kopie opslaan als"
 
-#: gui/qt/main_window.py:607
+#: gui/qt/main_window.py:609
 msgid "&Seed"
 msgstr "&Zaad"
 
-#: gui/qt/main_window.py:1597
+#: gui/qt/main_window.py:1599
 msgid "&Send"
-msgstr ""
+msgstr "Verstuur"
 
-#: gui/qt/transaction_dialog.py:143
+#: gui/qt/transaction_dialog.py:145
 msgid "&Sign"
-msgstr ""
+msgstr "&Onderteken"
 
-#: gui/qt/main_window.py:670
+#: gui/qt/main_window.py:672
 msgid "&Sign/Verify Message"
-msgstr ""
+msgstr "&Onderteken/Verifieer bericht"
 
-#: gui/qt/main_window.py:609
+#: gui/qt/main_window.py:611
 msgid "&Sweep"
 msgstr "&Leegvegen"
 
-#: gui/qt/main_window.py:652
+#: gui/qt/main_window.py:654
 msgid "&Tools"
 msgstr "&Extra"
 
-#: gui/qt/transaction_dialog.py:100
+#: gui/qt/transaction_dialog.py:102
 msgid "&Transaction ID:"
-msgstr ""
+msgstr "&Transactie ID:"
 
 #: gui/qt/udev_installer.py:98
 msgid "&Uninstall"
-msgstr ""
+msgstr "Deinstalleer"
 
-#: gui/qt/main_window.py:645
+#: gui/qt/main_window.py:647
 msgid "&View"
 msgstr "&Bekijken"
 
-#: gui/qt/main_window.py:612
+#: gui/qt/main_window.py:614
 msgid "&WIF Plaintext"
-msgstr ""
+msgstr "&WIF Klare tekst"
 
-#: gui/qt/main_window.py:603
+#: gui/qt/main_window.py:605
 msgid "&Wallet"
 msgstr "&Portemonnee"
 
 #: lib/web.py:270
 #, python-brace-format
 msgid "'{uri_scheme}' payment requests are not currently supported"
-msgstr ""
+msgstr "'{uri_scheme}' betaalverzoeken worden momenteel niet ondersteund"
 
-#: gui/qt/transaction_dialog.py:424
+#: gui/qt/transaction_dialog.py:430
 #, python-format
 msgid "( %s in dust was added to fee )"
-msgstr ""
+msgstr "( %s stof is toegevoegd aan de kosten)"
 
 #: plugins/shuffle/qt.py:1551
 msgid "(Custom)"
-msgstr ""
+msgstr "(Aangepast)"
 
-#: gui/qt/main_window.py:503
+#: gui/qt/main_window.py:505
 msgid "(Old versions of Electron Cash before 3.3.6 produced invalid testnet wallets)."
-msgstr ""
+msgstr "(Oude versies van Electron Cash voor versie 3.3.6 veroorzaakten ongeldige testnet portemonnees)."
 
 #: plugins/labels/qt.py:86
 msgid "(Only deterministic wallets are supported)"
-msgstr ""
+msgstr "(Alleen deterministische portemonnees worden ondersteund)"
 
 #. force view block explorer to go to the TX since this isn't an output address
 #: ios/ElectronCash/electroncash_gui/ios_native/txdetail.py:313
@@ -372,25 +372,25 @@ msgstr "(De uitvoer van het script)"
 msgid "(Touch {} of {})"
 msgstr "(Touch {} van {})"
 
-#: gui/qt/main_window.py:4988
+#: gui/qt/main_window.py:5063
 msgid "(You can always toggle it later using the CashShuffle button.)"
-msgstr ""
+msgstr "(U kunt het altijd later altijd inschakelen/uitschakelen met behulp van de CashShuffle knop.)"
 
 #: gui/qt/seed_dialog.py:61 lib/base_wizard.py:307
 msgid "(aka 'passphrase')"
-msgstr ""
+msgstr "(ook bekend als wachtwoord)"
 
-#: gui/qt/main_window.py:4251
+#: gui/qt/main_window.py:4326
 msgid "(disabled)"
-msgstr ""
+msgstr "(uitgeschakeld)"
 
 #: gui/qt/bip38_importer.py:174
 msgid "(password required)"
-msgstr ""
+msgstr "(wachtwoord vereist)"
 
 #: gui/qt/bip38_importer.py:171
 msgid "({} of {}):"
-msgstr ""
+msgstr "({} of {}):"
 
 #: plugins/virtualkeyboard/qt.py:15
 msgid "+"
@@ -401,10 +401,10 @@ msgid "..."
 msgstr "..."
 
 #. singular
-#: gui/qt/main_window.py:5433
+#: gui/qt/main_window.py:5508
 #, python-brace-format
 msgid "1 Cash Accounts registration ({cash_accounts_name})"
-msgstr ""
+msgstr "1 cash account registratie ({cash_accounts_name})"
 
 #: gui/qt/util.py:47
 msgid "1 day"
@@ -418,50 +418,50 @@ msgstr "1 uur"
 msgid "1 week"
 msgstr "1 week"
 
-#: plugins/satochip/qt.py:284
+#: plugins/satochip/qt.py:298
 msgid "2FA reset successfully!"
-msgstr ""
+msgstr "2FA succesvol gereset!"
 
 #: ios/ElectronCash/electroncash_gui/ios_native/password_dialog.py:164
 msgid ":"
 msgstr ":"
 
-#: gui/qt/main_window.py:3716
+#: gui/qt/main_window.py:3791
 msgid "<b>BIP38 support is disabled because a requisite library is not installed.</b> Please install 'cryptodomex' or omit BIP38 private keys (private keys starting in 6P...). Decrypt keys to WIF format (starting with 5, K, or L) in order to sweep."
-msgstr ""
+msgstr "<b>BIP38 ondersteuning is uitgeschakeld omdat een vereiste bibliotheek niet is geïnstalleerd.</b> Installeer 'cryptodomex' of gebruik geen BIP38 private keys (private keys beginnend in 6P...). Decodeer sleutels naar WIF formaat (beginnend met 5, K of L) om te vegen."
 
 #: gui/qt/contact_list.py:463
 msgid "<br>Add anyone's Cash Account to your Contacts"
-msgstr ""
+msgstr "<br>Voeg iemands Cash Account toe aan uw contacten"
 
-#: gui/qt/main_window.py:5157
+#: gui/qt/main_window.py:5232
 msgid "<p>How it works: <b>Cash Accounts</b> registrations work by issuing an <b>OP_RETURN</b> transaction to yourself, costing fractions of a penny.</p><p>The registrations are permanently written to the blockchain and associate a human-friendly name with your address.</p><p>After the registration transaction receives <i>1 confirmation</i>, you can use your new <b>Cash Account name</b> as if it were an address and give it out to other people (Electron Cash or another Cash Account enabled wallet is required).</p><p><span style=\"font-weight:100;\">You will be offered the opportunity to review the generated transaction before broadcasting it to the blockchain.</span></p>"
-msgstr ""
+msgstr "<p>Hoe het werkt: <b>Cash Accounts</b> registraties werken door een <b>OP_RETURN</b> transactie naar jezelf te versturen, deze kosten een fractie van een cent.</p><p>De registraties worden permanent naar de blockchain geschreven en associëren een mens-vriendelijke naam met uw adres.</p><p>Nadat de registratie transactie <i>1 bevestiging</i> heeft gekregen, kunt u uw nieuwe <b>Cash accountnaam</b> gebruiken alsof het een adres is en het aan andere mensen geven (Electron Cash, of een andere portemonnee die cash accounts ondersteunt, is vereist).</p><p><span style=\"font-weight:100;\">U krijgt de mogelijkheid om de gegenereerde registratie transactie te bekijken voordat u deze naar de blockchain zendt.</span></p>"
 
 #: gui/qt/cashacctqt.py:620
 #, python-brace-format
 msgid "<span style=\"white-space:nowrap\"><b>{cash_account}</b> added to Contacts</span>"
-msgstr ""
+msgstr "<span style=\"white-space:nowrap\"><b>{cash_account}</b> toegevoegd aan contactpersonen</span>"
 
 #: gui/qt/cashacctqt.py:611
 #, python-brace-format
 msgid "<span style=\"white-space:nowrap\"><b>{cash_account}</b> already in Contacts</span>"
-msgstr ""
+msgstr "<span style=\"white-space:nowrap\"><b>{cash_account}</b> is al een bestaande contactpersoon</span>"
 
-#: gui/qt/main_window.py:3839
+#: gui/qt/main_window.py:3914
 msgid "A BIP38 key was specified, please enter a password to decrypt it"
-msgstr ""
+msgstr "Een BIP38 sleutel is opgegeven, voer een wachtwoord in om het te ontsleutelen"
 
 #: plugins/digitalbitbox/digitalbitbox.py:174
 msgid "A backup is saved automatically when generating a new wallet."
 msgstr "Een back-up wordt automatisch opgeslagen bij het genereren van een nieuwe portemonnee."
 
-#: gui/qt/main_window.py:2660
+#: gui/qt/main_window.py:2662
 #, python-brace-format
 msgid "A contact named {contact.name} with the same address and type already exists."
-msgstr ""
+msgstr "Een contactpersoon genaamd {contact.name} met hetzelfde adres bestaat al."
 
-#: gui/qt/main_window.py:550
+#: gui/qt/main_window.py:552
 msgid "A copy of your wallet file was created in"
 msgstr "Een kopie van uw portemonnee-bestand is gemaakt in"
 
@@ -475,7 +475,7 @@ msgstr "Een deterministische portemonnee zal worden gemaakt met behulp van de me
 
 #: plugins/shuffle/__init__.py:6
 msgid "A layered encryption scheme is used so that none of the participants know the outputs of the other participants."
-msgstr ""
+msgstr "Er wordt een gelaagd encryptiesysteem gebruikt, zodat geen van de deelnemers de uitvoer van de andere deelnemers kent."
 
 #: lib/plugins.py:785
 msgid "A library is probably missing."
@@ -483,23 +483,23 @@ msgstr "Waarschijnlijk ontbreekt een library."
 
 #: gui/qt/cashacctqt.py:722
 msgid "A network connectivity error occured. Please check your internet connection and try again."
-msgstr ""
+msgstr "Fout bij het verbinden. Controleer uw Internet-verbinding en probeer het opnieuw."
 
 #: gui/qt/cashacctqt.py:718
 msgid "A network timeout occurred while looking up this Cash Account. You may want to check that your internet connection is up and not saturated processing other requests."
 msgstr ""
 
-#: gui/qt/__init__.py:660
+#: gui/qt/__init__.py:662
 msgid "A new version of Electron Cash is available: {}"
 msgstr ""
 
 #. Closes #1436 -- Some "Run from source" Linux users lack QtSvg
 #. (partial PyQt5 install)
-#: gui/qt/__init__.py:253
+#: gui/qt/__init__.py:255
 msgid "A required Qt module, QtSvg was not found. Please fully install all of PyQt5 5.12 or above to resolve this issue."
 msgstr ""
 
-#: gui/qt/main_window.py:1559
+#: gui/qt/main_window.py:1561
 msgid "A suggested fee is automatically added to this field. You may override it. The suggested fee increases with the size of the transaction."
 msgstr "Een aanbevolen vergoeding wordt hier automatisch ingevuld. U kunt dit aanpassen. De vergoeding groeit mee met de grootte van de transactie."
 
@@ -528,7 +528,7 @@ msgstr "Over"
 msgid "About BIP39"
 msgstr ""
 
-#: gui/qt/main_window.py:693
+#: gui/qt/main_window.py:695
 msgid "About Qt"
 msgstr ""
 
@@ -585,7 +585,7 @@ msgstr ""
 msgid "Adding {} of {} new addresses to wallet..."
 msgstr ""
 
-#: gui/qt/main_window.py:2102
+#: gui/qt/main_window.py:2104
 #: ios/ElectronCash/electroncash_gui/ios_native/send.py:832
 msgid "Additional fees"
 msgstr "Bijkomende transactiekosten"
@@ -596,8 +596,8 @@ msgstr ""
 
 #. self.blurb.text = _("Contacts are a convenient feature to associate addresses with user-friendly names. "
 #. "Contacts can be accessed when sending a payment via the 'Send' tab.") if not self.editMode else self.title
-#: gui/qt/main_window.py:2952 gui/qt/main_window.py:3066
-#: gui/qt/main_window.py:3188 gui/qt/request_list.py:42
+#: gui/qt/main_window.py:2954 gui/qt/main_window.py:3068
+#: gui/qt/main_window.py:3190 gui/qt/request_list.py:42
 #: gui/qt/cashacctqt.py:858 gui/qt/cashacctqt.py:882 gui/qt/address_list.py:101
 #: gui/qt/address_list.py:340 gui/qt/address_dialog.py:48
 #: gui/qt/utxo_list.py:58 gui/qt/contact_list.py:58 gui/qt/contact_list.py:235
@@ -610,13 +610,13 @@ msgstr ""
 msgid "Address"
 msgstr "Adres"
 
-#: gui/qt/main_window.py:193
+#: gui/qt/main_window.py:195
 #: ios/ElectronCash/electroncash_gui/ios_native/addrconv.py:22
 #: ios/ElectronCash/electroncash_gui/ios_native/prefs.py:226
 msgid "Address Converter"
 msgstr ""
 
-#: gui/qt/transaction_dialog.py:771
+#: gui/qt/transaction_dialog.py:777
 #: ios/ElectronCash/electroncash_gui/ios_native/txdetail.py:338
 #: ios/ElectronCash/electroncash_gui/ios_native/coins.py:636
 msgid "Address Details"
@@ -624,8 +624,8 @@ msgstr ""
 
 #. CashAddr control
 #. spacer
-#: gui/qt/main_window.py:3871 gui/qt/main_window.py:3873
-#: gui/qt/main_window.py:4365
+#: gui/qt/main_window.py:3946 gui/qt/main_window.py:3948
+#: gui/qt/main_window.py:4440
 msgid "Address Format"
 msgstr ""
 
@@ -649,7 +649,7 @@ msgstr ""
 msgid "Address is frozen"
 msgstr ""
 
-#: gui/qt/main_window.py:3147
+#: gui/qt/main_window.py:3149
 #: ios/ElectronCash/electroncash_gui/ios_native/sign_decrypt_dialog.py:250
 #: plugins/hw_wallet/plugin.py:72
 msgid "Address not in wallet."
@@ -659,7 +659,7 @@ msgstr ""
 msgid "Address to convert"
 msgstr ""
 
-#: gui/qt/util.py:477
+#: gui/qt/util.py:502
 msgid "Address to sweep to:"
 msgstr ""
 
@@ -671,7 +671,7 @@ msgstr "Adres:"
 msgid "Addresses"
 msgstr ""
 
-#: lib/wallet.py:1728
+#: lib/wallet.py:1840
 msgid "Addresses generated:"
 msgstr ""
 
@@ -679,7 +679,7 @@ msgstr ""
 msgid "Advanced"
 msgstr ""
 
-#: gui/qt/main_window.py:5222
+#: gui/qt/main_window.py:5297
 msgid "After at least <i>1 confirmation</i>, you will be able to use your new <b>Cash Account</b>, and it will be visible in Electron Cash in the <b>Addresses</b> tab."
 msgstr ""
 
@@ -708,7 +708,7 @@ msgid "All set and good to go."
 msgstr ""
 
 #. Legacy BCT Segwit Send Protection™
-#: gui/qt/main_window.py:4470
+#: gui/qt/main_window.py:4545
 msgid "Allow legacy p2sh in the Send tab"
 msgstr ""
 
@@ -720,11 +720,11 @@ msgstr ""
 msgid "Already up to date"
 msgstr ""
 
-#: plugins/satochip/qt.py:298
+#: plugins/satochip/qt.py:312
 msgid "Also reset 2FA"
 msgstr ""
 
-#: gui/qt/invoice_list.py:36 gui/qt/main_window.py:2715
+#: gui/qt/invoice_list.py:36 gui/qt/main_window.py:2717
 #: gui/qt/history_list.py:70 gui/qt/history_list.py:73
 #: gui/qt/request_list.py:42 gui/qt/utxo_list.py:58 gui/text.py:103
 #: gui/text.py:176 gui/stdio.py:104
@@ -740,26 +740,26 @@ msgstr "Bedrag"
 msgid "Amount for OP_RETURN output must be zero."
 msgstr ""
 
-#: gui/qt/transaction_dialog.py:413
+#: gui/qt/transaction_dialog.py:419
 #: ios/ElectronCash/electroncash_gui/ios_native/txdetail.py:537
 msgid "Amount received:"
 msgstr "Ontvangen bedrag:"
 
-#: gui/qt/transaction_dialog.py:415
+#: gui/qt/transaction_dialog.py:421
 #: ios/ElectronCash/electroncash_gui/ios_native/txdetail.py:542
 msgid "Amount sent:"
 msgstr "Verzonden bedrag:"
 
-#: gui/qt/main_window.py:2095
+#: gui/qt/main_window.py:2097
 #: ios/ElectronCash/electroncash_gui/ios_native/send.py:825
 msgid "Amount to be sent"
 msgstr "Te verzenden bedrag"
 
-#: gui/qt/main_window.py:1533
+#: gui/qt/main_window.py:1535
 msgid "Amount to be sent."
 msgstr "Te verzenden bedrag."
 
-#: gui/qt/main_window.py:2807
+#: gui/qt/main_window.py:2809
 msgid "An Electron Cash update is available"
 msgstr ""
 
@@ -772,9 +772,9 @@ msgstr ""
 msgid "An encrypted transaction was retrieved from cosigning pool."
 msgstr ""
 
-#: lib/network.py:1839
+#: lib/network.py:1843
 msgid "An error occurred broadcasting the transaction"
-msgstr ""
+msgstr "Er is een fout opgetreden tijdens het versturen van de transactie"
 
 #. A fresh device cannot connect to an existing wallet
 #: plugins/digitalbitbox/digitalbitbox.py:170
@@ -783,24 +783,24 @@ msgstr ""
 
 #: ios/ElectronCash/electroncash_gui/ios_native/newwallet.py:1178
 msgid "An unknown error occurred. Cannot proceed."
-msgstr ""
+msgstr "Er is een onbekende fout opgetreden. Kan niet doorgaan."
 
 #: lib/base_wizard.py:238
 msgid "An unnamed {}"
-msgstr ""
+msgstr "Een naamloze {}"
 
 #: gui/qt/external_plugins_window.py:52
 msgid "An unspecified exception was raised. Cannot open plugin."
-msgstr ""
+msgstr "Er is een niet gespecificeerde fout opgetreden. Kan de plugin niet openen."
 
 #. this is here simply to get picked up by i18n messages.pot, etc.
 #: ios/ElectronCash/electroncash_gui/ios_native/addresses.py:30
 msgid "Any"
 msgstr ""
 
-#: gui/qt/main_window.py:4590
+#: gui/qt/main_window.py:4665
 msgid "App-Global Options"
-msgstr ""
+msgstr "Algemene applicatie instellingen"
 
 #: ios/ElectronCash/electroncash_gui/ios_native/prefs.py:24
 msgid "Appearance"
@@ -810,78 +810,79 @@ msgstr "Verschijning"
 #: plugins/shuffle/qt.py:1749 plugins/shuffle/qt.py:2218
 #: plugins/keepkey/qt.py:471 plugins/trezor/qt.py:550
 msgid "Apply"
-msgstr ""
+msgstr "Toepassen"
 
 #: plugins/keepkey/qt.py:411 plugins/trezor/qt.py:493
 msgid "Are you SURE you want to wipe the device?\n"
 "Your wallet still has bitcoins in it!"
-msgstr ""
+msgstr "Weet u zeker dat u het apparaat wilt wissen? \n"
+"Uw portemonnee bevat nog bitcoins!"
 
 #: plugins/digitalbitbox/digitalbitbox.py:301
 msgid "Are you sure you want to erase the Digital Bitbox?"
-msgstr ""
+msgstr "Weet u zeker dat u zeker dat u de Digital Bitbox wilt wissen?"
 
 #: plugins/keepkey/qt.py:396 plugins/trezor/qt.py:362
 msgid "Are you sure you want to proceed?"
-msgstr ""
+msgstr "Weet u zeker dat u wilt doorgaan?"
 
 #: gui/qt/external_plugins_window.py:354
 msgid "Are you sure you want to uninstall the selected plugin?"
-msgstr ""
+msgstr "Weet u zeker dat u de geselecteerde plugin wilt verwijderen?"
 
 #: ios/ElectronCash/electroncash_gui/ios_native/contacts.py:862
 msgid "Are you sure you wish to delete this contact?"
-msgstr ""
+msgstr "Weet u zeker dat u dit contact wilt verwijderen?"
 
 #: gui/qt/network_dialog.py:80
 msgid "Are you sure you wish to proceed?"
-msgstr ""
+msgstr "Weet u zeker dat u wilt doorgaan?"
 
 #: plugins/trezor/qt.py:387
 msgid "At this time, only the Trezor Model T supports the direct loading of TOIF files. Try a PNG or JPG file instead."
-msgstr ""
+msgstr "Op dit moment ondersteunt alleen de Trezor Model T het direct laden van TOIF bestanden. Probeer een PNG-bestand of JPG bestand."
 
 #: plugins/audio_modem/__init__.py:3
 msgid "Audio MODEM"
-msgstr ""
+msgstr "Audio-MODEM"
 
 #: plugins/audio_modem/qt.py:49
 msgid "Audio Modem Settings"
-msgstr ""
+msgstr "Audio Modem Instellingen"
 
 #: ios/ElectronCash/electroncash_gui/ios_native/utils.py:1685
 msgid "Authenticate, please"
-msgstr ""
+msgstr "Authenticeer, svp"
 
 #: gui/qt/installwizard.py:519
 msgid "Auto connect"
 msgstr "Automatisch verbinding maken"
 
-#: gui/qt/__init__.py:802
+#: gui/qt/__init__.py:804
 msgid "Automatic High DPI"
-msgstr ""
+msgstr "Automatische hoge DPI"
 
 #. is_win
-#: gui/qt/__init__.py:795 gui/qt/__init__.py:799
+#: gui/qt/__init__.py:797 gui/qt/__init__.py:801
 msgid "Automatic high DPI scaling has been enabled for Electron Cash, which should result in improved graphics quality."
-msgstr ""
+msgstr "Automatisch hoger DPI schalen is ingeschakeld voor Electron Cash, wat zou moeten leiden tot een betere grafische kwaliteit."
 
-#: gui/qt/main_window.py:4328
+#: gui/qt/main_window.py:4403
 msgid "Automatic high DPI scaling was disabled from the command-line"
-msgstr ""
+msgstr "Automatisch hoog DPI schalen is uitgezet vanaf de command-line"
 
 #. Enable/Disable HighDPI -- this option makes no sense for macOS
 #. and thus does not appear on that platform
-#: gui/qt/main_window.py:4321
+#: gui/qt/main_window.py:4396
 msgid "Automatic high-DPI scaling"
-msgstr ""
+msgstr "Automatisch high-DPI schalen"
 
 #. spacer
-#: gui/qt/main_window.py:4385
+#: gui/qt/main_window.py:4460
 msgid "Automatically check for updates"
-msgstr ""
+msgstr "Controleer automatisch op updates"
 
-#: gui/qt/main_window.py:3428
+#: gui/qt/main_window.py:3430
 msgid "BIP38 Encryption is not available. Please install 'pycryptodomex' and restart Electron Cash to enable BIP38."
 msgstr ""
 
@@ -889,7 +890,7 @@ msgstr ""
 msgid "BIP38 Import"
 msgstr ""
 
-#: gui/qt/main_window.py:3103
+#: gui/qt/main_window.py:3105
 msgid "BIP38 Key"
 msgstr ""
 
@@ -897,7 +898,7 @@ msgstr ""
 msgid "BIP38 encrpted keys are supported."
 msgstr ""
 
-#: gui/qt/main_window.py:3079
+#: gui/qt/main_window.py:3081
 msgid "BIP38 encryption unavailable: install pycryptodomex to enable"
 msgstr ""
 
@@ -940,12 +941,12 @@ msgid "Back"
 msgstr "Terug"
 
 #. prepend newlines
-#: gui/qt/main_window.py:2354
+#: gui/qt/main_window.py:2356
 #, python-brace-format
 msgid "Bad parameter: {bad_param_name}{extra_info}"
 msgstr ""
 
-#: gui/qt/main_window.py:904 gui/qt/history_list.py:70
+#: gui/qt/main_window.py:906 gui/qt/history_list.py:70
 #: gui/qt/history_list.py:73 gui/qt/address_list.py:101
 #: gui/qt/address_list.py:104 gui/qt/address_list.py:340 gui/text.py:103
 #: gui/text.py:136 gui/stdio.py:104 gui/stdio.py:116
@@ -986,7 +987,7 @@ msgid "Bans usually occur when other shufflers detected invalid inputs coming fr
 "They may happen occasionally in rare circumstances. However, if this keeps happening please contact the developers and file a bug report."
 msgstr ""
 
-#: gui/qt/main_window.py:4206
+#: gui/qt/main_window.py:4281
 #: ios/ElectronCash/electroncash_gui/ios_native/prefs.py:340
 msgid "Base unit"
 msgstr "Basiseenheid"
@@ -994,11 +995,11 @@ msgstr "Basiseenheid"
 #. Crash reporter box at bottom of this tab
 #. commit crash reporter gb to layout
 #. ( 'BCH', 'mBCH', 'bits' )
-#: gui/qt/main_window.py:4203
+#: gui/qt/main_window.py:4278
 msgid "Base unit of your wallet."
 msgstr "Basiseenheid van uw portemonnee."
 
-#: gui/qt/main_window.py:726
+#: gui/qt/main_window.py:728
 msgid "Before reporting a bug, upgrade to the most recent version of Electron Cash (latest release or git HEAD), and include the version number in your report."
 msgstr ""
 
@@ -1010,11 +1011,11 @@ msgstr ""
 msgid "Bit rate [kbps]: "
 msgstr ""
 
-#: gui/qt/main_window.py:1024
+#: gui/qt/main_window.py:1026
 msgid "Bitcoin Cash address where the payment should be received. Note that each payment request uses a different Bitcoin Cash address."
 msgstr ""
 
-#: gui/qt/main_window.py:1557
+#: gui/qt/main_window.py:1559
 msgid "Bitcoin Cash transactions are in general not free. A transaction fee is paid by the sender of the funds."
 msgstr ""
 
@@ -1023,7 +1024,7 @@ msgid "Block explorer"
 msgstr ""
 
 #. There WAS a 'Copy link' and they clicked it
-#: gui/qt/main_window.py:2251
+#: gui/qt/main_window.py:2253
 msgid "Block explorer link copied to clipboard"
 msgstr ""
 
@@ -1043,7 +1044,7 @@ msgstr ""
 msgid "Broadcast"
 msgstr "Uitzenden"
 
-#: gui/qt/main_window.py:2261
+#: gui/qt/main_window.py:2263
 #: ios/ElectronCash/electroncash_gui/ios_native/gui.py:2030
 msgid "Broadcasting transaction..."
 msgstr "Broadcasting transactie..."
@@ -1052,19 +1053,19 @@ msgstr "Broadcasting transactie..."
 msgid "Busy shuffling:"
 msgstr ""
 
-#: gui/qt/util.py:187
+#: gui/qt/util.py:189
 msgid "C&ancel"
 msgstr ""
 
-#: gui/qt/util.py:159
+#: gui/qt/util.py:161
 msgid "C&lose"
 msgstr ""
 
-#: gui/qt/main_window.py:4945
+#: gui/qt/main_window.py:5020
 msgid "CPFP no longer valid"
 msgstr ""
 
-#: gui/qt/util.py:488
+#: gui/qt/util.py:513
 msgid "CSV"
 msgstr ""
 
@@ -1174,7 +1175,7 @@ msgstr "Kan bestand niet lezen"
 msgid "Cannot send/receive new transactions."
 msgstr ""
 
-#: gui/qt/main_window.py:3141
+#: gui/qt/main_window.py:3143
 #: ios/ElectronCash/electroncash_gui/ios_native/sign_decrypt_dialog.py:242
 msgid "Cannot sign messages with this type of address."
 msgstr ""
@@ -1203,7 +1204,7 @@ msgstr ""
 msgid "Cannot verify Cash Account as the network appears to be offline."
 msgstr ""
 
-#: gui/qt/main_window.py:1034
+#: gui/qt/main_window.py:1036
 msgid "Cash Accoun&t"
 msgstr ""
 
@@ -1219,7 +1220,7 @@ msgid "Cash Account Details"
 msgstr ""
 
 #. cut off the leading emoji, and add it to the end
-#: gui/qt/main_window.py:1078 gui/qt/cashacctqt.py:449 gui/qt/cashacctqt.py:848
+#: gui/qt/main_window.py:1080 gui/qt/cashacctqt.py:449 gui/qt/cashacctqt.py:848
 msgid "Cash Account copied to clipboard"
 msgstr ""
 
@@ -1227,7 +1228,7 @@ msgstr ""
 msgid "Cash Account e.g. satoshi#123.45"
 msgstr ""
 
-#: gui/qt/cashacctqt.py:895 gui/qt/address_list.py:473
+#: gui/qt/cashacctqt.py:895 gui/qt/address_list.py:475
 #: gui/qt/address_dialog.py:107
 msgid "Cash Account has been made the default for this address"
 msgstr ""
@@ -1245,15 +1246,15 @@ msgstr ""
 msgid "Cash Account verification failure"
 msgstr ""
 
-#: gui/qt/address_list.py:435
+#: gui/qt/address_list.py:437
 msgid "Cash Account:"
 msgstr ""
 
-#: gui/qt/address_list.py:367
+#: gui/qt/address_list.py:369
 msgid "Cash Accounts"
 msgstr ""
 
-#: gui/qt/main_window.py:5208
+#: gui/qt/main_window.py:5283
 #, python-brace-format
 msgid "Cash Accounts Registration: '{name}' -> {address}"
 msgstr ""
@@ -1266,7 +1267,7 @@ msgstr ""
 msgid "Cash address"
 msgstr ""
 
-#: gui/qt/main_window.py:3871 gui/qt/main_window.py:4369
+#: gui/qt/main_window.py:3946 gui/qt/main_window.py:4444
 msgid "CashAddr"
 msgstr ""
 
@@ -1274,7 +1275,7 @@ msgstr ""
 msgid "CashAddr address format"
 msgstr ""
 
-#: gui/qt/main_window.py:3912 plugins/shuffle/qt.py:135
+#: gui/qt/main_window.py:3987 plugins/shuffle/qt.py:135
 #: plugins/shuffle/qt.py:212 plugins/shuffle/qt.py:586
 #: plugins/shuffle/__init__.py:3
 msgid "CashShuffle"
@@ -1293,7 +1294,7 @@ msgid "CashShuffle Enabled"
 msgstr ""
 
 #. Network server error
-#: gui/qt/main_window.py:3923
+#: gui/qt/main_window.py:3998
 msgid "CashShuffle Error: Could not connect to server"
 msgstr ""
 
@@ -1305,19 +1306,19 @@ msgstr ""
 msgid "CashShuffle Settings"
 msgstr ""
 
-#: gui/qt/main_window.py:3920
+#: gui/qt/main_window.py:3995
 msgid "CashShuffle Settings..."
 msgstr ""
 
-#: gui/qt/main_window.py:5013
+#: gui/qt/main_window.py:5088
 msgid "CashShuffle could not be restarted"
 msgstr ""
 
-#: gui/qt/main_window.py:4985
+#: gui/qt/main_window.py:5060
 msgid "CashShuffle is disabled for this wallet."
 msgstr ""
 
-#: gui/qt/main_window.py:4985
+#: gui/qt/main_window.py:5060
 msgid "CashShuffle is disabled."
 msgstr ""
 
@@ -1342,7 +1343,7 @@ msgstr ""
 msgid "CashShuffle requires libsecp; cannot enable shuffling for this wallet."
 msgstr ""
 
-#: gui/qt/main_window.py:5011
+#: gui/qt/main_window.py:5086
 msgid "CashShuffle restarted"
 msgstr ""
 
@@ -1351,8 +1352,8 @@ msgstr ""
 msgid "CashShuffle will now be <i>disabled</i> for a wallet which has previously had it <b>enabled</b>. Are you sure?"
 msgstr ""
 
-#: gui/qt/main_window.py:869 gui/qt/main_window.py:871
-#: gui/qt/main_window.py:873
+#: gui/qt/main_window.py:871 gui/qt/main_window.py:873
+#: gui/qt/main_window.py:875
 msgid "Chain fork(s) detected"
 msgstr ""
 
@@ -1374,7 +1375,7 @@ msgstr ""
 msgid "Change"
 msgstr ""
 
-#: gui/qt/cashacctqt.py:463 gui/qt/transaction_dialog.py:512
+#: gui/qt/cashacctqt.py:463 gui/qt/transaction_dialog.py:518
 #: ios/ElectronCash/electroncash_gui/ios_native/addresses.py:205
 msgid "Change Address"
 msgstr ""
@@ -1424,7 +1425,7 @@ msgstr ""
 msgid "Checking server..."
 msgstr ""
 
-#: gui/qt/main_window.py:4895
+#: gui/qt/main_window.py:4970
 msgid "Child Pays for Parent"
 msgstr "Kind betaalt voor ouder"
 
@@ -1458,7 +1459,7 @@ msgid "Choose address or enter a public key"
 msgstr ""
 
 #. Show user address picker
-#: gui/qt/main_window.py:5079 gui/qt/main_window.py:5095
+#: gui/qt/main_window.py:5154 gui/qt/main_window.py:5170
 msgid "Choose an address"
 msgstr ""
 
@@ -1487,7 +1488,7 @@ msgstr ""
 msgid "Choose the number of signatures needed to unlock funds in your wallet:"
 msgstr "Kies het aantal handtekeningen dat nodig is om funds beschikbaar te maken:"
 
-#: gui/qt/main_window.py:4231
+#: gui/qt/main_window.py:4306
 msgid "Choose which online block explorer to use for functions that open a web browser"
 msgstr "Kies welke online blokverkenner u wilt gebruiken voor functies die een webbrowser openen"
 
@@ -1514,11 +1515,11 @@ msgstr ""
 msgid "Clear the session after the specified period of inactivity.  Once a session has timed out, your PIN and passphrase (if enabled) must be re-entered to use the device."
 msgstr ""
 
-#: gui/qt/main_window.py:2866
+#: gui/qt/main_window.py:2868
 msgid "Click for details"
 msgstr ""
 
-#: gui/qt/main_window.py:1207
+#: gui/qt/main_window.py:1209
 msgid "Click to copy the receive request URI to the clipboard"
 msgstr ""
 
@@ -1526,16 +1527,16 @@ msgstr ""
 msgid "Click to open in web browser"
 msgstr ""
 
-#: gui/qt/transaction_dialog.py:544
+#: gui/qt/transaction_dialog.py:550
 msgid "Click to open, right-click for menu"
 msgstr ""
 
-#: gui/qt/main_window.py:3470
+#: gui/qt/main_window.py:3472
 msgid "Click to show"
 msgstr ""
 
-#: gui/qt/main_window.py:3207 gui/qt/main_window.py:3269
-#: gui/qt/scan_beyond_gap.py:148 gui/qt/__init__.py:439
+#: gui/qt/main_window.py:3209 gui/qt/main_window.py:3271
+#: gui/qt/scan_beyond_gap.py:148 gui/qt/__init__.py:441
 #: gui/qt/update_checker.py:101 plugins/shuffle/qt.py:2034
 msgid "Close"
 msgstr "Sluiten"
@@ -1544,7 +1545,7 @@ msgstr "Sluiten"
 msgid "Close wallet"
 msgstr ""
 
-#: gui/qt/main_window.py:191
+#: gui/qt/main_window.py:193
 msgid "Co&ins"
 msgstr "Mun&ten"
 
@@ -1581,11 +1582,11 @@ msgstr ""
 msgid "Coin selection settings..."
 msgstr ""
 
-#: gui/qt/main_window.py:1598
+#: gui/qt/main_window.py:1600
 msgid "Coin&Text"
 msgstr ""
 
-#: gui/qt/main_window.py:2015
+#: gui/qt/main_window.py:2017
 msgid "CoinText: Please specify an amount"
 msgstr ""
 
@@ -1594,7 +1595,7 @@ msgstr ""
 msgid "Coinbase"
 msgstr ""
 
-#: gui/qt/transaction_dialog.py:735
+#: gui/qt/transaction_dialog.py:741
 msgid "Coinbase Input"
 msgstr ""
 
@@ -1616,7 +1617,7 @@ msgstr ""
 msgid "Coins (UTXOs) up to this amount will be selected for shuffling."
 msgstr ""
 
-#: gui/qt/main_window.py:4304
+#: gui/qt/main_window.py:4379
 msgid "Color theme"
 msgstr ""
 
@@ -1628,11 +1629,11 @@ msgstr ""
 msgid "Command-line."
 msgstr ""
 
-#: gui/qt/main_window.py:194
+#: gui/qt/main_window.py:196
 msgid "Con&sole"
 msgstr ""
 
-#: gui/qt/main_window.py:192
+#: gui/qt/main_window.py:194
 msgid "Con&tacts"
 msgstr "Con&tacten"
 
@@ -1657,7 +1658,7 @@ msgstr "Bevestig wachtwoord:"
 msgid "Confirm Seed"
 msgstr "Bevestig Seed"
 
-#: lib/base_wizard.py:443 plugins/satochip/satochip.py:659
+#: lib/base_wizard.py:443 plugins/satochip/satochip.py:662
 msgid "Confirm Seed Extension"
 msgstr ""
 
@@ -1745,7 +1746,7 @@ msgstr ""
 msgid "Connect only to preferred servers"
 msgstr ""
 
-#: gui/qt/main_window.py:870
+#: gui/qt/main_window.py:872
 msgid "Connected"
 msgstr ""
 
@@ -1761,11 +1762,11 @@ msgstr ""
 msgid "Connected to %d nodes."
 msgstr ""
 
-#: gui/qt/main_window.py:872 gui/qt/main_window.py:873
+#: gui/qt/main_window.py:874 gui/qt/main_window.py:875
 msgid "Connected via proxy"
 msgstr ""
 
-#: lib/wallet.py:1735
+#: lib/wallet.py:1847
 msgid "Connecting..."
 msgstr ""
 
@@ -1811,7 +1812,7 @@ msgstr ""
 msgid "Convert between Legacy and Cashaddr formats"
 msgstr ""
 
-#: gui/qt/main_window.py:1200
+#: gui/qt/main_window.py:1202
 msgid "Copy &URI"
 msgstr ""
 
@@ -1820,7 +1821,7 @@ msgstr ""
 msgid "Copy <b>{cash_account_name}</b>"
 msgstr ""
 
-#: gui/qt/transaction_dialog.py:777
+#: gui/qt/transaction_dialog.py:783
 #: ios/ElectronCash/electroncash_gui/ios_native/contacts.py:867
 #: ios/ElectronCash/electroncash_gui/ios_native/txdetail.py:297
 #: ios/ElectronCash/electroncash_gui/ios_native/coins.py:633
@@ -1828,26 +1829,26 @@ msgstr ""
 msgid "Copy Address"
 msgstr ""
 
-#: gui/qt/transaction_dialog.py:808
+#: gui/qt/transaction_dialog.py:814
 msgid "Copy Address (Embedded)"
 msgstr ""
 
-#: gui/qt/transaction_dialog.py:749 gui/qt/transaction_dialog.py:806
+#: gui/qt/transaction_dialog.py:755 gui/qt/transaction_dialog.py:812
 msgid "Copy Amount"
 msgstr ""
 
 #. paranoia: pre-cache minimal chash (may go out to network)
 #. go out to network to cache the shortest encoding for cash account name ahead of time...
-#: gui/qt/address_list.py:375 gui/qt/utxo_list.py:249
-#: gui/qt/transaction_dialog.py:812
+#: gui/qt/address_list.py:377 gui/qt/utxo_list.py:249
+#: gui/qt/transaction_dialog.py:818
 msgid "Copy Cash Account"
 msgstr ""
 
-#: gui/qt/transaction_dialog.py:744
+#: gui/qt/transaction_dialog.py:750
 msgid "Copy Prevout"
 msgstr ""
 
-#: gui/qt/transaction_dialog.py:775
+#: gui/qt/transaction_dialog.py:781
 msgid "Copy Public Key"
 msgstr ""
 
@@ -1864,16 +1865,16 @@ msgstr ""
 msgid "Copy Script"
 msgstr ""
 
-#: gui/qt/transaction_dialog.py:783
+#: gui/qt/transaction_dialog.py:789
 msgid "Copy Script Hex"
 msgstr ""
 
-#: gui/qt/transaction_dialog.py:773
+#: gui/qt/transaction_dialog.py:779
 msgid "Copy Script Text"
 msgstr ""
 
 #. Add this if they have a selection
-#: gui/qt/transaction_dialog.py:763 gui/qt/transaction_dialog.py:826
+#: gui/qt/transaction_dialog.py:769 gui/qt/transaction_dialog.py:832
 msgid "Copy Selected Text"
 msgstr ""
 
@@ -1890,11 +1891,11 @@ msgid "Copy input hash"
 msgstr ""
 
 #. tx is complete and there is a copy_link
-#: gui/qt/main_window.py:2244
+#: gui/qt/main_window.py:2246
 msgid "Copy link"
 msgstr ""
 
-#: gui/qt/util.py:817
+#: gui/qt/util.py:842
 #: ios/ElectronCash/electroncash_gui/ios_native/seed_dialog.py:148
 #: ios/ElectronCash/electroncash_gui/ios_native/txdetail.py:794
 msgid "Copy to clipboard"
@@ -1975,12 +1976,12 @@ msgstr ""
 msgid "Could not sign message."
 msgstr ""
 
-#: gui/qt/main_window.py:4180
+#: gui/qt/main_window.py:4255
 #: ios/ElectronCash/electroncash_gui/ios_native/crashreporter.py:66
 msgid "Crash Reporter"
 msgstr ""
 
-#: gui/qt/main_window.py:4185
+#: gui/qt/main_window.py:4260
 msgid "Crash reporter enabled"
 msgstr ""
 
@@ -1993,7 +1994,7 @@ msgstr ""
 msgid "Create New Standard Wallet"
 msgstr ""
 
-#: lib/base_wizard.py:118 plugins/satochip/satochip.py:633
+#: lib/base_wizard.py:118 plugins/satochip/satochip.py:636
 msgid "Create a new seed"
 msgstr ""
 
@@ -2009,11 +2010,11 @@ msgstr ""
 msgid "Create keystore from a master key"
 msgstr ""
 
-#: plugins/satochip/satochip.py:630
+#: plugins/satochip/satochip.py:633
 msgid "Create or restore"
 msgstr ""
 
-#: gui/qt/util.py:230
+#: gui/qt/util.py:232
 msgid "Critical Error"
 msgstr "Kritieke fout"
 
@@ -2029,11 +2030,11 @@ msgstr ""
 msgid "Current version: {}"
 msgstr ""
 
-#: gui/qt/main_window.py:4105
+#: gui/qt/main_window.py:4180
 msgid "Custom Fee Rate in Satoshis per byte"
 msgstr ""
 
-#: gui/qt/main_window.py:4105
+#: gui/qt/main_window.py:4180
 msgid "Custom fee rate:"
 msgstr ""
 
@@ -2046,19 +2047,19 @@ msgid "Daemon was not running."
 msgstr ""
 
 #. We can't name this "light" in the UI as sometimes the default is actually dark-looking eg on Mojave or on some Linux desktops.
-#: gui/qt/main_window.py:4293
+#: gui/qt/main_window.py:4368
 msgid "Dark"
 msgstr ""
 
-#: gui/qt/main_window.py:4309
+#: gui/qt/main_window.py:4384
 msgid "Dark theme is not available. Please install QDarkStyle to access this feature."
 msgstr ""
 
-#: gui/qt/main_window.py:4301
+#: gui/qt/main_window.py:4376
 msgid "Dark theme support requires the package 'QDarkStyle' (typically installed via the 'pip3' command on Unix & macOS)."
 msgstr ""
 
-#: gui/qt/__init__.py:440
+#: gui/qt/__init__.py:442
 msgid "Dark/Light"
 msgstr "Donker/licht"
 
@@ -2074,11 +2075,11 @@ msgstr ""
 msgid "Date"
 msgstr "Datum"
 
-#: gui/qt/transaction_dialog.py:402
+#: gui/qt/transaction_dialog.py:408
 msgid "Date: {}"
 msgstr ""
 
-#: gui/qt/main_window.py:3265
+#: gui/qt/main_window.py:3267
 msgid "Decrypt"
 msgstr "Ontsleutelen"
 
@@ -2086,8 +2087,8 @@ msgstr "Ontsleutelen"
 msgid "Decrypted Private Key:"
 msgstr ""
 
-#: gui/qt/main_window.py:4249 gui/qt/main_window.py:4268
-#: gui/qt/main_window.py:4292
+#: gui/qt/main_window.py:4324 gui/qt/main_window.py:4343
+#: gui/qt/main_window.py:4367
 msgid "Default"
 msgstr ""
 
@@ -2099,7 +2100,7 @@ msgstr ""
 msgid "Defaults"
 msgstr ""
 
-#: gui/qt/invoice_list.py:95 gui/qt/main_window.py:2745
+#: gui/qt/invoice_list.py:95 gui/qt/main_window.py:2747
 #: gui/qt/request_list.py:157 gui/qt/contact_list.py:218
 #: ios/ElectronCash/electroncash_gui/ios_native/contacts.py:863
 #: ios/ElectronCash/electroncash_gui/ios_native/contacts.py:871
@@ -2113,7 +2114,7 @@ msgstr "Verwijderen"
 msgid "Delete Wallet"
 msgstr ""
 
-#: gui/qt/main_window.py:2738
+#: gui/qt/main_window.py:2740
 msgid "Delete invoice?"
 msgstr "Factuur verwijderen?"
 
@@ -2121,7 +2122,7 @@ msgstr "Factuur verwijderen?"
 msgid "Delete wallet"
 msgstr ""
 
-#: gui/qt/main_window.py:3011
+#: gui/qt/main_window.py:3013
 msgid "Delete wallet file?"
 msgstr ""
 
@@ -2148,7 +2149,7 @@ msgstr ""
 
 #: gui/qt/external_plugins_window.py:85 gui/qt/external_plugins_window.py:475
 #: gui/qt/invoice_list.py:36 gui/qt/history_list.py:70
-#: gui/qt/request_list.py:42 gui/qt/transaction_dialog.py:390 gui/text.py:103
+#: gui/qt/request_list.py:42 gui/qt/transaction_dialog.py:396 gui/text.py:103
 #: gui/text.py:175 gui/stdio.py:104
 #: ios/ElectronCash/electroncash_gui/ios_native/receive.py:198
 #: ios/ElectronCash/electroncash_gui/ios_native/send.py:189
@@ -2156,14 +2157,14 @@ msgstr ""
 msgid "Description"
 msgstr "Omschrijving"
 
-#: gui/qt/main_window.py:1496
+#: gui/qt/main_window.py:1498
 #: ios/ElectronCash/electroncash_gui/ios_native/receive.py:204
 #: ios/ElectronCash/electroncash_gui/ios_native/send.py:215
 msgid "Description of the transaction (not mandatory)."
 msgstr "Omschrijving van de transactie (optioneel)."
 
 #: gui/qt/invoice_list.py:92 gui/qt/cashacctqt.py:424
-#: gui/qt/address_list.py:309 gui/qt/address_list.py:376
+#: gui/qt/address_list.py:309 gui/qt/address_list.py:378
 #: gui/qt/utxo_list.py:257
 #: ios/ElectronCash/electroncash_gui/ios_native/txdetail.py:613
 msgid "Details"
@@ -2203,7 +2204,7 @@ msgstr "Digital Bitbox portemonnee"
 msgid "Disable"
 msgstr "Uitschakelen"
 
-#: gui/qt/main_window.py:3919
+#: gui/qt/main_window.py:3994
 msgid "Disable CashShuffle"
 msgstr ""
 
@@ -2216,7 +2217,7 @@ msgstr "PINcode uitschakelen"
 msgid "Disable Passphrases"
 msgstr "Wachtwoordzinnen uitschakelen"
 
-#: gui/qt/main_window.py:2878 gui/qt/main_window.py:3912
+#: gui/qt/main_window.py:2880 gui/qt/main_window.py:3987
 #: plugins/keepkey/qt.py:351 plugins/trezor/qt.py:319
 msgid "Disabled"
 msgstr "Uitgeschakeld"
@@ -2229,7 +2230,7 @@ msgstr ""
 msgid "Disk Space Low"
 msgstr ""
 
-#: gui/qt/main_window.py:1596
+#: gui/qt/main_window.py:1598
 msgid "Display the details of your transactions before signing it."
 msgstr "Toon de details van transacties voor verzending."
 
@@ -2247,7 +2248,7 @@ msgstr "Niet koppelen"
 msgid "Do not store it electronically."
 msgstr "Bewaar het niet electronisch."
 
-#: lib/base_wizard.py:116 plugins/satochip/satochip.py:631
+#: lib/base_wizard.py:116 plugins/satochip/satochip.py:634
 msgid "Do you want to create a new seed, or to restore a wallet using an existing seed?"
 msgstr ""
 
@@ -2263,7 +2264,7 @@ msgstr "Wil je het oude bestand wissen"
 msgid "Do you want to open it now?"
 msgstr ""
 
-#: gui/qt/main_window.py:2554
+#: gui/qt/main_window.py:2556
 msgid "Do you want to remove {} from your wallet?"
 msgstr ""
 
@@ -2271,12 +2272,12 @@ msgstr ""
 msgid "Do you want to send this report?"
 msgstr ""
 
-#: plugins/satochip/satochip.py:50
+#: plugins/satochip/satochip.py:49
 msgid "Do you want to use 2-Factor-Authentication (2FA)?\n\n"
 "With 2FA, any transaction must be confirmed on a second device such as your smartphone. First you have to install the Satochip-2FA android app on google play. Then you have to pair your 2FA device with your Satochip by scanning the qr-code on the next screen. Warning: be sure to backup a copy of the qr-code in a safe place, in case you have to reinstall the app!"
 msgstr ""
 
-#: gui/qt/main_window.py:1926
+#: gui/qt/main_window.py:1928
 msgid "Do you wish to continue?"
 msgstr "Wilt u doorgaan?"
 
@@ -2303,7 +2304,7 @@ msgid "Do you wish to use\n"
 "as the wallet server?"
 msgstr ""
 
-#: gui/qt/main_window.py:697
+#: gui/qt/main_window.py:699
 msgid "Documentation"
 msgstr ""
 
@@ -2323,7 +2324,7 @@ msgstr ""
 msgid "Downloading headers {}% ..."
 msgstr ""
 
-#: gui/qt/transaction_dialog.py:426
+#: gui/qt/transaction_dialog.py:432
 msgid "Downloading input data, please wait..."
 msgstr ""
 
@@ -2337,7 +2338,7 @@ msgstr ""
 msgid "Duplicate key in URI"
 msgstr ""
 
-#: gui/qt/main_window.py:3912
+#: gui/qt/main_window.py:3987
 msgid "ENABLED"
 msgstr ""
 
@@ -2350,7 +2351,7 @@ msgstr ""
 msgid "Edit Contact"
 msgstr ""
 
-#: gui/qt/main_window.py:4109
+#: gui/qt/main_window.py:4184
 #: ios/ElectronCash/electroncash_gui/ios_native/prefs.py:275
 msgid "Edit fees manually"
 msgstr "Fees handmatig aanpassen"
@@ -2402,7 +2403,7 @@ msgstr ""
 msgid "Electron Cash is in offline mode."
 msgstr ""
 
-#: gui/qt/__init__.py:404
+#: gui/qt/__init__.py:406
 #, python-brace-format
 msgid "Electron Cash on Linux requires PyQt5 5.12+.\n\n"
 "You have version {version_string} installed.\n\n"
@@ -2418,11 +2419,11 @@ msgstr ""
 msgid "Electron Cash wallet"
 msgstr ""
 
-#: gui/qt/main_window.py:552
+#: gui/qt/main_window.py:554
 msgid "Electron Cash was unable to copy your wallet file to the specified location."
 msgstr ""
 
-#: gui/qt/main_window.py:3381 gui/qt/main_window.py:3390
+#: gui/qt/main_window.py:3383 gui/qt/main_window.py:3392
 msgid "Electron Cash was unable to deserialize the transaction:"
 msgstr ""
 
@@ -2430,11 +2431,11 @@ msgstr ""
 msgid "Electron Cash was unable to export your contacts."
 msgstr ""
 
-#: gui/qt/main_window.py:3630
+#: gui/qt/main_window.py:3633
 msgid "Electron Cash was unable to export your labels."
 msgstr ""
 
-#: gui/qt/__init__.py:746
+#: gui/qt/__init__.py:748
 msgid "Electron Cash was unable to find the secp256k1 library on this system. Elliptic curve cryptography operations will be performed in slow Python-only mode."
 msgstr ""
 
@@ -2442,28 +2443,28 @@ msgstr ""
 msgid "Electron Cash was unable to import your contacts."
 msgstr ""
 
-#: gui/qt/main_window.py:3615
+#: gui/qt/main_window.py:3618
 msgid "Electron Cash was unable to import your labels."
 msgstr ""
 
-#: gui/qt/main_window.py:3366
+#: gui/qt/main_window.py:3368
 msgid "Electron Cash was unable to open your transaction file"
 msgstr ""
 
-#: gui/qt/main_window.py:3299
+#: gui/qt/main_window.py:3301
 #: ios/ElectronCash/electroncash_gui/ios_native/gui.py:2277
 msgid "Electron Cash was unable to parse your transaction"
 msgstr ""
 
-#: gui/qt/main_window.py:3580
+#: gui/qt/main_window.py:3583
 msgid "Electron Cash was unable to produce a private key-export."
 msgstr ""
 
-#: gui/qt/main_window.py:3655
+#: gui/qt/main_window.py:3688
 msgid "Electron Cash was unable to produce a transaction export."
 msgstr ""
 
-#: gui/qt/main_window.py:718
+#: gui/qt/main_window.py:720
 msgid "Electron Cash's focus is speed, with low resource usage and simplifying Bitcoin Cash. You do not need to perform regular backups, because your wallet can be recovered from a secret phrase that you can memorize or write on paper. Startup times are instant because it operates in conjunction with high-performance servers that handle the most complicated parts of the Bitcoin Cash system."
 msgstr ""
 
@@ -2505,12 +2506,12 @@ msgstr ""
 msgid "Enable"
 msgstr ""
 
-#: gui/qt/main_window.py:3919 gui/qt/main_window.py:4994
-#: gui/qt/main_window.py:4995
+#: gui/qt/main_window.py:3994 gui/qt/main_window.py:5069
+#: gui/qt/main_window.py:5070
 msgid "Enable CashShuffle"
 msgstr ""
 
-#: gui/qt/main_window.py:4463
+#: gui/qt/main_window.py:4538
 msgid "Enable OP_RETURN output"
 msgstr ""
 
@@ -2530,41 +2531,41 @@ msgstr ""
 msgid "Enable passphrases"
 msgstr ""
 
-#: gui/qt/main_window.py:4464
+#: gui/qt/main_window.py:4539
 msgid "Enable posting messages with OP_RETURN."
 msgstr ""
 
-#: gui/qt/main_window.py:4387
+#: gui/qt/main_window.py:4462
 msgid "Enable this option if you wish to be notified as soon as a new version of Electron Cash becomes available"
 msgstr ""
 
-#: gui/qt/main_window.py:4343 gui/qt/main_window.py:4355
+#: gui/qt/main_window.py:4418 gui/qt/main_window.py:4430
 msgid "Enable/disable this option if you experience font rendering glitches (such as blurred text or monochrome emoji characters)"
 msgstr ""
 
 #. windows
-#: gui/qt/main_window.py:4325
+#: gui/qt/main_window.py:4400
 msgid "Enable/disable this option if you experience graphical glitches (such as dialog box text being cut off"
 msgstr ""
 
-#: gui/qt/main_window.py:4323
+#: gui/qt/main_window.py:4398
 msgid "Enable/disable this option if you experience graphical glitches (such as overly large status bar icons)"
 msgstr ""
 
-#: gui/qt/external_plugins_window.py:475 gui/qt/main_window.py:2878
+#: gui/qt/external_plugins_window.py:475 gui/qt/main_window.py:2880
 #: plugins/keepkey/qt.py:351 plugins/trezor/qt.py:319
 msgid "Enabled"
 msgstr ""
 
-#: gui/qt/main_window.py:3261
+#: gui/qt/main_window.py:3263
 msgid "Encrypt"
 msgstr "Versleutelen"
 
-#: gui/qt/main_window.py:3074
+#: gui/qt/main_window.py:3076
 msgid "Encrypt BIP38"
 msgstr ""
 
-#: gui/qt/main_window.py:3077
+#: gui/qt/main_window.py:3079
 msgid "Encrypt this private key using BIP38 encryption"
 msgstr ""
 
@@ -2576,7 +2577,7 @@ msgstr "Versleutel portemonnee"
 msgid "Encrypt/Decrypt Message"
 msgstr ""
 
-#: gui/qt/main_window.py:3234
+#: gui/qt/main_window.py:3236
 #: ios/ElectronCash/electroncash_gui/ios_native/addresses.py:918
 msgid "Encrypt/decrypt Message"
 msgstr "Versleutel/Ontsleutel Bericht"
@@ -2585,7 +2586,7 @@ msgstr "Versleutel/Ontsleutel Bericht"
 msgid "Encrypt/decrypt message"
 msgstr ""
 
-#: gui/qt/main_window.py:3256
+#: gui/qt/main_window.py:3258
 msgid "Encrypted"
 msgstr "Versleuteld"
 
@@ -2594,7 +2595,7 @@ msgid "Encrypted Key"
 msgstr ""
 
 #: plugins/digitalbitbox/digitalbitbox.py:451 plugins/ledger/ledger.py:291
-#: plugins/satochip/satochip.py:227
+#: plugins/satochip/satochip.py:226
 msgid "Encryption and decryption are currently not supported for {}"
 msgstr ""
 
@@ -2606,13 +2607,13 @@ msgstr ""
 msgid "Enjoy high security"
 msgstr ""
 
-#: plugins/keepkey/qt.py:175 plugins/satochip/qt.py:293
+#: plugins/keepkey/qt.py:175 plugins/satochip/qt.py:307
 #: plugins/trezor/qt.py:144
 msgid "Enter PIN"
 msgstr ""
 
 #: plugins/ledger/auth2fa.py:81 plugins/ledger/auth2fa.py:116
-#: plugins/satochip/satochip.py:178 plugins/satochip/satochip.py:181
+#: plugins/satochip/satochip.py:177 plugins/satochip/satochip.py:180
 msgid "Enter PIN:"
 msgstr ""
 
@@ -2637,7 +2638,7 @@ msgstr "Vul seed in"
 msgid "Enter a Cash Account name of the form Name#123.45, and Electron Cash will search for the contact and present you with its resolved address."
 msgstr ""
 
-#: gui/qt/main_window.py:533
+#: gui/qt/main_window.py:535
 msgid "Enter a filename for the copy of your wallet"
 msgstr "Geef een bestandsnaam op voor de kopie van uw portemonnee"
 
@@ -2649,7 +2650,7 @@ msgstr ""
 msgid "Enter a list of Bitcoin Cash addresses (this will create a watching-only wallet), or a list of private keys."
 msgstr ""
 
-#: gui/qt/main_window.py:2584
+#: gui/qt/main_window.py:2586
 msgid "Enter a list of outputs in the 'Pay to' field."
 msgstr "Vul een lijst van outputs in het veld 'betalen aan'"
 
@@ -2657,7 +2658,7 @@ msgstr "Vul een lijst van outputs in het veld 'betalen aan'"
 msgid "Enter a list of private keys to create a regular spending wallet. Alternatively, you can create a 'watching-only' wallet by entering a list of Bitcoin Cash addresses."
 msgstr ""
 
-#: plugins/satochip/satochip.py:502 plugins/satochip/qt.py:178
+#: plugins/satochip/satochip.py:502 plugins/satochip/qt.py:181
 msgid "Enter a new PIN for your Satochip:"
 msgstr ""
 
@@ -2673,11 +2674,11 @@ msgstr ""
 msgid "Enter a passphrase to generate this wallet.  Each time you use this wallet your {} will prompt you for the passphrase.  If you forget the passphrase you cannot access the bitcoins in the wallet."
 msgstr ""
 
-#: gui/qt/main_window.py:2965
+#: gui/qt/main_window.py:2967
 msgid "Enter a string of the form <b>name#<i>number</i></b>"
 msgstr ""
 
-#: gui/qt/main_window.py:3821
+#: gui/qt/main_window.py:3896
 msgid "Enter addresses"
 msgstr "Voer adres in"
 
@@ -2708,21 +2709,21 @@ msgstr ""
 msgid "Enter password:"
 msgstr ""
 
-#: gui/qt/main_window.py:3723 gui/qt/main_window.py:3832
+#: gui/qt/main_window.py:3798 gui/qt/main_window.py:3907
 msgid "Enter private keys"
 msgstr "Geef privé sleutels op"
 
-#: plugins/satochip/CardConnector.py:599
+#: plugins/satochip/CardConnector.py:604
 msgid "Enter the PIN for your Satochip:"
 msgstr ""
 
-#: plugins/satochip/CardConnector.py:597
+#: plugins/satochip/CardConnector.py:602
 msgid "Enter the PIN for your Satochip: \n"
 " WARNING: ONLY ONE ATTEMPT REMAINING!"
 msgstr ""
 
 #. old pin
-#: plugins/satochip/qt.py:173
+#: plugins/satochip/qt.py:172
 msgid "Enter the current PIN for your Satochip:"
 msgstr ""
 
@@ -2774,7 +2775,7 @@ msgstr ""
 msgid "Enter your password or choose another file."
 msgstr "Voer je wachtwoord in of kies een ander bestand."
 
-#: gui/qt/main_window.py:2119
+#: gui/qt/main_window.py:2121
 #: ios/ElectronCash/electroncash_gui/ios_native/password_dialog.py:259
 #: ios/ElectronCash/electroncash_gui/ios_native/password_dialog.py:306
 msgid "Enter your password to proceed"
@@ -2802,7 +2803,7 @@ msgid "Erase the Digital Bitbox"
 msgstr ""
 
 #. can be called from any thread, always runs in main thread
-#: gui/qt/util.py:226 gui/qt/__init__.py:594 gui/qt/__init__.py:596
+#: gui/qt/util.py:228 gui/qt/__init__.py:596 gui/qt/__init__.py:598
 #: gui/qt/installwizard.py:237 gui/qt/installwizard.py:241 gui/text.py:362
 #: gui/stdio.py:209 ios/ElectronCash/electroncash_gui/ios_native/send.py:1012
 #: ios/ElectronCash/electroncash_gui/ios_native/send.py:1025
@@ -2821,7 +2822,7 @@ msgstr ""
 msgid "Error occurred adding to Contacts"
 msgstr ""
 
-#: gui/qt/main_window.py:3403
+#: gui/qt/main_window.py:3405
 msgid "Error retrieving transaction"
 msgstr ""
 
@@ -2837,7 +2838,7 @@ msgstr ""
 msgid "Error: duplicate master public key"
 msgstr ""
 
-#: gui/qt/__init__.py:444
+#: gui/qt/__init__.py:446
 msgid "Exit Electron Cash"
 msgstr ""
 
@@ -2845,11 +2846,11 @@ msgstr ""
 msgid "Expected conf."
 msgstr ""
 
-#: gui/qt/transaction_dialog.py:406
+#: gui/qt/transaction_dialog.py:412
 msgid "Expected confirmation time"
 msgstr ""
 
-#: gui/qt/main_window.py:1144
+#: gui/qt/main_window.py:1146
 msgid "Expiration date of your request."
 msgstr "Vervaldatum van je aanvraag."
 
@@ -2857,21 +2858,21 @@ msgstr "Vervaldatum van je aanvraag."
 msgid "Expired"
 msgstr "Verlopen"
 
-#: gui/qt/main_window.py:1146
+#: gui/qt/main_window.py:1148
 msgid "Expired requests have to be deleted manually from your list, in order to free the corresponding Bitcoin Cash addresses."
 msgstr ""
 
-#: gui/qt/invoice_list.py:36 gui/qt/main_window.py:2724
+#: gui/qt/invoice_list.py:36 gui/qt/main_window.py:2726
 msgid "Expires"
 msgstr "Vervalt"
 
 #. hist_menu.addAction(_("Plot"), self.plot_history_dialog).setEnabled(plot_history is not None)
-#: gui/qt/main_window.py:627 gui/qt/main_window.py:632
-#: gui/qt/main_window.py:3493 gui/qt/main_window.py:3641
+#: gui/qt/main_window.py:629 gui/qt/main_window.py:634
+#: gui/qt/main_window.py:3496 gui/qt/main_window.py:3668
 msgid "Export"
 msgstr "Exporteren"
 
-#: gui/qt/main_window.py:3633
+#: gui/qt/main_window.py:3636
 msgid "Export History"
 msgstr "Geschiedenis exporteren"
 
@@ -2883,7 +2884,11 @@ msgstr ""
 msgid "Exporting Wallet..."
 msgstr ""
 
-#: gui/qt/main_window.py:3455
+#: gui/qt/main_window.py:3769
+msgid "Exporting history, please wait ..."
+msgstr ""
+
+#: gui/qt/main_window.py:3457
 msgid "Exposing a single private key can compromise your entire wallet!"
 msgstr "Eén enkele Privé Sleutel onthullen kan uw gehele portemonnee in gevaar brengen!"
 
@@ -2896,7 +2901,7 @@ msgstr "Breid deze seed uit met woorden"
 msgid "External Address"
 msgstr ""
 
-#: gui/qt/main_window.py:2344
+#: gui/qt/main_window.py:2346
 #, python-brace-format
 msgid "Extra parameter in URI was ignored:\n\n"
 "{extra_params}"
@@ -2905,16 +2910,16 @@ msgid_plural "Extra parameters in URI were ignored:\n\n"
 msgstr[0] ""
 msgstr[1] ""
 
-#: gui/qt/main_window.py:1560
+#: gui/qt/main_window.py:1562
 msgid "F&ee"
 msgstr ""
 
-#: plugins/satochip/qt.py:195
+#: plugins/satochip/qt.py:206
 msgid "Failed to change PIN!"
 msgstr ""
 
 #: plugins/digitalbitbox/digitalbitbox.py:704 plugins/keepkey/keepkey.py:295
-#: plugins/satochip/satochip.py:481 plugins/trezor/trezor.py:312
+#: plugins/satochip/satochip.py:480 plugins/trezor/trezor.py:312
 msgid "Failed to create a client for this device."
 msgstr ""
 
@@ -2926,11 +2931,11 @@ msgstr ""
 msgid "Failed to load zbar: {}"
 msgstr ""
 
-#: plugins/satochip/qt.py:288
+#: plugins/satochip/qt.py:302
 msgid "Failed to reset 2FA with error code: {hex(sw1)}{hex(sw2)}"
 msgstr ""
 
-#: plugins/satochip/qt.py:251
+#: plugins/satochip/qt.py:265
 msgid "Failed to reset seed with error code: {hex(sw1)}{hex(sw2)}"
 msgstr ""
 
@@ -2938,7 +2943,7 @@ msgstr ""
 msgid "Failed to send transaction to cosigning pool."
 msgstr ""
 
-#: gui/qt/main_window.py:2904
+#: gui/qt/main_window.py:2906
 #: ios/ElectronCash/electroncash_gui/ios_native/gui.py:2054
 msgid "Failed to update password"
 msgstr "Bijwerken van wachtwoord mislukt"
@@ -2948,7 +2953,7 @@ msgid "Failed to verify SSL certificate"
 msgstr ""
 
 #. Fee Label
-#: gui/qt/transaction_dialog.py:417 gui/text.py:177
+#: gui/qt/transaction_dialog.py:423 gui/text.py:177
 #: ios/ElectronCash/electroncash_gui/ios_native/send.py:195
 #: ios/ElectronCash/electroncash_gui/ios_native/txdetail.py:564
 msgid "Fee"
@@ -2958,11 +2963,11 @@ msgstr "Transactiekosten"
 msgid "Fee manual edit"
 msgstr ""
 
-#: gui/qt/main_window.py:4924
+#: gui/qt/main_window.py:4999
 msgid "Fee:"
 msgstr "Kosten:"
 
-#: gui/qt/transaction_dialog.py:419
+#: gui/qt/transaction_dialog.py:425
 #, python-brace-format
 msgid "Fee: {fee_amount} {fee_unit} ( {fee_rate} )"
 msgstr ""
@@ -2971,17 +2976,21 @@ msgstr ""
 msgid "Feel free to add your email address if you are willing to provide further detail, but note that it will appear in the relevant github issue."
 msgstr ""
 
-#: gui/qt/main_window.py:4099
+#: gui/qt/main_window.py:4174
 #: ios/ElectronCash/electroncash_gui/ios_native/prefs.py:24
 msgid "Fees"
 msgstr "Transactiekosten"
 
-#: gui/qt/main_window.py:4588
+#: gui/qt/main_window.py:4663
 msgctxt "The preferences -> Fees,misc tab"
 msgid "Fees && Misc."
 msgstr ""
 
-#: gui/qt/main_window.py:4593
+#: gui/qt/main_window.py:3647
+msgid "Fetch accurate fees from network (slower)"
+msgstr ""
+
+#: gui/qt/main_window.py:4668
 #: ios/ElectronCash/electroncash_gui/ios_native/prefs.py:24
 msgid "Fiat"
 msgstr ""
@@ -2996,11 +3005,11 @@ msgstr ""
 msgid "Fiat currency"
 msgstr "Fiat geld"
 
-#: gui/qt/main_window.py:4581
+#: gui/qt/main_window.py:4656
 msgid "Fiat currency:"
 msgstr ""
 
-#: gui/qt/util.py:509 ios/ElectronCash/electroncash_gui/ios_native/utils.py:339
+#: gui/qt/util.py:534 ios/ElectronCash/electroncash_gui/ios_native/utils.py:339
 msgid "File"
 msgstr "Bestand"
 
@@ -3031,11 +3040,11 @@ msgstr ""
 msgid "For improved privacy, shuffled coins and unshuffled coins cannot be sent together in the same transaction when CashShuffle is enabled."
 msgstr ""
 
-#: gui/qt/main_window.py:4124
+#: gui/qt/main_window.py:4199
 msgid "For more information, see http://openalias.org"
 msgstr ""
 
-#: gui/qt/main_window.py:4270
+#: gui/qt/main_window.py:4345
 msgid "For scanning QR codes."
 msgstr ""
 
@@ -3051,11 +3060,11 @@ msgstr ""
 msgid "Force upload"
 msgstr ""
 
-#: gui/qt/util.py:485
+#: gui/qt/util.py:509
 msgid "Format"
 msgstr "Formaat"
 
-#: gui/qt/main_window.py:2586
+#: gui/qt/main_window.py:2588
 msgid "Format: address, amount"
 msgstr "Formaat: adres, hoeveelheid"
 
@@ -3088,19 +3097,19 @@ msgstr ""
 msgid "From %d cosigners"
 msgstr ""
 
-#: gui/qt/main_window.py:677
+#: gui/qt/main_window.py:679
 msgid "From &File"
 msgstr ""
 
-#: gui/qt/main_window.py:680
+#: gui/qt/main_window.py:682
 msgid "From &QR Code"
 msgstr ""
 
-#: gui/qt/main_window.py:678
+#: gui/qt/main_window.py:680
 msgid "From &Text"
 msgstr ""
 
-#: gui/qt/main_window.py:679
+#: gui/qt/main_window.py:681
 msgid "From the &Blockchain"
 msgstr ""
 
@@ -3138,11 +3147,11 @@ msgstr ""
 msgid "Funds that are not yet shuffled"
 msgstr ""
 
-#: gui/qt/main_window.py:4587
+#: gui/qt/main_window.py:4662
 msgid "General"
 msgstr ""
 
-#: gui/qt/main_window.py:1576
+#: gui/qt/main_window.py:1578
 msgid "Generally, a fee of 1.0 sats/B is a good minimal rate to ensure your transaction will make it into the next block."
 msgstr ""
 
@@ -3213,7 +3222,7 @@ msgstr ""
 msgid "Height"
 msgstr "Hoogte"
 
-#: gui/qt/util.py:107
+#: gui/qt/util.py:109
 msgid "Help"
 msgstr ""
 
@@ -3221,7 +3230,7 @@ msgstr ""
 msgid "Here is your master public key."
 msgstr "Dit is uw publieke hoofdsleutel."
 
-#: gui/qt/main_window.py:3468
+#: gui/qt/main_window.py:3470
 msgid "Hide"
 msgstr ""
 
@@ -3237,17 +3246,17 @@ msgstr ""
 msgid "Hide shuffle transactions"
 msgstr ""
 
-#: gui/qt/main_window.py:4377
+#: gui/qt/main_window.py:4452
 msgid "Hide status button"
 msgstr ""
 
-#: gui/qt/main_window.py:298 gui/qt/main_window.py:641
+#: gui/qt/main_window.py:300 gui/qt/main_window.py:643
 #, python-brace-format
 msgid "Hide {tab_description}"
 msgstr ""
 
 #. /Cash Accounts
-#: gui/qt/main_window.py:176 gui/qt/address_dialog.py:113 gui/text.py:63
+#: gui/qt/main_window.py:178 gui/qt/address_dialog.py:113 gui/text.py:63
 msgid "History"
 msgstr "Geschiedenis"
 
@@ -3275,11 +3284,11 @@ msgstr ""
 msgid "However, hardware wallets do not support message decryption, which makes them not compatible with the current design of cosigner pool."
 msgstr ""
 
-#: gui/qt/__init__.py:800
+#: gui/qt/__init__.py:802
 msgid "However, on some Windows systems, bugs in Qt may result in minor graphics glitches in system 'message box' dialogs."
 msgstr ""
 
-#: gui/qt/__init__.py:796
+#: gui/qt/__init__.py:798
 msgid "However, on some esoteric Linux systems, this mode may cause disproportionately large status bar icons."
 msgstr ""
 
@@ -3295,7 +3304,7 @@ msgstr ""
 msgid "I accept responsibility for any harm that comes from installing this plugin, and acknowledge:"
 msgstr ""
 
-#: lib/base_wizard.py:119 plugins/satochip/satochip.py:634
+#: lib/base_wizard.py:119 plugins/satochip/satochip.py:637
 msgid "I already have a seed"
 msgstr ""
 
@@ -3307,7 +3316,7 @@ msgstr ""
 msgid "ID"
 msgstr ""
 
-#: gui/qt/main_window.py:4149
+#: gui/qt/main_window.py:4224
 msgid "Identity"
 msgstr "Identiteit"
 
@@ -3320,11 +3329,11 @@ msgstr ""
 msgid "If auto-connect is enabled, Electron Cash will always use a server that is on the longest blockchain."
 msgstr ""
 
-#: gui/qt/main_window.py:4378
+#: gui/qt/main_window.py:4453
 msgid "If checked, the status bar button for toggling address formats will be hidden"
 msgstr ""
 
-#: gui/qt/main_window.py:4395
+#: gui/qt/main_window.py:4470
 msgid "If enabled, a system notification will be presented when you receive funds to this wallet."
 msgstr ""
 
@@ -3332,7 +3341,7 @@ msgstr ""
 msgid "If enabled, restricts Electron Cash to connecting to servers only marked as 'preferred'."
 msgstr ""
 
-#: gui/qt/main_window.py:4472
+#: gui/qt/main_window.py:4547
 #, python-brace-format
 msgid "If enabled, you will be allowed to use legacy '{prefix_char}...' style addresses in the Send tab.\n"
 "Otherwise you must use CashAddr for p2sh in the UI."
@@ -3351,7 +3360,7 @@ msgstr ""
 msgid "If someone you do not trust wants you to enter something here, that person might be attempting a social engineering / phishing attack on you."
 msgstr ""
 
-#: gui/qt/__init__.py:797 gui/qt/__init__.py:801
+#: gui/qt/__init__.py:799 gui/qt/__init__.py:803
 msgid "If that is the case for you, then you may disable automatic DPI scaling in the preferences, under 'General'."
 msgstr ""
 
@@ -3359,11 +3368,15 @@ msgstr ""
 msgid "If the official source for this plugin has a checksum for this plugin, ensure that the value shown here is the same."
 msgstr ""
 
+#: gui/qt/main_window.py:3650 gui/qt/transaction_dialog.py:474
+msgid "If this is checked, accurate fee and input value data will be retrieved from the network"
+msgstr ""
+
 #: lib/base_wizard.py:227
 msgid "If this problem persists, please visit:"
 msgstr ""
 
-#: gui/qt/main_window.py:1114 gui/qt/main_window.py:1514
+#: gui/qt/main_window.py:1116 gui/qt/main_window.py:1516
 msgid "If unchecked, the textbox contents are UTF8-encoded into a single-push script: <tt>OP_RETURN PUSH &lt;text&gt;</tt>. If checked, the text contents will be interpreted as a raw hexadecimal script to be appended after the OP_RETURN opcode: <tt>OP_RETURN &lt;script&gt;</tt>."
 msgstr ""
 
@@ -3392,7 +3405,7 @@ msgstr ""
 msgid "If you do not know what this is, leave this field empty."
 msgstr ""
 
-#: gui/qt/main_window.py:4987
+#: gui/qt/main_window.py:5062
 msgid "If you enable it, Electron Cash will shuffle your coins for greater <b>privacy</b>. However, you will pay fractions of a penny per shuffle in transaction fees."
 msgstr ""
 
@@ -3410,7 +3423,7 @@ msgstr ""
 msgid "If you lose your seed, your money will be permanently lost."
 msgstr "Als je je seed verliest, is je geld onherroepelijk kwijt."
 
-#: gui/qt/main_window.py:1506
+#: gui/qt/main_window.py:1508
 msgid "If you specify OP_RETURN text, you may leave the 'Pay to' field blank."
 msgstr ""
 
@@ -3429,16 +3442,16 @@ msgstr ""
 msgid "If you want the wallet to use legacy Bitcoin addresses use m/44'/0'/0'"
 msgstr ""
 
-#: gui/qt/main_window.py:1334
+#: gui/qt/main_window.py:1336
 msgid "If you want to create new addresses, use a deterministic wallet instead."
 msgstr "Als je nieuwe adressen wilt aanmaken, kun je beter een deterministic wallet gebruiken."
 
-#: gui/qt/main_window.py:5224
+#: gui/qt/main_window.py:5299
 msgid "If you wish to control which specific coins are used to fund this registration transaction, feel free to use the Coins and/or Addresses tabs' Spend-from facility.\n\n"
 "('Spend from' is a right-click menu option in either tab.)"
 msgstr ""
 
-#: gui/qt/main_window.py:3013
+#: gui/qt/main_window.py:3015
 msgid "If your wallet contains funds, make sure you have saved its seed."
 msgstr ""
 
@@ -3460,8 +3473,8 @@ msgstr ""
 msgid "Immature Coinbase: Spend Locked"
 msgstr ""
 
-#: gui/qt/main_window.py:626 gui/qt/main_window.py:629
-#: gui/qt/main_window.py:3796
+#: gui/qt/main_window.py:628 gui/qt/main_window.py:631
+#: gui/qt/main_window.py:3871
 #: ios/ElectronCash/electroncash_gui/ios_native/newwallet.py:34
 #: ios/ElectronCash/electroncash_gui/ios_native/newwallet.py:852
 #: ios/ElectronCash/electroncash_gui/ios_native/newwallet.py:972
@@ -3485,7 +3498,7 @@ msgstr ""
 msgid "Import Bitcoin Cash addresses or private keys"
 msgstr ""
 
-#: gui/qt/main_window.py:614 gui/qt/main_window.py:3821
+#: gui/qt/main_window.py:616 gui/qt/main_window.py:3896
 msgid "Import addresses"
 msgstr "Importeer adressen"
 
@@ -3501,7 +3514,7 @@ msgstr "Bestand importeren"
 msgid "Import pairing from the Digital Bitbox desktop app"
 msgstr ""
 
-#: gui/qt/main_window.py:3832
+#: gui/qt/main_window.py:3907
 msgid "Import private keys"
 msgstr "Importeer privé sleutels"
 
@@ -3533,11 +3546,11 @@ msgstr ""
 msgid "In addition, a blame protocol is used to mitigate time-wasting denial-of-service type attacks."
 msgstr ""
 
-#: gui/qt/main_window.py:505
+#: gui/qt/main_window.py:507
 msgid "In order to use this wallet without errors with this version of EC, please <b>re-generate this wallet from seed</b>."
 msgstr ""
 
-#: gui/qt/main_window.py:3456
+#: gui/qt/main_window.py:3458
 msgid "In particular, DO NOT use 'redeem private key' services proposed by third parties."
 msgstr "In het bijzonder, GEBRUIK NOOIT 'inlossen privé sleutel' diensten bij derde partijen."
 
@@ -3554,12 +3567,20 @@ msgstr ""
 msgid "In queue (reshuf)"
 msgstr ""
 
-#: gui/qt/main_window.py:4430
+#: gui/qt/main_window.py:4505
 msgid "In some cases, use up to 3 change addresses in order to break up large coin amounts and obfuscate the recipient address."
 msgstr "Gebruik in sommige gevallen 3 verschillende adressen om grotere coin transacties op te delen en het ontvangstadres te verdoezelen."
 
 #: lib/util.py:52
 msgid "In the next block"
+msgstr ""
+
+#: gui/qt/main_window.py:3643
+msgid "Include addresses"
+msgstr ""
+
+#: gui/qt/main_window.py:3645
+msgid "Include input and output addresses in history export"
 msgstr ""
 
 #: lib/util.py:63
@@ -3575,7 +3596,7 @@ msgid "Index"
 msgstr ""
 
 #. can be called from any thread, always runs in main thread
-#: gui/qt/main_window.py:478 gui/qt/util.py:234
+#: gui/qt/main_window.py:480 gui/qt/util.py:236
 #: ios/ElectronCash/electroncash_gui/ios_native/network_dialog.py:506
 #: ios/ElectronCash/electroncash_gui/ios_native/gui.py:1103
 #: plugins/keepkey/qt.py:574 plugins/trezor/qt.py:663
@@ -3597,12 +3618,12 @@ msgstr ""
 
 #. value_text = (value is not None and (self.main_window.format_amount(value) + " " + self.main_window.base_unit()))
 #. menu.addAction(_("Input") + " #" + str(i) + (' - ' + value_text if value else '')).setDisabled(True)
-#: gui/qt/transaction_dialog.py:732
+#: gui/qt/transaction_dialog.py:738
 msgid "Input"
 msgstr ""
 
 #. Placeholder for amount
-#: gui/qt/main_window.py:4912
+#: gui/qt/main_window.py:4987
 #: ios/ElectronCash/electroncash_gui/ios_native/receive.py:212
 #: ios/ElectronCash/electroncash_gui/ios_native/send.py:275
 msgid "Input amount"
@@ -3612,7 +3633,7 @@ msgstr "Voer bedrag in"
 msgid "Input data is not a transaction hash."
 msgstr ""
 
-#: gui/qt/main_window.py:3373
+#: gui/qt/main_window.py:3375
 msgid "Input raw transaction"
 msgstr "Voeg een rauwe transactie toe"
 
@@ -3633,11 +3654,11 @@ msgstr ""
 msgid "Installed"
 msgstr ""
 
-#: gui/qt/main_window.py:665
+#: gui/qt/main_window.py:667
 msgid "Installed &Plugins"
 msgstr ""
 
-#: gui/qt/main_window.py:2072
+#: gui/qt/main_window.py:2074
 #: ios/ElectronCash/electroncash_gui/ios_native/send.py:479
 #: ios/ElectronCash/electroncash_gui/ios_native/send.py:802
 msgid "Insufficient funds"
@@ -3656,19 +3677,19 @@ msgid "Invalid"
 msgstr ""
 
 #. Bad 'address' code path
-#: gui/qt/main_window.py:2651
+#: gui/qt/main_window.py:2653
 #: ios/ElectronCash/electroncash_gui/ios_native/contacts.py:472
 #: ios/ElectronCash/electroncash_gui/ios_native/send.py:488
 #: ios/ElectronCash/electroncash_gui/ios_native/send.py:1012
 msgid "Invalid Address"
 msgstr "Ongeldig adres"
 
-#: gui/qt/main_window.py:1951 gui/text.py:331 gui/stdio.py:174
+#: gui/qt/main_window.py:1953 gui/text.py:331 gui/stdio.py:174
 #: ios/ElectronCash/electroncash_gui/ios_native/send.py:1030
 msgid "Invalid Amount"
 msgstr "Ongeldig bedrag"
 
-#: gui/qt/main_window.py:3133 gui/qt/main_window.py:3159
+#: gui/qt/main_window.py:3135 gui/qt/main_window.py:3161
 #: ios/ElectronCash/electroncash_gui/ios_native/sign_decrypt_dialog.py:234
 #: ios/ElectronCash/electroncash_gui/ios_native/sign_decrypt_dialog.py:278
 msgid "Invalid Bitcoin Cash address."
@@ -3695,7 +3716,7 @@ msgstr ""
 msgid "Invalid Fee"
 msgstr ""
 
-#: gui/qt/main_window.py:508
+#: gui/qt/main_window.py:510
 msgid "Invalid Master Key"
 msgstr ""
 
@@ -3719,7 +3740,7 @@ msgstr ""
 msgid "Invalid amount"
 msgstr ""
 
-#: gui/qt/main_window.py:2362
+#: gui/qt/main_window.py:2364
 #: ios/ElectronCash/electroncash_gui/ios_native/gui.py:1220
 msgid "Invalid bitcoincash URI:"
 msgstr ""
@@ -3729,7 +3750,7 @@ msgstr ""
 msgid "Invalid channel."
 msgstr ""
 
-#: gui/qt/main_window.py:1918
+#: gui/qt/main_window.py:1920
 msgid "Invalid lines found:"
 msgstr ""
 
@@ -3737,19 +3758,19 @@ msgstr ""
 msgid "Invalid name, please try again."
 msgstr ""
 
-#: gui/qt/main_window.py:2710
+#: gui/qt/main_window.py:2712
 msgid "Invoice"
 msgstr "Factuur"
 
-#: gui/qt/main_window.py:2735
+#: gui/qt/main_window.py:2737
 msgid "Invoice saved as "
 msgstr "Factuur bewaard als "
 
-#: gui/qt/main_window.py:628 gui/qt/main_window.py:1662
+#: gui/qt/main_window.py:630 gui/qt/main_window.py:1664
 msgid "Invoices"
 msgstr "Facturen"
 
-#: gui/qt/cashacctqt.py:893 gui/qt/address_list.py:387
+#: gui/qt/cashacctqt.py:893 gui/qt/address_list.py:389
 msgid "Is default for address"
 msgstr ""
 
@@ -3757,15 +3778,15 @@ msgstr ""
 msgid "It appears the derivation you specified is invalid. Please try again"
 msgstr ""
 
-#: gui/qt/main_window.py:3424
+#: gui/qt/main_window.py:3426
 msgid "It can not be \"backed up\" by simply exporting these private keys."
 msgstr ""
 
-#: gui/qt/main_window.py:3421
+#: gui/qt/main_window.py:3423
 msgid "It cannot be used with BIP38 encrypted keys."
 msgstr ""
 
-#: gui/qt/main_window.py:1575
+#: gui/qt/main_window.py:1577
 msgid "It is calculated from the Custom Fee Rate in preferences, but can be overridden from the manual fee edit on this form (if enabled)."
 msgstr ""
 
@@ -3785,11 +3806,11 @@ msgstr ""
 msgid "It was not possible to copy the plugin archive into Electron Cash's plugin storage location. It was therefore not possible to install it."
 msgstr ""
 
-#: gui/qt/util.py:491
+#: gui/qt/util.py:516
 msgid "JSON"
 msgstr ""
 
-#: gui/qt/main_window.py:5050
+#: gui/qt/main_window.py:5125
 msgid "Just to be safe, back up your wallet file first!"
 msgstr ""
 
@@ -3801,7 +3822,7 @@ msgstr ""
 msgid "KeepKey wallet"
 msgstr ""
 
-#: gui/qt/main_window.py:1536
+#: gui/qt/main_window.py:1538
 msgid "Keyboard shortcut: type \"!\" to send all your coins."
 msgstr "Sneltoets: voer \"!\" in om alles te verzenden."
 
@@ -3842,7 +3863,7 @@ msgstr ""
 msgid "Labels, transactions IDs and addresses are encrypted before they are sent to the remote server."
 msgstr ""
 
-#: gui/qt/main_window.py:4034 plugins/keepkey/qt.py:449
+#: gui/qt/main_window.py:4109 plugins/keepkey/qt.py:449
 #: plugins/trezor/qt.py:528
 msgid "Language"
 msgstr "Taal"
@@ -3867,11 +3888,11 @@ msgstr ""
 msgid "Ledger wallet"
 msgstr ""
 
-#: gui/qt/main_window.py:3873 gui/qt/main_window.py:4370
+#: gui/qt/main_window.py:3948 gui/qt/main_window.py:4445
 msgid "Legacy"
 msgstr ""
 
-#: gui/qt/main_window.py:2042
+#: gui/qt/main_window.py:2044
 #, python-brace-format
 msgid "Legacy '{prefix_char}...' p2sh address support in the Send tab is restricted by default in order to prevent inadvertently sending BCH to Segwit BTC addresses.\n\n"
 "If you are an expert user, go to 'Preferences -> Transactions' to enable the use of legacy p2sh addresses in the Send tab."
@@ -3895,7 +3916,7 @@ msgstr ""
 msgid "Library version for '{}' is incompatible."
 msgstr ""
 
-#: gui/qt/main_window.py:1918
+#: gui/qt/main_window.py:1920
 msgid "Line #"
 msgstr "Rij #"
 
@@ -3911,7 +3932,7 @@ msgstr ""
 msgid "Load a wallet from the micro SD card (the current seed is overwritten)"
 msgstr ""
 
-#: gui/qt/main_window.py:3373
+#: gui/qt/main_window.py:3375
 msgid "Load transaction"
 msgstr "Laad transactie in"
 
@@ -3919,7 +3940,7 @@ msgstr "Laad transactie in"
 msgid "Loading backup..."
 msgstr ""
 
-#: gui/qt/transaction_dialog.py:450
+#: gui/qt/transaction_dialog.py:455
 #, python-brace-format
 msgid "LockTime: {lock_time}"
 msgstr ""
@@ -3932,7 +3953,7 @@ msgstr ""
 msgid "Lookup"
 msgstr ""
 
-#: gui/qt/main_window.py:687
+#: gui/qt/main_window.py:689
 msgid "Lookup &Cash Account..."
 msgstr ""
 
@@ -3940,11 +3961,11 @@ msgstr ""
 msgid "Lookup Cash Account"
 msgstr ""
 
-#: gui/qt/main_window.py:3399
+#: gui/qt/main_window.py:3401
 msgid "Lookup transaction"
 msgstr "Transactie opzoeken"
 
-#: gui/qt/main_window.py:2213
+#: gui/qt/main_window.py:2215
 msgid "Low Fee"
 msgstr ""
 
@@ -3960,12 +3981,12 @@ msgstr ""
 msgid "Made with <a href='https://chaquo.com/chaquopy'>Chaquopy</a>, the Python SDK for Android."
 msgstr ""
 
-#: gui/qt/cashacctqt.py:892 gui/qt/address_list.py:378
+#: gui/qt/cashacctqt.py:892 gui/qt/address_list.py:380
 msgid "Make default for address"
 msgstr ""
 
 #: plugins/digitalbitbox/digitalbitbox.py:705 plugins/keepkey/keepkey.py:296
-#: plugins/satochip/satochip.py:482 plugins/trezor/trezor.py:313
+#: plugins/satochip/satochip.py:481 plugins/trezor/trezor.py:313
 msgid "Make sure it is in the correct state."
 msgstr ""
 
@@ -3973,7 +3994,7 @@ msgstr ""
 msgid "Make sure you install it with python3"
 msgstr ""
 
-#: gui/qt/main_window.py:476
+#: gui/qt/main_window.py:478
 msgid "Make sure you own the seed phrase or the private keys, before you request Bitcoin Cash to be sent to this wallet."
 msgstr ""
 
@@ -3990,11 +4011,11 @@ msgstr ""
 msgid "Master Key"
 msgstr ""
 
-#: gui/qt/main_window.py:3001 gui/qt/installwizard.py:509
+#: gui/qt/main_window.py:3003 gui/qt/installwizard.py:509
 msgid "Master Public Key"
 msgstr "Publieke Hoofdsleutel"
 
-#: gui/qt/main_window.py:2998
+#: gui/qt/main_window.py:3000
 msgid "Master Public Keys"
 msgstr "&Publieke Hoofdsleutels"
 
@@ -4006,7 +4027,7 @@ msgstr ""
 msgid "Max"
 msgstr ""
 
-#: gui/qt/main_window.py:4941
+#: gui/qt/main_window.py:5016
 #: ios/ElectronCash/electroncash_gui/ios_native/send.py:482
 msgid "Max fee exceeded"
 msgstr "Maximale fee overschreden"
@@ -4019,11 +4040,11 @@ msgstr ""
 msgid "Maximum coin:"
 msgstr ""
 
-#: gui/qt/main_window.py:2719
+#: gui/qt/main_window.py:2721
 msgid "Memo"
 msgstr ""
 
-#: gui/qt/main_window.py:3182 gui/qt/main_window.py:3241
+#: gui/qt/main_window.py:3184 gui/qt/main_window.py:3243
 msgid "Message"
 msgstr "Bericht"
 
@@ -4035,12 +4056,12 @@ msgstr ""
 msgid "Method:"
 msgstr ""
 
-#: gui/qt/main_window.py:1859 gui/qt/contact_list.py:384
+#: gui/qt/main_window.py:1861 gui/qt/contact_list.py:384
 msgid "Mine"
 msgstr ""
 
 #. Mined in block
-#: gui/qt/cashacctqt.py:869 gui/qt/transaction_dialog.py:394
+#: gui/qt/cashacctqt.py:869 gui/qt/transaction_dialog.py:400
 msgid "Mined in block"
 msgstr ""
 
@@ -4048,12 +4069,12 @@ msgstr ""
 msgid "Minimum coin:"
 msgstr ""
 
-#: gui/qt/main_window.py:2096
+#: gui/qt/main_window.py:2098
 #: ios/ElectronCash/electroncash_gui/ios_native/send.py:826
 msgid "Mining fee"
 msgstr "Mining vergoeding"
 
-#: gui/qt/__init__.py:750
+#: gui/qt/__init__.py:752
 msgid "Missing libsecp256k1"
 msgstr ""
 
@@ -4102,7 +4123,7 @@ msgid "NOT DEVICE PIN - see above"
 msgstr ""
 
 #: gui/qt/external_plugins_window.py:75 gui/qt/external_plugins_window.py:475
-#: gui/qt/main_window.py:2950 gui/qt/contact_list.py:58
+#: gui/qt/main_window.py:2952 gui/qt/contact_list.py:58
 #: ios/ElectronCash/electroncash_gui/ios_native/contacts.py:572
 #: ios/ElectronCash/electroncash_gui/ios_native/wallets.py:360
 msgid "Name"
@@ -4121,7 +4142,7 @@ msgstr ""
 msgid "Needs update"
 msgstr ""
 
-#: gui/qt/main_window.py:2851 gui/qt/network_dialog.py:48 gui/text.py:149
+#: gui/qt/main_window.py:2853 gui/qt/network_dialog.py:48 gui/text.py:149
 #: ios/ElectronCash/electroncash_gui/ios_native/gui.py:2116
 msgid "Network"
 msgstr "Netwerk"
@@ -4130,10 +4151,10 @@ msgstr "Netwerk"
 msgid "Network Settings"
 msgstr ""
 
-#: gui/qt/main_window.py:866 gui/qt/main_window.py:867
 #: gui/qt/main_window.py:868 gui/qt/main_window.py:869
 #: gui/qt/main_window.py:870 gui/qt/main_window.py:871
 #: gui/qt/main_window.py:872 gui/qt/main_window.py:873
+#: gui/qt/main_window.py:874 gui/qt/main_window.py:875
 msgid "Network Status"
 msgstr ""
 
@@ -4142,7 +4163,7 @@ msgstr ""
 msgid "Never"
 msgstr "Nooit"
 
-#: gui/qt/main_window.py:4993 plugins/shuffle/qt.py:1174
+#: gui/qt/main_window.py:5068 plugins/shuffle/qt.py:1174
 #: plugins/shuffle/qt.py:1343
 msgid "Never ask for this wallet"
 msgstr ""
@@ -4152,7 +4173,7 @@ msgstr ""
 msgid "Never disclose your seed."
 msgstr "Geef uw seed zin nooit weg."
 
-#: gui/qt/main_window.py:5234
+#: gui/qt/main_window.py:5309
 msgid "Never show this again"
 msgstr ""
 
@@ -4165,7 +4186,7 @@ msgstr "Typ het nooit in op een website."
 msgid "New Cash Account Contact"
 msgstr ""
 
-#: gui/qt/main_window.py:2942 gui/qt/main_window.py:2944
+#: gui/qt/main_window.py:2944 gui/qt/main_window.py:2946
 #: ios/ElectronCash/electroncash_gui/ios_native/contacts.py:566
 #: ios/ElectronCash/electroncash_gui/ios_native/txdetail.py:343
 msgid "New Contact"
@@ -4197,7 +4218,7 @@ msgstr ""
 msgid "New transaction received: {}"
 msgstr ""
 
-#: gui/qt/main_window.py:5440 gui/qt/main_window.py:5448
+#: gui/qt/main_window.py:5515 gui/qt/main_window.py:5523
 msgid "New transaction: {}"
 msgstr ""
 
@@ -4225,7 +4246,7 @@ msgid "No"
 msgstr ""
 
 #. client code shouldn't use this but instead use selectedItems(), etc
-#: gui/qt/cashacctqt.py:253 gui/qt/address_list.py:389
+#: gui/qt/cashacctqt.py:253 gui/qt/address_list.py:391
 msgid "No Cash Accounts"
 msgstr ""
 
@@ -4273,7 +4294,7 @@ msgstr ""
 msgid "No description provided."
 msgstr ""
 
-#: gui/qt/main_window.py:711
+#: gui/qt/main_window.py:713
 msgid "No donation address for this server"
 msgstr "Geen donatie adres voor deze server"
 
@@ -4289,16 +4310,16 @@ msgstr ""
 msgid "No matching x_key for sign_transaction"
 msgstr ""
 
-#: gui/qt/main_window.py:1283
+#: gui/qt/main_window.py:1285
 #: ios/ElectronCash/electroncash_gui/ios_native/receive.py:394
 msgid "No message or amount"
 msgstr "Geen bericht of bedrag"
 
-#: gui/qt/main_window.py:1332
+#: gui/qt/main_window.py:1334
 msgid "No more addresses in your wallet."
 msgstr "Geen adressen meer in je portemonnee."
 
-#: gui/qt/main_window.py:1946
+#: gui/qt/main_window.py:1948
 #: ios/ElectronCash/electroncash_gui/ios_native/send.py:1025
 msgid "No outputs"
 msgstr "Geen uitgangen"
@@ -4307,7 +4328,7 @@ msgstr "Geen uitgangen"
 msgid "No payment requests found. Feel free to create one."
 msgstr ""
 
-#: gui/qt/main_window.py:1279
+#: gui/qt/main_window.py:1281
 #: ios/ElectronCash/electroncash_gui/ios_native/receive.py:389
 msgid "No receiving address"
 msgstr ""
@@ -4340,12 +4361,12 @@ msgstr ""
 msgid "No wallet is open."
 msgstr ""
 
-#: gui/qt/main_window.py:1071
+#: gui/qt/main_window.py:1073
 msgctxt "Referencing CashAccount"
 msgid "None"
 msgstr ""
 
-#: gui/qt/main_window.py:4499
+#: gui/qt/main_window.py:4574
 #: ios/ElectronCash/electroncash_gui/ios_native/prefs.py:110
 #: ios/ElectronCash/electroncash_gui/ios_native/prefs.py:369
 msgctxt "Referencing Fiat currency"
@@ -4376,7 +4397,7 @@ msgstr ""
 msgid "Not Now"
 msgstr ""
 
-#: gui/qt/main_window.py:1785
+#: gui/qt/main_window.py:1787
 msgid "Not Removable"
 msgstr ""
 
@@ -4399,14 +4420,14 @@ msgid "Not a {schemes} URI"
 msgstr ""
 
 #. Don't allow a potentially very slow broadcast when obviously not connected.
-#: gui/qt/main_window.py:929 gui/qt/main_window.py:2225
+#: gui/qt/main_window.py:931 gui/qt/main_window.py:2227
 #: gui/qt/network_dialog.py:551 gui/text.py:142 gui/stdio.py:122
 #: ios/ElectronCash/electroncash_gui/ios_native/network_dialog.py:257
 #: ios/ElectronCash/electroncash_gui/ios_native/gui.py:717
 msgid "Not connected"
 msgstr "Niet verbonden"
 
-#: gui/qt/main_window.py:1630
+#: gui/qt/main_window.py:1632
 msgid "Not enough funds"
 msgstr "Saldo ontoereikend"
 
@@ -4418,7 +4439,7 @@ msgstr ""
 msgid "Not installed"
 msgstr ""
 
-#: gui/qt/main_window.py:4994
+#: gui/qt/main_window.py:5069
 msgid "Not now"
 msgstr ""
 
@@ -4426,7 +4447,7 @@ msgstr ""
 msgid "Not verified"
 msgstr ""
 
-#: gui/qt/main_window.py:1535
+#: gui/qt/main_window.py:1537
 msgid "Note that if you have frozen some of your addresses, the available funds will be lower than your total balance."
 msgstr "Houd er rekening mee dat als u enkele adressen hebt bevroren, het beschikbare saldo lager zal zijn dan uw totale saldo."
 
@@ -4446,7 +4467,7 @@ msgstr ""
 msgid "Note: You may now need to disconnect & reconnect your HW wallet."
 msgstr ""
 
-#: gui/qt/main_window.py:4394
+#: gui/qt/main_window.py:4469
 msgid "Notify when receiving funds"
 msgstr ""
 
@@ -4454,7 +4475,7 @@ msgstr ""
 msgid "Number of addresses to scan:"
 msgstr ""
 
-#: gui/qt/main_window.py:4074
+#: gui/qt/main_window.py:4149
 msgid "Number of zeros displayed after the decimal point. For example, if this is set to 2, \"1.\" will be displayed as \"1.00\""
 msgstr "Aantal nullen dat achter het decimaalteken wordt getoond. Bijvoorbeeld: met de waarde 2, zal \"1. BTC\" worden getoond als \"1.00 BTC\""
 
@@ -4475,7 +4496,7 @@ msgstr "Aantal nullen dat achter het decimaalteken wordt getoond. Bijvoorbeeld: 
 msgid "OK"
 msgstr ""
 
-#: gui/qt/main_window.py:1504
+#: gui/qt/main_window.py:1506
 msgid "OP_RETURN data (optional)."
 msgstr ""
 
@@ -4490,19 +4511,19 @@ msgid_plural "OP_RETURN is limited to {max_pushes} data pushes."
 msgstr[0] ""
 msgstr[1] ""
 
-#: gui/qt/main_window.py:1648 lib/transaction.py:1336
+#: gui/qt/main_window.py:1650 lib/transaction.py:1343
 msgid "OP_RETURN message too large, needs to be no longer than 220 bytes"
 msgstr ""
 
-#: lib/transaction.py:1352
+#: lib/transaction.py:1359
 msgid "OP_RETURN script expected to be hexadecimal bytes"
 msgstr ""
 
-#: lib/transaction.py:1354
+#: lib/transaction.py:1361
 msgid "OP_RETURN script too large, needs to be no longer than 223 bytes"
 msgstr ""
 
-#: gui/qt/main_window.py:866 gui/qt/main_window.py:879 gui/qt/__init__.py:712
+#: gui/qt/main_window.py:868 gui/qt/main_window.py:881 gui/qt/__init__.py:714
 #: gui/text.py:130 ios/ElectronCash/electroncash_gui/ios_native/wallets.py:153
 #: ios/ElectronCash/electroncash_gui/ios_native/prefs.py:230
 #: ios/ElectronCash/electroncash_gui/ios_native/gui.py:616
@@ -4517,7 +4538,7 @@ msgid "Offline signing with {} is not supported."
 msgstr ""
 
 #. any other case has all the below keys defined
-#: gui/qt/main_window.py:2235 plugins/shuffle/qt.py:1645
+#: gui/qt/main_window.py:2237 plugins/shuffle/qt.py:1645
 #: plugins/shuffle/qt.py:1678 plugins/shuffle/qt.py:1886
 msgid "Ok"
 msgstr ""
@@ -4526,12 +4547,12 @@ msgstr ""
 msgid "Omit incompatible pools"
 msgstr ""
 
-#: gui/qt/__init__.py:257
+#: gui/qt/__init__.py:259
 msgid "On Debian-based distros, you can run:\n\n"
 "    sudo apt install python3-pyqt5.qtsvg"
 msgstr ""
 
-#: gui/qt/__init__.py:255
+#: gui/qt/__init__.py:257
 msgid "On Linux, you may try:\n\n"
 "    python3 -m pip install --user -I pyqt5"
 msgstr ""
@@ -4540,7 +4561,7 @@ msgstr ""
 msgid "On most systems you can do so with this command:"
 msgstr ""
 
-#: gui/qt/main_window.py:2585
+#: gui/qt/main_window.py:2587
 msgid "One output per line."
 msgstr "1 output per regel."
 
@@ -4553,7 +4574,7 @@ msgstr ""
 msgid "Online Block Explorer"
 msgstr "Online Blokverkenner"
 
-#: gui/qt/main_window.py:4232
+#: gui/qt/main_window.py:4307
 msgid "Online block explorer"
 msgstr ""
 
@@ -4581,7 +4602,7 @@ msgstr ""
 msgid "Only wipe a device if you have the recovery seed written down and the device wallet(s) are empty, otherwise the bitcoins will be lost forever."
 msgstr ""
 
-#: gui/qt/main_window.py:595
+#: gui/qt/main_window.py:597
 msgid "Open &Recent"
 msgstr ""
 
@@ -4593,7 +4614,7 @@ msgstr ""
 msgid "Open Wallet"
 msgstr ""
 
-#: gui/qt/main_window.py:3602
+#: gui/qt/main_window.py:3605
 msgid "Open labels file"
 msgstr ""
 
@@ -4601,11 +4622,11 @@ msgstr ""
 msgid "Open your cosigner wallet to retrieve it."
 msgstr ""
 
-#: gui/qt/main_window.py:4125 gui/qt/contact_list.py:382
+#: gui/qt/main_window.py:4200 gui/qt/contact_list.py:382
 msgid "OpenAlias"
 msgstr ""
 
-#: gui/qt/main_window.py:4121
+#: gui/qt/main_window.py:4196
 msgid "OpenAlias record, used to receive coins and to sign payment requests."
 msgstr "OpenAlias record, gebruikt om munten te ontvangen en om betalingsverzoeken te ondertekenen."
 
@@ -4618,11 +4639,11 @@ msgstr ""
 msgid "Opening {}..."
 msgstr ""
 
-#: gui/qt/main_window.py:664
+#: gui/qt/main_window.py:666
 msgid "Optional &Features"
 msgstr ""
 
-#: gui/qt/main_window.py:4790
+#: gui/qt/main_window.py:4865
 msgid "Optional Features"
 msgstr ""
 
@@ -4640,13 +4661,13 @@ msgstr "Opties"
 msgid "Outdated {} firmware for device labelled {}. Please download the updated firmware from {}"
 msgstr ""
 
-#: gui/qt/transaction_dialog.py:801
+#: gui/qt/transaction_dialog.py:807
 #: ios/ElectronCash/electroncash_gui/ios_native/coins.py:194
 #: ios/ElectronCash/electroncash_gui/ios_native/coins.py:484
 msgid "Output"
 msgstr ""
 
-#: gui/qt/main_window.py:4915
+#: gui/qt/main_window.py:4990
 msgid "Output amount"
 msgstr "Opbrengst hoeveelheid"
 
@@ -4675,15 +4696,20 @@ msgstr ""
 msgid "PIN Protection"
 msgstr ""
 
-#: plugins/satochip/qt.py:192
+#: plugins/satochip/qt.py:175 plugins/satochip/qt.py:184
+#: plugins/satochip/qt.py:190
+msgid "PIN change cancelled!"
+msgstr ""
+
+#: plugins/satochip/qt.py:203
 msgid "PIN changed successfully!"
 msgstr ""
 
-#: plugins/satochip/satochip.py:177
+#: plugins/satochip/satochip.py:176
 msgid "PIN must have at least 4 characters."
 msgstr ""
 
-#: plugins/satochip/satochip.py:180
+#: plugins/satochip/satochip.py:179
 msgid "PIN must have less than 64 characters."
 msgstr ""
 
@@ -4719,7 +4745,7 @@ msgstr ""
 msgid "Passphrases allow you to access new wallets, each hidden behind a particular case-sensitive passphrase."
 msgstr ""
 
-#: gui/qt/main_window.py:2812 gui/qt/password_dialog.py:225
+#: gui/qt/main_window.py:2814 gui/qt/password_dialog.py:225
 #: gui/qt/network_dialog.py:412 gui/qt/installwizard.py:173
 msgid "Password"
 msgstr "Wachtwoord"
@@ -4737,7 +4763,7 @@ msgstr ""
 msgid "Password Strength"
 msgstr "Wachtwoordsterkte"
 
-#: gui/qt/main_window.py:2906
+#: gui/qt/main_window.py:2908
 #: ios/ElectronCash/electroncash_gui/ios_native/gui.py:2056
 msgid "Password is disabled, this wallet is not protected"
 msgstr "Wachtwoord inactief, deze portemonnee is niet beveiligd"
@@ -4752,7 +4778,7 @@ msgstr ""
 msgid "Password must have less than 64 characters."
 msgstr ""
 
-#: gui/qt/main_window.py:2906
+#: gui/qt/main_window.py:2908
 #: ios/ElectronCash/electroncash_gui/ios_native/gui.py:2056
 msgid "Password was updated successfully"
 msgstr "Wachtwoord succesvol bijgewerkt"
@@ -4779,7 +4805,7 @@ msgstr ""
 msgid "Paused"
 msgstr ""
 
-#: gui/qt/main_window.py:1483
+#: gui/qt/main_window.py:1485
 msgid "Pay &to"
 msgstr ""
 
@@ -4795,7 +4821,7 @@ msgstr "Betaal nu"
 msgid "Pay to"
 msgstr "Betaal aan"
 
-#: gui/qt/main_window.py:2589
+#: gui/qt/main_window.py:2591
 msgid "Pay to many"
 msgstr "Betaal aan meerdere"
 
@@ -4809,7 +4835,7 @@ msgid "Payment Request Error"
 msgstr ""
 
 #. send.set_PR(self.sendVC, None)
-#: gui/qt/main_window.py:1908 gui/qt/main_window.py:2171
+#: gui/qt/main_window.py:1910 gui/qt/main_window.py:2173
 #: ios/ElectronCash/electroncash_gui/ios_native/gui.py:1967
 msgid "Payment request has expired"
 msgstr "Betalingsaanvraag is verlopen"
@@ -4818,7 +4844,7 @@ msgstr "Betalingsaanvraag is verlopen"
 msgid "Payment request saved"
 msgstr ""
 
-#: gui/qt/main_window.py:2246 gui/text.py:358 gui/stdio.py:207
+#: gui/qt/main_window.py:2248 gui/text.py:358 gui/stdio.py:207
 #: ios/ElectronCash/electroncash_gui/ios_native/gui.py:2019
 msgid "Payment sent."
 msgstr "Betaling verzonden."
@@ -4831,7 +4857,7 @@ msgstr ""
 msgid "Pending"
 msgstr "In behandeling"
 
-#: gui/qt/main_window.py:4591
+#: gui/qt/main_window.py:4666
 msgid "Per-Wallet Options"
 msgstr ""
 
@@ -4847,7 +4873,7 @@ msgstr ""
 msgid "Players"
 msgstr ""
 
-#: plugins/satochip/qt.py:204
+#: plugins/satochip/qt.py:214
 msgid "Please be sure that your wallet is empty and that you have a backup of the seed as a precaution.\n\n"
 msgstr ""
 
@@ -4864,11 +4890,11 @@ msgstr ""
 msgid "Please choose a CashShuffle server"
 msgstr ""
 
-#: plugins/satochip/satochip.py:504
+#: plugins/satochip/satochip.py:506
 msgid "Please confirm the PIN code for your Satochip:"
 msgstr ""
 
-#: plugins/satochip/qt.py:180
+#: plugins/satochip/qt.py:187
 msgid "Please confirm the new PIN for your Satochip:"
 msgstr ""
 
@@ -4900,7 +4926,7 @@ msgstr ""
 msgid "Please enter the new name for this wallet:"
 msgstr ""
 
-#: gui/qt/main_window.py:1264 gui/qt/password_dialog.py:217
+#: gui/qt/main_window.py:1266 gui/qt/password_dialog.py:217
 #: plugins/shuffle/qt.py:675
 msgid "Please enter your password"
 msgstr "Gelieve uw wachtwoord in te geven"
@@ -4946,11 +4972,11 @@ msgstr ""
 msgid "Please provide cyphertext to decrypt"
 msgstr ""
 
-#: gui/qt/main_window.py:724
+#: gui/qt/main_window.py:726
 msgid "Please report any bugs as issues on github:<br/>"
 msgstr "Gelieve problemen te melden op github:"
 
-#: gui/qt/main_window.py:4650
+#: gui/qt/main_window.py:4725
 msgid "Please restart Electron Cash to activate the new GUI settings"
 msgstr ""
 
@@ -4958,11 +4984,11 @@ msgstr ""
 msgid "Please restart the plugin to activate the new settings"
 msgstr ""
 
-#: gui/qt/main_window.py:1994
+#: gui/qt/main_window.py:1996
 msgid "Please review payment before sending CoinText"
 msgstr ""
 
-#: gui/qt/main_window.py:5220
+#: gui/qt/main_window.py:5295
 msgid "Please review the transaction, save it, and/or broadcast it at your leisure."
 msgstr ""
 
@@ -4992,7 +5018,7 @@ msgstr ""
 msgid "Please try again."
 msgstr ""
 
-#: lib/base_wizard.py:446 plugins/satochip/satochip.py:662
+#: lib/base_wizard.py:446 plugins/satochip/satochip.py:665
 msgid "Please type it here."
 msgstr ""
 
@@ -5004,11 +5030,11 @@ msgstr ""
 msgid "Please update to v0.1.27 or greater"
 msgstr ""
 
-#: gui/qt/__init__.py:748
+#: gui/qt/__init__.py:750
 msgid "Please visit this page for instructions on how to correct the situation:"
 msgstr ""
 
-#: gui/qt/util.py:341 ios/ElectronCash/electroncash_gui/ios_native/utils.py:426
+#: gui/qt/util.py:347 ios/ElectronCash/electroncash_gui/ios_native/utils.py:426
 msgid "Please wait"
 msgstr "Even geduld"
 
@@ -5017,11 +5043,11 @@ msgid "Please wait while Electron Cash checks for available updates."
 msgstr ""
 
 #: gui/qt/installwizard.py:119 gui/text.py:354 gui/stdio.py:203
-#: lib/wallet.py:1727
+#: lib/wallet.py:1839
 msgid "Please wait..."
 msgstr "Even geduld..."
 
-#: gui/qt/main_window.py:3559
+#: gui/qt/main_window.py:3562
 #, python-brace-format
 msgid "Please wait... {num}/{total}"
 msgstr ""
@@ -5034,7 +5060,7 @@ msgstr ""
 msgid "Plugin Details"
 msgstr ""
 
-#: gui/qt/main_window.py:4874
+#: gui/qt/main_window.py:4949
 msgid "Plugin Manager"
 msgstr ""
 
@@ -5063,7 +5089,7 @@ msgstr ""
 msgid "Port"
 msgstr "Poort"
 
-#: gui/qt/main_window.py:2037
+#: gui/qt/main_window.py:2039
 #, python-brace-format
 msgid "Possible BTC Segwit address in 'Pay to' field. Please use CashAddr format for p2sh addresses.\n\n"
 "{segwit_addresses}"
@@ -5072,7 +5098,7 @@ msgid_plural "Possible BTC Segwit addresses in 'Pay to' field. Please use CashAd
 msgstr[0] ""
 msgstr[1] ""
 
-#: gui/qt/main_window.py:1505
+#: gui/qt/main_window.py:1507
 msgid "Posts a PERMANENT note to the BCH blockchain as part of this transaction."
 msgstr ""
 
@@ -5080,8 +5106,8 @@ msgstr ""
 msgid "Potentially Unsafe Operation"
 msgstr ""
 
-#: gui/qt/main_window.py:654 gui/qt/main_window.py:2846
-#: gui/qt/main_window.py:4023
+#: gui/qt/main_window.py:656 gui/qt/main_window.py:2848
+#: gui/qt/main_window.py:4098
 msgid "Preferences"
 msgstr "Voorkeuren"
 
@@ -5121,35 +5147,35 @@ msgstr ""
 msgid "Private Key"
 msgstr ""
 
-#: gui/qt/main_window.py:608
+#: gui/qt/main_window.py:610
 msgid "Private Keys"
 msgstr ""
 
-#: gui/qt/main_window.py:3063 gui/qt/main_window.py:3068
+#: gui/qt/main_window.py:3065 gui/qt/main_window.py:3070
 #: gui/qt/address_list.py:324
 #: ios/ElectronCash/electroncash_gui/ios_native/private_key_dialog.py:70
 #: ios/ElectronCash/electroncash_gui/ios_native/addresses.py:913
 msgid "Private key"
 msgstr "Privé sleutel"
 
-#: gui/qt/main_window.py:3447
+#: gui/qt/main_window.py:3449
 msgid "Private keys"
 msgstr "Privé sleutels"
 
-#: gui/qt/main_window.py:3589
+#: gui/qt/main_window.py:3592
 msgid "Private keys exported."
 msgstr "Privé sleutels zijn geëxporteerd."
 
-#: gui/qt/main_window.py:5171
+#: gui/qt/main_window.py:5246
 msgid "Proceed to Send Tab"
 msgstr ""
 
-#: gui/qt/main_window.py:2124 gui/qt/main_window.py:2212
+#: gui/qt/main_window.py:2126 gui/qt/main_window.py:2214
 #: ios/ElectronCash/electroncash_gui/ios_native/send.py:856
 msgid "Proceed?"
 msgstr "Doorgaan?"
 
-#: gui/qt/main_window.py:1599
+#: gui/qt/main_window.py:1601
 msgid "Process CoinText, transforming it into a BIP70 payment request."
 msgstr ""
 
@@ -5193,7 +5219,7 @@ msgstr ""
 msgid "Proxy user"
 msgstr ""
 
-#: gui/qt/main_window.py:3251
+#: gui/qt/main_window.py:3253
 #: ios/ElectronCash/electroncash_gui/ios_native/addresses.py:896
 msgid "Public key"
 msgstr "Publieke sleutel"
@@ -5202,7 +5228,7 @@ msgstr "Publieke sleutel"
 msgid "Public keys"
 msgstr "Publieke sleutels"
 
-#: gui/qt/__init__.py:409
+#: gui/qt/__init__.py:411
 msgid "PyQt5 Upgrade Needed"
 msgstr ""
 
@@ -5213,11 +5239,11 @@ msgstr ""
 msgid "QR Not Available"
 msgstr ""
 
-#: gui/qt/__init__.py:702
+#: gui/qt/__init__.py:704
 msgid "QR Reader Error"
 msgstr ""
 
-#: gui/qt/main_window.py:3044
+#: gui/qt/main_window.py:3046
 #: ios/ElectronCash/electroncash_gui/ios_native/private_key_dialog.py:100
 #: ios/ElectronCash/electroncash_gui/ios_native/addrconv.py:95
 #: ios/ElectronCash/electroncash_gui/ios_native/txdetail.py:737
@@ -5240,11 +5266,11 @@ msgstr ""
 msgid "QR code scanner for video frame with invalid pixel format"
 msgstr ""
 
-#: gui/qt/__init__.py:703
+#: gui/qt/__init__.py:705
 msgid "QR reader failed to load. This may happen if you are using an older version of PyQt5.<br><br>Detailed error: "
 msgstr ""
 
-#: gui/qt/__init__.py:259
+#: gui/qt/__init__.py:261
 msgid "QtSvg Missing"
 msgstr ""
 
@@ -5261,11 +5287,11 @@ msgstr ""
 msgid "REMEMBER THE PASSWORD!"
 msgstr ""
 
-#: gui/qt/main_window.py:1113
+#: gui/qt/main_window.py:1115
 msgid "Raw &hex script"
 msgstr ""
 
-#: gui/qt/main_window.py:1180
+#: gui/qt/main_window.py:1182
 msgid "Re&quests"
 msgstr ""
 
@@ -5286,25 +5312,25 @@ msgstr ""
 msgid "Read text or image file"
 msgstr ""
 
-#: gui/qt/main_window.py:5053
+#: gui/qt/main_window.py:5128
 msgid "Rebuild Wallet History"
 msgstr ""
 
-#: gui/qt/main_window.py:5051
+#: gui/qt/main_window.py:5126
 msgid "Rebuild this wallet's history now?"
 msgstr ""
 
-#: gui/qt/main_window.py:178 gui/text.py:63
+#: gui/qt/main_window.py:180 gui/text.py:63
 #: ios/ElectronCash/electroncash_gui/ios_native/receive.py:72
 #: ios/ElectronCash/electroncash_gui/ios_native/gui.py:307
 msgid "Receive"
 msgstr "Ontvangen"
 
-#: gui/qt/main_window.py:1199
+#: gui/qt/main_window.py:1201
 msgid "Receive request QR code (click for details)"
 msgstr ""
 
-#: gui/qt/main_window.py:1204
+#: gui/qt/main_window.py:1206
 msgid "Receive request URI copied to clipboard"
 msgstr ""
 
@@ -5314,7 +5340,7 @@ msgstr ""
 msgid "Receiving"
 msgstr ""
 
-#: gui/qt/cashacctqt.py:463 gui/qt/transaction_dialog.py:511
+#: gui/qt/cashacctqt.py:463 gui/qt/transaction_dialog.py:517
 #: ios/ElectronCash/electroncash_gui/ios_native/addresses.py:203
 msgid "Receiving Address"
 msgstr ""
@@ -5330,7 +5356,7 @@ msgstr "Ontvangstadres"
 
 #. NB: the translators hopefully will not have too tough a time with this
 #. *fingers crossed* :)
-#: gui/qt/main_window.py:1466
+#: gui/qt/main_window.py:1468
 msgid "Recipient of the funds."
 msgstr "Begunstigde van het overgemaakte bedrag."
 
@@ -5338,7 +5364,7 @@ msgstr "Begunstigde van het overgemaakte bedrag."
 msgid "Recover from a seed you have previously written down"
 msgstr ""
 
-#: gui/qt/main_window.py:3117 gui/qt/address_dialog.py:92
+#: gui/qt/main_window.py:3119 gui/qt/address_dialog.py:92
 #: ios/ElectronCash/electroncash_gui/ios_native/private_key_dialog.py:75
 msgid "Redeem Script"
 msgstr "Script inwisselen"
@@ -5347,12 +5373,12 @@ msgstr "Script inwisselen"
 msgid "Reenter your seed phrase"
 msgstr ""
 
-#: gui/qt/main_window.py:636
+#: gui/qt/main_window.py:638
 msgid "Refresh GUI"
 msgstr ""
 
-#: gui/qt/main_window.py:5136 gui/qt/main_window.py:5166
-#: gui/qt/main_window.py:5232
+#: gui/qt/main_window.py:5211 gui/qt/main_window.py:5241
+#: gui/qt/main_window.py:5307
 msgid "Register A New Cash Account"
 msgstr ""
 
@@ -5360,15 +5386,15 @@ msgstr ""
 msgid "Register Cash Account..."
 msgstr ""
 
-#: gui/qt/main_window.py:1045
+#: gui/qt/main_window.py:1047
 msgid "Register a new Cash Account for this address"
 msgstr ""
 
-#: gui/qt/address_list.py:390
+#: gui/qt/address_list.py:392
 msgid "Register new..."
 msgstr ""
 
-#: gui/qt/main_window.py:1783
+#: gui/qt/main_window.py:1785
 #: ios/ElectronCash/electroncash_gui/ios_native/contacts.py:299
 #: ios/ElectronCash/electroncash_gui/ios_native/receive.py:707
 #: ios/ElectronCash/electroncash_gui/ios_native/send.py:976
@@ -5384,13 +5410,13 @@ msgstr ""
 msgid "Remove from wallet"
 msgstr ""
 
-#: gui/qt/main_window.py:2685
+#: gui/qt/main_window.py:2687
 #, python-brace-format
 msgid "Remove {list_of_contacts} from your contact list?"
 msgstr ""
 
 #. Note: we didn't use ngettext here for plural check because n > 1 in this branch
-#: gui/qt/main_window.py:2688
+#: gui/qt/main_window.py:2690
 #, python-brace-format
 msgid "Remove {number_of_contacts} contacts from your contact list?"
 msgstr ""
@@ -5412,7 +5438,7 @@ msgstr ""
 msgid "Report Sent"
 msgstr ""
 
-#: gui/qt/main_window.py:729
+#: gui/qt/main_window.py:731
 msgid "Reporting Bugs"
 msgstr "Problemen melden"
 
@@ -5420,7 +5446,7 @@ msgstr "Problemen melden"
 msgid "Request"
 msgstr ""
 
-#: gui/qt/main_window.py:1149
+#: gui/qt/main_window.py:1151
 msgid "Request &expires"
 msgstr ""
 
@@ -5438,7 +5464,7 @@ msgstr "Verzoek verloopt"
 msgid "Request payment"
 msgstr ""
 
-#: gui/qt/main_window.py:1324
+#: gui/qt/main_window.py:1326
 msgid "Request saved successfully"
 msgstr "Bestand succesvol opgeslagen"
 
@@ -5446,7 +5472,7 @@ msgstr "Bestand succesvol opgeslagen"
 msgid "Request sent."
 msgstr ""
 
-#: gui/qt/main_window.py:1127
+#: gui/qt/main_window.py:1129
 msgid "Requested &amount"
 msgstr ""
 
@@ -5454,7 +5480,7 @@ msgstr ""
 msgid "Requested amount"
 msgstr "Gevraagd bedrag"
 
-#: gui/qt/invoice_list.py:36 gui/qt/main_window.py:2713
+#: gui/qt/invoice_list.py:36 gui/qt/main_window.py:2715
 msgid "Requestor"
 msgstr "Aanvrager"
 
@@ -5468,7 +5494,7 @@ msgstr "Aanvragen"
 msgid "Require %d signatures"
 msgstr ""
 
-#: gui/qt/main_window.py:4857
+#: gui/qt/main_window.py:4932
 msgid "Requires"
 msgstr "Vereist"
 
@@ -5488,11 +5514,11 @@ msgstr ""
 msgid "Reshuffle {} Shuffled"
 msgstr ""
 
-#: gui/qt/main_window.py:3925
+#: gui/qt/main_window.py:4000
 msgid "Resolve Server Problem..."
 msgstr ""
 
-#: gui/qt/main_window.py:5006
+#: gui/qt/main_window.py:5081
 msgid "Restart the CashShuffle plugin now?"
 msgstr ""
 
@@ -5505,19 +5531,19 @@ msgstr ""
 msgid "Restore from seed"
 msgstr ""
 
-#: gui/qt/main_window.py:2012
+#: gui/qt/main_window.py:2014
 msgid "Retrieving CoinText info, please wait ..."
 msgstr ""
 
-#: gui/qt/main_window.py:3913 gui/qt/transaction_dialog.py:542
+#: gui/qt/main_window.py:3988 gui/qt/transaction_dialog.py:548
 msgid "Right-click for context menu"
 msgstr ""
 
-#: gui/qt/main_window.py:5026
+#: gui/qt/main_window.py:5101
 msgid "Right-click to resolve"
 msgstr ""
 
-#: gui/qt/main_window.py:3924
+#: gui/qt/main_window.py:3999
 msgid "Right-click to select a different CashShuffle server"
 msgstr ""
 
@@ -5525,7 +5551,7 @@ msgstr ""
 msgid "Risks and Dangers"
 msgstr ""
 
-#: gui/qt/transaction_dialog.py:150
+#: gui/qt/transaction_dialog.py:152
 msgid "S&ave"
 msgstr ""
 
@@ -5547,11 +5573,11 @@ msgstr ""
 msgid "SSL"
 msgstr ""
 
-#: gui/qt/main_window.py:4168
+#: gui/qt/main_window.py:4243
 msgid "SSL certificate"
 msgstr "SSL certificaat"
 
-#: gui/qt/main_window.py:4155
+#: gui/qt/main_window.py:4230
 msgid "SSL certificate used to sign payment requests."
 msgstr "SSL certificated worden gebruikt om betaalverzoeken te ondertekenen."
 
@@ -5567,11 +5593,19 @@ msgstr ""
 msgid "Satochip Wallet"
 msgstr ""
 
+#: plugins/satochip/satochip.py:509
+msgid "Satochip setup aborted: a PIN confirmation is required!"
+msgstr ""
+
+#: plugins/satochip/satochip.py:505
+msgid "Satochip setup aborted: a PIN is required!"
+msgstr ""
+
 #: ios/ElectronCash/electroncash_gui/ios_native/contacts.py:573
 msgid "Satoshi Nakamoto"
 msgstr ""
 
-#: gui/qt/main_window.py:2736
+#: gui/qt/main_window.py:2738
 #: ios/ElectronCash/electroncash_gui/ios_native/newwallet.py:268
 msgid "Save"
 msgstr "Opslaan"
@@ -5589,15 +5623,15 @@ msgstr ""
 msgid "Save as BIP70 file"
 msgstr "Sla bestand op als BIP70"
 
-#: gui/qt/main_window.py:2730
+#: gui/qt/main_window.py:2732
 msgid "Save invoice to file"
 msgstr "Bewaar factuur in bestand"
 
-#: gui/qt/main_window.py:3093
+#: gui/qt/main_window.py:3095
 msgid "Save this passphrase if you save the generated key so you may decrypt it later."
 msgstr ""
 
-#: gui/qt/main_window.py:3434
+#: gui/qt/main_window.py:3436
 msgid "Save this passphrase so you may decrypt your BIP38 keys later."
 msgstr ""
 
@@ -5609,7 +5643,7 @@ msgstr ""
 msgid "Save/Export Wallet"
 msgstr ""
 
-#: gui/qt/main_window.py:617
+#: gui/qt/main_window.py:619
 msgid "Scan &More Addresses..."
 msgstr ""
 
@@ -5633,7 +5667,7 @@ msgstr ""
 msgid "Schnorr Signed"
 msgstr ""
 
-#: lib/wallet.py:2189
+#: lib/wallet.py:2301
 msgid "Schnorr signatures are disabled for this wallet type."
 msgstr ""
 
@@ -5641,7 +5675,7 @@ msgstr ""
 msgid "Scrambled words"
 msgstr ""
 
-#: gui/qt/main_window.py:2981 gui/qt/main_window.py:3067
+#: gui/qt/main_window.py:2983 gui/qt/main_window.py:3069
 #: ios/ElectronCash/electroncash_gui/ios_native/private_key_dialog.py:64
 msgid "Script type"
 msgstr ""
@@ -5650,7 +5684,7 @@ msgstr ""
 msgid "Search online..."
 msgstr ""
 
-#: gui/qt/main_window.py:2801
+#: gui/qt/main_window.py:2803
 #, python-brace-format
 msgid "Search wallet, {key}F to hide"
 msgstr ""
@@ -5677,7 +5711,7 @@ msgstr ""
 msgid "Security Warning"
 msgstr ""
 
-#: gui/qt/main_window.py:2847 gui/qt/seed_dialog.py:208
+#: gui/qt/main_window.py:2849 gui/qt/seed_dialog.py:208
 #: ios/ElectronCash/electroncash_gui/ios_native/newwallet.py:33
 #: ios/ElectronCash/electroncash_gui/ios_native/newwallet.py:289
 msgid "Seed"
@@ -5699,12 +5733,16 @@ msgstr "Type seed"
 msgid "Seed extension"
 msgstr ""
 
-#: plugins/satochip/qt.py:247
+#: plugins/satochip/qt.py:219
+msgid "Seed reset cancelled!"
+msgstr ""
+
+#: plugins/satochip/qt.py:261
 msgid "Seed reset successfully!\n"
 "You should close this wallet and launch the wizard to generate a new wallet."
 msgstr ""
 
-#: gui/qt/transaction_dialog.py:764 gui/qt/transaction_dialog.py:827
+#: gui/qt/transaction_dialog.py:770 gui/qt/transaction_dialog.py:833
 msgid "Select All"
 msgstr ""
 
@@ -5720,15 +5758,15 @@ msgstr ""
 msgid "Select a device"
 msgstr ""
 
-#: gui/qt/main_window.py:4366
+#: gui/qt/main_window.py:4441
 msgid "Select between Cash Address and Legacy formats for addresses"
 msgstr ""
 
-#: gui/qt/main_window.py:3489
+#: gui/qt/main_window.py:3491
 msgid "Select file to export your private keys to"
 msgstr "Selecteer een bestand om uw privé sleutels naar te exporteren"
 
-#: gui/qt/main_window.py:3637
+#: gui/qt/main_window.py:3640
 msgid "Select file to export your wallet transactions to"
 msgstr "Selecteer een bestand om uw transactie geschiedenis naar te exporteren"
 
@@ -5736,7 +5774,7 @@ msgstr "Selecteer een bestand om uw transactie geschiedenis naar te exporteren"
 msgid "Select file to save your contacts"
 msgstr ""
 
-#: gui/qt/main_window.py:3624
+#: gui/qt/main_window.py:3627
 msgid "Select file to save your labels"
 msgstr ""
 
@@ -5756,16 +5794,16 @@ msgstr "Kies manueel een server"
 msgid "Select when the payment request should expire"
 msgstr ""
 
-#: gui/qt/main_window.py:1320
+#: gui/qt/main_window.py:1322
 msgid "Select where to save your payment request"
 msgstr "Selecteer waar u uw betalingsverzoek wilt opslaan"
 
-#: gui/qt/transaction_dialog.py:330
+#: gui/qt/transaction_dialog.py:332
 msgid "Select where to save your signed transaction"
 msgstr "Selecteer waar u de ondertekende transactie wilt opslaan"
 
 #. language
-#: gui/qt/main_window.py:4033
+#: gui/qt/main_window.py:4108
 msgid "Select which language is used in the GUI (after restart)."
 msgstr "Kies welke taal te gebruiken (na herstart)."
 
@@ -5773,11 +5811,11 @@ msgstr "Kies welke taal te gebruiken (na herstart)."
 msgid "Select your seed length:"
 msgstr ""
 
-#: gui/qt/main_window.py:3357
+#: gui/qt/main_window.py:3359
 msgid "Select your transaction file"
 msgstr "Selecteer uw transactie bestand"
 
-#: gui/qt/main_window.py:177 gui/text.py:63
+#: gui/qt/main_window.py:179 gui/text.py:63
 #: ios/ElectronCash/electroncash_gui/ios_native/send.py:67
 #: ios/ElectronCash/electroncash_gui/ios_native/send.py:236
 #: ios/ElectronCash/electroncash_gui/ios_native/gui.py:306
@@ -5822,7 +5860,7 @@ msgstr ""
 msgid "Server"
 msgstr ""
 
-#: gui/qt/main_window.py:5026
+#: gui/qt/main_window.py:5101
 msgid "Server Error"
 msgstr ""
 
@@ -5846,7 +5884,7 @@ msgstr ""
 msgid "Server hosting your email account"
 msgstr ""
 
-#: gui/qt/main_window.py:895
+#: gui/qt/main_window.py:897
 #: ios/ElectronCash/electroncash_gui/ios_native/gui.py:676
 msgid "Server is lagging ({} blocks)"
 msgstr ""
@@ -5955,7 +5993,7 @@ msgstr ""
 msgid "Show My Cash Accounts"
 msgstr ""
 
-#: gui/qt/transaction_dialog.py:743
+#: gui/qt/transaction_dialog.py:749
 msgid "Show Prev Tx"
 msgstr ""
 
@@ -5967,26 +6005,26 @@ msgstr "Toon QR code"
 msgid "Show Script QR"
 msgstr ""
 
-#: gui/qt/transaction_dialog.py:107 gui/qt/qrtextedit.py:18
+#: gui/qt/transaction_dialog.py:109 gui/qt/qrtextedit.py:18
 #: gui/qt/qrtextedit.py:33
 #: ios/ElectronCash/electroncash_gui/ios_native/seed_dialog.py:149
 #: ios/ElectronCash/electroncash_gui/ios_native/txdetail.py:795
 msgid "Show as QR code"
 msgstr "Toon als QR code"
 
-#: gui/qt/main_window.py:4111
+#: gui/qt/main_window.py:4186
 msgid "Show fee edit box in send tab."
 msgstr "Laat transactiekosten wijzigingsbox zien bij tab Verzenden."
 
-#: gui/qt/main_window.py:4578
+#: gui/qt/main_window.py:4653
 msgid "Show fiat balance for addresses"
 msgstr ""
 
-#: gui/qt/util.py:134
+#: gui/qt/util.py:136
 msgid "Show help"
 msgstr ""
 
-#: gui/qt/main_window.py:4577
+#: gui/qt/main_window.py:4652
 #: ios/ElectronCash/electroncash_gui/ios_native/prefs.py:376
 msgid "Show history rates"
 msgstr "Laat tarieven historie zien"
@@ -6012,12 +6050,12 @@ msgstr ""
 msgid "Show seed"
 msgstr ""
 
-#: gui/qt/main_window.py:298 gui/qt/main_window.py:641
+#: gui/qt/main_window.py:300 gui/qt/main_window.py:643
 #, python-brace-format
 msgid "Show {tab_description}"
 msgstr ""
 
-#: gui/qt/__init__.py:438
+#: gui/qt/__init__.py:440
 msgid "Show/Hide"
 msgstr "Tonen/Verbergen"
 
@@ -6073,17 +6111,17 @@ msgstr ""
 msgid "Shuffling Paused"
 msgstr ""
 
-#: gui/qt/main_window.py:3199
+#: gui/qt/main_window.py:3201
 #: ios/ElectronCash/electroncash_gui/ios_native/txdetail.py:443
 msgid "Sign"
 msgstr "Onderteken"
 
-#: gui/qt/main_window.py:4487
+#: gui/qt/main_window.py:4562
 msgid "Sign all transactions using Schnorr signatures."
 msgstr ""
 
 #. Schnorr
-#: gui/qt/main_window.py:4481
+#: gui/qt/main_window.py:4556
 msgid "Sign with Schnorr signatures"
 msgstr ""
 
@@ -6091,7 +6129,7 @@ msgstr ""
 msgid "Sign/Verify Message"
 msgstr ""
 
-#: gui/qt/main_window.py:3175
+#: gui/qt/main_window.py:3177
 #: ios/ElectronCash/electroncash_gui/ios_native/addresses.py:917
 msgid "Sign/verify Message"
 msgstr "&Onderteken/Verifieer Bericht"
@@ -6100,11 +6138,11 @@ msgstr "&Onderteken/Verifieer Bericht"
 msgid "Sign/verify message"
 msgstr ""
 
-#: gui/qt/main_window.py:2721 gui/qt/main_window.py:3193
+#: gui/qt/main_window.py:2723 gui/qt/main_window.py:3195
 msgid "Signature"
 msgstr "Handtekening"
 
-#: gui/qt/main_window.py:3170
+#: gui/qt/main_window.py:3172
 #: ios/ElectronCash/electroncash_gui/ios_native/sign_decrypt_dialog.py:289
 msgid "Signature verified"
 msgstr "Handtekening geverifiëerd"
@@ -6125,13 +6163,13 @@ msgstr ""
 msgid "Signing message..."
 msgstr ""
 
-#: gui/qt/main_window.py:2159
+#: gui/qt/main_window.py:2161
 #: ios/ElectronCash/electroncash_gui/ios_native/gui.py:1956
 #: plugins/digitalbitbox/digitalbitbox.py:609
 msgid "Signing transaction..."
 msgstr "Transactie wordt ondertekend..."
 
-#: gui/qt/main_window.py:3136
+#: gui/qt/main_window.py:3138
 #: ios/ElectronCash/electroncash_gui/ios_native/sign_decrypt_dialog.py:237
 msgid "Signing with an address actually means signing with the corresponding private key, and verifying with the corresponding public key. The address you have entered does not have a unique public key, so these operations cannot be performed."
 msgstr ""
@@ -6145,7 +6183,7 @@ msgstr ""
 msgid "Size:"
 msgstr "Grootte:"
 
-#: gui/qt/transaction_dialog.py:416
+#: gui/qt/transaction_dialog.py:422
 #, python-brace-format
 msgid "Size: {size} bytes"
 msgstr ""
@@ -6172,7 +6210,7 @@ msgstr ""
 msgid "Source"
 msgstr "Bron"
 
-#: gui/qt/main_window.py:4582
+#: gui/qt/main_window.py:4657
 msgid "Source:"
 msgstr ""
 
@@ -6180,7 +6218,7 @@ msgstr ""
 msgid "Specify a master key to re-create a deterministic wallet."
 msgstr ""
 
-#: gui/qt/main_window.py:3092
+#: gui/qt/main_window.py:3094
 msgid "Specify a passphrase to use for BIP38 encryption."
 msgstr ""
 
@@ -6188,7 +6226,7 @@ msgstr ""
 msgid "Specify minimum and maximum coin amounts to select for shuffling:"
 msgstr ""
 
-#: gui/qt/main_window.py:5170
+#: gui/qt/main_window.py:5245
 msgid "Specify the <b>account name</b> below (limited to 99 characters):"
 msgstr ""
 
@@ -6226,12 +6264,12 @@ msgstr ""
 msgid "Spend from this UTXO + Selected"
 msgstr ""
 
-#: gui/qt/main_window.py:4450
+#: gui/qt/main_window.py:4525
 #: ios/ElectronCash/electroncash_gui/ios_native/prefs.py:303
 msgid "Spend only confirmed coins"
 msgstr "Besteed alleen bevestigde munten"
 
-#: gui/qt/main_window.py:4451
+#: gui/qt/main_window.py:4526
 msgid "Spend only confirmed inputs."
 msgstr "Besteed alleen bevestigde invoer."
 
@@ -6273,7 +6311,7 @@ msgstr ""
 msgid "Status"
 msgstr ""
 
-#: gui/qt/transaction_dialog.py:398
+#: gui/qt/transaction_dialog.py:404
 #: ios/ElectronCash/electroncash_gui/ios_native/txdetail.py:492
 #: ios/ElectronCash/electroncash_gui/ios_native/prefs.py:233
 msgid "Status:"
@@ -6283,7 +6321,7 @@ msgstr ""
 msgid "Step {}/24.  Enter seed word as explained on your {}:"
 msgstr ""
 
-#: gui/qt/main_window.py:2907 gui/qt/main_window.py:4650
+#: gui/qt/main_window.py:2909 gui/qt/main_window.py:4725
 #: ios/ElectronCash/electroncash_gui/ios_native/sign_decrypt_dialog.py:260
 #: ios/ElectronCash/electroncash_gui/ios_native/sign_decrypt_dialog.py:289
 #: ios/ElectronCash/electroncash_gui/ios_native/sign_decrypt_dialog.py:343
@@ -6303,11 +6341,11 @@ msgstr ""
 msgid "Supported Coins"
 msgstr ""
 
-#: gui/qt/main_window.py:3733
+#: gui/qt/main_window.py:3808
 msgid "Sweep"
 msgstr "Leegvegen"
 
-#: gui/qt/main_window.py:3712
+#: gui/qt/main_window.py:3787
 msgid "Sweep private keys"
 msgstr "Veeg privé sleutels leeg"
 
@@ -6319,7 +6357,7 @@ msgstr ""
 msgid "Synchronizing"
 msgstr ""
 
-#: gui/qt/main_window.py:891 gui/text.py:133 gui/stdio.py:113
+#: gui/qt/main_window.py:893 gui/text.py:133 gui/stdio.py:113
 #: ios/ElectronCash/electroncash_gui/ios_native/gui.py:640
 #: plugins/labels/qt.py:190
 msgid "Synchronizing..."
@@ -6351,18 +6389,18 @@ msgstr ""
 msgid "Tap to enter text..."
 msgstr ""
 
-#: gui/qt/main_window.py:5068 gui/qt/util.py:821
-#: gui/qt/transaction_dialog.py:697
+#: gui/qt/main_window.py:5143 gui/qt/util.py:846
+#: gui/qt/transaction_dialog.py:703
 #: ios/ElectronCash/electroncash_gui/ios_native/seed_dialog.py:115
 msgid "Text copied to clipboard"
 msgstr ""
 
-#: gui/qt/main_window.py:1147
+#: gui/qt/main_window.py:1149
 msgid "The Bitcoin Cash address never expires and will always be part of this Electron Cash wallet."
 msgstr ""
 
 #. Cash Account for this address (if any)
-#: gui/qt/main_window.py:1033
+#: gui/qt/main_window.py:1035
 msgid "The Cash Account (if any) associated with this address. It doesn't get saved with the request, but it is shown here for your convenience.\n\n"
 "You may use the Cash Accounts button to register a new Cash Account for this address."
 msgstr ""
@@ -6384,7 +6422,7 @@ msgstr ""
 msgid "The PIN cannot be longer than 9 characters."
 msgstr ""
 
-#: plugins/satochip/satochip.py:508 plugins/satochip/qt.py:183
+#: plugins/satochip/satochip.py:511 plugins/satochip/qt.py:194
 msgid "The PIN values do not match! Please type PIN again!"
 msgstr ""
 
@@ -6404,7 +6442,7 @@ msgid "The QR code does not appear to be a valid BCH address.\n"
 "Please try again."
 msgstr ""
 
-#: gui/qt/main_window.py:5219
+#: gui/qt/main_window.py:5294
 msgid "The Send Tab has been filled-in with your <b>Cash Accounts</b> registration data."
 msgstr ""
 
@@ -6412,15 +6450,19 @@ msgstr ""
 msgid "The address for the decrypted private key."
 msgstr ""
 
-#: gui/qt/main_window.py:1558
+#: gui/qt/main_window.py:1560
 msgid "The amount of fee can be decided freely by the sender. However, transactions with low fees take more time to be processed."
 msgstr "De transactiekosten kunnen door de verzender vrij gekozen worden. Echter, transacties met lage kosten zullen minder snel, of niet, verwerkt worden."
 
-#: gui/qt/main_window.py:1534
+#: gui/qt/main_window.py:3653
+msgid "The amount of overall time in seconds to allow for downloading fee data before giving up"
+msgstr ""
+
+#: gui/qt/main_window.py:1536
 msgid "The amount will be displayed in red if you do not have enough funds in your wallet."
 msgstr "De hoeveelheid wordt weergeven in rood, indien u over onvoldoende geldmiddelen bezit."
 
-#: gui/qt/main_window.py:3472
+#: gui/qt/main_window.py:3474
 #, python-brace-format
 msgid "The below keys are BIP38 <i>encrypted</i> using the passphrase: {passphrase}<br>Please <i>write this passphrase down</i> and store it in a secret place, separate from these encrypted keys."
 msgstr ""
@@ -6432,13 +6474,13 @@ msgstr ""
 msgid "The camera is not available for reading QR codes"
 msgstr ""
 
-#: gui/qt/main_window.py:4186
+#: gui/qt/main_window.py:4261
 msgid "The crash reporter is the error window which pops-up when Electron Cash encounters an internal error.\n\n"
 "It is recommended that you leave this option enabled, so that developers can be notified of any internal bugs. When a crash is encountered you are asked if you would like to send a report.\n\n"
 "Private information is never revealed in crash reports to developers."
 msgstr ""
 
-#: gui/qt/main_window.py:5168
+#: gui/qt/main_window.py:5243
 #, python-brace-format
 msgid "The current block height is <b><i>{block_height}</i></b>, so the new cash account will likely look like: <b><u><i>AccountName<i>#{number}</u></b>."
 msgstr ""
@@ -6447,7 +6489,7 @@ msgstr ""
 msgid "The decrypted private key (WIF key) originally used to create this BIP38 key."
 msgstr ""
 
-#: gui/qt/main_window.py:1497
+#: gui/qt/main_window.py:1499
 msgid "The description is not sent to the recipient of the funds. It is stored in your wallet file, and displayed in the 'History' tab."
 msgstr "De omschrijving wordt niet naar de begunstigde verzonden, maar opgeslagen in uw portemonnee en getoond op het tabblad 'Geschiedenis'."
 
@@ -6468,19 +6510,19 @@ msgstr ""
 msgid "The file was removed"
 msgstr "Het bestand is verwijderd"
 
-#: gui/qt/main_window.py:3609
+#: gui/qt/main_window.py:3612
 msgid "The file you selected does not appear to contain labels."
 msgstr ""
 
-#: gui/qt/main_window.py:3811
+#: gui/qt/main_window.py:3886
 msgid "The following addresses were added"
 msgstr "De volgende adressen werden toegevoegd"
 
-#: gui/qt/main_window.py:4122
+#: gui/qt/main_window.py:4197
 msgid "The following alias providers are available:"
 msgstr "De volgende alias leveranciers zijn beschikbaar:"
 
-#: gui/qt/main_window.py:3813
+#: gui/qt/main_window.py:3888
 msgid "The following could not be imported"
 msgstr ""
 
@@ -6497,7 +6539,7 @@ msgstr ""
 msgid "The mnemonic needs to be 12, 18 or 24 words."
 msgstr ""
 
-#: gui/qt/main_window.py:3140
+#: gui/qt/main_window.py:3142
 #: ios/ElectronCash/electroncash_gui/ios_native/sign_decrypt_dialog.py:241
 msgid "The operation is undefined. Not just in Electron Cash, but in general."
 msgstr ""
@@ -6593,7 +6635,7 @@ msgstr ""
 msgid "The specified WIF key '{}' is a p2sh WIF key. These key types cannot be swept."
 msgstr ""
 
-#: gui/qt/main_window.py:5180
+#: gui/qt/main_window.py:5255
 msgid "The specified name cannot be used for a Cash Accounts registration. You must specify 1-99 alphanumeric (ASCII) characters, without spaces (underscores are permitted as well)."
 msgstr ""
 
@@ -6602,63 +6644,69 @@ msgid "The specified public key cannot decrypt this cyphertext.\n"
 "Please specify the correct key to decrypt."
 msgstr ""
 
-#: lib/network.py:1812
-msgid "The transaction already exists in the server's mempool."
-msgstr ""
-
-#: lib/network.py:1814
-msgid "The transaction conflicts with a transaction already in the server's mempool."
-msgstr ""
-
-#: lib/network.py:1830
-msgid "The transaction was rejected because it contains a bare multisig input."
-msgstr ""
-
-#: lib/network.py:1822
-msgid "The transaction was rejected because it contains a non-mandatory script verify flag."
-msgstr ""
-
-#: lib/network.py:1828
-msgid "The transaction was rejected because it contains a non-standard script public key signature."
-msgstr ""
-
-#: lib/network.py:1826
-msgid "The transaction was rejected because it contains a script that is too large."
-msgstr ""
-
-#: lib/network.py:1832
-msgid "The transaction was rejected because it contains multiple OP_RETURN outputs."
-msgstr ""
-
-#: lib/network.py:1834
-msgid "The transaction was rejected because it contains non-push-only script sigs."
-msgstr ""
-
-#: lib/network.py:1836
-msgid "The transaction was rejected because it is not considered final according to network rules."
-msgstr ""
-
-#: lib/network.py:1824
-msgid "The transaction was rejected because it is too large (in bytes)."
-msgstr ""
-
-#: lib/network.py:1820
-msgid "The transaction was rejected because it specifies an absurdly high fee."
-msgstr ""
-
-#: lib/network.py:1838
-msgid "The transaction was rejected because it uses a non-standard version."
+#. We get this message whenever any of this transaction's outputs are already in confirmed utxo set (and are unspent).
+#. For confirmed txn with all outputs already spent, we will see "missing inputs" instead.
+#: lib/network.py:1810
+msgid "The transaction already exists in the blockchain."
 msgstr ""
 
 #: lib/network.py:1816
-msgid "The transaction was rejected due to having too many mempool ancestors. Wait for confirmations and try again."
+msgid "The transaction already exists in the server's mempool."
 msgstr ""
 
 #: lib/network.py:1818
+msgid "The transaction conflicts with a transaction already in the server's mempool."
+msgstr ""
+
+#: lib/network.py:1834
+msgid "The transaction was rejected because it contains a bare multisig input."
+msgstr ""
+
+#: lib/network.py:1826
+msgid "The transaction was rejected because it contains a non-mandatory script verify flag."
+msgstr ""
+
+#: lib/network.py:1832
+msgid "The transaction was rejected because it contains a non-standard script public key signature."
+msgstr ""
+
+#: lib/network.py:1830
+msgid "The transaction was rejected because it contains a script that is too large."
+msgstr ""
+
+#: lib/network.py:1836
+msgid "The transaction was rejected because it contains multiple OP_RETURN outputs."
+msgstr ""
+
+#: lib/network.py:1838
+msgid "The transaction was rejected because it contains non-push-only script sigs."
+msgstr ""
+
+#: lib/network.py:1840
+msgid "The transaction was rejected because it is not considered final according to network rules."
+msgstr ""
+
+#: lib/network.py:1828
+msgid "The transaction was rejected because it is too large (in bytes)."
+msgstr ""
+
+#: lib/network.py:1824
+msgid "The transaction was rejected because it specifies an absurdly high fee."
+msgstr ""
+
+#: lib/network.py:1842
+msgid "The transaction was rejected because it uses a non-standard version."
+msgstr ""
+
+#: lib/network.py:1820
+msgid "The transaction was rejected due to having too many mempool ancestors. Wait for confirmations and try again."
+msgstr ""
+
+#: lib/network.py:1822
 msgid "The transaction was rejected due to its use of non-standard inputs."
 msgstr ""
 
-#: lib/network.py:1808
+#: lib/network.py:1812
 msgid "The transaction was rejected due to paying insufficient fees and/or for being of extremely low priority."
 msgstr ""
 
@@ -6689,16 +6737,16 @@ msgid "There is already a plugin installed using the internal package name of th
 msgstr ""
 
 #. had error
-#: gui/qt/main_window.py:3950
+#: gui/qt/main_window.py:4025
 msgid "There was a problem connecting to this server.\n"
 "Please choose a different CashShuffle server."
 msgstr ""
 
-#: gui/qt/main_window.py:1982
+#: gui/qt/main_window.py:1984
 msgid "There was an error processing the CoinText. Please check the phone number and try again."
 msgstr ""
 
-#: gui/qt/main_window.py:2326
+#: gui/qt/main_window.py:2328
 msgid "There was an error processing the payment request"
 msgstr ""
 
@@ -6711,7 +6759,7 @@ msgstr "Deze blockchain wordt gebruikt om uw transacties te verifiëren die verz
 msgid "This device lacks the secure enclave service. As such, Touch/Face ID based wallet authentication is unavailable."
 msgstr ""
 
-#: gui/qt/main_window.py:5048
+#: gui/qt/main_window.py:5123
 msgid "This feature is intended to allow you to rebuild a wallet if it has become corrupted."
 msgstr ""
 
@@ -6727,11 +6775,11 @@ msgstr "Het bestand bestaat niet."
 msgid "This file is encrypted."
 msgstr ""
 
-#: plugins/satochip/satochip.py:621
+#: plugins/satochip/satochip.py:624
 msgid "This function is only available for standard wallets when using {}."
 msgstr ""
 
-#: gui/qt/main_window.py:1145
+#: gui/qt/main_window.py:1147
 msgid "This information is seen by the recipient if you send them a signed payment request."
 msgstr "Deze informatie wordt getoond aan de ontvanger als je ze een ondertekend betaalverzoek stuurt."
 
@@ -6743,7 +6791,7 @@ msgstr ""
 msgid "This is a preferred server"
 msgstr ""
 
-#: gui/qt/main_window.py:3415
+#: gui/qt/main_window.py:3417
 #: ios/ElectronCash/electroncash_gui/ios_native/gui.py:1072
 msgid "This is a watching-only wallet"
 msgstr "Dit is een alleen-kijken portemonnee"
@@ -6752,13 +6800,13 @@ msgstr "Dit is een alleen-kijken portemonnee"
 msgid "This is a watching-only wallet, so the given private keys will be converted to watching addresses."
 msgstr ""
 
-#: gui/qt/main_window.py:3144 gui/qt/main_window.py:3216
+#: gui/qt/main_window.py:3146 gui/qt/main_window.py:3218
 #: ios/ElectronCash/electroncash_gui/ios_native/sign_decrypt_dialog.py:247
 #: ios/ElectronCash/electroncash_gui/ios_native/sign_decrypt_dialog.py:316
 msgid "This is a watching-only wallet."
 msgstr ""
 
-#: gui/qt/main_window.py:1574
+#: gui/qt/main_window.py:1576
 msgid "This is the fee rate that will be used for this transaction."
 msgstr ""
 
@@ -6767,16 +6815,16 @@ msgstr ""
 msgid "This is the height of your local copy of the blockchain."
 msgstr "Dit is de hoogte van uw lokale kopie van de blockchain."
 
-#: gui/qt/main_window.py:4432
+#: gui/qt/main_window.py:4507
 msgid "This may result in higher transactions fees."
 msgstr "Dit kan zorgen voor hogere transactiekosten."
 
-#: gui/qt/main_window.py:475
+#: gui/qt/main_window.py:477
 #: ios/ElectronCash/electroncash_gui/ios_native/gui.py:1073
 msgid "This means you will not be able to spend Bitcoin Cash with it."
 msgstr ""
 
-#: gui/qt/main_window.py:1264
+#: gui/qt/main_window.py:1266
 #: ios/ElectronCash/electroncash_gui/ios_native/gui.py:1197
 msgid "This payment request will be signed."
 msgstr "Dit betaalverzoek wordt ondertekend."
@@ -6817,11 +6865,11 @@ msgid "This spending wallet is not encrypted and not password protected. Sharing
 "Continue anyway?"
 msgstr ""
 
-#: gui/qt/main_window.py:502
+#: gui/qt/main_window.py:504
 msgid "This testnet wallet has an invalid master key format."
 msgstr ""
 
-#: gui/qt/main_window.py:2507
+#: gui/qt/main_window.py:2509
 #: ios/ElectronCash/electroncash_gui/ios_native/addrconv.py:47
 msgid "This tool helps convert between address formats for Bitcoin Cash addresses.\n"
 "You are encouraged to use the 'Cash address' format."
@@ -6831,7 +6879,7 @@ msgstr ""
 msgid "This tool installs hardware wallet \"udev rules\" on your system."
 msgstr ""
 
-#: gui/qt/transaction_dialog.py:257
+#: gui/qt/transaction_dialog.py:259
 msgid "This transaction is not saved. Close anyway?"
 msgstr "Deze transactie is niet bewaard. Toch sluiten?"
 
@@ -6847,7 +6895,7 @@ msgstr ""
 msgid "This version of Electron Cash currently only supports sending to 1 address at a time! Sorry!"
 msgstr ""
 
-#: gui/qt/main_window.py:3031
+#: gui/qt/main_window.py:3033
 #: ios/ElectronCash/electroncash_gui/ios_native/gui.py:2093
 msgid "This wallet has no seed"
 msgstr "Deze portemonnee heeft geen seed"
@@ -6857,16 +6905,20 @@ msgstr "Deze portemonnee heeft geen seed"
 msgid "This wallet has no unspent outputs (coins) to display."
 msgstr ""
 
-#: gui/qt/main_window.py:474
+#: gui/qt/main_window.py:476
 msgid "This wallet is watching-only."
 msgstr "Deze portemonnee is alleen te bekijken."
 
-#: gui/qt/main_window.py:3986
+#: gui/qt/main_window.py:4061
 msgid "This wallet type cannot be used with CashShuffle."
 msgstr ""
 
 #: plugins/shuffle/qt.py:2024
 msgid "Tier"
+msgstr ""
+
+#: gui/qt/main_window.py:3656
+msgid "Timeout:"
 msgstr ""
 
 #: plugins/digitalbitbox/digitalbitbox.py:475
@@ -6915,7 +6967,7 @@ msgstr ""
 msgid "To make sure that you have properly saved your seed, please retype it here."
 msgstr "Om zeker te zijn dat u uw zaad goed hebt bewaard, gelieve het nu opnieuw in te geven."
 
-#: plugins/satochip/qt.py:205
+#: plugins/satochip/qt.py:215
 msgid "To proceed, enter the PIN for your Satochip:"
 msgstr ""
 
@@ -6931,11 +6983,11 @@ msgstr ""
 msgid "To try to fix this, we will now re-pair with your device."
 msgstr ""
 
-#: gui/qt/main_window.py:2838
+#: gui/qt/main_window.py:2840
 msgid "Toggle CashAddr Display"
 msgstr ""
 
-#: gui/qt/main_window.py:3915
+#: gui/qt/main_window.py:3990
 msgid "Toggle CashShuffle"
 msgstr ""
 
@@ -6964,7 +7016,7 @@ msgstr ""
 msgid "Too many QR codes detected."
 msgstr ""
 
-#: plugins/satochip/CardConnector.py:619
+#: plugins/satochip/CardConnector.py:624
 msgid "Too many failed attempts! Your Satochip has been blocked! You need your PUK code to unblock it."
 msgstr ""
 
@@ -6978,7 +7030,7 @@ msgstr ""
 msgid "Tools"
 msgstr ""
 
-#: gui/qt/main_window.py:4909
+#: gui/qt/main_window.py:4984
 msgid "Total size"
 msgstr "Totale grootte"
 
@@ -6991,7 +7043,7 @@ msgstr ""
 msgid "Touch/Face ID enabled for wallet"
 msgstr ""
 
-#: gui/qt/transaction_dialog.py:94 gui/qt/transaction_dialog.py:309
+#: gui/qt/transaction_dialog.py:96 gui/qt/transaction_dialog.py:311
 #: ios/ElectronCash/electroncash_gui/ios_native/txdetail.py:613
 msgid "Transaction"
 msgstr "Transactie"
@@ -7004,7 +7056,7 @@ msgstr ""
 msgid "Transaction History"
 msgstr ""
 
-#: gui/qt/main_window.py:3399 gui/qt/transaction_dialog.py:105
+#: gui/qt/main_window.py:3401 gui/qt/transaction_dialog.py:107
 msgid "Transaction ID"
 msgstr "Transactie ID"
 
@@ -7026,7 +7078,7 @@ msgstr ""
 msgid "Transaction Output {}"
 msgstr ""
 
-#: lib/network.py:1810
+#: lib/network.py:1814
 msgid "Transaction could not be broadcast due to an attempt to spend a coinbase input before maturity."
 msgstr ""
 
@@ -7046,11 +7098,11 @@ msgstr ""
 msgid "Transaction not found"
 msgstr ""
 
-#: gui/qt/transaction_dialog.py:161
+#: gui/qt/transaction_dialog.py:163
 msgid "Transaction raw hex copied to clipboard."
 msgstr ""
 
-#: gui/qt/transaction_dialog.py:335
+#: gui/qt/transaction_dialog.py:337
 msgid "Transaction saved successfully"
 msgstr ""
 
@@ -7058,7 +7110,7 @@ msgstr ""
 #. fx().get_currency() if doFX else None
 #. str(self.fiat.text) if doFX else None
 #. HistoryEntry = namedtuple("HistoryEntry", "extra_data tx_hash status_str label v_str balance_str date ts conf status value fiat_amount fiat_balance fiat_amount_str fiat_balance_str ccy status_image")
-#: gui/qt/transaction_dialog.py:411
+#: gui/qt/transaction_dialog.py:417
 #: ios/ElectronCash/electroncash_gui/ios_native/txdetail.py:535
 #: ios/ElectronCash/electroncash_gui/ios_native/txdetail.py:915
 msgid "Transaction unrelated to your wallet"
@@ -7068,12 +7120,12 @@ msgstr "Transactie is niet gerelateerd met uw portemonnee"
 msgid "Transaction with more than 2 outputs not supported by {}"
 msgstr ""
 
-#: gui/qt/main_window.py:3373
+#: gui/qt/main_window.py:3375
 msgid "Transaction:"
 msgstr "Transactie:"
 
 #. Custom Segmented Control setup
-#: gui/qt/main_window.py:4592
+#: gui/qt/main_window.py:4667
 #: ios/ElectronCash/electroncash_gui/ios_native/contacts.py:194
 #: ios/ElectronCash/electroncash_gui/ios_native/wallets.py:67
 #: ios/ElectronCash/electroncash_gui/ios_native/prefs.py:24
@@ -7088,7 +7140,7 @@ msgstr ""
 msgid "Trezor Matrix Recovery"
 msgstr ""
 
-#: gui/qt/main_window.py:727
+#: gui/qt/main_window.py:729
 msgid "Try to explain not only what the bug is, but how it occurs."
 msgstr "Probeer niet alleen uit te leggen wat de bug is, maar ook wanneer hij optreedt."
 
@@ -7125,15 +7177,15 @@ msgstr ""
 msgid "Unable to connect to the specified server."
 msgstr ""
 
-#: gui/qt/main_window.py:552
+#: gui/qt/main_window.py:554
 msgid "Unable to create backup"
 msgstr "Backup aanmaken niet mogelijk"
 
-#: gui/qt/main_window.py:3583
+#: gui/qt/main_window.py:3586
 msgid "Unable to create csv"
 msgstr "CSV bestand kon niet worden aangemaakt"
 
-#: gui/qt/main_window.py:3656
+#: gui/qt/main_window.py:3689
 msgid "Unable to export history"
 msgstr "Geschiedenis kon niet worden geëxporteerd"
 
@@ -7141,15 +7193,15 @@ msgstr "Geschiedenis kon niet worden geëxporteerd"
 msgid "Unable to get a receiving address from your wallet!"
 msgstr ""
 
-#: gui/qt/transaction_dialog.py:137
+#: gui/qt/transaction_dialog.py:139
 msgid "Unable to open in block explorer. Please be sure your block explorer is configured correctly in preferences."
 msgstr ""
 
-#: gui/qt/main_window.py:4250
+#: gui/qt/main_window.py:4325
 msgid "Unable to probe for cameras on this system. QtMultimedia is likely missing."
 msgstr ""
 
-#: gui/qt/main_window.py:3366
+#: gui/qt/main_window.py:3368
 msgid "Unable to read file or no transaction found"
 msgstr "Het bestand kon niet gelezen worden, of er werd geen transactie gevonden"
 
@@ -7222,7 +7274,7 @@ msgid "Uninstall"
 msgstr ""
 
 #. Can happen with incomplete history
-#: gui/qt/contact_list.py:380 gui/qt/transaction_dialog.py:384
+#: gui/qt/contact_list.py:380 gui/qt/transaction_dialog.py:385
 #: ios/ElectronCash/electroncash_gui/ios_native/receive.py:657
 #: ios/ElectronCash/electroncash_gui/ios_native/txdetail.py:434
 #: ios/ElectronCash/electroncash_gui/ios_native/txdetail.py:456
@@ -7267,7 +7319,7 @@ msgstr ""
 msgid "Unused"
 msgstr ""
 
-#: gui/qt/main_window.py:2866
+#: gui/qt/main_window.py:2868
 msgid "Update Available"
 msgstr ""
 
@@ -7275,7 +7327,7 @@ msgstr ""
 msgid "Update Checker"
 msgstr ""
 
-#: gui/qt/main_window.py:2806
+#: gui/qt/main_window.py:2808
 msgid "Update available, click for details"
 msgstr ""
 
@@ -7287,7 +7339,7 @@ msgstr ""
 msgid "Updating transaction history."
 msgstr ""
 
-#: gui/qt/main_window.py:867
+#: gui/qt/main_window.py:869
 msgid "Updating..."
 msgstr ""
 
@@ -7309,7 +7361,7 @@ msgstr ""
 
 #. Enable/Disable the use of the FreeType library on Qt
 #. (Windows only)
-#: gui/qt/main_window.py:4340
+#: gui/qt/main_window.py:4415
 msgid "Use FreeType for font rendering"
 msgstr ""
 
@@ -7344,18 +7396,18 @@ msgstr ""
 msgid "Use as server"
 msgstr "Gebruik als server"
 
-#: gui/qt/main_window.py:4402
+#: gui/qt/main_window.py:4477
 #: ios/ElectronCash/electroncash_gui/ios_native/prefs.py:288
 msgid "Use change addresses"
 msgstr "Gebruik wisselgeldadressen"
 
 #. Enable/Disable the use of the fonts.xml FontConfig override
 #. (Linux only)
-#: gui/qt/main_window.py:4352
+#: gui/qt/main_window.py:4427
 msgid "Use custom fontconfig for emojis"
 msgstr ""
 
-#: gui/qt/main_window.py:4421
+#: gui/qt/main_window.py:4496
 #: ios/ElectronCash/electroncash_gui/ios_native/prefs.py:295
 msgid "Use multiple change addresses"
 msgstr "Gebruik meerdere veranderbare adressen"
@@ -7369,7 +7421,7 @@ msgstr ""
 msgid "Use public or private keys"
 msgstr ""
 
-#: gui/qt/main_window.py:4156
+#: gui/qt/main_window.py:4231
 msgid "Use setconfig to set ssl_chain and ssl_privkey."
 msgstr "Gebruik setconfig om de ssl_chain en ssl_privkey op te slaan."
 
@@ -7394,7 +7446,7 @@ msgstr "Gebruik deze dialoogbox om je wachtwoord te wijzigen."
 msgid "Used"
 msgstr ""
 
-#: gui/qt/main_window.py:3781
+#: gui/qt/main_window.py:3856
 msgid "User cancelled"
 msgstr ""
 
@@ -7402,7 +7454,7 @@ msgstr ""
 msgid "User interface."
 msgstr ""
 
-#: gui/qt/main_window.py:4410
+#: gui/qt/main_window.py:4485
 msgid "Using change addresses makes it more difficult for other people to track your transactions."
 msgstr "Het gebruik van wisselgeldadressen maakt het moeilijker voor derden om uw transacties te traceren."
 
@@ -7419,7 +7471,7 @@ msgstr ""
 msgid "Validated Cash Account: <b><pre>{emoji} {account_string}</pre></b>"
 msgstr ""
 
-#: gui/qt/main_window.py:3203
+#: gui/qt/main_window.py:3205
 msgid "Verify"
 msgstr "Verifieer"
 
@@ -7455,12 +7507,12 @@ msgstr[0] ""
 msgstr[1] ""
 
 #: gui/qt/external_plugins_window.py:77 gui/qt/external_plugins_window.py:475
-#: gui/qt/main_window.py:715 plugins/shuffle/qt.py:2024
+#: gui/qt/main_window.py:717 plugins/shuffle/qt.py:2024
 msgid "Version"
 msgstr "Versie"
 
-#: gui/qt/main_window.py:4243 gui/qt/main_window.py:4251
-#: gui/qt/main_window.py:4269
+#: gui/qt/main_window.py:4318 gui/qt/main_window.py:4326
+#: gui/qt/main_window.py:4344
 msgid "Video device"
 msgstr ""
 
@@ -7491,11 +7543,11 @@ msgstr "Factuur bekijken"
 msgid "View on block explorer"
 msgstr "Bekijk op blokverkenner"
 
-#: gui/qt/main_window.py:2825 plugins/shuffle/qt.py:1623
+#: gui/qt/main_window.py:2827 plugins/shuffle/qt.py:1623
 msgid "View pools..."
 msgstr ""
 
-#: gui/qt/address_list.py:377
+#: gui/qt/address_list.py:379
 msgid "View registration tx"
 msgstr ""
 
@@ -7521,23 +7573,23 @@ msgstr "WAARSCHUWING"
 msgid "WARNING!"
 msgstr ""
 
-#: plugins/satochip/qt.py:202
+#: plugins/satochip/qt.py:212
 msgid "WARNING!\n"
 msgstr ""
 
-#: gui/qt/main_window.py:3454
+#: gui/qt/main_window.py:3456
 msgid "WARNING: ALL your private keys are secret."
 msgstr "WAARSCHUWING: Al uw privé sleutels zijn geheim."
 
-#: gui/qt/main_window.py:3420 gui/qt/main_window.py:3423
+#: gui/qt/main_window.py:3422 gui/qt/main_window.py:3425
 msgid "WARNING: This is a multi-signature wallet."
 msgstr ""
 
-#: gui/qt/main_window.py:1924
+#: gui/qt/main_window.py:1926
 msgid "WARNING: the alias \"{}\" could not be validated via an additional security check, DNSSEC, and thus may not be correct."
 msgstr ""
 
-#: gui/qt/main_window.py:3104
+#: gui/qt/main_window.py:3106
 msgid "WIF key has been encrypted using BIP38.\n\n"
 "You may save this encrypted key to a file or print out its QR code and/or text.\n\n"
 "It is strongly encrypted with the passphrase you specified and safe to store electronically. However, the passphrase should be stored securely and not shared with anyone."
@@ -7556,7 +7608,7 @@ msgstr ""
 msgid "Wallet"
 msgstr "Portemonnee"
 
-#: gui/qt/main_window.py:2970
+#: gui/qt/main_window.py:2972
 msgid "Wallet Information"
 msgstr ""
 
@@ -7564,7 +7616,7 @@ msgstr ""
 msgid "Wallet Operations"
 msgstr ""
 
-#: gui/qt/main_window.py:2877
+#: gui/qt/main_window.py:2879
 #: ios/ElectronCash/electroncash_gui/ios_native/newwallet.py:25
 msgid "Wallet Password"
 msgstr ""
@@ -7579,7 +7631,7 @@ msgstr ""
 msgid "Wallet Seed"
 msgstr ""
 
-#: gui/qt/main_window.py:550
+#: gui/qt/main_window.py:552
 msgid "Wallet backup created"
 msgstr "Wallet backup aangemaakt"
 
@@ -7591,15 +7643,15 @@ msgstr ""
 msgid "Wallet file"
 msgstr ""
 
-#: gui/qt/main_window.py:3025
+#: gui/qt/main_window.py:3027
 msgid "Wallet file not found: {}"
 msgstr ""
 
-#: gui/qt/main_window.py:3709
+#: gui/qt/main_window.py:3784
 msgid "Wallet has no address to sweep to"
 msgstr ""
 
-#: gui/qt/main_window.py:2977
+#: gui/qt/main_window.py:2979
 msgid "Wallet name"
 msgstr ""
 
@@ -7615,7 +7667,7 @@ msgstr ""
 msgid "Wallet passwords do not match. Please confirm the password you wish to set for your wallet by entering the same password twice."
 msgstr ""
 
-#: gui/qt/main_window.py:3023
+#: gui/qt/main_window.py:3025
 msgid "Wallet removed: {}"
 msgstr ""
 
@@ -7631,7 +7683,7 @@ msgstr ""
 msgid "Wallet successfully renamed"
 msgstr ""
 
-#: gui/qt/main_window.py:2979
+#: gui/qt/main_window.py:2981
 msgid "Wallet type"
 msgstr ""
 
@@ -7640,13 +7692,13 @@ msgstr ""
 msgid "Wallets"
 msgstr ""
 
-#: gui/qt/main_window.py:2111 gui/qt/main_window.py:2212 gui/qt/util.py:222
-#: gui/qt/seed_dialog.py:98 gui/qt/transaction_dialog.py:257
+#: gui/qt/main_window.py:2113 gui/qt/main_window.py:2214 gui/qt/util.py:224
+#: gui/qt/seed_dialog.py:98 gui/qt/transaction_dialog.py:259
 msgid "Warning"
 msgstr "Waarschuwing"
 
 #. Warn if past gap limit.
-#: gui/qt/main_window.py:1341
+#: gui/qt/main_window.py:1343
 msgid "Warning: The next address will not be recovered automatically if you restore your wallet from seed; you may need to add it manually.\n\n"
 "This occurs because you have too many unused addresses in your wallet. To avoid this situation, use the existing addresses first.\n\n"
 "Create anyway?"
@@ -7712,11 +7764,11 @@ msgstr ""
 msgid "Within 5 blocks"
 msgstr ""
 
-#: gui/qt/main_window.py:4986
+#: gui/qt/main_window.py:5061
 msgid "Would you like to enable CashShuffle for this wallet?"
 msgstr ""
 
-#: gui/qt/main_window.py:4991
+#: gui/qt/main_window.py:5066
 msgid "Would you like to turn on CashShuffle?"
 msgstr ""
 
@@ -7724,7 +7776,7 @@ msgstr ""
 msgid "Write down the seed word shown on your {}"
 msgstr ""
 
-#: plugins/satochip/CardConnector.py:616
+#: plugins/satochip/CardConnector.py:621
 msgid "Wrong PIN! {} tries remaining!"
 msgstr ""
 
@@ -7734,12 +7786,12 @@ msgstr ""
 msgid "Wrong key type"
 msgstr ""
 
-#: gui/qt/main_window.py:3172
+#: gui/qt/main_window.py:3174
 #: ios/ElectronCash/electroncash_gui/ios_native/sign_decrypt_dialog.py:291
 msgid "Wrong signature"
 msgstr "Verkeerde handtekening"
 
-#: plugins/satochip/satochip.py:278
+#: plugins/satochip/satochip.py:277
 msgid "Wrong signature!\n"
 "The 2FA device may have rejected the action."
 msgstr ""
@@ -7765,7 +7817,7 @@ msgid "You are about to delete the wallet '{wallet_name}'. Unless you have other
 "In order to proceed, please type the word '{delete_confirm_text}' in the box below:"
 msgstr ""
 
-#: plugins/satochip/qt.py:203
+#: plugins/satochip/qt.py:213
 msgid "You are about to reset the seed of your Satochip. This process is irreversible!\n"
 msgstr ""
 
@@ -7773,7 +7825,7 @@ msgstr ""
 msgid "You are already on the latest version of Electron Cash."
 msgstr ""
 
-#: gui/qt/main_window.py:3432
+#: gui/qt/main_window.py:3434
 msgid "You are exporting your wallet's private keys as BIP38 encrypted keys."
 msgstr ""
 
@@ -7790,7 +7842,7 @@ msgstr ""
 msgid "You are now spending <b><i>unshuffled</i></b> coins. Are you sure?"
 msgstr ""
 
-#: gui/qt/main_window.py:5167
+#: gui/qt/main_window.py:5242
 #, python-brace-format
 msgid "You are registering a new <a href='ca'>Cash Account</a> for your address <a href='addr'><b><pre>{address}</pre></b></a>"
 msgstr ""
@@ -7804,15 +7856,15 @@ msgid "You are requesting the deletion of the currently active wallet. In order 
 msgstr ""
 
 #. Does not have network, so we won't speak of incompatibility, but instead remind user offline mode means OFFLINE! ;)
-#: gui/qt/__init__.py:712 plugins/labels/qt.py:91
+#: gui/qt/__init__.py:714 plugins/labels/qt.py:91
 msgid "You are using Electron Cash in offline mode; restart Electron Cash if you want to get connected"
 msgstr ""
 
-#: gui/qt/main_window.py:1333
+#: gui/qt/main_window.py:1335
 msgid "You are using a non-deterministic wallet, which cannot create new addresses."
 msgstr "U gebruik een niet-deterministische portemonnee, we kunnen geen nieuw adres aanmaken."
 
-#: gui/qt/main_window.py:2115
+#: gui/qt/main_window.py:2117
 msgid "You are using an OP_RETURN message. This gets permanently written to the blockchain."
 msgstr ""
 
@@ -7862,7 +7914,7 @@ msgstr ""
 msgid "You have selected non-SSL mode for your server settings."
 msgstr ""
 
-#: gui/qt/main_window.py:1467
+#: gui/qt/main_window.py:1469
 msgid "You may enter:<ul><li> Bitcoin Cash <b>Address</b> <b>★</b><li> Bitcoin Legacy <b>Address</b> <b>★</b><li> <b>Cash Account</b> <b>★</b> e.g. <i>satoshi#123</i><li> <b>Contact name</b> <b>★</b> from the Contacts tab<li> <b>CoinText</b> e.g. <i>cointext:+1234567</i><li> <b>OpenAlias</b> e.g. <i>satoshi@domain.com</i></ul><br>&nbsp;&nbsp;&nbsp;<b>★</b> = Supports <b>pay-to-many</b>, where you may optionally enter multiple lines of the form:</span><br><pre>    recipient1, amount1 \n"
 "    recipient2, amount2 \n"
 "    etc...</pre>"
@@ -7872,11 +7924,11 @@ msgstr ""
 msgid "You may extend your seed with custom words."
 msgstr ""
 
-#: gui/qt/main_window.py:2587
+#: gui/qt/main_window.py:2589
 msgid "You may load a CSV file using the file icon."
 msgstr "U kunt een CSV-bestand laden met behulp van het bestandspictogram."
 
-#: gui/qt/main_window.py:1110
+#: gui/qt/main_window.py:1112
 msgid "You may optionally append an OP_RETURN message to the payment URI and/or QR you generate.\n\n"
 "Note: Not all wallets yet support OP_RETURN parameters, so make sure the other party's wallet supports OP_RETURN URIs."
 msgstr ""
@@ -7897,7 +7949,7 @@ msgstr ""
 msgid "You may try the \"Hardware Wallet Support\" tool (below)."
 msgstr ""
 
-#: gui/qt/main_window.py:3433
+#: gui/qt/main_window.py:3435
 msgid "You must specify a passphrase to use for encryption."
 msgstr ""
 
@@ -7922,7 +7974,7 @@ msgid "You will be asked to enter 24 words regardless of your seed's actual leng
 "So please enter the words carefully!"
 msgstr ""
 
-#: gui/qt/main_window.py:2111 gui/qt/main_window.py:2212
+#: gui/qt/main_window.py:2113 gui/qt/main_window.py:2214
 msgid "You're using a fee of less than 1.0 sats/B. It may take a very long time to confirm."
 msgstr ""
 
@@ -7956,11 +8008,11 @@ msgstr ""
 msgid "Your device firmware is too old"
 msgstr ""
 
-#: gui/qt/main_window.py:5049
+#: gui/qt/main_window.py:5124
 msgid "Your entire transaction history will be downloaded again from the server and verified from the blockchain."
 msgstr ""
 
-#: gui/qt/main_window.py:2075
+#: gui/qt/main_window.py:2077
 #: ios/ElectronCash/electroncash_gui/ios_native/send.py:805
 msgid "Your fee is too high.  Max is 50 sat/byte."
 msgstr ""
@@ -7969,11 +8021,11 @@ msgstr ""
 msgid "Your labels have been synchronised."
 msgstr "Uw labels zijn gesynchroniseerd."
 
-#: gui/qt/main_window.py:3628
+#: gui/qt/main_window.py:3631
 msgid "Your labels were exported to"
 msgstr ""
 
-#: gui/qt/main_window.py:3613
+#: gui/qt/main_window.py:3616
 msgid "Your labels were imported from"
 msgstr ""
 
@@ -7995,7 +8047,7 @@ msgid "Your seed extension is"
 msgstr "Je seed-extensie is"
 
 #: lib/base_wizard.py:308 lib/base_wizard.py:445
-#: plugins/satochip/satochip.py:661
+#: plugins/satochip/satochip.py:664
 msgid "Your seed extension must be saved together with your seed."
 msgstr ""
 
@@ -8022,7 +8074,7 @@ msgstr ""
 msgid "Your wallet generation seed is:"
 msgstr "Uw portemonnee aanmaak-seed is:"
 
-#: gui/qt/main_window.py:3658
+#: gui/qt/main_window.py:3692
 msgid "Your wallet history has been successfully exported."
 msgstr "Uw portemonnee geschiedenis is met succes geëxporteerd."
 
@@ -8044,7 +8096,7 @@ msgstr ""
 msgid "Your {} might not have support for this functionality."
 msgstr ""
 
-#: gui/qt/main_window.py:4075
+#: gui/qt/main_window.py:4150
 #: ios/ElectronCash/electroncash_gui/ios_native/prefs.py:326
 msgid "Zeros after decimal point"
 msgstr "Cijfers achter decimaalteken"
@@ -8054,7 +8106,7 @@ msgid "Zip Archives (*.zip)"
 msgstr ""
 
 #. if there are lots left to verify, display this informative text
-#: gui/qt/main_window.py:921
+#: gui/qt/main_window.py:923
 #, python-format
 msgid "[%d unverified TXs]"
 msgstr ""
@@ -8131,7 +8183,7 @@ msgstr ""
 msgid "and create your standard wallet or restore an existing one with any of the methods below"
 msgstr ""
 
-#: gui/qt/main_window.py:1633
+#: gui/qt/main_window.py:1635
 msgid "are frozen"
 msgstr "zijn geblokkeerd"
 
@@ -8150,7 +8202,7 @@ msgstr ""
 msgid "confirmations"
 msgstr ""
 
-#: gui/qt/main_window.py:2994
+#: gui/qt/main_window.py:2996
 msgid "cosigner"
 msgstr "mede-ondertekenaar"
 
@@ -8210,7 +8262,7 @@ msgstr ""
 msgid "monochrome"
 msgstr ""
 
-#: gui/qt/main_window.py:3722 gui/qt/main_window.py:3834
+#: gui/qt/main_window.py:3797 gui/qt/main_window.py:3909
 msgid "or BIP38 keys"
 msgstr ""
 
@@ -8218,13 +8270,17 @@ msgstr ""
 msgid "password incorrect"
 msgstr ""
 
-#: gui/qt/main_window.py:2288
+#: gui/qt/main_window.py:2290
 #: ios/ElectronCash/electroncash_gui/ios_native/gui.py:1182
 msgid "please wait..."
 msgstr "gelieve te wachten..."
 
 #: plugins/ledger/ledger.py:33
 msgid "python-btchip is too old for CashAddr support. "
+msgstr ""
+
+#: gui/qt/main_window.py:3660
+msgid "seconds"
 msgstr ""
 
 #: gui/qt/qrreader/camera_dialog.py:282
@@ -8247,26 +8303,26 @@ msgstr ""
 msgid "unavailable"
 msgstr ""
 
-#: lib/wallet.py:1411
+#: lib/wallet.py:1521
 msgid "unconfirmed"
 msgstr ""
 
 #: gui/qt/fee_slider.py:28 gui/qt/qrreader/camera_dialog.py:289
-#: gui/qt/transaction_dialog.py:428 gui/qt/transaction_dialog.py:593
+#: gui/qt/transaction_dialog.py:434 gui/qt/transaction_dialog.py:599
 #: ios/ElectronCash/electroncash_gui/ios_native/txdetail.py:178
 #: ios/ElectronCash/electroncash_gui/ios_native/txdetail.py:245
 #: ios/ElectronCash/electroncash_gui/ios_native/txdetail.py:565
 #: ios/ElectronCash/electroncash_gui/ios_native/feeslider.py:76
-#: lib/wallet.py:1489
+#: lib/wallet.py:1601
 msgid "unknown"
 msgstr "onbekend"
 
-#: gui/qt/transaction_dialog.py:405
+#: gui/qt/transaction_dialog.py:411
 #: ios/ElectronCash/electroncash_gui/ios_native/txdetail.py:521
 msgid "unknown (low fee)"
 msgstr ""
 
-#: lib/commands.py:890
+#: lib/commands.py:921
 msgid "unknown parser {!r} (choices: {})"
 msgstr ""
 
@@ -8278,11 +8334,11 @@ msgstr ""
 msgid "unloading"
 msgstr ""
 
-#: lib/wallet.py:1409
+#: lib/wallet.py:1519
 msgid "unverified"
 msgstr ""
 
-#: gui/qt/main_window.py:463
+#: gui/qt/main_window.py:465
 #: ios/ElectronCash/electroncash_gui/ios_native/addresses.py:190
 msgid "watching only"
 msgstr "alleen-kijken"
@@ -8347,7 +8403,7 @@ msgstr[0] ""
 msgstr[1] ""
 
 #. plural
-#: gui/qt/main_window.py:5430
+#: gui/qt/main_window.py:5505
 #, python-brace-format
 msgid "{number_of_cashaccounts} Cash Accounts registrations"
 msgstr ""
@@ -8359,7 +8415,7 @@ msgid_plural "{number} Cash Accounts"
 msgstr[0] ""
 msgstr[1] ""
 
-#: gui/qt/main_window.py:797
+#: gui/qt/main_window.py:799
 #, python-brace-format
 msgid "{sats_per_byte} sat/byte"
 msgstr ""
@@ -8369,7 +8425,7 @@ msgstr ""
 msgid "{time} ago"
 msgstr ""
 
-#: gui/qt/main_window.py:4910
+#: gui/qt/main_window.py:4985
 #, python-brace-format
 msgid "{total_size} bytes"
 msgstr ""
@@ -8381,7 +8437,7 @@ msgid_plural "{years} years"
 msgstr[0] ""
 msgstr[1] ""
 
-#: gui/qt/transaction_dialog.py:475
+#: gui/qt/transaction_dialog.py:481
 msgid "{} = Schnorr signed"
 msgstr ""
 
@@ -8438,7 +8494,7 @@ msgstr ""
 msgid "{} new transactions received: Total amount received in the new transactions {}"
 msgstr ""
 
-#: gui/qt/main_window.py:5437 gui/qt/main_window.py:5445
+#: gui/qt/main_window.py:5512 gui/qt/main_window.py:5520
 msgid "{} new transactions: {}"
 msgstr ""
 
