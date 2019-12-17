@@ -2,16 +2,15 @@ msgid ""
 msgstr ""
 "Project-Id-Version: electron-cash\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-12-10 15:10+0200\n"
-"PO-Revision-Date: 2019-12-10 13:12\n"
-"Last-Translator: jonald\n"
+"POT-Creation-Date: 2019-12-17 11:42+0200\n"
+"PO-Revision-Date: 2019-12-17 09:43\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: Ukrainian\n"
 "Language: uk_UA\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=4; plural=((n%10==1 && n%100!=11) ? 0 : ((n%10 >= 2 && n%10 <=4 && (n%100 < 12 || n%100 > 14)) ? 1 : ((n%10 == 0 || (n%10 >= 5 && n%10 <=9)) || (n%100 >= 11 && n%100 <= 14)) ? 2 : 3));\n"
-"X-Generator: crowdin.com\n"
 "X-Crowdin-Project: electron-cash\n"
 "X-Crowdin-Language: uk\n"
 "X-Crowdin-File: /electron-cash-client/messages.pot\n"
@@ -434,7 +433,7 @@ msgstr ""
 msgid "<b>BIP38 support is disabled because a requisite library is not installed.</b> Please install 'cryptodomex' or omit BIP38 private keys (private keys starting in 6P...). Decrypt keys to WIF format (starting with 5, K, or L) in order to sweep."
 msgstr ""
 
-#: gui/qt/contact_list.py:463
+#: gui/qt/contact_list.py:469
 msgid "<br>Add anyone's Cash Account to your Contacts"
 msgstr ""
 
@@ -507,16 +506,16 @@ msgstr ""
 msgid "A suggested fee is automatically added to this field. You may override it. The suggested fee increases with the size of the transaction."
 msgstr "Пропонований розмір комісії автоматично додається в це поле. Ви можете перевизначити її. Вона збільшується разом з розміром транзакції."
 
-#: ios/ElectronCash/electroncash_gui/ios_native/newwallet.py:234
-msgid "A wallet with that name already exist. Please enter a different wallet name to proceed."
-msgstr ""
-
 #: ios/ElectronCash/electroncash_gui/ios_native/wallets.py:573
 msgid "A wallet with that name already exists, please try again."
 msgstr ""
 
 #: ios/ElectronCash/electroncash_gui/ios_native/gui.py:1782
 msgid "A wallet with that name already exists. Cannot proceed."
+msgstr ""
+
+#: ios/ElectronCash/electroncash_gui/ios_native/newwallet.py:234
+msgid "A wallet with that name already exists. Please enter a different wallet name to proceed."
 msgstr ""
 
 #: plugins/ledger/ledger.py:190
@@ -548,7 +547,7 @@ msgstr ""
 msgid "Actual amounts applied: {} and {}.\n\n"
 msgstr ""
 
-#: gui/qt/contact_list.py:234 gui/qt/contact_list.py:235
+#: gui/qt/contact_list.py:240 gui/qt/contact_list.py:241
 msgid "Add Contact"
 msgstr ""
 
@@ -604,8 +603,8 @@ msgstr ""
 #: gui/qt/main_window.py:3190 gui/qt/request_list.py:42
 #: gui/qt/cashacctqt.py:858 gui/qt/cashacctqt.py:882 gui/qt/address_list.py:101
 #: gui/qt/address_list.py:340 gui/qt/address_dialog.py:48
-#: gui/qt/utxo_list.py:58 gui/qt/contact_list.py:58 gui/qt/contact_list.py:235
-#: gui/qt/contact_list.py:386
+#: gui/qt/utxo_list.py:58 gui/qt/contact_list.py:58 gui/qt/contact_list.py:241
+#: gui/qt/contact_list.py:392
 #: ios/ElectronCash/electroncash_gui/ios_native/contacts.py:571
 #: ios/ElectronCash/electroncash_gui/ios_native/private_key_dialog.py:55
 #: ios/ElectronCash/electroncash_gui/ios_native/receive.py:641
@@ -776,7 +775,7 @@ msgstr "Виникла помилка"
 msgid "An encrypted transaction was retrieved from cosigning pool."
 msgstr "Отримано зашифровану транзакцію з пулу співвласників."
 
-#: lib/network.py:1843
+#: lib/network.py:1845
 msgid "An error occurred broadcasting the transaction"
 msgstr ""
 
@@ -1184,7 +1183,7 @@ msgstr ""
 msgid "Cannot sign messages with this type of address."
 msgstr ""
 
-#: android/app/src/main/python/electroncash_gui/android/strings.py:13
+#: android/app/src/main/python/electroncash_gui/android/strings.py:12
 msgid "Cannot specify private keys and addresses in the same wallet."
 msgstr ""
 
@@ -1214,8 +1213,8 @@ msgstr ""
 
 #. hack .. for Cash Accounts just say "Copy Cash Account"
 #: gui/qt/cashacctqt.py:885 gui/qt/contact_list.py:201
-#: gui/qt/contact_list.py:234 gui/qt/contact_list.py:383
-#: gui/qt/contact_list.py:384 gui/qt/contact_list.py:385
+#: gui/qt/contact_list.py:240 gui/qt/contact_list.py:389
+#: gui/qt/contact_list.py:390 gui/qt/contact_list.py:391
 msgid "Cash Account"
 msgstr ""
 
@@ -1242,11 +1241,11 @@ msgstr ""
 msgid "Cash Account not found: {name}"
 msgstr ""
 
-#: gui/qt/contact_list.py:430
+#: gui/qt/contact_list.py:436
 msgid "Cash Account pending confirmation and/or verification"
 msgstr ""
 
-#: gui/qt/contact_list.py:265
+#: gui/qt/contact_list.py:271
 msgid "Cash Account verification failure"
 msgstr ""
 
@@ -1401,7 +1400,7 @@ msgstr "Змінити Пароль"
 msgid "Change or Set Password"
 msgstr ""
 
-#: android/app/src/main/python/electroncash_gui/android/strings.py:14
+#: android/app/src/main/python/electroncash_gui/android/strings.py:13
 msgid "Change password"
 msgstr ""
 
@@ -1545,7 +1544,7 @@ msgstr ""
 msgid "Close"
 msgstr "Закрити"
 
-#: android/app/src/main/python/electroncash_gui/android/strings.py:15
+#: android/app/src/main/python/electroncash_gui/android/strings.py:14
 msgid "Close wallet"
 msgstr ""
 
@@ -1718,7 +1717,7 @@ msgstr "Підтвердіть свій {} пристрій для встано�
 msgid "Confirm on your {} that you want to wipe it clean"
 msgstr "Підтвердьте, що ви хочете очистити пристрій {}"
 
-#: android/app/src/main/python/electroncash_gui/android/strings.py:16
+#: android/app/src/main/python/electroncash_gui/android/strings.py:15
 msgid "Confirm password"
 msgstr ""
 
@@ -1782,7 +1781,7 @@ msgstr ""
 msgid "Connections"
 msgstr ""
 
-#: android/app/src/main/python/electroncash_gui/android/strings.py:18
+#: android/app/src/main/python/electroncash_gui/android/strings.py:16
 msgid "Console"
 msgstr ""
 
@@ -1916,7 +1915,7 @@ msgstr "Скопіювати в буфер обміну"
 msgid "Copy {}"
 msgstr "Копіювати {}"
 
-#: android/app/src/main/python/electroncash_gui/android/strings.py:12
+#: android/app/src/main/python/electroncash_gui/android/strings.py:17
 msgid "Copyright © 2017-2019 Electron Cash LLC and the Electron Cash developers."
 msgstr ""
 
@@ -2026,7 +2025,7 @@ msgstr "Критична Помилка"
 msgid "Current Password:"
 msgstr "Поточний пароль:"
 
-#: android/app/src/main/python/electroncash_gui/android/strings.py:17
+#: android/app/src/main/python/electroncash_gui/android/strings.py:18
 msgid "Current password"
 msgstr ""
 
@@ -2174,7 +2173,7 @@ msgstr "Опис транзакції (не обов'язково)."
 msgid "Details"
 msgstr "Подробиці"
 
-#: gui/qt/contact_list.py:230
+#: gui/qt/contact_list.py:236
 msgid "Details..."
 msgstr ""
 
@@ -2702,7 +2701,7 @@ msgstr ""
 msgid "Enter or pick address"
 msgstr ""
 
-#: android/app/src/main/python/electroncash_gui/android/strings.py:23
+#: android/app/src/main/python/electroncash_gui/android/strings.py:22
 msgid "Enter password"
 msgstr ""
 
@@ -2881,7 +2880,7 @@ msgstr "Експортувати"
 msgid "Export History"
 msgstr "Експортувати Історію"
 
-#: gui/qt/contact_list.py:244
+#: gui/qt/contact_list.py:250
 msgid "Export file"
 msgstr ""
 
@@ -3055,7 +3054,7 @@ msgstr ""
 msgid "For scanning QR codes."
 msgstr ""
 
-#: android/app/src/main/python/electroncash_gui/android/strings.py:24
+#: android/app/src/main/python/electroncash_gui/android/strings.py:23
 msgid "For support, please visit us on <a href='https://github.com/Electron-Cash/Electron-Cash/issues'>GitHub</a> or on <a href='https://t.me/electroncashwallet'>Telegram</a>."
 msgstr ""
 
@@ -3319,7 +3318,7 @@ msgstr "Я вже маю фразу-пароль (seed)"
 msgid "I should only install the most reputable plugins trusted by the community."
 msgstr ""
 
-#: android/app/src/main/python/electroncash_gui/android/strings.py:22
+#: android/app/src/main/python/electroncash_gui/android/strings.py:25
 msgid "ID"
 msgstr ""
 
@@ -3513,7 +3512,7 @@ msgstr "Імпорт адрес"
 msgid "Import addresses or private keys"
 msgstr ""
 
-#: gui/qt/contact_list.py:241
+#: gui/qt/contact_list.py:247
 msgid "Import file"
 msgstr "Імпорт файлу"
 
@@ -4063,7 +4062,7 @@ msgstr ""
 msgid "Method:"
 msgstr "Метод:"
 
-#: gui/qt/main_window.py:1861 gui/qt/contact_list.py:384
+#: gui/qt/main_window.py:1861 gui/qt/contact_list.py:390
 msgid "Mine"
 msgstr ""
 
@@ -4189,7 +4188,7 @@ msgstr ""
 msgid "Never type it on a website."
 msgstr "Ніколи не вводьте його на веб-сайтах."
 
-#: gui/qt/contact_list.py:462
+#: gui/qt/contact_list.py:468
 msgid "New Cash Account Contact"
 msgstr ""
 
@@ -4360,11 +4359,11 @@ msgstr ""
 msgid "No valid items remain. Cannot proceed -- go back and try again."
 msgstr ""
 
-#: android/app/src/main/python/electroncash_gui/android/strings.py:31
+#: android/app/src/main/python/electroncash_gui/android/strings.py:32
 msgid "No wallet"
 msgstr ""
 
-#: android/app/src/main/python/electroncash_gui/android/strings.py:32
+#: android/app/src/main/python/electroncash_gui/android/strings.py:31
 msgid "No wallet is open."
 msgstr ""
 
@@ -4631,7 +4630,7 @@ msgstr ""
 msgid "Open your cosigner wallet to retrieve it."
 msgstr ""
 
-#: gui/qt/main_window.py:4200 gui/qt/contact_list.py:382
+#: gui/qt/main_window.py:4200 gui/qt/contact_list.py:388
 msgid "OpenAlias"
 msgstr ""
 
@@ -4858,7 +4857,7 @@ msgstr ""
 msgid "Payment sent."
 msgstr "Платіж відправлений."
 
-#: gui/qt/contact_list.py:385
+#: gui/qt/contact_list.py:391
 msgid "Pend"
 msgstr ""
 
@@ -5394,7 +5393,7 @@ msgstr ""
 msgid "Register A New Cash Account"
 msgstr ""
 
-#: gui/qt/contact_list.py:238
+#: gui/qt/contact_list.py:244
 msgid "Register Cash Account..."
 msgstr ""
 
@@ -5442,6 +5441,10 @@ msgstr ""
 msgid "Rename Wallet"
 msgstr ""
 
+#: android/app/src/main/python/electroncash_gui/android/strings.py:36
+msgid "Rename wallet"
+msgstr ""
+
 #: ios/ElectronCash/electroncash_gui/ios_native/crashreporter.py:55
 msgid "Report Contents"
 msgstr ""
@@ -5454,7 +5457,7 @@ msgstr ""
 msgid "Reporting Bugs"
 msgstr "Повідомлення про Проблеми"
 
-#: android/app/src/main/python/electroncash_gui/android/strings.py:36
+#: android/app/src/main/python/electroncash_gui/android/strings.py:37
 msgid "Request"
 msgstr ""
 
@@ -5539,7 +5542,7 @@ msgstr ""
 msgid "Restore from Seed"
 msgstr ""
 
-#: android/app/src/main/python/electroncash_gui/android/strings.py:37
+#: android/app/src/main/python/electroncash_gui/android/strings.py:38
 msgid "Restore from seed"
 msgstr ""
 
@@ -6001,7 +6004,7 @@ msgstr ""
 msgid "Show Fiat balance for addresses"
 msgstr "Показати фіатний баланс для адрес"
 
-#: gui/qt/contact_list.py:247
+#: gui/qt/contact_list.py:253
 msgid "Show My Cash Accounts"
 msgstr ""
 
@@ -6058,7 +6061,7 @@ msgstr "Показати на {}"
 msgid "Show report contents"
 msgstr "Відобразити вміст звіту"
 
-#: android/app/src/main/python/electroncash_gui/android/strings.py:38
+#: android/app/src/main/python/electroncash_gui/android/strings.py:39
 msgid "Show seed"
 msgstr ""
 
@@ -6146,7 +6149,7 @@ msgstr ""
 msgid "Sign/verify Message"
 msgstr "Підписати/верифікувати повідомлення"
 
-#: gui/qt/address_list.py:326
+#: gui/qt/address_list.py:326 gui/qt/contact_list.py:224
 msgid "Sign/verify message"
 msgstr "Підписати/верифікувати повідомлення"
 
@@ -6186,7 +6189,7 @@ msgstr "Транзакція підписується..."
 msgid "Signing with an address actually means signing with the corresponding private key, and verifying with the corresponding public key. The address you have entered does not have a unique public key, so these operations cannot be performed."
 msgstr "Підписання з адресою фактично означає підпис із відповідним приватним ключем та підтвердженням відповідного відкритого ключа. Введена вами адреса не має унікального відкритого ключа, тому ці операції не можуть бути виконані."
 
-#: android/app/src/main/python/electroncash_gui/android/strings.py:39
+#: android/app/src/main/python/electroncash_gui/android/strings.py:40
 msgid "Size"
 msgstr ""
 
@@ -6663,64 +6666,68 @@ msgstr ""
 msgid "The transaction already exists in the blockchain."
 msgstr ""
 
-#: lib/network.py:1816
+#: lib/network.py:1818
 msgid "The transaction already exists in the server's mempool."
 msgstr ""
 
-#: lib/network.py:1818
+#: lib/network.py:1820
 msgid "The transaction conflicts with a transaction already in the server's mempool."
 msgstr ""
 
-#: lib/network.py:1834
+#: lib/network.py:1836
 msgid "The transaction was rejected because it contains a bare multisig input."
 msgstr ""
 
-#: lib/network.py:1826
+#: lib/network.py:1828
 msgid "The transaction was rejected because it contains a non-mandatory script verify flag."
 msgstr ""
 
-#: lib/network.py:1832
+#: lib/network.py:1834
 msgid "The transaction was rejected because it contains a non-standard script public key signature."
 msgstr ""
 
-#: lib/network.py:1830
+#: lib/network.py:1832
 msgid "The transaction was rejected because it contains a script that is too large."
 msgstr ""
 
-#: lib/network.py:1836
+#: lib/network.py:1838
 msgid "The transaction was rejected because it contains multiple OP_RETURN outputs."
 msgstr ""
 
-#: lib/network.py:1838
+#: lib/network.py:1840
 msgid "The transaction was rejected because it contains non-push-only script sigs."
 msgstr ""
 
-#: lib/network.py:1840
+#: lib/network.py:1842
 msgid "The transaction was rejected because it is not considered final according to network rules."
 msgstr ""
 
-#: lib/network.py:1828
+#: lib/network.py:1830
 msgid "The transaction was rejected because it is too large (in bytes)."
 msgstr ""
 
-#: lib/network.py:1824
+#: lib/network.py:1826
 msgid "The transaction was rejected because it specifies an absurdly high fee."
 msgstr ""
 
-#: lib/network.py:1842
+#: lib/network.py:1844
 msgid "The transaction was rejected because it uses a non-standard version."
 msgstr ""
 
-#: lib/network.py:1820
+#: lib/network.py:1822
 msgid "The transaction was rejected due to having too many mempool ancestors. Wait for confirmations and try again."
 msgstr ""
 
-#: lib/network.py:1822
+#: lib/network.py:1824
 msgid "The transaction was rejected due to its use of non-standard inputs."
 msgstr ""
 
+#: lib/network.py:1814
+msgid "The transaction was rejected due to paying insufficient fees (possibly due to network congestion)."
+msgstr ""
+
 #: lib/network.py:1812
-msgid "The transaction was rejected due to paying insufficient fees and/or for being of extremely low priority."
+msgid "The transaction was rejected due to paying insufficient fees."
 msgstr ""
 
 #: plugins/satochip/satochip.py:493
@@ -7092,7 +7099,7 @@ msgstr ""
 msgid "Transaction Output {}"
 msgstr ""
 
-#: lib/network.py:1814
+#: lib/network.py:1816
 msgid "Transaction could not be broadcast due to an attempt to spend a coinbase input before maturity."
 msgstr ""
 
@@ -7108,7 +7115,7 @@ msgstr ""
 msgid "Transaction history may not yet be current."
 msgstr ""
 
-#: android/app/src/main/python/electroncash_gui/android/strings.py:40
+#: android/app/src/main/python/electroncash_gui/android/strings.py:41
 msgid "Transaction not found"
 msgstr ""
 
@@ -7288,7 +7295,7 @@ msgid "Uninstall"
 msgstr ""
 
 #. Can happen with incomplete history
-#: gui/qt/contact_list.py:380 gui/qt/transaction_dialog.py:385
+#: gui/qt/contact_list.py:386 gui/qt/transaction_dialog.py:385
 #: ios/ElectronCash/electroncash_gui/ios_native/receive.py:657
 #: ios/ElectronCash/electroncash_gui/ios_native/txdetail.py:434
 #: ios/ElectronCash/electroncash_gui/ios_native/txdetail.py:456
@@ -7400,7 +7407,7 @@ msgstr ""
 msgid "Use a hardware device"
 msgstr "Використовуйте апаратний пристрій"
 
-#: android/app/src/main/python/electroncash_gui/android/strings.py:41
+#: android/app/src/main/python/electroncash_gui/android/strings.py:42
 msgid "Use a master key"
 msgstr ""
 
@@ -7480,7 +7487,7 @@ msgstr ""
 msgid "Valid"
 msgstr ""
 
-#: gui/qt/contact_list.py:423
+#: gui/qt/contact_list.py:429
 #, python-brace-format
 msgid "Validated Cash Account: <b><pre>{emoji} {account_string}</pre></b>"
 msgstr ""
@@ -7497,7 +7504,7 @@ msgstr ""
 msgid "Verify the address below.<br>Type the character from your security card corresponding to the <u><b>BOLD</b></u> character."
 msgstr "Перевірте адресу нижче.<br>Введіть символ із вашої картки безпеки, що відповідає символу<u><b>BOLD</b></u>."
 
-#: gui/qt/contact_list.py:270
+#: gui/qt/contact_list.py:276
 #, python-brace-format
 msgid "Verify {count} Cash Account"
 msgid_plural "Verify {count} Cash Accounts"
@@ -7552,7 +7559,7 @@ msgstr "Переглянути рахунок"
 
 #. make sure this is last
 #: gui/qt/history_list.py:257 gui/qt/address_list.py:332
-#: gui/qt/contact_list.py:223
+#: gui/qt/contact_list.py:229
 #: ios/ElectronCash/electroncash_gui/ios_native/contacts.py:870
 #: ios/ElectronCash/electroncash_gui/ios_native/txdetail.py:301
 #: ios/ElectronCash/electroncash_gui/ios_native/txdetail.py:798
@@ -7569,7 +7576,7 @@ msgstr ""
 msgid "View registration tx"
 msgstr ""
 
-#: gui/qt/contact_list.py:227
+#: gui/qt/contact_list.py:233
 msgid "View registration tx..."
 msgstr ""
 
@@ -7677,6 +7684,10 @@ msgstr "Ім'я гаманця"
 msgid "Wallet name is empty. Please enter a wallet name to proceed."
 msgstr ""
 
+#: android/app/src/main/python/electroncash_gui/android/strings.py:43
+msgid "Wallet names cannot contain the '/' character. Please enter a different wallet name to proceed."
+msgstr ""
+
 #: ios/ElectronCash/electroncash_gui/ios_native/newwallet.py:236
 msgid "Wallet password is empty. Please set a wallet password to proceed. You can disable wallet password protection later if you wish."
 msgstr ""
@@ -7689,7 +7700,11 @@ msgstr ""
 msgid "Wallet removed: {}"
 msgstr ""
 
-#: android/app/src/main/python/electroncash_gui/android/strings.py:42
+#: android/app/src/main/python/electroncash_gui/android/strings.py:44
+msgid "Wallet renamed successfully"
+msgstr ""
+
+#: android/app/src/main/python/electroncash_gui/android/strings.py:45
 msgid "Wallet seed"
 msgstr ""
 
@@ -7724,7 +7739,7 @@ msgstr "Увага: наступна адреса, не буде відновл�
 "Це відбувається тому, що у вас занадто багато невикористаних адрес у вашому гаманці. Щоб уникнути цієї ситуації, використовуйте існуючі адреси в першу чергу.\n\n"
 "Створити в будь-якому випадку?"
 
-#: gui/qt/contact_list.py:432
+#: gui/qt/contact_list.py:438
 msgid "Warning: This Cash Account is not verified"
 msgstr ""
 
@@ -7924,7 +7939,7 @@ msgstr ""
 msgid "You don't have any contacts yet. Create a new contact now!"
 msgstr ""
 
-#: android/app/src/main/python/electroncash_gui/android/strings.py:43
+#: android/app/src/main/python/electroncash_gui/android/strings.py:46
 msgid "You don't have any contacts."
 msgstr ""
 
@@ -8052,11 +8067,11 @@ msgstr ""
 msgid "Your new imported wallet has been successfully created. Would you like to switch to it now?"
 msgstr ""
 
-#: gui/qt/contact_list.py:297
+#: gui/qt/contact_list.py:303
 msgid "Your own Cash Accounts are now hidden"
 msgstr ""
 
-#: gui/qt/contact_list.py:295
+#: gui/qt/contact_list.py:301
 msgid "Your own Cash Accounts are now shown"
 msgstr ""
 
