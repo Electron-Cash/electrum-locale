@@ -2,8 +2,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: electron-cash\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-07-30 21:33+0300\n"
-"PO-Revision-Date: 2020-07-30 18:33\n"
+"POT-Creation-Date: 2020-09-11 09:31+0300\n"
+"PO-Revision-Date: 2020-09-11 06:31\n"
 "Last-Translator: \n"
 "Language-Team: Chinese Simplified\n"
 "Language: zh_CN\n"
@@ -17,7 +17,7 @@ msgstr ""
 "X-Crowdin-File: /electron-cash-client/messages.pot\n"
 "X-Crowdin-File-ID: 532\n"
 
-#: lib/exchange_rate.py:486
+#: lib/exchange_rate.py:453
 msgid "  (No FX rate available)"
 msgstr "  (没有可用的 FX 速率)"
 
@@ -33,7 +33,7 @@ msgstr " 复制到剪贴板上"
 msgid " {} found"
 msgstr " {} 发现"
 
-#: plugins/trezor/qt.py:502
+#: plugins/trezor/qt.py:570
 #, python-format
 msgid "%2d minutes"
 msgstr "%2d 分钟"
@@ -43,7 +43,7 @@ msgstr "%2d 分钟"
 msgid "%d valid item(s)"
 msgstr "%d 有效东西"
 
-#: plugins/trezor/qt.py:209
+#: plugins/trezor/qt.py:277
 #, python-format
 msgid "%d words"
 msgstr "%d 个词语"
@@ -86,7 +86,7 @@ msgstr "&现金地址"
 msgid "&Check for Updates"
 msgstr "&检查更新版本"
 
-#: gui/qt/__init__.py:485
+#: gui/qt/__init__.py:504
 msgid "&Check for updates..."
 msgstr "&检查更新..."
 
@@ -170,7 +170,7 @@ msgstr "水平翻转(&F)"
 
 #: gui/qt/main_window.py:1580
 msgid "&From"
-msgstr "&来自(&F)"
+msgstr "来自(&F)"
 
 #: gui/qt/main_window.py:674
 msgid "&Hardware Wallet Support..."
@@ -340,7 +340,7 @@ msgstr "&WIF 明码"
 msgid "&Wallet"
 msgstr "钱包(&W)"
 
-#: lib/web.py:289
+#: lib/web.py:295
 #, python-brace-format
 msgid "'{uri_scheme}' payment requests are not currently supported"
 msgstr "'{uri_scheme}' 当前不支持付款请求"
@@ -352,7 +352,7 @@ msgstr "( %s 在粉尘中被添加到手续费)"
 
 #: plugins/shuffle_deprecated/qt.py:1590
 msgid "(Custom)"
-msgstr "自訂"
+msgstr "（自訂）"
 
 #: gui/qt/main_window.py:509
 msgid "(Old versions of Electron Cash before 3.3.6 produced invalid testnet wallets)."
@@ -365,7 +365,7 @@ msgstr "(仅支持确定式钱包)"
 #. force view block explorer to go to the TX since this isn't an output address
 #: ios/ElectronCash/electroncash_gui/ios_native/txdetail.py:313
 msgid "(Script Output)"
-msgstr "脚本输出"
+msgstr "（脚本输出）"
 
 #: plugins/digitalbitbox/digitalbitbox.py:606
 msgid "(Touch {} of {})"
@@ -381,7 +381,7 @@ msgstr "(已停用)"
 
 #: gui/qt/bip38_importer.py:174
 msgid "(password required)"
-msgstr "需要密码"
+msgstr "（需要密码）"
 
 #: gui/qt/bip38_importer.py:171
 msgid "({} of {}):"
@@ -488,13 +488,13 @@ msgstr "网络连接错误。请检查你的网络连接，然后再试。"
 msgid "A network timeout occurred while looking up this Cash Account. You may want to check that your internet connection is up and not saturated processing other requests."
 msgstr "查找此现金帐户时发生网络超时。 您可能想要检查您的互联网连接是否已经开始，且不饱和处理其他请求。"
 
-#: gui/qt/__init__.py:705
+#: gui/qt/__init__.py:724
 msgid "A new version of Electron Cash is available: {}"
 msgstr "有 Electron Cash 的新版本更新:"
 
 #. Closes #1436 -- Some "Run from source" Linux users lack QtSvg
 #. (partial PyQt5 install)
-#: gui/qt/__init__.py:282
+#: gui/qt/__init__.py:301
 msgid "A required Qt module, QtSvg was not found. Please fully install all of PyQt5 5.12 or above to resolve this issue."
 msgstr "未找到必需的 Qt 模块，QtSvg 。请完全安装所有 PyQt5 5.12 或以上来解决这个问题。"
 
@@ -682,7 +682,7 @@ msgstr "地址"
 msgid "Addresses generated:"
 msgstr "地址已生成："
 
-#: plugins/keepkey/qt.py:576 plugins/trezor/qt.py:665
+#: plugins/keepkey/qt.py:576 plugins/trezor/qt.py:733
 msgid "Advanced"
 msgstr "高级设置"
 
@@ -690,7 +690,7 @@ msgstr "高级设置"
 msgid "After at least <i>1 confirmation</i>, you will be able to use your new <b>Cash Account</b>, and it will be visible in Electron Cash in the <b>Addresses</b> tab."
 msgstr "至少 <i>1 次确认</i>，您将能够使用您的新 <b>现金账户</b>， 并且它将在 Electron Cash 在 <b>地址</b> 选项卡中可见."
 
-#: plugins/keepkey/qt.py:385 plugins/trezor/qt.py:351
+#: plugins/keepkey/qt.py:385 plugins/trezor/qt.py:419
 msgid "After disabling passphrases, you can only pair this Electron Cash wallet if it had an empty passphrase. If its passphrase was not empty, you will need to create a new wallet with the install wizard. You can use this wallet again at any time by re-enabling passphrases and entering its passphrase."
 msgstr "禁用附加密码后，您只能使用空白的附加密码与硬件钱包配对。如果您设置的附加密码不为空，则需要使用安装向导重新创建新的钱包来完成配对。 您可以随时重新启用附加密码，输入原先的附加密码即可重新使用这个附加密码对应的钱包。"
 
@@ -719,7 +719,7 @@ msgstr "整装待发"
 msgid "Allow legacy p2sh in the Send tab"
 msgstr "在发送选项卡中允许旧版p2sh功能"
 
-#: plugins/fusion/qt.py:938
+#: plugins/fusion/qt.py:965
 msgid "Allow this wallet to participate multiply in the same fusion round?"
 msgstr "允许这个钱包在同一回合中成倍参与？"
 
@@ -735,10 +735,9 @@ msgstr "已是最新版"
 msgid "Also reset 2FA"
 msgstr "同时重置 2FA"
 
-#: gui/qt/invoice_list.py:37 gui/qt/main_window.py:2783
-#: gui/qt/history_list.py:71 gui/qt/history_list.py:74
-#: gui/qt/request_list.py:42 gui/qt/utxo_list.py:58 gui/text.py:103
-#: gui/text.py:176 gui/stdio.py:104
+#: gui/text.py:103 gui/text.py:176 gui/stdio.py:104 gui/qt/invoice_list.py:37
+#: gui/qt/main_window.py:2783 gui/qt/history_list.py:71
+#: gui/qt/history_list.py:74 gui/qt/request_list.py:42 gui/qt/utxo_list.py:58
 #: ios/ElectronCash/electroncash_gui/ios_native/receive.py:643
 #: ios/ElectronCash/electroncash_gui/ios_native/send.py:273
 #: ios/ElectronCash/electroncash_gui/ios_native/txdetail.py:534
@@ -819,17 +818,17 @@ msgstr "界面外观"
 
 #. add the "Apply" button to the bottom
 #: plugins/keepkey/qt.py:471 plugins/shuffle_deprecated/qt.py:1788
-#: plugins/shuffle_deprecated/qt.py:2257 plugins/trezor/qt.py:550
+#: plugins/shuffle_deprecated/qt.py:2257 plugins/trezor/qt.py:618
 msgid "Apply"
 msgstr "应用"
 
-#: plugins/keepkey/qt.py:411 plugins/trezor/qt.py:493
+#: plugins/keepkey/qt.py:411 plugins/trezor/qt.py:561
 msgid "Are you SURE you want to wipe the device?\n"
 "Your wallet still has bitcoins in it!"
 msgstr "您是否确定要擦除设备上的所有数据？ \n"
 "您的钱包中仍然有比特币！"
 
-#: android/app/src/main/python/electroncash_gui/android/strings.py:11
+#: android/app/src/main/python/electroncash_gui/android/strings.py:14
 #, python-format
 msgid "Are you sure you want to delete your wallet '%s'?"
 msgstr "确定要删除这钱包 '%s'？"
@@ -838,7 +837,7 @@ msgstr "确定要删除这钱包 '%s'？"
 msgid "Are you sure you want to erase the Digital Bitbox?"
 msgstr "您确定要清空Digital Bitbox上的所有数据？"
 
-#: plugins/keepkey/qt.py:396 plugins/trezor/qt.py:362
+#: plugins/keepkey/qt.py:396 plugins/trezor/qt.py:430
 msgid "Are you sure you want to proceed?"
 msgstr "您确定要继续吗?"
 
@@ -854,11 +853,11 @@ msgstr "您确定要删除该联系人吗？"
 msgid "Are you sure you wish to proceed?"
 msgstr "您确定要继续吗?"
 
-#: plugins/fusion/qt.py:1029
+#: plugins/fusion/qt.py:1056
 msgid "Are you trying to consolidate?"
 msgstr "您正在尝试合并吗？"
 
-#: plugins/trezor/qt.py:387
+#: plugins/trezor/qt.py:455
 msgid "At this time, only the Trezor Model T supports the direct loading of TOIF files. Try a PNG or JPG file instead."
 msgstr "现在只有 Trezor Model T支持直接加载 TOIF 文件。请尝试一个 PNG 或 JPG 文件。"
 
@@ -880,37 +879,37 @@ msgstr "自动连接"
 
 #. title = QWidgetAction(self)
 #. title.setDefaultWidget(QLabel("<i>" + _("CashFusion") + "</i>"))
-#: plugins/fusion/qt.py:542
+#: plugins/fusion/qt.py:569
 msgid "Auto-Fuse in Background"
 msgstr "后台自动同步"
 
 #. intentionally connected after all items already added
-#: plugins/fusion/qt.py:993
+#: plugins/fusion/qt.py:1020
 msgid "Auto-Fusion Coin Selection"
 msgstr "自动融合硬币选择"
 
-#: plugins/fusion/qt.py:1042
+#: plugins/fusion/qt.py:1069
 msgid "Auto-Fusion Limits"
 msgstr "自动融合限制"
 
-#: plugins/fusion/qt.py:923
+#: plugins/fusion/qt.py:950
 msgid "Auto-fuse coinbase coins (if mature)"
 msgstr "自动引信硬币(如果到期)"
 
-#: plugins/fusion/qt.py:571
+#: plugins/fusion/qt.py:598
 msgid "Auto-fusion is paused for this wallet (click to enable)"
 msgstr "这个钱包已暂停自动聚变(点击启用)"
 
-#: plugins/fusion/qt.py:729
+#: plugins/fusion/qt.py:756
 msgid "Autodetect"
 msgstr "自动侦测"
 
-#: gui/qt/__init__.py:847
+#: gui/qt/__init__.py:866
 msgid "Automatic High DPI"
 msgstr "自动高 DPI"
 
 #. is_win
-#: gui/qt/__init__.py:840 gui/qt/__init__.py:844
+#: gui/qt/__init__.py:859 gui/qt/__init__.py:863
 msgid "Automatic high DPI scaling has been enabled for Electron Cash, which should result in improved graphics quality."
 msgstr "Electron Cash 已启用自动高的 DPI 缩放，这将提高图形质量。"
 
@@ -953,7 +952,7 @@ msgstr "BIP38 加密不可用：安装 pycryptodomex 以启用"
 msgid "BIP38 keys are strongly encrypted with a password. To decode this key, please specify the password you used when creating the key."
 msgstr "BIP38 密钥使用密码加密。要解码此密钥，请指定您在创建密钥时使用的密码。"
 
-#: android/app/src/main/python/electroncash_gui/android/strings.py:12
+#: android/app/src/main/python/electroncash_gui/android/strings.py:15
 msgid "BIP39 seed"
 msgstr ""
 
@@ -981,10 +980,10 @@ msgstr "返回"
 msgid "Bad parameter: {bad_param_name}{extra_info}"
 msgstr "参数错误: {bad_param_name}{extra_info}"
 
+#: gui/text.py:103 gui/text.py:136 gui/stdio.py:104 gui/stdio.py:116
 #: gui/qt/history_list.py:71 gui/qt/history_list.py:74
 #: gui/qt/address_list.py:101 gui/qt/address_list.py:104
-#: gui/qt/address_list.py:340 gui/text.py:103 gui/text.py:136 gui/stdio.py:104
-#: gui/stdio.py:116
+#: gui/qt/address_list.py:340
 #: ios/ElectronCash/electroncash_gui/ios_native/addresses.py:447
 #: ios/ElectronCash/electroncash_gui/ios_native/gui.py:651
 #: ios/ElectronCash/electroncash_gui/ios_native/history.py:543
@@ -1004,12 +1003,12 @@ msgstr "封禁分："
 msgid "Ban server"
 msgstr "封禁服务器"
 
-#: gui/qt/network_dialog.py:694 plugins/shuffle_deprecated/qt.py:1684
+#: gui/qt/network_dialog.py:718 plugins/shuffle_deprecated/qt.py:1684
 #: plugins/shuffle_deprecated/qt.py:1925 plugins/shuffle_deprecated/qt.py:2147
 msgid "Banned"
 msgstr "被封禁"
 
-#: gui/qt/network_dialog.py:913 gui/qt/network_dialog.py:915
+#: gui/qt/network_dialog.py:933 gui/qt/network_dialog.py:935
 msgid "Banned Servers"
 msgstr "禁止的用户"
 
@@ -1060,7 +1059,7 @@ msgstr "比特币現金收款地址。请注意每次请求收款都会使用不
 msgid "Bitcoin Cash transactions are in general not free. A transaction fee is paid by the sender of the funds."
 msgstr "在一般情况下，比特币現金交易不是免费的。比特币現金的发送者需要支付一定的手续费。"
 
-#: android/app/src/main/python/electroncash_gui/android/strings.py:13
+#: android/app/src/main/python/electroncash_gui/android/strings.py:16
 msgid "Block explorer"
 msgstr "区块浏览器"
 
@@ -1069,7 +1068,7 @@ msgstr "区块浏览器"
 msgid "Block explorer link copied to clipboard"
 msgstr "块浏览器链接已复制到剪贴板"
 
-#: gui/qt/network_dialog.py:578
+#: gui/qt/network_dialog.py:572
 msgid "Blockchain"
 msgstr "区块链"
 
@@ -1077,7 +1076,7 @@ msgstr "区块链"
 msgid "Blockchain Server"
 msgstr "区块链费用"
 
-#: plugins/keepkey/qt.py:447 plugins/trezor/qt.py:527
+#: plugins/keepkey/qt.py:447 plugins/trezor/qt.py:595
 msgid "Bootloader Hash"
 msgstr "引导程序的哈希值"
 
@@ -1160,11 +1159,11 @@ msgstr "无法获取网络，禁用 CashShuffle。"
 #: ios/ElectronCash/electroncash_gui/ios_native/addresses.py:927
 #: ios/ElectronCash/electroncash_gui/ios_native/gui.py:856
 #: ios/ElectronCash/electroncash_gui/ios_native/gui.py:1104
-#: plugins/fusion/qt.py:1397 plugins/keepkey/qt.py:84 plugins/trezor/qt.py:66
+#: plugins/fusion/qt.py:1423 plugins/keepkey/qt.py:84 plugins/trezor/qt.py:67
 msgid "Cancel"
 msgstr "取消"
 
-#: plugins/fusion/qt.py:1395
+#: plugins/fusion/qt.py:1421
 msgid "Cancel (at end of round)"
 msgstr "取消(在回合结束时)"
 
@@ -1213,12 +1212,12 @@ msgid "Cannot display the requested transaction since you already have a modal d
 msgstr "无法显示请求的交易，因为您已经打开了模式对话框。\n\n"
 "关闭当前对话框，然后重试。"
 
-#: plugins/fusion/qt.py:816
+#: plugins/fusion/qt.py:843
 #, python-format
 msgid "Cannot find a Tor proxy on port %(port)d."
 msgstr "无法在端口 %(port)d 上找到 Tor 代理。"
 
-#: plugins/fusion/qt.py:814
+#: plugins/fusion/qt.py:841
 #, python-format
 msgid "Cannot find a Tor proxy on ports %(ports)s."
 msgstr "无法在端口 %(ports)s 上找到 Tor 代理。"
@@ -1241,7 +1240,7 @@ msgstr "无法发送/接收新交易。"
 msgid "Cannot sign messages with this type of address."
 msgstr "不能用这种类型的地址签署信息。"
 
-#: android/app/src/main/python/electroncash_gui/android/strings.py:14
+#: android/app/src/main/python/electroncash_gui/android/strings.py:17
 msgid "Cannot specify private keys and addresses in the same wallet."
 msgstr "无法在同一钱包中指定私钥和地址。"
 
@@ -1336,43 +1335,51 @@ msgstr "现金地址"
 msgid "CashAddr address format"
 msgstr "现金地址格式"
 
-#: plugins/fusion/qt.py:255 plugins/fusion/qt.py:574 plugins/fusion/qt.py:575
+#: plugins/fusion/qt.py:260 plugins/fusion/qt.py:601 plugins/fusion/qt.py:602
 #: plugins/fusion/__init__.py:29
 msgid "CashFusion"
 msgstr "现金融合"
 
-#: plugins/fusion/qt.py:1338
+#: plugins/fusion/qt.py:548
+msgid "CashFusion (disabled)"
+msgstr ""
+
+#: plugins/fusion/qt.py:1365
 msgid "CashFusion - Fusions"
 msgstr "现金融合 - 融合"
 
-#: plugins/fusion/qt.py:897
+#: plugins/fusion/qt.py:924
 msgid "CashFusion - Wallet Settings"
 msgstr "现金融合 - 钱包设置"
 
-#: plugins/fusion/qt.py:572
+#: plugins/fusion/qt.py:599
 msgid "CashFusion Auto-fusion - Disabled (click to enable)"
 msgstr "现金融合自动聚合 - 已禁用 (点击启用)"
 
-#: plugins/fusion/qt.py:568
+#: plugins/fusion/qt.py:595
 msgid "CashFusion Auto-fusion - Enabled"
 msgstr "现金融合自动聚合 - 已启用"
 
-#: plugins/fusion/plugin.py:285
+#: plugins/fusion/plugin.py:317
 msgid "CashFusion Protocol"
 msgstr "现金融合协议"
 
 #: plugins/fusion/qt.py:143
 #, python-brace-format
 msgid "CashFusion failed: {error_message}"
-msgstr "现金融合失败： %{error_message}"
+msgstr "现金融合失败： {error_message}"
 
-#: plugins/fusion/qt.py:567
+#: plugins/fusion/qt.py:552
+msgid "CashFusion is disabled"
+msgstr ""
+
+#: plugins/fusion/qt.py:594
 msgid "CashFusion is fusing in the background for this wallet"
 msgstr "现金融合正在这个钱包的后台使用"
 
-#: plugins/fusion/qt.py:358
-msgid "CashFusion requires Tor to operate anonymously. Would you like to enable the integrated Tor client now?"
-msgstr "现金融合需要 Tor 来匿名操作。您想现在启用集成 Tor 客户端吗？"
+#: plugins/fusion/qt.py:374
+msgid "CashFusion requires Tor to operate anonymously. Would you like to enable the Tor client now?"
+msgstr ""
 
 #: plugins/shuffle_deprecated/qt.py:135 plugins/shuffle_deprecated/qt.py:212
 #: plugins/shuffle_deprecated/qt.py:586
@@ -1437,14 +1444,14 @@ msgstr "CashShuffle 重启"
 #. User cancelled password input
 #: plugins/shuffle_deprecated/qt.py:715
 msgid "CashShuffle will now be <i>disabled</i> for a wallet which has previously had it <b>enabled</b>. Are you sure?"
-msgstr "CashShuffle 将会因以前<i>开启<i>国的钱包而<i>停止<i>。确定?"
+msgstr "CashShuffle 将会因以前<i>开启</i>国的钱包而<b>停止</b>。确定?"
 
 #: gui/qt/main_window.py:904 gui/qt/main_window.py:906
 #: gui/qt/main_window.py:908
 msgid "Chain fork(s) detected"
 msgstr "检测到链叉"
 
-#: gui/qt/network_dialog.py:709
+#: gui/qt/network_dialog.py:733
 #: ios/ElectronCash/electroncash_gui/ios_native/network_dialog.py:263
 #: ios/ElectronCash/electroncash_gui/ios_native/gui.py:689
 #, python-format
@@ -1471,7 +1478,7 @@ msgstr "修改地址"
 msgid "Change Addresses Only"
 msgstr "只修改地址"
 
-#: plugins/keepkey/qt.py:352 plugins/trezor/qt.py:320
+#: plugins/keepkey/qt.py:352 plugins/trezor/qt.py:388
 msgid "Change PIN"
 msgstr "更改PIN码"
 
@@ -1484,11 +1491,11 @@ msgstr "更改密码："
 msgid "Change or Set Password"
 msgstr "更改或设置密码"
 
-#: android/app/src/main/python/electroncash_gui/android/strings.py:15
+#: android/app/src/main/python/electroncash_gui/android/strings.py:18
 msgid "Change password"
 msgstr "修改密码"
 
-#: plugins/trezor/qt.py:574
+#: plugins/trezor/qt.py:642
 msgid "Change..."
 msgstr "改变..."
 
@@ -1500,11 +1507,11 @@ msgstr "当下一个随机回合开始时更改将生效(通常在几分钟之�
 msgid "Check Again"
 msgstr "再次检查"
 
-#: plugins/fusion/qt.py:1078
+#: plugins/fusion/qt.py:1105
 msgid "Check the 'only when all coins are confirmed' checkbox"
 msgstr "勾选“仅在确认所有硬币时”复选框"
 
-#: plugins/keepkey/clientbase.py:22 plugins/trezor/clientbase.py:24
+#: plugins/keepkey/clientbase.py:22 plugins/trezor/clientbase.py:34
 msgid "Check your {} device to continue"
 msgstr "查看你的 {} 设备然后继续"
 
@@ -1528,7 +1535,7 @@ msgstr "用于追加手续费的父子交易（CPFP）"
 msgid "Choose Address"
 msgstr "选择地址"
 
-#: plugins/trezor/qt.py:373
+#: plugins/trezor/qt.py:441
 msgid "Choose Homescreen"
 msgstr "选择主屏幕"
 
@@ -1560,7 +1567,7 @@ msgid "Choose how to initialize your Digital Bitbox:"
 msgstr "选择如何初始化您的硬件钱包："
 
 #. Initialization method
-#: plugins/trezor/trezor.py:215
+#: plugins/trezor/trezor.py:219
 msgid "Choose how you want to initialize your {}.\n\n"
 "Either method is secure since no secret information will be entered into your computer."
 msgstr "选择如何初始化您的 {}。\n\n"
@@ -1575,7 +1582,7 @@ msgstr "选择如何初始化您的{}。\n\n"
 "前两种方法是安全的，因为没有私密信息输入到您的计算机中。\n\n"
 "对于最后两种方法，您在键盘上输入的私密信息将会上传到您的{}，所以你应该只在你认为值得信赖且没有恶意软件的计算机上执行这些操作。"
 
-#: plugins/trezor/clientbase.py:23
+#: plugins/trezor/clientbase.py:31
 msgid "Choose on your {} device where to enter your passphrase"
 msgstr "在您的{}设备上选择输入密码的地方"
 
@@ -1598,19 +1605,19 @@ msgstr "选择..."
 msgid "Clear"
 msgstr "清除"
 
-#: gui/qt/network_dialog.py:940
+#: gui/qt/network_dialog.py:960
 msgid "Clear all {} servers from the ban list?"
 msgstr "清除黑名单中所有 {} 服务器？"
 
-#: gui/qt/network_dialog.py:930
+#: gui/qt/network_dialog.py:950
 msgid "Clear ban list"
 msgstr "清除黑名单"
 
-#: plugins/keepkey/qt.py:503 plugins/trezor/qt.py:601
+#: plugins/keepkey/qt.py:503 plugins/trezor/qt.py:669
 msgid "Clear the session after the specified period of inactivity.  Once a session has timed out, your PIN and passphrase (if enabled) must be re-entered to use the device."
 msgstr "指定在多长时间没有操作后就结束会话。 一旦会话超时，必须重新输入您的PIN和附加密码 (如果有的话) 才能继续使用设备。"
 
-#: plugins/fusion/qt.py:1030
+#: plugins/fusion/qt.py:1057
 msgid "Click for consolidation tips"
 msgstr "点击以获取合并提示"
 
@@ -1618,9 +1625,13 @@ msgstr "点击以获取合并提示"
 msgid "Click for details"
 msgstr "点击此处查看详细信息"
 
-#: plugins/fusion/qt.py:648 plugins/shuffle_deprecated/qt_status_bar_mgr.py:225
+#: plugins/shuffle_deprecated/qt_status_bar_mgr.py:225
 msgid "Click here to resolve"
 msgstr "点击此处解决"
+
+#: plugins/fusion/qt.py:675
+msgid "Click this popup to resolve"
+msgstr ""
 
 #: gui/qt/main_window.py:1254
 msgid "Click to copy the receive request URI to the clipboard"
@@ -1639,12 +1650,12 @@ msgid "Click to show"
 msgstr "点此显示。"
 
 #: gui/qt/main_window.py:3260 gui/qt/main_window.py:3322
-#: gui/qt/scan_beyond_gap.py:148 gui/qt/__init__.py:482
+#: gui/qt/scan_beyond_gap.py:148 gui/qt/__init__.py:501
 #: gui/qt/update_checker.py:101 plugins/shuffle_deprecated/qt.py:2073
 msgid "Close"
 msgstr "关闭"
 
-#: android/app/src/main/python/electroncash_gui/android/strings.py:16
+#: android/app/src/main/python/electroncash_gui/android/strings.py:19
 msgid "Close wallet"
 msgstr "关闭钱包"
 
@@ -1698,7 +1709,7 @@ msgstr "CoinText：请指定金额"
 msgid "Coinbase"
 msgstr "硬币地址"
 
-#: plugins/fusion/qt.py:921
+#: plugins/fusion/qt.py:948
 msgid "Coinbase Coins"
 msgstr "Coinbase 硬币"
 
@@ -1740,6 +1751,10 @@ msgstr "即将发布"
 msgid "Command-line."
 msgstr "命令行"
 
+#: plugins/trezor/clientbase.py:19
+msgid "Complete the initialization process on your {} device"
+msgstr ""
+
 #: gui/qt/main_window.py:200
 msgid "Con&sole"
 msgstr "控制台(&S)"
@@ -1753,11 +1768,11 @@ msgstr "联系人(&T)"
 msgid "Confirm Delete"
 msgstr "确认删除"
 
-#: plugins/keepkey/qt.py:410 plugins/trezor/qt.py:492
+#: plugins/keepkey/qt.py:410 plugins/trezor/qt.py:560
 msgid "Confirm Device Wipe"
 msgstr "确认擦除设备数据"
 
-#: gui/qt/password_dialog.py:88
+#: gui/qt/password_dialog.py:88 plugins/trezor/qt.py:192
 msgid "Confirm Passphrase:"
 msgstr "确认附加密码："
 
@@ -1777,7 +1792,7 @@ msgstr "确认种子扩展密语"
 msgid "Confirm Send"
 msgstr "确认发送"
 
-#: plugins/keepkey/qt.py:382 plugins/trezor/qt.py:348
+#: plugins/keepkey/qt.py:382 plugins/trezor/qt.py:416
 msgid "Confirm Toggle Passphrase Protection"
 msgstr "确认开启/关闭附加密码"
 
@@ -1789,63 +1804,59 @@ msgstr "在您的{}上确认交易..."
 msgid "Confirm Wallet Password"
 msgstr "确认钱包密码"
 
-#: plugins/keepkey/clientbase.py:15 plugins/trezor/clientbase.py:17
+#: plugins/keepkey/clientbase.py:15
 msgid "Confirm internal entropy on your {} device to begin"
 msgstr "在您的{}设备上确认内部熵值"
 
-#: plugins/keepkey/clientbase.py:18
+#: plugins/keepkey/clientbase.py:18 plugins/trezor/clientbase.py:25
 msgid "Confirm on your {} device the message to sign"
 msgstr "在您的 {} 设备上确认要签名的消息"
 
-#: plugins/keepkey/clientbase.py:193 plugins/trezor/clientbase.py:166
+#: plugins/keepkey/clientbase.py:193 plugins/trezor/clientbase.py:176
 msgid "Confirm on your {} device to change your PIN"
 msgstr "在您的 {} 设备上确认更改您的PIN"
 
-#: plugins/keepkey/clientbase.py:186 plugins/trezor/clientbase.py:159
+#: plugins/keepkey/clientbase.py:186 plugins/trezor/clientbase.py:169
 msgid "Confirm on your {} device to change your home screen"
 msgstr "在您的 {} 设备上确认更改您的主屏幕"
 
-#: plugins/keepkey/clientbase.py:191 plugins/trezor/clientbase.py:164
+#: plugins/keepkey/clientbase.py:191 plugins/trezor/clientbase.py:174
 msgid "Confirm on your {} device to disable PIN protection"
 msgstr "在您的 {} 设备上确认停用PIN码保护"
 
-#: plugins/keepkey/clientbase.py:175 plugins/trezor/clientbase.py:147
+#: plugins/keepkey/clientbase.py:175 plugins/trezor/clientbase.py:157
 msgid "Confirm on your {} device to disable passphrases"
 msgstr "在您的 {} 设备上确认停用附加密码"
 
-#: plugins/keepkey/clientbase.py:177 plugins/trezor/clientbase.py:149
+#: plugins/keepkey/clientbase.py:177 plugins/trezor/clientbase.py:159
 msgid "Confirm on your {} device to enable passphrases"
 msgstr "在您的 {} 设备上确认启用附加密码"
 
-#: plugins/keepkey/clientbase.py:195 plugins/trezor/clientbase.py:168
+#: plugins/keepkey/clientbase.py:195 plugins/trezor/clientbase.py:178
 msgid "Confirm on your {} device to set a PIN"
 msgstr "在您的 {} 设备上确认设置您的PIN"
 
-#: plugins/keepkey/clientbase.py:17 plugins/trezor/clientbase.py:19
+#: plugins/keepkey/clientbase.py:17 plugins/trezor/clientbase.py:23
 msgid "Confirm on your {} that you want to wipe it clean"
 msgstr "在您的 {} 上确认要清除所有数据"
 
-#: android/app/src/main/python/electroncash_gui/android/strings.py:17
+#: android/app/src/main/python/electroncash_gui/android/strings.py:20
 msgid "Confirm password"
 msgstr "确认密码"
 
-#: plugins/keepkey/clientbase.py:182 plugins/trezor/clientbase.py:155
+#: plugins/keepkey/clientbase.py:182 plugins/trezor/clientbase.py:165
 msgid "Confirm the new label on your {} device"
 msgstr "确认您的 {} 设备上的新标签"
 
-#: plugins/trezor/clientbase.py:20
-msgid "Confirm the operation on on your {} device"
-msgstr "在您的 {} 设备上确认交易输出"
-
-#: plugins/keepkey/clientbase.py:19 plugins/trezor/clientbase.py:21
+#: plugins/keepkey/clientbase.py:19 plugins/trezor/clientbase.py:27
 msgid "Confirm the total amount spent and the transaction fee on your {} device"
 msgstr "在您的 {} 设备上确认总支出金额和交易手续费"
 
-#: plugins/keepkey/clientbase.py:14 plugins/trezor/clientbase.py:16
+#: plugins/keepkey/clientbase.py:14 plugins/trezor/clientbase.py:17
 msgid "Confirm the transaction output on your {} device"
 msgstr "在您的 {} 设备上确认交易输出"
 
-#: plugins/keepkey/clientbase.py:21 plugins/trezor/clientbase.py:22
+#: plugins/keepkey/clientbase.py:21 plugins/trezor/clientbase.py:29
 msgid "Confirm wallet address on your {} device"
 msgstr "在您的 {} 设备确认钱包地址"
 
@@ -1867,7 +1878,7 @@ msgstr "已连接"
 msgid "Connected node"
 msgstr "已连接节点"
 
-#: gui/qt/network_dialog.py:701
+#: gui/qt/network_dialog.py:725
 #: ios/ElectronCash/electroncash_gui/ios_native/network_dialog.py:257
 #, python-format
 msgid "Connected to %d nodes."
@@ -1889,15 +1900,15 @@ msgstr "连接失败。"
 msgid "Connections"
 msgstr "连接"
 
-#: android/app/src/main/python/electroncash_gui/android/strings.py:18
+#: android/app/src/main/python/electroncash_gui/android/strings.py:21
 msgid "Console"
 msgstr "控制台"
 
-#: plugins/fusion/qt.py:970
+#: plugins/fusion/qt.py:997
 msgid "Consolidate"
 msgstr "合并"
 
-#: plugins/fusion/qt.py:971
+#: plugins/fusion/qt.py:998
 msgid "Consolidation mode"
 msgstr "合并模式"
 
@@ -2031,14 +2042,14 @@ msgstr "复制到剪切板"
 msgid "Copy {}"
 msgstr "复制{}"
 
-#: android/app/src/main/python/electroncash_gui/android/strings.py:19
+#: android/app/src/main/python/electroncash_gui/android/strings.py:22
 msgid "Copyright © 2017-2020 Electron Cash LLC and the Electron Cash developers."
 msgstr ""
 
 #: gui/qt/main_window.py:749
 #, python-brace-format
 msgid "Copyright © {year_start}-{year_end} Electron Cash LLC and the Electron Cash developers."
-msgstr "版权 © 2017-2019 Electron CashLLC 和 Electron Cash 的开发者。"
+msgstr "版权 © {year_start}-{year_end} Electron Cash LLC 和 Electron Cash 的开发者。"
 
 #: gui/qt/udev_installer.py:67
 msgid "Correct udev rules are required in order for a hardware wallet to be accessed by Electron Cash."
@@ -2052,15 +2063,15 @@ msgstr "与硬件设备进行联署"
 msgid "Cosigner Pool"
 msgstr "联署池"
 
-#: plugins/trezor/qt.py:410
+#: plugins/trezor/qt.py:478
 msgid "Could not convert image to monochrome"
 msgstr "无法将图像转换为单色调"
 
-#: plugins/trezor/qt.py:453
+#: plugins/trezor/qt.py:521
 msgid "Could not convert image, a required library is missing: {}"
 msgstr "无法转换图像，缺少所需的库：{}"
 
-#: plugins/trezor/qt.py:447
+#: plugins/trezor/qt.py:515
 msgid "Could not dither or re-render image"
 msgstr "无法降落或重新渲染图像"
 
@@ -2068,7 +2079,7 @@ msgstr "无法降落或重新渲染图像"
 msgid "Could not find the Cash Account name specified. It either does not exist or there may have been a network connectivity error. Please double-check it and try again."
 msgstr "找不到指定的现金帐户名称。 它不存在或者可能存在网络连接错误。请重新检查，然后重试。"
 
-#: plugins/trezor/qt.py:401 plugins/trezor/qt.py:437
+#: plugins/trezor/qt.py:469 plugins/trezor/qt.py:505
 msgid "Could not load the image {} -- unknown format or other error"
 msgstr "无法加载图像 {} -- 未知格式或其他错误"
 
@@ -2077,7 +2088,7 @@ msgstr "无法加载图像 {} -- 未知格式或其他错误"
 msgid "Could not retrieve transaction for the specified hash."
 msgstr "无法获取指定哈希的交易。"
 
-#: plugins/trezor/qt.py:406 plugins/trezor/qt.py:442
+#: plugins/trezor/qt.py:474 plugins/trezor/qt.py:510
 msgid "Could not scale image to {} x {} pixels"
 msgstr "无法将图像缩放到 {} x {} 像素"
 
@@ -2146,7 +2157,7 @@ msgstr "严重错误"
 msgid "Current Password:"
 msgstr "当前密码："
 
-#: android/app/src/main/python/electroncash_gui/android/strings.py:20
+#: android/app/src/main/python/electroncash_gui/android/strings.py:23
 msgid "Current password"
 msgstr "当前密码："
 
@@ -2154,7 +2165,7 @@ msgstr "当前密码："
 msgid "Current version: {}"
 msgstr "当前版本：{}"
 
-#: plugins/fusion/qt.py:989
+#: plugins/fusion/qt.py:1016
 msgid "Custom"
 msgstr "自定义"
 
@@ -2166,7 +2177,7 @@ msgstr "每字节中的自定义费率"
 msgid "Custom fee rate:"
 msgstr "自定义收费率："
 
-#: gui/qt/network_dialog.py:514
+#: gui/qt/network_dialog.py:508
 msgid "Custom port"
 msgstr "自定义端口"
 
@@ -2191,13 +2202,13 @@ msgstr "暗主题不可用。请安装 QDarkStyle 以访问此功能。"
 msgid "Dark theme support requires the package 'QDarkStyle' (typically installed via the 'pip3' command on Unix & macOS)."
 msgstr "暗色主题支持需要软件包 QDarkStyle (通常通过 Unix & macOS上的 'pip3' 命令安装)。"
 
-#: gui/qt/__init__.py:483
+#: gui/qt/__init__.py:502
 msgid "Dark/Light"
 msgstr "暗/亮"
 
 #. wtf? what to do here?
-#: gui/qt/history_list.py:71 gui/qt/request_list.py:42 gui/text.py:103
-#: gui/stdio.py:104
+#: gui/text.py:103 gui/stdio.py:104 gui/qt/history_list.py:71
+#: gui/qt/request_list.py:42
 #: ios/ElectronCash/electroncash_gui/ios_native/txdetail.py:516
 #: ios/ElectronCash/electroncash_gui/ios_native/txdetail.py:527
 msgid "Date"
@@ -2246,7 +2257,7 @@ msgstr "删除钱包"
 msgid "Delete invoice?"
 msgstr "删除收据？"
 
-#: android/app/src/main/python/electroncash_gui/android/strings.py:21
+#: android/app/src/main/python/electroncash_gui/android/strings.py:24
 msgid "Delete wallet"
 msgstr "删除钱包"
 
@@ -2271,7 +2282,7 @@ msgstr "派生无效"
 msgid "Derivation for {} wallet"
 msgstr "{} 钱包的派生方式"
 
-#: android/app/src/main/python/electroncash_gui/android/strings.py:22
+#: android/app/src/main/python/electroncash_gui/android/strings.py:25
 msgid "Derivation invalid"
 msgstr "派生无效"
 
@@ -2279,10 +2290,10 @@ msgstr "派生无效"
 msgid "Deriving addresses..."
 msgstr "接收地址..."
 
+#: gui/text.py:103 gui/text.py:175 gui/stdio.py:104
 #: gui/qt/external_plugins_window.py:85 gui/qt/external_plugins_window.py:475
 #: gui/qt/invoice_list.py:37 gui/qt/history_list.py:71
-#: gui/qt/request_list.py:42 gui/qt/transaction_dialog.py:396 gui/text.py:103
-#: gui/text.py:175 gui/stdio.py:104
+#: gui/qt/request_list.py:42 gui/qt/transaction_dialog.py:396
 #: ios/ElectronCash/electroncash_gui/ios_native/receive.py:198
 #: ios/ElectronCash/electroncash_gui/ios_native/send.py:189
 #: ios/ElectronCash/electroncash_gui/ios_native/txdetail.py:486
@@ -2310,12 +2321,12 @@ msgstr "详细资料"
 msgid "Deterministic wallets can contain a nearly infinite number of addresses. However, usually only a relatively small block of addresses at the beginning are ever used."
 msgstr "决定性钱包可以包含几乎无限的地址。然而，通常在开始时只使用相对较小的地址。"
 
-#: plugins/keepkey/qt.py:446 plugins/trezor/qt.py:526
+#: plugins/keepkey/qt.py:446 plugins/trezor/qt.py:594
 msgid "Device ID"
 msgstr "设备ID"
 
-#: plugins/keepkey/qt.py:442 plugins/keepkey/qt.py:467 plugins/trezor/qt.py:522
-#: plugins/trezor/qt.py:546
+#: plugins/keepkey/qt.py:442 plugins/keepkey/qt.py:467 plugins/trezor/qt.py:590
+#: plugins/trezor/qt.py:614
 msgid "Device Label"
 msgstr "设备标签"
 
@@ -2341,24 +2352,24 @@ msgid "Disable CashShuffle"
 msgstr "禁用 CashShuffle"
 
 #. Advanced tab - clear PIN
-#: plugins/keepkey/qt.py:525 plugins/trezor/qt.py:623
+#: plugins/keepkey/qt.py:525 plugins/trezor/qt.py:691
 msgid "Disable PIN"
 msgstr "停用PIN码"
 
-#: plugins/keepkey/qt.py:350 plugins/trezor/qt.py:318
+#: plugins/keepkey/qt.py:350 plugins/trezor/qt.py:386
 msgid "Disable Passphrases"
 msgstr "停用附加密码"
 
 #: gui/qt/main_window.py:2926 plugins/keepkey/qt.py:351
-#: plugins/shuffle_deprecated/qt_status_bar_mgr.py:133 plugins/trezor/qt.py:319
+#: plugins/shuffle_deprecated/qt_status_bar_mgr.py:133 plugins/trezor/qt.py:387
 msgid "Disabled"
 msgstr "已停用"
 
-#: plugins/fusion/qt.py:616
+#: plugins/fusion/qt.py:643
 msgid "Disabling automatic Cash Fusions"
 msgstr "禁用自动 Cash Fusion 功能"
 
-#: android/app/src/main/python/electroncash_gui/android/strings.py:23
+#: android/app/src/main/python/electroncash_gui/android/strings.py:26
 msgid "Disconnect"
 msgstr "未连接"
 
@@ -2482,7 +2493,7 @@ msgstr "由于潜在的安全风险，您只能在使用 Tor Proxy 时禁用SSL�
 
 #. these two args are equivalent and cannot both appear together
 #. these two args cannot both appear together
-#: lib/web.py:224 lib/web.py:258 lib/web.py:275
+#: lib/web.py:230 lib/web.py:264 lib/web.py:281
 msgid "Duplicate key in URI"
 msgstr "在 URI 中复制密钥"
 
@@ -2527,7 +2538,7 @@ msgstr "Electron Cash 无法继续，因为此设备在磁盘空间很低。请�
 msgid "Electron Cash communicates with remote servers to get information about your transactions and addresses. The servers all fulfil the same purpose only differing in hardware. In most cases you simply want to let Electron Cash pick one at random.  However if you prefer feel free to select a server manually."
 msgstr "Electron Cash 与远程服务器通讯以获取您的交易记录和地址信息。这些服务器都能实现相同的功能，只是硬件条件各有不同。在大多数情况下，你只需要让 Electron Cash 随便挑一个节点，如果你有一个偏好设置，随时都可以手动选择服务器。"
 
-#: gui/qt/network_dialog.py:559
+#: gui/qt/network_dialog.py:553
 #: ios/ElectronCash/electroncash_gui/ios_native/network_dialog.py:493
 msgid "Electron Cash connects to several nodes in order to download block headers and find out the longest blockchain."
 msgstr "Electron Cash 会连接数个节点以下载区块头并找出最长的区块链。"
@@ -2552,7 +2563,7 @@ msgstr "Electrum 正在生成地址，请稍等。"
 msgid "Electron Cash is in offline mode."
 msgstr "Electron 现金处于离线模式。"
 
-#: gui/qt/__init__.py:447
+#: gui/qt/__init__.py:466
 #, python-brace-format
 msgid "Electron Cash on Linux requires PyQt5 5.12+.\n\n"
 "You have version {version_string} installed.\n\n"
@@ -2561,7 +2572,7 @@ msgstr "Linux 上的 Electron 现金需要 PyQt5 5.12+。\n\n"
 "您已经安装了 {version_string} 版本。\n\n"
 "请升级否则您可能会遇到 Emojis 和 Electron Cash 使用的其他 Unicode 字符的字体渲染问题。"
 
-#: gui/qt/network_dialog.py:570
+#: gui/qt/network_dialog.py:564
 #: ios/ElectronCash/electroncash_gui/ios_native/network_dialog.py:497
 msgid "Electron Cash sends your wallet addresses to a single server, in order to receive your transaction history."
 msgstr "Electron Cash 通过把您的钱包地址发送到一台服务器来获得您的交易记录。"
@@ -2586,7 +2597,7 @@ msgstr "Electron 现金无法导出您的联系人。"
 msgid "Electron Cash was unable to export your labels."
 msgstr "Electron 现金无法导出您的标签。"
 
-#: gui/qt/__init__.py:791
+#: gui/qt/__init__.py:810
 msgid "Electron Cash was unable to find the secp256k1 library on this system. Elliptic curve cryptography operations will be performed in slow Python-only mode."
 msgstr "Electron Cash 无法在这个系统中找到 secp256k1 库。椭圆曲线加密操作将在仅限 Python 的慢速模式下进行。"
 
@@ -2665,11 +2676,11 @@ msgstr "启用 CashShuffle"
 msgid "Enable OP_RETURN output"
 msgstr "启用 OP_RETURN 输出"
 
-#: plugins/keepkey/qt.py:250 plugins/trezor/qt.py:214
+#: plugins/keepkey/qt.py:250 plugins/trezor/qt.py:282
 msgid "Enable PIN protection"
 msgstr "启用PIN码保护"
 
-#: plugins/keepkey/qt.py:350 plugins/trezor/qt.py:318
+#: plugins/keepkey/qt.py:350 plugins/trezor/qt.py:386
 msgid "Enable Passphrases"
 msgstr "启用附加密码(Passphrase)"
 
@@ -2677,7 +2688,7 @@ msgstr "启用附加密码(Passphrase)"
 msgid "Enable Schnorr signatures"
 msgstr "启用施诺尔签名"
 
-#: plugins/keepkey/qt.py:284 plugins/trezor/qt.py:223
+#: plugins/keepkey/qt.py:284 plugins/trezor/qt.py:291
 msgid "Enable passphrases"
 msgstr "启用附加密码(passphrase)"
 
@@ -2703,7 +2714,7 @@ msgid "Enable/disable this option if you experience graphical glitches (such as 
 msgstr "启用/禁用此选项，如果您经历图形翻转(例如过大的状态栏图标)"
 
 #: gui/qt/external_plugins_window.py:475 gui/qt/main_window.py:2926
-#: plugins/keepkey/qt.py:351 plugins/trezor/qt.py:319
+#: plugins/keepkey/qt.py:351 plugins/trezor/qt.py:387
 msgid "Enabled"
 msgstr "已启用"
 
@@ -2749,7 +2760,7 @@ msgstr "加密密钥"
 msgid "Encryption and decryption are currently not supported for {}"
 msgstr "目前不支持{} 的加密和解密"
 
-#: plugins/keepkey/keepkey.py:33 plugins/trezor/trezor.py:59
+#: plugins/keepkey/keepkey.py:33 plugins/trezor/trezor.py:63
 msgid "Encryption and decryption are not implemented by {}"
 msgstr "加密和解密未被{} 实现"
 
@@ -2758,7 +2769,7 @@ msgid "Enjoy high security"
 msgstr "享受高度安全"
 
 #: plugins/keepkey/qt.py:175 plugins/satochip/qt.py:301
-#: plugins/trezor/qt.py:144
+#: plugins/trezor/qt.py:146
 msgid "Enter PIN"
 msgstr "输入PIN码"
 
@@ -2768,16 +2779,21 @@ msgid "Enter PIN:"
 msgstr "输入PIN码："
 
 #: gui/qt/password_dialog.py:61 gui/qt/password_dialog.py:242
-#: plugins/hw_wallet/qt.py:124
+#: plugins/hw_wallet/qt.py:124 plugins/trezor/qt.py:166
+#: plugins/trezor/qt.py:168
 msgid "Enter Passphrase"
 msgstr "输入附加密码"
+
+#: plugins/trezor/qt.py:169
+msgid "Enter Passphrase on Device"
+msgstr ""
 
 #: gui/qt/password_dialog.py:61 gui/qt/password_dialog.py:218
 #: ios/ElectronCash/electroncash_gui/ios_native/password_dialog.py:258
 #: ios/ElectronCash/electroncash_gui/ios_native/password_dialog.py:267
 #: ios/ElectronCash/electroncash_gui/ios_native/password_dialog.py:305
 #: ios/ElectronCash/electroncash_gui/ios_native/password_dialog.py:314
-#: plugins/fusion/qt.py:442
+#: plugins/fusion/qt.py:458
 msgid "Enter Password"
 msgstr "输入密码"
 
@@ -2793,7 +2809,7 @@ msgstr "输入表名#123.45的现金帐户名称，Electron Cash 将搜索联系
 msgid "Enter a filename for the copy of your wallet"
 msgstr "给你的钱包副本输入文件名"
 
-#: plugins/keepkey/qt.py:222 plugins/trezor/qt.py:189
+#: plugins/keepkey/qt.py:222 plugins/trezor/qt.py:257
 msgid "Enter a label to name your device:"
 msgstr "输入一个标签来命名你的设备："
 
@@ -2814,7 +2830,7 @@ msgstr "输入一个私钥列表来创建一个正常使用的钱包。 或者�
 msgid "Enter a new PIN for your Satochip:"
 msgstr "输入你的 Satochip 新密码码:"
 
-#: plugins/keepkey/clientbase.py:46 plugins/trezor/clientbase.py:273
+#: plugins/keepkey/clientbase.py:46 plugins/trezor/clientbase.py:283
 msgid "Enter a new PIN for your {}:"
 msgstr "为您的你的 {} 输入新PIN码:"
 
@@ -2822,7 +2838,7 @@ msgstr "为您的你的 {} 输入新PIN码:"
 msgid "Enter a new password below."
 msgstr "请在下面输入您的新密码。"
 
-#: plugins/keepkey/clientbase.py:62 plugins/trezor/clientbase.py:289
+#: plugins/keepkey/clientbase.py:62 plugins/trezor/clientbase.py:299
 msgid "Enter a passphrase to generate this wallet.  Each time you use this wallet your {} will prompt you for the passphrase.  If you forget the passphrase you cannot access the bitcoins in the wallet."
 msgstr "输入附加密码(passphrase)来激活此钱包。每次您使用该钱包时您的{}会提示您输入这个附加密码。如果您忘掉了附加密码，那您将无法使用这个钱包中的比特币。"
 
@@ -2850,7 +2866,11 @@ msgstr "输入新钱包的名称"
 msgid "Enter or pick address"
 msgstr "输入或选择地址"
 
-#: android/app/src/main/python/electroncash_gui/android/strings.py:24
+#: plugins/trezor/cmdline.py:15
+msgid "Enter passphrase on device?"
+msgstr ""
+
+#: android/app/src/main/python/electroncash_gui/android/strings.py:27
 msgid "Enter password"
 msgstr "输入密码"
 
@@ -2873,7 +2893,7 @@ msgstr "输入你的 Satochip 新密码:"
 msgid "Enter the master private key beginning with xprv:"
 msgstr "输入xprv开头的主私钥："
 
-#: plugins/keepkey/clientbase.py:67 plugins/trezor/clientbase.py:294
+#: plugins/keepkey/clientbase.py:67 plugins/trezor/clientbase.py:304
 msgid "Enter the passphrase to unlock this wallet:"
 msgstr "输入附加密码以解锁这个钱包："
 
@@ -2881,7 +2901,7 @@ msgstr "输入附加密码以解锁这个钱包："
 msgid "Enter the password used when the backup was created:"
 msgstr "输入备份时设置的密码："
 
-#: plugins/trezor/qt.py:37
+#: plugins/trezor/qt.py:38
 msgid "Enter the recovery words by pressing the buttons according to what the device shows on its display.  You can also use your NUMPAD.\n"
 "Press BACKSPACE to go back a choice or word.\n"
 msgstr "根据显示在设备屏幕上的内容点击按钮，以输入恢复密语。您也可以使用数字小键盘。\n"
@@ -2910,7 +2930,7 @@ msgstr "输入您的Digital Bitbox密码："
 msgid "Enter your PIN (digits 1-9):"
 msgstr "输入你的PIN（数字1-9）："
 
-#: plugins/keepkey/clientbase.py:51 plugins/trezor/clientbase.py:278
+#: plugins/keepkey/clientbase.py:51 plugins/trezor/clientbase.py:288
 msgid "Enter your current {} PIN:"
 msgstr "请输入您当前的PIN码："
 
@@ -2950,9 +2970,10 @@ msgid "Erase the Digital Bitbox"
 msgstr "擦除Digital Bitbox的数据"
 
 #. can be called from any thread, always runs in main thread
-#: gui/qt/util.py:227 gui/qt/__init__.py:639 gui/qt/__init__.py:641
-#: gui/qt/installwizard.py:237 gui/qt/installwizard.py:241 gui/text.py:362
-#: gui/stdio.py:209 ios/ElectronCash/electroncash_gui/ios_native/send.py:1012
+#: gui/text.py:362 gui/stdio.py:209 gui/qt/util.py:227 gui/qt/__init__.py:658
+#: gui/qt/__init__.py:660 gui/qt/installwizard.py:237
+#: gui/qt/installwizard.py:241
+#: ios/ElectronCash/electroncash_gui/ios_native/send.py:1012
 #: ios/ElectronCash/electroncash_gui/ios_native/send.py:1025
 #: ios/ElectronCash/electroncash_gui/ios_native/send.py:1030
 #: ios/ElectronCash/electroncash_gui/ios_native/network_dialog.py:393
@@ -2985,7 +3006,7 @@ msgstr "卸载 udev 规则和/或用户取消时出错。"
 msgid "Error: duplicate master public key"
 msgstr "错误: 重复的主公钥"
 
-#: gui/qt/__init__.py:487
+#: gui/qt/__init__.py:506
 msgid "Exit Electron Cash"
 msgstr "退出 Electron Cash"
 
@@ -3027,7 +3048,7 @@ msgstr "导出历史记录"
 msgid "Export file"
 msgstr "导出文件"
 
-#: android/app/src/main/python/electroncash_gui/android/strings.py:25
+#: android/app/src/main/python/electroncash_gui/android/strings.py:28
 msgid "Export wallet"
 msgstr "导出钱包"
 
@@ -3070,7 +3091,7 @@ msgid "Failed to change PIN!"
 msgstr "更改 PIN 失败！"
 
 #: plugins/digitalbitbox/digitalbitbox.py:704 plugins/keepkey/keepkey.py:295
-#: plugins/satochip/satochip.py:558 plugins/trezor/trezor.py:317
+#: plugins/satochip/satochip.py:558 plugins/trezor/trezor.py:321
 msgid "Failed to create a client for this device."
 msgstr "无法为此设备创建客户端。"
 
@@ -3107,16 +3128,16 @@ msgstr "无法更新密码"
 msgid "Failed to verify SSL certificate"
 msgstr "验证SSL证书失败"
 
-#: plugins/fusion/qt.py:979
+#: plugins/fusion/qt.py:1006
 msgid "Fan-out"
 msgstr "平面输出"
 
-#: plugins/fusion/qt.py:980
+#: plugins/fusion/qt.py:1007
 msgid "Fan-out mode"
 msgstr "粉丝模式"
 
 #. Fee Label
-#: gui/qt/transaction_dialog.py:423 gui/text.py:177
+#: gui/text.py:177 gui/qt/transaction_dialog.py:423
 #: ios/ElectronCash/electroncash_gui/ios_native/send.py:195
 #: ios/ElectronCash/electroncash_gui/ios_native/txdetail.py:564
 msgid "Fee"
@@ -3176,11 +3197,11 @@ msgstr "法币："
 msgid "File"
 msgstr "文件"
 
-#: android/app/src/main/python/electroncash_gui/android/strings.py:26
+#: android/app/src/main/python/electroncash_gui/android/strings.py:29
 msgid "Filenames cannot contain the '/' character. Please enter a different filename to proceed."
 msgstr "文件名不能包含 '/' 字符。请输入一个不同的文件名以继续。"
 
-#: plugins/keepkey/qt.py:445 plugins/satochip/qt.py:99 plugins/trezor/qt.py:525
+#: plugins/keepkey/qt.py:445 plugins/satochip/qt.py:99 plugins/trezor/qt.py:593
 msgid "Firmware Version"
 msgstr "固件版本"
 
@@ -3217,13 +3238,13 @@ msgstr "详情见http://openalias.org"
 msgid "For scanning QR codes."
 msgstr "扫描二维码。"
 
-#: android/app/src/main/python/electroncash_gui/android/strings.py:27
+#: android/app/src/main/python/electroncash_gui/android/strings.py:30
 msgid "For support, please visit us on <a href='https://github.com/Electron-Cash/Electron-Cash/issues'>GitHub</a> or on <a href='https://t.me/electroncashwallet'>Telegram</a>."
 msgstr "如需支持，请在 <a href='https://github.com/Electron-Cash/Electron-Cash/issues'>GitHub</a> 或 <a href='https://t.me/electroncashwallet'>Telegram</a> 上找我们。"
 
 #: gui/qt/network_dialog.py:498
-msgid "For the average user, it's recommended that you leave this option disabled and only leave the 'integrated Tor client' option enabled."
-msgstr "对于普通用户，它建议您禁用此选项，并且只允许启用集成 Tor 客户端选项。"
+msgid "For the average user, it's recommended that you leave this option disabled and only leave the 'Start Tor client' option enabled."
+msgstr ""
 
 #: gui/qt/seed_dialog.py:78
 msgid "Force BIP39 interpretation of this seed"
@@ -3245,7 +3266,7 @@ msgstr "格式"
 msgid "Format: address, amount"
 msgstr "格式: 地址, 总额"
 
-#: plugins/fusion/qt.py:818
+#: plugins/fusion/qt.py:845
 msgid "Found a valid Tor proxy on this port."
 msgstr "在此端口上找到了一个有效的 Tor 代理。"
 
@@ -3328,23 +3349,23 @@ msgstr "忙于改组的资金只有在改组后才能用于支出。要立即花
 msgid "Funds that are not yet shuffled"
 msgstr "尚未打乱的资金"
 
-#: plugins/fusion/qt.py:914
+#: plugins/fusion/qt.py:941
 msgid "Fusion mode:"
 msgstr "融合模式："
 
-#: plugins/fusion/qt.py:418
+#: plugins/fusion/qt.py:434
 msgid "Fusion transactions are now hidden"
 msgstr ""
 
-#: plugins/fusion/qt.py:420
+#: plugins/fusion/qt.py:436
 msgid "Fusion transactions are now shown"
 msgstr ""
 
-#: plugins/fusion/qt.py:1343
+#: plugins/fusion/qt.py:1370
 msgid "Fusions"
 msgstr "融合"
 
-#: plugins/fusion/qt.py:551 plugins/fusion/qt.py:733
+#: plugins/fusion/qt.py:578 plugins/fusion/qt.py:760
 msgid "Fusions..."
 msgstr "融合..."
 
@@ -3387,7 +3408,7 @@ msgid "Go to \"Settings\", \"Devices\", \"Connected devices\", and do \"Remove d
 msgstr "转到\"设置\", \"设备\", \"连接设备\", 然后执行\"删除设备\", 然后重新插入你的设备。"
 
 #. For now I couldn't get Grayscale TOIG to work on any device, disabled
-#: plugins/trezor/qt.py:384
+#: plugins/trezor/qt.py:452
 msgid "Grayscale TOI files are not currently supported. Try a PNG or JPG file instead."
 msgstr "Grayscale TOI 文件目前不支持。请尝试一个 PNG 或 JPG 文件。"
 
@@ -3423,7 +3444,7 @@ msgstr "硬件钱包支持..."
 msgid "Height"
 msgstr "高度"
 
-#: gui/qt/util.py:103 plugins/fusion/qt.py:1083
+#: gui/qt/util.py:103 plugins/fusion/qt.py:1110
 msgid "Help"
 msgstr "帮助"
 
@@ -3435,7 +3456,7 @@ msgstr "这是您的主公钥"
 msgid "Hide"
 msgstr "隐藏"
 
-#: plugins/fusion/qt.py:432
+#: plugins/fusion/qt.py:448
 msgid "Hide CashFusions"
 msgstr ""
 
@@ -3461,16 +3482,16 @@ msgid "Hide {tab_description}"
 msgstr "隐藏{tab_description}"
 
 #. /Cash Accounts
-#: gui/qt/main_window.py:182 gui/qt/address_dialog.py:113 gui/text.py:63
+#: gui/text.py:63 gui/qt/main_window.py:182 gui/qt/address_dialog.py:113
 msgid "History"
 msgstr "历史"
 
 #. Settings tab - Homescreen
-#: plugins/trezor/qt.py:573
+#: plugins/trezor/qt.py:641
 msgid "Homescreen"
 msgstr "主屏"
 
-#: gui/qt/network_dialog.py:228 gui/qt/network_dialog.py:917
+#: gui/qt/network_dialog.py:228 gui/qt/network_dialog.py:937
 #: ios/ElectronCash/electroncash_gui/ios_native/network_dialog.py:279
 #: ios/ElectronCash/electroncash_gui/ios_native/network_dialog.py:329
 #: plugins/shuffle_deprecated/qt.py:1621
@@ -3485,11 +3506,11 @@ msgstr "你想怎么连接服务器？"
 msgid "However, hardware wallets do not support message decryption, which makes them not compatible with the current design of cosigner pool."
 msgstr "然而，硬件钱包不支持消息解密，这使得它们与当前的联署池设计不兼容。"
 
-#: gui/qt/__init__.py:845
+#: gui/qt/__init__.py:864
 msgid "However, on some Windows systems, bugs in Qt may result in minor graphics glitches in system 'message box' dialogs."
 msgstr "然而，在某些 Windows 系统上，Qt 中的问题可能会导致系统“消息框” 对话框中的小图形亮点。"
 
-#: gui/qt/__init__.py:841
+#: gui/qt/__init__.py:860
 msgid "However, on some esoteric Linux systems, this mode may cause disproportionately large status bar icons."
 msgstr "然而，在某些原生的 Linux 系统中，这种模式可能会造成过大的状态栏图标。"
 
@@ -3509,7 +3530,7 @@ msgstr "我已经有一个密语种子"
 msgid "I should only install the most reputable plugins trusted by the community."
 msgstr "我只能安装社区信任的最可信的插件。"
 
-#: android/app/src/main/python/electroncash_gui/android/strings.py:29
+#: android/app/src/main/python/electroncash_gui/android/strings.py:32
 msgid "ID"
 msgstr "编号"
 
@@ -3566,7 +3587,7 @@ msgstr "如果不勾选此项，那您就必须手动选择要使用哪个服务
 msgid "If someone you do not trust wants you to enter something here, that person might be attempting a social engineering / phishing attack on you."
 msgstr "如果你不信任的人想要你在这里输入东西，那个人可能正在试图对你进行社交工程/钓鱼攻击。"
 
-#: gui/qt/__init__.py:842 gui/qt/__init__.py:846
+#: gui/qt/__init__.py:861 gui/qt/__init__.py:865
 msgid "If that is the case for you, then you may disable automatic DPI scaling in the preferences, under 'General'."
 msgstr "如果是这种情况，那么您可以在“常规”下禁用首选项中的自动 DPI 缩放。"
 
@@ -3586,7 +3607,7 @@ msgstr "如果这个问题仍然存在，请访问："
 msgid "If unchecked, the textbox contents are UTF8-encoded into a single-push script: <tt>OP_RETURN PUSH &lt;text&gt;</tt>. If checked, the text contents will be interpreted as a raw hexadecimal script to be appended after the OP_RETURN opcode: <tt>OP_RETURN &lt;script&gt;</tt>."
 msgstr "如果不选中，文本框内容是 UTF8-编码为单推脚本： <tt>OP_RETURN PUSH &lt;text&gt;</tt>如果选中， 文本内容将被解释为 OP_RETURN opcode 后面的原始十六进制脚本： <tt>OP_RETURN &lt;script&gt;</tt>"
 
-#: gui/qt/network_dialog.py:510
+#: gui/qt/network_dialog.py:620
 msgid "If unsure, it's safe to enable this feature, and leave 'Use Tor Proxy' disabled.  In that situation, only certain plugins (such as CashFusion) will use Tor, but your regular SPV server connections will remain unaffected."
 msgstr "如果不确定, 启用此功能是安全的，并留空禁用“使用Tor Proxy”。 在这种情况下，只有某些插件(如CashFusion)将使用 Tor，但您的常规 SPV 服务器连接将不受影响。"
 
@@ -3607,7 +3628,7 @@ msgstr "如果您选择“否”，稍后将再次询问您(下次打开钱包�
 msgid "If you choose 'Yes', it will be decrypted and a transaction window will be shown, giving you the opportunity to sign the transaction."
 msgstr "如果您选择“是”，它将被解密并显示交易窗口，使您有机会签署交易。"
 
-#: plugins/keepkey/qt.py:528 plugins/trezor/qt.py:626
+#: plugins/keepkey/qt.py:528 plugins/trezor/qt.py:694
 msgid "If you disable your PIN, anyone with physical access to your {} device can spend your bitcoins."
 msgstr "如果你停用了PIN，任何可以物理接触到{}设备的人都可以使用你的比特币。"
 
@@ -3615,11 +3636,11 @@ msgstr "如果你停用了PIN，任何可以物理接触到{}设备的人都可�
 msgid "If you do not know what this is, leave this field empty."
 msgstr "如果您不知道这是什么，请将此栏留空。"
 
-#: plugins/fusion/qt.py:1080
+#: plugins/fusion/qt.py:1107
 msgid "If you do not wish to necessarily consolidate coins, then it's perfectly acceptable to ignore this tip."
 msgstr "如果你不想合并硬币，那么忽略这个提示是完全可以接受的。"
 
-#: plugins/keepkey/qt.py:35 plugins/trezor/qt.py:33
+#: plugins/keepkey/qt.py:35 plugins/trezor/qt.py:34
 msgid "If you forget a passphrase you will be unable to access any bitcoins in the wallet behind it.  A passphrase is not a PIN. Only change this if you are sure you understand it."
 msgstr "如果您忘记了一个附加密码，结果就是与之对应的钱包、以及由这个钱包保存的所有比特币都将无法使用。 附加密码和PIN不是一回事。除非您懂得什么是附加密码，否则不要改动这个选项。"
 
@@ -3660,7 +3681,7 @@ msgstr "如果您想创建新地址，请使用确定性钱包（如Electron Cas
 msgid "If you wish this seed to be interpreted as a BIP39 seed, then use the Options button to force BIP39 interpretation of this seed."
 msgstr "如果你想要将这种子解释为 BIP39 种子，请使用选项按钮强制使用 BIP39 解释这种子."
 
-#: plugins/fusion/qt.py:1074
+#: plugins/fusion/qt.py:1101
 msgid "If you wish to consolidate coins:"
 msgstr "如果您想要合并硬币："
 
@@ -3683,7 +3704,7 @@ msgstr "如果您的钱包还保存有资金，请确保您已经保存了它的
 msgid "Image"
 msgstr "图像"
 
-#: plugins/trezor/qt.py:392
+#: plugins/trezor/qt.py:460
 msgid "Image must be a TOI{} file of size {}x{}"
 msgstr "图像必须是大小为 {}x{} 的 TOI{} 文件"
 
@@ -3721,7 +3742,7 @@ msgstr "导入比特币現金地址或私钥"
 msgid "Import addresses"
 msgstr "导入地址"
 
-#: android/app/src/main/python/electroncash_gui/android/strings.py:30
+#: android/app/src/main/python/electroncash_gui/android/strings.py:33
 msgid "Import addresses or private keys"
 msgstr "导入地址或私钥"
 
@@ -3806,7 +3827,7 @@ msgstr "密码错误"
 msgid "Incorrect password entered."
 msgstr "密码不正确。"
 
-#: plugins/fusion/qt.py:467
+#: plugins/fusion/qt.py:483
 msgid "Incorrect password entered. Please try again."
 msgstr "输入的密码不正确。请重试。"
 
@@ -3818,16 +3839,16 @@ msgstr "索引"
 #: gui/qt/main_window.py:482 gui/qt/util.py:239
 #: ios/ElectronCash/electroncash_gui/ios_native/network_dialog.py:506
 #: ios/ElectronCash/electroncash_gui/ios_native/gui.py:1103
-#: plugins/keepkey/qt.py:574 plugins/trezor/qt.py:663
+#: plugins/keepkey/qt.py:574 plugins/trezor/qt.py:731
 msgid "Information"
 msgstr "消息"
 
 #. /clean up hack
-#: plugins/keepkey/keepkey.py:233 plugins/trezor/trezor.py:259
+#: plugins/keepkey/keepkey.py:233 plugins/trezor/trezor.py:263
 msgid "Initialize Device"
 msgstr "初始化设备"
 
-#: plugins/keepkey/qt.py:450 plugins/trezor/qt.py:529
+#: plugins/keepkey/qt.py:450 plugins/trezor/qt.py:597
 msgid "Initialized"
 msgstr "已初始化"
 
@@ -3894,7 +3915,7 @@ msgstr "资金不足"
 msgid "Integration"
 msgstr "集成"
 
-#: plugins/trezor/qt.py:418
+#: plugins/trezor/qt.py:486
 msgid "Internal error converting image"
 msgstr "转换图像时发生内部错误"
 
@@ -3910,7 +3931,7 @@ msgstr "不正确"
 msgid "Invalid Address"
 msgstr "地址无效"
 
-#: gui/qt/main_window.py:2007 gui/text.py:331 gui/stdio.py:174
+#: gui/text.py:331 gui/stdio.py:174 gui/qt/main_window.py:2007
 #: ios/ElectronCash/electroncash_gui/ios_native/send.py:1030
 msgid "Invalid Amount"
 msgstr "金额无效"
@@ -3957,11 +3978,11 @@ msgstr "密码无效 - 请拔出 {hw_device_name} 而在重试前重新插入它
 msgid "Invalid QR Code"
 msgstr "无效二维码"
 
-#: plugins/fusion/plugin.py:444
+#: plugins/fusion/plugin.py:506
 msgid "Invalid Tor proxy or no Tor proxy found"
 msgstr "无效 Tor 代理或未找到 Tor 代理"
 
-#: android/app/src/main/python/electroncash_gui/android/strings.py:31
+#: android/app/src/main/python/electroncash_gui/android/strings.py:34
 #: ios/ElectronCash/electroncash_gui/ios_native/txdetail.py:292
 msgid "Invalid address"
 msgstr "地址无效"
@@ -4090,7 +4111,7 @@ msgid "Labels, transactions IDs and addresses are encrypted before they are sent
 msgstr "标签、交易ID和地址在发送到远程服务器之前会被加密。"
 
 #: gui/qt/main_window.py:4036 plugins/keepkey/qt.py:449
-#: plugins/trezor/qt.py:528
+#: plugins/trezor/qt.py:596
 msgid "Language"
 msgstr "语言"
 
@@ -4102,7 +4123,7 @@ msgstr "最新版本：{}"
 msgid "Leave this field empty if you want to disable encryption."
 msgstr "若您想要停用加密功能，请将此栏留空。"
 
-#: gui/qt/network_dialog.py:519
+#: gui/qt/network_dialog.py:512
 msgid "Leave unspecified to automatically allocate a port."
 msgstr "留空未指定以自动分配端口。"
 
@@ -4143,11 +4164,11 @@ msgstr "旧地址"
 
 #. Must be short as QT doesn't word-wrap radio button text
 #. Must be short as Qt doesn't word-wrap radio button text
-#: plugins/keepkey/keepkey.py:216 plugins/trezor/trezor.py:221
+#: plugins/keepkey/keepkey.py:216 plugins/trezor/trezor.py:225
 msgid "Let the device generate a completely new seed randomly"
 msgstr "让硬件钱包随机生成一个全新的密语种子"
 
-#: plugins/trezor/trezor.py:143
+#: plugins/trezor/trezor.py:147
 msgid "Library version for '{}' is incompatible."
 msgstr "“{}”的库版本不兼容。"
 
@@ -4216,7 +4237,7 @@ msgstr "低手续费"
 msgid "Lower limit is {}"
 msgstr "下限为 {}"
 
-#: android/app/src/main/python/electroncash_gui/android/strings.py:32
+#: android/app/src/main/python/electroncash_gui/android/strings.py:35
 msgid "Made with <a href='https://chaquo.com/chaquopy'>Chaquopy</a>, the Python SDK for Android."
 msgstr "使用 <a href='https://chaquo.com/chaquopy'>Chaquopy</a>制作，Android 的 Python SDK"
 
@@ -4225,7 +4246,7 @@ msgid "Make default for address"
 msgstr "设为默认地址"
 
 #: plugins/digitalbitbox/digitalbitbox.py:705 plugins/keepkey/keepkey.py:296
-#: plugins/satochip/satochip.py:559 plugins/trezor/trezor.py:318
+#: plugins/satochip/satochip.py:559 plugins/trezor/trezor.py:322
 msgid "Make sure it is in the correct state."
 msgstr "确保它处于正确的状态。"
 
@@ -4258,7 +4279,7 @@ msgstr "主公钥"
 msgid "Master Public Keys"
 msgstr "主公钥"
 
-#: plugins/trezor/qt.py:246
+#: plugins/trezor/qt.py:314
 msgid "Matrix"
 msgstr "矩阵（高级恢复）"
 
@@ -4313,7 +4334,7 @@ msgstr "最小硬币："
 msgid "Mining fee"
 msgstr "挖矿费用"
 
-#: gui/qt/__init__.py:795
+#: gui/qt/__init__.py:814
 msgid "Missing libsecp256k1"
 msgstr "缺少libsecp256k1"
 
@@ -4373,7 +4394,7 @@ msgid "Name is empty"
 msgstr "名称为空"
 
 #. Settings tab - Label
-#: plugins/keepkey/qt.py:463 plugins/trezor/qt.py:542
+#: plugins/keepkey/qt.py:463 plugins/trezor/qt.py:610
 msgid "Name this {}.  If you have multiple devices their labels help distinguish them."
 msgstr "这被命名为{}。如果你有多个设备，标签有助于区分它们。"
 
@@ -4381,9 +4402,9 @@ msgstr "这被命名为{}。如果你有多个设备，标签有助于区分它�
 msgid "Needs update"
 msgstr "需要更新"
 
-#: gui/qt/main_window.py:2899 gui/qt/network_dialog.py:53 gui/text.py:149
+#: gui/text.py:149 gui/qt/main_window.py:2899 gui/qt/network_dialog.py:53
 #: ios/ElectronCash/electroncash_gui/ios_native/gui.py:2116
-#: plugins/fusion/qt.py:679
+#: plugins/fusion/qt.py:706
 msgid "Network"
 msgstr "网络"
 
@@ -4444,7 +4465,7 @@ msgstr "新的钱包"
 msgid "New Wallet Created"
 msgstr "新钱包已创建"
 
-#: plugins/fusion/qt.py:617
+#: plugins/fusion/qt.py:644
 #, python-brace-format
 msgid "New automatic fusions will not be started, but you have {num} currently in progress. Would you like to signal them to stop?"
 msgstr "新的自动出纳将不会开始，但您有 {num} 正在进行中。您想要发出停止通知吗？"
@@ -4454,7 +4475,7 @@ msgstr "新的自动出纳将不会开始，但您有 {num} 正在进行中。�
 msgid "New contact"
 msgstr "新建联系人"
 
-#: android/app/src/main/python/electroncash_gui/android/strings.py:33
+#: android/app/src/main/python/electroncash_gui/android/strings.py:36
 msgid "New password"
 msgstr "新密码"
 
@@ -4466,7 +4487,7 @@ msgstr "新的交易已接收：{}"
 msgid "New transaction: {}"
 msgstr "收到新交易: {}"
 
-#: android/app/src/main/python/electroncash_gui/android/strings.py:34
+#: android/app/src/main/python/electroncash_gui/android/strings.py:37
 msgid "New wallet"
 msgstr "新钱包"
 
@@ -4485,7 +4506,7 @@ msgstr "下一步"
 #: ios/ElectronCash/electroncash_gui/ios_native/gui.py:1096
 #: ios/ElectronCash/electroncash_gui/ios_native/gui.py:2315
 #: ios/ElectronCash/electroncash_gui/ios_native/gui.py:2317
-#: plugins/fusion/qt.py:943 plugins/keepkey/qt.py:349 plugins/trezor/qt.py:317
+#: plugins/fusion/qt.py:970 plugins/keepkey/qt.py:349 plugins/trezor/qt.py:385
 msgid "No"
 msgstr "无"
 
@@ -4530,7 +4551,7 @@ msgstr "在指定的扫描范围内没有找到交易历史的地址。"
 msgid "No coins"
 msgstr "没有硬币"
 
-#: lib/exchange_rate.py:495
+#: lib/exchange_rate.py:462
 msgid "No data"
 msgstr "无数据"
 
@@ -4597,11 +4618,11 @@ msgstr "未在区块链上找到任何交易。"
 msgid "No valid items remain. Cannot proceed -- go back and try again."
 msgstr "没有有效的项目仍然存在。无法继续 -- 返回并重试。"
 
-#: android/app/src/main/python/electroncash_gui/android/strings.py:36
+#: android/app/src/main/python/electroncash_gui/android/strings.py:39
 msgid "No wallet"
 msgstr "没有钱包"
 
-#: android/app/src/main/python/electroncash_gui/android/strings.py:35
+#: android/app/src/main/python/electroncash_gui/android/strings.py:38
 msgid "No wallet is open."
 msgstr "没有打开钱包。"
 
@@ -4623,17 +4644,17 @@ msgctxt "Referencing Fiat rate source"
 msgid "None"
 msgstr "无"
 
-#: gui/qt/network_dialog.py:672
+#: gui/qt/network_dialog.py:696
 #: ios/ElectronCash/electroncash_gui/ios_native/network_dialog.py:233
 msgctxt "Referencing server"
 msgid "None"
 msgstr "无"
 
-#: plugins/fusion/qt.py:961
+#: plugins/fusion/qt.py:988
 msgid "Normal"
 msgstr "普通的"
 
-#: plugins/fusion/qt.py:962
+#: plugins/fusion/qt.py:989
 msgid "Normal mode"
 msgstr "正常模式"
 
@@ -4661,19 +4682,19 @@ msgstr "未验证"
 msgid "Not a text file"
 msgstr "不是文本文件"
 
-#: android/app/src/main/python/electroncash_gui/android/strings.py:37
+#: android/app/src/main/python/electroncash_gui/android/strings.py:40
 #, python-format
 msgid "Not a valid address or private key: '%s'"
 msgstr "不是有效的地址或私钥: '%s'"
 
-#: lib/web.py:210
+#: lib/web.py:216
 #, python-brace-format
 msgid "Not a {schemes} URI"
 msgstr "不是 {schemes} URI"
 
 #. Don't allow a potentially very slow broadcast when obviously not connected.
-#: gui/qt/main_window.py:976 gui/qt/main_window.py:2290
-#: gui/qt/network_dialog.py:701 gui/text.py:142 gui/stdio.py:122
+#: gui/text.py:142 gui/stdio.py:122 gui/qt/main_window.py:976
+#: gui/qt/main_window.py:2290 gui/qt/network_dialog.py:725
 #: ios/ElectronCash/electroncash_gui/ios_native/network_dialog.py:257
 #: ios/ElectronCash/electroncash_gui/ios_native/gui.py:717
 msgid "Not connected"
@@ -4719,7 +4740,7 @@ msgstr "注意：您现在可能需要断开连接并重新连接您的硬件钱
 msgid "Notify when receiving funds"
 msgstr "收到资金时通知"
 
-#: plugins/fusion/qt.py:1300
+#: plugins/fusion/qt.py:1327
 msgid "Num players"
 msgstr "玩家数量"
 
@@ -4727,7 +4748,7 @@ msgstr "玩家数量"
 msgid "Number of addresses to scan:"
 msgstr "要扫描的地址数："
 
-#: plugins/fusion/qt.py:1045
+#: plugins/fusion/qt.py:1072
 msgid "Number of queued fusions"
 msgstr "排队的聚合次数"
 
@@ -4778,8 +4799,9 @@ msgstr "OP_RETURN 脚本预期为十六进制字节"
 msgid "OP_RETURN script too large, needs to be no longer than 223 bytes"
 msgstr "OP_RETURN 脚本过大，需要不超过 223 字节"
 
-#: gui/qt/main_window.py:901 gui/qt/main_window.py:914 gui/qt/__init__.py:757
-#: gui/text.py:130 ios/ElectronCash/electroncash_gui/ios_native/wallets.py:153
+#: gui/text.py:130 gui/qt/main_window.py:901 gui/qt/main_window.py:914
+#: gui/qt/__init__.py:776
+#: ios/ElectronCash/electroncash_gui/ios_native/wallets.py:153
 #: ios/ElectronCash/electroncash_gui/ios_native/prefs.py:230
 #: ios/ElectronCash/electroncash_gui/ios_native/gui.py:616
 #: ios/ElectronCash/electroncash_gui/ios_native/gui.py:622
@@ -4788,12 +4810,12 @@ msgstr "OP_RETURN 脚本过大，需要不超过 223 字节"
 msgid "Offline"
 msgstr "离线"
 
-#: plugins/keepkey/keepkey.py:53 plugins/trezor/trezor.py:78
+#: plugins/keepkey/keepkey.py:53 plugins/trezor/trezor.py:82
 msgid "Offline signing with {} is not supported."
 msgstr "不支持 {} 的离线签名。"
 
 #. any other case has all the below keys defined
-#: gui/qt/main_window.py:2300 plugins/fusion/qt.py:372
+#: gui/qt/main_window.py:2300 plugins/fusion/qt.py:388
 #: plugins/shuffle_deprecated/qt.py:1684 plugins/shuffle_deprecated/qt.py:1717
 #: plugins/shuffle_deprecated/qt.py:1925
 msgid "Ok"
@@ -4803,13 +4825,13 @@ msgstr "确定"
 msgid "Omit incompatible pools"
 msgstr "忽略不兼容的库"
 
-#: gui/qt/__init__.py:286
+#: gui/qt/__init__.py:305
 msgid "On Debian-based distros, you can run:\n\n"
 "    sudo apt install python3-pyqt5.qtsvg"
 msgstr "在 Debian 基础上的磁盘上，您可以运行：\n\n"
 "    sudo apt install python3-pyqt5.qtsvg"
 
-#: gui/qt/__init__.py:284
+#: gui/qt/__init__.py:303
 msgid "On Linux, you may try:\n\n"
 "    python3 -m pip install --user -I pyqt5"
 msgstr "在 Linux 上，您可以尝试：\n\n"
@@ -4862,11 +4884,11 @@ msgstr "{} 只支持地址和脚本输出"
 msgid "Only address outputs are supported by {}"
 msgstr "{} 只支持地址和脚本输出"
 
-#: plugins/fusion/qt.py:1050
+#: plugins/fusion/qt.py:1077
 msgid "Only auto-fuse when all coins are confirmed"
 msgstr "仅当所有硬币被确认时自动闪烁。"
 
-#: plugins/keepkey/qt.py:553 plugins/trezor/qt.py:651
+#: plugins/keepkey/qt.py:553 plugins/trezor/qt.py:719
 msgid "Only wipe a device if you have the recovery seed written down and the device wallet(s) are empty, otherwise the bitcoins will be lost forever."
 msgstr "只有在您已经抄好密语种子，或者确定钱包是空的时候，才可以擦除硬件钱包，否则会永久丢币。"
 
@@ -4925,7 +4947,7 @@ msgstr "可选功能"
 msgid "Options"
 msgstr "选项"
 
-#: plugins/keepkey/keepkey.py:178 plugins/trezor/trezor.py:320
+#: plugins/keepkey/keepkey.py:178 plugins/trezor/trezor.py:324
 msgid "Outdated {} firmware for device labelled {}. Please download the updated firmware from {}"
 msgstr "过期的{}固件存在于标有{}的设备。请从{}下载最新的固件"
 
@@ -4955,7 +4977,7 @@ msgstr "总览"
 msgid "P2SH / regular input mixed in same transaction not supported"
 msgstr "P2SH / 常规输入混合于同一交易不受支持"
 
-#: plugins/fusion/qt.py:696 plugins/fusion/qt.py:716
+#: plugins/fusion/qt.py:723 plugins/fusion/qt.py:743
 #: plugins/shuffle_deprecated/qt.py:1626
 msgid "P:"
 msgstr "P："
@@ -4965,7 +4987,7 @@ msgid "PIN Change cancelled!"
 msgstr ""
 
 #. Settings tab - PIN
-#: plugins/keepkey/qt.py:480 plugins/trezor/qt.py:559
+#: plugins/keepkey/qt.py:480 plugins/trezor/qt.py:627
 msgid "PIN Protection"
 msgstr "PIN保护"
 
@@ -4981,11 +5003,11 @@ msgstr "密码必须至少 4 个字符。"
 msgid "PIN must have less than 64 characters."
 msgstr "密码必须少于64个字符。"
 
-#: plugins/keepkey/qt.py:485 plugins/trezor/qt.py:564
+#: plugins/keepkey/qt.py:485 plugins/trezor/qt.py:632
 msgid "PIN protection is strongly recommended.  A PIN is your only protection against someone stealing your bitcoins if they obtain physical access to your {}."
 msgstr "强烈建议使用PIN保护。如果任何人能接触到你的{}，PIN就是唯一能保护你的比特币以免被盗走的措施。"
 
-#: plugins/keepkey/qt.py:443 plugins/trezor/qt.py:523
+#: plugins/keepkey/qt.py:443 plugins/trezor/qt.py:591
 msgid "PIN set"
 msgstr "PIN码设置"
 
@@ -4997,19 +5019,19 @@ msgstr "付款"
 msgid "Partially signed"
 msgstr "已被部分签名"
 
-#: android/app/src/main/python/electroncash_gui/android/strings.py:38
+#: android/app/src/main/python/electroncash_gui/android/strings.py:41
 msgid "Passphrase"
 msgstr "密语"
 
-#: gui/qt/password_dialog.py:88
+#: gui/qt/password_dialog.py:88 plugins/trezor/qt.py:188
 msgid "Passphrase:"
 msgstr "附加密码："
 
-#: plugins/keepkey/qt.py:444 plugins/trezor/qt.py:524
+#: plugins/keepkey/qt.py:444 plugins/trezor/qt.py:592
 msgid "Passphrases"
 msgstr "附加密码"
 
-#: plugins/keepkey/qt.py:24 plugins/trezor/qt.py:22
+#: plugins/keepkey/qt.py:24 plugins/trezor/qt.py:23
 msgid "Passphrases allow you to access new wallets, each hidden behind a particular case-sensitive passphrase."
 msgstr "附加密码(passphrase)严格区分大小写。每个不同的附加密码都对应一个独立的隐藏钱包。"
 
@@ -5082,7 +5104,7 @@ msgid "Pay Now"
 msgstr "立即付款"
 
 #. Apply translations and other stuff to UI text...
-#: gui/qt/cashacctqt.py:641 gui/qt/contact_list.py:215 gui/text.py:174
+#: gui/text.py:174 gui/qt/cashacctqt.py:641 gui/qt/contact_list.py:215
 #: ios/ElectronCash/electroncash_gui/ios_native/contacts.py:607
 #: ios/ElectronCash/electroncash_gui/ios_native/contacts.py:869
 #: ios/ElectronCash/electroncash_gui/ios_native/send.py:144
@@ -5112,7 +5134,7 @@ msgstr "付款请求已超时"
 msgid "Payment request saved"
 msgstr "付款请求已保存"
 
-#: gui/qt/main_window.py:2311 gui/text.py:358 gui/stdio.py:207
+#: gui/text.py:358 gui/stdio.py:207 gui/qt/main_window.py:2311
 #: ios/ElectronCash/electroncash_gui/ios_native/gui.py:2019
 msgid "Payment sent."
 msgstr "付款已发送。"
@@ -5129,7 +5151,7 @@ msgstr "等待处理"
 msgid "Per-Wallet Options"
 msgstr "单钱包选项"
 
-#: plugins/fusion/qt.py:1000
+#: plugins/fusion/qt.py:1027
 msgid "Per-coin random chance"
 msgstr "每个硬币随机几率"
 
@@ -5197,6 +5219,10 @@ msgstr "请输入cosigner #{}的主公钥："
 #: ios/ElectronCash/electroncash_gui/ios_native/wallets.py:581
 msgid "Please enter the new name for this wallet:"
 msgstr "请输入此钱包的新名称："
+
+#: plugins/trezor/clientbase.py:33
+msgid "Please enter your passphrase on the {} device"
+msgstr ""
 
 #: gui/qt/main_window.py:1311 gui/qt/password_dialog.py:217
 #: plugins/shuffle_deprecated/qt.py:705
@@ -5307,7 +5333,7 @@ msgstr "请在 https://www.ledgerwallet.com 上更新"
 msgid "Please update to v0.1.27 or greater"
 msgstr "请更新到 v0.1.27 或更新"
 
-#: gui/qt/__init__.py:793
+#: gui/qt/__init__.py:812
 msgid "Please visit this page for instructions on how to correct the situation:"
 msgstr "请访问此页以了解如何纠正状态："
 
@@ -5319,7 +5345,7 @@ msgstr "请稍后"
 msgid "Please wait while Electron Cash checks for available updates."
 msgstr "Electron Cash正在检查可用更新，请等待。"
 
-#: gui/qt/installwizard.py:119 gui/text.py:354 gui/stdio.py:203
+#: gui/text.py:354 gui/stdio.py:203 gui/qt/installwizard.py:119
 #: lib/wallet.py:2077
 msgid "Please wait..."
 msgstr "请稍候..."
@@ -5361,7 +5387,7 @@ msgstr "插件应该支持这些接口中的一个或多个。"
 msgid "Pool size"
 msgstr "池大小"
 
-#: gui/qt/network_dialog.py:228 gui/qt/network_dialog.py:917
+#: gui/qt/network_dialog.py:228 gui/qt/network_dialog.py:937
 #: ios/ElectronCash/electroncash_gui/ios_native/network_dialog.py:329
 msgid "Port"
 msgstr "端口"
@@ -5388,7 +5414,7 @@ msgstr "潜在的不安全操作"
 msgid "Preferences"
 msgstr "偏好设置"
 
-#: gui/qt/network_dialog.py:693
+#: gui/qt/network_dialog.py:717
 msgid "Preferred"
 msgstr "首选的"
 
@@ -5408,7 +5434,7 @@ msgstr "按'下一步'打开这个钱包"
 msgid "Press Enter"
 msgstr "按下回车键。"
 
-#: android/app/src/main/python/electroncash_gui/android/strings.py:39
+#: android/app/src/main/python/electroncash_gui/android/strings.py:42
 msgid "Press the menu button above to open or create one."
 msgstr "按上面的选单按钮打开或创建一个。"
 
@@ -5416,7 +5442,7 @@ msgstr "按上面的选单按钮打开或创建一个。"
 msgid "Preview"
 msgstr "预览"
 
-#: plugins/fusion/qt.py:188
+#: plugins/fusion/qt.py:196
 msgid "Previously you had auto-fusion enabled on this wallet. If you would like to keep auto-fusing in the background, enter your password."
 msgstr "之前您已经在此钱包上启用自动聚变。如果您想在后台保持自动融合，请输入您的密码。"
 
@@ -5489,8 +5515,8 @@ msgid "Provides support for Satochip hardware wallet"
 msgstr "提供支持 Satochip 硬件钱包"
 
 #: plugins/trezor/__init__.py:4
-msgid "Provides support for TREZOR hardware wallet"
-msgstr "为Trezor硬件钱包提供支持"
+msgid "Provides support for Trezor hardware wallet"
+msgstr ""
 
 #: plugins/audio_modem/__init__.py:4
 msgid "Provides support for air-gapped transaction signing."
@@ -5500,7 +5526,7 @@ msgstr "为粉尘交易签名提供支持。"
 msgid "Proxy"
 msgstr "代理"
 
-#: gui/qt/network_dialog.py:548
+#: gui/qt/network_dialog.py:542
 msgid "Proxy settings apply to all connections: with Electron Cash servers, but also with third-party services."
 msgstr "代理设置适用于所有连接：使用Electron Cash服务器，也适用于第三方服务。"
 
@@ -5517,7 +5543,7 @@ msgstr "公钥"
 msgid "Public keys"
 msgstr "公钥"
 
-#: gui/qt/__init__.py:452
+#: gui/qt/__init__.py:471
 msgid "PyQt5 Upgrade Needed"
 msgstr "需要 PyQt5 升级"
 
@@ -5528,7 +5554,7 @@ msgstr "需要 PyQt5 升级"
 msgid "QR Not Available"
 msgstr "二维码不可用"
 
-#: gui/qt/__init__.py:747
+#: gui/qt/__init__.py:766
 msgid "QR Reader Error"
 msgstr "阅读二维码出问题"
 
@@ -5555,11 +5581,11 @@ msgstr "二维码扫描器映射视频框架失败"
 msgid "QR code scanner for video frame with invalid pixel format"
 msgstr "带有无效像素格式的视频帧二维码扫描器"
 
-#: gui/qt/__init__.py:748
+#: gui/qt/__init__.py:767
 msgid "QR reader failed to load. This may happen if you are using an older version of PyQt5.<br><br>Detailed error: "
 msgstr "二维码读取器加载失败。如果您使用旧版本的 PyQt5 可能会发生这种情况。<br><br>详细错误： "
 
-#: gui/qt/__init__.py:288
+#: gui/qt/__init__.py:307
 msgid "QtSvg Missing"
 msgstr "缺少QtSvg"
 
@@ -5568,7 +5594,7 @@ msgstr "缺少QtSvg"
 msgid "Question"
 msgstr "问题"
 
-#: plugins/fusion/fusion.py:656
+#: plugins/fusion/fusion.py:710
 msgid "Queued:"
 msgstr "队列："
 
@@ -5588,7 +5614,7 @@ msgstr "十六进制脚原本"
 msgid "Re&quests"
 msgstr "重新&任务"
 
-#: plugins/keepkey/clientbase.py:48 plugins/trezor/clientbase.py:275
+#: plugins/keepkey/clientbase.py:48 plugins/trezor/clientbase.py:285
 msgid "Re-enter the new PIN for your {}.\n\n"
 "NOTE: the positions of the numbers have changed!"
 msgstr "为你的 {} 重输入新的PIN。\n\n"
@@ -5614,7 +5640,7 @@ msgstr "重建钱包历史"
 msgid "Rebuild this wallet's history now?"
 msgstr "现在重建钱包历史吗？"
 
-#: gui/qt/main_window.py:184 gui/text.py:63
+#: gui/text.py:63 gui/qt/main_window.py:184
 #: ios/ElectronCash/electroncash_gui/ios_native/receive.py:72
 #: ios/ElectronCash/electroncash_gui/ios_native/gui.py:307
 msgid "Receive"
@@ -5654,7 +5680,7 @@ msgstr "收款地址"
 msgid "Recipient of the funds."
 msgstr "收款方。"
 
-#: plugins/keepkey/keepkey.py:217 plugins/trezor/trezor.py:222
+#: plugins/keepkey/keepkey.py:217 plugins/trezor/trezor.py:226
 msgid "Recover from a seed you have previously written down"
 msgstr "利用您之前抄下的密语种子进行恢复"
 
@@ -5728,7 +5754,7 @@ msgstr "重命名："
 msgid "Rename Wallet"
 msgstr "重命名钱包"
 
-#: android/app/src/main/python/electroncash_gui/android/strings.py:40
+#: android/app/src/main/python/electroncash_gui/android/strings.py:43
 msgid "Rename wallet"
 msgstr "重命名钱包"
 
@@ -5744,7 +5770,7 @@ msgstr "已发送报告"
 msgid "Reporting Bugs"
 msgstr "报告错误"
 
-#: android/app/src/main/python/electroncash_gui/android/strings.py:41
+#: android/app/src/main/python/electroncash_gui/android/strings.py:44
 msgid "Request"
 msgstr "请求"
 
@@ -5804,7 +5830,7 @@ msgstr "需要"
 msgid "Requires 2FA "
 msgstr "需要2FA "
 
-#: plugins/trezor/qt.py:575
+#: plugins/trezor/qt.py:643
 msgid "Reset"
 msgstr "重置"
 
@@ -5829,7 +5855,7 @@ msgstr "现在重启 CashShuffle 插件？"
 msgid "Restore from Seed"
 msgstr "从种子恢复"
 
-#: android/app/src/main/python/electroncash_gui/android/strings.py:42
+#: android/app/src/main/python/electroncash_gui/android/strings.py:45
 msgid "Restore from seed"
 msgstr "从种子恢复"
 
@@ -5868,7 +5894,7 @@ msgstr "SLP 令牌"
 msgid "SLP Token: Spend Locked"
 msgstr "SLP 令牌：支出锁定"
 
-#: plugins/fusion/qt.py:703 plugins/shuffle_deprecated/qt.py:1629
+#: plugins/fusion/qt.py:730 plugins/shuffle_deprecated/qt.py:1629
 msgid "SSL"
 msgstr "SSL"
 
@@ -5958,7 +5984,7 @@ msgstr "Schnorr 签名"
 msgid "Schnorr signatures are disabled for this wallet type."
 msgstr "此钱包类型的 Schnorr 签名被禁用。"
 
-#: plugins/trezor/qt.py:239
+#: plugins/trezor/qt.py:307
 msgid "Scrambled words"
 msgstr "打乱单词顺序"
 
@@ -6070,7 +6096,7 @@ msgstr "选择保存您联系人的文件"
 msgid "Select file to save your labels"
 msgstr "选择要保存标签的文件"
 
-#: plugins/trezor/qt.py:235
+#: plugins/trezor/qt.py:303
 msgid "Select recovery type:"
 msgstr "选择恢复类型："
 
@@ -6099,7 +6125,7 @@ msgstr "选择将您已签署的交易保存在何处"
 msgid "Select which language is used in the GUI (after restart)."
 msgstr "选择图形界面要使用的语言 (重启生效)。"
 
-#: plugins/keepkey/qt.py:241 plugins/trezor/qt.py:205
+#: plugins/keepkey/qt.py:241 plugins/trezor/qt.py:273
 msgid "Select your seed length:"
 msgstr "选择您的密语种子的长度："
 
@@ -6107,11 +6133,11 @@ msgstr "选择您的密语种子的长度："
 msgid "Select your transaction file"
 msgstr "选择您的交易文件"
 
-#: plugins/fusion/qt.py:934
+#: plugins/fusion/qt.py:961
 msgid "Self-Fusing"
 msgstr "自转化"
 
-#: gui/qt/main_window.py:183 gui/text.py:63
+#: gui/text.py:63 gui/qt/main_window.py:183
 #: ios/ElectronCash/electroncash_gui/ios_native/send.py:67
 #: ios/ElectronCash/electroncash_gui/ios_native/send.py:236
 #: ios/ElectronCash/electroncash_gui/ios_native/gui.py:306
@@ -6152,13 +6178,13 @@ msgid "Sending Report..."
 msgstr "发送报告..."
 
 #: gui/qt/network_dialog.py:387 gui/qt/network_dialog.py:439
-#: gui/qt/network_dialog.py:571 plugins/fusion/qt.py:685
-#: plugins/fusion/qt.py:1288 plugins/fusion/plugin.py:551
+#: gui/qt/network_dialog.py:565 plugins/fusion/qt.py:712
+#: plugins/fusion/qt.py:1315 plugins/fusion/plugin.py:628
 #: plugins/shuffle_deprecated/qt.py:1725
 msgid "Server"
 msgstr "服务器"
 
-#: plugins/fusion/qt.py:648 plugins/shuffle_deprecated/qt_status_bar_mgr.py:225
+#: plugins/fusion/qt.py:675 plugins/shuffle_deprecated/qt_status_bar_mgr.py:225
 msgid "Server Error"
 msgstr "服务器错误"
 
@@ -6166,11 +6192,11 @@ msgstr "服务器错误"
 msgid "Server Lagging"
 msgstr "服务器延迟"
 
-#: plugins/fusion/qt.py:548
+#: plugins/fusion/qt.py:575
 msgid "Server Settings..."
 msgstr "服务器设置..."
 
-#: gui/qt/network_dialog.py:911
+#: gui/qt/network_dialog.py:931
 msgid "Server ban list is empty!"
 msgstr "服务器封禁列表为空！"
 
@@ -6195,7 +6221,7 @@ msgstr "服务器滞后 ( {} 个区块)"
 msgid "Server is misconfigured"
 msgstr "服务器配置错误"
 
-#: gui/qt/network_dialog.py:685
+#: gui/qt/network_dialog.py:709
 msgid "Server peers"
 msgstr "服务器伙伴"
 
@@ -6207,43 +6233,43 @@ msgstr "服务器响应与已签名的交易ID不匹配。"
 msgid "Server returned an error response"
 msgstr "服务器返回错误响应"
 
-#: plugins/fusion/qt.py:1314
+#: plugins/fusion/qt.py:1341
 msgid "Server status: ACTIVE"
 msgstr "服务器状态：激活"
 
-#: plugins/fusion/qt.py:1322
+#: plugins/fusion/qt.py:1349
 msgid "Server status: NOT RUNNING"
 msgstr "服务器状态：未激活"
 
-#: gui/qt/network_dialog.py:685 plugins/shuffle_deprecated/qt.py:1618
+#: gui/qt/network_dialog.py:709 plugins/shuffle_deprecated/qt.py:1618
 msgid "Servers"
 msgstr "服务器"
 
 #. Settings tab - Session Timeout
-#: plugins/keepkey/qt.py:494 plugins/trezor/qt.py:592
+#: plugins/keepkey/qt.py:494 plugins/trezor/qt.py:660
 msgid "Session Timeout"
 msgstr "会话超时"
 
-#: plugins/fusion/qt.py:1077
+#: plugins/fusion/qt.py:1104
 msgid "Set 'self-fusing' to 'No'"
 msgstr "将“自融合”设置为“否”"
 
-#: plugins/keepkey/qt.py:352 plugins/trezor/qt.py:320
+#: plugins/keepkey/qt.py:352 plugins/trezor/qt.py:388
 msgid "Set a PIN"
 msgstr "设置 PIN 码"
 
 #. called from main_window.py internal_plugins_dialog
 #. Return a button that when pressed presents a settings dialog.
-#: gui/qt/external_plugins_window.py:281 gui/text.py:149
+#: gui/text.py:149 gui/qt/external_plugins_window.py:281
 #: ios/ElectronCash/electroncash_gui/ios_native/prefs.py:55
-#: plugins/fusion/qt.py:241 plugins/email_requests/qt.py:230
+#: plugins/fusion/qt.py:246 plugins/email_requests/qt.py:230
 #: plugins/keepkey/qt.py:575 plugins/labels/qt.py:46
 #: plugins/audio_modem/qt.py:57 plugins/shuffle_deprecated/qt.py:1135
-#: plugins/satochip/qt.py:37 plugins/trezor/qt.py:664
+#: plugins/satochip/qt.py:37 plugins/trezor/qt.py:732
 msgid "Settings"
 msgstr "设置"
 
-#: plugins/fusion/qt.py:372
+#: plugins/fusion/qt.py:388
 msgid "Settings..."
 msgstr "设置..."
 
@@ -6357,7 +6383,7 @@ msgid "Show on Ledger"
 msgstr "在Ledger上显示"
 
 #: plugins/digitalbitbox/qt.py:42 plugins/keepkey/qt.py:212
-#: plugins/trezor/qt.py:178
+#: plugins/trezor/qt.py:246
 msgid "Show on {}"
 msgstr "在{}上显示"
 
@@ -6365,7 +6391,7 @@ msgstr "在{}上显示"
 msgid "Show report contents"
 msgstr "显示报告内容"
 
-#: android/app/src/main/python/electroncash_gui/android/strings.py:43
+#: android/app/src/main/python/electroncash_gui/android/strings.py:46
 msgid "Show seed"
 msgstr "显示种子"
 
@@ -6374,7 +6400,7 @@ msgstr "显示种子"
 msgid "Show {tab_description}"
 msgstr "显示{tab_description}"
 
-#: gui/qt/__init__.py:481
+#: gui/qt/__init__.py:500
 msgid "Show/Hide"
 msgstr "显示/隐藏"
 
@@ -6430,7 +6456,7 @@ msgstr "乱序：{} 硬币{}"
 msgid "Shuffling Paused"
 msgstr "乱序暂停"
 
-#: plugins/fusion/qt.py:214
+#: plugins/fusion/qt.py:219
 msgid "Shutting down active CashFusions (may take a minute to finish)"
 msgstr "关闭活动 CashFusions (可能需要一分钟才能完成)"
 
@@ -6497,7 +6523,7 @@ msgstr "正在签名交易..."
 msgid "Signing with an address actually means signing with the corresponding private key, and verifying with the corresponding public key. The address you have entered does not have a unique public key, so these operations cannot be performed."
 msgstr "用地址签名实际上是用相应的私钥签名，并用相应的公钥进行验证。你输入的地址公钥并不唯一，因此无法执行这些操作。"
 
-#: android/app/src/main/python/electroncash_gui/android/strings.py:44
+#: android/app/src/main/python/electroncash_gui/android/strings.py:47
 msgid "Size"
 msgstr "大小"
 
@@ -6541,7 +6567,7 @@ msgstr "来源:"
 msgid "Specify a master key to re-create a deterministic wallet."
 msgstr "指定一个主密钥以重新创建一个确定式钱包。"
 
-#: plugins/fusion/qt.py:1076
+#: plugins/fusion/qt.py:1103
 msgid "Specify a maximum of 1 queued fusion"
 msgstr "指定最大队列聚合"
 
@@ -6624,7 +6650,7 @@ msgstr "标准钱包"
 msgid "Standard wallet"
 msgstr "标准钱包"
 
-#: plugins/fusion/qt.py:1302
+#: plugins/fusion/qt.py:1329
 msgid "Start"
 msgstr "开始"
 
@@ -6632,21 +6658,22 @@ msgstr "开始"
 msgid "Start Scan"
 msgstr "开始扫描"
 
-#: gui/qt/network_dialog.py:502
-msgid "Start integrated Tor client"
-msgstr "启动集成 Tor 客户端"
+#: gui/qt/network_dialog.py:604
+#, python-brace-format
+msgid "Start {tor_binary_name} client"
+msgstr ""
 
 #: gui/qt/invoice_list.py:37 gui/qt/request_list.py:42
-#: gui/qt/network_dialog.py:564
+#: gui/qt/network_dialog.py:558
 #: ios/ElectronCash/electroncash_gui/ios_native/receive.py:642
 #: ios/ElectronCash/electroncash_gui/ios_native/addresses.py:587
 #: ios/ElectronCash/electroncash_gui/ios_native/history.py:544
-#: plugins/fusion/qt.py:1349 plugins/shuffle_deprecated/qt.py:1637
+#: plugins/fusion/qt.py:1376 plugins/shuffle_deprecated/qt.py:1637
 #: plugins/shuffle_deprecated/qt.py:1711 plugins/shuffle_deprecated/qt.py:1726
 msgid "Status"
 msgstr "状态"
 
-#: plugins/fusion/qt.py:1349
+#: plugins/fusion/qt.py:1376
 msgid "Status Extra"
 msgstr "现状多余"
 
@@ -6656,11 +6683,11 @@ msgstr "现状多余"
 msgid "Status:"
 msgstr "状态:"
 
-#: plugins/keepkey/clientbase.py:82 plugins/trezor/clientbase.py:323
+#: plugins/keepkey/clientbase.py:82 plugins/trezor/clientbase.py:337
 msgid "Step {}/24.  Enter seed word as explained on your {}:"
 msgstr "步骤{}/24。按照{}中的说明输入密语种子："
 
-#: plugins/fusion/qt.py:1392
+#: plugins/fusion/qt.py:1418
 msgid "Stop requested by user"
 msgstr "停止用户请求"
 
@@ -6700,23 +6727,15 @@ msgstr "现在同步？"
 msgid "Synchronizing"
 msgstr "正在同步"
 
-#: gui/qt/main_window.py:926 gui/text.py:133 gui/stdio.py:113
+#: gui/text.py:133 gui/stdio.py:113 gui/qt/main_window.py:926
 #: ios/ElectronCash/electroncash_gui/ios_native/gui.py:640
 #: plugins/labels/qt.py:190
 msgid "Synchronizing..."
 msgstr "同步中..."
 
-#: lib/i18n.py:118
+#: lib/i18n.py:121
 msgid "System"
 msgstr "系统"
-
-#: plugins/trezor/__init__.py:3
-msgid "TREZOR Wallet"
-msgstr "TREZOR 钱包"
-
-#: plugins/trezor/__init__.py:6
-msgid "TREZOR wallet"
-msgstr "TREZOR钱包"
 
 #: ios/ElectronCash/electroncash_gui/ios_native/txdetail.py:488
 msgid "Tap to add a description"
@@ -6736,11 +6755,11 @@ msgstr "点击输入密码"
 msgid "Tap to enter text..."
 msgstr "点击输入文本..."
 
-#: plugins/fusion/qt.py:1002
+#: plugins/fusion/qt.py:1029
 msgid "Target number of coins in wallet"
 msgstr "钱包中的目标硬币数量"
 
-#: plugins/fusion/qt.py:998
+#: plugins/fusion/qt.py:1025
 msgid "Target typical output amount"
 msgstr "目标输出金额"
 
@@ -6774,7 +6793,7 @@ msgstr "这个Digital Bitbox已经有密语种子了。选择一个选项："
 msgid "The Electron Cash Developers do NOT audit or vet any plugins."
 msgstr "Electron Cash 开发者不审核或审查任何插件。"
 
-#: plugins/keepkey/clientbase.py:54 plugins/trezor/clientbase.py:283
+#: plugins/keepkey/clientbase.py:54 plugins/trezor/clientbase.py:293
 msgid "The PIN cannot be longer than 9 characters."
 msgstr "PIN不能超过9个字符。"
 
@@ -6804,6 +6823,14 @@ msgstr "二维码似乎不是一个有效的 BCH 地址或付款请求。\n"
 #: gui/qt/main_window.py:5138
 msgid "The Send Tab has been filled-in with your <b>Cash Accounts</b> registration data."
 msgstr "发送选项卡已被填入您的 <b>现金账户</b> 注册数据。"
+
+#: plugins/fusion/qt.py:392
+msgid "The Tor client can be stopped at any time from the Network Settings -> Proxy Tab, however CashFusion does require Tor in order to operate correctly."
+msgstr ""
+
+#: plugins/fusion/qt.py:390
+msgid "The Tor client has been successfully started."
+msgstr ""
 
 #: gui/qt/bip38_importer.py:136
 msgid "The address for the decrypted private key."
@@ -6893,18 +6920,6 @@ msgstr "以下无法导入"
 msgid "The format of your wallet '%s' must be upgraded for Electron Cash. This change will not be backward compatible"
 msgstr "您的钱包%s的格式必须升级为 Electron Cash。此更改不会向后兼容。"
 
-#: plugins/fusion/qt.py:376
-msgid "The integrated Tor client can be stopped at any time from the Network Settings -> Proxy Tab, however CashFusion does require Tor in order to operate correctly."
-msgstr "集成Tor 客户端可以随时从网络设置 -> 代理标签停止， 然而，现金聚合确实需要 Tor 才能正常运行。"
-
-#: gui/qt/network_dialog.py:869
-msgid "The integrated Tor client experienced an error or could not be started."
-msgstr "集成 Tor 客户端发生错误或无法启动。"
-
-#: plugins/fusion/qt.py:374
-msgid "The integrated Tor client has been successfully started."
-msgstr "集成的 Tor 客户端已成功启动。"
-
 #: ios/ElectronCash/electroncash_gui/ios_native/sign_decrypt_dialog.py:343
 msgid "The message has been successfully decrypted"
 msgstr "消息已成功解密。"
@@ -6926,7 +6941,7 @@ msgstr "此加密钱包的密码不正确，请重试。"
 msgid "The placeholder value of {} is the default derivation for {} wallets."
 msgstr "{} 的占位符值是 {} 钱包的默认派生值。"
 
-#: gui/qt/qrreader/camera_dialog.py:100 gui/qt/qrtextedit.py:73
+#: gui/qt/qrtextedit.py:73 gui/qt/qrreader/camera_dialog.py:100
 msgid "The platform QR detection library is not available."
 msgstr "平台二维码检测库不可用。"
 
@@ -7129,7 +7144,12 @@ msgid "The wallet '{}' contains multiple accounts, which are no longer supported
 msgstr "Electrum自从2.7版以后已经不再支持帐户功能，而钱包'{}'却包含多个帐户。\n\n"
 "您想要把这个钱包分割成多个文件吗?"
 
-#: plugins/trezor/clientbase.py:255
+#: gui/qt/network_dialog.py:891
+#, python-brace-format
+msgid "The {tor_binary_name} client experienced an error or could not be started."
+msgstr ""
+
+#: plugins/trezor/clientbase.py:265
 msgid "The {} device is now in an inconsistent state.\n\n"
 "You may have to unplug the device and plug it back in and restart what you were doing."
 msgstr "{} 设备现在处于不一致状态。\n\n"
@@ -7163,11 +7183,11 @@ msgid "There was an error processing the payment request"
 msgstr "处理付款请求时出错"
 
 #. latch it back to False so we may prompt them again in the future
-#: plugins/fusion/qt.py:391
-msgid "There was an error starting the integrated Tor client"
-msgstr "启动集成 Tor 客户端时出错"
+#: plugins/fusion/qt.py:407
+msgid "There was an error starting the Tor client"
+msgstr ""
 
-#: gui/qt/network_dialog.py:560
+#: gui/qt/network_dialog.py:554
 #: ios/ElectronCash/electroncash_gui/ios_native/network_dialog.py:494
 msgid "This blockchain is used to verify the transactions sent by your transaction server."
 msgstr "这条区块链被用于验证从服务器发给您的交易。"
@@ -7179,6 +7199,10 @@ msgstr "此设备缺少安全飞地服务。因此，基于 Touch/Face ID 的钱
 #: gui/qt/main_window.py:4967
 msgid "This feature is intended to allow you to rebuild a wallet if it has become corrupted."
 msgstr "此功能是为了使你能够在钱包已经损坏时重建它。"
+
+#: gui/qt/network_dialog.py:615
+msgid "This feature is unavailable because no Tor binary was found."
+msgstr ""
 
 #: gui/qt/network_dialog.py:427
 msgid "This feature was added in response to the potential for a malicious actor to deny service via launching many servers (aka a sybil attack)."
@@ -7227,7 +7251,7 @@ msgstr "这是一个仅供监视的钱包。"
 msgid "This is the fee rate that will be used for this transaction."
 msgstr "这是此交易将使用的费率。"
 
-#: gui/qt/network_dialog.py:577
+#: gui/qt/network_dialog.py:571
 #: ios/ElectronCash/electroncash_gui/ios_native/network_dialog.py:499
 msgid "This is the height of your local copy of the blockchain."
 msgstr "这是您区块链本地副本的高度。"
@@ -7332,23 +7356,30 @@ msgstr "此钱包没有未使用的输出 (硬币) 可供显示。"
 msgid "This wallet is watching-only."
 msgstr "此钱包仅供监视。"
 
+#. If we can not fuse we create a dummy fusion button that just displays a message
+#: plugins/fusion/qt.py:172
+#, python-brace-format
+msgid "This wallet type ({wtype}) cannot be used with CashFusion.\n\n"
+"Please use a standard deterministic spending wallet with CashFusion."
+msgstr ""
+
 #: plugins/shuffle_deprecated/qt_status_bar_mgr.py:186
 msgid "This wallet type cannot be used with CashShuffle."
 msgstr "此钱包类型不能与 CashShuffle 一起使用。"
 
-#: gui/qt/network_dialog.py:506
-msgid "This will enable the integrated Tor proxy."
-msgstr "这将启用集成 Tor 代理服务。"
+#: gui/qt/network_dialog.py:613
+msgid "This will start a private instance of the Tor proxy controlled by Electron Cash."
+msgstr ""
 
 #: plugins/shuffle_deprecated/qt.py:2063
 msgid "Tier"
 msgstr "等级"
 
-#: plugins/fusion/qt.py:1300
+#: plugins/fusion/qt.py:1327
 msgid "Tier (sats)"
 msgstr "等级 (sats)"
 
-#: plugins/fusion/fusion.py:654
+#: plugins/fusion/fusion.py:708
 msgid "Tiers:"
 msgstr "等级:"
 
@@ -7403,7 +7434,7 @@ msgid "To make sure that you have properly saved your seed, please retype it her
 msgstr "为确保您已经将密语种子正确保存，请再把它输入一遍。"
 
 #. Fixme: See if we can not use a blocking password dialog here.
-#: plugins/fusion/qt.py:602
+#: plugins/fusion/qt.py:629
 msgid "To perform auto-fusion in the background, please enter your password."
 msgstr "要在后台自动聚变，请输入您的密码。"
 
@@ -7448,7 +7479,7 @@ msgstr "过大"
 msgid "Too few QR codes detected."
 msgstr "检测到的二维码太少。"
 
-#: plugins/keepkey/clientbase.py:76 plugins/trezor/clientbase.py:301
+#: plugins/keepkey/clientbase.py:76 plugins/trezor/clientbase.py:315
 msgid "Too long passphrase ({} > 50 chars)."
 msgstr "附加密码太长（{} > 50个字符）。"
 
@@ -7466,15 +7497,15 @@ msgstr "太小"
 msgid "Tools"
 msgstr "工具"
 
-#: plugins/fusion/qt.py:711
+#: gui/qt/network_dialog.py:595 plugins/fusion/qt.py:738
 msgid "Tor"
 msgstr "Tor"
 
-#: gui/qt/network_dialog.py:868
+#: gui/qt/network_dialog.py:892
 msgid "Tor Client Error"
 msgstr "Tor 客户端错误"
 
-#: plugins/fusion/qt.py:361
+#: plugins/fusion/qt.py:377
 msgid "Tor Required"
 msgstr "Tor 必填"
 
@@ -7542,11 +7573,11 @@ msgstr "由于丢失、 已花费或其他无效输入，交易无法播出。"
 msgid "Transaction history may not yet be current."
 msgstr "交易历史可能还不是最新的。"
 
-#: android/app/src/main/python/electroncash_gui/android/strings.py:45
+#: android/app/src/main/python/electroncash_gui/android/strings.py:48
 msgid "Transaction not found"
 msgstr "未找到交易记录"
 
-#: plugins/fusion/qt.py:1418
+#: plugins/fusion/qt.py:1444
 msgid "Transaction not yet in wallet"
 msgstr "交易还没有在钱包中"
 
@@ -7588,9 +7619,13 @@ msgstr "交易"
 msgid "Transactions are encrypted and stored on a remote server."
 msgstr "交易被加密存储在一个远程服务器。"
 
-#: plugins/trezor/qt.py:46
+#: plugins/trezor/qt.py:47
 msgid "Trezor Matrix Recovery"
 msgstr "Trezor矩阵恢复（高级恢复）"
+
+#: plugins/trezor/__init__.py:6
+msgid "Trezor wallet"
+msgstr ""
 
 #: gui/qt/main_window.py:762
 msgid "Try to explain not only what the bug is, but how it occurs."
@@ -7738,7 +7773,7 @@ msgstr "卸载"
 #: ios/ElectronCash/electroncash_gui/ios_native/network_dialog.py:392
 #: ios/ElectronCash/electroncash_gui/ios_native/network_dialog.py:490
 #: lib/paymentrequest.py:66 lib/util.py:488 lib/util.py:500 lib/util.py:546
-#: lib/util.py:552 lib/exchange_rate.py:491
+#: lib/util.py:552 lib/exchange_rate.py:458
 msgid "Unknown"
 msgstr "未知"
 
@@ -7759,7 +7794,7 @@ msgstr "不支持的帐户类型"
 msgid "Unsupported QR Code"
 msgstr "不支持的二维码"
 
-#: plugins/trezor/trezor.py:463
+#: plugins/trezor/trezor.py:467
 msgid "Unsupported output script."
 msgstr "不支持的输出脚本。"
 
@@ -7821,7 +7856,7 @@ msgstr "使用 SSL"
 msgid "Use Tor Proxy"
 msgstr "使用Tor代理"
 
-#: gui/qt/network_dialog.py:827
+#: gui/qt/network_dialog.py:851
 #, python-brace-format
 msgid "Use Tor proxy at port {tor_port}"
 msgstr "在端口 {tor_port} 中使用 Tor 代理"
@@ -7839,7 +7874,7 @@ msgstr "使用主键"
 msgid "Use a hardware device"
 msgstr "使用硬件设备"
 
-#: android/app/src/main/python/electroncash_gui/android/strings.py:46
+#: android/app/src/main/python/electroncash_gui/android/strings.py:49
 msgid "Use a master key"
 msgstr "使用主键"
 
@@ -7975,11 +8010,11 @@ msgstr "查看详情"
 msgid "View Registration Transaction"
 msgstr "查看注册交易"
 
-#: plugins/fusion/qt.py:1400
+#: plugins/fusion/qt.py:1426
 msgid "View Tx..."
 msgstr "查看Tx..."
 
-#: gui/qt/network_dialog.py:689
+#: gui/qt/network_dialog.py:713
 msgid "View ban list..."
 msgstr "查看禁止列表..."
 
@@ -8067,11 +8102,11 @@ msgid "Waiting for Touch ID..."
 msgstr "正在等待触摸ID..."
 
 #: gui/qt/cashacctqt.py:463 gui/qt/installwizard.py:160
-#: plugins/fusion/qt.py:1349
+#: plugins/fusion/qt.py:1376
 msgid "Wallet"
 msgstr "钱包"
 
-#: plugins/fusion/qt.py:546
+#: plugins/fusion/qt.py:573
 msgid "Wallet Fusion Settings..."
 msgstr "钱包融合设置..."
 
@@ -8110,7 +8145,7 @@ msgstr "钱包删除成功"
 msgid "Wallet derivation path"
 msgstr "钱包衍生路径"
 
-#: android/app/src/main/python/electroncash_gui/android/strings.py:49
+#: android/app/src/main/python/electroncash_gui/android/strings.py:52
 msgid "Wallet exported successfully"
 msgstr "钱包导出成功"
 
@@ -8134,11 +8169,11 @@ msgstr "钱包名称"
 msgid "Wallet name is empty. Please enter a wallet name to proceed."
 msgstr "钱包名称为空。请输入钱包名称以继续。"
 
-#: android/app/src/main/python/electroncash_gui/android/strings.py:47
+#: android/app/src/main/python/electroncash_gui/android/strings.py:50
 msgid "Wallet name is too long"
 msgstr "钱包名称太长"
 
-#: android/app/src/main/python/electroncash_gui/android/strings.py:48
+#: android/app/src/main/python/electroncash_gui/android/strings.py:51
 msgid "Wallet names cannot contain the '/' character. Please enter a different wallet name to proceed."
 msgstr "钱包名称不能包含 '/' 字符。请输入一个不同的钱包名称以继续。"
 
@@ -8154,11 +8189,11 @@ msgstr "钱包密码不匹配。请通过两次输入相同的密码确认你想
 msgid "Wallet removed: {}"
 msgstr "已移除钱包：{}"
 
-#: android/app/src/main/python/electroncash_gui/android/strings.py:50
+#: android/app/src/main/python/electroncash_gui/android/strings.py:53
 msgid "Wallet renamed successfully"
 msgstr "钱包重命名成功"
 
-#: android/app/src/main/python/electroncash_gui/android/strings.py:51
+#: android/app/src/main/python/electroncash_gui/android/strings.py:54
 msgid "Wallet seed"
 msgstr "钱包种子"
 
@@ -8223,11 +8258,11 @@ msgid "When CashShuffle is disabled, your privacy on the blockchain is reduced t
 msgstr "当 CashShuffle 被禁用时，您在区块链上的隐私会降低到传统的水平。 和 'chainalysis' 变得更加容易(您的交易可以相互关联)。"
 
 #. Advanced tab - wipe device
-#: plugins/keepkey/qt.py:546 plugins/trezor/qt.py:644
+#: plugins/keepkey/qt.py:546 plugins/trezor/qt.py:712
 msgid "Wipe Device"
 msgstr "擦除设备数据"
 
-#: plugins/keepkey/qt.py:549 plugins/trezor/qt.py:647
+#: plugins/keepkey/qt.py:549 plugins/trezor/qt.py:715
 msgid "Wipe the device, removing all data from it.  The firmware is left unchanged."
 msgstr "擦除设备上的所有数据。固件将保留不变。"
 
@@ -8247,7 +8282,7 @@ msgstr "大约在等待25 个区块后可以确认"
 msgid "Within 5 blocks"
 msgstr "大约在等待5 个区块后可以确认"
 
-#: plugins/keepkey/clientbase.py:16 plugins/trezor/clientbase.py:18
+#: plugins/keepkey/clientbase.py:16 plugins/trezor/clientbase.py:21
 msgid "Write down the seed word shown on your {}"
 msgstr "写下你的种子单词并展示在你的{}"
 
@@ -8271,11 +8306,11 @@ msgstr "签名出错!\n"
 #: ios/ElectronCash/electroncash_gui/ios_native/gui.py:820
 #: ios/ElectronCash/electroncash_gui/ios_native/gui.py:1096
 #: ios/ElectronCash/electroncash_gui/ios_native/gui.py:2315
-#: plugins/keepkey/qt.py:349 plugins/trezor/qt.py:317
+#: plugins/keepkey/qt.py:349 plugins/trezor/qt.py:385
 msgid "Yes"
 msgstr "是"
 
-#: plugins/fusion/qt.py:944
+#: plugins/fusion/qt.py:971
 msgid "Yes - as up to two players"
 msgstr "是 - 最多两名玩家"
 
@@ -8306,7 +8341,7 @@ msgstr "您已经在最新版本的 Electron Cash。"
 msgid "You are exporting your wallet's private keys as BIP38 encrypted keys."
 msgstr "您正在将钱包的私钥导出为 BIP38 加密密钥。"
 
-#: gui/qt/network_dialog.py:710
+#: gui/qt/network_dialog.py:734
 #: ios/ElectronCash/electroncash_gui/ios_native/network_dialog.py:264
 msgid "You are following branch"
 msgstr "您正在跟随分叉链"
@@ -8333,7 +8368,7 @@ msgid "You are requesting the deletion of the currently active wallet. In order 
 msgstr "您正在请求删除当前激活的钱包。 要删除此钱包，请切换到另一个钱包，然后在此钱包上再次选择此选项。"
 
 #. Does not have network, so we won't speak of incompatibility, but instead remind user offline mode means OFFLINE! ;)
-#: gui/qt/__init__.py:757 plugins/labels/qt.py:91
+#: gui/qt/__init__.py:776 plugins/labels/qt.py:91
 msgid "You are using Electron Cash in offline mode; restart Electron Cash if you want to get connected"
 msgstr "您正在离线模式下使用 Electron Cash 。如果您需要重新联网，请重启Electron Cash"
 
@@ -8365,7 +8400,7 @@ msgstr "你可以有你喜欢的钱包！从下面的选项之一中选择："
 msgid "You can restore a wallet that was created by any version of Electron Cash."
 msgstr "您可以还原由任何版本的 Electron Cash 创建的钱包。"
 
-#: plugins/trezor/qt.py:578
+#: plugins/trezor/qt.py:646
 msgid "You can set the homescreen on your device to personalize it. You can choose any image and it will be dithered, scaled and converted to {} x {} {} for the device."
 msgstr "您可以在您的设备上设置主屏幕来个性化。 您可以选择任何图像，它将被丢弃、缩放并转换为设备的 {} x {} {} 。"
 
@@ -8383,7 +8418,7 @@ msgstr "您没有在前一个对话框中输入文本 '{delete_confirm_text}'。
 msgid "You don't have any contacts yet. Create a new contact now!"
 msgstr "您还没有任何联系人。现在就创建一个新联系人！"
 
-#: android/app/src/main/python/electroncash_gui/android/strings.py:52
+#: android/app/src/main/python/electroncash_gui/android/strings.py:55
 msgid "You don't have any contacts."
 msgstr "您没有任何联系人。"
 
@@ -8433,7 +8468,7 @@ msgstr "您可以尝试\"硬件钱包支持\"工具(下面)。"
 msgid "You must specify a passphrase to use for encryption."
 msgstr "您必须指定用于加密的密码。"
 
-#: plugins/keepkey/qt.py:27 plugins/trezor/qt.py:25
+#: plugins/keepkey/qt.py:27 plugins/trezor/qt.py:26
 msgid "You need to create a separate Electron Cash wallet for each passphrase you use as they each generate different addresses. Changing your passphrase does not lose other wallets, each is still accessible behind its own passphrase."
 msgstr "您需要为您使用的每个密码句创建一个单独的 Electron 现金钱包，因为每个密码生成不同的地址。 更改您的密码不会丢失其他钱包，每个钱包都可以在自己的密码后面访问。"
 
@@ -8441,7 +8476,7 @@ msgstr "您需要为您使用的每个密码句创建一个单独的 Electron �
 msgid "You need to sign this transaction in order for it to get a transaction ID."
 msgstr "您需要签署此交易才能获得交易ID。"
 
-#: plugins/keepkey/qt.py:32 plugins/trezor/qt.py:30
+#: plugins/keepkey/qt.py:32 plugins/trezor/qt.py:31
 msgid "You should enable PIN protection.  Your PIN is the only protection for your bitcoins if your device is lost or stolen."
 msgstr "您应该启用PIN保护。如果您的设备遗失或被盗，PIN是保护您比特币的唯一措施。"
 
@@ -8449,7 +8484,7 @@ msgstr "您应该启用PIN保护。如果您的设备遗失或被盗，PIN是保
 msgid "You specified the same name!"
 msgstr "您指定了相同的名称！"
 
-#: plugins/trezor/trezor.py:207
+#: plugins/trezor/trezor.py:211
 msgid "You will be asked to enter 24 words regardless of your seed's actual length.  If you enter a word incorrectly or misspell it, you cannot change it or go back - you will need to start again from the beginning.\n\n"
 "So please enter the words carefully!"
 msgstr "无论您的种子的实际长度如何，您都会被要求输入24个单词。如果您输入的单词不正确或拼写错误，则无法更改或返回 - 您需要从头开始重新输入。\n"
@@ -8483,7 +8518,7 @@ msgstr "您的比特币被密码保护。但是您的钱包文件没有加密。
 msgid "Your contact list is empty."
 msgstr "您的联系人列表是空的。"
 
-#: plugins/keepkey/qt.py:392 plugins/trezor/qt.py:358
+#: plugins/keepkey/qt.py:392 plugins/trezor/qt.py:426
 msgid "Your current Electron Cash wallet can only be used with an empty passphrase. You must create a separate wallet with the install wizard for other passphrases as each one generates a new set of addresses."
 msgstr "目前您的Electron Cash钱包只能使用空的附加密码。如果你设定了其他附加密码，您必须使用安装向导为其单独创建新的钱包，每个不同的附加密码都对应一组独立的地址。"
 
@@ -8539,7 +8574,7 @@ msgstr "你的种子扩展密语必须与你的种子一起被保存。"
 msgid "Your seed is important!"
 msgstr "你的密语种子至关重要！"
 
-#: gui/qt/network_dialog.py:710
+#: gui/qt/network_dialog.py:734
 #: ios/ElectronCash/electroncash_gui/ios_native/network_dialog.py:264
 msgid "Your server is on branch"
 msgstr "您的服务器正处在分叉链上"
@@ -8685,13 +8720,13 @@ msgstr "并创建您的标准钱包或用以下任何方法还原现有的钱包
 msgid "are frozen"
 msgstr "被冻结"
 
-#: gui/qt/network_dialog.py:698 gui/qt/network_dialog.py:711
+#: gui/qt/network_dialog.py:722 gui/qt/network_dialog.py:735
 #: ios/ElectronCash/electroncash_gui/ios_native/network_dialog.py:254
 #: ios/ElectronCash/electroncash_gui/ios_native/network_dialog.py:265
 msgid "blocks"
 msgstr "区块"
 
-#: plugins/trezor/qt.py:584
+#: plugins/trezor/qt.py:652
 msgid "color"
 msgstr "颜色"
 
@@ -8722,7 +8757,7 @@ msgstr "删除"
 msgid "dusty fee"
 msgstr "粉尘费用"
 
-#: plugins/fusion/fusion.py:920 plugins/shuffle_deprecated/qt.py:166
+#: plugins/fusion/fusion.py:991 plugins/shuffle_deprecated/qt.py:166
 msgid "fee"
 msgstr "费用"
 
@@ -8738,6 +8773,10 @@ msgstr "在 {time}"
 #: lib/plugins.py:963 lib/base_wizard.py:237
 msgid "initialized"
 msgstr "已初始化"
+
+#: gui/qt/network_dialog.py:597
+msgid "integrated Tor"
+msgstr ""
 
 #: ios/ElectronCash/electroncash_gui/ios_native/newwallet.py:1199
 msgid "invalid items will be discarded"
@@ -8760,7 +8799,7 @@ msgstr "已加载"
 msgid "loading"
 msgstr "正在加载"
 
-#: plugins/trezor/qt.py:583
+#: plugins/trezor/qt.py:651
 msgid "monochrome"
 msgstr "单色"
 
@@ -8797,6 +8836,10 @@ msgstr "启动"
 msgid "stopping"
 msgstr "停止"
 
+#: gui/qt/network_dialog.py:596
+msgid "system Tor"
+msgstr ""
+
 #: gui/qt/udev_installer.py:77
 msgid "udev Rules Status:"
 msgstr "udev 规则状态："
@@ -8809,8 +8852,8 @@ msgstr "不可用"
 msgid "unconfirmed"
 msgstr "未确认"
 
-#: gui/qt/fee_slider.py:28 gui/qt/qrreader/camera_dialog.py:289
-#: gui/qt/transaction_dialog.py:434 gui/qt/transaction_dialog.py:599
+#: gui/qt/fee_slider.py:28 gui/qt/transaction_dialog.py:434
+#: gui/qt/transaction_dialog.py:599 gui/qt/qrreader/camera_dialog.py:289
 #: ios/ElectronCash/electroncash_gui/ios_native/txdetail.py:178
 #: ios/ElectronCash/electroncash_gui/ios_native/txdetail.py:245
 #: ios/ElectronCash/electroncash_gui/ios_native/txdetail.py:565
@@ -8857,7 +8900,7 @@ msgstr "不下载区块链或运行一个完整的节点。"
 msgid "{:2d} minutes"
 msgstr "{:2d} 分钟"
 
-#: lib/web.py:235
+#: lib/web.py:241
 #, python-brace-format
 msgid "{acct_name} is not a valid cashacct string"
 msgstr "{acct_name} 不是一个有效的 cashacct 字符串"
@@ -8866,7 +8909,7 @@ msgstr "{acct_name} 不是一个有效的 cashacct 字符串"
 #, python-brace-format
 msgid "{conf} confirmation"
 msgid_plural "{conf} confirmations"
-msgstr[0] "{} 确认"
+msgstr[0] "{conf} 确认"
 
 #: lib/util.py:603
 #, python-brace-format
@@ -8947,7 +8990,7 @@ msgstr "{} 检测到 BIP38 密钥，需要密码才能解码"
 msgid "{} Pools"
 msgstr "{} 库"
 
-#: plugins/keepkey/qt.py:318 plugins/satochip/qt.py:69 plugins/trezor/qt.py:280
+#: plugins/keepkey/qt.py:318 plugins/satochip/qt.py:69 plugins/trezor/qt.py:348
 msgid "{} Settings"
 msgstr "{} 设置"
 
