@@ -2,8 +2,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: electron-cash\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-11-18 12:05+0200\n"
-"PO-Revision-Date: 2020-11-18 10:05\n"
+"POT-Creation-Date: 2020-12-01 13:02+0200\n"
+"PO-Revision-Date: 2020-12-01 11:02\n"
 "Last-Translator: \n"
 "Language-Team: French\n"
 "Language: fr_FR\n"
@@ -361,7 +361,7 @@ msgstr "&WIF texte brut"
 msgid "&Wallet"
 msgstr "&Portefeuille"
 
-#: electroncash/web.py:331
+#: electroncash/web.py:343
 #, python-brace-format
 msgid "'{uri_scheme}' payment requests are not currently supported"
 msgstr "Les demandes de paiement '{uri_scheme}' ne sont pas prises en charge pour le moment"
@@ -594,7 +594,7 @@ msgstr "Ajouter un nouveau portefeuille"
 msgid "Add to Contacts"
 msgstr "Ajouter aux contacts"
 
-#: electroncash_gui/qt/network_dialog.py:279
+#: electroncash_gui/qt/network_dialog.py:282
 msgid "Add to preferred"
 msgstr "Ajouter à la préférence"
 
@@ -707,7 +707,7 @@ msgstr "Adresse :"
 msgid "Addresses"
 msgstr "Adresses"
 
-#: electroncash/wallet.py:2156
+#: electroncash/wallet.py:2158
 msgid "Addresses generated:"
 msgstr "Adresses générées :"
 
@@ -1039,23 +1039,23 @@ msgstr "Solde : {amount_and_unit}"
 msgid "Ban score:"
 msgstr "Score de bannissement :"
 
-#: electroncash_gui/qt/network_dialog.py:273
+#: electroncash_gui/qt/network_dialog.py:276
 msgid "Ban server"
 msgstr "Bannir le serveur"
 
-#: electroncash_gui/qt/network_dialog.py:790
+#: electroncash_gui/qt/network_dialog.py:805
 #: electroncash_plugins/shuffle_deprecated/qt.py:1687
 #: electroncash_plugins/shuffle_deprecated/qt.py:1928
 #: electroncash_plugins/shuffle_deprecated/qt.py:2150
 msgid "Banned"
 msgstr "Banni"
 
-#: electroncash_gui/qt/network_dialog.py:1012
-#: electroncash_gui/qt/network_dialog.py:1014
+#: electroncash_gui/qt/network_dialog.py:1027
+#: electroncash_gui/qt/network_dialog.py:1029
 msgid "Banned Servers"
 msgstr "Serveurs bannis"
 
-#: electroncash_gui/qt/network_dialog.py:476
+#: electroncash_gui/qt/network_dialog.py:491
 msgid "Banned servers ({}) are servers deemed unreliable and/or untrustworthy, and so they will never be connected-to by Electron Cash."
 msgstr "Les serveurs bannis ({}) sont des serveurs estimés comme peu fiables et / ou indignes de confiance. Electron Cash ne s'y connectera jamais."
 
@@ -1111,7 +1111,7 @@ msgstr "Explorateur de bloc"
 msgid "Block explorer link copied to clipboard"
 msgstr "Le lien de l'explorateur de blocs a été copié dans le presse-papiers"
 
-#: electroncash_gui/qt/network_dialog.py:596
+#: electroncash_gui/qt/network_dialog.py:611
 msgid "Blockchain"
 msgstr "Chaîne de blocs"
 
@@ -1515,7 +1515,7 @@ msgstr ""
 msgid "Chain fork(s) detected"
 msgstr ""
 
-#: electroncash_gui/qt/network_dialog.py:805
+#: electroncash_gui/qt/network_dialog.py:820
 #: ios/ElectronCash/electroncash_gui/ios_native/network_dialog.py:263
 #: ios/ElectronCash/electroncash_gui/ios_native/gui.py:689
 #, python-format
@@ -1668,7 +1668,7 @@ msgstr "Choisir l'explorateur de bloc en ligne à utiliser pour les fonctions, c
 msgid "Choose..."
 msgstr "Choisir..."
 
-#: electroncash_gui/qt/network_dialog.py:618
+#: electroncash_gui/qt/network_dialog.py:633
 msgid "ChunkSize:"
 msgstr ""
 
@@ -1679,11 +1679,11 @@ msgstr ""
 msgid "Clear"
 msgstr "Effacer"
 
-#: electroncash_gui/qt/network_dialog.py:1039
+#: electroncash_gui/qt/network_dialog.py:1054
 msgid "Clear all {} servers from the ban list?"
 msgstr ""
 
-#: electroncash_gui/qt/network_dialog.py:1029
+#: electroncash_gui/qt/network_dialog.py:1044
 msgid "Clear ban list"
 msgstr ""
 
@@ -1949,7 +1949,7 @@ msgstr "Confirmez l'adresse du portefeuille sur votre appareil {}"
 msgid "Confirmed. Signing Transaction..."
 msgstr "Confirmé. Signature de la transaction..."
 
-#: electroncash_gui/qt/network_dialog.py:440
+#: electroncash_gui/qt/network_dialog.py:455
 msgid "Connect only to preferred servers"
 msgstr "Ne se connecter qu'aux serveurs préférés"
 
@@ -1963,7 +1963,7 @@ msgstr "Connecté"
 msgid "Connected node"
 msgstr "Nœud connecté"
 
-#: electroncash_gui/qt/network_dialog.py:797
+#: electroncash_gui/qt/network_dialog.py:812
 #: ios/ElectronCash/electroncash_gui/ios_native/network_dialog.py:257
 #, python-format
 msgid "Connected to %d nodes."
@@ -1974,7 +1974,7 @@ msgstr "Connecté à %d noeuds."
 msgid "Connected via proxy"
 msgstr "Connecté via proxy"
 
-#: electroncash/wallet.py:2163
+#: electroncash/wallet.py:2165
 msgid "Connecting..."
 msgstr "Connexion..."
 
@@ -2275,7 +2275,7 @@ msgstr "Taux de frais personnalisés en satoshis par octet"
 msgid "Custom fee rate:"
 msgstr "Taux de frais personnalisés :"
 
-#: electroncash_gui/qt/network_dialog.py:529
+#: electroncash_gui/qt/network_dialog.py:544
 msgid "Custom port"
 msgstr "Port personnalisé"
 
@@ -2367,7 +2367,7 @@ msgstr "Supprimer le portefeuille"
 msgid "Delete wallet file?"
 msgstr "Supprimer le fichier portefeuille?"
 
-#: electroncash_gui/qt/network_dialog.py:516
+#: electroncash_gui/qt/network_dialog.py:531
 msgid "Depending on your configuration and preferences as a user, this may or may not be ideal.  In general, connections routed through Tor hide your IP address from servers, at the expense of performance and network throughput."
 msgstr ""
 
@@ -2442,7 +2442,7 @@ msgid "Device communication error. Please unplug and replug your Digital Bitbox.
 msgstr ""
 
 #. BaseWizard expects this Exception to re-try
-#: electroncash_plugins/ledger/ledger.py:609
+#: electroncash_plugins/ledger/ledger.py:615
 msgid "Device id not found or was changed"
 msgstr ""
 
@@ -2490,7 +2490,7 @@ msgstr "Espace disque faible"
 msgid "Display the details of your transactions before signing it."
 msgstr "Affichez les détails de la transaction avant signature."
 
-#: android/app/src/main/python/electroncash_gui/android/console.py:38
+#: android/app/src/main/python/electroncash_gui/android/console.py:35
 #: electroncash_gui/qt/console.py:63
 msgid "Do not enter code here that you don't understand. Executing the wrong code could lead to your coins being irreversibly lost."
 msgstr "Ne collez pas ici de code que vous ne comprenez pas. Exécuter un code erroné peut résulter en une perte d'argent irréversible."
@@ -2596,13 +2596,13 @@ msgstr "Téléchargement des en-têtes {}% ..."
 msgid "Downloading input data, please wait..."
 msgstr "Téléchargement des données d'entrée, veuillez patienter..."
 
-#: electroncash_gui/qt/network_dialog.py:457
+#: electroncash_gui/qt/network_dialog.py:472
 msgid "Due to potential security risks, you may only disable SSL when using a Tor Proxy."
 msgstr "En raison de risques potentiels de sécurité, vous ne pouvez désactiver SSL que lorsque vous utilisez un proxy Tor."
 
 #. these two args are equivalent and cannot both appear together
 #. these two args cannot both appear together
-#: electroncash/web.py:266 electroncash/web.py:300 electroncash/web.py:317
+#: electroncash/web.py:278 electroncash/web.py:312 electroncash/web.py:329
 msgid "Duplicate key in URI"
 msgstr "Dupliquer la clé dans l'URI"
 
@@ -2651,7 +2651,7 @@ msgstr "Electron Cash ne peut pas continuer car l'espace disque de cet appareil 
 msgid "Electron Cash communicates with remote servers to get information about your transactions and addresses. The servers all fulfil the same purpose only differing in hardware. In most cases you simply want to let Electron Cash pick one at random.  However if you prefer feel free to select a server manually."
 msgstr "Electron Cash communique avec les serveurs pour obtenir des informations sur vos transactions et vos adresses. Les serveurs remplissent tous les mêmes objectifs seuls qu'ils différent en hardware. Dans la plupart des cas, vous voulez simplement laisser Electron Cash choisir un au hasard. Mais, si vous préférez, n'hésitez pas à sélectionner un serveur manuellement."
 
-#: electroncash_gui/qt/network_dialog.py:574
+#: electroncash_gui/qt/network_dialog.py:589
 #: ios/ElectronCash/electroncash_gui/ios_native/network_dialog.py:493
 msgid "Electron Cash connects to several nodes in order to download block headers and find out the longest blockchain."
 msgstr "Electron Cash se connecte à plusieurs nœuds afin de télécharger les en-têtes de blocs et trouver la plus longue chaîne de blocs."
@@ -2685,7 +2685,7 @@ msgstr "La version Linux d'Electron Cash requiert PyQt5 5.12+.\n\n"
 "La version installée est {version_string}.\n\n"
 "Veuillez mettre votre version à jour. Sinon, certains caractères unicode ou emojis utilisés par Electron Cash pourront avoir un problème de police."
 
-#: electroncash_gui/qt/network_dialog.py:587
+#: electroncash_gui/qt/network_dialog.py:602
 #: ios/ElectronCash/electroncash_gui/ios_native/network_dialog.py:497
 msgid "Electron Cash sends your wallet addresses to a single server, in order to receive your transaction history."
 msgstr "Electron Cash envoie les adresses de votre portefeuille à un serveur afin de recevoir l'historique de vos transactions."
@@ -3240,7 +3240,7 @@ msgstr "Impossible d'importer le fichier."
 msgid "Failed to load zbar: {}"
 msgstr "Impossible de charger le zbar : {}"
 
-#: electroncash_gui/qt/network_dialog.py:290
+#: electroncash_gui/qt/network_dialog.py:293
 msgid "Failed to remove the pinned certificate. Check the log for errors."
 msgstr ""
 
@@ -3386,7 +3386,7 @@ msgstr "Pour scanner des codes QR."
 msgid "For support, please visit us on <a href='https://github.com/Electron-Cash/Electron-Cash/issues'>GitHub</a> or on <a href='https://t.me/electroncashwallet'>Telegram</a>."
 msgstr ""
 
-#: electroncash_gui/qt/network_dialog.py:519
+#: electroncash_gui/qt/network_dialog.py:534
 msgid "For the average user, it's recommended that you leave this option disabled and only leave the 'Start Tor client' option enabled."
 msgstr ""
 
@@ -3638,8 +3638,8 @@ msgstr "Historique"
 msgid "Homescreen"
 msgstr "Écran d'accueil"
 
-#: electroncash_gui/qt/network_dialog.py:249
-#: electroncash_gui/qt/network_dialog.py:1016
+#: electroncash_gui/qt/network_dialog.py:252
+#: electroncash_gui/qt/network_dialog.py:1031
 #: ios/ElectronCash/electroncash_gui/ios_native/network_dialog.py:279
 #: ios/ElectronCash/electroncash_gui/ios_native/network_dialog.py:329
 #: electroncash_plugins/shuffle_deprecated/qt.py:1624
@@ -3687,11 +3687,11 @@ msgstr "ID"
 msgid "Identity"
 msgstr "Identité"
 
-#: electroncash_gui/qt/network_dialog.py:447
+#: electroncash_gui/qt/network_dialog.py:462
 msgid "If 'Connect only to preferred servers' is enabled, Electron Cash will only connect to servers marked as 'preferred' servers ({})."
 msgstr ""
 
-#: electroncash_gui/qt/network_dialog.py:434
+#: electroncash_gui/qt/network_dialog.py:449
 #: ios/ElectronCash/electroncash_gui/ios_native/network_dialog.py:502
 msgid "If auto-connect is enabled, Electron Cash will always use a server that is on the longest blockchain."
 msgstr ""
@@ -3704,15 +3704,15 @@ msgstr ""
 msgid "If enabled, a system notification will be presented when you receive funds to this wallet."
 msgstr ""
 
-#: electroncash_gui/qt/network_dialog.py:513
+#: electroncash_gui/qt/network_dialog.py:528
 msgid "If enabled, all connections application-wide will be routed through Tor."
 msgstr ""
 
-#: electroncash_gui/qt/network_dialog.py:486
+#: electroncash_gui/qt/network_dialog.py:501
 msgid "If enabled, all connections application-wide will be routed through this proxy."
 msgstr ""
 
-#: electroncash_gui/qt/network_dialog.py:442
+#: electroncash_gui/qt/network_dialog.py:457
 msgid "If enabled, restricts Electron Cash to connecting to servers only marked as 'preferred'."
 msgstr ""
 
@@ -3726,7 +3726,7 @@ msgstr ""
 msgid "If insufficient shuffled funds are available, you can wait a few minutes as coins are shuffled in the background."
 msgstr ""
 
-#: electroncash_gui/qt/network_dialog.py:435
+#: electroncash_gui/qt/network_dialog.py:450
 #: ios/ElectronCash/electroncash_gui/ios_native/network_dialog.py:503
 msgid "If it is disabled, you have to choose a server you want to use. Electron Cash will warn you if your server is lagging."
 msgstr ""
@@ -3757,11 +3757,11 @@ msgstr "Si ce problème persiste, veuillez vous rendre à :"
 msgid "If unchecked, the textbox contents are UTF8-encoded into a single-push script: <tt>OP_RETURN PUSH &lt;text&gt;</tt>. If checked, the text contents will be interpreted as a raw hexadecimal script to be appended after the OP_RETURN opcode: <tt>OP_RETURN &lt;script&gt;</tt>."
 msgstr ""
 
-#: electroncash_gui/qt/network_dialog.py:692
+#: electroncash_gui/qt/network_dialog.py:707
 msgid "If unsure, it's safe to enable this feature, and leave 'Use Tor Proxy' disabled.  In that situation, only certain plugins (such as CashFusion) will use Tor, but your regular SPV server connections will remain unaffected."
 msgstr ""
 
-#: electroncash_gui/qt/network_dialog.py:449
+#: electroncash_gui/qt/network_dialog.py:464
 msgid "If unsure, most of the time it's safe to leave this option disabled. However leaving it enabled is safer (if a little bit discouraging to new server operators wanting to populate their servers)."
 msgstr ""
 
@@ -4005,7 +4005,7 @@ msgstr "Initialiser Appareil"
 msgid "Initialized"
 msgstr "Initialisé"
 
-#: electroncash_gui/qt/network_dialog.py:474
+#: electroncash_gui/qt/network_dialog.py:489
 msgid "Initially, the preferred list is the hard-coded list of known-good servers vetted by the Electron Cash developers."
 msgstr ""
 
@@ -4283,7 +4283,7 @@ msgstr "Dernière version : {}"
 msgid "Leave this field empty if you want to disable encryption."
 msgstr "Laissez ces champs vides si vous souhaitez désactiver le chiffrement."
 
-#: electroncash_gui/qt/network_dialog.py:533
+#: electroncash_gui/qt/network_dialog.py:548
 msgid "Leave unspecified to automatically allocate a port."
 msgstr ""
 
@@ -4333,7 +4333,7 @@ msgstr ""
 msgid "Library version for '{}' is incompatible."
 msgstr ""
 
-#: electroncash_gui/qt/network_dialog.py:613
+#: electroncash_gui/qt/network_dialog.py:628
 msgid "Limit:"
 msgstr ""
 
@@ -4838,7 +4838,7 @@ msgctxt "Referencing Fiat rate source"
 msgid "None"
 msgstr "Aucun"
 
-#: electroncash_gui/qt/network_dialog.py:768
+#: electroncash_gui/qt/network_dialog.py:783
 #: ios/ElectronCash/electroncash_gui/ios_native/network_dialog.py:233
 msgctxt "Referencing server"
 msgid "None"
@@ -4881,7 +4881,7 @@ msgstr "Pas un fichier texte"
 msgid "Not a valid address or private key: '%s'"
 msgstr "Pas une adresse valide ou clé privée : '%s'"
 
-#: electroncash/web.py:252
+#: electroncash/web.py:264
 #, python-brace-format
 msgid "Not a {schemes} URI"
 msgstr "Pas une URI {schemes}"
@@ -4890,7 +4890,7 @@ msgstr "Pas une URI {schemes}"
 #: electroncash_gui/text.py:142 electroncash_gui/stdio.py:122
 #: electroncash_gui/qt/main_window.py:1000
 #: electroncash_gui/qt/main_window.py:2252
-#: electroncash_gui/qt/network_dialog.py:797
+#: electroncash_gui/qt/network_dialog.py:812
 #: ios/ElectronCash/electroncash_gui/ios_native/network_dialog.py:257
 #: ios/ElectronCash/electroncash_gui/ios_native/gui.py:717
 msgid "Not connected"
@@ -5172,7 +5172,7 @@ msgstr "Point de sortie"
 msgid "Outputs"
 msgstr "Sorties"
 
-#: electroncash_gui/qt/network_dialog.py:407
+#: electroncash_gui/qt/network_dialog.py:422
 msgid "Overview"
 msgstr "Aperçu"
 
@@ -5241,7 +5241,7 @@ msgstr "Les phrases secrètes vous permettent d'accéder à de nouveaux portefeu
 
 #: electroncash_gui/qt/main_window.py:2834
 #: electroncash_gui/qt/password_dialog.py:225
-#: electroncash_gui/qt/network_dialog.py:499
+#: electroncash_gui/qt/network_dialog.py:514
 #: electroncash_gui/qt/installwizard.py:174
 msgid "Password"
 msgstr "Mot de passe"
@@ -5358,7 +5358,7 @@ msgstr ""
 msgid "Pending"
 msgstr "En attente"
 
-#: electroncash_gui/qt/network_dialog.py:609
+#: electroncash_gui/qt/network_dialog.py:624
 msgid "Pending requests"
 msgstr ""
 
@@ -5561,7 +5561,7 @@ msgid "Please wait while Electron Cash checks for available updates."
 msgstr "Veuillez attendre pendant qu'Electron Cash vérifie la disponibilité des mises à jour."
 
 #: electroncash_gui/text.py:354 electroncash_gui/stdio.py:203
-#: electroncash_gui/qt/installwizard.py:120 electroncash/wallet.py:2155
+#: electroncash_gui/qt/installwizard.py:120 electroncash/wallet.py:2157
 msgid "Please wait..."
 msgstr "Veuillez patienter..."
 
@@ -5602,8 +5602,8 @@ msgstr "Les plugins devraient prendre en charge une ou plusieurs de ces interfac
 msgid "Pool size"
 msgstr ""
 
-#: electroncash_gui/qt/network_dialog.py:249
-#: electroncash_gui/qt/network_dialog.py:1016
+#: electroncash_gui/qt/network_dialog.py:252
+#: electroncash_gui/qt/network_dialog.py:1031
 #: ios/ElectronCash/electroncash_gui/ios_native/network_dialog.py:329
 msgid "Port"
 msgstr "Port"
@@ -5631,11 +5631,11 @@ msgstr "Opération potentiellement dangereuse"
 msgid "Preferences"
 msgstr "Préférences"
 
-#: electroncash_gui/qt/network_dialog.py:789
+#: electroncash_gui/qt/network_dialog.py:804
 msgid "Preferred"
 msgstr "Préféré"
 
-#: electroncash_gui/qt/network_dialog.py:473
+#: electroncash_gui/qt/network_dialog.py:488
 msgid "Preferred servers ({}) are servers you have designated as reliable and/or trustworthy."
 msgstr "Les serveurs préférés ({}) sont des serveurs que vous avez désignés comme fiables et/ou dignes de confiance."
 
@@ -5738,15 +5738,15 @@ msgstr ""
 msgid "Provides support for air-gapped transaction signing."
 msgstr "Fournit la prise en charge de la signature de transactions à gaps aériens."
 
-#: electroncash_gui/qt/network_dialog.py:409
+#: electroncash_gui/qt/network_dialog.py:424
 msgid "Proxy"
 msgstr "Proxy"
 
-#: electroncash_gui/qt/network_dialog.py:563
+#: electroncash_gui/qt/network_dialog.py:578
 msgid "Proxy settings apply to all connections: with Electron Cash servers, but also with third-party services."
 msgstr "Les paramètres de proxy s'appliquent à toutes les connexions : avec les serveurs Electron Cash mais aussi avec les services tiers."
 
-#: electroncash_gui/qt/network_dialog.py:497
+#: electroncash_gui/qt/network_dialog.py:512
 msgid "Proxy user"
 msgstr "Utiliser un Proxy Utilisateur"
 
@@ -5943,7 +5943,7 @@ msgstr ""
 msgid "Remove"
 msgstr "Supprimer"
 
-#: electroncash_gui/qt/network_dialog.py:277
+#: electroncash_gui/qt/network_dialog.py:280
 msgid "Remove from preferred"
 msgstr "Retirer des préférences"
 
@@ -5951,8 +5951,8 @@ msgstr "Retirer des préférences"
 msgid "Remove from wallet"
 msgstr "Retirer du portefeuille"
 
-#: electroncash_gui/qt/network_dialog.py:283
-#: electroncash_gui/qt/network_dialog.py:289
+#: electroncash_gui/qt/network_dialog.py:286
+#: electroncash_gui/qt/network_dialog.py:292
 msgid "Remove pinned certificate"
 msgstr ""
 
@@ -6053,7 +6053,7 @@ msgstr "Requiert"
 msgid "Requires 2FA "
 msgstr "Nécessite 2FA "
 
-#: electroncash_gui/qt/network_dialog.py:623
+#: electroncash_gui/qt/network_dialog.py:638
 #: electroncash_plugins/trezor/qt.py:643
 msgid "Reset"
 msgstr "Réinitialiser"
@@ -6127,7 +6127,7 @@ msgstr "Certificat SSL"
 msgid "SSL certificate used to sign payment requests."
 msgstr "Certificat SSL utilisé pour la signature des demandes de paiement."
 
-#: electroncash_gui/qt/network_dialog.py:456
+#: electroncash_gui/qt/network_dialog.py:471
 msgid "SSL is used to authenticate and encrypt your connections with the blockchain servers."
 msgstr "SSL est utilisé pour authentifier et chiffrer vos connexions avec les serveurs blockchain."
 
@@ -6205,7 +6205,7 @@ msgstr ""
 msgid "Schnorr Signed"
 msgstr "Schnorr signé"
 
-#: electroncash/wallet.py:2638
+#: electroncash/wallet.py:2640
 msgid "Schnorr signatures are disabled for this wallet type."
 msgstr "Les signatures Schnorr sont désactivées pour ce type de portefeuille."
 
@@ -6329,7 +6329,7 @@ msgstr "Sélectionnez le fichier pour enregistrer vos étiquettes"
 msgid "Select recovery type:"
 msgstr "Sélectionnez le type de récupération :"
 
-#: electroncash_gui/qt/network_dialog.py:423
+#: electroncash_gui/qt/network_dialog.py:438
 msgid "Select server automatically"
 msgstr "Sélectionner un serveur automatiquement"
 
@@ -6406,9 +6406,9 @@ msgstr "Envoyer par e-mail"
 msgid "Sending Report..."
 msgstr "Envoi du rapport..."
 
-#: electroncash_gui/qt/network_dialog.py:408
-#: electroncash_gui/qt/network_dialog.py:460
-#: electroncash_gui/qt/network_dialog.py:588
+#: electroncash_gui/qt/network_dialog.py:423
+#: electroncash_gui/qt/network_dialog.py:475
+#: electroncash_gui/qt/network_dialog.py:603
 #: electroncash_plugins/fusion/qt.py:720 electroncash_plugins/fusion/qt.py:1323
 #: electroncash_plugins/fusion/plugin.py:654
 #: electroncash_plugins/shuffle_deprecated/qt.py:1728
@@ -6428,11 +6428,11 @@ msgstr "Serveur en retard"
 msgid "Server Settings..."
 msgstr "Paramètres du serveur..."
 
-#: electroncash_gui/qt/network_dialog.py:1010
+#: electroncash_gui/qt/network_dialog.py:1025
 msgid "Server ban list is empty!"
 msgstr "La liste de bannissement du serveur est vide!"
 
-#: electroncash_gui/qt/network_dialog.py:271
+#: electroncash_gui/qt/network_dialog.py:274
 msgid "Server banned"
 msgstr "Serveur banni"
 
@@ -6453,7 +6453,7 @@ msgstr ""
 msgid "Server is misconfigured"
 msgstr "Le serveur est mal configuré"
 
-#: electroncash_gui/qt/network_dialog.py:781
+#: electroncash_gui/qt/network_dialog.py:796
 msgid "Server peers"
 msgstr "Clients du serveur"
 
@@ -6473,7 +6473,7 @@ msgstr "Statut du serveur : ACTIF"
 msgid "Server status: NOT RUNNING"
 msgstr ""
 
-#: electroncash_gui/qt/network_dialog.py:781
+#: electroncash_gui/qt/network_dialog.py:796
 #: electroncash_plugins/shuffle_deprecated/qt.py:1621
 msgid "Servers"
 msgstr "Serveurs"
@@ -6914,14 +6914,14 @@ msgstr "Démarrer"
 msgid "Start Scan"
 msgstr "Démarrer le scan"
 
-#: electroncash_gui/qt/network_dialog.py:676
+#: electroncash_gui/qt/network_dialog.py:691
 #, python-brace-format
 msgid "Start {tor_binary_name} client"
 msgstr ""
 
 #: electroncash_gui/qt/invoice_list.py:37
 #: electroncash_gui/qt/request_list.py:42
-#: electroncash_gui/qt/network_dialog.py:580
+#: electroncash_gui/qt/network_dialog.py:595
 #: ios/ElectronCash/electroncash_gui/ios_native/receive.py:642
 #: ios/ElectronCash/electroncash_gui/ios_native/addresses.py:587
 #: ios/ElectronCash/electroncash_gui/ios_native/history.py:544
@@ -7197,7 +7197,7 @@ msgstr "Le message a été déchiffré avec succès"
 msgid "The mnemonic needs to be 12, 18 or 24 words."
 msgstr "Le mnémonique doit être de 12, 18 ou 24 mots."
 
-#: electroncash_gui/qt/network_dialog.py:603
+#: electroncash_gui/qt/network_dialog.py:618
 msgid "The number of unanswered network requests.\n\n"
 "You can configure:\n\n"
 "    - Limit: maximum request backlog size\n"
@@ -7430,7 +7430,7 @@ msgid "The wallet '{}' contains multiple accounts, which are no longer supported
 msgstr "Le portefeuille '{}' contient plusieurs comptes, qui ne sont plus pris en charge depuis Electrum 2.7.\n\n"
 "Voulez-vous diviser votre portefeuille en plusieurs fichiers ?"
 
-#: electroncash_gui/qt/network_dialog.py:970
+#: electroncash_gui/qt/network_dialog.py:985
 #, python-brace-format
 msgid "The {tor_binary_name} client experienced an error or could not be started."
 msgstr ""
@@ -7469,7 +7469,7 @@ msgstr "Une erreur s'est produite lors du traitement de la demande de paiement"
 msgid "There was an error starting the Tor client"
 msgstr ""
 
-#: electroncash_gui/qt/network_dialog.py:575
+#: electroncash_gui/qt/network_dialog.py:590
 #: ios/ElectronCash/electroncash_gui/ios_native/network_dialog.py:494
 msgid "This blockchain is used to verify the transactions sent by your transaction server."
 msgstr "Cette chaîne de blocs est utilisée pour vérifier les transactions envoyées par votre serveur de transactions."
@@ -7482,11 +7482,11 @@ msgstr "Cet appareil ne dispose pas du service enclave sécurisé. En tant que t
 msgid "This feature is intended to allow you to rebuild a wallet if it has become corrupted."
 msgstr "Cette fonctionnalité est destinée à vous permettre de reconstruire un portefeuille s'il est corrompu."
 
-#: electroncash_gui/qt/network_dialog.py:687
+#: electroncash_gui/qt/network_dialog.py:702
 msgid "This feature is unavailable because no Tor binary was found."
 msgstr ""
 
-#: electroncash_gui/qt/network_dialog.py:448
+#: electroncash_gui/qt/network_dialog.py:463
 msgid "This feature was added in response to the potential for a malicious actor to deny service via launching many servers (aka a sybil attack)."
 msgstr "Cette fonctionnalité a été ajoutée en réponse à la possibilité pour un acteur malveillant de refuser le service en lançant de nombreux serveurs (aka une attaque sybil)."
 
@@ -7511,7 +7511,7 @@ msgstr "Ces informations sont visibles par le destinataire si vous lui envoyez u
 msgid "This interface is supported."
 msgstr "Cette interface est prise en charge."
 
-#: electroncash_gui/qt/network_dialog.py:352
+#: electroncash_gui/qt/network_dialog.py:358
 msgid "This is a preferred server"
 msgstr "Ceci est un serveur préféré"
 
@@ -7535,7 +7535,7 @@ msgstr "Ceci est un portefeuille spectateur."
 msgid "This is the fee rate that will be used for this transaction."
 msgstr "Il s'agit du taux de frais qui sera utilisé pour cette transaction."
 
-#: electroncash_gui/qt/network_dialog.py:595
+#: electroncash_gui/qt/network_dialog.py:610
 #: ios/ElectronCash/electroncash_gui/ios_native/network_dialog.py:499
 msgid "This is the height of your local copy of the blockchain."
 msgstr "Ceci est la taille de la copie locale pour la chaîne de blocs."
@@ -7573,7 +7573,7 @@ msgstr "Cette graine est ambiguë et peut également être interprétée comme u
 msgid "This seed will allow you to recover your wallet in case of computer failure."
 msgstr "Cette graine vous permettra de restaurer votre portefeuille en cas d'une défaillance de votre ordinateur."
 
-#: electroncash_gui/qt/network_dialog.py:346
+#: electroncash_gui/qt/network_dialog.py:352
 msgid "This server is banned"
 msgstr "Ce serveur est banni"
 
@@ -7581,7 +7581,7 @@ msgstr "Ce serveur est banni"
 msgid "This server is still indexing transactions. You should switch to another server for now."
 msgstr "Ce serveur est toujours en cours d'indexation des transactions. Vous devriez passer à un autre serveur pour le moment."
 
-#: electroncash_gui/qt/network_dialog.py:349
+#: electroncash_gui/qt/network_dialog.py:355
 msgid "This server's pinned certificate mismatches its current certificate"
 msgstr ""
 
@@ -7651,7 +7651,7 @@ msgstr ""
 msgid "This wallet type cannot be used with CashShuffle."
 msgstr "Ce type de portefeuille ne peut pas être utilisé avec CashShuffle."
 
-#: electroncash_gui/qt/network_dialog.py:685
+#: electroncash_gui/qt/network_dialog.py:700
 msgid "This will start a private instance of the Tor proxy controlled by Electron Cash."
 msgstr ""
 
@@ -7782,12 +7782,12 @@ msgstr "Trop petit"
 msgid "Tools"
 msgstr "Outils"
 
-#: electroncash_gui/qt/network_dialog.py:667
+#: electroncash_gui/qt/network_dialog.py:682
 #: electroncash_plugins/fusion/qt.py:746
 msgid "Tor"
 msgstr "Tor"
 
-#: electroncash_gui/qt/network_dialog.py:971
+#: electroncash_gui/qt/network_dialog.py:986
 msgid "Tor Client Error"
 msgstr "Erreur client Tor"
 
@@ -7998,7 +7998,7 @@ msgstr "Impossible de scanner le fichier image."
 msgid "Unavailable."
 msgstr "Indisponible."
 
-#: electroncash_gui/qt/network_dialog.py:268
+#: electroncash_gui/qt/network_dialog.py:271
 msgid "Unban server"
 msgstr "Débannir le serveur"
 
@@ -8150,15 +8150,15 @@ msgstr "La limite supérieure est {}"
 msgid "Use FreeType for font rendering"
 msgstr "Utiliser FreeType pour le rendu de police"
 
-#: electroncash_gui/qt/network_dialog.py:422
+#: electroncash_gui/qt/network_dialog.py:437
 msgid "Use SSL"
 msgstr "Utiliser SSL"
 
-#: electroncash_gui/qt/network_dialog.py:509
+#: electroncash_gui/qt/network_dialog.py:524
 msgid "Use Tor Proxy"
 msgstr "Utiliser le Proxy Tor"
 
-#: electroncash_gui/qt/network_dialog.py:930
+#: electroncash_gui/qt/network_dialog.py:945
 #, python-brace-format
 msgid "Use Tor proxy at port {tor_port}"
 msgstr "Utiliser un proxy Tor au port {tor_port}"
@@ -8181,7 +8181,7 @@ msgid "Use a master key"
 msgstr "Utiliser une clé maîtresse"
 
 #: electroncash_gui/qt/network_dialog.py:155
-#: electroncash_gui/qt/network_dialog.py:260
+#: electroncash_gui/qt/network_dialog.py:263
 #: ios/ElectronCash/electroncash_gui/ios_native/network_dialog.py:404
 #: ios/ElectronCash/electroncash_gui/ios_native/network_dialog.py:428
 msgid "Use as server"
@@ -8204,7 +8204,7 @@ msgid "Use multiple change addresses"
 msgstr "Utiliser plusieurs adresses de changement"
 
 #. proxy setting
-#: electroncash_gui/qt/network_dialog.py:485
+#: electroncash_gui/qt/network_dialog.py:500
 msgid "Use proxy"
 msgstr "Utiliser proxy"
 
@@ -8322,7 +8322,7 @@ msgstr "Voir la transaction d'inscription"
 msgid "View Tx..."
 msgstr "Voir Tx..."
 
-#: electroncash_gui/qt/network_dialog.py:785
+#: electroncash_gui/qt/network_dialog.py:800
 msgid "View ban list..."
 msgstr "Voir la liste des bannissements..."
 
@@ -8374,7 +8374,7 @@ msgstr "Clavier virtuel"
 msgid "WARNING"
 msgstr "ATTENTION"
 
-#: android/app/src/main/python/electroncash_gui/android/console.py:37
+#: android/app/src/main/python/electroncash_gui/android/console.py:34
 msgid "WARNING!"
 msgstr "ATTENTION !"
 
@@ -8655,7 +8655,7 @@ msgstr "Vous êtes déjà sur la dernière version d'Electron Cash."
 msgid "You are exporting your wallet's private keys as BIP38 encrypted keys."
 msgstr "Vous exportez les clés privées de votre portefeuille sous la forme de clés chiffrées BIP38."
 
-#: electroncash_gui/qt/network_dialog.py:806
+#: electroncash_gui/qt/network_dialog.py:821
 #: ios/ElectronCash/electroncash_gui/ios_native/network_dialog.py:264
 msgid "You are following branch"
 msgstr "Vous suivez la branche suivante"
@@ -8694,7 +8694,7 @@ msgstr "Vous utilisez un portefeuille non déterministe, qui ne peut pas créer 
 msgid "You are using an OP_RETURN message. This gets permanently written to the blockchain."
 msgstr "Vous utilisez un message OP_RETURN. Cela est écrit de façon permanente dans la blockchain."
 
-#: electroncash_gui/qt/network_dialog.py:475
+#: electroncash_gui/qt/network_dialog.py:490
 msgid "You can add or remove any server from this list and optionally elect to only connect to preferred servers."
 msgstr "Vous pouvez ajouter ou supprimer n'importe quel serveur de cette liste et optionnellement choisir de vous connecter uniquement aux serveurs préférés."
 
@@ -8887,7 +8887,7 @@ msgstr "L'extension de votre graine doit être enregistrée avec votre graine."
 msgid "Your seed is important!"
 msgstr "Votre graine est importante !"
 
-#: electroncash_gui/qt/network_dialog.py:806
+#: electroncash_gui/qt/network_dialog.py:821
 #: ios/ElectronCash/electroncash_gui/ios_native/network_dialog.py:264
 msgid "Your server is on branch"
 msgstr "Votre serveur est sur la branche"
@@ -9034,8 +9034,8 @@ msgstr "et créez votre portefeuille standard ou restaurez un portefeuille exist
 msgid "are frozen"
 msgstr "sont gelées"
 
-#: electroncash_gui/qt/network_dialog.py:794
-#: electroncash_gui/qt/network_dialog.py:807
+#: electroncash_gui/qt/network_dialog.py:809
+#: electroncash_gui/qt/network_dialog.py:822
 #: ios/ElectronCash/electroncash_gui/ios_native/network_dialog.py:254
 #: ios/ElectronCash/electroncash_gui/ios_native/network_dialog.py:265
 msgid "blocks"
@@ -9090,7 +9090,7 @@ msgstr "dans {time}"
 msgid "initialized"
 msgstr "initialisé"
 
-#: electroncash_gui/qt/network_dialog.py:669
+#: electroncash_gui/qt/network_dialog.py:684
 msgid "integrated Tor"
 msgstr ""
 
@@ -9153,7 +9153,7 @@ msgstr "démarrage"
 msgid "stopping"
 msgstr "arrêt"
 
-#: electroncash_gui/qt/network_dialog.py:668
+#: electroncash_gui/qt/network_dialog.py:683
 msgid "system Tor"
 msgstr ""
 
@@ -9165,7 +9165,7 @@ msgstr "statut des règles udev :"
 msgid "unavailable"
 msgstr "indisponible"
 
-#: electroncash/wallet.py:1680
+#: electroncash/wallet.py:1682
 msgid "unconfirmed"
 msgstr "non confirmé"
 
@@ -9177,7 +9177,7 @@ msgstr "non confirmé"
 #: ios/ElectronCash/electroncash_gui/ios_native/txdetail.py:245
 #: ios/ElectronCash/electroncash_gui/ios_native/txdetail.py:565
 #: ios/ElectronCash/electroncash_gui/ios_native/feeslider.py:76
-#: electroncash/wallet.py:1760
+#: electroncash/wallet.py:1762
 msgid "unknown"
 msgstr "inconnu"
 
@@ -9198,7 +9198,7 @@ msgstr "déchargé"
 msgid "unloading"
 msgstr "déchargement"
 
-#: electroncash/wallet.py:1678
+#: electroncash/wallet.py:1680
 msgid "unverified"
 msgstr "non vérifié"
 
@@ -9219,7 +9219,7 @@ msgstr "sans télécharger la blockchain ou exécuter un nœud complet."
 msgid "{:2d} minutes"
 msgstr "{:2d} minutes"
 
-#: electroncash/web.py:277
+#: electroncash/web.py:289
 #, python-brace-format
 msgid "{acct_name} is not a valid cashacct string"
 msgstr "{acct_name} n'est pas une chaîne de caractères cashacct valide"

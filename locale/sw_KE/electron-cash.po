@@ -2,8 +2,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: electron-cash\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-11-18 12:05+0200\n"
-"PO-Revision-Date: 2020-11-18 10:05\n"
+"POT-Creation-Date: 2020-12-01 13:02+0200\n"
+"PO-Revision-Date: 2020-12-01 11:03\n"
 "Last-Translator: \n"
 "Language-Team: Swahili\n"
 "Language: sw_KE\n"
@@ -361,7 +361,7 @@ msgstr "&WIF Plaintext"
 msgid "&Wallet"
 msgstr "&Kipochi"
 
-#: electroncash/web.py:331
+#: electroncash/web.py:343
 #, python-brace-format
 msgid "'{uri_scheme}' payment requests are not currently supported"
 msgstr "{uri_scheme} maombi ya malipo hayatumiki kwa sasa"
@@ -594,7 +594,7 @@ msgstr "Ongeza kipochi kipya"
 msgid "Add to Contacts"
 msgstr "Ongeza kwa Stakabadhi za kuwasiliana"
 
-#: electroncash_gui/qt/network_dialog.py:279
+#: electroncash_gui/qt/network_dialog.py:282
 msgid "Add to preferred"
 msgstr "Ongeza kwa vitu unazopendelea"
 
@@ -707,7 +707,7 @@ msgstr "Anwani:"
 msgid "Addresses"
 msgstr "Anwani"
 
-#: electroncash/wallet.py:2156
+#: electroncash/wallet.py:2158
 msgid "Addresses generated:"
 msgstr "Anwani zimeuundwa:"
 
@@ -1039,23 +1039,23 @@ msgstr "Salio: {amount_and_unit}"
 msgid "Ban score:"
 msgstr "Alama ya marufuku:"
 
-#: electroncash_gui/qt/network_dialog.py:273
+#: electroncash_gui/qt/network_dialog.py:276
 msgid "Ban server"
 msgstr "Piga marufuku seva"
 
-#: electroncash_gui/qt/network_dialog.py:790
+#: electroncash_gui/qt/network_dialog.py:805
 #: electroncash_plugins/shuffle_deprecated/qt.py:1687
 #: electroncash_plugins/shuffle_deprecated/qt.py:1928
 #: electroncash_plugins/shuffle_deprecated/qt.py:2150
 msgid "Banned"
 msgstr "Imepigwa marufuku"
 
-#: electroncash_gui/qt/network_dialog.py:1012
-#: electroncash_gui/qt/network_dialog.py:1014
+#: electroncash_gui/qt/network_dialog.py:1027
+#: electroncash_gui/qt/network_dialog.py:1029
 msgid "Banned Servers"
 msgstr "Seva zilisopigwa marufuku"
 
-#: electroncash_gui/qt/network_dialog.py:476
+#: electroncash_gui/qt/network_dialog.py:491
 msgid "Banned servers ({}) are servers deemed unreliable and/or untrustworthy, and so they will never be connected-to by Electron Cash."
 msgstr "Seva zilizopigwa marufuku ({}) ni seva huchukuliwa kuwa zisizoaminika na/au isiyoaminika, na kwa hivyo haitawahi kuunganishwa na Electron Cash."
 
@@ -1111,7 +1111,7 @@ msgstr "Mtaftaji wa vitengo"
 msgid "Block explorer link copied to clipboard"
 msgstr "Kiuna cha mtaftaji wa vitengo kunakiliwa kwa clipboard"
 
-#: electroncash_gui/qt/network_dialog.py:596
+#: electroncash_gui/qt/network_dialog.py:611
 msgid "Blockchain"
 msgstr "Blockchain"
 
@@ -1515,7 +1515,7 @@ msgstr "CashShuffle sasa itakuwa <i>imezimwa</i> kwa kipochi ambacho hapo awali 
 msgid "Chain fork(s) detected"
 msgstr "Tawi zaidi za Chain kupatokana"
 
-#: electroncash_gui/qt/network_dialog.py:805
+#: electroncash_gui/qt/network_dialog.py:820
 #: ios/ElectronCash/electroncash_gui/ios_native/network_dialog.py:263
 #: ios/ElectronCash/electroncash_gui/ios_native/gui.py:689
 #, python-format
@@ -1670,7 +1670,7 @@ msgstr "Chagua ni mtaftaji gani wa kitengo kutumia na tovuti"
 msgid "Choose..."
 msgstr "Chagua..."
 
-#: electroncash_gui/qt/network_dialog.py:618
+#: electroncash_gui/qt/network_dialog.py:633
 msgid "ChunkSize:"
 msgstr ""
 
@@ -1681,11 +1681,11 @@ msgstr ""
 msgid "Clear"
 msgstr "Ondoa"
 
-#: electroncash_gui/qt/network_dialog.py:1039
+#: electroncash_gui/qt/network_dialog.py:1054
 msgid "Clear all {} servers from the ban list?"
 msgstr "Futa seva zote {} kutoka kwenye orodha ya kupiga marufuku?"
 
-#: electroncash_gui/qt/network_dialog.py:1029
+#: electroncash_gui/qt/network_dialog.py:1044
 msgid "Clear ban list"
 msgstr "Futa orodha ya kupiga marufuku"
 
@@ -1951,7 +1951,7 @@ msgstr "Thibitisha anwani ya kipochi kwenye kifaa chako cha {}"
 msgid "Confirmed. Signing Transaction..."
 msgstr "Imethibitishwa. Inasaini shuguli ya ununuzi..."
 
-#: electroncash_gui/qt/network_dialog.py:440
+#: electroncash_gui/qt/network_dialog.py:455
 msgid "Connect only to preferred servers"
 msgstr "Unganisha tu kwa seva unazopendelea"
 
@@ -1965,7 +1965,7 @@ msgstr "Imewasiliana"
 msgid "Connected node"
 msgstr "Seva iliyounganika"
 
-#: electroncash_gui/qt/network_dialog.py:797
+#: electroncash_gui/qt/network_dialog.py:812
 #: ios/ElectronCash/electroncash_gui/ios_native/network_dialog.py:257
 #, python-format
 msgid "Connected to %d nodes."
@@ -1976,7 +1976,7 @@ msgstr "Imeunganishwa na seva %d."
 msgid "Connected via proxy"
 msgstr "Unganisho kutumia proxy"
 
-#: electroncash/wallet.py:2163
+#: electroncash/wallet.py:2165
 msgid "Connecting..."
 msgstr "Inaunganisha..."
 
@@ -2277,7 +2277,7 @@ msgstr "Kiwango cha Ada ya Satoshis per byte"
 msgid "Custom fee rate:"
 msgstr "Kipimo cha ada maalum:"
 
-#: electroncash_gui/qt/network_dialog.py:529
+#: electroncash_gui/qt/network_dialog.py:544
 msgid "Custom port"
 msgstr "Kituo cha mtandao kilichoundwa"
 
@@ -2369,7 +2369,7 @@ msgstr "Futa Kipochi"
 msgid "Delete wallet file?"
 msgstr "Futa faili ya kipochi?"
 
-#: electroncash_gui/qt/network_dialog.py:516
+#: electroncash_gui/qt/network_dialog.py:531
 msgid "Depending on your configuration and preferences as a user, this may or may not be ideal.  In general, connections routed through Tor hide your IP address from servers, at the expense of performance and network throughput."
 msgstr "Kulingana na usanidi na upendeleo wako kama mtumiaji, hii inaweza au haifai. Kwa ujumla, viunganisho vilipitia Tor kuficha anwani yako ya IP kutoka kwa seva, kwa gharama ya utendaji na njia ya mtandao."
 
@@ -2444,7 +2444,7 @@ msgid "Device communication error. Please unplug and replug your Digital Bitbox.
 msgstr "Kosa la mawasiliano ya kifaa. Tafadhali toa na urudishe tena Bitbox Digitali."
 
 #. BaseWizard expects this Exception to re-try
-#: electroncash_plugins/ledger/ledger.py:609
+#: electroncash_plugins/ledger/ledger.py:615
 msgid "Device id not found or was changed"
 msgstr "Kitambulisho cha kifaa hakipatikana au kilibadilishwa"
 
@@ -2492,7 +2492,7 @@ msgstr "Nafasi ya Diski iko Chini"
 msgid "Display the details of your transactions before signing it."
 msgstr "Onyesha maelezo ya shughuli za ununuzi zako kabla ya kusaini."
 
-#: android/app/src/main/python/electroncash_gui/android/console.py:38
+#: android/app/src/main/python/electroncash_gui/android/console.py:35
 #: electroncash_gui/qt/console.py:63
 msgid "Do not enter code here that you don't understand. Executing the wrong code could lead to your coins being irreversibly lost."
 msgstr "Usiingize codi usioelewa. Kutumia nambari mbaya kunaweza kusababisha sarafu zako kupotea kabisa."
@@ -2600,13 +2600,13 @@ msgstr "Kushusha Vianzilishi {}% ..."
 msgid "Downloading input data, please wait..."
 msgstr "Inashusha data ya kuingiza, tafadhali subiri..."
 
-#: electroncash_gui/qt/network_dialog.py:457
+#: electroncash_gui/qt/network_dialog.py:472
 msgid "Due to potential security risks, you may only disable SSL when using a Tor Proxy."
 msgstr "Kwa sababu ya hatari kubwa za usalama, unaweza kutoa SSL wakati wa kutumia wakala ya Tor."
 
 #. these two args are equivalent and cannot both appear together
 #. these two args cannot both appear together
-#: electroncash/web.py:266 electroncash/web.py:300 electroncash/web.py:317
+#: electroncash/web.py:278 electroncash/web.py:312 electroncash/web.py:329
 msgid "Duplicate key in URI"
 msgstr "Nakala ya funguo kwa URI"
 
@@ -2656,7 +2656,7 @@ msgstr "Electron Cash haiwezi kuendelea kwa sababu kifaa hiki ni cha chini sana 
 msgid "Electron Cash communicates with remote servers to get information about your transactions and addresses. The servers all fulfil the same purpose only differing in hardware. In most cases you simply want to let Electron Cash pick one at random.  However if you prefer feel free to select a server manually."
 msgstr "Electron Cash huwasiliana na seva za mbali ili kupata habari kuhusu shuguli za ununuzi wako na anwani. Seva zote zinatimiza kusudi moja tu katika vifaa. Katika hali nyingi unataka Electron Cash ichague moja kwa nasibu. Lakini uko huru kuchagua wewe mwenyewa binafsi seva."
 
-#: electroncash_gui/qt/network_dialog.py:574
+#: electroncash_gui/qt/network_dialog.py:589
 #: ios/ElectronCash/electroncash_gui/ios_native/network_dialog.py:493
 msgid "Electron Cash connects to several nodes in order to download block headers and find out the longest blockchain."
 msgstr "Electron Cash unajumuisha komputa kadhaa ili kushusha vichwa vya habari vya block na kujua ni blockchain ndefu zaidi."
@@ -2690,7 +2690,7 @@ msgstr "Electron Cash kwenye Linux inahitaji PyQt5 5.12+.\n\n"
 "Una toleo {version_string} lililosanikishwa.\n\n"
 "Tafadhali sawazisha unaweza kupata uzoefu wa usambazaji wa fonti na emojis na herufi zingine za unicode zinazotumiwa na Electron Cash."
 
-#: electroncash_gui/qt/network_dialog.py:587
+#: electroncash_gui/qt/network_dialog.py:602
 #: ios/ElectronCash/electroncash_gui/ios_native/network_dialog.py:497
 msgid "Electron Cash sends your wallet addresses to a single server, in order to receive your transaction history."
 msgstr "Fedha ya Electron Cash hutuma anwani za kipochi chako kwa seva moja, ili kupokea historia yako ya ununuzi."
@@ -3247,7 +3247,7 @@ msgstr "Imeshindwa kutoa faili."
 msgid "Failed to load zbar: {}"
 msgstr "Imeshindwa kupakia zbar: {}"
 
-#: electroncash_gui/qt/network_dialog.py:290
+#: electroncash_gui/qt/network_dialog.py:293
 msgid "Failed to remove the pinned certificate. Check the log for errors."
 msgstr "Imeshindwa kuondoa cheti. Angalia logi ili kugundua makosa."
 
@@ -3395,7 +3395,7 @@ msgstr "Kwa kupiga skan nambari za QR."
 msgid "For support, please visit us on <a href='https://github.com/Electron-Cash/Electron-Cash/issues'>GitHub</a> or on <a href='https://t.me/electroncashwallet'>Telegram</a>."
 msgstr "Ili kupata usaidizi, tafadhali tutembele kwenye <a href='https://github.com/Electron-Cash/Electron-Cash/issues'>GitHub</a> ama <a href='https://t.me/electroncashwallet'>Telegram</a>."
 
-#: electroncash_gui/qt/network_dialog.py:519
+#: electroncash_gui/qt/network_dialog.py:534
 msgid "For the average user, it's recommended that you leave this option disabled and only leave the 'Start Tor client' option enabled."
 msgstr "Kwa mtumiaji wa kawaida, inashauriwa kuacha chaguo hili ikiwa imetolewa na kuacha tu chaguo la 'Anza huduma ya tor' iliyowezeshwa."
 
@@ -3647,8 +3647,8 @@ msgstr "Historia"
 msgid "Homescreen"
 msgstr "Skrini ya kawaida"
 
-#: electroncash_gui/qt/network_dialog.py:249
-#: electroncash_gui/qt/network_dialog.py:1016
+#: electroncash_gui/qt/network_dialog.py:252
+#: electroncash_gui/qt/network_dialog.py:1031
 #: ios/ElectronCash/electroncash_gui/ios_native/network_dialog.py:279
 #: ios/ElectronCash/electroncash_gui/ios_native/network_dialog.py:329
 #: electroncash_plugins/shuffle_deprecated/qt.py:1624
@@ -3696,11 +3696,11 @@ msgstr "Kitambulisho: ID"
 msgid "Identity"
 msgstr "Kitambulisho"
 
-#: electroncash_gui/qt/network_dialog.py:447
+#: electroncash_gui/qt/network_dialog.py:462
 msgid "If 'Connect only to preferred servers' is enabled, Electron Cash will only connect to servers marked as 'preferred' servers ({})."
 msgstr "Ikiwa 'Unganisha tu kwa seva zinazopendelewa' zimewezeshwa, Electron Cash itaunganisha tu kwa seva zilizo na alama ya kupendelewa ({})."
 
-#: electroncash_gui/qt/network_dialog.py:434
+#: electroncash_gui/qt/network_dialog.py:449
 #: ios/ElectronCash/electroncash_gui/ios_native/network_dialog.py:502
 msgid "If auto-connect is enabled, Electron Cash will always use a server that is on the longest blockchain."
 msgstr "Ikiwa kiunganisho kiotomatiki kimewezeshwa, Electron Cash itatumia seva ambayo iko kwenye blockchain ndefu zaidi."
@@ -3713,15 +3713,15 @@ msgstr "Ikiangaliwa, kitufe cha hali ya kutengeneza fomu za anwani kitafichwa"
 msgid "If enabled, a system notification will be presented when you receive funds to this wallet."
 msgstr "Ikiwezeshwa, arifa ya mtambo itawasilishwa unapopokea fedha kwa kipochi hiki."
 
-#: electroncash_gui/qt/network_dialog.py:513
+#: electroncash_gui/qt/network_dialog.py:528
 msgid "If enabled, all connections application-wide will be routed through Tor."
 msgstr "Ikiwashwa, matumizi yote ya miunganisho kwa jumla yatapitishwa kutumia Tor."
 
-#: electroncash_gui/qt/network_dialog.py:486
+#: electroncash_gui/qt/network_dialog.py:501
 msgid "If enabled, all connections application-wide will be routed through this proxy."
 msgstr "Ikiwashwa, matumizi yote ya miunganisho kwa jumla yatapitishwa kutumia proksi."
 
-#: electroncash_gui/qt/network_dialog.py:442
+#: electroncash_gui/qt/network_dialog.py:457
 msgid "If enabled, restricts Electron Cash to connecting to servers only marked as 'preferred'."
 msgstr "Ikiwezeshwa, inazuia Electron Cash kujiunganisha kwa seva zinazo na alama ya \"kupendekezwa\"."
 
@@ -3736,7 +3736,7 @@ msgstr "Ikiwa imewezeshwa, utaruhusiwa kutumia urithi '{prefix_char}...' anwani 
 msgid "If insufficient shuffled funds are available, you can wait a few minutes as coins are shuffled in the background."
 msgstr "Ikiwa fedha za kuchanganywa zinapatikana, unaweza kungoje dakika chache kama sarafu zinachanganywa."
 
-#: electroncash_gui/qt/network_dialog.py:435
+#: electroncash_gui/qt/network_dialog.py:450
 #: ios/ElectronCash/electroncash_gui/ios_native/network_dialog.py:503
 msgid "If it is disabled, you have to choose a server you want to use. Electron Cash will warn you if your server is lagging."
 msgstr "Ikiwa imezimwa, lazima uchague seva unayotaka kutumia. Electron Cash itakuonya ikiwa seva yako inalegea."
@@ -3768,11 +3768,11 @@ msgid "If unchecked, the textbox contents are UTF8-encoded into a single-push sc
 msgstr "Ikiwa haijadhibitiwa, yaliyomo kwenye kisanduku cha maandishi yamewekwa kwa UTF8 kwa hati ya kushinikiza: <tt>OP_RETURN PUSH &lt;text&gt;</tt>. \n"
 "Ikiangaliwa, maandishi yaliyomo yatatafsiriwa kama hati mbichi ya hexadecimal inayoweza kusasishwa baada ya OP_RETURN opcode: <tt>OP_RETURN &lt;script&gt;</tt>."
 
-#: electroncash_gui/qt/network_dialog.py:692
+#: electroncash_gui/qt/network_dialog.py:707
 msgid "If unsure, it's safe to enable this feature, and leave 'Use Tor Proxy' disabled.  In that situation, only certain plugins (such as CashFusion) will use Tor, but your regular SPV server connections will remain unaffected."
 msgstr "Ikiwa hauna uhakika, ni salama kuwezesha huduma hii, na uachilie 'Tumia Proski ya Tor'. Katika hali hiyo, programu zingine tu (kama vile CashFusion) zitatumia Tor, lakini seva yako ya kawaida ya SPV itabaki ilivyo."
 
-#: electroncash_gui/qt/network_dialog.py:449
+#: electroncash_gui/qt/network_dialog.py:464
 msgid "If unsure, most of the time it's safe to leave this option disabled. However leaving it enabled is safer (if a little bit discouraging to new server operators wanting to populate their servers)."
 msgstr "Ikiwa hauna uhakika, wakati mwingi ni salama kuacha chaguo hili limetolewa. Lakini kuiwacha kama imewezeshwa ni salama (ikiwa waendeshaji mpya wa seva wanataka kuzidisha seva zao)."
 
@@ -4017,7 +4017,7 @@ msgstr "Anzisha Kifaa"
 msgid "Initialized"
 msgstr "Imeanzishwa"
 
-#: electroncash_gui/qt/network_dialog.py:474
+#: electroncash_gui/qt/network_dialog.py:489
 msgid "Initially, the preferred list is the hard-coded list of known-good servers vetted by the Electron Cash developers."
 msgstr "Hapo awali, orodha inayopendelewa ni orodha ya seva zinazojulikana zilizochorwa na watengenezaji wa Electron Cash."
 
@@ -4295,7 +4295,7 @@ msgstr "Toleo la sasa: {}"
 msgid "Leave this field empty if you want to disable encryption."
 msgstr "Acha kipande hichi kitu ikiwa unataka kutoa usimbuaji fiche."
 
-#: electroncash_gui/qt/network_dialog.py:533
+#: electroncash_gui/qt/network_dialog.py:548
 msgid "Leave unspecified to automatically allocate a port."
 msgstr "Acha pengo lislojulikana ili kutenga kituo cha mtandao kwa njia otomatiki."
 
@@ -4346,7 +4346,7 @@ msgstr "Acha kifaa kiunde manenosiri mapya"
 msgid "Library version for '{}' is incompatible."
 msgstr "Toleo la maktaba la '{}' haliambatani."
 
-#: electroncash_gui/qt/network_dialog.py:613
+#: electroncash_gui/qt/network_dialog.py:628
 msgid "Limit:"
 msgstr ""
 
@@ -4851,7 +4851,7 @@ msgctxt "Referencing Fiat rate source"
 msgid "None"
 msgstr "Hakuna"
 
-#: electroncash_gui/qt/network_dialog.py:768
+#: electroncash_gui/qt/network_dialog.py:783
 #: ios/ElectronCash/electroncash_gui/ios_native/network_dialog.py:233
 msgctxt "Referencing server"
 msgid "None"
@@ -4894,7 +4894,7 @@ msgstr "Sio ya faili ya maandishi"
 msgid "Not a valid address or private key: '%s'"
 msgstr "Sio anwani halali au funguosiri: %s"
 
-#: electroncash/web.py:252
+#: electroncash/web.py:264
 #, python-brace-format
 msgid "Not a {schemes} URI"
 msgstr "Sio {schemes} URI"
@@ -4903,7 +4903,7 @@ msgstr "Sio {schemes} URI"
 #: electroncash_gui/text.py:142 electroncash_gui/stdio.py:122
 #: electroncash_gui/qt/main_window.py:1000
 #: electroncash_gui/qt/main_window.py:2252
-#: electroncash_gui/qt/network_dialog.py:797
+#: electroncash_gui/qt/network_dialog.py:812
 #: ios/ElectronCash/electroncash_gui/ios_native/network_dialog.py:257
 #: ios/ElectronCash/electroncash_gui/ios_native/gui.py:717
 msgid "Not connected"
@@ -5185,7 +5185,7 @@ msgstr "Kiasi cha toleo"
 msgid "Outputs"
 msgstr "Toleo"
 
-#: electroncash_gui/qt/network_dialog.py:407
+#: electroncash_gui/qt/network_dialog.py:422
 msgid "Overview"
 msgstr "Maelezo ya jumla"
 
@@ -5254,7 +5254,7 @@ msgstr "Manenosiri yanakuruhusu kufikia pochi mpya, kila kipochi kikifichwa nyum
 
 #: electroncash_gui/qt/main_window.py:2834
 #: electroncash_gui/qt/password_dialog.py:225
-#: electroncash_gui/qt/network_dialog.py:499
+#: electroncash_gui/qt/network_dialog.py:514
 #: electroncash_gui/qt/installwizard.py:174
 msgid "Password"
 msgstr "Nenosiri"
@@ -5371,7 +5371,7 @@ msgstr "Ngoja"
 msgid "Pending"
 msgstr "Inasubiri"
 
-#: electroncash_gui/qt/network_dialog.py:609
+#: electroncash_gui/qt/network_dialog.py:624
 msgid "Pending requests"
 msgstr ""
 
@@ -5574,7 +5574,7 @@ msgid "Please wait while Electron Cash checks for available updates."
 msgstr "Tafadhali subiri Electron Cash inapoangalia sasisho zinazopatikana."
 
 #: electroncash_gui/text.py:354 electroncash_gui/stdio.py:203
-#: electroncash_gui/qt/installwizard.py:120 electroncash/wallet.py:2155
+#: electroncash_gui/qt/installwizard.py:120 electroncash/wallet.py:2157
 msgid "Please wait..."
 msgstr "Tafadhali subiri..."
 
@@ -5615,8 +5615,8 @@ msgstr "Progamu-jalizi zinapaswa kuunga mkono moja au zaidi ya maingiliano haya.
 msgid "Pool size"
 msgstr "Kipimo cha dimbwi la seva"
 
-#: electroncash_gui/qt/network_dialog.py:249
-#: electroncash_gui/qt/network_dialog.py:1016
+#: electroncash_gui/qt/network_dialog.py:252
+#: electroncash_gui/qt/network_dialog.py:1031
 #: ios/ElectronCash/electroncash_gui/ios_native/network_dialog.py:329
 msgid "Port"
 msgstr "Kituo"
@@ -5646,11 +5646,11 @@ msgstr "Operesheni hatari"
 msgid "Preferences"
 msgstr "Pendeleo"
 
-#: electroncash_gui/qt/network_dialog.py:789
+#: electroncash_gui/qt/network_dialog.py:804
 msgid "Preferred"
 msgstr "Inayopendelewa"
 
-#: electroncash_gui/qt/network_dialog.py:473
+#: electroncash_gui/qt/network_dialog.py:488
 msgid "Preferred servers ({}) are servers you have designated as reliable and/or trustworthy."
 msgstr "Seva zinazopendekezwa ({}) ni seva ambazo umechagua kuwa za kuaminika na / au za kuaminika."
 
@@ -5753,15 +5753,15 @@ msgstr ""
 msgid "Provides support for air-gapped transaction signing."
 msgstr "Hutoa usaidizi wa utiaji saini za Shuguli ya ununuzi."
 
-#: electroncash_gui/qt/network_dialog.py:409
+#: electroncash_gui/qt/network_dialog.py:424
 msgid "Proxy"
 msgstr "Wakala"
 
-#: electroncash_gui/qt/network_dialog.py:563
+#: electroncash_gui/qt/network_dialog.py:578
 msgid "Proxy settings apply to all connections: with Electron Cash servers, but also with third-party services."
 msgstr "Mipangilio ya wakala inatumika kwa miunganisho yote: na seva za Electron Cash, lakini pia na huduma zinginezo."
 
-#: electroncash_gui/qt/network_dialog.py:497
+#: electroncash_gui/qt/network_dialog.py:512
 msgid "Proxy user"
 msgstr "Mtumiaji wa wakala"
 
@@ -5959,7 +5959,7 @@ msgstr "Kujiandikisha mpya..."
 msgid "Remove"
 msgstr "Toa"
 
-#: electroncash_gui/qt/network_dialog.py:277
+#: electroncash_gui/qt/network_dialog.py:280
 msgid "Remove from preferred"
 msgstr "Toa"
 
@@ -5967,8 +5967,8 @@ msgstr "Toa"
 msgid "Remove from wallet"
 msgstr "Toa kipochi"
 
-#: electroncash_gui/qt/network_dialog.py:283
-#: electroncash_gui/qt/network_dialog.py:289
+#: electroncash_gui/qt/network_dialog.py:286
+#: electroncash_gui/qt/network_dialog.py:292
 msgid "Remove pinned certificate"
 msgstr "Ondoa cheti kilichochapwa"
 
@@ -6069,7 +6069,7 @@ msgstr "Inahitaji"
 msgid "Requires 2FA "
 msgstr "Inahitaji 2FA "
 
-#: electroncash_gui/qt/network_dialog.py:623
+#: electroncash_gui/qt/network_dialog.py:638
 #: electroncash_plugins/trezor/qt.py:643
 msgid "Reset"
 msgstr "Weka upya"
@@ -6143,7 +6143,7 @@ msgstr "Cheti cha SSL"
 msgid "SSL certificate used to sign payment requests."
 msgstr "Cheti cha SSL kinachotumiwa kusaini ombi la malipo."
 
-#: electroncash_gui/qt/network_dialog.py:456
+#: electroncash_gui/qt/network_dialog.py:471
 msgid "SSL is used to authenticate and encrypt your connections with the blockchain servers."
 msgstr "SSL hutumiwa kudhibitisha na kuficha miunganisho yako na seva za blockchain."
 
@@ -6221,7 +6221,7 @@ msgstr "Inascan {} za {} anwani ...{}"
 msgid "Schnorr Signed"
 msgstr "Imewekwa Sahihi ya Schnorr"
 
-#: electroncash/wallet.py:2638
+#: electroncash/wallet.py:2640
 msgid "Schnorr signatures are disabled for this wallet type."
 msgstr "Saini za schnorr zimezimwa kwa aina hii ya kipochi."
 
@@ -6345,7 +6345,7 @@ msgstr "Chagua faili za kuhifadhi lebo"
 msgid "Select recovery type:"
 msgstr "Chagua aina ya kuokolea:"
 
-#: electroncash_gui/qt/network_dialog.py:423
+#: electroncash_gui/qt/network_dialog.py:438
 msgid "Select server automatically"
 msgstr "Chagua seva kiatomati"
 
@@ -6422,9 +6422,9 @@ msgstr "Tuma kupitia barua-pepe"
 msgid "Sending Report..."
 msgstr "Ripoti inatumwa..."
 
-#: electroncash_gui/qt/network_dialog.py:408
-#: electroncash_gui/qt/network_dialog.py:460
-#: electroncash_gui/qt/network_dialog.py:588
+#: electroncash_gui/qt/network_dialog.py:423
+#: electroncash_gui/qt/network_dialog.py:475
+#: electroncash_gui/qt/network_dialog.py:603
 #: electroncash_plugins/fusion/qt.py:720 electroncash_plugins/fusion/qt.py:1323
 #: electroncash_plugins/fusion/plugin.py:654
 #: electroncash_plugins/shuffle_deprecated/qt.py:1728
@@ -6444,11 +6444,11 @@ msgstr "Seva kujikokota"
 msgid "Server Settings..."
 msgstr "Mipangilio ya Seva..."
 
-#: electroncash_gui/qt/network_dialog.py:1010
+#: electroncash_gui/qt/network_dialog.py:1025
 msgid "Server ban list is empty!"
 msgstr "Orodha ya seva zilizopigwa marufuku ni tupu!"
 
-#: electroncash_gui/qt/network_dialog.py:271
+#: electroncash_gui/qt/network_dialog.py:274
 msgid "Server banned"
 msgstr "Seva imepigwa marufuku"
 
@@ -6469,7 +6469,7 @@ msgstr "Seva inawachwa nyuma ({} vitengo)"
 msgid "Server is misconfigured"
 msgstr "Seva haina usanidi sawa"
 
-#: electroncash_gui/qt/network_dialog.py:781
+#: electroncash_gui/qt/network_dialog.py:796
 msgid "Server peers"
 msgstr "Mtandao wa maseva"
 
@@ -6489,7 +6489,7 @@ msgstr "Hali ya seva: HAI"
 msgid "Server status: NOT RUNNING"
 msgstr "Hali ya seva: IMEZIMIKA"
 
-#: electroncash_gui/qt/network_dialog.py:781
+#: electroncash_gui/qt/network_dialog.py:796
 #: electroncash_plugins/shuffle_deprecated/qt.py:1621
 msgid "Servers"
 msgstr "Seva"
@@ -6930,14 +6930,14 @@ msgstr "Anza"
 msgid "Start Scan"
 msgstr "Anzisha Scan"
 
-#: electroncash_gui/qt/network_dialog.py:676
+#: electroncash_gui/qt/network_dialog.py:691
 #, python-brace-format
 msgid "Start {tor_binary_name} client"
 msgstr ""
 
 #: electroncash_gui/qt/invoice_list.py:37
 #: electroncash_gui/qt/request_list.py:42
-#: electroncash_gui/qt/network_dialog.py:580
+#: electroncash_gui/qt/network_dialog.py:595
 #: ios/ElectronCash/electroncash_gui/ios_native/receive.py:642
 #: ios/ElectronCash/electroncash_gui/ios_native/addresses.py:587
 #: ios/ElectronCash/electroncash_gui/ios_native/history.py:544
@@ -7212,7 +7212,7 @@ msgstr ""
 msgid "The mnemonic needs to be 12, 18 or 24 words."
 msgstr ""
 
-#: electroncash_gui/qt/network_dialog.py:603
+#: electroncash_gui/qt/network_dialog.py:618
 msgid "The number of unanswered network requests.\n\n"
 "You can configure:\n\n"
 "    - Limit: maximum request backlog size\n"
@@ -7444,7 +7444,7 @@ msgid "The wallet '{}' contains multiple accounts, which are no longer supported
 msgstr "Kipochi '{}' kina akaunti nyingi, ambazo haziwezi kutumika tangu Electrum 2.7.\n\n"
 "Je! Unataka kugawa kipochi chako kuwa faili nyingi?"
 
-#: electroncash_gui/qt/network_dialog.py:970
+#: electroncash_gui/qt/network_dialog.py:985
 #, python-brace-format
 msgid "The {tor_binary_name} client experienced an error or could not be started."
 msgstr ""
@@ -7481,7 +7481,7 @@ msgstr "Kulikuwa na hitilafu wakati wa kushughulikia ombi la malipo"
 msgid "There was an error starting the Tor client"
 msgstr ""
 
-#: electroncash_gui/qt/network_dialog.py:575
+#: electroncash_gui/qt/network_dialog.py:590
 #: ios/ElectronCash/electroncash_gui/ios_native/network_dialog.py:494
 msgid "This blockchain is used to verify the transactions sent by your transaction server."
 msgstr "Blockchain hii inatumika kudhibiti shughuli za ununuzi zilizotumwa na seva."
@@ -7494,11 +7494,11 @@ msgstr "Kifaa hichi hakina huduma nzuri za usalama. Kitambulisho cha alama za vi
 msgid "This feature is intended to allow you to rebuild a wallet if it has become corrupted."
 msgstr "Kitendaji hiki kimekusudiwa kukuruhusu kuunda tena kipochi ikiwa ni kibofu."
 
-#: electroncash_gui/qt/network_dialog.py:687
+#: electroncash_gui/qt/network_dialog.py:702
 msgid "This feature is unavailable because no Tor binary was found."
 msgstr ""
 
-#: electroncash_gui/qt/network_dialog.py:448
+#: electroncash_gui/qt/network_dialog.py:463
 msgid "This feature was added in response to the potential for a malicious actor to deny service via launching many servers (aka a sybil attack)."
 msgstr ""
 
@@ -7523,7 +7523,7 @@ msgstr "Habari hii inaonekana na mpokeaji ikiwa utawatumia ombi la malipo lililo
 msgid "This interface is supported."
 msgstr "Onyesho hili halipatikani."
 
-#: electroncash_gui/qt/network_dialog.py:352
+#: electroncash_gui/qt/network_dialog.py:358
 msgid "This is a preferred server"
 msgstr "Hii ni seva inayopendelewa"
 
@@ -7547,7 +7547,7 @@ msgstr "Kipochi hiki ni cha kutazama tu."
 msgid "This is the fee rate that will be used for this transaction."
 msgstr ""
 
-#: electroncash_gui/qt/network_dialog.py:595
+#: electroncash_gui/qt/network_dialog.py:610
 #: ios/ElectronCash/electroncash_gui/ios_native/network_dialog.py:499
 msgid "This is the height of your local copy of the blockchain."
 msgstr "Hii ndio urefu wa nakala ya eneo lako la blockchain."
@@ -7585,7 +7585,7 @@ msgstr ""
 msgid "This seed will allow you to recover your wallet in case of computer failure."
 msgstr "Manenosiri haya yatakusaidia kupata kipochi chako tena ikiwa kompyuta inahitilafu."
 
-#: electroncash_gui/qt/network_dialog.py:346
+#: electroncash_gui/qt/network_dialog.py:352
 msgid "This server is banned"
 msgstr "Seva hii imepigwa marufuku"
 
@@ -7593,7 +7593,7 @@ msgstr "Seva hii imepigwa marufuku"
 msgid "This server is still indexing transactions. You should switch to another server for now."
 msgstr "Seva hii bado inaangazia shughuli za ununuzi. Unapaswa kubadilisha seva kwa sasa."
 
-#: electroncash_gui/qt/network_dialog.py:349
+#: electroncash_gui/qt/network_dialog.py:355
 msgid "This server's pinned certificate mismatches its current certificate"
 msgstr ""
 
@@ -7662,7 +7662,7 @@ msgstr ""
 msgid "This wallet type cannot be used with CashShuffle."
 msgstr "Aina hii ya kipochi haiwezi kutumiwa na CashShuffle."
 
-#: electroncash_gui/qt/network_dialog.py:685
+#: electroncash_gui/qt/network_dialog.py:700
 msgid "This will start a private instance of the Tor proxy controlled by Electron Cash."
 msgstr ""
 
@@ -7793,12 +7793,12 @@ msgstr "Kidogo Sana"
 msgid "Tools"
 msgstr "Zana"
 
-#: electroncash_gui/qt/network_dialog.py:667
+#: electroncash_gui/qt/network_dialog.py:682
 #: electroncash_plugins/fusion/qt.py:746
 msgid "Tor"
 msgstr "Tor"
 
-#: electroncash_gui/qt/network_dialog.py:971
+#: electroncash_gui/qt/network_dialog.py:986
 msgid "Tor Client Error"
 msgstr ""
 
@@ -8009,7 +8009,7 @@ msgstr ""
 msgid "Unavailable."
 msgstr "Haipatikani."
 
-#: electroncash_gui/qt/network_dialog.py:268
+#: electroncash_gui/qt/network_dialog.py:271
 msgid "Unban server"
 msgstr "Kubali Seva"
 
@@ -8161,15 +8161,15 @@ msgstr ""
 msgid "Use FreeType for font rendering"
 msgstr ""
 
-#: electroncash_gui/qt/network_dialog.py:422
+#: electroncash_gui/qt/network_dialog.py:437
 msgid "Use SSL"
 msgstr "Tumia SSL"
 
-#: electroncash_gui/qt/network_dialog.py:509
+#: electroncash_gui/qt/network_dialog.py:524
 msgid "Use Tor Proxy"
 msgstr "Tumia Tor Proxy"
 
-#: electroncash_gui/qt/network_dialog.py:930
+#: electroncash_gui/qt/network_dialog.py:945
 #, python-brace-format
 msgid "Use Tor proxy at port {tor_port}"
 msgstr ""
@@ -8192,7 +8192,7 @@ msgid "Use a master key"
 msgstr "Tumia funguosiri"
 
 #: electroncash_gui/qt/network_dialog.py:155
-#: electroncash_gui/qt/network_dialog.py:260
+#: electroncash_gui/qt/network_dialog.py:263
 #: ios/ElectronCash/electroncash_gui/ios_native/network_dialog.py:404
 #: ios/ElectronCash/electroncash_gui/ios_native/network_dialog.py:428
 msgid "Use as server"
@@ -8215,7 +8215,7 @@ msgid "Use multiple change addresses"
 msgstr ""
 
 #. proxy setting
-#: electroncash_gui/qt/network_dialog.py:485
+#: electroncash_gui/qt/network_dialog.py:500
 msgid "Use proxy"
 msgstr "Tumia proxy"
 
@@ -8333,7 +8333,7 @@ msgstr ""
 msgid "View Tx..."
 msgstr "Tazama tx..."
 
-#: electroncash_gui/qt/network_dialog.py:785
+#: electroncash_gui/qt/network_dialog.py:800
 msgid "View ban list..."
 msgstr "Ona orodha ya kupiga marufuku..."
 
@@ -8385,7 +8385,7 @@ msgstr ""
 msgid "WARNING"
 msgstr "ONYO"
 
-#: android/app/src/main/python/electroncash_gui/android/console.py:37
+#: android/app/src/main/python/electroncash_gui/android/console.py:34
 msgid "WARNING!"
 msgstr "ONYO!"
 
@@ -8665,7 +8665,7 @@ msgstr ""
 msgid "You are exporting your wallet's private keys as BIP38 encrypted keys."
 msgstr "Unatoa funguosiri za kipochi chako kama funguosiri iliyosimbwa na BIP38."
 
-#: electroncash_gui/qt/network_dialog.py:806
+#: electroncash_gui/qt/network_dialog.py:821
 #: ios/ElectronCash/electroncash_gui/ios_native/network_dialog.py:264
 msgid "You are following branch"
 msgstr "Unafuata tawi"
@@ -8704,7 +8704,7 @@ msgstr "Unatumia kipochi, ambacho hakiwezi kuunda anwani mpya."
 msgid "You are using an OP_RETURN message. This gets permanently written to the blockchain."
 msgstr "Unatumia ujumbe wa OP_RETURN. Hii huandikwa dawama kwa blockchain."
 
-#: electroncash_gui/qt/network_dialog.py:475
+#: electroncash_gui/qt/network_dialog.py:490
 msgid "You can add or remove any server from this list and optionally elect to only connect to preferred servers."
 msgstr ""
 
@@ -8897,7 +8897,7 @@ msgstr "Ongezo la manenosiri yako lazima yahifadhiwe pamoja na manenosiri yako."
 msgid "Your seed is important!"
 msgstr "Manenosiri yako ni ya muhimu!"
 
-#: electroncash_gui/qt/network_dialog.py:806
+#: electroncash_gui/qt/network_dialog.py:821
 #: ios/ElectronCash/electroncash_gui/ios_native/network_dialog.py:264
 msgid "Your server is on branch"
 msgstr "Seva yako iko kwenye tawi"
@@ -9044,8 +9044,8 @@ msgstr "na uunda pochi zako au urejeshe mmoja ya vipochi vilivyo kwa njia zilizo
 msgid "are frozen"
 msgstr "zimefungwa"
 
-#: electroncash_gui/qt/network_dialog.py:794
-#: electroncash_gui/qt/network_dialog.py:807
+#: electroncash_gui/qt/network_dialog.py:809
+#: electroncash_gui/qt/network_dialog.py:822
 #: ios/ElectronCash/electroncash_gui/ios_native/network_dialog.py:254
 #: ios/ElectronCash/electroncash_gui/ios_native/network_dialog.py:265
 msgid "blocks"
@@ -9100,7 +9100,7 @@ msgstr "kwa {time}"
 msgid "initialized"
 msgstr "imeanzishwa"
 
-#: electroncash_gui/qt/network_dialog.py:669
+#: electroncash_gui/qt/network_dialog.py:684
 msgid "integrated Tor"
 msgstr ""
 
@@ -9163,7 +9163,7 @@ msgstr "inaanza"
 msgid "stopping"
 msgstr "inasimamishwa"
 
-#: electroncash_gui/qt/network_dialog.py:668
+#: electroncash_gui/qt/network_dialog.py:683
 msgid "system Tor"
 msgstr ""
 
@@ -9175,7 +9175,7 @@ msgstr ""
 msgid "unavailable"
 msgstr "haipatikani"
 
-#: electroncash/wallet.py:1680
+#: electroncash/wallet.py:1682
 msgid "unconfirmed"
 msgstr "haijathibitishwa"
 
@@ -9187,7 +9187,7 @@ msgstr "haijathibitishwa"
 #: ios/ElectronCash/electroncash_gui/ios_native/txdetail.py:245
 #: ios/ElectronCash/electroncash_gui/ios_native/txdetail.py:565
 #: ios/ElectronCash/electroncash_gui/ios_native/feeslider.py:76
-#: electroncash/wallet.py:1760
+#: electroncash/wallet.py:1762
 msgid "unknown"
 msgstr "isiyojulikana"
 
@@ -9208,7 +9208,7 @@ msgstr "haijapakiwa"
 msgid "unloading"
 msgstr "inajitoa"
 
-#: electroncash/wallet.py:1678
+#: electroncash/wallet.py:1680
 msgid "unverified"
 msgstr "haijathibitishwa"
 
@@ -9229,7 +9229,7 @@ msgstr "bila kupakua blockchain au komputa ilikyo na programu ya blockchain."
 msgid "{:2d} minutes"
 msgstr ""
 
-#: electroncash/web.py:277
+#: electroncash/web.py:289
 #, python-brace-format
 msgid "{acct_name} is not a valid cashacct string"
 msgstr ""

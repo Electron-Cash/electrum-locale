@@ -2,8 +2,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: electron-cash\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-11-18 12:05+0200\n"
-"PO-Revision-Date: 2020-11-18 10:05\n"
+"POT-Creation-Date: 2020-12-01 13:02+0200\n"
+"PO-Revision-Date: 2020-12-01 11:02\n"
 "Last-Translator: \n"
 "Language-Team: Chinese Simplified\n"
 "Language: zh_CN\n"
@@ -357,7 +357,7 @@ msgstr "&WIF 明码"
 msgid "&Wallet"
 msgstr "钱包(&W)"
 
-#: electroncash/web.py:331
+#: electroncash/web.py:343
 #, python-brace-format
 msgid "'{uri_scheme}' payment requests are not currently supported"
 msgstr "'{uri_scheme}' 当前不支持付款请求"
@@ -590,7 +590,7 @@ msgstr "添加新的钱包"
 msgid "Add to Contacts"
 msgstr "添加到通讯录"
 
-#: electroncash_gui/qt/network_dialog.py:279
+#: electroncash_gui/qt/network_dialog.py:282
 msgid "Add to preferred"
 msgstr "添加到首选项"
 
@@ -703,7 +703,7 @@ msgstr "地址"
 msgid "Addresses"
 msgstr "地址"
 
-#: electroncash/wallet.py:2156
+#: electroncash/wallet.py:2158
 msgid "Addresses generated:"
 msgstr "地址已生成："
 
@@ -1035,23 +1035,23 @@ msgstr "余额: {amount_and_unit}"
 msgid "Ban score:"
 msgstr "封禁分："
 
-#: electroncash_gui/qt/network_dialog.py:273
+#: electroncash_gui/qt/network_dialog.py:276
 msgid "Ban server"
 msgstr "封禁服务器"
 
-#: electroncash_gui/qt/network_dialog.py:790
+#: electroncash_gui/qt/network_dialog.py:805
 #: electroncash_plugins/shuffle_deprecated/qt.py:1687
 #: electroncash_plugins/shuffle_deprecated/qt.py:1928
 #: electroncash_plugins/shuffle_deprecated/qt.py:2150
 msgid "Banned"
 msgstr "被封禁"
 
-#: electroncash_gui/qt/network_dialog.py:1012
-#: electroncash_gui/qt/network_dialog.py:1014
+#: electroncash_gui/qt/network_dialog.py:1027
+#: electroncash_gui/qt/network_dialog.py:1029
 msgid "Banned Servers"
 msgstr "禁止的用户"
 
-#: electroncash_gui/qt/network_dialog.py:476
+#: electroncash_gui/qt/network_dialog.py:491
 msgid "Banned servers ({}) are servers deemed unreliable and/or untrustworthy, and so they will never be connected-to by Electron Cash."
 msgstr "被封禁的服务器 ({}) 被视为不可靠和/或不可信任的服务器，所以它们永远不会通过 Electron 现金连接。"
 
@@ -1107,7 +1107,7 @@ msgstr "区块浏览器"
 msgid "Block explorer link copied to clipboard"
 msgstr "块浏览器链接已复制到剪贴板"
 
-#: electroncash_gui/qt/network_dialog.py:596
+#: electroncash_gui/qt/network_dialog.py:611
 msgid "Blockchain"
 msgstr "区块链"
 
@@ -1511,7 +1511,7 @@ msgstr "CashShuffle 将会因以前<i>开启</i>国的钱包而<b>停止</b>。�
 msgid "Chain fork(s) detected"
 msgstr "检测到链叉"
 
-#: electroncash_gui/qt/network_dialog.py:805
+#: electroncash_gui/qt/network_dialog.py:820
 #: ios/ElectronCash/electroncash_gui/ios_native/network_dialog.py:263
 #: ios/ElectronCash/electroncash_gui/ios_native/gui.py:689
 #, python-format
@@ -1666,7 +1666,7 @@ msgstr "打开网页浏览器，选择使用在线区块查询功能。"
 msgid "Choose..."
 msgstr "选择..."
 
-#: electroncash_gui/qt/network_dialog.py:618
+#: electroncash_gui/qt/network_dialog.py:633
 msgid "ChunkSize:"
 msgstr ""
 
@@ -1677,11 +1677,11 @@ msgstr ""
 msgid "Clear"
 msgstr "清除"
 
-#: electroncash_gui/qt/network_dialog.py:1039
+#: electroncash_gui/qt/network_dialog.py:1054
 msgid "Clear all {} servers from the ban list?"
 msgstr "清除黑名单中所有 {} 服务器？"
 
-#: electroncash_gui/qt/network_dialog.py:1029
+#: electroncash_gui/qt/network_dialog.py:1044
 msgid "Clear ban list"
 msgstr "清除黑名单"
 
@@ -1947,7 +1947,7 @@ msgstr "在您的 {} 设备确认钱包地址"
 msgid "Confirmed. Signing Transaction..."
 msgstr "已确认。 正在签署交易记录..."
 
-#: electroncash_gui/qt/network_dialog.py:440
+#: electroncash_gui/qt/network_dialog.py:455
 msgid "Connect only to preferred servers"
 msgstr "仅连接到首选服务器"
 
@@ -1961,7 +1961,7 @@ msgstr "已连接"
 msgid "Connected node"
 msgstr "已连接节点"
 
-#: electroncash_gui/qt/network_dialog.py:797
+#: electroncash_gui/qt/network_dialog.py:812
 #: ios/ElectronCash/electroncash_gui/ios_native/network_dialog.py:257
 #, python-format
 msgid "Connected to %d nodes."
@@ -1972,7 +1972,7 @@ msgstr "已连接到%d 个节点。"
 msgid "Connected via proxy"
 msgstr "已通过代理连接"
 
-#: electroncash/wallet.py:2163
+#: electroncash/wallet.py:2165
 msgid "Connecting..."
 msgstr "连接中..."
 
@@ -2273,7 +2273,7 @@ msgstr "每字节中的自定义费率"
 msgid "Custom fee rate:"
 msgstr "自定义收费率："
 
-#: electroncash_gui/qt/network_dialog.py:529
+#: electroncash_gui/qt/network_dialog.py:544
 msgid "Custom port"
 msgstr "自定义端口"
 
@@ -2365,7 +2365,7 @@ msgstr "删除钱包"
 msgid "Delete wallet file?"
 msgstr "删除钱包文件？"
 
-#: electroncash_gui/qt/network_dialog.py:516
+#: electroncash_gui/qt/network_dialog.py:531
 msgid "Depending on your configuration and preferences as a user, this may or may not be ideal.  In general, connections routed through Tor hide your IP address from servers, at the expense of performance and network throughput."
 msgstr "根据您作为用户的配置和首选项，这可能是理想的，也可能不是理想的。 一般来说，通过 Tor 路由的连接在服务器上隐藏您的 IP 地址，牺牲性能和网络输送。"
 
@@ -2440,7 +2440,7 @@ msgid "Device communication error. Please unplug and replug your Digital Bitbox.
 msgstr "设备通讯错误。请拔出并重新插入你的硬件钱包。"
 
 #. BaseWizard expects this Exception to re-try
-#: electroncash_plugins/ledger/ledger.py:609
+#: electroncash_plugins/ledger/ledger.py:615
 msgid "Device id not found or was changed"
 msgstr "设备ID未找到或已更改"
 
@@ -2488,7 +2488,7 @@ msgstr "已使用磁盘空间"
 msgid "Display the details of your transactions before signing it."
 msgstr "在进行签名之前显示您的交易信息。"
 
-#: android/app/src/main/python/electroncash_gui/android/console.py:38
+#: android/app/src/main/python/electroncash_gui/android/console.py:35
 #: electroncash_gui/qt/console.py:63
 msgid "Do not enter code here that you don't understand. Executing the wrong code could lead to your coins being irreversibly lost."
 msgstr "不要在此处粘贴您不理解的代码。执行错误的代码可能会导致您的币丢失，并且不能被找回。"
@@ -2595,13 +2595,13 @@ msgstr "下载页眉 {}% ..."
 msgid "Downloading input data, please wait..."
 msgstr "下载页面中，请稍候..."
 
-#: electroncash_gui/qt/network_dialog.py:457
+#: electroncash_gui/qt/network_dialog.py:472
 msgid "Due to potential security risks, you may only disable SSL when using a Tor Proxy."
 msgstr "由于潜在的安全风险，您只能在使用 Tor Proxy 时禁用SSL。"
 
 #. these two args are equivalent and cannot both appear together
 #. these two args cannot both appear together
-#: electroncash/web.py:266 electroncash/web.py:300 electroncash/web.py:317
+#: electroncash/web.py:278 electroncash/web.py:312 electroncash/web.py:329
 msgid "Duplicate key in URI"
 msgstr "在 URI 中复制密钥"
 
@@ -2651,7 +2651,7 @@ msgstr "Electron Cash 无法继续，因为此设备在磁盘空间很低。请�
 msgid "Electron Cash communicates with remote servers to get information about your transactions and addresses. The servers all fulfil the same purpose only differing in hardware. In most cases you simply want to let Electron Cash pick one at random.  However if you prefer feel free to select a server manually."
 msgstr "Electron Cash 与远程服务器通讯以获取您的交易记录和地址信息。这些服务器都能实现相同的功能，只是硬件条件各有不同。在大多数情况下，你只需要让 Electron Cash 随便挑一个节点，如果你有一个偏好设置，随时都可以手动选择服务器。"
 
-#: electroncash_gui/qt/network_dialog.py:574
+#: electroncash_gui/qt/network_dialog.py:589
 #: ios/ElectronCash/electroncash_gui/ios_native/network_dialog.py:493
 msgid "Electron Cash connects to several nodes in order to download block headers and find out the longest blockchain."
 msgstr "Electron Cash 会连接数个节点以下载区块头并找出最长的区块链。"
@@ -2685,7 +2685,7 @@ msgstr "Linux 上的 Electron 现金需要 PyQt5 5.12+。\n\n"
 "您已经安装了 {version_string} 版本。\n\n"
 "请升级否则您可能会遇到 Emojis 和 Electron Cash 使用的其他 Unicode 字符的字体渲染问题。"
 
-#: electroncash_gui/qt/network_dialog.py:587
+#: electroncash_gui/qt/network_dialog.py:602
 #: ios/ElectronCash/electroncash_gui/ios_native/network_dialog.py:497
 msgid "Electron Cash sends your wallet addresses to a single server, in order to receive your transaction history."
 msgstr "Electron Cash 通过把您的钱包地址发送到一台服务器来获得您的交易记录。"
@@ -3240,7 +3240,7 @@ msgstr "导入文件失败。"
 msgid "Failed to load zbar: {}"
 msgstr "无法加载 zbar: {}"
 
-#: electroncash_gui/qt/network_dialog.py:290
+#: electroncash_gui/qt/network_dialog.py:293
 msgid "Failed to remove the pinned certificate. Check the log for errors."
 msgstr ""
 
@@ -3388,7 +3388,7 @@ msgstr "扫描二维码。"
 msgid "For support, please visit us on <a href='https://github.com/Electron-Cash/Electron-Cash/issues'>GitHub</a> or on <a href='https://t.me/electroncashwallet'>Telegram</a>."
 msgstr "如需支持，请在 <a href='https://github.com/Electron-Cash/Electron-Cash/issues'>GitHub</a> 或 <a href='https://t.me/electroncashwallet'>Telegram</a> 上找我们。"
 
-#: electroncash_gui/qt/network_dialog.py:519
+#: electroncash_gui/qt/network_dialog.py:534
 msgid "For the average user, it's recommended that you leave this option disabled and only leave the 'Start Tor client' option enabled."
 msgstr ""
 
@@ -3640,8 +3640,8 @@ msgstr "历史"
 msgid "Homescreen"
 msgstr "主屏"
 
-#: electroncash_gui/qt/network_dialog.py:249
-#: electroncash_gui/qt/network_dialog.py:1016
+#: electroncash_gui/qt/network_dialog.py:252
+#: electroncash_gui/qt/network_dialog.py:1031
 #: ios/ElectronCash/electroncash_gui/ios_native/network_dialog.py:279
 #: ios/ElectronCash/electroncash_gui/ios_native/network_dialog.py:329
 #: electroncash_plugins/shuffle_deprecated/qt.py:1624
@@ -3689,11 +3689,11 @@ msgstr "编号"
 msgid "Identity"
 msgstr "身份"
 
-#: electroncash_gui/qt/network_dialog.py:447
+#: electroncash_gui/qt/network_dialog.py:462
 msgid "If 'Connect only to preferred servers' is enabled, Electron Cash will only connect to servers marked as 'preferred' servers ({})."
 msgstr "如果启用了“连接只连接到首选服务器”，Electron Cash 将只连接到“首选”服务器({})。"
 
-#: electroncash_gui/qt/network_dialog.py:434
+#: electroncash_gui/qt/network_dialog.py:449
 #: ios/ElectronCash/electroncash_gui/ios_native/network_dialog.py:502
 msgid "If auto-connect is enabled, Electron Cash will always use a server that is on the longest blockchain."
 msgstr "如果自动连接已启用，Electron Cash 将总是使用拥有最长的数据区块链的服务器。"
@@ -3706,15 +3706,15 @@ msgstr "如果选中，则用于切换地址格式的状态栏按钮将被隐藏
 msgid "If enabled, a system notification will be presented when you receive funds to this wallet."
 msgstr "如果启用，当您收到资金到这个钱包时，将会提交系统通知。"
 
-#: electroncash_gui/qt/network_dialog.py:513
+#: electroncash_gui/qt/network_dialog.py:528
 msgid "If enabled, all connections application-wide will be routed through Tor."
 msgstr "如果启用，所有应用程序都将通过 Tor 路由。"
 
-#: electroncash_gui/qt/network_dialog.py:486
+#: electroncash_gui/qt/network_dialog.py:501
 msgid "If enabled, all connections application-wide will be routed through this proxy."
 msgstr "如果启用，所有应用程序范围内的连接将通过此代理路由。"
 
-#: electroncash_gui/qt/network_dialog.py:442
+#: electroncash_gui/qt/network_dialog.py:457
 msgid "If enabled, restricts Electron Cash to connecting to servers only marked as 'preferred'."
 msgstr "如果启用，限制 Electron Cash连接到服务器只标记为“首选”。"
 
@@ -3729,7 +3729,7 @@ msgstr "如果启用，您将被允许在发送选项卡中使用旧版的{prefi
 msgid "If insufficient shuffled funds are available, you can wait a few minutes as coins are shuffled in the background."
 msgstr "如果可用的资金不足，您可以等待几分钟，因为硬币在后台打乱。"
 
-#: electroncash_gui/qt/network_dialog.py:435
+#: electroncash_gui/qt/network_dialog.py:450
 #: ios/ElectronCash/electroncash_gui/ios_native/network_dialog.py:503
 msgid "If it is disabled, you have to choose a server you want to use. Electron Cash will warn you if your server is lagging."
 msgstr "如果不勾选此项，那您就必须手动选择要使用哪个服务器。 如果你的服务器滞后，Electron Cash会发出警告。"
@@ -3760,11 +3760,11 @@ msgstr "如果这个问题仍然存在，请访问："
 msgid "If unchecked, the textbox contents are UTF8-encoded into a single-push script: <tt>OP_RETURN PUSH &lt;text&gt;</tt>. If checked, the text contents will be interpreted as a raw hexadecimal script to be appended after the OP_RETURN opcode: <tt>OP_RETURN &lt;script&gt;</tt>."
 msgstr "如果不选中，文本框内容是 UTF8-编码为单推脚本： <tt>OP_RETURN PUSH &lt;text&gt;</tt>如果选中， 文本内容将被解释为 OP_RETURN opcode 后面的原始十六进制脚本： <tt>OP_RETURN &lt;script&gt;</tt>"
 
-#: electroncash_gui/qt/network_dialog.py:692
+#: electroncash_gui/qt/network_dialog.py:707
 msgid "If unsure, it's safe to enable this feature, and leave 'Use Tor Proxy' disabled.  In that situation, only certain plugins (such as CashFusion) will use Tor, but your regular SPV server connections will remain unaffected."
 msgstr "如果不确定, 启用此功能是安全的，并留空禁用“使用Tor Proxy”。 在这种情况下，只有某些插件(如CashFusion)将使用 Tor，但您的常规 SPV 服务器连接将不受影响。"
 
-#: electroncash_gui/qt/network_dialog.py:449
+#: electroncash_gui/qt/network_dialog.py:464
 msgid "If unsure, most of the time it's safe to leave this option disabled. However leaving it enabled is safer (if a little bit discouraging to new server operators wanting to populate their servers)."
 msgstr "如果不确定, 大部分时间可以安全地将此选项禁用。 然而，如果让它变得更安全(如果对想要访问服务器的新服务器操作员有点不乐观的话)。"
 
@@ -4009,7 +4009,7 @@ msgstr "初始化设备"
 msgid "Initialized"
 msgstr "已初始化"
 
-#: electroncash_gui/qt/network_dialog.py:474
+#: electroncash_gui/qt/network_dialog.py:489
 msgid "Initially, the preferred list is the hard-coded list of known-good servers vetted by the Electron Cash developers."
 msgstr "最初，首选列表是由 Electron Cash 开发者审查过的精通服务器硬编码列表。"
 
@@ -4286,7 +4286,7 @@ msgstr "最新版本：{}"
 msgid "Leave this field empty if you want to disable encryption."
 msgstr "若您想要停用加密功能，请将此栏留空。"
 
-#: electroncash_gui/qt/network_dialog.py:533
+#: electroncash_gui/qt/network_dialog.py:548
 msgid "Leave unspecified to automatically allocate a port."
 msgstr "留空未指定以自动分配端口。"
 
@@ -4337,7 +4337,7 @@ msgstr "让硬件钱包随机生成一个全新的密语种子"
 msgid "Library version for '{}' is incompatible."
 msgstr "“{}”的库版本不兼容。"
 
-#: electroncash_gui/qt/network_dialog.py:613
+#: electroncash_gui/qt/network_dialog.py:628
 msgid "Limit:"
 msgstr ""
 
@@ -4842,7 +4842,7 @@ msgctxt "Referencing Fiat rate source"
 msgid "None"
 msgstr "无"
 
-#: electroncash_gui/qt/network_dialog.py:768
+#: electroncash_gui/qt/network_dialog.py:783
 #: ios/ElectronCash/electroncash_gui/ios_native/network_dialog.py:233
 msgctxt "Referencing server"
 msgid "None"
@@ -4885,7 +4885,7 @@ msgstr "不是文本文件"
 msgid "Not a valid address or private key: '%s'"
 msgstr "不是有效的地址或私钥: '%s'"
 
-#: electroncash/web.py:252
+#: electroncash/web.py:264
 #, python-brace-format
 msgid "Not a {schemes} URI"
 msgstr "不是 {schemes} URI"
@@ -4894,7 +4894,7 @@ msgstr "不是 {schemes} URI"
 #: electroncash_gui/text.py:142 electroncash_gui/stdio.py:122
 #: electroncash_gui/qt/main_window.py:1000
 #: electroncash_gui/qt/main_window.py:2252
-#: electroncash_gui/qt/network_dialog.py:797
+#: electroncash_gui/qt/network_dialog.py:812
 #: ios/ElectronCash/electroncash_gui/ios_native/network_dialog.py:257
 #: ios/ElectronCash/electroncash_gui/ios_native/gui.py:717
 msgid "Not connected"
@@ -5174,7 +5174,7 @@ msgstr "输出点"
 msgid "Outputs"
 msgstr "输出"
 
-#: electroncash_gui/qt/network_dialog.py:407
+#: electroncash_gui/qt/network_dialog.py:422
 msgid "Overview"
 msgstr "总览"
 
@@ -5243,7 +5243,7 @@ msgstr "附加密码(passphrase)严格区分大小写。每个不同的附加密
 
 #: electroncash_gui/qt/main_window.py:2834
 #: electroncash_gui/qt/password_dialog.py:225
-#: electroncash_gui/qt/network_dialog.py:499
+#: electroncash_gui/qt/network_dialog.py:514
 #: electroncash_gui/qt/installwizard.py:174
 msgid "Password"
 msgstr "密码"
@@ -5360,7 +5360,7 @@ msgstr "Pend"
 msgid "Pending"
 msgstr "等待处理"
 
-#: electroncash_gui/qt/network_dialog.py:609
+#: electroncash_gui/qt/network_dialog.py:624
 msgid "Pending requests"
 msgstr ""
 
@@ -5563,7 +5563,7 @@ msgid "Please wait while Electron Cash checks for available updates."
 msgstr "Electron Cash正在检查可用更新，请等待。"
 
 #: electroncash_gui/text.py:354 electroncash_gui/stdio.py:203
-#: electroncash_gui/qt/installwizard.py:120 electroncash/wallet.py:2155
+#: electroncash_gui/qt/installwizard.py:120 electroncash/wallet.py:2157
 msgid "Please wait..."
 msgstr "请稍候..."
 
@@ -5604,8 +5604,8 @@ msgstr "插件应该支持这些接口中的一个或多个。"
 msgid "Pool size"
 msgstr "池大小"
 
-#: electroncash_gui/qt/network_dialog.py:249
-#: electroncash_gui/qt/network_dialog.py:1016
+#: electroncash_gui/qt/network_dialog.py:252
+#: electroncash_gui/qt/network_dialog.py:1031
 #: ios/ElectronCash/electroncash_gui/ios_native/network_dialog.py:329
 msgid "Port"
 msgstr "端口"
@@ -5633,11 +5633,11 @@ msgstr "潜在的不安全操作"
 msgid "Preferences"
 msgstr "偏好设置"
 
-#: electroncash_gui/qt/network_dialog.py:789
+#: electroncash_gui/qt/network_dialog.py:804
 msgid "Preferred"
 msgstr "首选的"
 
-#: electroncash_gui/qt/network_dialog.py:473
+#: electroncash_gui/qt/network_dialog.py:488
 msgid "Preferred servers ({}) are servers you have designated as reliable and/or trustworthy."
 msgstr "首选服务器 ({}) 是您指定为可靠和/或可信的服务器。"
 
@@ -5740,15 +5740,15 @@ msgstr ""
 msgid "Provides support for air-gapped transaction signing."
 msgstr "为粉尘交易签名提供支持。"
 
-#: electroncash_gui/qt/network_dialog.py:409
+#: electroncash_gui/qt/network_dialog.py:424
 msgid "Proxy"
 msgstr "代理"
 
-#: electroncash_gui/qt/network_dialog.py:563
+#: electroncash_gui/qt/network_dialog.py:578
 msgid "Proxy settings apply to all connections: with Electron Cash servers, but also with third-party services."
 msgstr "代理设置适用于所有连接：使用Electron Cash服务器，也适用于第三方服务。"
 
-#: electroncash_gui/qt/network_dialog.py:497
+#: electroncash_gui/qt/network_dialog.py:512
 msgid "Proxy user"
 msgstr "代理用户"
 
@@ -5945,7 +5945,7 @@ msgstr "注册新..."
 msgid "Remove"
 msgstr "删除"
 
-#: electroncash_gui/qt/network_dialog.py:277
+#: electroncash_gui/qt/network_dialog.py:280
 msgid "Remove from preferred"
 msgstr "从首选中删除"
 
@@ -5953,8 +5953,8 @@ msgstr "从首选中删除"
 msgid "Remove from wallet"
 msgstr "从钱包删除"
 
-#: electroncash_gui/qt/network_dialog.py:283
-#: electroncash_gui/qt/network_dialog.py:289
+#: electroncash_gui/qt/network_dialog.py:286
+#: electroncash_gui/qt/network_dialog.py:292
 msgid "Remove pinned certificate"
 msgstr ""
 
@@ -6055,7 +6055,7 @@ msgstr "需要"
 msgid "Requires 2FA "
 msgstr "需要2FA "
 
-#: electroncash_gui/qt/network_dialog.py:623
+#: electroncash_gui/qt/network_dialog.py:638
 #: electroncash_plugins/trezor/qt.py:643
 msgid "Reset"
 msgstr "重置"
@@ -6129,7 +6129,7 @@ msgstr "SSL 证书"
 msgid "SSL certificate used to sign payment requests."
 msgstr "SSL证书用于签署付款请求。"
 
-#: electroncash_gui/qt/network_dialog.py:456
+#: electroncash_gui/qt/network_dialog.py:471
 msgid "SSL is used to authenticate and encrypt your connections with the blockchain servers."
 msgstr "SSL 用于验证和加密您与 blockchain 服务器的连接。"
 
@@ -6207,7 +6207,7 @@ msgstr "正在扫描 {} 的 {} 地址...{}"
 msgid "Schnorr Signed"
 msgstr "Schnorr 签名"
 
-#: electroncash/wallet.py:2638
+#: electroncash/wallet.py:2640
 msgid "Schnorr signatures are disabled for this wallet type."
 msgstr "此钱包类型的 Schnorr 签名被禁用。"
 
@@ -6331,7 +6331,7 @@ msgstr "选择要保存标签的文件"
 msgid "Select recovery type:"
 msgstr "选择恢复类型："
 
-#: electroncash_gui/qt/network_dialog.py:423
+#: electroncash_gui/qt/network_dialog.py:438
 msgid "Select server automatically"
 msgstr "自动选择服务器"
 
@@ -6408,9 +6408,9 @@ msgstr "通过电子邮件发送"
 msgid "Sending Report..."
 msgstr "发送报告..."
 
-#: electroncash_gui/qt/network_dialog.py:408
-#: electroncash_gui/qt/network_dialog.py:460
-#: electroncash_gui/qt/network_dialog.py:588
+#: electroncash_gui/qt/network_dialog.py:423
+#: electroncash_gui/qt/network_dialog.py:475
+#: electroncash_gui/qt/network_dialog.py:603
 #: electroncash_plugins/fusion/qt.py:720 electroncash_plugins/fusion/qt.py:1323
 #: electroncash_plugins/fusion/plugin.py:654
 #: electroncash_plugins/shuffle_deprecated/qt.py:1728
@@ -6430,11 +6430,11 @@ msgstr "服务器延迟"
 msgid "Server Settings..."
 msgstr "服务器设置..."
 
-#: electroncash_gui/qt/network_dialog.py:1010
+#: electroncash_gui/qt/network_dialog.py:1025
 msgid "Server ban list is empty!"
 msgstr "服务器封禁列表为空！"
 
-#: electroncash_gui/qt/network_dialog.py:271
+#: electroncash_gui/qt/network_dialog.py:274
 msgid "Server banned"
 msgstr "服务器被封禁"
 
@@ -6455,7 +6455,7 @@ msgstr "服务器滞后 ( {} 个区块)"
 msgid "Server is misconfigured"
 msgstr "服务器配置错误"
 
-#: electroncash_gui/qt/network_dialog.py:781
+#: electroncash_gui/qt/network_dialog.py:796
 msgid "Server peers"
 msgstr "服务器伙伴"
 
@@ -6475,7 +6475,7 @@ msgstr "服务器状态：激活"
 msgid "Server status: NOT RUNNING"
 msgstr "服务器状态：未激活"
 
-#: electroncash_gui/qt/network_dialog.py:781
+#: electroncash_gui/qt/network_dialog.py:796
 #: electroncash_plugins/shuffle_deprecated/qt.py:1621
 msgid "Servers"
 msgstr "服务器"
@@ -6916,14 +6916,14 @@ msgstr "开始"
 msgid "Start Scan"
 msgstr "开始扫描"
 
-#: electroncash_gui/qt/network_dialog.py:676
+#: electroncash_gui/qt/network_dialog.py:691
 #, python-brace-format
 msgid "Start {tor_binary_name} client"
 msgstr ""
 
 #: electroncash_gui/qt/invoice_list.py:37
 #: electroncash_gui/qt/request_list.py:42
-#: electroncash_gui/qt/network_dialog.py:580
+#: electroncash_gui/qt/network_dialog.py:595
 #: ios/ElectronCash/electroncash_gui/ios_native/receive.py:642
 #: ios/ElectronCash/electroncash_gui/ios_native/addresses.py:587
 #: ios/ElectronCash/electroncash_gui/ios_native/history.py:544
@@ -7199,7 +7199,7 @@ msgstr "消息已成功解密。"
 msgid "The mnemonic needs to be 12, 18 or 24 words."
 msgstr "口诀必须是12、18或24个词。"
 
-#: electroncash_gui/qt/network_dialog.py:603
+#: electroncash_gui/qt/network_dialog.py:618
 msgid "The number of unanswered network requests.\n\n"
 "You can configure:\n\n"
 "    - Limit: maximum request backlog size\n"
@@ -7432,7 +7432,7 @@ msgid "The wallet '{}' contains multiple accounts, which are no longer supported
 msgstr "Electrum自从2.7版以后已经不再支持帐户功能，而钱包'{}'却包含多个帐户。\n\n"
 "您想要把这个钱包分割成多个文件吗?"
 
-#: electroncash_gui/qt/network_dialog.py:970
+#: electroncash_gui/qt/network_dialog.py:985
 #, python-brace-format
 msgid "The {tor_binary_name} client experienced an error or could not be started."
 msgstr ""
@@ -7471,7 +7471,7 @@ msgstr "处理付款请求时出错"
 msgid "There was an error starting the Tor client"
 msgstr ""
 
-#: electroncash_gui/qt/network_dialog.py:575
+#: electroncash_gui/qt/network_dialog.py:590
 #: ios/ElectronCash/electroncash_gui/ios_native/network_dialog.py:494
 msgid "This blockchain is used to verify the transactions sent by your transaction server."
 msgstr "这条区块链被用于验证从服务器发给您的交易。"
@@ -7484,11 +7484,11 @@ msgstr "此设备缺少安全飞地服务。因此，基于 Touch/Face ID 的钱
 msgid "This feature is intended to allow you to rebuild a wallet if it has become corrupted."
 msgstr "此功能是为了使你能够在钱包已经损坏时重建它。"
 
-#: electroncash_gui/qt/network_dialog.py:687
+#: electroncash_gui/qt/network_dialog.py:702
 msgid "This feature is unavailable because no Tor binary was found."
 msgstr ""
 
-#: electroncash_gui/qt/network_dialog.py:448
+#: electroncash_gui/qt/network_dialog.py:463
 msgid "This feature was added in response to the potential for a malicious actor to deny service via launching many servers (aka a sybil attack)."
 msgstr "添加此功能是为了因为恶意行为者可能会通过启动许多服务器而拒绝提供服务(又称系统性攻击)。"
 
@@ -7513,7 +7513,7 @@ msgstr "如果您向收款人发送已签名的付款请求，他们就可以看
 msgid "This interface is supported."
 msgstr "支持此接口。"
 
-#: electroncash_gui/qt/network_dialog.py:352
+#: electroncash_gui/qt/network_dialog.py:358
 msgid "This is a preferred server"
 msgstr "这是首选服务器"
 
@@ -7537,7 +7537,7 @@ msgstr "这是一个仅供监视的钱包。"
 msgid "This is the fee rate that will be used for this transaction."
 msgstr "这是此交易将使用的费率。"
 
-#: electroncash_gui/qt/network_dialog.py:595
+#: electroncash_gui/qt/network_dialog.py:610
 #: ios/ElectronCash/electroncash_gui/ios_native/network_dialog.py:499
 msgid "This is the height of your local copy of the blockchain."
 msgstr "这是您区块链本地副本的高度。"
@@ -7575,7 +7575,7 @@ msgstr "这种子模糊不清，也可能被解释为 <b>BIP39</b> 种子。"
 msgid "This seed will allow you to recover your wallet in case of computer failure."
 msgstr "在您的电脑发生故障时，密语种子让您可以在其他设备上恢复钱包。"
 
-#: electroncash_gui/qt/network_dialog.py:346
+#: electroncash_gui/qt/network_dialog.py:352
 msgid "This server is banned"
 msgstr "此服务器已被封禁"
 
@@ -7583,7 +7583,7 @@ msgstr "此服务器已被封禁"
 msgid "This server is still indexing transactions. You should switch to another server for now."
 msgstr "此服务器仍在索引交易。您现在应该切换到另一个服务器。"
 
-#: electroncash_gui/qt/network_dialog.py:349
+#: electroncash_gui/qt/network_dialog.py:355
 msgid "This server's pinned certificate mismatches its current certificate"
 msgstr ""
 
@@ -7653,7 +7653,7 @@ msgstr ""
 msgid "This wallet type cannot be used with CashShuffle."
 msgstr "此钱包类型不能与 CashShuffle 一起使用。"
 
-#: electroncash_gui/qt/network_dialog.py:685
+#: electroncash_gui/qt/network_dialog.py:700
 msgid "This will start a private instance of the Tor proxy controlled by Electron Cash."
 msgstr ""
 
@@ -7784,12 +7784,12 @@ msgstr "太小"
 msgid "Tools"
 msgstr "工具"
 
-#: electroncash_gui/qt/network_dialog.py:667
+#: electroncash_gui/qt/network_dialog.py:682
 #: electroncash_plugins/fusion/qt.py:746
 msgid "Tor"
 msgstr "Tor"
 
-#: electroncash_gui/qt/network_dialog.py:971
+#: electroncash_gui/qt/network_dialog.py:986
 msgid "Tor Client Error"
 msgstr "Tor 客户端错误"
 
@@ -8000,7 +8000,7 @@ msgstr "无法扫描图像文件。"
 msgid "Unavailable."
 msgstr "不可使用"
 
-#: electroncash_gui/qt/network_dialog.py:268
+#: electroncash_gui/qt/network_dialog.py:271
 msgid "Unban server"
 msgstr "解除封禁服务器"
 
@@ -8152,15 +8152,15 @@ msgstr "上限为 {}"
 msgid "Use FreeType for font rendering"
 msgstr "用于字体渲染的 FreeType"
 
-#: electroncash_gui/qt/network_dialog.py:422
+#: electroncash_gui/qt/network_dialog.py:437
 msgid "Use SSL"
 msgstr "使用 SSL"
 
-#: electroncash_gui/qt/network_dialog.py:509
+#: electroncash_gui/qt/network_dialog.py:524
 msgid "Use Tor Proxy"
 msgstr "使用Tor代理"
 
-#: electroncash_gui/qt/network_dialog.py:930
+#: electroncash_gui/qt/network_dialog.py:945
 #, python-brace-format
 msgid "Use Tor proxy at port {tor_port}"
 msgstr "在端口 {tor_port} 中使用 Tor 代理"
@@ -8183,7 +8183,7 @@ msgid "Use a master key"
 msgstr "使用主键"
 
 #: electroncash_gui/qt/network_dialog.py:155
-#: electroncash_gui/qt/network_dialog.py:260
+#: electroncash_gui/qt/network_dialog.py:263
 #: ios/ElectronCash/electroncash_gui/ios_native/network_dialog.py:404
 #: ios/ElectronCash/electroncash_gui/ios_native/network_dialog.py:428
 msgid "Use as server"
@@ -8206,7 +8206,7 @@ msgid "Use multiple change addresses"
 msgstr "使用多个找零地址"
 
 #. proxy setting
-#: electroncash_gui/qt/network_dialog.py:485
+#: electroncash_gui/qt/network_dialog.py:500
 msgid "Use proxy"
 msgstr "使用代理服务器"
 
@@ -8322,7 +8322,7 @@ msgstr "查看注册交易"
 msgid "View Tx..."
 msgstr "查看Tx..."
 
-#: electroncash_gui/qt/network_dialog.py:785
+#: electroncash_gui/qt/network_dialog.py:800
 msgid "View ban list..."
 msgstr "查看禁止列表..."
 
@@ -8374,7 +8374,7 @@ msgstr "虚拟键盘"
 msgid "WARNING"
 msgstr "警告"
 
-#: android/app/src/main/python/electroncash_gui/android/console.py:37
+#: android/app/src/main/python/electroncash_gui/android/console.py:34
 msgid "WARNING!"
 msgstr "警告！"
 
@@ -8655,7 +8655,7 @@ msgstr "您已经在最新版本的 Electron Cash。"
 msgid "You are exporting your wallet's private keys as BIP38 encrypted keys."
 msgstr "您正在将钱包的私钥导出为 BIP38 加密密钥。"
 
-#: electroncash_gui/qt/network_dialog.py:806
+#: electroncash_gui/qt/network_dialog.py:821
 #: ios/ElectronCash/electroncash_gui/ios_native/network_dialog.py:264
 msgid "You are following branch"
 msgstr "您正在跟随分叉链"
@@ -8694,7 +8694,7 @@ msgstr "您正在使用一个非确定性钱包，这种钱包不能创建新地
 msgid "You are using an OP_RETURN message. This gets permanently written to the blockchain."
 msgstr "您正在使用 OP_RETURN 消息。这将被永久写入区块链。"
 
-#: electroncash_gui/qt/network_dialog.py:475
+#: electroncash_gui/qt/network_dialog.py:490
 msgid "You can add or remove any server from this list and optionally elect to only connect to preferred servers."
 msgstr "您可以从此列表中添加或删除任何服务器，并可选择仅连接到首选服务器。"
 
@@ -8888,7 +8888,7 @@ msgstr "你的种子扩展密语必须与你的种子一起被保存。"
 msgid "Your seed is important!"
 msgstr "你的密语种子至关重要！"
 
-#: electroncash_gui/qt/network_dialog.py:806
+#: electroncash_gui/qt/network_dialog.py:821
 #: ios/ElectronCash/electroncash_gui/ios_native/network_dialog.py:264
 msgid "Your server is on branch"
 msgstr "您的服务器正处在分叉链上"
@@ -9035,8 +9035,8 @@ msgstr "并创建您的标准钱包或用以下任何方法还原现有的钱包
 msgid "are frozen"
 msgstr "被冻结"
 
-#: electroncash_gui/qt/network_dialog.py:794
-#: electroncash_gui/qt/network_dialog.py:807
+#: electroncash_gui/qt/network_dialog.py:809
+#: electroncash_gui/qt/network_dialog.py:822
 #: ios/ElectronCash/electroncash_gui/ios_native/network_dialog.py:254
 #: ios/ElectronCash/electroncash_gui/ios_native/network_dialog.py:265
 msgid "blocks"
@@ -9091,7 +9091,7 @@ msgstr "在 {time}"
 msgid "initialized"
 msgstr "已初始化"
 
-#: electroncash_gui/qt/network_dialog.py:669
+#: electroncash_gui/qt/network_dialog.py:684
 msgid "integrated Tor"
 msgstr ""
 
@@ -9154,7 +9154,7 @@ msgstr "启动"
 msgid "stopping"
 msgstr "停止"
 
-#: electroncash_gui/qt/network_dialog.py:668
+#: electroncash_gui/qt/network_dialog.py:683
 msgid "system Tor"
 msgstr ""
 
@@ -9166,7 +9166,7 @@ msgstr "udev 规则状态："
 msgid "unavailable"
 msgstr "不可用"
 
-#: electroncash/wallet.py:1680
+#: electroncash/wallet.py:1682
 msgid "unconfirmed"
 msgstr "未确认"
 
@@ -9178,7 +9178,7 @@ msgstr "未确认"
 #: ios/ElectronCash/electroncash_gui/ios_native/txdetail.py:245
 #: ios/ElectronCash/electroncash_gui/ios_native/txdetail.py:565
 #: ios/ElectronCash/electroncash_gui/ios_native/feeslider.py:76
-#: electroncash/wallet.py:1760
+#: electroncash/wallet.py:1762
 msgid "unknown"
 msgstr "未知"
 
@@ -9199,7 +9199,7 @@ msgstr "已卸载"
 msgid "unloading"
 msgstr "正在卸载"
 
-#: electroncash/wallet.py:1678
+#: electroncash/wallet.py:1680
 msgid "unverified"
 msgstr "未验证"
 
@@ -9220,7 +9220,7 @@ msgstr "不下载区块链或运行一个完整的节点。"
 msgid "{:2d} minutes"
 msgstr "{:2d} 分钟"
 
-#: electroncash/web.py:277
+#: electroncash/web.py:289
 #, python-brace-format
 msgid "{acct_name} is not a valid cashacct string"
 msgstr "{acct_name} 不是一个有效的 cashacct 字符串"
