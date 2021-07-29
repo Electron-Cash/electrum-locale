@@ -2,8 +2,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: electron-cash\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-03-03 17:36+0200\n"
-"PO-Revision-Date: 2021-03-03 15:37\n"
+"POT-Creation-Date: 2021-07-29 15:12-0400\n"
+"PO-Revision-Date: 2021-07-29 19:18\n"
 "Last-Translator: \n"
 "Language-Team: Polish\n"
 "Language: pl_PL\n"
@@ -21,23 +21,23 @@ msgstr ""
 msgid "\n\n"
 "Electrum seeds are not compatible with the BIP39 seeds typically used in hardware wallets."
 msgstr "\n\n"
-"Seed Electrum nie są kompatybilne z seed BIP39 używanymi zazwyczaj w portfelach sprzętowych."
+"Ziarna (seedy) Electrum nie są kompatybilne z ziarnami BIP39 używanymi zazwyczaj w portfelach sprzętowych."
 
 #: electroncash_plugins/satochip/satochip.py:769
 msgid "\n\n"
 "Proceed with caution! If you are not sure, click on 'Back' and introduce a BIP39 seed instead."
 msgstr "\n\n"
-"Zachowaj ostrożność! Jeśli nie jesteś pewien, kliknij na 'Wróć' i zamiast tego wprowadź ziarno BIP39."
+"Zachowaj ostrożność! Jeśli nie jesteś pewien, kliknij 'Wróć' i zamiast tego wprowadź ziarno BIP39."
 
 #: electroncash/exchange_rate.py:462
 msgid "  (No FX rate available)"
-msgstr "  (Kursy walut niedostępne)"
+msgstr "  (Kursy waluty niedostępne)"
 
 #: electroncash_gui/qt/main_window.py:4205
 msgid " These settings affects the fields in the Send tab"
 msgstr " Te ustawienia wpływają na pola w zakładce Wyślij"
 
-#: ios/ElectronCash/electroncash_gui/ios_native/gui.py:2219
+#: ios/ElectronCash/electroncash_gui/ios_native/gui.py:2225
 msgid " copied to clipboard"
 msgstr " skopiowano do schowka"
 
@@ -45,7 +45,7 @@ msgstr " skopiowano do schowka"
 msgid " {} found"
 msgstr " {} znaleziony"
 
-#: android/app/src/main/python/electroncash_gui/android/strings.py:54
+#: android/app/src/main/python/electroncash_gui/android/strings.py:60
 msgid "%1$d tx (%2$d unverified)"
 msgstr "%1$d tx (%2$d niezweryfikowany)"
 
@@ -54,14 +54,14 @@ msgstr "%1$d tx (%2$d niezweryfikowany)"
 msgid "%2d minutes"
 msgstr "%2d minut"
 
-#: android/app/src/main/python/electroncash_gui/android/strings.py:13
+#: android/app/src/main/python/electroncash_gui/android/strings.py:10
 #, python-format
 msgid "%d address"
 msgid_plural "%d addresses"
-msgstr[0] ""
-msgstr[1] ""
-msgstr[2] ""
-msgstr[3] "%d adresy"
+msgstr[0] "%d adres"
+msgstr[1] "%d adresy"
+msgstr[2] "%d adresów"
+msgstr[3] "%d adresów"
 
 #: ios/ElectronCash/electroncash_gui/ios_native/newwallet.py:1200
 #, python-format
@@ -73,11 +73,16 @@ msgstr "%d prawidłow(e) element(y)"
 msgid "%d words"
 msgstr "%d słów"
 
+#: android/app/src/main/python/electroncash_gui/android/strings.py:15
+#, python-format
+msgid "%s bytes"
+msgstr ""
+
 #: electroncash_gui/qt/main_window.py:725
 msgid "&About"
 msgstr "&O programie"
 
-#: electroncash_gui/qt/main_window.py:2555
+#: electroncash_gui/qt/main_window.py:2553
 msgid "&Address to convert"
 msgstr "&Adres do konwersji"
 
@@ -86,7 +91,7 @@ msgstr "&Adres do konwersji"
 msgid "&Addresses"
 msgstr "&Adresy"
 
-#: electroncash_gui/qt/main_window.py:1619
+#: electroncash_gui/qt/main_window.py:1617
 msgid "&Amount"
 msgstr "&Kwota"
 
@@ -103,7 +108,7 @@ msgstr "&Transmituj"
 msgid "&Cash Account Name"
 msgstr "&Nazwa Cash Account"
 
-#: electroncash_gui/qt/main_window.py:2560
+#: electroncash_gui/qt/main_window.py:2558
 msgid "&Cash address"
 msgstr "&Adres CashAddr"
 
@@ -115,8 +120,8 @@ msgstr "&Sprawdź aktualizacje"
 msgid "&Check for updates..."
 msgstr "Sprawdź &aktualizacje..."
 
-#: electroncash_gui/qt/main_window.py:1235
-#: electroncash_gui/qt/main_window.py:1680
+#: electroncash_gui/qt/main_window.py:1233
+#: electroncash_gui/qt/main_window.py:1678
 msgid "&Clear"
 msgstr "&Wyczyść"
 
@@ -149,8 +154,8 @@ msgstr "&Kopiuj {}"
 msgid "&Delete"
 msgstr "&Usuń"
 
-#: electroncash_gui/qt/main_window.py:1176
-#: electroncash_gui/qt/main_window.py:1580
+#: electroncash_gui/qt/main_window.py:1174
+#: electroncash_gui/qt/main_window.py:1578
 msgid "&Description"
 msgstr "&Opis"
 
@@ -205,7 +210,7 @@ msgstr[1] "&Zamróź monety"
 msgstr[2] "&Zamróź monet"
 msgstr[3] "&Zamróź monety"
 
-#: electroncash_gui/qt/main_window.py:1606
+#: electroncash_gui/qt/main_window.py:1604
 msgid "&From"
 msgstr "&Od"
 
@@ -247,7 +252,7 @@ msgstr "&Instalacja"
 msgid "&Labels"
 msgstr "&Etykiety"
 
-#: electroncash_gui/qt/main_window.py:2565
+#: electroncash_gui/qt/main_window.py:2563
 msgid "&Legacy address"
 msgstr "&Stary adres"
 
@@ -255,7 +260,7 @@ msgstr "&Stary adres"
 msgid "&Load Transaction"
 msgstr "&Wczytaj transakcję"
 
-#: electroncash_gui/qt/main_window.py:1631
+#: electroncash_gui/qt/main_window.py:1629
 msgid "&Max"
 msgstr "&Maksimum"
 
@@ -275,8 +280,8 @@ msgstr "&Nowy/Przywróć"
 msgid "&OK"
 msgstr "&OK"
 
-#: electroncash_gui/qt/main_window.py:1185
-#: electroncash_gui/qt/main_window.py:1589
+#: electroncash_gui/qt/main_window.py:1183
+#: electroncash_gui/qt/main_window.py:1587
 msgid "&OP_RETURN"
 msgstr "&OP_RETURN"
 
@@ -305,7 +310,7 @@ msgstr "&Hasło"
 msgid "&Pay to Many"
 msgstr "&Płać do wielu"
 
-#: electroncash_gui/qt/main_window.py:1677
+#: electroncash_gui/qt/main_window.py:1675
 msgid "&Preview"
 msgstr "&Podgląd"
 
@@ -313,7 +318,7 @@ msgstr "&Podgląd"
 msgid "&Quit"
 msgstr "&Wyjście"
 
-#: electroncash_gui/qt/main_window.py:1595
+#: electroncash_gui/qt/main_window.py:1593
 msgid "&Raw hex script"
 msgstr "&Surowy skrypt szesnastkowy"
 
@@ -321,7 +326,7 @@ msgstr "&Surowy skrypt szesnastkowy"
 msgid "&Rebuild History"
 msgstr "P&rzebuduj historię..."
 
-#: electroncash_gui/qt/main_window.py:1099
+#: electroncash_gui/qt/main_window.py:1097
 msgid "&Receiving address"
 msgstr "Adres &odbiorczy"
 
@@ -333,7 +338,7 @@ msgstr "&Zarejestruj Cash Account..."
 msgid "&Report Bug..."
 msgstr "&Zgłoś Błąd..."
 
-#: electroncash_gui/qt/main_window.py:1232
+#: electroncash_gui/qt/main_window.py:1230
 #: electroncash_gui/qt/qrcodewidget.py:142
 msgid "&Save"
 msgstr "&Zapisz"
@@ -346,7 +351,7 @@ msgstr "&Zapisz kopię jako"
 msgid "&Seed"
 msgstr "&Seed"
 
-#: electroncash_gui/qt/main_window.py:1679
+#: electroncash_gui/qt/main_window.py:1677
 msgid "&Send"
 msgstr "&Wyślij"
 
@@ -404,6 +409,10 @@ msgstr "'{uri_scheme}' prośby o zapłatę nie są obecnie obsługiwane"
 msgid "( %s in dust was added to fee )"
 msgstr "( %s w pyle zostało dodane do opłaty)"
 
+#: android/app/src/main/python/electroncash_gui/android/strings.py:11
+msgid "(%1$d of %2$d)"
+msgstr ""
+
 #: electroncash_plugins/shuffle_deprecated/qt.py:1593
 msgid "(Custom)"
 msgstr "(indywidualny)"
@@ -425,7 +434,7 @@ msgstr "(Skrypt wyjścia)"
 msgid "(Touch {} of {})"
 msgstr "(Naciśnij {} z {})"
 
-#: electroncash_gui/qt/seed_dialog.py:70 electroncash/base_wizard.py:307
+#: electroncash_gui/qt/seed_dialog.py:70 electroncash/base_wizard.py:310
 msgid "(aka 'passphrase')"
 msgstr "(tzw. 'fraza haseł')"
 
@@ -450,7 +459,7 @@ msgid "..."
 msgstr "..."
 
 #. singular
-#: electroncash_gui/qt/main_window.py:5362
+#: electroncash_gui/qt/main_window.py:5306
 #, python-brace-format
 msgid "1 Cash Accounts registration ({cash_accounts_name})"
 msgstr "1 Rejestracja Cash Account ({cash_accounts_name})"
@@ -491,7 +500,7 @@ msgstr "<b>Obsługa BIP38 jest wyłączona, ponieważ wymagana biblioteka nie je
 msgid "<br>Add anyone's Cash Account to your Contacts"
 msgstr "<br>Dodaj dowolny Cash Account do Twoich kontaktów"
 
-#: electroncash_gui/qt/main_window.py:5086
+#: electroncash_gui/qt/main_window.py:5030
 msgid "<p>How it works: <b>Cash Accounts</b> registrations work by issuing an <b>OP_RETURN</b> transaction to yourself, costing fractions of a penny.</p><p>The registrations are permanently written to the blockchain and associate a human-friendly name with your address.</p><p>After the registration transaction receives <i>1 confirmation</i>, you can use your new <b>Cash Account name</b> as if it were an address and give it out to other people (Electron Cash or another Cash Account enabled wallet is required).</p><p><span style=\"font-weight:100;\">You will be offered the opportunity to review the generated transaction before broadcasting it to the blockchain.</span></p>"
 msgstr "<p>Jak to działa: Rejestracja <b>Cash Account</b> działa poprzez wykonanie kosztującej ułamki grosza transakcji <b>OP_RETURN</b> do siebie samego.</p><p>Nazwy Cash Account są trwale zapisywane w blockchainie wraz z Twoim adresem.</p><p>Po otrzymaniu <i>1 potwierdzenia</i>możesz używać swojej nowej <b>nazwy Cash Account</b> tak, jakby był to adres i przekazać go innym osobom (wymagany jest portfel Electron Cash lub inny portfel obsługujący Cach Account).</p><p><span style=\"font-weight:100;\">Masz możliwość weryfikacji wygenerowanej transakcją przed wysłaniem jej do blockchaina.</span></p>"
 
@@ -517,7 +526,7 @@ msgstr "Kopia zapasowa jest zapisywana automatycznie podczas generowania nowego 
 msgid "A commitment and anonymous announcement scheme is used so that none of the participants know the inputs nor outputs of the other participants."
 msgstr "Wykorzystuje się program zobowiązań i anonimowych zgłoszeń, tak aby żaden z uczestników nie znał wejść ani wyjść pozostałych uczestników."
 
-#: electroncash_gui/qt/main_window.py:2726
+#: electroncash_gui/qt/main_window.py:2724
 #, python-brace-format
 msgid "A contact named {contact.name} with the same address and type already exists."
 msgstr "Kontakt o nazwie {contact.name} o tym samym adresie i typie już istnieje."
@@ -538,7 +547,7 @@ msgstr "Deterministyczny Portfel zostanie utworzony przy użyciu dostarczonego g
 msgid "A layered encryption scheme is used so that none of the participants know the outputs of the other participants."
 msgstr "Stosowany jest warstwowy system szyfrowania, tak aby żaden z uczestników nie znał wyjść innych uczestników."
 
-#: electroncash/plugins.py:865
+#: electroncash/plugins.py:860
 msgid "A library is probably missing."
 msgstr "Prawdopodobnie brakuje biblioteki."
 
@@ -560,7 +569,7 @@ msgstr "Dostępna jest nowa wersja Electron Cash: {}"
 msgid "A required Qt module, QtSvg was not found. Please fully install all of PyQt5 5.12 or above to resolve this issue."
 msgstr "Wymagany moduł Qt, QtSvg nie został znaleziony. Zainstaluj w pełni wszystkie PyQt5 5.12 lub nowsze aby rozwiązać ten problem."
 
-#: electroncash_gui/qt/main_window.py:1641
+#: electroncash_gui/qt/main_window.py:1639
 msgid "A suggested fee is automatically added to this field. You may override it. The suggested fee increases with the size of the transaction."
 msgstr "Sugerowana opłata za transakcję jest automatycznie dodawana do tego pola. Możesz ją zmienić. Sugerowana opłata rośnie wraz z rozmiarem transakcji."
 
@@ -568,7 +577,7 @@ msgstr "Sugerowana opłata za transakcję jest automatycznie dodawana do tego po
 msgid "A wallet with that name already exists, please try again."
 msgstr "Portfel o tej nazwie już istnieje, spróbuj ponownie."
 
-#: ios/ElectronCash/electroncash_gui/ios_native/gui.py:1784
+#: ios/ElectronCash/electroncash_gui/ios_native/gui.py:1790
 msgid "A wallet with that name already exists. Cannot proceed."
 msgstr "Portfel o tej nazwie już istnieje. Nie można kontynuować."
 
@@ -606,7 +615,7 @@ msgstr "Rzeczywiste zastosowane kwoty: {} i {}.\n\n"
 msgid "Add Contact"
 msgstr "Dodaj kontakt"
 
-#: electroncash_gui/qt/installwizard.py:367
+#: electroncash_gui/qt/installwizard.py:369
 msgid "Add Cosigner"
 msgstr "Dodaj współpodpis"
 
@@ -643,8 +652,8 @@ msgstr "Dodaj do preferowanych"
 msgid "Adding {} of {} new addresses to wallet..."
 msgstr "Dodawanie {} z {} nowych adresów do portfela..."
 
-#: electroncash_gui/qt/main_window.py:2174
-#: ios/ElectronCash/electroncash_gui/ios_native/send.py:832
+#: electroncash_gui/qt/main_window.py:2172
+#: ios/ElectronCash/electroncash_gui/ios_native/send.py:857
 msgid "Additional fees"
 msgstr "Dodatkowe opłaty"
 
@@ -748,7 +757,7 @@ msgstr "Adres:"
 msgid "Addresses"
 msgstr "Adresy"
 
-#: electroncash/wallet.py:2177
+#: electroncash/wallet.py:2182
 msgid "Addresses generated:"
 msgstr "Wygenerowane adresy:"
 
@@ -756,7 +765,7 @@ msgstr "Wygenerowane adresy:"
 msgid "Advanced"
 msgstr "Zaawansowane"
 
-#: electroncash_gui/qt/main_window.py:5151
+#: electroncash_gui/qt/main_window.py:5095
 msgid "After at least <i>1 confirmation</i>, you will be able to use your new <b>Cash Account</b>, and it will be visible in Electron Cash in the <b>Addresses</b> tab."
 msgstr "Po co najmniej <i>1 potwierdzeniu</i>będziesz mógł użyć nowego <b>Cash Account</b>, i będzie on widoczny w Electron Cash w zakładce <b>Adresy</b>."
 
@@ -803,12 +812,12 @@ msgstr "Już aktualne"
 
 #: electroncash_gui/text.py:103 electroncash_gui/text.py:176
 #: electroncash_gui/stdio.py:104 electroncash_gui/qt/invoice_list.py:37
-#: electroncash_gui/qt/main_window.py:2781
+#: electroncash_gui/qt/main_window.py:2779
 #: electroncash_gui/qt/history_list.py:72
 #: electroncash_gui/qt/history_list.py:75
 #: electroncash_gui/qt/request_list.py:42 electroncash_gui/qt/utxo_list.py:58
 #: ios/ElectronCash/electroncash_gui/ios_native/receive.py:643
-#: ios/ElectronCash/electroncash_gui/ios_native/send.py:273
+#: ios/ElectronCash/electroncash_gui/ios_native/send.py:283
 #: ios/ElectronCash/electroncash_gui/ios_native/txdetail.py:534
 #: ios/ElectronCash/electroncash_gui/ios_native/coins.py:599
 #: ios/ElectronCash/electroncash_gui/ios_native/history.py:542
@@ -829,16 +838,16 @@ msgstr "Kwota otrzymana:"
 msgid "Amount sent:"
 msgstr "Kwota wysłana:"
 
-#: electroncash_gui/qt/main_window.py:2167
-#: ios/ElectronCash/electroncash_gui/ios_native/send.py:825
+#: electroncash_gui/qt/main_window.py:2165
+#: ios/ElectronCash/electroncash_gui/ios_native/send.py:850
 msgid "Amount to be sent"
 msgstr "Kwota do wysłania"
 
-#: electroncash_gui/qt/main_window.py:1615
+#: electroncash_gui/qt/main_window.py:1613
 msgid "Amount to be sent."
 msgstr "Kwota do wysłania."
 
-#: electroncash_gui/qt/main_window.py:2874
+#: electroncash_gui/qt/main_window.py:2872
 msgid "An Electron Cash update is available"
 msgstr "Aktualizacja Electron Cash jest dostępna"
 
@@ -852,7 +861,7 @@ msgstr "Wystąpił błąd"
 msgid "An encrypted transaction was retrieved from cosigning pool."
 msgstr "Zaszyfrowana transakcja została pobrana z puli współpodpisów."
 
-#: electroncash/network.py:1924
+#: electroncash/network.py:1925
 msgid "An error occurred broadcasting the transaction"
 msgstr "Wystąpił błąd podczas transmisji transakcji"
 
@@ -900,7 +909,7 @@ msgid "Are you SURE you want to wipe the device?\n"
 msgstr "Czy na pewno chcesz wyczyścić urządzenie?\n"
 "Twój portfel nadal ma w nim bitcoiny!"
 
-#: android/app/src/main/python/electroncash_gui/android/strings.py:14
+#: android/app/src/main/python/electroncash_gui/android/strings.py:12
 #, python-format
 msgid "Are you sure you want to delete your wallet '%s'?"
 msgstr "Czy na pewno chcesz usunąć swój portfel '%s'?"
@@ -945,7 +954,7 @@ msgstr "Ustawienia Modemu Audio"
 msgid "Authenticate, please"
 msgstr "Uwierzytelnij, proszę"
 
-#: electroncash_gui/qt/installwizard.py:520
+#: electroncash_gui/qt/installwizard.py:553
 msgid "Auto connect"
 msgstr "Łączenie automatyczne"
 
@@ -1025,17 +1034,17 @@ msgstr "Szyfrowanie BIP38 niedostępne: zainstaluj pycryptodomex aby aktywować"
 msgid "BIP38 keys are strongly encrypted with a password. To decode this key, please specify the password you used when creating the key."
 msgstr "Klucze BIP38 są mocno zaszyfrowane hasłem. Aby zdekodować ten klucz, podaj hasło użyte podczas tworzenia klucza."
 
-#: android/app/src/main/python/electroncash_gui/android/strings.py:15
+#: android/app/src/main/python/electroncash_gui/android/strings.py:13
 msgid "BIP39 seed"
 msgstr "Seed BIP39"
 
-#: electroncash_gui/qt/installwizard.py:81
-#: electroncash_gui/qt/installwizard.py:115
-#: electroncash_gui/qt/installwizard.py:116
+#: electroncash_gui/qt/installwizard.py:86
+#: electroncash_gui/qt/installwizard.py:119
+#: electroncash_gui/qt/installwizard.py:120
 #: ios/ElectronCash/electroncash_gui/ios_native/contacts.py:102
 #: ios/ElectronCash/electroncash_gui/ios_native/contacts.py:609
 #: ios/ElectronCash/electroncash_gui/ios_native/receive.py:77
-#: ios/ElectronCash/electroncash_gui/ios_native/send.py:81
+#: ios/ElectronCash/electroncash_gui/ios_native/send.py:84
 #: ios/ElectronCash/electroncash_gui/ios_native/newwallet.py:33
 #: ios/ElectronCash/electroncash_gui/ios_native/newwallet.py:82
 #: ios/ElectronCash/electroncash_gui/ios_native/txdetail.py:615
@@ -1049,7 +1058,7 @@ msgid "Back"
 msgstr "Powrót"
 
 #. prepend newlines
-#: electroncash_gui/qt/main_window.py:2422
+#: electroncash_gui/qt/main_window.py:2420
 #, python-brace-format
 msgid "Bad parameter: {bad_param_name}{extra_info}"
 msgstr "Błędny parametr: {bad_param_name}{extra_info}"
@@ -1123,7 +1132,7 @@ msgstr "Podstawowa jednostka w portfelu."
 msgid "Before reporting a bug, upgrade to the most recent version of Electron Cash (latest release or git HEAD), and include the version number in your report."
 msgstr "Przed zgłoszeniem błędu, uaktualnij do najnowszej wersji Electron Cash (najnowsza wersja lub git HEAD), i dołącz numer wersji do swojego raportu."
 
-#: ios/ElectronCash/electroncash_gui/ios_native/gui.py:2072
+#: ios/ElectronCash/electroncash_gui/ios_native/gui.py:2078
 msgid "Biometrics Unavailable"
 msgstr "Biometria niedostępna"
 
@@ -1131,20 +1140,20 @@ msgstr "Biometria niedostępna"
 msgid "Bit rate [kbps]: "
 msgstr "Szybkość transmisji [kbps]: "
 
-#: electroncash_gui/qt/main_window.py:1098
+#: electroncash_gui/qt/main_window.py:1096
 msgid "Bitcoin Cash address where the payment should be received. Note that each payment request uses a different Bitcoin Cash address."
 msgstr "Adres Bitcoin Cash, na który chcesz otrzymać płatność. Pamiętaj, że każda prośba o zapłatę używa innego adresu Bitcoin Cash."
 
-#: electroncash_gui/qt/main_window.py:1639
+#: electroncash_gui/qt/main_window.py:1637
 msgid "Bitcoin Cash transactions are in general not free. A transaction fee is paid by the sender of the funds."
 msgstr "Transakcje Bitcoin Cash na ogół nie są darmowe. Opłata za transakcję jest uiszczana przez nadawcę."
 
-#: android/app/src/main/python/electroncash_gui/android/strings.py:16
+#: android/app/src/main/python/electroncash_gui/android/strings.py:14
 msgid "Block explorer"
 msgstr "Eksplorator bloków"
 
 #. There WAS a 'Copy link' and they clicked it
-#: electroncash_gui/qt/main_window.py:2323
+#: electroncash_gui/qt/main_window.py:2321
 msgid "Block explorer link copied to clipboard"
 msgstr "Link eksploratora bloków skopiowany do schowka"
 
@@ -1168,8 +1177,8 @@ msgstr "Odbiór i wymiana (x2)"
 msgid "Broadcast"
 msgstr "Transmituj"
 
-#: electroncash_gui/qt/main_window.py:2333
-#: ios/ElectronCash/electroncash_gui/ios_native/gui.py:2032
+#: electroncash_gui/qt/main_window.py:2331
+#: ios/ElectronCash/electroncash_gui/ios_native/gui.py:2038
 msgid "Broadcasting transaction..."
 msgstr "Przekazywanie transakcji..."
 
@@ -1185,10 +1194,6 @@ msgstr "&Anuluj"
 msgid "C&lose"
 msgstr "Z&amknij"
 
-#: electroncash_gui/qt/main_window.py:4968
-msgid "CPFP no longer valid"
-msgstr "CPFP nie jest już ważny"
-
 #: electroncash_gui/qt/util.py:524
 msgid "CSV"
 msgstr "CSV"
@@ -1202,9 +1207,9 @@ msgid "Can't get network, disabling CashShuffle."
 msgstr "Nie można osiągnąć sieci, wyłączanie CashShuffle."
 
 #: electroncash_gui/qt/scan_beyond_gap.py:75
-#: electroncash_gui/qt/installwizard.py:81
-#: electroncash_gui/qt/installwizard.py:116
-#: electroncash_gui/qt/installwizard.py:523
+#: electroncash_gui/qt/installwizard.py:86
+#: electroncash_gui/qt/installwizard.py:120
+#: electroncash_gui/qt/installwizard.py:556
 #: electroncash_gui/qt/update_checker.py:103
 #: electroncash_gui/qt/update_checker.py:232
 #: ios/ElectronCash/electroncash_gui/ios_native/contacts.py:866
@@ -1281,17 +1286,17 @@ msgstr "Nie można usunąć aktywnego portfela"
 msgid "Cannot Spend"
 msgstr "Nie można wydać"
 
-#: electroncash/base_wizard.py:375
+#: electroncash/base_wizard.py:378
 msgid "Cannot add this cosigner:"
 msgstr "Nie można dodać tego współpodpisującego:"
 
-#: ios/ElectronCash/electroncash_gui/ios_native/gui.py:2256
+#: ios/ElectronCash/electroncash_gui/ios_native/gui.py:2262
 msgid "Cannot display the requested transaction as you don't have a wallet open.\n\n"
 "Open a wallet and try again."
 msgstr "Nie można wyświetlić żądanej transakcji, ponieważ nie masz otwartego portfela.\n\n"
 "Otwórz portfel i spróbuj ponownie."
 
-#: ios/ElectronCash/electroncash_gui/ios_native/gui.py:2270
+#: ios/ElectronCash/electroncash_gui/ios_native/gui.py:2276
 msgid "Cannot display the requested transaction since you already have a modal dialog open.\n\n"
 "Close the current dialog and try again."
 msgstr "Nie można wyświetlić żądanej transakcji, ponieważ masz już otwarte okno dialogowe.\n\n"
@@ -1311,7 +1316,11 @@ msgstr "Nie można znaleźć proxy Tora na portach %(ports)s."
 msgid "Cannot find python library for"
 msgstr "Nie można znaleźć biblioteki Pythona dla"
 
-#: electroncash_gui/qt/installwizard.py:208
+#: android/app/src/main/python/electroncash_gui/android/strings.py:16
+msgid "Cannot process a URI while this dialog is open."
+msgstr ""
+
+#: electroncash_gui/qt/installwizard.py:212
 msgid "Cannot read file"
 msgstr "Nie można odczytać pliku"
 
@@ -1349,7 +1358,7 @@ msgstr "Nie można uruchomić skanera QR, nie znaleziono kamery o koniecznej roz
 msgid "Cannot verify Cash Account as the network appears to be offline."
 msgstr "Nie można zweryfikować Cash Account, ponieważ sieć wydaje się być niedostępna."
 
-#: electroncash_gui/qt/main_window.py:1108
+#: electroncash_gui/qt/main_window.py:1106
 msgid "Cash Accoun&t"
 msgstr "Cash Accoun&t"
 
@@ -1368,7 +1377,7 @@ msgid "Cash Account Details"
 msgstr "Szczegóły Cash Account"
 
 #. cut off the leading emoji, and add it to the end
-#: electroncash_gui/qt/main_window.py:1152
+#: electroncash_gui/qt/main_window.py:1150
 #: electroncash_gui/qt/cashacctqt.py:449 electroncash_gui/qt/cashacctqt.py:848
 msgid "Cash Account copied to clipboard"
 msgstr "Cash Account skopiowany do schowka"
@@ -1404,7 +1413,7 @@ msgstr "Cash Account:"
 msgid "Cash Accounts"
 msgstr "Cash Accounts"
 
-#: electroncash_gui/qt/main_window.py:5137
+#: electroncash_gui/qt/main_window.py:5081
 #, python-brace-format
 msgid "Cash Accounts Registration: '{name}' -> {address}"
 msgstr "Rejestracja Cash Account: '{name}' -> {address}"
@@ -1631,14 +1640,6 @@ msgstr "Sprawdzanie aktualizacji..."
 msgid "Checking server..."
 msgstr "Sprawdzanie serwera..."
 
-#: electroncash_gui/qt/main_window.py:4918
-msgid "Child Pays for Parent"
-msgstr "Dziecko Płaci za Rodzica"
-
-#: electroncash_gui/qt/history_list.py:269
-msgid "Child pays for parent"
-msgstr "Dziecko płaci za rodzica"
-
 #: ios/ElectronCash/electroncash_gui/ios_native/addresses.py:314
 msgid "Choose Address"
 msgstr "Wybierz adres"
@@ -1657,7 +1658,7 @@ msgstr "Wybierz serwer CashShuffle lub własny serwer.\n"
 msgid "Choose a backup file:"
 msgstr "Wybierz plik kopii zapasowej:"
 
-#: electroncash_gui/qt/installwizard.py:32
+#: electroncash_gui/qt/installwizard.py:38
 msgid "Choose a password to encrypt your wallet keys."
 msgstr "Wybierz hasło do zaszyfrowania kluczy w Twoim portfelu."
 
@@ -1666,8 +1667,8 @@ msgid "Choose address or enter a public key"
 msgstr "Wybierz adres lub wprowadź klucz publiczny"
 
 #. Show user address picker
-#: electroncash_gui/qt/main_window.py:5008
-#: electroncash_gui/qt/main_window.py:5024
+#: electroncash_gui/qt/main_window.py:4952
+#: electroncash_gui/qt/main_window.py:4968
 msgid "Choose an address"
 msgstr "Wybierz adres"
 
@@ -1695,7 +1696,7 @@ msgstr "Wybierz, w jaki sposób chcesz zainicjować swój {}.\n\n"
 msgid "Choose on your {} device where to enter your passphrase"
 msgstr "Wybierz na swoim urządzeniu {} gdzie wprowadzić hasło"
 
-#: electroncash_gui/qt/installwizard.py:564
+#: electroncash_gui/qt/installwizard.py:597
 msgid "Choose the number of signatures needed to unlock funds in your wallet:"
 msgstr "Wybierz liczbę podpisów potrzebnych do odblokowania funduszy w twoim portfelu:"
 
@@ -1703,7 +1704,7 @@ msgstr "Wybierz liczbę podpisów potrzebnych do odblokowania funduszy w twoim p
 msgid "Choose which online block explorer to use for functions that open a web browser"
 msgstr "Wybierz których eksplorator bloków ma być użyty do funkcji które otwierają się w przeglądarce"
 
-#: electroncash_gui/qt/installwizard.py:164
+#: electroncash_gui/qt/installwizard.py:168
 msgid "Choose..."
 msgstr "Wybierz..."
 
@@ -1713,7 +1714,7 @@ msgstr "ChunkSize:"
 
 #. trigger the clear
 #. set up navigation bar items...
-#: ios/ElectronCash/electroncash_gui/ios_native/send.py:234
+#: ios/ElectronCash/electroncash_gui/ios_native/send.py:244
 #: ios/ElectronCash/electroncash_gui/ios_native/coins.py:253
 msgid "Clear"
 msgstr "Wyczyść"
@@ -1746,7 +1747,7 @@ msgstr "Kliknij tutaj, aby naprawić"
 msgid "Click this popup to resolve"
 msgstr "Kliknij to okienko aby rozwiązać"
 
-#: electroncash_gui/qt/main_window.py:1281
+#: electroncash_gui/qt/main_window.py:1279
 msgid "Click to copy the receive request URI to the clipboard"
 msgstr "Kliknij, aby skopiować URI odbiorcy do schowka"
 
@@ -1891,16 +1892,16 @@ msgstr "Potwierdź tekst szyfrujący:"
 msgid "Confirm Password:"
 msgstr "Potwierdź hasło:"
 
-#: electroncash_gui/qt/installwizard.py:388
+#: electroncash_gui/qt/installwizard.py:390
 msgid "Confirm Seed"
 msgstr "Potwierdź Ziarno"
 
-#: electroncash/base_wizard.py:455
+#: electroncash/base_wizard.py:458
 #: electroncash_plugins/satochip/satochip.py:735
 msgid "Confirm Seed Extension"
 msgstr "Potwierdź rozszerzenie frazy Seed"
 
-#: ios/ElectronCash/electroncash_gui/ios_native/send.py:857
+#: ios/ElectronCash/electroncash_gui/ios_native/send.py:882
 msgid "Confirm Send"
 msgstr "Potwierdź wysłanie"
 
@@ -2013,7 +2014,7 @@ msgstr "Połączono z %d węzłami."
 msgid "Connected via proxy"
 msgstr "Połączony przez proxy"
 
-#: electroncash/wallet.py:2184
+#: electroncash/wallet.py:2190
 msgid "Connecting..."
 msgstr "Łączenie..."
 
@@ -2068,7 +2069,7 @@ msgstr "Zarządzaj swoimi kluczami prywatnymi"
 msgid "Convert between Legacy and Cashaddr formats"
 msgstr "Konwertuj pomiędzy starym formatem i CashAddr"
 
-#: electroncash_gui/qt/main_window.py:1274
+#: electroncash_gui/qt/main_window.py:1272
 msgid "Copy &URI"
 msgstr "Kopiuj &URI"
 
@@ -2149,7 +2150,7 @@ msgid "Copy input hash"
 msgstr "Kopiuj hash wejściowy"
 
 #. tx is complete and there is a copy_link
-#: electroncash_gui/qt/main_window.py:2316
+#: electroncash_gui/qt/main_window.py:2314
 msgid "Copy link"
 msgstr "Kupiuj link"
 
@@ -2194,6 +2195,11 @@ msgstr "Prawidłowe reguły udev są wymagane, aby portfel sprzętowy miał dost
 msgid "Cosign with hardware device"
 msgstr "Współpodpisz z urządzeniem sprzętowym"
 
+#: android/app/src/main/python/electroncash_gui/android/strings.py:24
+#, python-format
+msgid "Cosigner %d"
+msgstr ""
+
 #: electroncash_plugins/cosigner_pool/qt.py:349
 #: electroncash_plugins/cosigner_pool/__init__.py:2
 msgid "Cosigner Pool"
@@ -2220,7 +2226,7 @@ msgid "Could not load the image {} -- unknown format or other error"
 msgstr "Nie można załadować obrazu {} -- nieznany format lub inny błąd"
 
 #. fall back to something generic.
-#: electroncash/network.py:1773
+#: electroncash/network.py:1774
 msgid "Could not retrieve transaction for the specified hash."
 msgstr "Nie można odebrać transakcji dla podanego hashu."
 
@@ -2325,7 +2331,7 @@ msgstr "Własny port"
 msgid "Custom rate: "
 msgstr "Skorygowana stawka opłaty: "
 
-#: ios/ElectronCash/electroncash_gui/ios_native/gui.py:1671
+#: ios/ElectronCash/electroncash_gui/ios_native/gui.py:1677
 msgid "Daemon was not running."
 msgstr "Daemon nie był uruchomiony."
 
@@ -2382,7 +2388,7 @@ msgid "Defaults"
 msgstr "Domyślne"
 
 #: electroncash_gui/qt/invoice_list.py:96
-#: electroncash_gui/qt/main_window.py:2811
+#: electroncash_gui/qt/main_window.py:2809
 #: electroncash_gui/qt/request_list.py:157
 #: electroncash_gui/qt/contact_list.py:218
 #: ios/ElectronCash/electroncash_gui/ios_native/contacts.py:863
@@ -2397,11 +2403,11 @@ msgstr "Usuń"
 msgid "Delete Wallet"
 msgstr "Usuń portfel"
 
-#: electroncash_gui/qt/main_window.py:2804
+#: electroncash_gui/qt/main_window.py:2802
 msgid "Delete invoice?"
 msgstr "Usunąć rachunek?"
 
-#: android/app/src/main/python/electroncash_gui/android/strings.py:24
+#: android/app/src/main/python/electroncash_gui/android/strings.py:25
 msgid "Delete wallet"
 msgstr "Usuń portfel"
 
@@ -2422,11 +2428,11 @@ msgstr "Derywacja"
 msgid "Derivation Invalid"
 msgstr "Niepoprawna derywacja"
 
-#: electroncash/base_wizard.py:283
+#: electroncash/base_wizard.py:284
 msgid "Derivation for {} wallet"
 msgstr "Derywacja dla portfela {}"
 
-#: android/app/src/main/python/electroncash_gui/android/strings.py:25
+#: android/app/src/main/python/electroncash_gui/android/strings.py:26
 msgid "Derivation invalid"
 msgstr "Niepoprawna derywacja"
 
@@ -2443,14 +2449,14 @@ msgstr "Derywacja adresów..."
 #: electroncash_gui/qt/request_list.py:42
 #: electroncash_gui/qt/transaction_dialog.py:462
 #: ios/ElectronCash/electroncash_gui/ios_native/receive.py:198
-#: ios/ElectronCash/electroncash_gui/ios_native/send.py:189
+#: ios/ElectronCash/electroncash_gui/ios_native/send.py:193
 #: ios/ElectronCash/electroncash_gui/ios_native/txdetail.py:486
 msgid "Description"
 msgstr "Opis"
 
-#: electroncash_gui/qt/main_window.py:1578
+#: electroncash_gui/qt/main_window.py:1576
 #: ios/ElectronCash/electroncash_gui/ios_native/receive.py:204
-#: ios/ElectronCash/electroncash_gui/ios_native/send.py:215
+#: ios/ElectronCash/electroncash_gui/ios_native/send.py:224
 msgid "Description of the transaction (not mandatory)."
 msgstr "Opis transakcji (opcjonalne)."
 
@@ -2520,19 +2526,19 @@ msgstr "Wylaczone"
 msgid "Disabling automatic Cash Fusions"
 msgstr "Wyłączenie automatycznych fuzji Cash Fusions"
 
-#: android/app/src/main/python/electroncash_gui/android/strings.py:26
+#: android/app/src/main/python/electroncash_gui/android/strings.py:27
 msgid "Disconnect"
 msgstr "Rozłącz"
 
-#: ios/ElectronCash/electroncash_gui/ios_native/gui.py:1450
+#: ios/ElectronCash/electroncash_gui/ios_native/gui.py:1456
 msgid "Disk Space Low"
 msgstr "Mało miejsca na dysku"
 
-#: electroncash_gui/qt/main_window.py:1678
+#: electroncash_gui/qt/main_window.py:1676
 msgid "Display the details of your transactions before signing it."
 msgstr "Wyświetl szczegóły transakcji przed podpisaniem jej."
 
-#: android/app/src/main/python/electroncash_gui/android/console.py:35
+#: android/app/src/main/python/electroncash_gui/android/console.py:36
 #: electroncash_gui/qt/console.py:63
 msgid "Do not enter code here that you don't understand. Executing the wrong code could lead to your coins being irreversibly lost."
 msgstr "Nie wprowadź tutaj kodu, którego nie rozumiesz. Wykonanie błędnego kodu może doprowadzić do nieodwracalnej utraty Twoich monet."
@@ -2546,7 +2552,7 @@ msgstr "Nie paruj"
 msgid "Do not store it electronically."
 msgstr "Nie przechowuj go w sposób elektroniczny."
 
-#: android/app/src/main/python/electroncash_gui/android/strings.py:27
+#: android/app/src/main/python/electroncash_gui/android/strings.py:28
 msgid "Do you want to close this wallet?"
 msgstr "Czy chcesz zamknąć ten portfel?"
 
@@ -2555,11 +2561,11 @@ msgstr "Czy chcesz zamknąć ten portfel?"
 msgid "Do you want to create a new seed, or to restore a wallet using an existing seed?"
 msgstr "Czy chcesz utworzyć nowy seed, czy przywrócić portfel za pomocą istniejącego seeda?"
 
-#: electroncash_gui/qt/installwizard.py:274
+#: electroncash_gui/qt/installwizard.py:278
 msgid "Do you want to delete '{}'?"
 msgstr "Czy chcesz usunąć '{}'?"
 
-#: electroncash_gui/qt/installwizard.py:253
+#: electroncash_gui/qt/installwizard.py:257
 msgid "Do you want to delete the old file"
 msgstr "Czy na pewno chcesz usunąć stary plik"
 
@@ -2567,7 +2573,7 @@ msgstr "Czy na pewno chcesz usunąć stary plik"
 msgid "Do you want to open it now?"
 msgstr "Czy chcesz teraz otworzyć?"
 
-#: electroncash_gui/qt/main_window.py:2620
+#: electroncash_gui/qt/main_window.py:2618
 msgid "Do you want to remove {} from your wallet?"
 msgstr "Czy chcesz usunąć {} z twojego portfela?"
 
@@ -2584,7 +2590,7 @@ msgstr "Czy chcesz użyć uwierzytelniania dwuetapowego (2FA)?\n\n"
 "Z 2FA każda transakcja musi być potwierdzona na drugim urządzeniu, takim jak Twój smartfon. Najpierw musisz zainstalować aplikację android Satochip-2FA w google play. Następnie musisz sparować swoje urządzenie 2FA z Satochip, skanując kod qr na następnym ekranie. \n\n"
 "OSTRZEŻENIE: upewnij się, że kopia kodu qr zostanie wykonana w bezpiecznym miejscu, na wypadek konieczności ponownej instalacji aplikacji!"
 
-#: electroncash_gui/qt/main_window.py:2005
+#: electroncash_gui/qt/main_window.py:2003
 msgid "Do you wish to continue?"
 msgstr "Czy chcesz kontynuować?"
 
@@ -2684,21 +2690,21 @@ msgstr "Edytuj opłaty ręcznie"
 msgid "Edit {}"
 msgstr "Edytuj {}"
 
-#: electroncash_gui/qt/installwizard.py:597
+#: electroncash_gui/qt/installwizard.py:631
 msgid "Electron Cash - Tax Coin"
 msgstr "Electron Cash - Moneta z podatkiem"
 
-#: electroncash/plugins.py:914
+#: electroncash/plugins.py:909
 msgid "Electron Cash cannot pair with your {}.\n\n"
 "Before you request bitcoins to be sent to addresses in this wallet, ensure you can pair with your device, or that you have its seed (and passphrase, if any).  Otherwise all bitcoins you receive will be unspendable."
 msgstr "Electron Cash nie może się sparować z Twoim {}.\n\n"
 "Zanim poprosisz o wysłanie bitcoinów na adresy w tym portfelu, upewnij się, że możesz sparować ze swoim urządzeniem lub że masz jego seed (i frazę haseł, jeśli istnieje). W przeciwnym razie wszystkie bitcoiny, które otrzymasz, nie będą mogły być wydane."
 
-#: ios/ElectronCash/electroncash_gui/ios_native/gui.py:1451
+#: ios/ElectronCash/electroncash_gui/ios_native/gui.py:1457
 msgid "Electron Cash cannot proceed because this device is very low on disk space. Please free up some disk space and try again."
 msgstr "Electron Cash nie może kontynuować, ponieważ to urządzenie ma bardzo mało miejsca na dysku. Zwolnij trochę miejsca na dysku i spróbuj ponownie."
 
-#: electroncash_gui/qt/installwizard.py:514
+#: electroncash_gui/qt/installwizard.py:547
 msgid "Electron Cash communicates with remote servers to get information about your transactions and addresses. The servers all fulfil the same purpose only differing in hardware. In most cases you simply want to let Electron Cash pick one at random.  However if you prefer feel free to select a server manually."
 msgstr "Electron Cash komunikuje się ze zdalnymi serwerami w celu uzyskania informacji o Twoich transakcjach i adresach. Wszystkie serwery spełniają ten sam cel i różnią się tylko sprzętem. Najprościej jest pozwolić Electron Cash'owi wybrać serwer losowo. Możesz jednak wybrać serwer ręcznie jeśli wolisz."
 
@@ -2715,11 +2721,11 @@ msgstr "Electron Cash obecnie obsługuje tylko Cash Account typu 1 i 2"
 msgid "Electron Cash is an SPV wallet for Bitcoin Cash"
 msgstr "Electron Cash to portfel SPV dla Bitcoin Cash"
 
-#: electroncash/base_wizard.py:469
+#: electroncash/base_wizard.py:472
 msgid "Electron Cash is generating your addresses, please wait."
 msgstr "Electron Cash generuje Twoje adresy, proszę czekać."
 
-#: electroncash_gui/qt/installwizard.py:27
+#: electroncash_gui/qt/installwizard.py:33
 msgid "Electron Cash is generating your addresses, please wait..."
 msgstr "Electron Cash generuje Twoje adresy, proszę czekać..."
 
@@ -2741,7 +2747,7 @@ msgstr "Electron Cash na Linux wymaga PyQt5 5.12+.\n\n"
 msgid "Electron Cash sends your wallet addresses to a single server, in order to receive your transaction history."
 msgstr "Electron Cash wysyła adresy portfela na pojedynczy serwer, aby otrzymać historię transakcji."
 
-#: electroncash_gui/qt/installwizard.py:179
+#: electroncash_gui/qt/installwizard.py:183
 msgid "Electron Cash wallet"
 msgstr "Portfel Electron Cash"
 
@@ -2779,7 +2785,7 @@ msgid "Electron Cash was unable to open your transaction file"
 msgstr "Electron Cash nie mógł otworzyć twego pliku transakcji"
 
 #: electroncash_gui/qt/main_window.py:3349
-#: ios/ElectronCash/electroncash_gui/ios_native/gui.py:2279
+#: ios/ElectronCash/electroncash_gui/ios_native/gui.py:2285
 msgid "Electron Cash was unable to parse your transaction"
 msgstr "Electron Cash nie był w stanie przetworzyć Twojej transakcji"
 
@@ -2973,7 +2979,7 @@ msgstr "Wprowadź frazę haseł na urządzeniu"
 msgid "Enter Password"
 msgstr "Podaj hasło"
 
-#: electroncash_gui/qt/installwizard.py:381
+#: electroncash_gui/qt/installwizard.py:383
 msgid "Enter Seed"
 msgstr "Wprowadź ziarno"
 
@@ -2993,7 +2999,7 @@ msgstr "Wprowadź etykietę, aby nazwać swoje urządzenie:"
 msgid "Enter a list of Bitcoin Cash addresses (this will create a watching-only wallet), or a list of private keys."
 msgstr "Wprowadź listę adresów Bitcoin Cash (spowoduje to utworzenie portfela tylko do obserwacji) lub listę kluczy prywatnych."
 
-#: electroncash_gui/qt/main_window.py:2650
+#: electroncash_gui/qt/main_window.py:2648
 msgid "Enter a list of outputs in the 'Pay to' field."
 msgstr "Wprowadź listę wyjść w polu 'Odbiorca'."
 
@@ -3049,7 +3055,7 @@ msgstr "Wprowadź lub wybierz adres"
 msgid "Enter passphrase on device?"
 msgstr "Wprowadźić frazę haseł na urządzeniu?"
 
-#: android/app/src/main/python/electroncash_gui/android/strings.py:28
+#: android/app/src/main/python/electroncash_gui/android/strings.py:29
 msgid "Enter password"
 msgstr "Wprowadź hasło"
 
@@ -3092,7 +3098,7 @@ msgstr "Wprowadź słowa odzyskiwania, naciskając przyciski zgodnie z tym, co u
 msgid "Enter the same password again"
 msgstr "Wprowadź to samo hasło ponownie"
 
-#: electroncash_gui/qt/installwizard.py:370
+#: electroncash_gui/qt/installwizard.py:372
 msgid "Enter their master private key (xprv) if you want to be able to sign for them."
 msgstr "Wprowadź ich główny prywatny klucz (xprv) jeśli chcesz mieć możliwość podpisania ich."
 
@@ -3116,7 +3122,7 @@ msgstr "Wprowadź twój kod PIN (cyfry 1-9):"
 msgid "Enter your current {} PIN:"
 msgstr "Wprowadź aktualny {} kod PIN:"
 
-#: electroncash_gui/qt/installwizard.py:202
+#: electroncash_gui/qt/installwizard.py:206
 msgid "Enter your password or choose another file."
 msgstr "Wprowadź swoje hasło lub wybierz inny plik."
 
@@ -3124,7 +3130,7 @@ msgstr "Wprowadź swoje hasło lub wybierz inny plik."
 msgid "Enter your password to fuse these coins"
 msgstr "Wprowadź twoje hasło, aby dokonać fuzji tych monet"
 
-#: electroncash_gui/qt/main_window.py:2191
+#: electroncash_gui/qt/main_window.py:2189
 #: ios/ElectronCash/electroncash_gui/ios_native/password_dialog.py:259
 #: ios/ElectronCash/electroncash_gui/ios_native/password_dialog.py:306
 msgid "Enter your password to proceed"
@@ -3154,11 +3160,13 @@ msgstr "Wyczyść Digital Bitbox"
 #. can be called from any thread, always runs in main thread
 #: electroncash_gui/text.py:362 electroncash_gui/stdio.py:209
 #: electroncash_gui/qt/util.py:228 electroncash_gui/qt/__init__.py:673
-#: electroncash_gui/qt/__init__.py:675 electroncash_gui/qt/installwizard.py:238
-#: electroncash_gui/qt/installwizard.py:242
-#: ios/ElectronCash/electroncash_gui/ios_native/send.py:1012
-#: ios/ElectronCash/electroncash_gui/ios_native/send.py:1025
-#: ios/ElectronCash/electroncash_gui/ios_native/send.py:1030
+#: electroncash_gui/qt/__init__.py:675 electroncash_gui/qt/installwizard.py:242
+#: electroncash_gui/qt/installwizard.py:246
+#: ios/ElectronCash/electroncash_gui/ios_native/send.py:1037
+#: ios/ElectronCash/electroncash_gui/ios_native/send.py:1057
+#: ios/ElectronCash/electroncash_gui/ios_native/send.py:1060
+#: ios/ElectronCash/electroncash_gui/ios_native/send.py:1064
+#: ios/ElectronCash/electroncash_gui/ios_native/send.py:1069
 #: ios/ElectronCash/electroncash_gui/ios_native/network_dialog.py:393
 #: ios/ElectronCash/electroncash_gui/ios_native/gui.py:1081
 #: electroncash/util.py:574 electroncash_plugins/shuffle_deprecated/qt.py:1086
@@ -3185,7 +3193,7 @@ msgstr "Błąd wyświetlania adresu"
 msgid "Error uninstalling udev rules and/or user canceled."
 msgstr "Błąd podczas odinstalowywania reguł udev i/lub użytkownik anulowany."
 
-#: electroncash/base_wizard.py:369
+#: electroncash/base_wizard.py:372
 msgid "Error: duplicate master public key"
 msgstr "Błąd: główny klucz publiczny istnieje podwójnie"
 
@@ -3201,7 +3209,7 @@ msgstr "Oczekiwany konf."
 msgid "Expected confirmation time"
 msgstr "Oczekiwany czas potwierdzenia"
 
-#: electroncash_gui/qt/main_window.py:1218
+#: electroncash_gui/qt/main_window.py:1216
 msgid "Expiration date of your request."
 msgstr "Data wygaśnięcia twojego żądania."
 
@@ -3209,12 +3217,12 @@ msgstr "Data wygaśnięcia twojego żądania."
 msgid "Expired"
 msgstr "Wygasło"
 
-#: electroncash_gui/qt/main_window.py:1220
+#: electroncash_gui/qt/main_window.py:1218
 msgid "Expired requests have to be deleted manually from your list, in order to free the corresponding Bitcoin Cash addresses."
 msgstr "Wygasłe prośby muszą zostać usunięte z listy ręcznie, aby zwolnić korespondujące adresy Bitcoin Cash."
 
 #: electroncash_gui/qt/invoice_list.py:37
-#: electroncash_gui/qt/main_window.py:2790
+#: electroncash_gui/qt/main_window.py:2788
 msgid "Expires"
 msgstr "Wygasa"
 
@@ -3234,11 +3242,11 @@ msgstr "Eksportuj Historię"
 msgid "Export file"
 msgstr "Eksportuj plik"
 
-#: android/app/src/main/python/electroncash_gui/android/strings.py:29
+#: android/app/src/main/python/electroncash_gui/android/strings.py:30
 msgid "Export wallet"
 msgstr "Eksportuj portfel"
 
-#: ios/ElectronCash/electroncash_gui/ios_native/gui.py:1766
+#: ios/ElectronCash/electroncash_gui/ios_native/gui.py:1772
 msgid "Exporting Wallet..."
 msgstr "Eksportowanie portfela..."
 
@@ -3259,7 +3267,7 @@ msgstr "Rozszerz to ziarno własnymi słowami"
 msgid "External Address"
 msgstr "Adres zewnętrzny"
 
-#: electroncash_gui/qt/main_window.py:2412
+#: electroncash_gui/qt/main_window.py:2410
 #, python-brace-format
 msgid "Extra parameter in URI was ignored:\n\n"
 "{extra_params}"
@@ -3274,7 +3282,7 @@ msgstr[2] "Dodatkowych parametrów w URI zostało zignorowanych:\n\n"
 msgstr[3] "Dodatkowe parametry w URI zostały zignorowane:\n\n"
 "{extra_params}"
 
-#: electroncash_gui/qt/main_window.py:1642
+#: electroncash_gui/qt/main_window.py:1640
 msgid "F&ee"
 msgstr "&Opłata"
 
@@ -3330,7 +3338,7 @@ msgid "Failed to send transaction to cosigning pool."
 msgstr "Nie udało się wysłać transakcji do puli współpodpisów."
 
 #: electroncash_gui/qt/main_window.py:2950
-#: ios/ElectronCash/electroncash_gui/ios_native/gui.py:2056
+#: ios/ElectronCash/electroncash_gui/ios_native/gui.py:2062
 msgid "Failed to update password"
 msgstr "Niepowodzenie aktualizacji hasła"
 
@@ -3348,18 +3356,14 @@ msgstr "Tryb rozprzestrzeniania"
 
 #. Fee Label
 #: electroncash_gui/text.py:177 electroncash_gui/qt/transaction_dialog.py:489
-#: ios/ElectronCash/electroncash_gui/ios_native/send.py:195
+#: ios/ElectronCash/electroncash_gui/ios_native/send.py:199
 #: ios/ElectronCash/electroncash_gui/ios_native/txdetail.py:564
 msgid "Fee"
 msgstr "Opłata"
 
-#: ios/ElectronCash/electroncash_gui/ios_native/send.py:199
+#: ios/ElectronCash/electroncash_gui/ios_native/send.py:203
 msgid "Fee manual edit"
 msgstr "Ręczna edycja opłat"
-
-#: electroncash_gui/qt/main_window.py:4947
-msgid "Fee:"
-msgstr "Opłata:"
 
 #: electroncash_gui/qt/transaction_dialog.py:491
 #, python-brace-format
@@ -3391,7 +3395,7 @@ msgstr "Waluta"
 
 #: ios/ElectronCash/electroncash_gui/ios_native/receive.py:200
 #: ios/ElectronCash/electroncash_gui/ios_native/receive.py:213
-#: ios/ElectronCash/electroncash_gui/ios_native/send.py:301
+#: ios/ElectronCash/electroncash_gui/ios_native/send.py:311
 msgid "Fiat amount"
 msgstr "Kwota fiducjarna"
 
@@ -3413,9 +3417,13 @@ msgstr "Wyświetlacz fiat nie jest obsługiwany w tym łańcuchu."
 msgid "File"
 msgstr "Plik"
 
-#: android/app/src/main/python/electroncash_gui/android/strings.py:30
-msgid "Filenames cannot contain the '/' character. Please enter a different filename to proceed."
-msgstr "Nazwy plików nie mogą zawierać znaku '/'. Wprowadź inną nazwę pliku, aby kontynuować."
+#: android/app/src/main/python/electroncash_gui/android/strings.py:31
+msgid "Filename is too long"
+msgstr ""
+
+#: android/app/src/main/python/electroncash_gui/android/strings.py:32
+msgid "Filenames cannot contain the '/' character"
+msgstr ""
 
 #: electroncash_plugins/keepkey/qt.py:445
 #: electroncash_plugins/satochip/qt.py:110
@@ -3436,7 +3444,7 @@ msgstr "Stała stawka: "
 msgid "Follow this branch"
 msgstr "Śledź ten oddział"
 
-#: electroncash_gui/qt/installwizard.py:598
+#: electroncash_gui/qt/installwizard.py:632
 msgid "For TaxCoin, your existing wallet files and configuration have been duplicated in the subdirectory taxcoin/ within your Electron Cash directory.\n\n"
 "To use TaxCoin, you should select a server manually, and then choose one of the starred servers.\n\n"
 "After selecting a server, select a wallet file to open."
@@ -3444,7 +3452,7 @@ msgstr "Dla monety z podatkiem, twoje istniejące pliki i konfiguracje portfela 
 "Aby używać monety z podatkiem, należy wybrać serwer ręcznie, a następnie wybrać jeden z serwerów z gwiazdką.\n\n"
 "Po wybraniu serwera wybierz plik portfela który chcesz otworzyć."
 
-#: ios/ElectronCash/electroncash_gui/ios_native/gui.py:2320
+#: ios/ElectronCash/electroncash_gui/ios_native/gui.py:2326
 msgid "For convenience, would you like to use Touch ID or Face ID to open this wallet?\n\n"
 "Your wallet password will still be used as a backup mechanism for when Touch/Face ID fails or is unavailable.\n\n"
 "Your wallet will continue to be protected and secure."
@@ -3465,7 +3473,7 @@ msgstr "Więcej informacji na stronie http://openalias.org"
 msgid "For scanning QR codes."
 msgstr "Do skanowania kodów QR."
 
-#: android/app/src/main/python/electroncash_gui/android/strings.py:31
+#: android/app/src/main/python/electroncash_gui/android/strings.py:33
 msgid "For support, please visit us on <a href='https://github.com/Electron-Cash/Electron-Cash/issues'>GitHub</a> or on <a href='https://t.me/electroncashwallet'>Telegram</a>."
 msgstr "Aby uzyskać wsparcie, odwiedź nas na <a href='https://github.com/Electron-Cash/Electron-Cash/issues'>GitHub</a> lub <a href='https://t.me/electroncashwallet'>Telegram</a>."
 
@@ -3489,7 +3497,7 @@ msgstr "Wymuś wysyłanie"
 msgid "Format"
 msgstr "Format"
 
-#: electroncash_gui/qt/main_window.py:2652
+#: electroncash_gui/qt/main_window.py:2650
 msgid "Format: address, amount"
 msgstr "Format: adres, wartość"
 
@@ -3521,7 +3529,7 @@ msgstr "Zamroź monetę"
 msgid "Freeze Coins"
 msgstr "Zamroź monety"
 
-#: electroncash_gui/qt/installwizard.py:555
+#: electroncash_gui/qt/installwizard.py:588
 #, python-format
 msgid "From %d cosigners"
 msgstr "Od %d współpodpisujących"
@@ -3600,7 +3608,7 @@ msgstr "Fuzje..."
 msgid "General"
 msgstr "Ogólny"
 
-#: electroncash_gui/qt/main_window.py:1658
+#: electroncash_gui/qt/main_window.py:1656
 msgid "Generally, a fee of 1.0 sats/B is a good minimal rate to ensure your transaction will make it into the next block."
 msgstr "Ogólnie rzecz biorąc, opłata w wysokości 1,0 sat/B jest dobrą minimalną stawką gwarantującą, że Twoja transakcja zostanie umieszczona w następnym bloku."
 
@@ -3612,7 +3620,7 @@ msgstr "Wygeneruj nowy, losowy portfel"
 msgid "Generating seed..."
 msgstr "Generowanie seeda..."
 
-#: ios/ElectronCash/electroncash_gui/ios_native/gui.py:1644
+#: ios/ElectronCash/electroncash_gui/ios_native/gui.py:1650
 msgid "Generating your addresses..."
 msgstr "Generowanie adresów..."
 
@@ -3647,7 +3655,7 @@ msgstr "Reguły portfela HW zostały pomyślnie zainstalowane!"
 msgid "HW wallet udev rules have been successfully uninstalled!"
 msgstr "Reguły portfela HW zostały pomyślnie odinstalowane!"
 
-#: electroncash/plugins.py:865
+#: electroncash/plugins.py:860
 msgid "Handler not found for"
 msgstr "Asystent nie znaleziony dla"
 
@@ -3676,7 +3684,7 @@ msgstr "Wielkość"
 msgid "Help"
 msgstr "Pomoc"
 
-#: electroncash_gui/qt/installwizard.py:504
+#: electroncash_gui/qt/installwizard.py:537
 msgid "Here is your master public key."
 msgstr "To jest twój główny klucz publiczny."
 
@@ -3729,7 +3737,7 @@ msgstr "Ekran główny"
 msgid "Host"
 msgstr "Host"
 
-#: electroncash_gui/qt/installwizard.py:521
+#: electroncash_gui/qt/installwizard.py:554
 msgid "How do you want to connect to a server? "
 msgstr "W jaki sposób chcesz łączyć się z serwerem? "
 
@@ -3765,7 +3773,7 @@ msgstr "Mam już seed"
 msgid "I should only install the most reputable plugins trusted by the community."
 msgstr "Powinienem zainstalować tylko najbardziej renomowane wtyczki którym ufa społeczność."
 
-#: android/app/src/main/python/electroncash_gui/android/strings.py:33
+#: android/app/src/main/python/electroncash_gui/android/strings.py:35
 msgid "ID"
 msgstr "ID"
 
@@ -3839,8 +3847,8 @@ msgstr "Jeśli to pole jest zaznaczone, dokładne opłaty i dane wejściowe zost
 msgid "If this problem persists, please visit:"
 msgstr "Jeśli ten problem będzie się powtarzał, odwiedź:"
 
-#: electroncash_gui/qt/main_window.py:1188
-#: electroncash_gui/qt/main_window.py:1596
+#: electroncash_gui/qt/main_window.py:1186
+#: electroncash_gui/qt/main_window.py:1594
 msgid "If unchecked, the textbox contents are UTF8-encoded into a single-push script: <tt>OP_RETURN PUSH &lt;text&gt;</tt>. If checked, the text contents will be interpreted as a raw hexadecimal script to be appended after the OP_RETURN opcode: <tt>OP_RETURN &lt;script&gt;</tt>."
 msgstr "Jeśli odznaczone, zawartość pola tekstowego jest zakodowana w UTF8 do skryptu single-push: <tt>OP_RETURN PUSH &lt;text&gt;</tt>. Jeśli zaznaczone, zawartość tekstu będzie interpretowana jako surowy szesnastkowy skrypt, który zostanie dołączony po opcode OP_RETURN: <tt>OP_RETURN &lt;script&gt;</tt>."
 
@@ -3869,7 +3877,7 @@ msgstr "Jeśli wybierzesz 'Tak', zostanie odszyfrowane, a okno transakcji zostan
 msgid "If you disable your PIN, anyone with physical access to your {} device can spend your bitcoins."
 msgstr "Jeśli wyłączysz swój kod PIN, każdy z fizycznym dostępem do twojego urządzenia {} może wydać Twoje bitcoiny."
 
-#: electroncash/base_wizard.py:312
+#: electroncash/base_wizard.py:315
 msgid "If you do not know what this is, leave this field empty."
 msgstr "Jeśli nie wiesz co to jest, pozostaw to pole puste."
 
@@ -3887,15 +3895,15 @@ msgstr "Jeśli zapomnisz frazy haseł, nie będziesz mógł uzyskać dostępu do
 msgid "If you indeed do have a usable camera connected, then this error may be caused by bugs in previous PyQt5 versions on Linux. Try installing the latest PyQt5:"
 msgstr "Jeśli rzeczywiście masz podłączoną kamerę, ten błąd może być spowodowany błędami w poprzednich wersjach PyQt5 na Linux. Spróbuj zainstalować najnowsze PyQt5:"
 
-#: electroncash_gui/qt/main_window.py:2094
+#: electroncash_gui/qt/main_window.py:2092
 msgid "If you intend to send BTC, close the application and use a BTC wallet instead. Electron Cash is a BCH wallet, not a BTC wallet."
 msgstr "Jeśli zamierzasz wysłać BTC, zamknij aplikację i zamiast niej użyj portfela BTC. Electron Cash jest portfelem BCH, a nie portfelem BTC."
 
-#: electroncash_gui/qt/installwizard.py:391
+#: electroncash_gui/qt/installwizard.py:393
 msgid "If you lose your seed, your money will be permanently lost."
 msgstr "Jeżeli zgubisz swoje ziarno, twoje pieniądze przepadną."
 
-#: electroncash_gui/qt/main_window.py:1588
+#: electroncash_gui/qt/main_window.py:1586
 msgid "If you specify OP_RETURN text, you may leave the 'Pay to' field blank."
 msgstr "Jeśli podasz tekst OP_RETURN, możesz zostawić pole 'Zapłać do' puste."
 
@@ -3914,7 +3922,7 @@ msgstr "Jeśli chcesz, aby portfel korzystał z adresów Bitcoin Cash użyj m/44
 msgid "If you want the wallet to use legacy Bitcoin addresses use m/44'/0'/0'"
 msgstr "Jeśli chcesz, aby portfel korzystał ze starych adresów Bitcoin użyj m/44'/0'/0'"
 
-#: electroncash_gui/qt/main_window.py:1415
+#: electroncash_gui/qt/main_window.py:1413
 msgid "If you want to create new addresses, use a deterministic wallet instead."
 msgstr "Jeśli chcesz utworzyć nowe adresy, użyj deterministycznego portfela."
 
@@ -3926,7 +3934,7 @@ msgstr "Jeśli chcesz, aby ten seed był interpretowany jako seed BIP39, użyj p
 msgid "If you wish to consolidate coins:"
 msgstr "Jeśli chcesz skonsolidować monety:"
 
-#: electroncash_gui/qt/main_window.py:5153
+#: electroncash_gui/qt/main_window.py:5097
 msgid "If you wish to control which specific coins are used to fund this registration transaction, feel free to use the Coins and/or Addresses tabs' Spend-from facility.\n\n"
 "('Spend from' is a right-click menu option in either tab.)"
 msgstr "Jeśli chcesz kontrolować, które konkretne monety są wykorzystywane do sfinansowania tej transakcji rejestracyjnej, możesz korzystać z funkcji 'Wydaj z' w zakładce Monety i/lub Adresy.\n\n"
@@ -3985,7 +3993,7 @@ msgstr "Importuj adresy Bitcoin Cash lub klucze prywatne"
 msgid "Import addresses"
 msgstr "Importuj adresy"
 
-#: android/app/src/main/python/electroncash_gui/android/strings.py:34
+#: android/app/src/main/python/electroncash_gui/android/strings.py:36
 msgid "Import addresses or private keys"
 msgstr "Importuj adresy lub klucze prywatne"
 
@@ -4108,13 +4116,12 @@ msgid "Input"
 msgstr "Wprowadź"
 
 #. Placeholder for amount
-#: electroncash_gui/qt/main_window.py:4935
 #: ios/ElectronCash/electroncash_gui/ios_native/receive.py:212
-#: ios/ElectronCash/electroncash_gui/ios_native/send.py:275
+#: ios/ElectronCash/electroncash_gui/ios_native/send.py:285
 msgid "Input amount"
 msgstr "Podaj wartość"
 
-#: electroncash/network.py:1764
+#: electroncash/network.py:1765
 msgid "Input data is not a transaction hash."
 msgstr "Dane nie są hashem transakcji."
 
@@ -4135,7 +4142,7 @@ msgstr "Wprowadź surową transakcję"
 msgid "Inputs"
 msgstr "Wejścia"
 
-#: electroncash_gui/qt/installwizard.py:106
+#: electroncash_gui/qt/installwizard.py:110
 msgid "Install Wizard"
 msgstr "Kreator instalacji"
 
@@ -4153,9 +4160,9 @@ msgstr "Zainstalowano"
 msgid "Installed &Plugins"
 msgstr "Zainstalowane &wtyczki"
 
-#: electroncash_gui/qt/main_window.py:2135
-#: ios/ElectronCash/electroncash_gui/ios_native/send.py:479
-#: ios/ElectronCash/electroncash_gui/ios_native/send.py:802
+#: electroncash_gui/qt/main_window.py:2133
+#: ios/ElectronCash/electroncash_gui/ios_native/send.py:498
+#: ios/ElectronCash/electroncash_gui/ios_native/send.py:827
 msgid "Insufficient funds"
 msgstr "Niewystarczająca ilość środków"
 
@@ -4172,16 +4179,16 @@ msgid "Invalid"
 msgstr "Nieprawidłowy"
 
 #. Bad 'address' code path
-#: electroncash_gui/qt/main_window.py:2717
+#: electroncash_gui/qt/main_window.py:2715
 #: ios/ElectronCash/electroncash_gui/ios_native/contacts.py:472
-#: ios/ElectronCash/electroncash_gui/ios_native/send.py:488
-#: ios/ElectronCash/electroncash_gui/ios_native/send.py:1012
+#: ios/ElectronCash/electroncash_gui/ios_native/send.py:507
+#: ios/ElectronCash/electroncash_gui/ios_native/send.py:1037
 msgid "Invalid Address"
 msgstr "Niepoprawny Adres"
 
 #: electroncash_gui/text.py:331 electroncash_gui/stdio.py:174
-#: electroncash_gui/qt/main_window.py:2030
-#: ios/ElectronCash/electroncash_gui/ios_native/send.py:1030
+#: electroncash_gui/qt/main_window.py:2028
+#: ios/ElectronCash/electroncash_gui/ios_native/send.py:1069
 msgid "Invalid Amount"
 msgstr "Nieprawidłowa kwota"
 
@@ -4223,7 +4230,7 @@ msgid "Invalid PIN - please unplug the {hw_device_name} and plug it in again bef
 msgstr "Nieprawidłowy PIN - odłącz {hw_device_name} i podłącz go ponownie i spróbuj jeszcze raz"
 
 #: ios/ElectronCash/electroncash_gui/ios_native/contacts.py:528
-#: ios/ElectronCash/electroncash_gui/ios_native/send.py:119
+#: ios/ElectronCash/electroncash_gui/ios_native/send.py:123
 #: ios/ElectronCash/electroncash_gui/ios_native/addrconv.py:105
 msgid "Invalid QR Code"
 msgstr "Nieprawidłowy kod QR"
@@ -4232,7 +4239,7 @@ msgstr "Nieprawidłowy kod QR"
 msgid "Invalid Tor proxy or no Tor proxy found"
 msgstr "Nieprawidłowy proxy Tor lub nie znaleziono proxy Tor"
 
-#: android/app/src/main/python/electroncash_gui/android/strings.py:35
+#: android/app/src/main/python/electroncash_gui/android/strings.py:37
 #: ios/ElectronCash/electroncash_gui/ios_native/txdetail.py:292
 msgid "Invalid address"
 msgstr "Nieprawidłowy adres"
@@ -4241,7 +4248,7 @@ msgstr "Nieprawidłowy adres"
 msgid "Invalid amount"
 msgstr "Nieprawidłowa kwota"
 
-#: electroncash_gui/qt/main_window.py:2430
+#: electroncash_gui/qt/main_window.py:2428
 #: ios/ElectronCash/electroncash_gui/ios_native/gui.py:1222
 msgid "Invalid bitcoincash URI:"
 msgstr "Nieprawidłowy URI Bitcoin-Cash:"
@@ -4251,7 +4258,7 @@ msgstr "Nieprawidłowy URI Bitcoin-Cash:"
 msgid "Invalid channel."
 msgstr "Nieprawidłowy kanał."
 
-#: electroncash_gui/qt/main_window.py:1997
+#: electroncash_gui/qt/main_window.py:1995
 msgid "Invalid lines found:"
 msgstr "Znaleziono nieprawidłowe wiersze:"
 
@@ -4259,16 +4266,16 @@ msgstr "Znaleziono nieprawidłowe wiersze:"
 msgid "Invalid name, please try again."
 msgstr "Nieprawidłowa nazwa. Spróbuj ponownie."
 
-#: electroncash_gui/qt/main_window.py:2776
+#: electroncash_gui/qt/main_window.py:2774
 msgid "Invoice"
 msgstr "Rachunek"
 
-#: electroncash_gui/qt/main_window.py:2801
+#: electroncash_gui/qt/main_window.py:2799
 msgid "Invoice saved as "
 msgstr "Rachunek zapisany jako "
 
 #: electroncash_gui/qt/main_window.py:661
-#: electroncash_gui/qt/main_window.py:1741
+#: electroncash_gui/qt/main_window.py:1739
 msgid "Invoices"
 msgstr "Rachunki"
 
@@ -4289,7 +4296,7 @@ msgstr "Nie można zrobić kopii zapasowej po prostu eksportując te klucze pryw
 msgid "It cannot be used with BIP38 encrypted keys."
 msgstr "Nie może być używany z szyfrowanymi kluczami BIP38."
 
-#: electroncash_gui/qt/main_window.py:1657
+#: electroncash_gui/qt/main_window.py:1655
 msgid "It is calculated from the Custom Fee Rate in preferences, but can be overridden from the manual fee edit on this form (if enabled)."
 msgstr "Jest on obliczany na podstawie stawki opłat dopasowanej w ustawieniach, ale może być zastąpiony wpisaną opłatą na tym formularzu (jeśli jest włączony)."
 
@@ -4309,7 +4316,7 @@ msgstr "Nie było możliwe skopiowanie archiwum wtyczek do miejsca przechowywani
 msgid "JSON"
 msgstr "JSON"
 
-#: electroncash_gui/qt/main_window.py:4979
+#: electroncash_gui/qt/main_window.py:4923
 msgid "Just to be safe, back up your wallet file first!"
 msgstr "Aby zachować bezpieczeństwo, najpierw wykonaj kopię zapasową pliku portfela!"
 
@@ -4321,7 +4328,7 @@ msgstr "Odzyskiwanie klucza KeepKey"
 msgid "KeepKey wallet"
 msgstr "Portfel KeepKey"
 
-#: electroncash_gui/qt/main_window.py:1618
+#: electroncash_gui/qt/main_window.py:1616
 msgid "Keyboard shortcut: type \"!\" to send all your coins."
 msgstr "Skrót klawiaturowy: wpisz \"!\" aby wysłać wszystkie swoje monety."
 
@@ -4373,7 +4380,7 @@ msgstr "Język"
 msgid "Latest version: {}"
 msgstr "Ostatnia wersja: {}"
 
-#: electroncash_gui/qt/installwizard.py:33
+#: electroncash_gui/qt/installwizard.py:39
 msgid "Leave this field empty if you want to disable encryption."
 msgstr "Zostaw to pole puste jeżeli nie chcesz używać szyfrowania."
 
@@ -4402,7 +4409,7 @@ msgstr "Portfel Ledger"
 msgid "Legacy"
 msgstr "Stary"
 
-#: electroncash_gui/qt/main_window.py:2063
+#: electroncash_gui/qt/main_window.py:2061
 #, python-brace-format
 msgid "Legacy '{prefix_char}...' p2sh address support in the Send tab is restricted by default in order to prevent inadvertently sending BCH to Segwit BTC addresses.\n\n"
 "If you are an expert user, go to 'Preferences -> Transactions' to enable the use of legacy p2sh addresses in the Send tab."
@@ -4417,7 +4424,7 @@ msgstr "Stary adres"
 msgid "Legacy address"
 msgstr "Starszy adres"
 
-#: electroncash_gui/qt/main_window.py:2090
+#: electroncash_gui/qt/main_window.py:2088
 msgid "Legacy addresses are deprecated for Bitcoin Cash (BCH), but they are used by Bitcoin (BTC)."
 msgstr "Dawne adresy są przestarzałe dla Bitcoin Cash (BCH), ale są używane przez Bitcoin (BTC)."
 
@@ -4436,7 +4443,7 @@ msgstr "Wersja biblioteki dla '{}' jest niekompatybilna."
 msgid "Limit:"
 msgstr "Limit:"
 
-#: electroncash_gui/qt/main_window.py:1997
+#: electroncash_gui/qt/main_window.py:1995
 msgid "Line #"
 msgstr "Linia #"
 
@@ -4456,7 +4463,7 @@ msgstr "Załaduj portfel z karty micro SD"
 msgid "Load a wallet from the micro SD card (the current seed is overwritten)"
 msgstr "Załaduj portfel z karty micro SD (aktualny seed będzie zapisany tym z karty)"
 
-#: android/app/src/main/python/electroncash_gui/android/strings.py:36
+#: android/app/src/main/python/electroncash_gui/android/strings.py:38
 #: electroncash_gui/qt/main_window.py:3423
 msgid "Load transaction"
 msgstr "Wczytaj transakcję"
@@ -4498,7 +4505,7 @@ msgstr "Wyszukaj Cash Account"
 msgid "Lookup transaction"
 msgstr "Wyszukaj transakcję"
 
-#: electroncash_gui/qt/main_window.py:2285
+#: electroncash_gui/qt/main_window.py:2283
 msgid "Low Fee"
 msgstr "Niska opłata"
 
@@ -4510,7 +4517,7 @@ msgstr "Niska opłata"
 msgid "Lower limit is {}"
 msgstr "Dolny limit to {}"
 
-#: android/app/src/main/python/electroncash_gui/android/strings.py:37
+#: android/app/src/main/python/electroncash_gui/android/strings.py:39
 msgid "Made with <a href='https://chaquo.com/chaquopy'>Chaquopy</a>, the Python SDK for Android."
 msgstr "Wykonane za pomocą <a href='https://chaquo.com/chaquopy'>Chaquopy</a>, Python SDK na Androida."
 
@@ -4538,7 +4545,7 @@ msgstr "Upewnij się, że posiadasz frazę seed lub klucze prywatne, zanim popro
 msgid "Make this Cash Account the default for this address"
 msgstr "Ustaw to Cash Account jako domyślne dla tego adresu"
 
-#: ios/ElectronCash/electroncash_gui/ios_native/send.py:738
+#: ios/ElectronCash/electroncash_gui/ios_native/send.py:758
 msgid "Manual fee"
 msgstr "Ręczna opłata"
 
@@ -4548,7 +4555,7 @@ msgid "Master Key"
 msgstr "Klucz główny"
 
 #: electroncash_gui/qt/main_window.py:3047
-#: electroncash_gui/qt/installwizard.py:510
+#: electroncash_gui/qt/installwizard.py:543
 msgid "Master Public Key"
 msgstr "Główny klucz publiczny"
 
@@ -4556,16 +4563,23 @@ msgstr "Główny klucz publiczny"
 msgid "Master Public Keys"
 msgstr "Główne klucze publiczne"
 
+#: android/app/src/main/python/electroncash_gui/android/strings.py:40
+msgid "Master public key"
+msgstr ""
+
+#: android/app/src/main/python/electroncash_gui/android/strings.py:41
+msgid "Master public keys"
+msgstr ""
+
 #: electroncash_plugins/trezor/qt.py:314
 msgid "Matrix"
 msgstr "Matryca"
 
-#: ios/ElectronCash/electroncash_gui/ios_native/send.py:192
+#: ios/ElectronCash/electroncash_gui/ios_native/send.py:196
 msgid "Max"
 msgstr "Maks"
 
-#: electroncash_gui/qt/main_window.py:4964
-#: ios/ElectronCash/electroncash_gui/ios_native/send.py:482
+#: ios/ElectronCash/electroncash_gui/ios_native/send.py:501
 msgid "Max fee exceeded"
 msgstr "Maksymalna opłata przekroczona"
 
@@ -4577,7 +4591,7 @@ msgstr "Maksymalna stała opłata"
 msgid "Maximum coin:"
 msgstr "Maksymalna ilość monet:"
 
-#: electroncash_gui/qt/main_window.py:2785
+#: electroncash_gui/qt/main_window.py:2783
 msgid "Memo"
 msgstr "Notka"
 
@@ -4594,7 +4608,7 @@ msgstr "Hash informacji: {}"
 msgid "Method:"
 msgstr "Metoda:"
 
-#: electroncash_gui/qt/main_window.py:1938
+#: electroncash_gui/qt/main_window.py:1936
 #: electroncash_gui/qt/contact_list.py:390
 msgid "Mine"
 msgstr "Kop"
@@ -4609,8 +4623,8 @@ msgstr "Wykopane w bloku"
 msgid "Minimum coin:"
 msgstr "Minimalna ilość monet:"
 
-#: electroncash_gui/qt/main_window.py:2168
-#: ios/ElectronCash/electroncash_gui/ios_native/send.py:826
+#: electroncash_gui/qt/main_window.py:2166
+#: ios/ElectronCash/electroncash_gui/ios_native/send.py:851
 msgid "Mining fee"
 msgstr "Opłata dla górników"
 
@@ -4638,7 +4652,7 @@ msgstr "W wybranym pliku obrazu znaleziono więcej niż jeden kod QR."
 msgid "More than one QR code was found on the screen."
 msgstr "Na ekranie znaleziono więcej niż jeden kod QR."
 
-#: electroncash_gui/qt/installwizard.py:566
+#: electroncash_gui/qt/installwizard.py:599
 msgid "Multi-Signature Wallet"
 msgstr "Portfel z wieloma podpisami"
 
@@ -4691,7 +4705,7 @@ msgstr "Potrzebna aktualizacja"
 
 #: electroncash_gui/text.py:149 electroncash_gui/qt/main_window.py:2897
 #: electroncash_gui/qt/network_dialog.py:57
-#: ios/ElectronCash/electroncash_gui/ios_native/gui.py:2118
+#: ios/ElectronCash/electroncash_gui/ios_native/gui.py:2124
 #: electroncash_plugins/fusion/qt.py:714
 msgid "Network"
 msgstr "Sieć"
@@ -4727,8 +4741,8 @@ msgstr "Nigdy nie pytaj o ten portfel"
 msgid "Never disclose your seed."
 msgstr "Nigdy nie ujawniaj swojego ziarna."
 
-#: electroncash_gui/qt/main_window.py:2105
-#: electroncash_gui/qt/main_window.py:5163
+#: electroncash_gui/qt/main_window.py:2103
+#: electroncash_gui/qt/main_window.py:5107
 msgid "Never show this again"
 msgstr "Nie pokazuj już nigdy"
 
@@ -4771,7 +4785,7 @@ msgstr "Nowe automatyczne fuzje nie zostaną uruchomione, ale teraz działa {num
 msgid "New contact"
 msgstr "Nowy kontakt"
 
-#: android/app/src/main/python/electroncash_gui/android/strings.py:38
+#: android/app/src/main/python/electroncash_gui/android/strings.py:42
 msgid "New password"
 msgstr "Nowe hasło"
 
@@ -4779,17 +4793,17 @@ msgstr "Nowe hasło"
 msgid "New transaction received: {}"
 msgstr "Otrzymano nową transakcję: {}"
 
-#: electroncash_gui/qt/main_window.py:5369
-#: electroncash_gui/qt/main_window.py:5377
+#: electroncash_gui/qt/main_window.py:5313
+#: electroncash_gui/qt/main_window.py:5321
 msgid "New transaction: {}"
 msgstr "Nowa transakcja: {}"
 
-#: android/app/src/main/python/electroncash_gui/android/strings.py:39
+#: android/app/src/main/python/electroncash_gui/android/strings.py:43
 msgid "New wallet"
 msgstr "Nowy portfel"
 
 #: electroncash_gui/qt/bip38_importer.py:185
-#: electroncash_gui/qt/installwizard.py:117
+#: electroncash_gui/qt/installwizard.py:121
 #: ios/ElectronCash/electroncash_gui/ios_native/newwallet.py:33
 #: ios/ElectronCash/electroncash_gui/ios_native/newwallet.py:166
 #: ios/ElectronCash/electroncash_gui/ios_native/newwallet.py:291
@@ -4802,8 +4816,8 @@ msgstr "Dalej"
 #: ios/ElectronCash/electroncash_gui/ios_native/gui.py:823
 #: ios/ElectronCash/electroncash_gui/ios_native/gui.py:825
 #: ios/ElectronCash/electroncash_gui/ios_native/gui.py:1098
-#: ios/ElectronCash/electroncash_gui/ios_native/gui.py:2317
-#: ios/ElectronCash/electroncash_gui/ios_native/gui.py:2319
+#: ios/ElectronCash/electroncash_gui/ios_native/gui.py:2323
+#: ios/ElectronCash/electroncash_gui/ios_native/gui.py:2325
 #: electroncash_plugins/fusion/qt.py:978 electroncash_plugins/keepkey/qt.py:349
 #: electroncash_plugins/trezor/qt.py:385
 msgid "No"
@@ -4835,11 +4849,11 @@ msgstr "Nie znaleziono kodu QR w wybranym pliku."
 msgid "No QR code was found on the screen."
 msgstr "Nie znaleziono kodu QR na ekranie."
 
-#: ios/ElectronCash/electroncash_gui/ios_native/gui.py:1415
+#: ios/ElectronCash/electroncash_gui/ios_native/gui.py:1421
 msgid "No Wallet"
 msgstr "Brak portfela"
 
-#: ios/ElectronCash/electroncash_gui/ios_native/gui.py:1424
+#: ios/ElectronCash/electroncash_gui/ios_native/gui.py:1430
 msgid "No Wallet Is Open"
 msgstr "Żaden portfel nie jest otwarty"
 
@@ -4879,17 +4893,17 @@ msgstr "Nie znaleziono wejść. (Uwaga, wejścia muszą być potwierdzone)"
 msgid "No matching x_key for sign_transaction"
 msgstr "Brak pasującego x_key dla sign_transakcji"
 
-#: electroncash_gui/qt/main_window.py:1358
+#: electroncash_gui/qt/main_window.py:1356
 #: ios/ElectronCash/electroncash_gui/ios_native/receive.py:394
 msgid "No message or amount"
 msgstr "Brak wiadomości lub kwoty"
 
-#: electroncash_gui/qt/main_window.py:1413
+#: electroncash_gui/qt/main_window.py:1411
 msgid "No more addresses in your wallet."
 msgstr "Nie ma więcej adresów w portfelu."
 
-#: electroncash_gui/qt/main_window.py:2025
-#: ios/ElectronCash/electroncash_gui/ios_native/send.py:1025
+#: electroncash_gui/qt/main_window.py:2023
+#: ios/ElectronCash/electroncash_gui/ios_native/send.py:1064
 msgid "No outputs"
 msgstr "Brak wyjść"
 
@@ -4897,7 +4911,7 @@ msgstr "Brak wyjść"
 msgid "No payment requests found. Feel free to create one."
 msgstr "Nie znaleziono próśb o zapłatę. Możesz je utworzyć."
 
-#: electroncash_gui/qt/main_window.py:1354
+#: electroncash_gui/qt/main_window.py:1352
 #: ios/ElectronCash/electroncash_gui/ios_native/receive.py:389
 msgid "No receiving address"
 msgstr "Brak adresu odbiorczego"
@@ -4906,7 +4920,7 @@ msgstr "Brak adresu odbiorczego"
 msgid "No results found. However, your wallet is busy updating. This can interfere with Cash Account lookups. You may want to try again when it is done."
 msgstr "Nie znaleziono wyników. Twój portfel jest zajęty aktualizacją. Może to zakłócać wyszukiwanie Cash Account. Możesz spróbować ponownie po jego zakończeniu."
 
-#: electroncash/network.py:1768
+#: electroncash/network.py:1769
 msgid "No such mempool or blockchain transaction exists."
 msgstr "Taka transakcja nie istnieje ani w mempool ani w blockchain."
 
@@ -4922,15 +4936,15 @@ msgstr "Nie znaleziono transakcji w blockchain."
 msgid "No valid items remain. Cannot proceed -- go back and try again."
 msgstr "Nie ma poprawnych elementów. Nie można kontynuować -- wróć i spróbuj ponownie."
 
-#: android/app/src/main/python/electroncash_gui/android/strings.py:41
+#: android/app/src/main/python/electroncash_gui/android/strings.py:45
 msgid "No wallet"
 msgstr "Brak portfela"
 
-#: android/app/src/main/python/electroncash_gui/android/strings.py:40
+#: android/app/src/main/python/electroncash_gui/android/strings.py:44
 msgid "No wallet is open."
 msgstr "Żaden portfel nie jest otwarty."
 
-#: electroncash_gui/qt/main_window.py:1145
+#: electroncash_gui/qt/main_window.py:1143
 msgctxt "Referencing CashAccount"
 msgid "None"
 msgstr "Brak"
@@ -4974,7 +4988,7 @@ msgstr "Nieskasowany"
 msgid "Not Now"
 msgstr "Nie teraz"
 
-#: electroncash_gui/qt/main_window.py:1864
+#: electroncash_gui/qt/main_window.py:1862
 msgid "Not Removable"
 msgstr "Nie można usunąć"
 
@@ -4986,7 +5000,7 @@ msgstr "Nie zweryfikowane"
 msgid "Not a text file"
 msgstr "To nie plik tekstowy"
 
-#: android/app/src/main/python/electroncash_gui/android/strings.py:42
+#: android/app/src/main/python/electroncash_gui/android/strings.py:46
 #, python-format
 msgid "Not a valid address or private key: '%s'"
 msgstr "Nieprawidłowy adres lub klucz prywatny: '%s'"
@@ -4998,15 +5012,15 @@ msgstr "To nie {schemes} URI"
 
 #. Don't allow a potentially very slow broadcast when obviously not connected.
 #: electroncash_gui/text.py:142 electroncash_gui/stdio.py:122
-#: electroncash_gui/qt/main_window.py:1003
-#: electroncash_gui/qt/main_window.py:2297
+#: electroncash_gui/qt/main_window.py:1002
+#: electroncash_gui/qt/main_window.py:2295
 #: electroncash_gui/qt/network_dialog.py:812
 #: ios/ElectronCash/electroncash_gui/ios_native/network_dialog.py:257
 #: ios/ElectronCash/electroncash_gui/ios_native/gui.py:719
 msgid "Not connected"
 msgstr "Niepołączony"
 
-#: electroncash_gui/qt/main_window.py:1709
+#: electroncash_gui/qt/main_window.py:1707
 msgid "Not enough funds"
 msgstr "Niewystarczające środki"
 
@@ -5022,11 +5036,11 @@ msgstr "Nie zainstalowane"
 msgid "Not verified"
 msgstr "Nie zweryfikowane"
 
-#: electroncash_gui/qt/main_window.py:1617
+#: electroncash_gui/qt/main_window.py:1615
 msgid "Note that if you have frozen some of your addresses, the available funds will be lower than your total balance."
 msgstr "Pamiętaj, że jeśli zamrożono niektóre adresy, dostępne fundusze będą niższe od łącznego salda."
 
-#: electroncash/base_wizard.py:311
+#: electroncash/base_wizard.py:314
 msgid "Note that this is NOT your encryption password."
 msgstr "Pamiętaj, że to NIE jest twoje hasło szyfrowania."
 
@@ -5079,7 +5093,8 @@ msgstr "Liczba zer wyświetlana po przecinku. Np. jeśli wpiszesz tutaj \"2\", t
 msgid "OK"
 msgstr "OK"
 
-#: electroncash_gui/qt/main_window.py:1586
+#: electroncash_gui/qt/main_window.py:1584
+#: ios/ElectronCash/electroncash_gui/ios_native/send.py:219
 msgid "OP_RETURN data (optional)."
 msgstr "Dane OP_RETURN (opcjonalne)."
 
@@ -5096,7 +5111,7 @@ msgstr[1] "OP_RETURN jest ograniczony do {max_pushes}."
 msgstr[2] "OP_RETURN jest ograniczony do {max_pushes}."
 msgstr[3] "OP_RETURN jest ograniczony do {max_pushes}."
 
-#: electroncash_gui/qt/main_window.py:1727 electroncash/transaction.py:1343
+#: electroncash_gui/qt/main_window.py:1725 electroncash/transaction.py:1343
 msgid "OP_RETURN message too large, needs to be no longer than 220 bytes"
 msgstr "Wiadomość OP_RETURN jest zbyt duża, nie może być dłuższa niż 220 bajtów"
 
@@ -5110,6 +5125,7 @@ msgstr "Skrypt OP_RETURN jest zbyt duży, nie może być dłuższy niż 223 bajt
 
 #: electroncash_gui/text.py:130 electroncash_gui/qt/main_window.py:928
 #: electroncash_gui/qt/main_window.py:941 electroncash_gui/qt/__init__.py:791
+#: electroncash_gui/qt/installwizard.py:673
 #: ios/ElectronCash/electroncash_gui/ios_native/wallets.py:153
 #: ios/ElectronCash/electroncash_gui/ios_native/prefs.py:230
 #: ios/ElectronCash/electroncash_gui/ios_native/gui.py:618
@@ -5125,7 +5141,7 @@ msgid "Offline signing with {} is not supported."
 msgstr "Podpisywanie offline z {} nie jest obsługiwane."
 
 #. any other case has all the below keys defined
-#: electroncash_gui/qt/main_window.py:2307
+#: electroncash_gui/qt/main_window.py:2305
 #: electroncash_plugins/fusion/qt.py:395
 #: electroncash_plugins/shuffle_deprecated/qt.py:1687
 #: electroncash_plugins/shuffle_deprecated/qt.py:1720
@@ -5162,7 +5178,7 @@ msgstr[1] "{count} monet zostało wysłanych do CashFusion aby dokonać ich fuzj
 msgstr[2] "{count} monet zostało wysłanych do CashFusion aby dokonać ich fuzji."
 msgstr[3] "{count} monety zostały wysłane do CashFusion aby dokonać ich fuzji."
 
-#: electroncash_gui/qt/main_window.py:2651
+#: electroncash_gui/qt/main_window.py:2649
 msgid "One output per line."
 msgstr "Jedno wyjście na linię."
 
@@ -5236,12 +5252,12 @@ msgstr "OpenAlias"
 msgid "OpenAlias record, used to receive coins and to sign payment requests."
 msgstr "Rekord OpenAlias, służący do otrzymywania monet i podpisywania żądań płatności."
 
-#: ios/ElectronCash/electroncash_gui/ios_native/gui.py:1716
-#: ios/ElectronCash/electroncash_gui/ios_native/gui.py:1923
+#: ios/ElectronCash/electroncash_gui/ios_native/gui.py:1722
+#: ios/ElectronCash/electroncash_gui/ios_native/gui.py:1929
 msgid "Opening encrypted wallet: '{}'"
 msgstr "Otwieranie zaszyfrowanego portfela: '{}'"
 
-#: ios/ElectronCash/electroncash_gui/ios_native/gui.py:1722
+#: ios/ElectronCash/electroncash_gui/ios_native/gui.py:1728
 msgid "Opening {}..."
 msgstr "Otwieranie {}..."
 
@@ -5273,10 +5289,6 @@ msgstr "Nieaktualny firmware {} dla urządzenia oznaczonego {}. Pobierz zaktuali
 #: ios/ElectronCash/electroncash_gui/ios_native/coins.py:484
 msgid "Output"
 msgstr "Wyjście"
-
-#: electroncash_gui/qt/main_window.py:4938
-msgid "Output amount"
-msgstr "Kwota wyjściowa"
 
 #: electroncash_gui/qt/utxo_list.py:58
 msgid "Output point"
@@ -5336,7 +5348,7 @@ msgstr "Zapłacone"
 msgid "Partially signed"
 msgstr "Częściowo podpisany"
 
-#: android/app/src/main/python/electroncash_gui/android/strings.py:43
+#: android/app/src/main/python/electroncash_gui/android/strings.py:47
 msgid "Passphrase"
 msgstr "Fraza haseł"
 
@@ -5353,18 +5365,18 @@ msgstr "Frazy haseł"
 msgid "Passphrases allow you to access new wallets, each hidden behind a particular case-sensitive passphrase."
 msgstr "Frazy haseł pozwalają na dostęp do nowych portfeli, każdy z nich jest ukryty za określoną frazą uwzględniającą wielkość liter."
 
-#: electroncash_gui/qt/main_window.py:2879
+#: electroncash_gui/qt/main_window.py:2877
 #: electroncash_gui/qt/password_dialog.py:225
 #: electroncash_gui/qt/network_dialog.py:514
-#: electroncash_gui/qt/installwizard.py:174
+#: electroncash_gui/qt/installwizard.py:178
 msgid "Password"
 msgstr "Hasło"
 
-#: ios/ElectronCash/electroncash_gui/ios_native/gui.py:1709
+#: ios/ElectronCash/electroncash_gui/ios_native/gui.py:1715
 msgid "Password Incorrect"
 msgstr "Hasło niepoprawne"
 
-#: ios/ElectronCash/electroncash_gui/ios_native/gui.py:1717
+#: ios/ElectronCash/electroncash_gui/ios_native/gui.py:1723
 msgid "Password Required"
 msgstr "Wymagane hasło"
 
@@ -5374,7 +5386,7 @@ msgid "Password Strength"
 msgstr "Siła hasła"
 
 #: electroncash_gui/qt/main_window.py:2952
-#: ios/ElectronCash/electroncash_gui/ios_native/gui.py:2058
+#: ios/ElectronCash/electroncash_gui/ios_native/gui.py:2064
 msgid "Password is disabled, this wallet is not protected"
 msgstr "Hasło jest wyłączone, ten portfel nie jest chroniony"
 
@@ -5389,7 +5401,7 @@ msgid "Password must have less than 64 characters."
 msgstr "Hasło musi mieć mniej niż 64 znaki."
 
 #: electroncash_gui/qt/main_window.py:2952
-#: ios/ElectronCash/electroncash_gui/ios_native/gui.py:2058
+#: ios/ElectronCash/electroncash_gui/ios_native/gui.py:2064
 msgid "Password was updated successfully"
 msgstr "Hasło zaktualizowane pomyślnie"
 
@@ -5401,6 +5413,14 @@ msgstr "Hasło:"
 #: ios/ElectronCash/electroncash_gui/ios_native/contacts.py:574
 msgid "Paste an address or use QR"
 msgstr "Wklej adres lub użyj QR"
+
+#: android/app/src/main/python/electroncash_gui/android/strings.py:48
+msgid "Paste or scan a transaction in hex format:"
+msgstr ""
+
+#: electroncash_gui/qt/installwizard.py:752
+msgid "Path"
+msgstr "Ścieżka"
 
 #. Note: GUI refresh() wil later also set this string but we set it immediately here so UI feel peppier
 #: electroncash_plugins/shuffle_deprecated/qt.py:1399
@@ -5417,7 +5437,7 @@ msgstr "Wstrzymaj/Wznów proces miksowania w tle (zwalnia monety 'zajęte' abyś
 msgid "Paused"
 msgstr "Wstrzymano"
 
-#: electroncash_gui/qt/main_window.py:1565
+#: electroncash_gui/qt/main_window.py:1563
 msgid "Pay &to"
 msgstr "Zapłać &do"
 
@@ -5430,11 +5450,11 @@ msgstr "Zapłać teraz"
 #: electroncash_gui/qt/contact_list.py:215
 #: ios/ElectronCash/electroncash_gui/ios_native/contacts.py:607
 #: ios/ElectronCash/electroncash_gui/ios_native/contacts.py:869
-#: ios/ElectronCash/electroncash_gui/ios_native/send.py:144
+#: ios/ElectronCash/electroncash_gui/ios_native/send.py:148
 msgid "Pay to"
 msgstr "Odbiorca"
 
-#: electroncash_gui/qt/main_window.py:2655
+#: electroncash_gui/qt/main_window.py:2653
 msgid "Pay to many"
 msgstr "Wiele odbiorców"
 
@@ -5448,9 +5468,9 @@ msgid "Payment Request Error"
 msgstr "Błąd prośby o płatność"
 
 #. send.set_PR(self.sendVC, None)
-#: electroncash_gui/qt/main_window.py:1987
-#: electroncash_gui/qt/main_window.py:2243
-#: ios/ElectronCash/electroncash_gui/ios_native/gui.py:1969
+#: electroncash_gui/qt/main_window.py:1985
+#: electroncash_gui/qt/main_window.py:2241
+#: ios/ElectronCash/electroncash_gui/ios_native/gui.py:1975
 msgid "Payment request has expired"
 msgstr "Żądanie płatności wygasło"
 
@@ -5459,8 +5479,8 @@ msgid "Payment request saved"
 msgstr "Prośba o płatność zapisana"
 
 #: electroncash_gui/text.py:358 electroncash_gui/stdio.py:207
-#: electroncash_gui/qt/main_window.py:2318
-#: ios/ElectronCash/electroncash_gui/ios_native/gui.py:2021
+#: electroncash_gui/qt/main_window.py:2316
+#: ios/ElectronCash/electroncash_gui/ios_native/gui.py:2027
 msgid "Payment sent."
 msgstr "Płatność wysłana."
 
@@ -5530,19 +5550,19 @@ msgstr "Upewnij się, że importujesz tylko pliki tekstowe."
 msgid "Please enter a passphrase"
 msgstr "Wprowadź frazę haseł"
 
-#: electroncash_gui/qt/installwizard.py:30
+#: electroncash_gui/qt/installwizard.py:36
 msgid "Please enter a seed phrase or a master key (xpub or xprv):"
 msgstr "Wprowadź frazę seed lub klucz główny (xpub lub xprv):"
 
-#: electroncash_gui/qt/installwizard.py:28
+#: electroncash_gui/qt/installwizard.py:34
 msgid "Please enter a seed phrase, a master key, a list of Bitcoin addresses, or a list of private keys"
 msgstr "Wprowadź frazę seed, klucz główny, listę adresów Bitcoin lub listę kluczy prywatnych"
 
-#: electroncash_gui/qt/installwizard.py:369
+#: electroncash_gui/qt/installwizard.py:371
 msgid "Please enter the master public key (xpub) of your cosigner."
 msgstr "Proszę podać główny klucz publiczny (xpub) lub twój współpodpis."
 
-#: electroncash_gui/qt/installwizard.py:31
+#: electroncash_gui/qt/installwizard.py:37
 msgid "Please enter the master public key of cosigner #{}:"
 msgstr "Wprowadź główny klucz publiczny współpodpisującego #{}:"
 
@@ -5554,7 +5574,7 @@ msgstr "Wprowadź nową nazwę tego portfela:"
 msgid "Please enter your passphrase on the {} device"
 msgstr "Wprowadź frazę haseł na urządzeniu {}"
 
-#: electroncash_gui/qt/main_window.py:1338
+#: electroncash_gui/qt/main_window.py:1336
 #: electroncash_gui/qt/password_dialog.py:217
 #: electroncash_plugins/shuffle_deprecated/qt.py:706
 msgid "Please enter your password"
@@ -5564,15 +5584,15 @@ msgstr "Wprowadź swoje hasło"
 msgid "Please enter your password to decrypt it."
 msgstr "Wprowadź hasło, aby go odszyfrować."
 
-#: electroncash_gui/qt/installwizard.py:35
+#: electroncash_gui/qt/installwizard.py:41
 msgid "Please enter your seed derivation passphrase. Note: this is NOT your encryption password. Leave this field empty if you did not use one or are unsure."
 msgstr "Wprowadź derywację frazy seed seed. Uwaga: to NIE jest hasło do szyfrowania. Pozostaw to pole puste, jeśli go nie używałeś lub nie jesteś pewien."
 
-#: electroncash_gui/qt/installwizard.py:382
+#: electroncash_gui/qt/installwizard.py:384
 msgid "Please enter your seed phrase in order to restore your wallet."
 msgstr "Podaj szyfr twojego ziarna aby odtworzyć twój portfel."
 
-#: electroncash/plugins.py:944
+#: electroncash/plugins.py:939
 msgid "Please insert your {}.  Verify the cable is connected and that no other application is using it.\n\n"
 "Try to connect again?"
 msgstr "Proszę podłączyć Twój {}. Sprawdź, czy kabel jest podłączony i czy żadna inna aplikacja nie korzysta z niego.\n\n"
@@ -5614,7 +5634,7 @@ msgstr "Uruchom ponownie Electron Cash, aby aktywować nowe ustawienia GUI"
 msgid "Please restart the plugin to activate the new settings"
 msgstr "Uruchom ponownie wtyczkę, aby aktywować nowe ustawienia"
 
-#: electroncash_gui/qt/main_window.py:5149
+#: electroncash_gui/qt/main_window.py:5093
 msgid "Please review the transaction, save it, and/or broadcast it at your leisure."
 msgstr "Przejrzyj transakcję, zapisz ją i/lub wyślij ją w innym terminie."
 
@@ -5628,11 +5648,11 @@ msgstr "Proszę zapisać te %d słowa na papierze (kolejność jest ważna). "
 msgid "Please select which server you would like to donate to:"
 msgstr "Wybierz serwer, który chcesz wesprzeć:"
 
-#: electroncash/plugins.py:956
+#: electroncash/plugins.py:951
 msgid "Please select which {} device to use:"
 msgstr "Wybierz które urządzenie {} chcesz użyć:"
 
-#: electroncash_gui/qt/installwizard.py:505
+#: electroncash_gui/qt/installwizard.py:538
 msgid "Please share it with your cosigners."
 msgstr "Proszę udostępnić to swoim współpodspisom."
 
@@ -5640,7 +5660,7 @@ msgstr "Proszę udostępnić to swoim współpodspisom."
 msgid "Please specify a master key to continue. Valid keys are long strings starting with either xpub/ypub/zpub or xprv/yprv/zprv."
 msgstr "Proszę podać klucz główny, aby kontynuować. Prawidłowe klucze to długi ciąg znaków zaczynający się od xpub/ypub/zpub lub xprv/yprv/zprv."
 
-#: ios/ElectronCash/electroncash_gui/ios_native/gui.py:2385
+#: ios/ElectronCash/electroncash_gui/ios_native/gui.py:2391
 msgid "Please touch the home button"
 msgstr "Proszę nacisnąć przycisk home"
 
@@ -5648,7 +5668,7 @@ msgstr "Proszę nacisnąć przycisk home"
 msgid "Please try again."
 msgstr "Spróbuj ponownie."
 
-#: electroncash/base_wizard.py:458
+#: electroncash/base_wizard.py:461
 #: electroncash_plugins/satochip/satochip.py:738
 msgid "Please type it here."
 msgstr "Proszę wpisać to tutaj."
@@ -5675,7 +5695,7 @@ msgid "Please wait while Electron Cash checks for available updates."
 msgstr "Poczekaj, Electron Cash sprawdza dostępność aktualizacji."
 
 #: electroncash_gui/text.py:354 electroncash_gui/stdio.py:203
-#: electroncash_gui/qt/installwizard.py:120 electroncash/wallet.py:2176
+#: electroncash_gui/qt/installwizard.py:124 electroncash/wallet.py:2181
 msgid "Please wait..."
 msgstr "Proszę czekać..."
 
@@ -5722,7 +5742,7 @@ msgstr "Rozmiar puli"
 msgid "Port"
 msgstr "Port"
 
-#: electroncash_gui/qt/main_window.py:2058
+#: electroncash_gui/qt/main_window.py:2056
 #, python-brace-format
 msgid "Possible BTC Segwit address in 'Pay to' field. Please use CashAddr format for p2sh addresses.\n\n"
 "{segwit_addresses}"
@@ -5737,16 +5757,16 @@ msgstr[2] "Możliwych adresów BTC Segwit w polu 'Zapłać do'. Użyj formatu Ca
 msgstr[3] "Możliwe adresy BTC Segwit w polu 'Zapłać do'. Użyj formatu CashAddr dla adresów p2sh.\n\n"
 "{segwit_addresses}"
 
-#: electroncash_gui/qt/main_window.py:1587
+#: electroncash_gui/qt/main_window.py:1585
 msgid "Posts a PERMANENT note to the BCH blockchain as part of this transaction."
 msgstr "Wpisuje NA STAŁE notatkę do blockchaina BCH jako część tej transakcji."
 
-#: ios/ElectronCash/electroncash_gui/ios_native/gui.py:1737
+#: ios/ElectronCash/electroncash_gui/ios_native/gui.py:1743
 msgid "Potentially Unsafe Operation"
 msgstr "Operacja potencjalnie niebezpieczna"
 
 #: electroncash_gui/qt/main_window.py:687
-#: electroncash_gui/qt/main_window.py:2892
+#: electroncash_gui/qt/main_window.py:2890
 #: electroncash_gui/qt/main_window.py:4022
 msgid "Preferences"
 msgstr "Ustawienia"
@@ -5759,11 +5779,11 @@ msgstr "Preferowane"
 msgid "Preferred servers ({}) are servers you have designated as reliable and/or trustworthy."
 msgstr "Preferowane serwery ({}) to serwery, które określiłeś jako niezawodne i/lub wiarygodne."
 
-#: electroncash_gui/qt/installwizard.py:199
+#: electroncash_gui/qt/installwizard.py:203
 msgid "Press 'Next' to create this wallet, or choose another file."
 msgstr "Wciśnij 'Dalej' aby stworzyć ten portfel, lub wybierz inny plik."
 
-#: electroncash_gui/qt/installwizard.py:205
+#: electroncash_gui/qt/installwizard.py:209
 msgid "Press 'Next' to open this wallet."
 msgstr "Wciśnij 'Dalej' aby otworzyć ten portfel."
 
@@ -5771,11 +5791,11 @@ msgstr "Wciśnij 'Dalej' aby otworzyć ten portfel."
 msgid "Press Enter"
 msgstr "Naciśnij Enter"
 
-#: android/app/src/main/python/electroncash_gui/android/strings.py:44
+#: android/app/src/main/python/electroncash_gui/android/strings.py:49
 msgid "Press the menu button above to open or create one."
 msgstr "Naciśnij przycisk menu powyżej, aby go otworzyć lub utworzyć."
 
-#: ios/ElectronCash/electroncash_gui/ios_native/send.py:238
+#: ios/ElectronCash/electroncash_gui/ios_native/send.py:248
 msgid "Preview"
 msgstr "Podgląd"
 
@@ -5812,17 +5832,17 @@ msgstr "Klucze prywatne"
 msgid "Private keys exported."
 msgstr "Klucze prywatne wyeksportowane."
 
-#: electroncash_gui/qt/main_window.py:2093
+#: electroncash_gui/qt/main_window.py:2091
 msgid "Proceed if what you intend to do is to send BCH."
 msgstr "Kontynuuj, jeśli zamierzasz wysłać BCH."
 
-#: electroncash_gui/qt/main_window.py:5100
+#: electroncash_gui/qt/main_window.py:5044
 msgid "Proceed to Send Tab"
 msgstr "Przejdź do zakładki Wyślij"
 
-#: electroncash_gui/qt/main_window.py:2196
-#: electroncash_gui/qt/main_window.py:2284
-#: ios/ElectronCash/electroncash_gui/ios_native/send.py:856
+#: electroncash_gui/qt/main_window.py:2194
+#: electroncash_gui/qt/main_window.py:2282
+#: ios/ElectronCash/electroncash_gui/ios_native/send.py:881
 msgid "Proceed?"
 msgstr "Kontynuować?"
 
@@ -5888,7 +5908,7 @@ msgid "PyQt5 Upgrade Needed"
 msgstr "Wymagana aktualizacja PyQt5"
 
 #: ios/ElectronCash/electroncash_gui/ios_native/contacts.py:503
-#: ios/ElectronCash/electroncash_gui/ios_native/send.py:360
+#: ios/ElectronCash/electroncash_gui/ios_native/send.py:370
 #: ios/ElectronCash/electroncash_gui/ios_native/addrconv.py:85
 #: ios/ElectronCash/electroncash_gui/ios_native/newwallet.py:887
 msgid "QR Not Available"
@@ -5934,7 +5954,7 @@ msgstr "Brak QtSvg"
 msgid "Question"
 msgstr "Pytanie"
 
-#: electroncash_plugins/fusion/fusion.py:726
+#: electroncash_plugins/fusion/fusion.py:723
 msgid "Queued:"
 msgstr "W kolejce:"
 
@@ -5946,11 +5966,11 @@ msgstr "Wyjdź"
 msgid "REMEMBER THE PASSWORD!"
 msgstr "ZAPAMIĘTAJ TO HASŁO!"
 
-#: electroncash_gui/qt/main_window.py:1187
+#: electroncash_gui/qt/main_window.py:1185
 msgid "Raw &hex script"
 msgstr "Surowy skrypt szesnastkowy"
 
-#: electroncash_gui/qt/main_window.py:1254
+#: electroncash_gui/qt/main_window.py:1252
 msgid "Re&quests"
 msgstr "Z&apytania"
 
@@ -5981,11 +6001,11 @@ msgstr "Odczyt z mikrofonu"
 msgid "Read text or image file"
 msgstr "Odczytuj plik tekstowy lub obraz"
 
-#: electroncash_gui/qt/main_window.py:4982
+#: electroncash_gui/qt/main_window.py:4926
 msgid "Rebuild Wallet History"
 msgstr "Przebuduj historię portfela"
 
-#: electroncash_gui/qt/main_window.py:4980
+#: electroncash_gui/qt/main_window.py:4924
 msgid "Rebuild this wallet's history now?"
 msgstr "Odbudować historię tego portfela?"
 
@@ -5995,11 +6015,11 @@ msgstr "Odbudować historię tego portfela?"
 msgid "Receive"
 msgstr "Odbierz"
 
-#: electroncash_gui/qt/main_window.py:1273
+#: electroncash_gui/qt/main_window.py:1271
 msgid "Receive request QR code (click for details)"
 msgstr "Odbierz kod QR zapytania (kliknij po szczegóły)"
 
-#: electroncash_gui/qt/main_window.py:1278
+#: electroncash_gui/qt/main_window.py:1276
 msgid "Receive request URI copied to clipboard"
 msgstr "Adres URI zapytania został skopiowany do schowka"
 
@@ -6026,7 +6046,7 @@ msgstr "Na adres"
 
 #. NB: the translators hopefully will not have too tough a time with this
 #. *fingers crossed* :)
-#: electroncash_gui/qt/main_window.py:1549
+#: electroncash_gui/qt/main_window.py:1547
 msgid "Recipient of the funds."
 msgstr "Odbiorca środków."
 
@@ -6049,9 +6069,9 @@ msgstr "Wprowadź ponownie swoją frazę seed"
 msgid "Refresh GUI"
 msgstr "Odśwież GUI"
 
-#: electroncash_gui/qt/main_window.py:5065
-#: electroncash_gui/qt/main_window.py:5095
-#: electroncash_gui/qt/main_window.py:5161
+#: electroncash_gui/qt/main_window.py:5009
+#: electroncash_gui/qt/main_window.py:5039
+#: electroncash_gui/qt/main_window.py:5105
 msgid "Register A New Cash Account"
 msgstr "Zarejestruj nowy Cash Account"
 
@@ -6059,7 +6079,7 @@ msgstr "Zarejestruj nowy Cash Account"
 msgid "Register Cash Account..."
 msgstr "Rejestruję Cash Account..."
 
-#: electroncash_gui/qt/main_window.py:1119
+#: electroncash_gui/qt/main_window.py:1117
 msgid "Register a new Cash Account for this address"
 msgstr "Zarejestruj nowy Cash Account dla tego adresu"
 
@@ -6067,10 +6087,10 @@ msgstr "Zarejestruj nowy Cash Account dla tego adresu"
 msgid "Register new..."
 msgstr "Rejestruję nowe..."
 
-#: electroncash_gui/qt/main_window.py:1862
+#: electroncash_gui/qt/main_window.py:1860
 #: ios/ElectronCash/electroncash_gui/ios_native/contacts.py:299
 #: ios/ElectronCash/electroncash_gui/ios_native/receive.py:707
-#: ios/ElectronCash/electroncash_gui/ios_native/send.py:976
+#: ios/ElectronCash/electroncash_gui/ios_native/send.py:1001
 #: ios/ElectronCash/electroncash_gui/ios_native/newwallet.py:1150
 msgid "Remove"
 msgstr "Usuń"
@@ -6088,13 +6108,13 @@ msgstr "Usuń z portfela"
 msgid "Remove pinned certificate"
 msgstr "Usuń podłączony certyfikat"
 
-#: electroncash_gui/qt/main_window.py:2751
+#: electroncash_gui/qt/main_window.py:2749
 #, python-brace-format
 msgid "Remove {list_of_contacts} from your contact list?"
 msgstr "Usunąć {list_of_contacts} z Twojej listy kontaktów?"
 
 #. Note: we didn't use ngettext here for plural check because n > 1 in this branch
-#: electroncash_gui/qt/main_window.py:2754
+#: electroncash_gui/qt/main_window.py:2752
 #, python-brace-format
 msgid "Remove {number_of_contacts} contacts from your contact list?"
 msgstr "Usunąć {number_of_contacts} kontaktów z listy kontaktów?"
@@ -6108,7 +6128,7 @@ msgstr "Zmień nazwę"
 msgid "Rename Wallet"
 msgstr "Zmień nazwę portfela"
 
-#: android/app/src/main/python/electroncash_gui/android/strings.py:45
+#: android/app/src/main/python/electroncash_gui/android/strings.py:50
 msgid "Rename wallet"
 msgstr "Zmień nazwę portfela"
 
@@ -6124,11 +6144,11 @@ msgstr "Raport wysłany"
 msgid "Reporting Bugs"
 msgstr "Zgłaszanie błędów"
 
-#: android/app/src/main/python/electroncash_gui/android/strings.py:46
+#: android/app/src/main/python/electroncash_gui/android/strings.py:51
 msgid "Request"
 msgstr "Zapytanie"
 
-#: electroncash_gui/qt/main_window.py:1223
+#: electroncash_gui/qt/main_window.py:1221
 msgid "Request &expires"
 msgstr "Zapytanie &wygasa"
 
@@ -6146,7 +6166,7 @@ msgstr "Żądanie wygasa"
 msgid "Request payment"
 msgstr "Poproś o zapłatę"
 
-#: electroncash_gui/qt/main_window.py:1405
+#: electroncash_gui/qt/main_window.py:1403
 msgid "Request saved successfully"
 msgstr "Żądanie zapisane pomyślnie"
 
@@ -6154,7 +6174,7 @@ msgstr "Żądanie zapisane pomyślnie"
 msgid "Request sent."
 msgstr "Zapytanie wysłane."
 
-#: electroncash_gui/qt/main_window.py:1201
+#: electroncash_gui/qt/main_window.py:1199
 msgid "Requested &amount"
 msgstr "Żądana kwota"
 
@@ -6163,7 +6183,7 @@ msgid "Requested amount"
 msgstr "Żądana kwota"
 
 #: electroncash_gui/qt/invoice_list.py:37
-#: electroncash_gui/qt/main_window.py:2779
+#: electroncash_gui/qt/main_window.py:2777
 msgid "Requestor"
 msgstr "Żądający"
 
@@ -6172,7 +6192,7 @@ msgstr "Żądający"
 msgid "Requests"
 msgstr "Żądania"
 
-#: electroncash_gui/qt/installwizard.py:552
+#: electroncash_gui/qt/installwizard.py:585
 #, python-format
 msgid "Require %d signatures"
 msgstr "Wymaga %d podpisów"
@@ -6211,7 +6231,7 @@ msgstr "Uruchomić teraz ponownie wtyczkę CashShuffle?"
 msgid "Restore from Seed"
 msgstr "Przywróć z Seed"
 
-#: android/app/src/main/python/electroncash_gui/android/strings.py:47
+#: android/app/src/main/python/electroncash_gui/android/strings.py:52
 msgid "Restore from seed"
 msgstr "Przywróć z seed"
 
@@ -6271,7 +6291,7 @@ msgstr "Portfel Satochip"
 msgid "Satoshi Nakamoto"
 msgstr "Satoshi Nakamoto"
 
-#: electroncash_gui/qt/main_window.py:2802
+#: electroncash_gui/qt/main_window.py:2800
 #: ios/ElectronCash/electroncash_gui/ios_native/newwallet.py:268
 msgid "Save"
 msgstr "Zapisz"
@@ -6289,7 +6309,7 @@ msgstr "Zapisz portfel"
 msgid "Save as BIP70 file"
 msgstr "Zapisz jako plik BIP70"
 
-#: electroncash_gui/qt/main_window.py:2796
+#: electroncash_gui/qt/main_window.py:2794
 msgid "Save invoice to file"
 msgstr "Zapisz rachunek do pliku"
 
@@ -6304,10 +6324,6 @@ msgstr "Zapisz tę frazę haseł podczas zapisywania wygenerowanego klucza, aby�
 #: electroncash_gui/qt/main_window.py:3484
 msgid "Save this passphrase so you may decrypt your BIP38 keys later."
 msgstr "Zapisz tę frazę haseł, abyś mógł odszyfrować swoje klucze BIP38 później."
-
-#: android/app/src/main/python/electroncash_gui/android/strings.py:48
-msgid "Save transaction"
-msgstr "Zapisz transakcję"
 
 #: electroncash_plugins/labels/__init__.py:5
 msgid "Save your wallet labels on a remote server, and synchronize them across multiple devices where you use Electron Cash."
@@ -6325,9 +6341,21 @@ msgstr "Skanuj &więcej adresów..."
 msgid "Scan Beyond Gap"
 msgstr "Skanuj poza luką"
 
+#: electroncash_gui/qt/installwizard.py:525
+msgid "Scan Derivation Paths..."
+msgstr "Zeskanuj ścieżki (derivation paths)..."
+
+#: android/app/src/main/python/electroncash_gui/android/strings.py:53
+msgid "Scan QR"
+msgstr ""
+
 #: electroncash_gui/qt/qrreader/camera_dialog.py:106
 msgid "Scan QR Code"
 msgstr "Skanuj kod QR"
+
+#: electroncash_gui/qt/installwizard.py:778
+msgid "Scanned {}/{}"
+msgstr "Zeskanowano {}/{}"
 
 #: electroncash_gui/qt/scan_beyond_gap.py:44
 msgid "Scanning Beyond the Gap"
@@ -6337,11 +6365,15 @@ msgstr "Skanowanie poza luką"
 msgid "Scanning {} of {} addresses ...{}"
 msgstr "Skanowanie {} z {} adresów ...{}"
 
+#: electroncash_gui/qt/installwizard.py:762
+msgid "Scanning..."
+msgstr "Skanowanie..."
+
 #: ios/ElectronCash/electroncash_gui/ios_native/txdetail.py:593
 msgid "Schnorr Signed"
 msgstr "Podpisano Schnorr"
 
-#: electroncash/wallet.py:2655
+#: electroncash/wallet.py:2641
 msgid "Schnorr signatures are disabled for this wallet type."
 msgstr "Podpisy Schnorr są wyłączone dla tego typu portfela."
 
@@ -6359,7 +6391,7 @@ msgstr "Typ skryptu"
 msgid "Search online..."
 msgstr "Szukaj online..."
 
-#: electroncash_gui/qt/main_window.py:2868
+#: electroncash_gui/qt/main_window.py:2866
 #, python-brace-format
 msgid "Search wallet, {key}F to hide"
 msgstr "Szukaj portfela, {key}F do ukrycia"
@@ -6374,11 +6406,11 @@ msgid "Secure Channel"
 msgstr "Bezpieczny kanał"
 
 #. Full stop.. will proceed with DoPromptPW (calling self recursively) after msg box is dismissed
-#: ios/ElectronCash/electroncash_gui/ios_native/gui.py:1835
+#: ios/ElectronCash/electroncash_gui/ios_native/gui.py:1841
 msgid "Secure Enclave Key Reset"
 msgstr "Resetowanie klucza Secure Enclave"
 
-#: ios/ElectronCash/electroncash_gui/ios_native/gui.py:2076
+#: ios/ElectronCash/electroncash_gui/ios_native/gui.py:2082
 msgid "Secure Enclave Unavailable"
 msgstr "Secure Enklave niedostępna"
 
@@ -6391,7 +6423,7 @@ msgstr "Kontrola Security Card"
 msgid "Security Warning"
 msgstr "Ostrzeżenie bezpieczeństwa"
 
-#: electroncash_gui/qt/main_window.py:2893
+#: electroncash_gui/qt/main_window.py:2892
 #: electroncash_gui/qt/seed_dialog.py:210
 #: ios/ElectronCash/electroncash_gui/ios_native/newwallet.py:33
 #: ios/ElectronCash/electroncash_gui/ios_native/newwallet.py:289
@@ -6410,7 +6442,7 @@ msgstr "Wprowadzanie Seed"
 msgid "Seed Type"
 msgstr "Rodzaj ziarna"
 
-#: electroncash/base_wizard.py:305
+#: electroncash/base_wizard.py:308
 msgid "Seed extension"
 msgstr "Rozszerzenie frazy seed"
 
@@ -6432,6 +6464,10 @@ msgstr "Zaznacz wszystko"
 #: electroncash_gui/qt/cashacctqt.py:513
 msgid "Select Cash Account"
 msgstr "Wybierz Cash Account"
+
+#: electroncash_gui/qt/installwizard.py:736
+msgid "Select Derivation Path"
+msgstr "Wybierz Ścieżkę (derivation path)"
 
 #: electroncash_gui/qt/external_plugins_window.py:326
 msgid "Select Plugin"
@@ -6469,7 +6505,7 @@ msgstr "Wybierz typ odzyskiwania:"
 msgid "Select server automatically"
 msgstr "Wybierz serwer automatycznie"
 
-#: electroncash_gui/qt/installwizard.py:520
+#: electroncash_gui/qt/installwizard.py:553
 msgid "Select server manually"
 msgstr "Wybierz serwer ręcznie"
 
@@ -6477,7 +6513,7 @@ msgstr "Wybierz serwer ręcznie"
 msgid "Select when the payment request should expire"
 msgstr "Wybierz, kiedy prośbą o zapłatę ma wygasnąć"
 
-#: electroncash_gui/qt/main_window.py:1401
+#: electroncash_gui/qt/main_window.py:1399
 msgid "Select where to save your payment request"
 msgstr "Wybierz, gdzie zapisać żądanie zapłaty"
 
@@ -6503,8 +6539,8 @@ msgid "Self-Fusing"
 msgstr "Samodzielna fuzja"
 
 #: electroncash_gui/text.py:63 electroncash_gui/qt/main_window.py:188
-#: ios/ElectronCash/electroncash_gui/ios_native/send.py:67
-#: ios/ElectronCash/electroncash_gui/ios_native/send.py:236
+#: ios/ElectronCash/electroncash_gui/ios_native/send.py:69
+#: ios/ElectronCash/electroncash_gui/ios_native/send.py:246
 #: ios/ElectronCash/electroncash_gui/ios_native/gui.py:308
 msgid "Send"
 msgstr "Wyślij"
@@ -6572,7 +6608,7 @@ msgstr "Lista zablokowanych serwerów jest pusta!"
 msgid "Server banned"
 msgstr "Serwer zablokowany"
 
-#: electroncash/network.py:1785
+#: electroncash/network.py:1786
 msgid "Server did not answer"
 msgstr "Serwer nie odpowiada"
 
@@ -6593,11 +6629,11 @@ msgstr "Serwer jest nieprawidłowo skonfigurowany"
 msgid "Server peers"
 msgstr "Peery serwera"
 
-#: electroncash/network.py:1844
+#: electroncash/network.py:1845
 msgid "Server response does not match signed transaction ID."
 msgstr "Odpowiedź serwera nie pasuje do podpisanej ID transakcji."
 
-#: electroncash/network.py:1788
+#: electroncash/network.py:1789
 msgid "Server returned an error response"
 msgstr "Serwer zwrócił błędną odpowiedź"
 
@@ -6763,7 +6799,7 @@ msgstr "Pokaż na {}"
 msgid "Show report contents"
 msgstr "Pokaż zawartość raportu"
 
-#: android/app/src/main/python/electroncash_gui/android/strings.py:49
+#: android/app/src/main/python/electroncash_gui/android/strings.py:55
 msgid "Show seed"
 msgstr "Pokaż seed"
 
@@ -6851,6 +6887,10 @@ msgstr "Podpisz wszystkie transakcje za pomocą podpisów Schnorr."
 msgid "Sign the transaction"
 msgstr "Podpisz transakcję"
 
+#: android/app/src/main/python/electroncash_gui/android/strings.py:54
+msgid "Sign transaction"
+msgstr ""
+
 #. Schnorr
 #: electroncash_gui/qt/main_window.py:4491
 msgid "Sign with Schnorr signatures"
@@ -6870,7 +6910,7 @@ msgstr "Podpisz/zweryfikuj wiadomość"
 msgid "Sign/verify message"
 msgstr "Podpisz/zweryfikuj wiadomość"
 
-#: electroncash_gui/qt/main_window.py:2787
+#: electroncash_gui/qt/main_window.py:2785
 #: electroncash_gui/qt/main_window.py:3243
 msgid "Signature"
 msgstr "Podpis"
@@ -6884,7 +6924,7 @@ msgstr "Sygnatura zweryfikowana"
 msgid "Signed"
 msgstr "Podpisano"
 
-#: android/app/src/main/python/electroncash_gui/android/strings.py:51
+#: android/app/src/main/python/electroncash_gui/android/strings.py:57
 msgid "Signed transaction"
 msgstr "Podpisana transakcja"
 
@@ -6900,8 +6940,8 @@ msgstr "Podpisywanie wiadomości..."
 msgid "Signing message..."
 msgstr "Podpisywanie wiadomości..."
 
-#: electroncash_gui/qt/main_window.py:2231
-#: ios/ElectronCash/electroncash_gui/ios_native/gui.py:1958
+#: electroncash_gui/qt/main_window.py:2229
+#: ios/ElectronCash/electroncash_gui/ios_native/gui.py:1964
 #: electroncash_plugins/digitalbitbox/digitalbitbox.py:609
 msgid "Signing transaction..."
 msgstr "Podpisywanie transakcji..."
@@ -6911,7 +6951,7 @@ msgstr "Podpisywanie transakcji..."
 msgid "Signing with an address actually means signing with the corresponding private key, and verifying with the corresponding public key. The address you have entered does not have a unique public key, so these operations cannot be performed."
 msgstr "Podpisywanie za pomocą adresu oznacza w rzeczywistości podpisywanie odpowiednim kluczem prywatnym i weryfikowanie za pomocą odpowiedniego klucza publicznego. Wprowadzony adres nie ma unikalnego klucza publicznego, więc nie można wykonać tych operacji."
 
-#: android/app/src/main/python/electroncash_gui/android/strings.py:50
+#: android/app/src/main/python/electroncash_gui/android/strings.py:56
 msgid "Size"
 msgstr "Rozmiar"
 
@@ -6967,7 +7007,7 @@ msgstr "Podaj hasło do szyfrowania BIP38."
 msgid "Specify minimum and maximum coin amounts to select for shuffling:"
 msgstr "Podaj minimalne i maksymalne kwoty monet do do miksowania:"
 
-#: electroncash_gui/qt/main_window.py:5099
+#: electroncash_gui/qt/main_window.py:5043
 msgid "Specify the <b>account name</b> below (limited to 99 characters):"
 msgstr "Podaj poniżej <b>nazwę konta</b> (ograniczone do 99 znaków):"
 
@@ -6977,7 +7017,7 @@ msgstr "Podaj poniżej <b>nazwę konta</b> (ograniczone do 99 znaków):"
 msgid "Spend"
 msgstr "Wydaj"
 
-#: ios/ElectronCash/electroncash_gui/ios_native/send.py:919
+#: ios/ElectronCash/electroncash_gui/ios_native/send.py:944
 msgid "Spend From"
 msgstr "Wydaj z"
 
@@ -7092,7 +7132,7 @@ msgstr "Prześlij transakcję do łańcucha bloków"
 #: ios/ElectronCash/electroncash_gui/ios_native/sign_decrypt_dialog.py:260
 #: ios/ElectronCash/electroncash_gui/ios_native/sign_decrypt_dialog.py:289
 #: ios/ElectronCash/electroncash_gui/ios_native/sign_decrypt_dialog.py:343
-#: ios/ElectronCash/electroncash_gui/ios_native/gui.py:2059
+#: ios/ElectronCash/electroncash_gui/ios_native/gui.py:2065
 msgid "Success"
 msgstr "Powodzenie"
 
@@ -7111,6 +7151,15 @@ msgstr "Obsługiwane monety"
 #: electroncash_gui/qt/main_window.py:3856
 msgid "Sweep"
 msgstr "Opróżnij"
+
+#: android/app/src/main/python/electroncash_gui/android/strings.py:58
+#, python-format
+msgid "Sweep %d input"
+msgid_plural "Sweep %d inputs"
+msgstr[0] ""
+msgstr[1] ""
+msgstr[2] ""
+msgstr[3] ""
 
 #: electroncash_gui/qt/main_window.py:3835
 msgid "Sweep private keys"
@@ -7161,18 +7210,18 @@ msgstr "Docelowa liczba monet w portfelu"
 msgid "Target typical output amount"
 msgstr "Docelowa typowa kwota wyjściowa"
 
-#: electroncash_gui/qt/main_window.py:4997 electroncash_gui/qt/util.py:905
+#: electroncash_gui/qt/main_window.py:4941 electroncash_gui/qt/util.py:905
 #: electroncash_gui/qt/transaction_dialog.py:769
 #: ios/ElectronCash/electroncash_gui/ios_native/seed_dialog.py:115
 msgid "Text copied to clipboard"
 msgstr "Tekst skopiowany do schowka"
 
-#: electroncash_gui/qt/main_window.py:1221
+#: electroncash_gui/qt/main_window.py:1219
 msgid "The Bitcoin Cash address never expires and will always be part of this Electron Cash wallet."
 msgstr "Adres Bitcoin Cash nigdy nie wygasa i zawsze będzie częścią portfela Electron Cash."
 
 #. Cash Account for this address (if any)
-#: electroncash_gui/qt/main_window.py:1107
+#: electroncash_gui/qt/main_window.py:1105
 msgid "The Cash Account (if any) associated with this address. It doesn't get saved with the request, but it is shown here for your convenience.\n\n"
 "You may use the Cash Accounts button to register a new Cash Account for this address."
 msgstr "Powiązany z tym adrem Cash Account (jeśli istnieje). Nie jest zapisywany wraz z prośbą, ale jest wyświetlany tutaj dla Twojej wygody.\n\n"
@@ -7201,13 +7250,13 @@ msgstr "Kod PIN nie może być dłuższy niż 9 znaków."
 msgid "The PIN values do not match! Please type PIN again!"
 msgstr "Wartości PIN nie pasują! Proszę wpisać kod PIN ponownie!"
 
-#: ios/ElectronCash/electroncash_gui/ios_native/send.py:117
+#: ios/ElectronCash/electroncash_gui/ios_native/send.py:121
 msgid "The QR code contains multiple outputs. At this time only a single output is supported.\n"
 "Please try again."
 msgstr "Kod QR zawiera wiele wyjść. W tej chwili obsługiwane jest tylko jedno wyjście.\n"
 "Spróbuj ponownie."
 
-#: ios/ElectronCash/electroncash_gui/ios_native/send.py:120
+#: ios/ElectronCash/electroncash_gui/ios_native/send.py:124
 msgid "The QR code does not appear to be a valid BCH address or payment request.\n"
 "Please try again."
 msgstr "Kod QR wydaje się nie być prawidłowym adresem BCH lub prośbą o zapłatę.\n"
@@ -7220,7 +7269,7 @@ msgid "The QR code does not appear to be a valid BCH address.\n"
 msgstr "Kod QR wydaje się nie być prawidłowym adresem BCH.\n"
 "Spróbuj ponownie."
 
-#: electroncash_gui/qt/main_window.py:5148
+#: electroncash_gui/qt/main_window.py:5092
 msgid "The Send Tab has been filled-in with your <b>Cash Accounts</b> registration data."
 msgstr "Zakładka Wyślij została wypełniona danymi rejestracyjnymi <b>Cash Accounts</b>."
 
@@ -7236,7 +7285,7 @@ msgstr "Klient Tor został pomyślnie uruchomiony."
 msgid "The address for the decrypted private key."
 msgstr "Adres dla rozszyfrowanego klucza prywatnego."
 
-#: electroncash_gui/qt/main_window.py:1640
+#: electroncash_gui/qt/main_window.py:1638
 msgid "The amount of fee can be decided freely by the sender. However, transactions with low fees take more time to be processed."
 msgstr "Wysokość opłat może być dowolnie ustalona przez nadawcę. Jednak im niższa opłata, tym transakcja może dłużej oczekiwać na potwierdzenie."
 
@@ -7244,7 +7293,7 @@ msgstr "Wysokość opłat może być dowolnie ustalona przez nadawcę. Jednak im
 msgid "The amount of overall time in seconds to allow for downloading fee data before giving up"
 msgstr "Całkowita ilość czasu w sekundach przeznaczona na pobranie danych o opłatach"
 
-#: electroncash_gui/qt/main_window.py:1616
+#: electroncash_gui/qt/main_window.py:1614
 msgid "The amount will be displayed in red if you do not have enough funds in your wallet."
 msgstr "Kwota będzie miała kolor czerwony, jeśli przekroczy dostępne środki."
 
@@ -7254,7 +7303,7 @@ msgid "The below keys are BIP38 <i>encrypted</i> using the passphrase: {passphra
 msgstr "Poniższe klucze są BIP38 <i>zaszyfrowane</i> przy użyciu frazy haseł: {passphrase}<br>Proszę <i>je zapisać </i> i umieścić je w tajnym miejscu, odseparowanym od tych zaszyfrowanych kluczy."
 
 #: ios/ElectronCash/electroncash_gui/ios_native/contacts.py:503
-#: ios/ElectronCash/electroncash_gui/ios_native/send.py:360
+#: ios/ElectronCash/electroncash_gui/ios_native/send.py:370
 #: ios/ElectronCash/electroncash_gui/ios_native/addrconv.py:85
 #: ios/ElectronCash/electroncash_gui/ios_native/newwallet.py:887
 msgid "The camera is not available for reading QR codes"
@@ -7268,7 +7317,7 @@ msgstr "Raportowanie awarii jest okienkiem, które się wyświetla, gdy Electron
 "Zaleca się pozostawienie tej opcji włączonej, aby programiści mogli być powiadamiani o błędach wewnętrznych. Gdy wystąpi awaria, zostaniesz poproszony o wysłanie raportu.\n\n"
 "Prywatne informacje nigdy nie są ujawniane programistom w raportach o awariach."
 
-#: electroncash_gui/qt/main_window.py:5097
+#: electroncash_gui/qt/main_window.py:5041
 #, python-brace-format
 msgid "The current block height is <b><i>{block_height}</i></b>, so the new cash account will likely look like: <b><u><i>AccountName<i>#{number}</u></b>."
 msgstr "Aktualna wysokość bloku to <b><i>{block_height}</i></b>, nowy Cash Account prawdopodobnie będzie wyglądał tak: <b><u><i>Nazwa<i>#{number}</u></b>."
@@ -7277,7 +7326,7 @@ msgstr "Aktualna wysokość bloku to <b><i>{block_height}</i></b>, nowy Cash Acc
 msgid "The decrypted private key (WIF key) originally used to create this BIP38 key."
 msgstr "Odszyfrowany klucz prywatny (klucz WIF) pierwotnie użyty do utworzenia tego klucza BIP38."
 
-#: electroncash_gui/qt/main_window.py:1579
+#: electroncash_gui/qt/main_window.py:1577
 msgid "The description is not sent to the recipient of the funds. It is stored in your wallet file, and displayed in the 'History' tab."
 msgstr "Opis nie jest wysyłany do odbiorcy. Zapisywany jest natomiast w pliku portfela i wyświetlany jest w zakładce \"Historia\"."
 
@@ -7289,14 +7338,14 @@ msgstr "Urządzenie zostało rozłączone."
 msgid "The email plugin is enabled but not configured. Please go to its settings and configure it, or disable it if you do not wish to use it."
 msgstr "Wtyczka e-mail jest włączona, ale nie skonfigurowana. Przejdź do jej ustawień i skonfiguruj lub wyłącz jeśli nie chcesz używać."
 
-#: electroncash_gui/qt/installwizard.py:271
+#: electroncash_gui/qt/installwizard.py:275
 msgid "The file '{}' contains an incompletely created wallet.\n"
 "Do you want to complete its creation now?"
 msgstr "Plik '{}' zawiera niekompletnie utworzony portfel.\n"
 "Czy chcesz zakończyć jego tworzenie teraz?"
 
-#: electroncash_gui/qt/installwizard.py:256
-#: electroncash_gui/qt/installwizard.py:276
+#: electroncash_gui/qt/installwizard.py:260
+#: electroncash_gui/qt/installwizard.py:280
 msgid "The file was removed"
 msgstr "Plik został usunięty"
 
@@ -7316,7 +7365,7 @@ msgstr "Dostępne są następujący dostawcy aliasów:"
 msgid "The following could not be imported"
 msgstr "Następujące nie mogły zostać zaimportowane"
 
-#: electroncash_gui/qt/installwizard.py:261
+#: electroncash_gui/qt/installwizard.py:265
 #, python-format
 msgid "The format of your wallet '%s' must be upgraded for Electron Cash. This change will not be backward compatible"
 msgstr "Format twojego portfela '%s' musi zostać uaktualniony dla Electron Cash. Ta zmiana nie będzie wstecznie kompatybilna"
@@ -7346,7 +7395,7 @@ msgstr "Liczba zapytań sieciowych bez odpowiedzi.\n\n"
 msgid "The operation is undefined. Not just in Electron Cash, but in general."
 msgstr "Operacja jest niezdefiniowana. Nie tylko w Electron Cash, ale ogólnie."
 
-#: ios/ElectronCash/electroncash_gui/ios_native/gui.py:1708
+#: ios/ElectronCash/electroncash_gui/ios_native/gui.py:1714
 msgid "The password was incorrect for this encrypted wallet, please try again."
 msgstr "Hasło dla tego zaszyfrowanego portfela jest nieprawidłowe, spróbuj ponownie."
 
@@ -7423,7 +7472,7 @@ msgstr "Wprowadzony seed nie pasuje do wygenerowanego seeda. Wróć do poprzedni
 msgid "The selected file appears to be a binary file."
 msgstr "Wybrany plik wydaje się być plikiem binarnym."
 
-#: electroncash/network.py:1770
+#: electroncash/network.py:1771
 msgid "The server did not answer; network may be down."
 msgstr "Serwer nie odpowiedział; sieć może być niedostępna."
 
@@ -7439,7 +7488,7 @@ msgstr "Podane Cash Account wydaje się nie być powiązane z żadnym adresem"
 msgid "The specified WIF key '{}' is a p2sh WIF key. These key types cannot be swept."
 msgstr "Podany klucz WIF '{}' jest kluczem p2sh WIF. Te typy kluczy nie mogą być wyczyszczone."
 
-#: electroncash_gui/qt/main_window.py:5109
+#: electroncash_gui/qt/main_window.py:5053
 msgid "The specified name cannot be used for a Cash Accounts registration. You must specify 1-99 alphanumeric (ASCII) characters, without spaces (underscores are permitted as well)."
 msgstr "Podana nazwa nie może być użyta do rejestracji Cash Account. Musisz podać 1-99 znaków alfanumerycznych (ASCII) bez spacji (znaki podkreślenia są również dozwolone)."
 
@@ -7449,110 +7498,106 @@ msgid "The specified public key cannot decrypt this cyphertext.\n"
 msgstr "Określony klucz publiczny nie może odszyfrować tego szyfru.\n"
 "Proszę określić prawidłowy klucz do odszyfrowania."
 
-#: android/app/src/main/python/electroncash_gui/android/strings.py:52
-msgid "The string you entered has been broadcast. Please check your transactions for confirmation."
-msgstr "Wprowadzony ciąg znaków został wysłany. Sprawdź swoje transakcje w celu potwierdzenia."
-
 #. We get this message whenever any of this transaction's outputs are already in confirmed utxo set (and are unspent).
 #. For confirmed txn with all outputs already spent, we will see "missing inputs" instead.
-#: electroncash/network.py:1872
+#: electroncash/network.py:1873
 msgid "The transaction already exists in the blockchain."
 msgstr "Transakcja już istnieje w blockchain."
 
-#: electroncash/network.py:1880
+#: electroncash/network.py:1881
 msgid "The transaction already exists in the server's mempool."
 msgstr "Transakcja już istnieje w mempool serwera."
 
-#: electroncash/network.py:1882
+#: electroncash/network.py:1883
 msgid "The transaction conflicts with a transaction already in the server's mempool."
 msgstr "Transakcja jest sprzeczna z transakcją znajdującą się już w mempool serwera."
 
-#: electroncash/network.py:1923
+#: electroncash/network.py:1924
 msgid "The transaction could not be decoded."
 msgstr "Nie można zdekodować transakcji."
 
-#: electroncash/network.py:1898
+#: electroncash/network.py:1899
 msgid "The transaction was rejected because it contains a bare multisig output."
 msgstr "Transakcja została odrzucona, ponieważ zawiera niezrozumiałe wyjście multisig."
 
-#: electroncash/network.py:1896
+#: electroncash/network.py:1897
 msgid "The transaction was rejected because it contains a non-standard output script."
 msgstr "Transakcja została odrzucona, ponieważ zawiera niestandardowy skrypt wyjścia."
 
-#: electroncash/network.py:1894
+#: electroncash/network.py:1895
 msgid "The transaction was rejected because it contains a script that is too large."
 msgstr "Transakcja została odrzucona, ponieważ zawiera skrypt który jest zbyt duży."
 
-#: electroncash/network.py:1900
+#: electroncash/network.py:1901
 msgid "The transaction was rejected because it contains multiple OP_RETURN outputs."
 msgstr "Transakcja została odrzucona, ponieważ zawiera wiele wyjść OP_RETURN."
 
-#: electroncash/network.py:1902
+#: electroncash/network.py:1903
 msgid "The transaction was rejected because it contains non-push-only script sigs."
 msgstr "Transakcja została odrzucona, ponieważ zawiera podpisy skryptu non-push-only."
 
-#: electroncash/network.py:1915
+#: electroncash/network.py:1916
 msgid "The transaction was rejected because it contains null or duplicate inputs."
 msgstr "Transakcja została odrzucona, ponieważ zawiera puste lub zduplikowane wejścia."
 
 #. std limit is 4000; this is basically impossible to reach on mainnet using normal txes, due to the 100kB size limit.
-#: electroncash/network.py:1907
+#: electroncash/network.py:1908
 msgid "The transaction was rejected because it contains too many signature-check opcodes."
 msgstr "Transakcja została odrzucona, ponieważ zawiera zbyt wiele signature-check opcodów."
 
-#: electroncash/network.py:1913
+#: electroncash/network.py:1914
 msgid "The transaction was rejected because it is a coinbase transaction."
 msgstr "Transakcja została odrzucona, ponieważ jest to transakcja coinbase."
 
-#: electroncash/network.py:1917
+#: electroncash/network.py:1918
 msgid "The transaction was rejected because it is has no inputs or no outputs."
 msgstr "Transakcja została odrzucona, ponieważ nie ma wejść albo wyjść."
 
-#: electroncash/network.py:1904
+#: electroncash/network.py:1905
 msgid "The transaction was rejected because it is not considered final according to network rules."
 msgstr "Transakcja została odrzucona, ponieważ zgodnie z zasadami sieciowymi nie jest uważana za ostateczną."
 
-#: electroncash/network.py:1892
+#: electroncash/network.py:1893
 msgid "The transaction was rejected because it is too large (in bytes)."
 msgstr "Transakcja została odrzucona, ponieważ jest zbyt duża (w bajtach)."
 
-#: electroncash/network.py:1919
+#: electroncash/network.py:1920
 msgid "The transaction was rejected because it is too small."
 msgstr "Transakcja została odrzucona, ponieważ jest zbyt mała."
 
-#: electroncash/network.py:1911
+#: electroncash/network.py:1912
 msgid "The transaction was rejected because it pays a negative or huge fee."
 msgstr "Transakcja została odrzucona, ponieważ uiszcza ujemną lub ogromną opłatę."
 
-#: electroncash/network.py:1888
+#: electroncash/network.py:1889
 msgid "The transaction was rejected because it specifies an absurdly high fee."
 msgstr "Transakcja została odrzucona, ponieważ uiszcza absurdalnie wysoką opłatę."
 
-#: electroncash/network.py:1921
+#: electroncash/network.py:1922
 msgid "The transaction was rejected because it uses a non-standard version."
 msgstr "Transakcja została odrzucona, ponieważ używa niestandardowej wersji."
 
-#: electroncash/network.py:1909
+#: electroncash/network.py:1910
 msgid "The transaction was rejected because its amounts are out of range."
 msgstr "Transakcja została odrzucona, ponieważ jej kwoty są poza zakresem."
 
-#: electroncash/network.py:1890
+#: electroncash/network.py:1891
 msgid "The transaction was rejected due to an error in script execution."
 msgstr "Transakcja została odrzucona z powodu błędu w wykonaniu skryptu."
 
-#: electroncash/network.py:1884
+#: electroncash/network.py:1885
 msgid "The transaction was rejected due to having too many mempool ancestors. Wait for confirmations and try again."
 msgstr "Transakcja została odrzucona z powodu zbyt wielu niepotwierdzonych połączonych transakcji. Poczekaj na potwierdzenie i spróbuj ponownie."
 
-#: electroncash/network.py:1886
+#: electroncash/network.py:1887
 msgid "The transaction was rejected due to its use of non-standard inputs."
 msgstr "Transakcja została odrzucona ze względu na jej niestandardowe wejścia."
 
-#: electroncash/network.py:1876
+#: electroncash/network.py:1877
 msgid "The transaction was rejected due to paying insufficient fees (possibly due to network congestion)."
 msgstr "Transakcja została odrzucona z powodu niewystarczających opłat (prawdopodobnie z powodu przeciążenia sieci)."
 
-#: electroncash/network.py:1874
+#: electroncash/network.py:1875
 msgid "The transaction was rejected due to paying insufficient fees."
 msgstr "Transakcja została odrzucona z powodu niewystarczających opłat."
 
@@ -7560,7 +7605,7 @@ msgstr "Transakcja została odrzucona z powodu niewystarczających opłat."
 msgid "The version of your Satochip is higher than supported by Electron Cash. You should update Electron Cash to ensure correct functioning!"
 msgstr "Wersja Satochip jest wyższa niż obsługiwana przez Electron Cash. Musisz zaktualizować Electron Cash, aby zapewnić prawidłowe działanie!"
 
-#: electroncash_gui/qt/installwizard.py:248
+#: electroncash_gui/qt/installwizard.py:252
 msgid "The wallet '{}' contains multiple accounts, which are no longer supported since Electrum 2.7.\n\n"
 "Do you want to split your wallet into multiple files?"
 msgstr "Portfel '{}' zawiera wielokrotne konta, które nie są już obsługiwane od Electrum 2.7.\n\n"
@@ -7596,7 +7641,7 @@ msgid "There was a problem connecting to this server.\n"
 msgstr "Wystąpił problem podczas łączenia z tym serwerem.\n"
 "Wybierz inny serwer CashShuffle."
 
-#: electroncash_gui/qt/main_window.py:2394
+#: electroncash_gui/qt/main_window.py:2392
 msgid "There was an error processing the payment request"
 msgstr "Wystąpił błąd podczas przetwarzania prośby o zapłatę"
 
@@ -7610,11 +7655,11 @@ msgstr "Wystąpił błąd podczas uruchamiania klienta Tor"
 msgid "This blockchain is used to verify the transactions sent by your transaction server."
 msgstr "Ten łańcuch bloków jest wykorzystywany do weryfikowania transakcji wysłanych przez twój serwer transakcji."
 
-#: ios/ElectronCash/electroncash_gui/ios_native/gui.py:2077
+#: ios/ElectronCash/electroncash_gui/ios_native/gui.py:2083
 msgid "This device lacks the secure enclave service. As such, Touch/Face ID based wallet authentication is unavailable."
 msgstr "Na tym urządzeniu brakuje secure enclave service. Autoryzacja portfela z wykorzystaniem Touch/Face ID jest niedostępna."
 
-#: electroncash_gui/qt/main_window.py:4977
+#: electroncash_gui/qt/main_window.py:4921
 msgid "This feature is intended to allow you to rebuild a wallet if it has become corrupted."
 msgstr "Ta funkcja ma na celu umożliwienie rekonstrukcji portfela, jeśli zostanie uszkodzony."
 
@@ -7626,11 +7671,11 @@ msgstr "Ta funkcja jest niedostępna, ponieważ nie znaleziono binarnego Tor."
 msgid "This feature was added in response to the potential for a malicious actor to deny service via launching many servers (aka a sybil attack)."
 msgstr "Ta funkcja została dodana w odpowiedzi na potencjalne zagrożenie przez złośliwego użytkownika, który chce uszkodzić serwis poprzez uruchomienie wielu serwerów (znanego jako atak sybil)."
 
-#: electroncash_gui/qt/installwizard.py:198
+#: electroncash_gui/qt/installwizard.py:202
 msgid "This file does not exist."
 msgstr "Ten plik nie istnieje."
 
-#: electroncash_gui/qt/installwizard.py:202
+#: electroncash_gui/qt/installwizard.py:206
 msgid "This file is encrypted."
 msgstr "Ten plik jest szyfrowany."
 
@@ -7638,7 +7683,7 @@ msgstr "Ten plik jest szyfrowany."
 msgid "This function is only available for standard wallets when using {}."
 msgstr "Ta funkcja jest dostępna tylko dla standardowych portfeli podczas używania {}."
 
-#: electroncash_gui/qt/main_window.py:1219
+#: electroncash_gui/qt/main_window.py:1217
 msgid "This information is seen by the recipient if you send them a signed payment request."
 msgstr "Ta informacja jest widoczna przez odbiorcę jeśli wyślesz im podpisaną wiadomość."
 
@@ -7667,7 +7712,7 @@ msgstr "To jest portfel tylko do obserwacji, więc podane klucze prywatne zostan
 msgid "This is a watching-only wallet."
 msgstr "To jest portfel tylko do obserwacji."
 
-#: electroncash_gui/qt/main_window.py:1656
+#: electroncash_gui/qt/main_window.py:1654
 msgid "This is the fee rate that will be used for this transaction."
 msgstr "To opłata, która będzie używana do tej transakcji."
 
@@ -7689,7 +7734,7 @@ msgstr "Oznacza to, że możesz mieć trudności z zaimportowaniem tego klucza s
 msgid "This means you will not be able to spend Bitcoin Cash with it."
 msgstr "Oznacza to, że nie będziesz w stanie wydać Bitcoin Cash."
 
-#: electroncash_gui/qt/main_window.py:1338
+#: electroncash_gui/qt/main_window.py:1336
 #: ios/ElectronCash/electroncash_gui/ios_native/gui.py:1199
 msgid "This payment request will be signed."
 msgstr "To żądanie płatności zostanie podpisane."
@@ -7717,7 +7762,7 @@ msgstr "To ziarno pozwoli ci na odzyskanie swojego portfela w przypadku problem�
 msgid "This server is banned"
 msgstr "Ten serwer jest wykluczony"
 
-#: electroncash/network.py:1766
+#: electroncash/network.py:1767
 msgid "This server is still indexing transactions. You should switch to another server for now."
 msgstr "Ten serwer nadal indeksuje transakcje. Powinieneś przełączyć się na inny serwer."
 
@@ -7729,7 +7774,7 @@ msgstr "Podłączony certyfikat tego serwera nie pasuje do jego obecnego certyfi
 msgid "This spending mode is the same as previous versions of Electron Cash, which did not offer CashShuffle."
 msgstr "Ten tryb wydawania jest taki sam jak poprzednie wersje Electron Cash, które nie oferowały CashShuffle."
 
-#: ios/ElectronCash/electroncash_gui/ios_native/gui.py:1738
+#: ios/ElectronCash/electroncash_gui/ios_native/gui.py:1744
 msgid "This spending wallet is not encrypted and not password protected. Sharing it over the internet could result in others intercepting the data and for you to potentially lose funds.\n\n"
 "Continue anyway?"
 msgstr "Ten portfel wydatków nie jest zaszyfrowany i nie chroniony hasłem. Udostępnianie go przez Internet może spowodować przechwycenie danych przez innych i potencjalną stratę środków.\n\n"
@@ -7739,7 +7784,7 @@ msgstr "Ten portfel wydatków nie jest zaszyfrowany i nie chroniony hasłem. Udo
 msgid "This testnet wallet has an invalid master key format."
 msgstr "Ten portfel testnet ma nieprawidłowy format klucza głównego."
 
-#: electroncash_gui/qt/main_window.py:2573
+#: electroncash_gui/qt/main_window.py:2571
 #: ios/ElectronCash/electroncash_gui/ios_native/addrconv.py:47
 msgid "This tool helps convert between address formats for Bitcoin Cash addresses.\n"
 "You are encouraged to use the 'Cash address' format."
@@ -7767,7 +7812,7 @@ msgid "This version of Electron Cash currently only supports sending to 1 addres
 msgstr "Ta wersja Electron Cash obecnie obsługuje wysyłanie tylko na 1 adres na raz! Przepraszamy!"
 
 #: electroncash_gui/qt/main_window.py:3077
-#: ios/ElectronCash/electroncash_gui/ios_native/gui.py:2095
+#: ios/ElectronCash/electroncash_gui/ios_native/gui.py:2101
 msgid "This wallet has no seed"
 msgstr "Ten portfel nie ma ziarna"
 
@@ -7804,9 +7849,13 @@ msgstr "Poziom"
 msgid "Tier (sats)"
 msgstr "Poziom (sats)"
 
-#: electroncash_plugins/fusion/fusion.py:724
+#: electroncash_plugins/fusion/fusion.py:721
 msgid "Tiers:"
 msgstr "Poziomy:"
+
+#: electroncash_gui/qt/installwizard.py:676
+msgid "Timed out"
+msgstr "Upłynął limit czasu"
 
 #: electroncash_gui/qt/main_window.py:3704
 msgid "Timeout:"
@@ -7853,7 +7902,7 @@ msgstr "Aby pomóc nam zdiagnozować i naprawić problem, możesz wysłać nam r
 msgid "To import addresses into a spending wallet, you must use their private key."
 msgstr "Aby zaimportować adresy do portfela wydatków, musisz użyć ich klucza prywatnego."
 
-#: electroncash_gui/qt/installwizard.py:392
+#: electroncash_gui/qt/installwizard.py:394
 #: ios/ElectronCash/electroncash_gui/ios_native/newwallet.py:401
 msgid "To make sure that you have properly saved your seed, please retype it here."
 msgstr "Aby udowodnić, że ziarno został prawidłowo zachowane, przepisz go tutaj."
@@ -7867,7 +7916,7 @@ msgstr "Aby wykonać auto-fuzję w tle, wprowadź swoje hasło."
 msgid "To proceed, enter the PIN for your Satochip:"
 msgstr "Aby kontynuować, wprowadź PIN dla Satochip:"
 
-#: ios/ElectronCash/electroncash_gui/ios_native/gui.py:1425
+#: ios/ElectronCash/electroncash_gui/ios_native/gui.py:1431
 msgid "To proceed, please select a wallet to open."
 msgstr "Aby kontynuować, wybierz portfel."
 
@@ -7879,7 +7928,7 @@ msgstr "Aby uruchomić ponowne skanowanie, naciśnij 'Dalej'."
 msgid "To try to fix this, we will now re-pair with your device."
 msgstr "Aby to naprawić, teraz przeprowadzimy ponowne parowanie z Twoim urządzeniem."
 
-#: electroncash_gui/qt/main_window.py:2884
+#: electroncash_gui/qt/main_window.py:2882
 msgid "Toggle CashAddr Display"
 msgstr "Przełącz wyświetlanie CashAddr"
 
@@ -7936,16 +7985,12 @@ msgstr "Błąd klienta Tor"
 msgid "Tor Required"
 msgstr "Wymagany Tor"
 
-#: electroncash_gui/qt/main_window.py:4932
-msgid "Total size"
-msgstr "Łączny rozmiar"
-
-#: ios/ElectronCash/electroncash_gui/ios_native/gui.py:2048
+#: ios/ElectronCash/electroncash_gui/ios_native/gui.py:2054
 msgid "Touch/Face ID disabled for wallet"
 msgstr "Touch/Face ID wyłączone dla portfela"
 
-#: ios/ElectronCash/electroncash_gui/ios_native/gui.py:2044
-#: ios/ElectronCash/electroncash_gui/ios_native/gui.py:2310
+#: ios/ElectronCash/electroncash_gui/ios_native/gui.py:2050
+#: ios/ElectronCash/electroncash_gui/ios_native/gui.py:2316
 msgid "Touch/Face ID enabled for wallet"
 msgstr "Touch/Face ID włączone dla portfela"
 
@@ -7986,15 +8031,15 @@ msgstr "Nie znaleziono transakcji"
 msgid "Transaction Output {}"
 msgstr "Wyjście transakcji {}"
 
-#: electroncash/network.py:1878
+#: electroncash/network.py:1879
 msgid "Transaction could not be broadcast due to an attempt to spend a coinbase input before maturity."
 msgstr "Transakcja nie mogła zostać nadana z powodu próby wydania wejścia coinbase przed terminem."
 
-#: electroncash/network.py:1866
+#: electroncash/network.py:1867
 msgid "Transaction could not be broadcast due to dust outputs (dust threshold is {} satoshis)."
 msgstr "Transakcja nie może być nadana z powodu pyłu w wyjsciu (próg pyłu to {} satoshis)."
 
-#: electroncash/network.py:1868
+#: electroncash/network.py:1869
 msgid "Transaction could not be broadcast due to missing, already-spent, or otherwise invalid inputs."
 msgstr "Transakcja nie mogła zostać nadana z powodu brakujących, już wydanych lub w inny sposób nieprawidłowych wejść."
 
@@ -8002,7 +8047,7 @@ msgstr "Transakcja nie mogła zostać nadana z powodu brakujących, już wydanyc
 msgid "Transaction history may not yet be current."
 msgstr "Historia transakcji może jeszcze nie być aktualna."
 
-#: android/app/src/main/python/electroncash_gui/android/strings.py:53
+#: android/app/src/main/python/electroncash_gui/android/strings.py:59
 msgid "Transaction not found"
 msgstr "Transakcja nie znaleziona"
 
@@ -8038,6 +8083,7 @@ msgstr "Transakcja:"
 
 #. Custom Segmented Control setup
 #: electroncash_gui/qt/main_window.py:4614
+#: electroncash_gui/qt/installwizard.py:753
 #: ios/ElectronCash/electroncash_gui/ios_native/contacts.py:194
 #: ios/ElectronCash/electroncash_gui/ios_native/wallets.py:67
 #: ios/ElectronCash/electroncash_gui/ios_native/prefs.py:24
@@ -8074,10 +8120,6 @@ msgstr "Typ"
 #, python-brace-format
 msgid "Type '{delete_confirm_text}' to proceed"
 msgstr "Wpisz '{delete_confirm_text}' aby kontynuować"
-
-#: android/app/src/main/python/electroncash_gui/android/strings.py:55
-msgid "Type, paste, or scan a valid signed transaction in hex format below:"
-msgstr "Typ, wklej lub zeskanuj prawidłową podpisaną transakcję w formacie hex poniżej:"
 
 #: electroncash_gui/qt/console.py:68
 msgid "Type: '{}' below to proceed"
@@ -8223,7 +8265,7 @@ msgstr "Nieznany"
 msgid "Unshuffled available:"
 msgstr "Dostępne niezmiksowane:"
 
-#: ios/ElectronCash/electroncash_gui/ios_native/send.py:780
+#: ios/ElectronCash/electroncash_gui/ios_native/send.py:805
 #: electroncash/wallet.py:903
 msgid "Unsigned"
 msgstr "Niepodpisane"
@@ -8233,7 +8275,7 @@ msgstr "Niepodpisane"
 msgid "Unsupported Account Type"
 msgstr "Typ konta nieobsługiwany"
 
-#: ios/ElectronCash/electroncash_gui/ios_native/send.py:116
+#: ios/ElectronCash/electroncash_gui/ios_native/send.py:120
 msgid "Unsupported QR Code"
 msgstr "Nieobsługiwany kod QR"
 
@@ -8257,7 +8299,7 @@ msgstr "Dostępna aktualizacja"
 msgid "Update Checker"
 msgstr "Menadżer aktualizacji"
 
-#: electroncash_gui/qt/main_window.py:2873
+#: electroncash_gui/qt/main_window.py:2871
 msgid "Update available, click for details"
 msgstr "Dostępna aktualizacja, kliknij po szczegóły"
 
@@ -8304,7 +8346,7 @@ msgstr "Użyj proxy Tor"
 msgid "Use Tor proxy at port {tor_port}"
 msgstr "Użyj proxy Tor na porcie {tor_port}"
 
-#: ios/ElectronCash/electroncash_gui/ios_native/gui.py:2319
+#: ios/ElectronCash/electroncash_gui/ios_native/gui.py:2325
 msgid "Use Touch/Face ID"
 msgstr "Użyj Touch/Face ID"
 
@@ -8317,7 +8359,7 @@ msgstr "Użyj klucza głównego"
 msgid "Use a hardware device"
 msgstr "Użyj urządzenia sprzętowego"
 
-#: android/app/src/main/python/electroncash_gui/android/strings.py:56
+#: android/app/src/main/python/electroncash_gui/android/strings.py:61
 msgid "Use a master key"
 msgstr "Użyj klucza głównego"
 
@@ -8471,12 +8513,12 @@ msgstr "Zobacz Tx..."
 msgid "View ban list..."
 msgstr "Zobacz listę zablokowanych..."
 
-#: electroncash_gui/qt/history_list.py:271
+#: electroncash_gui/qt/history_list.py:267
 msgid "View invoice"
 msgstr "Zobacz rachunek"
 
 #. make sure this is last
-#: electroncash_gui/qt/history_list.py:273
+#: electroncash_gui/qt/history_list.py:269
 #: electroncash_gui/qt/address_list.py:332
 #: electroncash_gui/qt/contact_list.py:229
 #: electroncash_gui/qt/transaction_dialog.py:846
@@ -8519,7 +8561,7 @@ msgstr "Klawiatura wirtualna"
 msgid "WARNING"
 msgstr "OSTRZEŻENIE"
 
-#: android/app/src/main/python/electroncash_gui/android/console.py:34
+#: android/app/src/main/python/electroncash_gui/android/console.py:35
 msgid "WARNING!"
 msgstr "OSTRZEŻENIE!"
 
@@ -8536,7 +8578,7 @@ msgstr "UWAGA: WSZYSTKIE twoje klucze prywatne są tajne."
 msgid "WARNING: This is a multi-signature wallet."
 msgstr "OSTRZEŻENIE: To jest portfel z wieloma podpisami."
 
-#: electroncash_gui/qt/main_window.py:2003
+#: electroncash_gui/qt/main_window.py:2001
 msgid "WARNING: the alias \"{}\" could not be validated via an additional security check, DNSSEC, and thus may not be correct."
 msgstr "OSTRZEŻENIE: alias \"{}\" nie mógł zostać zweryfikowany za pomocą dodatkowej kontroli bezpieczeństwa, DNSSEC, a zatem może nie być poprawny."
 
@@ -8553,12 +8595,12 @@ msgstr "Klucz WIF został zaszyfrowany za pomocą BIP38.\n\n"
 msgid "Wait for others"
 msgstr "Poczekaj na innych"
 
-#: ios/ElectronCash/electroncash_gui/ios_native/gui.py:2384
+#: ios/ElectronCash/electroncash_gui/ios_native/gui.py:2390
 msgid "Waiting for Touch ID..."
 msgstr "Oczekiwanie na Touch ID..."
 
 #: electroncash_gui/qt/cashacctqt.py:463
-#: electroncash_gui/qt/installwizard.py:161
+#: electroncash_gui/qt/installwizard.py:165
 #: electroncash_plugins/fusion/qt.py:1384
 msgid "Wallet"
 msgstr "Portfel"
@@ -8602,11 +8644,11 @@ msgstr "Portfel usunięty pomyślnie"
 msgid "Wallet derivation path"
 msgstr "Ścieżka derywacji portfela"
 
-#: android/app/src/main/python/electroncash_gui/android/strings.py:59
+#: android/app/src/main/python/electroncash_gui/android/strings.py:63
 msgid "Wallet exported successfully"
 msgstr "Portfel wyeksportowano pomyślnie"
 
-#: ios/ElectronCash/electroncash_gui/ios_native/gui.py:1756
+#: ios/ElectronCash/electroncash_gui/ios_native/gui.py:1762
 msgid "Wallet file"
 msgstr "Plik portfela"
 
@@ -8618,6 +8660,10 @@ msgstr "Nie znaleziono pliku portfela: {}"
 msgid "Wallet has no address to sweep to"
 msgstr "Portfel nie ma adresu do którego można przeczyścić"
 
+#: android/app/src/main/python/electroncash_gui/android/strings.py:62
+msgid "Wallet information"
+msgstr ""
+
 #: electroncash_gui/qt/main_window.py:3023
 msgid "Wallet name"
 msgstr "Nazwa portfela"
@@ -8625,14 +8671,6 @@ msgstr "Nazwa portfela"
 #: ios/ElectronCash/electroncash_gui/ios_native/newwallet.py:232
 msgid "Wallet name is empty. Please enter a wallet name to proceed."
 msgstr "Nazwa portfela jest pusta. Wprowadź nazwę portfela, aby kontynuować."
-
-#: android/app/src/main/python/electroncash_gui/android/strings.py:57
-msgid "Wallet name is too long"
-msgstr "Nazwa portfela jest zbyt długa"
-
-#: android/app/src/main/python/electroncash_gui/android/strings.py:58
-msgid "Wallet names cannot contain the '/' character. Please enter a different wallet name to proceed."
-msgstr "Nazwy plików nie mogą zawierać znaku '/'. Wprowadź inną nazwę pliku, aby kontynuować."
 
 #: ios/ElectronCash/electroncash_gui/ios_native/newwallet.py:236
 msgid "Wallet password is empty. Please set a wallet password to proceed. You can disable wallet password protection later if you wish."
@@ -8646,11 +8684,11 @@ msgstr "Hasła portfela nie pasują. Proszę potwierdzić hasło, które chcesz 
 msgid "Wallet removed: {}"
 msgstr "Portfel usunięty: {}"
 
-#: android/app/src/main/python/electroncash_gui/android/strings.py:60
+#: android/app/src/main/python/electroncash_gui/android/strings.py:64
 msgid "Wallet renamed successfully"
 msgstr "Zmieniono nazwę portfela"
 
-#: android/app/src/main/python/electroncash_gui/android/strings.py:61
+#: android/app/src/main/python/electroncash_gui/android/strings.py:65
 msgid "Wallet seed"
 msgstr "Seed portfela"
 
@@ -8658,7 +8696,7 @@ msgstr "Seed portfela"
 msgid "Wallet seeded"
 msgstr "Portfel zseedowany"
 
-#: ios/ElectronCash/electroncash_gui/ios_native/gui.py:1799
+#: ios/ElectronCash/electroncash_gui/ios_native/gui.py:1805
 msgid "Wallet successfully renamed"
 msgstr "Zmieniono nazwę portfela"
 
@@ -8671,14 +8709,14 @@ msgstr "Typ portfela"
 msgid "Wallets"
 msgstr "Portfele"
 
-#: electroncash_gui/qt/main_window.py:2183
-#: electroncash_gui/qt/main_window.py:2284 electroncash_gui/qt/util.py:222
+#: electroncash_gui/qt/main_window.py:2181
+#: electroncash_gui/qt/main_window.py:2282 electroncash_gui/qt/util.py:222
 #: electroncash_gui/qt/transaction_dialog.py:305
 msgid "Warning"
 msgstr "Ostrzeżenie"
 
 #. Warn if past gap limit.
-#: electroncash_gui/qt/main_window.py:1422
+#: electroncash_gui/qt/main_window.py:1420
 msgid "Warning: The next address will not be recovered automatically if you restore your wallet from seed; you may need to add it manually.\n\n"
 "This occurs because you have too many unused addresses in your wallet. To avoid this situation, use the existing addresses first.\n\n"
 "Create anyway?"
@@ -8698,7 +8736,7 @@ msgstr "Uwaga: nie włączaj jej jeżeli miałoby to spowodować użycie słabsz
 msgid "We encountered an error while connecting to your device:"
 msgstr "Wystąpił błąd podczas łączenia się z Twoim urządzeniem:"
 
-#: ios/ElectronCash/electroncash_gui/ios_native/gui.py:2073
+#: ios/ElectronCash/electroncash_gui/ios_native/gui.py:2079
 msgid "We will flag this wallet as requesting to use Touch/Face ID, however it is currently disabled on the device. Please enable Touch/Face ID from the iOS General settings in order to use biometrics for this wallet."
 msgstr "Będziemy oznaczać ten portfel jako prośbę o użycie Touch/Face ID, jednak jest on obecnie wyłączony na urządzeniu. Proszę włączyć Touch/Face ID z ustawień ogólnych iOS w celu użycia biometrycznych dla tego portfela."
 
@@ -8746,8 +8784,8 @@ msgid "Write down the seed word shown on your {}"
 msgstr "Zapisz słowo seed wyświetlane na {}"
 
 #: ios/ElectronCash/electroncash_gui/ios_native/newwallet.py:734
-#: ios/ElectronCash/electroncash_gui/ios_native/gui.py:1563
-#: electroncash/base_wizard.py:357 electroncash/base_wizard.py:365
+#: ios/ElectronCash/electroncash_gui/ios_native/gui.py:1569
+#: electroncash/base_wizard.py:360 electroncash/base_wizard.py:368
 msgid "Wrong key type"
 msgstr "Nieprawidłowy typ klucza"
 
@@ -8764,7 +8802,7 @@ msgstr "Błędny podpis!\n"
 
 #: ios/ElectronCash/electroncash_gui/ios_native/gui.py:822
 #: ios/ElectronCash/electroncash_gui/ios_native/gui.py:1098
-#: ios/ElectronCash/electroncash_gui/ios_native/gui.py:2317
+#: ios/ElectronCash/electroncash_gui/ios_native/gui.py:2323
 #: electroncash_plugins/keepkey/qt.py:349 electroncash_plugins/trezor/qt.py:385
 msgid "Yes"
 msgstr "Tak"
@@ -8792,7 +8830,7 @@ msgstr "Zamierzasz usunąć portfel '{wallet_name}'. Jeśli nie masz innych kopi
 msgid "You are about to reset the seed of your Satochip. This process is irreversible!\n"
 msgstr "Zamierzasz zresetować seed Satochip. Ten proces jest nieodwracalny!\n"
 
-#: electroncash_gui/qt/main_window.py:2088
+#: electroncash_gui/qt/main_window.py:2086
 msgid "You are about to send BCH to a legacy address."
 msgstr "Zamierzasz wysłać BCH na dawny adres."
 
@@ -8817,12 +8855,12 @@ msgstr "<i>Wyłączasz</i> CashShuffle dla tego portfela. Jesteś pewien?"
 msgid "You are now spending <b><i>unshuffled</i></b> coins. Are you sure?"
 msgstr "Wydajesz <b><i>niezmiksowane</i></b> monety. Jesteś pewien?"
 
-#: electroncash_gui/qt/main_window.py:5096
+#: electroncash_gui/qt/main_window.py:5040
 #, python-brace-format
 msgid "You are registering a new <a href='ca'>Cash Account</a> for your address <a href='addr'><b><pre>{address}</pre></b></a>"
 msgstr "Rejestrujesz nowy <a href='ca'>Cash Account</a> na Twój adres <a href='addr'><b><pre>{address}</pre></b></a>"
 
-#: ios/ElectronCash/electroncash_gui/ios_native/gui.py:1779
+#: ios/ElectronCash/electroncash_gui/ios_native/gui.py:1785
 msgid "You are renaming the currently open encrypted wallet '{}'."
 msgstr "Zmieniasz nazwę aktualnie otwartego zaszyfrowanego portfela '{}'."
 
@@ -8830,7 +8868,7 @@ msgstr "Zmieniasz nazwę aktualnie otwartego zaszyfrowanego portfela '{}'."
 msgid "You are requesting the deletion of the currently active wallet. In order to delete this wallet, please switch to another wallet, then select this option again on this wallet."
 msgstr "Żądasz usunięcia aktualnie aktywnego portfela. Aby usunąć ten portfel, przełącz się na inny portfel, a następnie wybierz tę opcję ponownie."
 
-#: electroncash_gui/qt/main_window.py:2100
+#: electroncash_gui/qt/main_window.py:2098
 msgid "You are sending to a legacy address"
 msgstr "Zamierzasz wysłać Bch na dawny adres"
 
@@ -8843,11 +8881,11 @@ msgstr "Próbujesz zaimportować Electrum seed do portfela Satochip."
 msgid "You are using Electron Cash in offline mode; restart Electron Cash if you want to get connected"
 msgstr "Używasz Electron Cash w trybie offline; uruchom ponownie Electron Cash jeśli chcesz się połączyć"
 
-#: electroncash_gui/qt/main_window.py:1414
+#: electroncash_gui/qt/main_window.py:1412
 msgid "You are using a non-deterministic wallet, which cannot create new addresses."
 msgstr "Używasz Nie deterministycznego portfela, który nie może tworzyć nowych adresów."
 
-#: electroncash_gui/qt/main_window.py:2187
+#: electroncash_gui/qt/main_window.py:2185
 msgid "You are using an OP_RETURN message. This gets permanently written to the blockchain."
 msgstr "Używasz wiadomości OP_RETURN. Zostaje ona trwale zapisana w blockchain."
 
@@ -8855,7 +8893,7 @@ msgstr "Używasz wiadomości OP_RETURN. Zostaje ona trwale zapisana w blockchain
 msgid "You can add or remove any server from this list and optionally elect to only connect to preferred servers."
 msgstr "Możesz dodać lub usunąć dowolny serwer z tej listy i opcjonalnie wybrać połączenie tylko z preferowanymi serwerami."
 
-#: ios/ElectronCash/electroncash_gui/ios_native/gui.py:1425
+#: ios/ElectronCash/electroncash_gui/ios_native/gui.py:1431
 msgid "You can also create a new wallet by selecting the 'Add new wallet' option."
 msgstr "Możesz również utworzyć nowy portfel wybierając opcję 'Dodaj nowy portfel'."
 
@@ -8893,7 +8931,7 @@ msgstr "Nie wprowadziłeś tekstu '{delete_confirm_text}' w poprzednim oknie dia
 msgid "You don't have any contacts yet. Create a new contact now!"
 msgstr "Nie masz jeszcze żadnych kontaktów. Utwórz nowy kontakt!"
 
-#: android/app/src/main/python/electroncash_gui/android/strings.py:62
+#: android/app/src/main/python/electroncash_gui/android/strings.py:66
 msgid "You don't have any contacts."
 msgstr "Nie masz żadnych kontaktów."
 
@@ -8901,7 +8939,7 @@ msgstr "Nie masz żadnych kontaktów."
 msgid "You have selected non-SSL mode for your server settings."
 msgstr "Wybrałeś tryb non-SSL dla ustawień serwera."
 
-#: electroncash_gui/qt/main_window.py:1550
+#: electroncash_gui/qt/main_window.py:1548
 msgid "You may enter:<ul><li> Bitcoin Cash <b>Address</b> <b>★</b><li> Bitcoin Legacy <b>Address</b> <b>★</b><li> <b>Cash Account</b> <b>★</b> e.g. <i>satoshi#123</i><li> <b>Contact name</b> <b>★</b> from the Contacts tab<li> <b>OpenAlias</b> e.g. <i>satoshi@domain.com</i></ul><br>&nbsp;&nbsp;&nbsp;<b>★</b> = Supports <b>pay-to-many</b>, where you may optionally enter multiple lines of the form:</span><br><pre>    recipient1, amount1 \n"
 "    recipient2, amount2 \n"
 "    etc...</pre>"
@@ -8909,15 +8947,15 @@ msgstr "Możesz podać:<ul><li><b>Adres</b> Bitcoin Cash <b>★</b><li> <b>Adres
 "    odbiorca2, kwota2 \n"
 "    itd. .</pre>"
 
-#: electroncash/base_wizard.py:307
+#: electroncash/base_wizard.py:310
 msgid "You may extend your seed with custom words."
 msgstr "Możesz rozszerzyć swój seed własnymi słowami."
 
-#: electroncash_gui/qt/main_window.py:2653
+#: electroncash_gui/qt/main_window.py:2651
 msgid "You may load a CSV file using the file icon."
 msgstr "Możesz wczytać plik CSV używając ikony pliku."
 
-#: electroncash_gui/qt/main_window.py:1184
+#: electroncash_gui/qt/main_window.py:1182
 msgid "You may optionally append an OP_RETURN message to the payment URI and/or QR you generate.\n\n"
 "Note: Not all wallets yet support OP_RETURN parameters, so make sure the other party's wallet supports OP_RETURN URIs."
 msgstr "Możesz opcjonalnie dołączyć wiadomość OP_RETURN do generowanego URI płatności i/lub QR.\n\n"
@@ -8966,8 +9004,8 @@ msgid "You will be asked to enter 24 words regardless of your seed's actual leng
 msgstr "Zostaniesz poproszony o wprowadzenie 24 słów niezależnie od długości Twojego seeda. Jeśli wpiszesz słowo niepoprawnie lub przeliterowałeś, nie możesz go zmienić lub wrócić - musisz zacząć ponownie od początku.\n\n"
 "Więc wprowadź słowa ostrożnie!"
 
-#: electroncash_gui/qt/main_window.py:2183
-#: electroncash_gui/qt/main_window.py:2284
+#: electroncash_gui/qt/main_window.py:2181
+#: electroncash_gui/qt/main_window.py:2282
 msgid "You're using a fee of less than 1.0 sats/B. It may take a very long time to confirm."
 msgstr "Używasz opłaty poniżej 1,0 sat/B. Potwierdzenie może zająć bardzo dużo czasu."
 
@@ -8975,11 +9013,11 @@ msgstr "Używasz opłaty poniżej 1,0 sat/B. Potwierdzenie może zająć bardzo 
 msgid "Your Ledger Wallet wants to tell you a one-time PIN code.<br><br>For best security you should unplug your device, open a text editor on another computer, put your cursor into it, and plug your device into that computer. It will output a summary of the transaction being signed and a one-time PIN.<br><br>Verify the transaction summary and type the PIN code here.<br><br>Before pressing enter, plug the device back into this computer.<br>"
 msgstr "Twój portfel Ledger chce przekazać Ci jednorazowy kod PIN.<br><br>Najbezpieczeniej jest odłączyć urządzenie, otworzyć edytor tekstu na innym komputerze, umieścić tam kursor i podłączyć urządzenie do tego komputera. Wygeneruje on podsumowanie podpisanej transakcji i jednorazowy kod PIN.<br><br>Zweryfikuj podsumowanie transakcji i wpisz kod PIN tutaj.<br><br>Przed naciśnięciem Enter, podłącz urządzenie z powrotem do tego komputera.<br>"
 
-#: electroncash_gui/qt/installwizard.py:253
+#: electroncash_gui/qt/installwizard.py:257
 msgid "Your accounts have been moved to"
 msgstr "Twoje konta zostały przeniesione do"
 
-#: ios/ElectronCash/electroncash_gui/ios_native/gui.py:1836
+#: ios/ElectronCash/electroncash_gui/ios_native/gui.py:1842
 msgid "Your biometrics-based key for this wallet was reset. This means you will need to enter your password for this wallet again.\n\n"
 "(Then, you can optionally re-enable Touch/Face ID as before.)"
 msgstr "Twój klucz biometryczny dla tego portfela został zresetowany. Oznacza to, że musisz wprowadzić hasło dla tego portfela ponownie.\n\n"
@@ -9002,12 +9040,12 @@ msgstr "Twój obecny portfel Electron Cash może być używany tylko z pustą fr
 msgid "Your device firmware is too old"
 msgstr "Twój firmware jest zbyt stary"
 
-#: electroncash_gui/qt/main_window.py:4978
+#: electroncash_gui/qt/main_window.py:4922
 msgid "Your entire transaction history will be downloaded again from the server and verified from the blockchain."
 msgstr "Cała historia transakcji zostanie pobrana ponownie z serwera i zweryfikowana z blockchain."
 
-#: electroncash_gui/qt/main_window.py:2138
-#: ios/ElectronCash/electroncash_gui/ios_native/send.py:805
+#: electroncash_gui/qt/main_window.py:2136
+#: ios/ElectronCash/electroncash_gui/ios_native/send.py:830
 msgid "Your fee is too high.  Max is 50 sat/byte."
 msgstr "Twoja opłata jest zbyt wysoka. Max to 50 sat/bajt."
 
@@ -9040,12 +9078,12 @@ msgstr "Twoje Cash Accounts są teraz wyświetlane"
 msgid "Your seed extension is"
 msgstr "Rozszerzenie twojego ziarna to"
 
-#: electroncash/base_wizard.py:308 electroncash/base_wizard.py:457
+#: electroncash/base_wizard.py:311 electroncash/base_wizard.py:460
 #: electroncash_plugins/satochip/satochip.py:737
 msgid "Your seed extension must be saved together with your seed."
 msgstr "Twoje rozszerzenie seed musi być zapisane razem z Twoim seedem."
 
-#: electroncash_gui/qt/installwizard.py:390
+#: electroncash_gui/qt/installwizard.py:392
 #: ios/ElectronCash/electroncash_gui/ios_native/newwallet.py:401
 msgid "Your seed is important!"
 msgstr "Twoje ziarno jest ważne!"
@@ -9064,7 +9102,7 @@ msgid "Your transaction was sent to the cosigning pool."
 msgstr "Twoja transakcja została wysłana do puli współpodpisów."
 
 #: electroncash_gui/qt/seed_dialog.py:213
-#: electroncash_gui/qt/installwizard.py:399
+#: electroncash_gui/qt/installwizard.py:401
 #: ios/ElectronCash/electroncash_gui/ios_native/seed_dialog.py:78
 msgid "Your wallet generation seed is:"
 msgstr "Twoje ziarno z portfela to:"
@@ -9144,23 +9182,23 @@ msgstr "[r] - pokaż własne adresy odbiorcze"
 msgid "[s] - send stored payment order"
 msgstr "[s] - wyślij przechowywane zlecenie zapłaty"
 
-#: electroncash_gui/qt/main_window.py:973
+#: electroncash_gui/qt/main_window.py:972
 #, python-brace-format
 msgid "[{amount} unconfirmed]"
 msgstr "[{amount} niepotwierdzona]"
 
-#: electroncash_gui/qt/main_window.py:977
+#: electroncash_gui/qt/main_window.py:976
 #, python-brace-format
 msgid "[{amount} unmatured]"
 msgstr "[{amount} niemożliwe do zapłaty]"
 
 #. if there are lots left to verify, display this informative text
-#: electroncash_gui/qt/main_window.py:993
+#: electroncash_gui/qt/main_window.py:992
 #, python-brace-format
 msgid "[{count} unverified TXs]"
 msgstr "[{count} niezweryfikowanych TX]"
 
-#: electroncash_gui/qt/main_window.py:982
+#: electroncash_gui/qt/main_window.py:981
 #, python-brace-format
 msgid "[{extra}]"
 msgstr "[{extra}]"
@@ -9193,7 +9231,7 @@ msgstr "aktywna"
 msgid "and create your standard wallet or restore an existing one with any of the methods below"
 msgstr "i utwórz standardowy portfel lub przywróć istniejący z jedną z poniższych metod"
 
-#: electroncash_gui/qt/main_window.py:1712
+#: electroncash_gui/qt/main_window.py:1710
 msgid "are frozen"
 msgstr "są zamrożone"
 
@@ -9235,7 +9273,7 @@ msgstr "usuń"
 msgid "dusty fee"
 msgstr "opłata za pył"
 
-#: electroncash_plugins/fusion/fusion.py:1007
+#: electroncash_plugins/fusion/fusion.py:1004
 #: electroncash_plugins/shuffle_deprecated/qt.py:167
 msgid "fee"
 msgstr "opłata"
@@ -9249,7 +9287,7 @@ msgstr "pół minuty"
 msgid "in {time}"
 msgstr "w {time}"
 
-#: electroncash/plugins.py:957 electroncash/base_wizard.py:237
+#: electroncash/plugins.py:952 electroncash/base_wizard.py:237
 msgid "initialized"
 msgstr "zainicjowane"
 
@@ -9291,7 +9329,7 @@ msgstr "lub klucze BIP38"
 msgid "password incorrect"
 msgstr "hasło niepoprawne"
 
-#: electroncash_gui/qt/main_window.py:2362
+#: electroncash_gui/qt/main_window.py:2360
 #: ios/ElectronCash/electroncash_gui/ios_native/gui.py:1184
 msgid "please wait..."
 msgstr "proszę czekać..."
@@ -9349,7 +9387,7 @@ msgstr "nieznana"
 msgid "unknown (low fee)"
 msgstr "nieznany (niska opłata)"
 
-#: electroncash/commands.py:966
+#: electroncash/commands.py:975
 msgid "unknown parser {!r} (choices: {})"
 msgstr "nieznany parser {! r} (opcje: {})"
 
@@ -9370,7 +9408,7 @@ msgstr "niezweryfikowany"
 msgid "watching only"
 msgstr "tylko obserwowana"
 
-#: electroncash/plugins.py:957 electroncash/base_wizard.py:237
+#: electroncash/plugins.py:952 electroncash/base_wizard.py:237
 msgid "wiped"
 msgstr "wyczyszczony"
 
@@ -9462,7 +9500,7 @@ msgstr[2] "{months} miesięcy"
 msgstr[3] "{months} miesięcy"
 
 #. plural
-#: electroncash_gui/qt/main_window.py:5359
+#: electroncash_gui/qt/main_window.py:5303
 #, python-brace-format
 msgid "{number_of_cashaccounts} Cash Accounts registrations"
 msgstr "{number_of_cashaccounts} rejestracje Cash Accounts"
@@ -9485,11 +9523,6 @@ msgstr "{sats_per_byte} sat/bajt"
 #, python-brace-format
 msgid "{time} ago"
 msgstr "{time} temu"
-
-#: electroncash_gui/qt/main_window.py:4933
-#, python-brace-format
-msgid "{total_size} bytes"
-msgstr "{total_size} bajtów"
 
 #: electroncash/util.py:627
 #, python-brace-format
@@ -9558,8 +9591,8 @@ msgstr "{} minut"
 msgid "{} new transactions received: Total amount received in the new transactions {}"
 msgstr "{} nowych otrzymanych transakcji: Całkowita kwota otrzymana w nowych transakcjach {}"
 
-#: electroncash_gui/qt/main_window.py:5366
-#: electroncash_gui/qt/main_window.py:5374
+#: electroncash_gui/qt/main_window.py:5310
+#: electroncash_gui/qt/main_window.py:5318
 msgid "{} new transactions: {}"
 msgstr "{} nowe transakcje: {}"
 
