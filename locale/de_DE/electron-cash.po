@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: electron-cash\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2022-05-04 23:59+0300\n"
-"PO-Revision-Date: 2022-05-04 20:59\n"
+"PO-Revision-Date: 2022-05-05 07:20\n"
 "Last-Translator: \n"
 "Language-Team: German\n"
 "Language: de_DE\n"
@@ -245,7 +245,7 @@ msgstr "&Installieren"
 #. acct.setFixedWidth(280)
 #: electroncash_gui/qt/lnsqt.py:566
 msgid "&LNS Name"
-msgstr ""
+msgstr "&LNS-Name"
 
 #: electroncash_gui/qt/main_window.py:639
 msgid "&Labels"
@@ -497,7 +497,7 @@ msgstr "<br>Fügen Sie einen beliebigen Cash-Account Ihren Kontakten hinzu"
 
 #: electroncash_gui/qt/contact_list.py:562
 msgid "<br>LNS is the Bitcoin Cash Name Service which runs on smartBCH chain<br><br>Add anyone's LNS address to your Contacts"
-msgstr ""
+msgstr "<br>LNS ist der Bitcoin Cash Name Service, der auf der smartBCH-Chain ausgeführt wird<br><br>Füge eine LNS-Adresse zu deinen Kontakten hinzu"
 
 #: electroncash_gui/qt/main_window.py:5150
 msgid "<p>How it works: <b>Cash Accounts</b> registrations work by issuing an <b>OP_RETURN</b> transaction to yourself, costing fractions of a penny.</p><p>The registrations are permanently written to the blockchain and associate a human-friendly name with your address.</p><p>After the registration transaction receives <i>1 confirmation</i>, you can use your new <b>Cash Account name</b> as if it were an address and give it out to other people (Electron Cash or another Cash Account enabled wallet is required).</p><p><span style=\"font-weight:100;\">You will be offered the opportunity to review the generated transaction before broadcasting it to the blockchain.</span></p>"
@@ -516,12 +516,12 @@ msgstr "<span style=\"white-space:nowrap\"><b>{cash_account}</b> bereits in Kont
 #: electroncash_gui/qt/lnsqt.py:603
 #, python-brace-format
 msgid "<span style=\"white-space:nowrap\"><b>{lns_name}</b> added to Contacts</span>"
-msgstr ""
+msgstr "<span style=\"white-space:nowrap\"><b>{lns_name}</b> zu den Kontakten hinzugefügt</span>"
 
 #: electroncash_gui/qt/lnsqt.py:594
 #, python-brace-format
 msgid "<span style=\"white-space:nowrap\"><b>{lns_name}</b> already in Contacts</span>"
-msgstr ""
+msgstr "<span style=\"white-space:nowrap\"><b>{lns_name}</b> ist bereits in den Kontakten</span>"
 
 #: electroncash_gui/qt/main_window.py:4030
 msgid "A BIP38 key was specified, please enter a password to decrypt it"
@@ -570,7 +570,7 @@ msgstr "Beim abrufen dieses Cash-Accounts ist eine Netzwerkzeitüberschreitung a
 
 #: electroncash_gui/qt/lnsqt.py:702
 msgid "A network timeout occurred while looking up this LNS Name. You may want to check that your internet connection is up and not saturated processing other requests."
-msgstr ""
+msgstr "Beim abrufen dieses LNS-Namens ist eine Netzwerkzeitüberschreitung aufgetreten. Sie können überprüfen, ob Ihre Internetverbindung verfügbar ist und nicht mit dem verarbeiten anderer Anfragen überlastet ist."
 
 #: electroncash_gui/qt/__init__.py:737
 msgid "A new version of Electron Cash is available: {}"
@@ -751,7 +751,7 @@ msgstr "Adresse ist eingefroren"
 
 #: electroncash_gui/qt/address_list.py:240
 msgid "Address is frozen, right-click to unfreeze"
-msgstr ""
+msgstr "Adresse ist eingefroren, rechts klicken zum Auftauen"
 
 #: electroncash_gui/qt/main_window.py:3264
 #: ios/ElectronCash/electroncash_gui/ios_native/sign_decrypt_dialog.py:250
@@ -1379,15 +1379,15 @@ msgstr "Cash-Account kann nicht überprüft werden, da das Netzwerk nicht erreic
 
 #: electroncash_plugins/satochip/qt.py:115
 msgid "Card label"
-msgstr ""
+msgstr "Kartenbezeichnung"
 
 #: electroncash_plugins/satochip/qt.py:469
 msgid "Card label changed successfully!"
-msgstr ""
+msgstr "Kartenbezeichnung erfolgreich geändert!"
 
 #: electroncash_plugins/satochip/qt.py:493
 msgid "Card label should not be longer than 64 chars!"
-msgstr ""
+msgstr "Kartenbezeichnung darf nicht länger als 64 Zeichen sein!"
 
 #: electroncash_gui/qt/main_window.py:1093
 msgid "Cash Accoun&t"
@@ -1627,7 +1627,7 @@ msgstr "Password ändern"
 
 #: electroncash_gui/qt/address_list.py:248
 msgid "Change address is retired"
-msgstr ""
+msgstr "Wechselgeldadresse ist ausgeschieden"
 
 #: ios/ElectronCash/electroncash_gui/ios_native/wallets.py:641
 #: ios/ElectronCash/electroncash_gui/ios_native/prefs.py:237
@@ -2114,12 +2114,12 @@ msgstr "<b>{cash_account_name}</b> kopieren"
 #: electroncash_gui/qt/lnsqt.py:828
 #, python-brace-format
 msgid "Copy <b>{lns_name}</b>"
-msgstr ""
+msgstr "Kopiere <b>{lns_name}</b>"
 
 #: electroncash_gui/qt/lnsqt.py:430
 #, python-brace-format
 msgid "Copy <b>{text}</b>"
-msgstr ""
+msgstr "Kopiere <b>{text}</b>"
 
 #: electroncash_gui/qt/transaction_dialog.py:854
 #: ios/ElectronCash/electroncash_gui/ios_native/contacts.py:867
@@ -2224,7 +2224,7 @@ msgstr "{} kopieren"
 
 #: android/app/src/main/python/electroncash_gui/android/strings.py:22
 msgid "Copyright © 2017-2022 Electron Cash LLC and the Electron Cash developers."
-msgstr ""
+msgstr "Urheberrechtlich geschützt © 2017-2022 Electron-Cash LLC und die Electron-Cash Entwickler."
 
 #: electroncash_gui/qt/main_window.py:763
 #, python-brace-format
@@ -2267,7 +2267,7 @@ msgstr "Der angegebene Cash-Account-Name konnte nicht gefunden werden. Er existi
 
 #: electroncash_gui/qt/lnsqt.py:150
 msgid "Could not find the LNS Name specified. It either does not exist or there may have been a network connectivity error. Please double-check it and try again."
-msgstr ""
+msgstr "Der angegebene LNS-Name konnte nicht gefunden werden. Er existiert entweder nicht oder es gab möglicherweise einen Netzwerkverbindungsfehler. Bitte überprüfe Sie das und versuchen es erneut."
 
 #: electroncash_plugins/trezor/qt.py:469 electroncash_plugins/trezor/qt.py:505
 msgid "Could not load the image {} -- unknown format or other error"
@@ -2568,7 +2568,7 @@ msgstr "Passphrasen deaktivieren"
 
 #: electroncash_gui/qt/main_window.py:4614
 msgid "Disable this option if you plan on receiving funds using your old change addresses or if you suspect your old change addresses may have unseen funds on them."
-msgstr ""
+msgstr "Deaktivieren Sie diese Option, wenn Sie planen über Ihre alten Wechselgeldadressen Geld zu erhalten oder wenn Sie vermuten, dass Ihre alten Wechselgeldadressen unsichtbares Guthaben beinhalten."
 
 #: electroncash_gui/qt/main_window.py:2986
 #: electroncash_plugins/keepkey/qt.py:351
@@ -2998,7 +2998,7 @@ msgstr "Genießen Sie hohe Sicherheit"
 
 #: electroncash_plugins/satochip/qt.py:478
 msgid "Enter Label"
-msgstr ""
+msgstr "Bezeichnung eingeben"
 
 #: electroncash_plugins/keepkey/qt.py:175
 #: electroncash_plugins/satochip/qt.py:317
@@ -3084,7 +3084,7 @@ msgstr "Geben Sie eine Passphrase ein, um die Geldbörse zu generieren. Bei jede
 
 #: electroncash_gui/qt/main_window.py:3078
 msgid "Enter a search term or a string of the form <b>satoshi.bch</b>"
-msgstr ""
+msgstr "Suchbegriff oder Zeichenkette im Format <b>satoshi.bch</b> eingeben"
 
 #: electroncash_gui/qt/main_window.py:3073
 msgid "Enter a string of the form <b>name#<i>number</i></b>"
@@ -3096,7 +3096,7 @@ msgstr "Adressen eingeben"
 
 #: electroncash_gui/qt/lnsqt.py:566
 msgid "Enter an LNS Name of the form satoshi.bch, and Electron Cash will search for the contact and present you with its resolved address."
-msgstr ""
+msgstr "Geben Sie einen LNS-Namen in der Form satoshi.bch ein und Electron-Cash sucht nach dem Kontakt und zeight Ihnen seine aufgelöste Adresse an."
 
 #: electroncash/base_wizard.py:127
 msgid "Enter cosigner key"
@@ -3258,7 +3258,7 @@ msgstr "Fehler beim Deinstallieren von udev-Regeln und/oder Benutzer hat abgebro
 
 #: electroncash_plugins/satochip/qt.py:471
 msgid "Error: card does not support label!"
-msgstr ""
+msgstr "Fehler: Karte unterstützt keine Bezeichnung!"
 
 #: electroncash/base_wizard.py:372
 msgid "Error: duplicate master public key"
@@ -3874,7 +3874,7 @@ msgstr "Wenn aktiviert, wird CashFusion jeden Coin so oft fusionieren.\n"
 
 #: electroncash_gui/qt/main_window.py:4611
 msgid "If checked, change addresses with no balance and trivial history which are sufficeintly old will not be subscribed-to on the server, in order to save resources."
-msgstr ""
+msgstr "Wenn aktiviert, werden Wechselgeldadressen ohne Guthaben, mit trivialer Historie und ausreichendem Alter nicht abonniert um Ressourcen zu sparen."
 
 #: electroncash_plugins/fusion/qt.py:182
 msgid "If checked, only spend coins that have been\n"
@@ -4245,7 +4245,7 @@ msgstr "Eingaben"
 
 #: electroncash_plugins/satochip/satochip.py:568
 msgid "Inserted card is not a Satochip!"
-msgstr ""
+msgstr "Eingelegte Karte ist kein Satochip!"
 
 #: electroncash_gui/qt/installwizard.py:110
 msgid "Install Wizard"
@@ -4328,15 +4328,15 @@ msgstr "Ungültige Gebühr"
 #: electroncash_gui/qt/lnsqt.py:136
 #, python-brace-format
 msgid "Invalid LNS Name specified: {name}"
-msgstr ""
+msgstr "Ungültiger LNS-Name angegeben: {name}"
 
 #: electroncash_gui/qt/lnsqt.py:711
 msgid "Invalid LNS Name, please try again"
-msgstr ""
+msgstr "Ungültiger LNS-Name, bitte versuchen Sie es erneut"
 
 #: electroncash_gui/qt/lnsqt.py:742
 msgid "Invalid LNS Name:"
-msgstr ""
+msgstr "Ungültiger LNS-Name:"
 
 #: electroncash_gui/qt/main_window.py:527
 msgid "Invalid Master Key"
@@ -4456,34 +4456,34 @@ msgstr "Schlüsselspeicher"
 
 #: electroncash_gui/qt/network_dialog.py:443
 msgid "LNS"
-msgstr ""
+msgstr "LNS"
 
 #: electroncash_gui/qt/network_dialog.py:1108
 msgid "LNS Graph Server"
-msgstr ""
+msgstr "LNS-Graph-Server"
 
 #: electroncash_gui/qt/lnsqt.py:877 electroncash_gui/qt/contact_list.py:249
 #: electroncash_gui/qt/contact_list.py:462
 #: electroncash_gui/qt/contact_list.py:463
 msgid "LNS Name"
-msgstr ""
+msgstr "LNS-Name"
 
 #: electroncash_gui/qt/lnsqt.py:765
 msgid "LNS Name Details"
-msgstr ""
+msgstr "LNS-Namen-Details"
 
 #: electroncash_gui/qt/lnsqt.py:428
 msgid "LNS Name copied to clipboard"
-msgstr ""
+msgstr "LNS-Name in Zwischenablage kopiert"
 
 #: electroncash_gui/qt/lnsqt.py:559
 msgid "LNS Name e.g.  satoshi.bch"
-msgstr ""
+msgstr "LNS-Name z.B.  satoshi.bch"
 
 #: electroncash_gui/qt/lnsqt.py:149
 #, python-brace-format
 msgid "LNS Name not found: {name}"
-msgstr ""
+msgstr "LNS-Name nicht gefunden: {name}"
 
 #: electroncash_gui/qt/address_list.py:101 electroncash_gui/qt/utxo_list.py:58
 #: electroncash_gui/qt/contact_list.py:59
@@ -4648,7 +4648,7 @@ msgstr "&Cash-Account suchen..."
 
 #: electroncash_gui/qt/main_window.py:708
 msgid "Lookup &LNS Name..."
-msgstr ""
+msgstr "&LNS-Name suchen..."
 
 #: electroncash_gui/qt/cashacctqt.py:553
 msgid "Lookup Cash Account"
@@ -4656,7 +4656,7 @@ msgstr "Cash-Account suchen"
 
 #: electroncash_gui/qt/lnsqt.py:532
 msgid "Lookup LNS Name"
-msgstr ""
+msgstr "LNS-Name suchen"
 
 #: electroncash_gui/qt/main_window.py:3516
 msgid "Lookup transaction"
@@ -4829,7 +4829,7 @@ msgstr "Meine Wechselgeld-Adresse"
 
 #: electroncash_gui/qt/lnsqt.py:857
 msgid "My LNS Name"
-msgstr ""
+msgstr "Mein LNS-Name"
 
 #: ios/ElectronCash/electroncash_gui/ios_native/txdetail.py:201
 msgid "My Receiving Address"
@@ -4928,7 +4928,7 @@ msgstr "Neuer Kontakt"
 
 #: electroncash_gui/qt/contact_list.py:561
 msgid "New LNS Contact"
-msgstr ""
+msgstr "Neuer LNS-Kontakt"
 
 #: electroncash_gui/qt/password_dialog.py:102
 msgid "New Password:"
@@ -5000,7 +5000,7 @@ msgstr "Keine Cash-Accounts"
 #. client code shouldn't use this but instead use selectedItems(), etc
 #: electroncash_gui/qt/lnsqt.py:248
 msgid "No LNS Names"
-msgstr ""
+msgstr "Keine LNS-Namen"
 
 #: ios/ElectronCash/electroncash_gui/ios_native/addresses.py:429
 msgid "No Match"
@@ -5095,7 +5095,7 @@ msgstr "Keine Ergebnisse gefunden. Ihre Geldbörse wird jedoch aktualisiert. Die
 
 #: electroncash_gui/qt/lnsqt.py:698
 msgid "No results found. However, your wallet is busy updating. This can interfere with LNS lookups. You may want to try again when it is done."
-msgstr ""
+msgstr "Keine Ergebnisse gefunden. Ihre Geldbörse wird jedoch aktualisiert. Dies kann die LNS-Namen-Suche stören. Sie können es erneut versuchen, wenn dies fertig ist."
 
 #: electroncash/network.py:1832
 msgid "No such mempool or blockchain transaction exists."
@@ -5436,7 +5436,7 @@ msgstr "Öffne {}..."
 
 #: electroncash_plugins/satochip/qt.py:465
 msgid "Operation aborted by user!"
-msgstr ""
+msgstr "Vorgang vom Benutzer abgebrochen!"
 
 #: electroncash_gui/qt/main_window.py:682
 msgid "Optional &Features"
@@ -5718,7 +5718,7 @@ msgstr "Bitte wählen Sie einen CashShuffle-Server"
 
 #: electroncash_gui/qt/main_window.py:4792
 msgid "Please close and reopen this wallet to activate the new settings"
-msgstr ""
+msgstr "Bitte schließen und öffnen Sie diese Brieftasche erneut, um die neuen Einstellungen zu aktivieren"
 
 #: electroncash_plugins/satochip/satochip.py:593
 msgid "Please confirm the PIN code for your Satochip:"
@@ -6419,11 +6419,11 @@ msgstr "Wiederherstellen von Seed"
 
 #: electroncash_gui/qt/main_window.py:4587
 msgid "Retire if older than:"
-msgstr ""
+msgstr "Ausgeschieden wenn älter als:"
 
 #: electroncash_gui/qt/main_window.py:4576
 msgid "Retire unnused change addresses"
-msgstr ""
+msgstr "Unbenutzte Wechselgeldadressen ausscheiden"
 
 #: electroncash_gui/qt/transaction_dialog.py:616
 #: electroncash_plugins/shuffle_deprecated/qt_status_bar_mgr.py:134
@@ -6595,7 +6595,7 @@ msgstr "Suche nach <b>{cash_account_name}</b>, Bitte warten ..."
 #: electroncash_gui/qt/lnsqt.py:676
 #, python-brace-format
 msgid "Searching for <b>{lns_name}</b> please wait ..."
-msgstr ""
+msgstr "Suche nach <b>{lns_name}</b>, Bitte warten ..."
 
 #: electroncash_plugins/satochip/qt.py:114
 msgid "Secure Channel"
@@ -6667,7 +6667,7 @@ msgstr "Ableitungspfade auswählen"
 
 #: electroncash_gui/qt/lnsqt.py:492
 msgid "Select LNS Name"
-msgstr ""
+msgstr "LNS-Name auswählen"
 
 #: electroncash_gui/qt/external_plugins_window.py:326
 msgid "Select Plugin"
@@ -6948,7 +6948,7 @@ msgstr "Meine Cash-Accounts anzeigen"
 
 #: electroncash_gui/qt/contact_list.py:265
 msgid "Show My LNS Names"
-msgstr ""
+msgstr "Meine LNS-Namen anzeigen"
 
 #: electroncash_gui/qt/transaction_dialog.py:817
 msgid "Show Prev Tx"
@@ -7171,7 +7171,7 @@ msgstr "Größe: {size} Bytes"
 
 #: electroncash_gui/qt/network_dialog.py:1095
 msgid "SmartBCH RPC Server"
-msgstr ""
+msgstr "SmartBCH RPC-Server"
 
 #: electroncash_plugins/shuffle_deprecated/qt.py:1317
 msgid "Some of your unshuffled funds may be temporarily locked while the shuffle operation is performed. If you want to unlock these funds immediately, you can use the 'Pause Shuffling' button to do so."
@@ -7213,7 +7213,7 @@ msgstr "Geben Sie ein Passwort für BIP38-Verschlüsselung an."
 
 #: electroncash_gui/qt/main_window.py:4617
 msgid "Specify how old a change address must be in order to be considered for retirement. This value is in terms of address index position from the most recent change address."
-msgstr ""
+msgstr "Legen Sie fest, wie alt eine Wechselgeldadresse sein muss, um für die Ausscheidung in Betracht gezogen zu werden. Dieser Wert bezieht sich auf die Position des Adressindexes der letzten Wechselgeldadresse."
 
 #: electroncash_plugins/shuffle_deprecated/qt.py:2255
 msgid "Specify minimum and maximum coin amounts to select for shuffling:"
@@ -7380,8 +7380,8 @@ msgstr "Entleeren"
 #, python-format
 msgid "Sweep %d input"
 msgid_plural "Sweep %d inputs"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "%d Eingabe sweepen"
+msgstr[1] "%d Eingaben leerfegen"
 
 #: electroncash_gui/qt/main_window.py:3903
 msgid "Sweep private keys"
@@ -7465,7 +7465,7 @@ msgstr "Die Electron-Cash-Entwickler inspizieren oder prüfen Plugins NICHT."
 #: electroncash_gui/qt/lnsqt.py:163 electroncash_gui/qt/lnsqt.py:761
 #, python-brace-format
 msgid "The LNS Name {name} uses an account type that is not supported by Electron Cash."
-msgstr ""
+msgstr "Das LNS-Name {name} verwendet einen Kontotyp, der nicht von Electron-Cash unterstützt wird."
 
 #: electroncash_plugins/keepkey/clientbase.py:54
 #: electroncash_plugins/trezor/clientbase.py:292
@@ -7713,7 +7713,7 @@ msgstr "Das angegebene Cash-Account scheint nicht mit einer Adresse verknüpft z
 
 #: electroncash_gui/qt/lnsqt.py:694
 msgid "The specified LNS Name does not appear to be associated with any BCH address"
-msgstr ""
+msgstr "Das angegebene LNS-Name scheint nicht mit einer BCH Adresse verknüpft zu sein"
 
 #: electroncash/wallet.py:152
 msgid "The specified WIF key '{}' is a p2sh WIF key. These key types cannot be swept."
@@ -7814,7 +7814,7 @@ msgstr "Die Transaktion wurde abgelehnt, da die Beträge außerhalb des Bereichs
 
 #: electroncash/network.py:1955
 msgid "The transaction was rejected due to a non-minimal data push"
-msgstr ""
+msgstr "Die Transaktion wurde aufgrund eines nicht minimalen Daten-Push abgelehnt"
 
 #: electroncash/network.py:1956
 msgid "The transaction was rejected due to an error in script execution."
@@ -7962,7 +7962,7 @@ msgstr "Das ist die Höhe Ihrer lokalen Kopie der Blockchain."
 
 #: electroncash_plugins/satochip/qt.py:461
 msgid "This label must be less than 64 chars long."
-msgstr ""
+msgstr "Diese Bezeichnung muss weniger als 64 Zeichen lang sein."
 
 #: electroncash_gui/qt/main_window.py:4511
 msgid "This may result in higher transactions fees."
@@ -8725,12 +8725,12 @@ msgstr "Überprüfe Cash-Account {name}, Bitte warten ..."
 
 #: electroncash_gui/qt/lnsqt.py:58
 msgid "Verifying LNS Name"
-msgstr ""
+msgstr "LNS-Name wird überprüft"
 
 #: electroncash_gui/qt/lnsqt.py:143 electroncash_gui/qt/lnsqt.py:685
 #, python-brace-format
 msgid "Verifying LNS Name {name} please wait ..."
-msgstr ""
+msgstr "LNS-Name {name} wird überprüft, bitte warten ..."
 
 #: electroncash_gui/qt/cashacctqt.py:106
 #, python-brace-format
@@ -8743,8 +8743,8 @@ msgstr[1] "Überprüfe {count} Blöcke, bitte warten ..."
 #, python-brace-format
 msgid "Verifying {count} name please wait ..."
 msgid_plural "Verifying {count} names please wait ..."
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "Überprüfe {count} Name, bitte warten..."
+msgstr[1] "Überprüfe {count} Namen, bitte warten..."
 
 #: electroncash_gui/qt/external_plugins_window.py:77
 #: electroncash_gui/qt/external_plugins_window.py:475
@@ -8778,7 +8778,7 @@ msgstr "Sperrliste anzeigen..."
 #. Mined in block
 #: electroncash_gui/qt/lnsqt.py:860 electroncash_gui/qt/lnsqt.py:863
 msgid "View in LNS app"
-msgstr ""
+msgstr "In der LNS-App anzeigen"
 
 #: electroncash_gui/qt/history_list.py:268
 msgid "View invoice"
@@ -9178,7 +9178,7 @@ msgstr "Du kannst so viele Geldbörsen haben wie du möchtest! Wähle aus einer 
 
 #: electroncash_plugins/satochip/qt.py:460
 msgid "You can optionnaly add a label to your Satochip.\n"
-msgstr ""
+msgstr "Du kannst optional eine Bezeichnung zu deinem Satochip hinzufügen.\n"
 
 #: ios/ElectronCash/electroncash_gui/ios_native/newwallet.py:403
 msgid "You can restore a wallet that was created by any version of Electron Cash."
@@ -9214,7 +9214,8 @@ msgstr "Sie haben den nicht-SSL-Modus für Ihre Server-Einstellungen ausgewählt
 msgid "You may enter:<ul><li> Bitcoin Cash <b>Address</b> <b>★</b><li> Bitcoin Legacy <b>Address</b> <b>★</b><li> <b>Cash Account</b> <b>★</b> e.g. <i>satoshi#123</i><li> <b>LNS Name</b> <b>★</b> e.g. <i>satoshi.bch</i><li> <b>Contact name</b> <b>★</b> from the Contacts tab<li> <b>OpenAlias</b> e.g. <i>satoshi@domain.com</i></ul><br>&nbsp;&nbsp;&nbsp;<b>★</b> = Supports <b>pay-to-many</b>, where you may optionally enter multiple lines of the form:</span><br><pre>    recipient1, amount1 \n"
 "    recipient2, amount2 \n"
 "    etc...</pre>"
-msgstr ""
+msgstr "Sie können folgendes eingeben:<ul><li> Bitcoin-Cash-<b>Adresse</b> <b>★</b><li> Alte Bitcoin-<b>Adresse</b> <b>★</b><li> <b>Cash-Account</b> <b>★</b> z.B. <i>satoshi#123</i><li> <b>LNS Name</b> <b>★</b> e.g. <i>satoshi.bch</i><li> <b>Kontaktname</b> <b>★</b> aus dem Kontakte-Tab<li> <b>OpenAlias</b> z.B. <i>satoshi@domain.com</i></ul><br>&nbsp;&nbsp;&nbsp;<b>★</b> = Bedeutet <b>zahlen-an-viele</b>, wo Sie optional mehrere Zeilen im folgenden Format eingeben können:</span><br><pre>    Empfänger1, Betrag1     Empfänger2, Betrag2 \n"
+"    etc...</pre>"
 
 #: electroncash/base_wizard.py:310
 msgid "You may extend your seed with custom words."
@@ -9344,11 +9345,11 @@ msgstr "Ihre eigenen Cash-Accounts werden jetzt angezeigt"
 
 #: electroncash_gui/qt/contact_list.py:336
 msgid "Your own LNS Names are now hidden"
-msgstr ""
+msgstr "Ihre eigenen LNS-Namen sind jetzt verborgen"
 
 #: electroncash_gui/qt/contact_list.py:334
 msgid "Your own LNS Names are now shown"
-msgstr ""
+msgstr "Ihre eigenen LNS-Namen werden jetzt angezeigt"
 
 #: electroncash_gui/qt/seed_dialog.py:134
 #: ios/ElectronCash/electroncash_gui/ios_native/seed_dialog.py:79
@@ -9557,7 +9558,7 @@ msgstr "Gebühr"
 
 #: electroncash_gui/qt/main_window.py:4593
 msgid "from latest index"
-msgstr ""
+msgstr "ab dem neuesten Index"
 
 #: electroncash/util.py:595
 msgid "half a minute"
@@ -9783,8 +9784,8 @@ msgstr[1] "{number} Cash-Accounts"
 #, python-brace-format
 msgid "{number} LNS Name"
 msgid_plural "{number} LNS Names"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "{number} LNS-Name"
+msgstr[1] "{number} LNS-Namen"
 
 #: electroncash_gui/qt/main_window.py:846
 #, python-brace-format
